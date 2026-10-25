@@ -1,6 +1,11 @@
 name: Refresh Radar Search Feeds
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "radar/scripts/**"
+      - ".github/workflows/radar-refresh.yml"
   schedule:
     - cron: '17 */6 * * *'
 permissions:
