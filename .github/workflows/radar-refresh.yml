@@ -10,11 +10,15 @@ on:
     - cron: '17 */6 * * *'
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency:
   group: radar-search-refresh
   cancel-in-progress: false
 jobs:
   scrape:
+    environment:
+      name: github-pages
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
@@ -33,3 +37,11 @@ jobs:
             git commit -m "data(radar): update public search signals"
             git push
           fi
+      - name: Publish refreshed site
+        uses: actions/configure-pages@v5
+      - name: Upload refreshed static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy refreshed site
+        uses: actions/deploy-pages@v4
