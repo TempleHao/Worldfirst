@@ -36,6 +36,12 @@ jobs:
           node --check /tmp/radar-ui.js
       - name: Fetch public RSS search results
         run: python radar/scripts/collect.py
+      - name: Discover publicly indexed social mentions and ingest authorised sources
+        env:
+          ZHIHU_ACCESS_SECRET: ${{ secrets.ZHIHU_ACCESS_SECRET }}
+        run: python radar/scripts/social.py
+      - name: Verify social adapter contracts
+        run: python -m unittest discover -s radar/scripts -p 'test_social.py' -v
       - name: Verify reputation classifier
         run: python -m unittest discover -s radar/scripts -p 'test_reputation.py' -v
       - name: Enrich news with sentiment and crisis analysis
@@ -44,7 +50,7 @@ jobs:
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add radar/data/articles.json radar/data/latest.md radar/data/feed.xml radar/data/status.json radar/data/reputation.json
+          git add radar/data/articles.json radar/data/latest.md radar/data/feed.xml radar/data/status.json radar/data/reputation.json radar/data/social-status.json
           if ! git diff --cached --quiet; then
             git commit -m "data(radar): update public search signals"
             git pull --rebase origin main
