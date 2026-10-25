@@ -29,7 +29,25 @@
       "source": "全球定制网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3VE5ZenU5WEpfSElUcGZfeUNXRlVrSXJqZEZWMFRsbjFNaVdvNzRvaDI2V0dCTWxhb015VlJMMENWWUtCZmxRR0F4a3VMZw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a05d3f221f1b",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-5f2439d6411233f399",
@@ -42,7 +60,25 @@
       "source": "观点网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83WWR6anVwU2RKZ3lHRmJ3RWtVRnRKOVZQajQ5VWNiV3JYSTY1VWNtZWhscDU5eG9XSWhTU3B2OTViOUw1enozQk5ZODBrSGhaeXVwYUpIbjc3cEo2R0dNNEVB?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9ecfec03de97",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-78bec51896af406fb8",
@@ -55,7 +91,25 @@
       "source": "新华网江苏频道",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yMXZUVmtPN01nUXc1X213aHZlbUFRZmc0aVdXTmNnWklsSWJXWnY5cG9laXlYOWVRb09fWngyTnlOV2FPWUNDU25fS3RWZkZFY2xZUW4wdk5rcVJVWlY4ODFycGVKMWNTSHRGMjEwSXdnRk93?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-15f1a18cdb36",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-e9015d5e3238f73820",
@@ -68,7 +122,25 @@
       "source": "亿邦动力",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MbjBUeVBQbXdwZXpZdjZkQnJLU045b3VNVlBEc1M3b2hsTWZ4YmF4alNDcWNsTGQyYldsZ1R6NjU0Q1NQcnVOdElPOXNDZUk3blVpcTRB?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7b083da47060",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-9ee17742e69c88e410",
@@ -81,7 +153,25 @@
       "source": "Moomoo",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORTBYaFp5QWQ4cUN1a3U3NW1rV2Y2Z2o3OUNQWGlfVW01ZFN3Y3lpMC1Xc2szYUVwWVk5S05sVWNuanM4M1RYYk1OX19EU1JPOEhsNE9xQVdIU0pkYXdNbmtDUFFGLXZQeUEtVG9vdElkbV9Mck9jaTBiNDBDdVFPbFJuV0YyRnlzUmZfRnRNa1l6elJ3UTdjMkpnUmtVaEVqcVkxdW5hVkV4S3hQTG9QaU5MMA?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2825334dd823",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-ca74777d85bfd1c323",
@@ -94,7 +184,25 @@
       "source": "华人头条",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00UjZ5dlEtUVNWa0lRMnlYZjNEMF81NWdYR2t2VVJzQWkwV0JfbnE2WVlReDZpTnRvWEpKSFpBVDdNZnBoM1l1TXFWeXhWUTN1UGwwSkNXbk43UlpieFE?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-0bc67ba65a23",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-c2a574d645ca4d4f9b",
@@ -107,7 +215,25 @@
       "source": "富途牛牛",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTXYzNU5jUXVRbEkxUjFVZHRqUEQxclJJVmQ4a0c0Q0JVaWZaNzBhZ2dRN0lUVUhBbXZ6dHpRTjEzZlhaRlEtWXlQUlBOQnRGZ0dtc3NMbmRkS1lWU0FMYUdwaXVEYk1PQ2VUWFdEa3YyRURxN1FjRjF6T2g3QnhtdDVVZjRZRG9MekwxY25BWF9iNG5kX1lhWW1sc1l4WV9wVk4tOE9jZw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2825334dd823",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-40f1ffa00771151716",
@@ -120,7 +246,25 @@
       "source": "Moomoo",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tcXR2X3BvQS05VXhLYnhkMzE1XzBNNUhkQnNPQlBPVW45UDJXUG1CTVc2enRaaU1rOU9sMzVrVDRXOENiQkU2eURFQTZfRzdhS3A0VWh2SFpRczUw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b3d30ab22d37",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-ddf4ef1c9f380d9f2d",
@@ -133,7 +277,25 @@
       "source": "亿邦动力网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5abU1BOUMzNV9NcGY4TlQzRzUxSnhzRzhJZXI2WkZNSWpPMVVTQU5PaUxQVl9ZS0dtdEF4NGc4MmFKVnRmVVRkOUdVelIwaTBYZVdMWGt3?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7b083da47060",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-8350a13594de243854",
@@ -146,7 +308,25 @@
       "source": "东方财富",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Id0VNWERkV0hjLTlhVmNicVRRU0RxUWM0V3RuOEtZakVnZmdtRzhLbDBOVmJ0eWJFb0k1MmhiSHlXaS03d1EwMDR4MFVoMWJoaUQxVUJZNmdfTWE3RE85Vm5hWlM?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-39cd339e02ab",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-ff224d2b8998fc6054",
@@ -159,7 +339,25 @@
       "source": "凤凰网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VQ1A0MFJydVZpNnp0NldFNnF6SnNjQTFidlhQZmFtYWI4ZlVrSVFiRlZZbTI1TENLLW95SEVieU1Bblo2bWxCZE04bzk?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9ecfec03de97",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-e28317ddabe62e24b5",
@@ -172,7 +370,26 @@
       "source": "搜狐网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnRsOFJJRTdVbzRWdnFxNmtsQjVZNWFQM0NBZVJXR3FZSGhJWUxlQXdIRWVaeFB3TllHNGJXejFfTnQwdllQemotMEltZmN0cUtTekVjdGlfUU9CM1BHWUwtY2dGR0tBZlZkSV9DZWhESUNuT1hCZHZtN2dGZEpvRGtmZHQ1dy1R?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-26b90001d9cd",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-35b09e6de545c7820b",
@@ -185,7 +402,25 @@
       "source": "www.caiwennews.com",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nSWYxOGNCU2EwNVNsX0RlN0tEWjVZZncwVG0zOHJjaURfVTNkY1RWei1NVnYtRjN1b1lCZk5jS3Vmd0tHcUVFbTdpOS1ldVplQWtlZVZvcFdod0xI?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-167bb4d67565",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-2dfdc230271ffa6f2b",
@@ -198,7 +433,56 @@
       "source": "凤凰网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqaTdnc2pURDZUd0thWEpPeXBnNTVkSERoaVhfZ1N1dUhmV0dhd1BoME4yTks2VTAxanFadi1iVDJ4dG9nU3hnWjd6dDg?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b3d30ab22d37",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-cf06b1fcfe4e21aa5d",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "连连数字：10月23日斥资49.65万港元回购15.3万股 - 东方财富",
+      "summary": "连连数字：10月23日斥资49.65万港元回购15.3万股…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZSlJuTVNEWUtfRmxuMlFfa2V4V0NpcUJWdFBYc3FEYU5fY01TWHQzeDFxUnFJbmF2d2hpMWlXUG9NQnZLWm9GV090LTdCd3NRSGVmOHluMDR0b1Z3UjNHcm1Sb0VzUQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-39cd339e02ab",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "payoneer-20261022",
@@ -211,7 +495,25 @@
       "source": "Payoneer 投资者关系",
       "source_type": "official",
       "url": "https://investor.payoneer.com/news-events/news-releases",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7e1c3503a7fb",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "lianlian-20261022",
@@ -224,7 +526,25 @@
       "source": "连连国际官网",
       "source_type": "official",
       "url": "https://global.lianlianpay.com/news.html",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-68d1d5253599",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-82e51dd46a45724e90",
@@ -237,7 +557,26 @@
       "source": "Traders Union",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aTm5SaU5TZ3Q3Mk90X3lsRU9OcDdlYjNUNXM1Y2c3X0JfdllRLVNNamtVaEUyZHFBemJ2eG12amcxOUpfMDVvRXlRVjNkbUlVemlUNXZSRFZORlJjcnZwMUpkaVY1XzItTEE?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-5e26a0952805",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-a087a0651e98124799",
@@ -250,7 +589,25 @@
       "source": "东方财富",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41VVh1c3hld2lUYWdPRktkOVlINTFEYWVIM3hFVk1GWllfZENjZXhnUGlNcGJNOHp2T0Fja2tHRnZsNmFTdm1GbzhXakZBUjR5RDdxdndJMXhHNzRsaTlpX2FHUWJ2Zw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-ed8cf2229098",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-83af1835396d0da251",
@@ -263,7 +620,25 @@
       "source": "凤凰网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WTGpPTUctbndIeGlYMUFXRFRsb1RCVUNzaGpwZGNzMHZmalBocVlGdHI5dG5ESEdpTGtpMy15enRnbWQyVTA0U0ptUHo?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-ed8cf2229098",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-5324d4fa63f589b4c2",
@@ -276,7 +651,25 @@
       "source": "TradingView",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fTXRDdjJwZzN4YTE1LUpGLUlSbE1RU2p1YUJFZ3cySDh4TmZhZjhja3ZVMVBYQUtNN19GR21JX3lzbDRnZU8ta2QydmFiTUlrNS1qbnV6QnZtTEdCV0RzTlN2U0FsTUw3NXc?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-ed8cf2229098",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "airwallex-20261021",
@@ -289,7 +682,25 @@
       "source": "Airwallex 官网",
       "source_type": "official",
       "url": "https://www.airwallex.com/cn/newsroom/f1-2027-ai",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-924ef77542e0",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "sunrate-20261021",
@@ -302,7 +713,25 @@
       "source": "美通社（企业稿）",
       "source_type": "press",
       "url": "https://www.prnewswire.com/in/news-releases/sunrate-and-tourmind-partner-to-enhance-payment-capabilities-for-the-global-travel-industry-302913010.html",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-3d02e82aab88",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-2b7635ec9683e7c875",
@@ -315,7 +744,25 @@
       "source": "新浪新闻_手机新浪网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SbnUwVUhjeS1xZEVMc3RUcFBiM3loVUJoOFhHRTN6R2I4VG9LUWJDbmRhOUVieTUwTVZLZGlmcWYtY3lneXN1QXltTVlRRjlWV05EeE4zbUd5YzlvT1ZnVlZNUW9IQld3NHpPME44OTBTbGs2aG1FWQ?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-eae09fe57348",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-1854ee63d477b28f17",
@@ -328,7 +775,25 @@
       "source": "新浪网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRTVWa0FwY1h4X0JFS2U0b25QWGZtNFdDR2pGajZCck40X1VjWUFJSWVvVFFMaXF5dVpCX2FqQ2hNRnRKaE9EazBMaHBnNXFKRXNaTl9PQ2VuYXVyVk5xNVlsdU9IcWVLZWd3OFVVZER6ekNEcjVscFlmNlhKV3NUNmZR?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4812f6b1977f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-678ee3543ab999f835",
@@ -341,7 +806,25 @@
       "source": "东方财富",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhenE5cEU5aXRHZ0ZQQUdrcHd6NjZQSVNHRUZ6bWFfcUJwbFR6djFLVERRYjc3RHdCQVF5aklMVlZnZTVwRXB0M0dmaEVxSUlBQ0F4MjNhZzJNczdlNldiTEJrYUg0QQ?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-22e071377198",
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-1644a37113ff6550d1",
@@ -354,7 +837,25 @@
       "source": "凤凰网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9MWWNkQ3dTQWJ1bWRBQzM4YUpJNmtjVUQ5c09QcE5Ob2RyQS03eU9aZHJiMGVnemppT2JRdnNmMkplenVxUEVRV1NEZGE?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-22e071377198",
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-045f5fcc6d8b722084",
@@ -367,7 +868,25 @@
       "source": "Moomoo",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeDQzQjBGTEI2R2kwM0ZnMTBGUTM5bnZWeUpTTmU1QmhvZTE1SGNPXzFNQ0dWRVpBenVHMEl5V3BYNGFuNDlKV2hTdm1zVU1HbkZQVXR3QXl4NWJoYmNNSVZYVDlab092UzB1bFpEZjhLOXdPYXN0NTlyZklhMU1jLU04REczellNVFhwLUhoWlJQXzJaMDFWeWVoTmFWamY0VnZjQkdXZFljUXBJczNGdmdGNDZCUQ?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-22e071377198",
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-9335e73bd0425af087",
@@ -380,7 +899,25 @@
       "source": "TradingView",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUQTNoZ05WZWdVcTcxTHdla01NR3JLdm11d3BXRDlMbnY5UC1WY2wtUFNRVkNma2JsVkdkRkVYR05ON2xwbl80R2ZYbGxWd1RRSm1fdGo1bHFGLWRHbkFkdUdUdks4ekM3XzdF?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-22e071377198",
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-36ac4ab886d5c91ba6",
@@ -393,7 +930,25 @@
       "source": "世界新聞網",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80ZHZPT0VKS2w1Z3NtemUwYThSejZNcjVqV2RPeGt3Tm5Ya3l6TjZqdHZiV0RvUjQzS3E4Z2c0bGlYYUxVQmluNG1vUGZFU1BsQ3k1WWJKX2YxdnlKS2l2dlE0S2lRZXNiYXfSAWdBVV95cUxPTFRzREJZU0dQcFV3d3dYejdRUHhSTy1qV2M4RHg3VC13bmNMQWR5TlkwTVFpWWd0OUpwbFZOV2RwTXpaeXd4bTlsOW1waVhpYk1yUTN1SzRXTmh5YVNWc0NZX29iczJr?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-1d061ba8750f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-b99b7197320eb58c23",
@@ -406,7 +961,25 @@
       "source": "凤凰网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IUzFTTHFRV0dTa3U4RHUzUVFJMEpEalluSDdCbWROVm9vWTZTMzVQaVJ0T2lhTWZ1enhkMnpGdWNlQVNQNmdyZHhtbVM?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-784e194db737",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-072e82ff67d081820c",
@@ -419,7 +992,25 @@
       "source": "TradingView",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CN3dFWjMwNE9EMUx4eklkMVl1NUo3Qm1QRFdTZzRHUVRUeF9EeVlqT1A5b2tJS1ZRT0FNWjJLMmZRVmpiUFgxeGdUOURkY0U1ZXgwTjl5S05pS3pFX1l0bUJzeWpTYmNHNjR3?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-784e194db737",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "worldfirst-20261019",
@@ -432,7 +1023,25 @@
       "source": "21世纪经济报道",
       "source_type": "media",
       "url": "https://m.21jingji.com/article/20261019/herald/d89b3011654b0b62824d52f22a7c039b_zaker.html",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b1b8dec47873",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "pingpong-20261019",
@@ -445,7 +1054,25 @@
       "source": "21世纪经济报道",
       "source_type": "media",
       "url": "https://m.21jingji.com/article/20261019/herald/d89b3011654b0b62824d52f22a7c039b_zaker.html",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a7dde3b307bf",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "airwallex-20261019",
@@ -458,7 +1085,25 @@
       "source": "Airwallex 官网",
       "source_type": "official",
       "url": "https://www.airwallex.com/cn/newsroom/airwallex-one-store",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-5a64fca17866",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "payoneer-20261019",
@@ -471,7 +1116,25 @@
       "source": "Payoneer 投资者关系",
       "source_type": "official",
       "url": "https://investor.payoneer.com/news-events/news-releases",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c814fb0ee238",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-b7b23b21acdf2053d6",
@@ -484,7 +1147,25 @@
       "source": "电商派",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80elJLSXlkQmpXa2FUR1ZuQk5pTXY5RGU5NFpxQzV2amF6djJreUF5Tm1Idmx5bkYyYTB0Rm1RTklfemJ2Ry04T2k2LUxPLWVQeldWbHQyUGVlVmVZZGV0LQ?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-5a64fca17866",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-d585b8f63b15c075cc",
@@ -497,7 +1178,25 @@
       "source": "디지털투데이",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb1F3bTlvdXhsaWZ6bDlwTTd4X0dJclFabXhUcnJCQ1oyQXAwZkJ3R2ZZSi1MMWZsRWUyaWdjVzlmbE1CQThISFNPdks5YkEwTldJbUZDdXl4VVYxUmlKLVNPS3pVZk9idndVR1RkNHg5cHdnWHZkdUtWaDVLS29idGIteE5IeURIeS1HbFNXVFpGdkFfUGs4ZXlrcDFZQUNEZ216dGlURC03SC1aUFEwd2Fn?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-ab0af2ed4f5c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-ac1ed5c31b91630dd1",
@@ -510,7 +1209,25 @@
       "source": "搜狐网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DWW51UzZpY3JvdWk1YnJlYzJwZEUyOTlueW1XMTVzMkp3UHJhSTd6Z0lBX0VtR2FoZ3FQOHN1RmUzSzIyY093aHdvZ1Fub0NSVGdr?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-5b20623cac17",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-548192dfba929da160",
@@ -523,7 +1240,25 @@
       "source": "环球网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1NjB4eWdsUUFkWEE0NGNaTEEtNmlKelc2S2dGYlBqYmJ0c29yOVNjekRJSHlHS1VGZTltZFZEaVNUV1JxNDItNGtqTG1Cdi14N1hB?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a20570441218",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-afb64701a13fbede33",
@@ -536,7 +1271,25 @@
       "source": "广州日报新花城",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTlkc3NMMTVvV09JZFpmdWh0akdLNjN1MFBuQm52WDdLNU9HWjZuX1JTUGRiQUlMRzlORDF2UUhHWlh1RVp0TjR0U0dNRVBFcVdFRVJuUWhFSmc3SDZLUHU3WDVFMTk0dGZ0SUc2LXUwRjhFbDBPRVNmbkd6eU9KVUVRN0Y?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e3659b5ffc7a",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "skyee-20261016",
@@ -549,7 +1302,25 @@
       "source": "每日经济新闻",
       "source_type": "media",
       "url": "https://www.nbd.com.cn/articles/2026-10-16/4607146.html",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f3caae10dff2",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "lianlian-20261016",
@@ -562,7 +1333,25 @@
       "source": "连连国际官网",
       "source_type": "official",
       "url": "https://global.lianlianpay.com/article/MTU5OTgzLDhkNQ.html",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-312959a1af72",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-9e492352db4fba8d9c",
@@ -575,7 +1364,25 @@
       "source": "证券之星",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82c2FGRDB5OTR1ZFZJT2JtVkZUZ050VXNqWkI2TVBLSmZXeFFkckZOSWNiblBuczB0SFUwcFlDcTNuUkxIQ3pjNmtaOVBIZFdwWEMzRU8xbV9GUDNQSG1Ia25mb28?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-278f13cd9a65",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-376ff5d09525d156cf",
@@ -588,7 +1395,25 @@
       "source": "TradingView",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCNVRWS3VJczlIU0xkREEzbno1eFdQcmJmekswLWVEaXRRRTMxSE1XTDdzU1UxdjJmYWROMWIyb3RxeFkxUV9SVl8tTjNzT3NibFdWWmU4Y1liVEpMUHBlZlUxRVhRcENYUE5Z?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b389020893a8",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-986b765f1854ca70bc",
@@ -601,7 +1426,25 @@
       "source": "www.sxcntv.com",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CRFRSSVhFcTJDT3JCWTRJSFF2Y3lucXNQNlczaVBCTHRzUkY4eGFOVDhKaWt6UF81cE13bXNma3pGRVdOa1RwVFpxR1RXS0xMTUFRangzR0VxTFhqWDhaYVhpSy0xb2c?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b389020893a8",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-12c85bc4d6d0b633e4",
@@ -614,7 +1457,25 @@
       "source": "Jiemian.com",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aMHhUU2dzUjc5NnlJR3ZNZ2VhVW9aanpBeUpXUlFReFAxakpPT2Z6dWowdlpzQVN4WWo2d0I5UlF2WlJ5aHlJamJsZml0bnVlLXNsczUwcnU?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-16a1103e9e2c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-4fb6f06f0fccb75a69",
@@ -627,7 +1488,25 @@
       "source": "搜狐网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96TEtPaFRHVFFoYnpadFNOUFpGOTFmdWlUa2JXVFlZMFcyVG1sMGFEdnF5SFdIejBfalZ5elk0dzdGdnREb290NFZqa2xJMDloWnhR?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c106ba8413a9",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "coral-20261015",
@@ -640,7 +1519,25 @@
       "source": "东方财富财富号（转载）",
       "source_type": "media",
       "url": "https://caifuhao.eastmoney.com/news/20261015114000776912970",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8113d53368a9",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-52c3b4c4eac4461991",
@@ -653,7 +1550,25 @@
       "source": "投资界",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBldFVuLUd2VFlRMXZwTThqa0pWWEVCSUdOeWwycUJ4STMtckl6dEV0YkxOcDB4S2FwSGpqUHBiLXNiTjNzTzdlSVFESkVKbGZYVjllamNR?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a20570441218",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-04d74a00ff458ed655",
@@ -666,7 +1581,25 @@
       "source": "人工智能",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PSV9tMHRVZWtybWl0VjhYMGd4NjlTZkp6YXhCQ3Y5Q3hmaUdKYzNoLWV1aDlqdkF0ZV9idVlCazFBa010Y1UtdzF0MVhPLWtzbkE?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4e43246bbe14",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-37e519d9477f6fa880",
@@ -679,7 +1612,25 @@
       "source": "亿邦动力",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oNEt4NUxYTlQwTFZkM3RSXzVBZkZaZFc5U1hhemktcHFkNTFLbVhMRW5PdWtFZWRqNUxzYkRFdjJ2WjZjM2J3MU1zSjVJRFk5QmpoUDh3?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2792f5041130",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-8d9a62d3b9b2ac5391",
@@ -692,7 +1643,25 @@
       "source": "东方财富",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fT2F5VDRKeW8xRGZRS3g0VVZPQjdwb2tHT3d3TXM3UXFOUFRyVVp1TlE4SEhodnFMYVNJV21PS0NtYUppelRiMEpBUWVQRmNXa1VDYWdpTXpSbTFid3EydUxyMjZGZw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-02d371ed3ef4",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-3b26e4913f487afa43",
@@ -705,7 +1674,25 @@
       "source": "TradingView",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05ZndmWU1SZEtsQTE1LUdpQ0xFSU5rWEFPOXp3bXpmSGdBU3pnMUJEQ0xFX25zVFJPTzNBUnotdW5rcG9ydF9UR2lreEZGWW55cktDZ3RTYUZxMDNXS0NMaWI2U2ZuWjlVb1E?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b389020893a8",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "xtransfer-20261014",
@@ -718,7 +1705,25 @@
       "source": "XTransfer 官网",
       "source_type": "official",
       "url": "https://www.xtransfer.com/newsroom/xtransfer-chile-uaf-registration",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e3fa133aff08",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-ebcbeba95f1f886b40",
@@ -731,7 +1736,25 @@
       "source": "东方财富",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvQVNZYUJkcnEzY3BNaE5EM19fekdmbmRxUWxuV3p5dTJOdE9XUmkzV0VXRjlRbkVWemhWZDlsd1RsSmxBTHJvNkd2SW1xNUFZaWVWTzlYRlNHN2NwWHNiWERYZHpPZw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b1cb5a6cf3ea",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-903087f59e60081264",
@@ -744,7 +1767,25 @@
       "source": "www.caiwennews.com",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52VzVlbEFtNEdqZ1A0TGh5d19IMkFUX0g3Zlk0dXpndHFBOEVHUGxKczZNR3U0OG5JNDVxMTlObHA5bVhKSWlJQm1tVkNMSjFkbHBZYVhudGkwdWV2?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-ee40cbbbd360",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-877887fc8e36ae73ec",
@@ -757,7 +1798,25 @@
       "source": "中华网财经",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3UmE0elZsN0ctMUlkazJrc1pUUWZ4cjA5YmNRMm85eUF3b0ktd0ZaZ1pfMWdRNEd6LTB1RTl6VzlMdmRPMDJZR3JRTGhpOW5pVFNuRmtVZndqV2dZa0FZTHVvUkFWaUNWdG5xZ01HMWVEMTQ?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c7f2a8396d26",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "payoneer-20261013",
@@ -770,7 +1829,25 @@
       "source": "Payoneer 投资者关系",
       "source_type": "official",
       "url": "https://investor.payoneer.com/news-releases/news-release-details/payoneer-canada-registers-payment-service-provider-further",
-      "status": "verified"
+      "status": "verified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.4,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e7e85d290818",
+        "distinct_publishers": 0,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-ae82852748bada8dd9",
@@ -783,7 +1860,25 @@
       "source": "霞光社",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9TUFlTVTNNVTBlYmlTY3dqaWxhZ0pvMVF6UzVrX1RxaGV2dDMydU93UDNFVXRQUjNIY01QRU9id1U0eHY2SUkw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-63bf030ea566",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-96163314abef455127",
@@ -796,7 +1891,25 @@
       "source": "国际金融报",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jblBCRm1xMHdSWXE3U2xzMGc4OWpSTXRXX1RJUERWQkM4RjUweGtYaGJZQ01hX0F4d0lvMVVfUEo1Y3ZOQUtVQ0V6S012RU5VRHk0NTI5RWFFbE5FZ1Qw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-5e0937c4e045",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-09248a7802a345295f",
@@ -809,7 +1922,25 @@
       "source": "东方财富",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3a29GOXZJOVdRaGJyOVkwbUNzZzI2NGVFNk9CdnRqSXJZV3JXS25rblc5bEtmdkhQQzBMWGlHVkFZZzJBbXRtSUdhNnlXaEtVTjlnTktMT0VpT3dQbWR1cjlnSlE0dw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-3929dd5be081",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-0e67f64bc061829641",
@@ -822,7 +1953,25 @@
       "source": "东方财富",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfS0tsdDFWdHM2VXVtVGFwWDUzRkFsMHFiMkg2WUw4dGdOVUVVMENXQUtFX2pwc0RjX2dMLXdoQmJmNEdXX18wVmNyY1JmTFhSYXlVSUFDb2JhejlJOHRpV193M241Zw?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-dd4f5c2e715c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     },
     {
       "id": "search-d7b6b9e0b78911f2b2",
@@ -835,9 +1984,27 @@
       "source": "新讯网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CMnk1VXpEOU4yMzA0ZjJJNFJ4UWxmTXVrTzQwTEdSWFB3Q0NvYTRPaGVLc2NIV2NuMmtjRnN4VjU1NTAtRzFUU1psekxRMG91NE1rNkdwaGlBbTJYNUE?oc=5",
-      "status": "unverified"
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8388f5471438",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
     }
   ],
-  "updated_at": "2026-10-25T01:58:04.576623+00:00",
+  "updated_at": "2026-10-25T02:01:54.641783+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
