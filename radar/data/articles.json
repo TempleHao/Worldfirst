@@ -19,6 +19,19 @@
   },
   "items": [
     {
+      "id": "search-481161cc6ba24bbb19",
+      "company": "lianlian",
+      "date": "2026-10-24",
+      "title": "连连数字谈AI出海支付：跨境支付从工具走向全球化智能金融新基建 - 全球定制网",
+      "summary": "连连数字谈AI出海支付：跨境支付从工具走向全球化智能金融新…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "全球定制网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3VE5ZenU5WEpfSElUcGZfeUNXRlVrSXJqZEZWMFRsbjFNaVdvNzRvaDI2V0dCTWxhb015VlJMMENWWUtCZmxRR0F4a3VMZw?oc=5",
+      "status": "unverified"
+    },
+    {
       "id": "search-5f2439d6411233f399",
       "company": "lianlian",
       "date": "2026-10-23",
@@ -825,6 +838,6 @@
       "status": "unverified"
     }
   ],
-  "updated_at": "2026-10-25T01:46:26.433922+00:00",
+  "updated_at": "2026-10-25T01:57:32.451760+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

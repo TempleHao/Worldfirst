@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-10-24｜连连国际** 连连数字谈AI出海支付：跨境支付从工具走向全球化智能金融新… [原文](https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3VE5ZenU5WEpfSElUcGZfeUNXRlVrSXJqZEZWMFRsbjFNaVdvNzRvaDI2V0dCTWxhb015VlJMMENWWUtCZmxRR0F4a3VMZw?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字附属公司认购创业投资基金2亿元 占比89.98% … [原文](https://news.google.com/rss/articles/CBMiYkFVX3lxTE83WWR6anVwU2RKZ3lHRmJ3RWtVRnRKOVZQajQ5VWNiV3JYSTY1VWNtZWhscDU5eG9XSWhTU3B2OTViOUw1enozQk5ZODBrSGhaeXVwYUpIbjc3cEo2R0dNNEVB?oc=5)（unverified）
 - **2026-10-23｜连连国际** 中信银行南京分行联合连连数字旗下境外持牌机构 让进口付汇全… [原文](https://news.google.com/rss/articles/CBMidEFVX3lxTE1yMXZUVmtPN01nUXc1X213aHZlbUFRZmc0aVdXTmNnWklsSWJXWnY5cG9laXlYOWVRb09fWngyTnlOV2FPWUNDU25fS3RWZkZFY2xZUW4wdk5rcVJVWlY4ODFycGVKMWNTSHRGMjEwSXdnRk93?oc=5)（unverified）
 - **2026-10-23｜连连国际** 千峰访谈连连数字：从“跨境支付专家”迈向“值得信赖的全球化… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MbjBUeVBQbXdwZXpZdjZkQnJLU045b3VNVlBEc1M3b2hsTWZ4YmF4alNDcWNsTGQyYldsZ1R6NjU0Q1NQcnVOdElPOXNDZUk3blVpcTRB?oc=5)（unverified）
