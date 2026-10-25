@@ -50,6 +50,7 @@
 - **2026-10-16｜连连国际** 连连数字(02598)10月16日斥资约64.3万港元回购… [原文](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CRFRSSVhFcTJDT3JCWTRJSFF2Y3lucXNQNlczaVBCTHRzUkY4eGFOVDhKaWt6UF81cE13bXNma3pGRVdOa1RwVFpxR1RXS0xMTUFRangzR0VxTFhqWDhaYVhpSy0xb2c?oc=5)（unverified）
 - **2026-10-16｜Skyee** 发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨… [原文](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aMHhUU2dzUjc5NnlJR3ZNZ2VhVW9aanpBeUpXUlFReFAxakpPT2Z6dWowdlpzQVN4WWo2d0I5UlF2WlJ5aHlJamJsZml0bnVlLXNsczUwcnU?oc=5)（unverified）
 - **2026-10-16｜Skyee** 「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加… [原文](https://news.google.com/rss/articles/CBMiU0FVX3lxTE96TEtPaFRHVFFoYnpadFNOUFpGOTFmdWlUa2JXVFlZMFcyVG1sMGFEdnF5SFdIejBfalZ5elk0dzdGdnREb290NFZqa2xJMDloWnhR?oc=5)（unverified）
+- **2026-10-16｜Skyee** 「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iT1dZVE1ZTS1aNXFuTXliNEFIVlBkRXBXVS1Rb0ktQnVJTG9kZjA4ODNBblhGZGs4TXJtYW9UOWd3WDMyT2JUeXV1N2RWeVZreDZTTlQ3Ri13cUpI?oc=5)（unverified）
 - **2026-10-15｜珊瑚跨境** 珊瑚跨境强调全球化本地合规能力。 [原文](https://caifuhao.eastmoney.com/news/20261015114000776912970)（verified）
 - **2026-10-15｜空中云汇** Airwallex空中云汇与韩国 ONE Store 签署… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBldFVuLUd2VFlRMXZwTThqa0pWWEVCSUdOeWwycUJ4STMtckl6dEV0YkxOcDB4S2FwSGpqUHBiLXNiTjNzTzdlSVFESkVKbGZYVjllamNR?oc=5)（unverified）
 - **2026-10-15｜连连国际** 连连数字官网全面升级 系统化展示AI产品矩阵与全球化出海服… [原文](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PSV9tMHRVZWtybWl0VjhYMGd4NjlTZkp6YXhCQ3Y5Q3hmaUdKYzNoLWV1aDlqdkF0ZV9idVlCazFBa010Y1UtdzF0MVhPLWtzbkE?oc=5)（unverified）

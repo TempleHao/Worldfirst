@@ -604,8 +604,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-ed8cf2229098",
-        "distinct_publishers": 3,
+        "event_id": "event-322ca7c1a6df",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -635,8 +635,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-ed8cf2229098",
-        "distinct_publishers": 3,
+        "event_id": "event-d0be3ff70ebf",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -667,7 +667,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-ed8cf2229098",
-        "distinct_publishers": 3,
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -821,8 +821,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-22e071377198",
-        "distinct_publishers": 4,
+        "event_id": "event-02cc3d9c1736",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -853,7 +853,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-22e071377198",
-        "distinct_publishers": 4,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -884,7 +884,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-22e071377198",
-        "distinct_publishers": 4,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -914,8 +914,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-22e071377198",
-        "distinct_publishers": 4,
+        "event_id": "event-d877e7c992fe",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -976,8 +976,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-784e194db737",
-        "distinct_publishers": 2,
+        "event_id": "event-9b835009ac77",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1008,7 +1008,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-784e194db737",
-        "distinct_publishers": 2,
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1504,7 +1504,46 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-c106ba8413a9",
-        "distinct_publishers": 1,
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "social-index-2fd6afe8fc471cb2593f",
+      "company": "skyee",
+      "date": "2026-10-16",
+      "date_basis": "publication_index",
+      "title": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加码「跨境支付」| IIR - 知乎专栏",
+      "summary": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加…",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "知乎专栏",
+      "source_type": "search",
+      "channel": "zhihu",
+      "platform": "zhihu",
+      "discovery_method": "public_news_index",
+      "link_origin": "google-news-indirect",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iT1dZVE1ZTS1aNXFuTXliNEFIVlBkRXBXVS1Rb0ktQnVJTG9kZjA4ODNBblhGZGs4TXJtYW9UOWd3WDMyT2JUeXV1N2RWeVZreDZTTlQ3Ri13cUpI?oc=5",
+      "status": "unverified",
+      "rights": "index_snippet_only",
+      "coverage": "partial_index_only",
+      "metrics": null,
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c106ba8413a9",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1689,8 +1728,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-b389020893a8",
-        "distinct_publishers": 2,
+        "event_id": "event-888faa8f036f",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2005,6 +2044,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-25T02:03:55.900948+00:00",
+  "updated_at": "2026-10-25T02:15:30.389806+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

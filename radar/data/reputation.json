@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.0",
-  "generated_at": "2026-10-25T02:03:58.793115+00:00",
+  "generated_at": "2026-10-25T02:15:34.862658+00:00",
   "scope": "九家跨境支付公司，当前收录新闻，未覆盖全部社交平台",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 64,
-    "events": 50,
+    "articles": 65,
+    "events": 56,
     "sentiment": {
-      "中性": 64
+      "中性": 65
     },
     "crisis": {
-      "一般": 50
+      "一般": 56
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -316,17 +316,17 @@
       ]
     },
     {
-      "id": "event-ed8cf2229098",
+      "id": "event-322ca7c1a6df",
       "company": "lianlian",
-      "headline": "连连数字(02598.HK)10月22日耗资110万港元回购35.15万股 - TradingView",
+      "headline": "连连数字：10月22日斥资110.08万港元回购35.15万股 - 东方财富",
       "date": "2026-10-22",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 1,
+      "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 1,
       "source_platforms_observed": [
         "公开网络/新闻检索"
       ],
@@ -338,8 +338,58 @@
         "可定位原文证据（0至15分）"
       ],
       "items": [
-        "search-a087a0651e98124799",
-        "search-83af1835396d0da251",
+        "search-a087a0651e98124799"
+      ]
+    },
+    {
+      "id": "event-d0be3ff70ebf",
+      "company": "lianlian",
+      "headline": "连连数字(02598)10月22日斥资110.08万港元回购35.15万股 - 凤凰网",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
+        "search-83af1835396d0da251"
+      ]
+    },
+    {
+      "id": "event-ed8cf2229098",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)10月22日耗资110万港元回购35.15万股 - TradingView",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
         "search-5324d4fa63f589b4c2"
       ]
     },
@@ -396,17 +446,17 @@
       ]
     },
     {
-      "id": "event-22e071377198",
+      "id": "event-02cc3d9c1736",
       "company": "lianlian",
-      "headline": "连连数字(02598.HK)10月21日耗资33.3万港元回购10.25万股 - TradingView",
+      "headline": "连连数字：10月21日斥资33.29万港元回购10.25万股 - 东方财富",
       "date": "2026-10-21",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 4,
-      "publisher_count": 4,
+      "independent_publishers": 1,
+      "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 4,
+      "mention_count": 1,
       "source_platforms_observed": [
         "公开网络/新闻检索"
       ],
@@ -418,9 +468,59 @@
         "可定位原文证据（0至15分）"
       ],
       "items": [
-        "search-678ee3543ab999f835",
+        "search-678ee3543ab999f835"
+      ]
+    },
+    {
+      "id": "event-22e071377198",
+      "company": "lianlian",
+      "headline": "连连数字(02598)10月21日斥资33.29万港元回购10.25万股 - Moomoo",
+      "date": "2026-10-21",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
         "search-1644a37113ff6550d1",
-        "search-045f5fcc6d8b722084",
+        "search-045f5fcc6d8b722084"
+      ]
+    },
+    {
+      "id": "event-d877e7c992fe",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)10月21日耗资33.3万港元回购10.25万股 - TradingView",
+      "date": "2026-10-21",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
         "search-9335e73bd0425af087"
       ]
     },
@@ -555,17 +655,17 @@
       ]
     },
     {
-      "id": "event-784e194db737",
+      "id": "event-9b835009ac77",
       "company": "lianlian",
-      "headline": "连连数字(02598.HK)10月20日耗资72.4万港元回购22.5万股 - TradingView",
+      "headline": "连连数字(02598)10月20日耗资约72.42万港元回购22.5万股 - 凤凰网",
       "date": "2026-10-20",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
+      "independent_publishers": 1,
+      "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 1,
       "source_platforms_observed": [
         "公开网络/新闻检索"
       ],
@@ -577,7 +677,32 @@
         "可定位原文证据（0至15分）"
       ],
       "items": [
-        "search-b99b7197320eb58c23",
+        "search-b99b7197320eb58c23"
+      ]
+    },
+    {
+      "id": "event-784e194db737",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)10月20日耗资72.4万港元回购22.5万股 - TradingView",
+      "date": "2026-10-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
         "search-072e82ff67d081820c"
       ]
     },
@@ -827,7 +952,7 @@
       "independent_publishers": 2,
       "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 2,
       "source_platforms_observed": [
         "公开网络/新闻检索"
       ],
@@ -840,8 +965,7 @@
       ],
       "items": [
         "search-376ff5d09525d156cf",
-        "search-986b765f1854ca70bc",
-        "search-3b26e4913f487afa43"
+        "search-986b765f1854ca70bc"
       ]
     },
     {
@@ -925,15 +1049,15 @@
     {
       "id": "event-c106ba8413a9",
       "company": "skyee",
-      "headline": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加码「跨境支付」| IIR - 搜狐网",
+      "headline": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加码「跨境支付」| IIR - 知乎专栏",
       "date": "2026-10-16",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "公开网络/新闻检索"
       ],
@@ -945,7 +1069,8 @@
         "可定位原文证据（0至15分）"
       ],
       "items": [
-        "search-4fb6f06f0fccb75a69"
+        "search-4fb6f06f0fccb75a69",
+        "social-index-2fd6afe8fc471cb2593f"
       ]
     },
     {
@@ -1024,6 +1149,32 @@
       ],
       "items": [
         "search-8d9a62d3b9b2ac5391"
+      ]
+    },
+    {
+      "id": "event-888faa8f036f",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)10月15日耗资146.5万港元回购48.3万股 - TradingView",
+      "date": "2026-10-15",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
+        "search-3b26e4913f487afa43"
       ]
     },
     {

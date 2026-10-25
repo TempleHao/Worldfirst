@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-25T02:15:33.025667+00:00",
+  "platforms": {
+    "wechat": {
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
+      "indexed_items": 0,
+      "source_quality": "partial_public_index",
+      "total_available_records": 0,
+      "state": "connected_zero_matching_results"
+    },
+    "xiaohongshu": {
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
+      "indexed_items": 0,
+      "source_quality": "partial_public_index",
+      "total_available_records": 0,
+      "state": "connected_zero_matching_results"
+    },
+    "douyin": {
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
+      "indexed_items": 0,
+      "source_quality": "partial_public_index",
+      "total_available_records": 0,
+      "state": "connected_zero_matching_results"
+    },
+    "zhihu": {
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
+      "indexed_items": 1,
+      "source_quality": "partial_public_index",
+      "total_available_records": 1,
+      "state": "public_index_leads_only"
+    }
+  },
+  "notes": "公开新闻搜索索引≠平台全文/评论/真实声量。API未授权的不作联网API成功声称。",
+  "authorised_api": {
+    "zhihu": "not_configured",
+    "douyin": "not_configured",
+    "wechat": "not_configured",
+    "xiaohongshu": "not_configured"
+  },
+  "licensed_provider": {
+    "state": "not_configured",
+    "items": 0
+  }
+}
