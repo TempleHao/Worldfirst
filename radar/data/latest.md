@@ -47,6 +47,7 @@
 - **2026-10-18｜空中云汇** Airwallex 空中云汇与韩国 ONE Store 签… [原文](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BY005MUhBMkJ5R2h4MU96R0N1NElTRlh5SEVaTnlyakpIc0NyZXpqOWZ2M1R6bjRoNk9lNDU3ZTFCZjkxNEs3VEg1UmRFdHlUTE9ONmRvQlBUMTQ?oc=5)（unverified）
 - **2026-10-17｜连连国际** 广交会释放外贸新动能，连连数字加码新兴市场跨境支付服务 -… [原文](https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTlkc3NMMTVvV09JZFpmdWh0akdLNjN1MFBuQm52WDdLNU9HWjZuX1JTUGRiQUlMRzlORDF2UUhHWlh1RVp0TjR0U0dNRVBFcVdFRVJuUWhFSmc3SDZLUHU3WDVFMTk0dGZ0SUc2LXUwRjhFbDBPRVNmbkd6eU9KVUVRN0Y?oc=5)（unverified）
 - **2026-10-17｜XTransfer** XTransfer发布广交会参展宣传视频。 [原文](https://www.douyin.com/video/7697533899530740328)（unverified）
+- **2026-10-17｜Skyee** 发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfeDdGNFhtbDFWUWFpNHpaZkwzLXFSV0ZYTGdHREtkYVdydWZoNTZkQmE2Y1FWZEdfMmNxWHJrRm9xQkI0a3MxLWpFVG5YVk1wN1Y0b0ZVSENPaWJ0MHBLVg?oc=5)（unverified）
 - **2026-10-16｜Skyee** 拉卡拉拟收购Skyee运营主体控股权。 [原文](https://www.nbd.com.cn/articles/2026-10-16/4607146.html)（verified）
 - **2026-10-16｜连连国际** 连连发布新兴市场B2B洞察白皮书。 [原文](https://global.lianlianpay.com/article/MTU5OTgzLDhkNQ.html)（verified）
 - **2026-10-16｜空中云汇** AI驱动收付，外贸增长提速Airwallex 空中云汇亮相… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE82c2FGRDB5OTR1ZFZJT2JtVkZUZ050VXNqWkI2TVBLSmZXeFFkckZOSWNiblBuczB0SFUwcFlDcTNuUkxIQ3pjNmtaOVBIZFdwWEMzRU8xbV9GUDNQSG1Ia25mb28?oc=5)（unverified）
