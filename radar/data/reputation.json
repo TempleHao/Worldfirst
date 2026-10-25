@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.0",
-  "generated_at": "2026-10-25T02:15:34.862658+00:00",
+  "generated_at": "2026-10-25T02:16:32.329986+00:00",
   "scope": "九家跨境支付公司，当前收录新闻，未覆盖全部社交平台",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 65,
-    "events": 56,
+    "articles": 66,
+    "events": 57,
     "sentiment": {
-      "中性": 65
+      "中性": 66
     },
     "crisis": {
-      "一般": 56
+      "一般": 57
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -913,6 +913,32 @@
       ],
       "items": [
         "search-afb64701a13fbede33"
+      ]
+    },
+    {
+      "id": "event-e831cf749a40",
+      "company": "xtransfer",
+      "headline": "XTransfer公布参加第140届广交会的视频",
+      "date": "2026-10-17",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
+        "social-curated-douyin-xtransfer-20261017"
       ]
     },
     {

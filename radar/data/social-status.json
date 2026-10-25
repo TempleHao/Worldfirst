@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T02:15:33.025667+00:00",
+  "generated_at": "2026-10-25T02:16:30.127843+00:00",
   "platforms": {
     "wechat": {
       "index_requests_ok": 9,
@@ -22,7 +22,7 @@
       "index_requests_failed": 0,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
-      "total_available_records": 0,
+      "total_available_records": 1,
       "state": "connected_zero_matching_results"
     },
     "zhihu": {
@@ -44,5 +44,6 @@
   "licensed_provider": {
     "state": "not_configured",
     "items": 0
-  }
+  },
+  "curated_search_records": 1
 }

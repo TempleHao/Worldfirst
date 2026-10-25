@@ -1292,6 +1292,45 @@
       }
     },
     {
+      "id": "social-curated-douyin-xtransfer-20261017",
+      "company": "xtransfer",
+      "date": "2026-10-17",
+      "date_basis": "publication_index",
+      "title": "XTransfer公布参加第140届广交会的视频",
+      "summary": "XTransfer发布广交会参展宣传视频。",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "抖音公开索引",
+      "source_type": "search",
+      "channel": "douyin",
+      "platform": "douyin",
+      "discovery_method": "public_web_search_manual_verification",
+      "link_origin": "direct",
+      "url": "https://www.douyin.com/video/7697533899530740328",
+      "status": "unverified",
+      "rights": "public_title_only",
+      "coverage": "single_publicly_indexed_post",
+      "metrics": null,
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e831cf749a40",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "skyee-20261016",
       "company": "skyee",
       "date": "2026-10-16",
@@ -2044,6 +2083,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-25T02:15:30.389806+00:00",
+  "updated_at": "2026-10-25T02:16:27.211947+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

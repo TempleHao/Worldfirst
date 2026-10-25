@@ -43,6 +43,7 @@
 - **2026-10-19｜Skyee** 拉卡拉控股Skyee：孙陶然，才是中国支付圈最被低估的出海… [原文](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DWW51UzZpY3JvdWk1YnJlYzJwZEUyOTlueW1XMTVzMkp3UHJhSTd6Z0lBX0VtR2FoZ3FQOHN1RmUzSzIyY093aHdvZ1Fub0NSVGdr?oc=5)（unverified）
 - **2026-10-18｜空中云汇** Airwallex 空中云汇与韩国 ONE Store 签… [原文](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1NjB4eWdsUUFkWEE0NGNaTEEtNmlKelc2S2dGYlBqYmJ0c29yOVNjekRJSHlHS1VGZTltZFZEaVNUV1JxNDItNGtqTG1Cdi14N1hB?oc=5)（unverified）
 - **2026-10-17｜连连国际** 广交会释放外贸新动能，连连数字加码新兴市场跨境支付服务 -… [原文](https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTlkc3NMMTVvV09JZFpmdWh0akdLNjN1MFBuQm52WDdLNU9HWjZuX1JTUGRiQUlMRzlORDF2UUhHWlh1RVp0TjR0U0dNRVBFcVdFRVJuUWhFSmc3SDZLUHU3WDVFMTk0dGZ0SUc2LXUwRjhFbDBPRVNmbkd6eU9KVUVRN0Y?oc=5)（unverified）
+- **2026-10-17｜XTransfer** XTransfer发布广交会参展宣传视频。 [原文](https://www.douyin.com/video/7697533899530740328)（unverified）
 - **2026-10-16｜Skyee** 拉卡拉拟收购Skyee运营主体控股权。 [原文](https://www.nbd.com.cn/articles/2026-10-16/4607146.html)（verified）
 - **2026-10-16｜连连国际** 连连发布新兴市场B2B洞察白皮书。 [原文](https://global.lianlianpay.com/article/MTU5OTgzLDhkNQ.html)（verified）
 - **2026-10-16｜空中云汇** AI驱动收付，外贸增长提速Airwallex 空中云汇亮相… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE82c2FGRDB5OTR1ZFZJT2JtVkZUZ050VXNqWkI2TVBLSmZXeFFkckZOSWNiblBuczB0SFUwcFlDcTNuUkxIQ3pjNmtaOVBIZFdwWEMzRU8xbV9GUDNQSG1Ia25mb28?oc=5)（unverified）
