@@ -1,0 +1,27 @@
+{
+  "schema": "1.0",
+  "notes": "来自2026-10-25公开检索人工核实的索引条目，只保留公开标题与原始视频链接；不是自动采集或平台API验证。",
+  "items": [
+    {
+      "id": "social-curated-douyin-xtransfer-20261017",
+      "company": "xtransfer",
+      "date": "2026-10-17",
+      "date_basis": "publication_index",
+      "title": "XTransfer公布参加第140届广交会的视频",
+      "summary": "XTransfer发布广交会参展宣传视频。",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "抖音公开索引",
+      "source_type": "search",
+      "channel": "douyin",
+      "platform": "douyin",
+      "discovery_method": "public_web_search_manual_verification",
+      "link_origin": "direct",
+      "url": "https://www.douyin.com/video/7697533899530740328",
+      "status": "unverified",
+      "rights": "public_title_only",
+      "coverage": "single_publicly_indexed_post",
+      "metrics": null
+    }
+  ]
+}
