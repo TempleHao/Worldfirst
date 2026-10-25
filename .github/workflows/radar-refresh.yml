@@ -1,0 +1,30 @@
+name: Refresh Radar Search Feeds
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: radar-search-refresh
+  cancel-in-progress: false
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch public RSS search results
+        run: python radar/scripts/collect.py
+      - name: Commit JSON, Markdown, RSS and status snapshots
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add radar/data/articles.json radar/data/latest.md radar/data/feed.xml radar/data/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(radar): update public search signals"
+            git push
+          fi
