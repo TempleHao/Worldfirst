@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-25T02:18:30.823657+00:00",
+  "generated_at": "2026-10-25T11:28:09.896168+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,10 +12,10 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 67,
+    "articles": 69,
     "events": 57,
     "sentiment": {
-      "中性": 67
+      "中性": 69
     },
     "crisis": {
       "一般": 57
@@ -824,7 +824,7 @@
       "independent_publishers": 1,
       "publisher_count": 2,
       "official_sources": 1,
-      "mention_count": 2,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -840,7 +840,8 @@
       ],
       "items": [
         "airwallex-20261019",
-        "search-b7b23b21acdf2053d6"
+        "search-b7b23b21acdf2053d6",
+        "search-875a479ce805048d45"
       ]
     },
     {
@@ -971,7 +972,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -986,7 +987,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-548192dfba929da160"
+        "search-548192dfba929da160",
+        "search-b62164fad3af51d314"
       ]
     },
     {

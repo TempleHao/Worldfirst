@@ -1,10 +1,10 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-10-25T02:18:27.510670+00:00",
-  "last_success_at": "2026-10-25T02:18:27.510670+00:00",
+  "last_attempt_at": "2026-10-25T11:28:05.940234+00:00",
+  "last_success_at": "2026-10-25T11:28:05.940234+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
-  "new_items": 1,
+  "new_items": 2,
   "sources": {
     "worldfirst": {
       "ok": true,
