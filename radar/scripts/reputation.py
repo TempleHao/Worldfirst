@@ -101,7 +101,7 @@ def same_event(a,b):
  # Different deal sizes or buyback quantities should not be merged.
  na = re.findall(r"\d+(?:\.\d+)?",str(a.get("title","")))
  nb = re.findall(r"\d+(?:\.\d+)?",str(b.get("title","")))
- if na and nb and set(na).isdisjoint(nb):
+ if na and nb and sorted(na)!=sorted(nb):
   return False
  ta = normalize_title(a.get("title",""))
  tb = normalize_title(b.get("title",""))
