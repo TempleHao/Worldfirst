@@ -1,0 +1,7 @@
+{
+  "latest_outcome": "not_configured",
+  "last_attempt_at": null,
+  "last_success_at": null,
+  "collector": "none",
+  "notes": "初始历史核实样本。实时抓取服务尚未部署或验收；第三方社媒未接入。"
+}
