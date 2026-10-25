@@ -10,7 +10,7 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -92,6 +92,17 @@ def source_identity(item):
 
 def same_event(a,b):
  if a.get("company") != b.get("company"):return False
+ # Similar daily market announcements are not one incident.
+ try:
+  if abs((date.fromisoformat(a["date"])-date.fromisoformat(b["date"])).days)>2:
+   return False
+ except (ValueError,KeyError,TypeError):
+  return False
+ # Different deal sizes or buyback quantities should not be merged.
+ na = re.findall(r"\d+(?:\.\d+)?",str(a.get("title","")))
+ nb = re.findall(r"\d+(?:\.\d+)?",str(b.get("title","")))
+ if na and nb and set(na).isdisjoint(nb):
+  return False
  ta = normalize_title(a.get("title",""))
  tb = normalize_title(b.get("title",""))
  if min(len(ta),len(tb)) < 12:return ta == tb
