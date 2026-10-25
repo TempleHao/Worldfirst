@@ -28,11 +28,15 @@ jobs:
           python-version: '3.12'
       - name: Fetch public RSS search results
         run: python radar/scripts/collect.py
+      - name: Verify reputation classifier
+        run: python -m unittest discover -s radar/scripts -p 'test_reputation.py' -v
+      - name: Enrich news with sentiment and crisis analysis
+        run: python radar/scripts/reputation.py
       - name: Commit JSON, Markdown, RSS and status snapshots
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add radar/data/articles.json radar/data/latest.md radar/data/feed.xml radar/data/status.json
+          git add radar/data/articles.json radar/data/latest.md radar/data/feed.xml radar/data/status.json radar/data/reputation.json
           if ! git diff --cached --quiet; then
             git commit -m "data(radar): update public search signals"
             git pull --rebase origin main
