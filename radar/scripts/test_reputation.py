@@ -48,6 +48,11 @@ class ReputationTests(unittest.TestCase):
   a=[make(1,"万里汇与企业签署合作协议"),
      make(2,"万里汇某客户账户出现大面积资金冻结")]
   self.assertEqual(len(clusters(a)),2)
+ def test_daily_buybacks_not_same_event(self):
+  a=make(1,"连连数字10月21日回购15.3万股")
+  b=make(2,"连连数字10月23日回购35.15万股")
+  a["date"]="2026-10-21";b["date"]="2026-10-23"
+  self.assertEqual(len(clusters([a,b])),2)
  def test_explanations_present(self):
   a=[make(1,"万里汇遭客户投诉账户冻结无法提现")]
   enriched,rep=analyze({"items":a})
