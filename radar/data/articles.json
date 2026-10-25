@@ -1255,8 +1255,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-a20570441218",
-        "distinct_publishers": 2,
+        "event_id": "event-15a24607e3ff",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1566,7 +1566,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-a20570441218",
-        "distinct_publishers": 2,
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2005,6 +2005,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-25T02:01:54.641783+00:00",
+  "updated_at": "2026-10-25T02:03:55.900948+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

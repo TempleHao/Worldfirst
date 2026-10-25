@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.0",
-  "generated_at": "2026-10-25T02:01:57.025259+00:00",
+  "generated_at": "2026-10-25T02:03:58.793115+00:00",
   "scope": "九家跨境支付公司，当前收录新闻，未覆盖全部社交平台",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,12 +13,12 @@
   ],
   "overview": {
     "articles": 64,
-    "events": 49,
+    "events": 50,
     "sentiment": {
       "中性": 64
     },
     "crisis": {
-      "一般": 49
+      "一般": 50
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -739,17 +739,17 @@
       ]
     },
     {
-      "id": "event-a20570441218",
+      "id": "event-15a24607e3ff",
       "company": "airwallex",
       "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 环球网",
       "date": "2026-10-18",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
+      "independent_publishers": 1,
+      "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 1,
       "source_platforms_observed": [
         "公开网络/新闻检索"
       ],
@@ -761,8 +761,7 @@
         "可定位原文证据（0至15分）"
       ],
       "items": [
-        "search-548192dfba929da160",
-        "search-52c3b4c4eac4461991"
+        "search-548192dfba929da160"
       ]
     },
     {
@@ -1025,6 +1024,32 @@
       ],
       "items": [
         "search-8d9a62d3b9b2ac5391"
+      ]
+    },
+    {
+      "id": "event-a20570441218",
+      "company": "airwallex",
+      "headline": "Airwallex空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 投资界",
+      "date": "2026-10-15",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "公开网络/新闻检索"
+      ],
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）"
+      ],
+      "items": [
+        "search-52c3b4c4eac4461991"
       ]
     },
     {
