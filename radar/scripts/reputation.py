@@ -15,7 +15,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parents[1] / "data"
-MODEL_VERSION = "reputation-v1.0"
+MODEL_VERSION = "reputation-v1.1"
 # Financial/operational consequences, not generic negative vocabulary.
 HAZARDS = {
  "资金与账户": (4, ("资金冻结","账户冻结","冻结账户","冻结客户","无法提现","无法提款","提不出","提现失败","出金失败","资金滞留","扣押资金","无法取回资金","转账资金丢失","资金失踪")),
@@ -126,17 +126,21 @@ def event_risk(group):
  negative=[i for i in group if i["sentiment"]["materiality"]>0]
  pubs=set(source_identity(a) for a in group)
  pubs.discard("未知发布方")
- verified=[a for a in group if a.get("status")=="verified" and a.get("source_type") in ("media","official")]
+ verified=[a for a in group if a.get("status")=="verified" and a.get("source_type") in ("media","official","social")]
  # Verification in old dataset means original article available, not allegation confirmed.
  max_hazard=max((a["sentiment"]["materiality"] for a in group),default=0)
- independent=len(set(source_identity(a) for a in group if a.get("source_type") in ("media","search")))
+ independent=len(set(source_identity(a) for a in group if a.get("source_type") in ("media","search","social")))
  official=len(set(source_identity(a) for a in group if a.get("source_type")=="official"))
  total=len(group)
+ # Separate genuinely confirmed cross-platform publication from indexed search leads.
+ observed_platforms=sorted(set(a.get("channel") or "news_web" for a in group))
+ direct_confirmed_platforms=sorted(set(a.get("channel") for a in group if a.get("channel") and a.get("link_origin")=="direct" and a.get("status")=="verified"))
+ platform_bonus=min(8,max(0,len(direct_confirmed_platforms)-1)*4)
  # Spread is indexed distinct publishers, NOT audiences, impressions, or platform reach.
  spread=min(20,max(0,independent-1)*5)
  verification=min(15,len(verified)*5)
  severity={0:0,2:27,3:44,4:63}.get(max_hazard,0)
- score=min(100,severity+spread+verification) if negative else 0
+ score=min(100,severity+spread+verification+platform_bonus) if negative else 0
  if not negative:
   level="一般"; comment="未见标题级负面风险线索"
  elif not verified:
@@ -163,10 +167,12 @@ def event_risk(group):
    "publisher_count":len(pubs),
    "official_sources":official,
    "mention_count":total,
-   "source_platforms_observed":["公开网络/新闻检索"],  # no invented TikTok etc reach
+   "source_platforms_observed":observed_platforms,
+   "confirmed_direct_social_platforms":direct_confirmed_platforms,
+   "confirmed_cross_platform_bonus":platform_bonus,
    "status":"初筛／人工审核待完成",
    "reason":comment,
-   "evidence_notes":["标题级事件严重性（0至63分）","不同发布方覆盖（0至20分）","可定位原文证据（0至15分）"],
+   "evidence_notes":["标题级事件严重性（0至63分）","不同发布方覆盖（0至20分）","可定位原文证据（0至15分）","不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"],
    "items":[a["id"] for a in group],
  }
 
@@ -186,7 +192,7 @@ def analyze(payload):
  report={
    "schema_version":"1.0","model_version":MODEL_VERSION,
    "generated_at":datetime.now(timezone.utc).isoformat(),
-   "scope":"九家跨境支付公司，当前收录新闻，未覆盖全部社交平台",
+   "scope":"九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
    "limitations":["当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
        "Google News是检索入口，不代表Google自身报道或全网声量",
        "索引线索无核实证据时不得判定真实危机",
