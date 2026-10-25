@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "model_version": "reputation-v1.0",
-  "generated_at": "2026-10-25T02:16:32.329986+00:00",
-  "scope": "九家跨境支付公司，当前收录新闻，未覆盖全部社交平台",
+  "model_version": "reputation-v1.1",
+  "generated_at": "2026-10-25T02:18:30.823657+00:00",
+  "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
     "Google News是检索入口，不代表Google自身报道或全网声量",
@@ -12,10 +12,10 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 66,
+    "articles": 67,
     "events": 57,
     "sentiment": {
-      "中性": 66
+      "中性": 67
     },
     "crisis": {
       "一般": 57
@@ -37,14 +37,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-481161cc6ba24bbb19"
@@ -63,14 +66,17 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-5f2439d6411233f399",
@@ -90,14 +96,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-78bec51896af406fb8"
@@ -116,14 +125,17 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-e9015d5e3238f73820",
@@ -143,14 +155,17 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-9ee17742e69c88e410",
@@ -170,14 +185,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-ca74777d85bfd1c323"
@@ -196,14 +214,17 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-40f1ffa00771151716",
@@ -223,14 +244,17 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-8350a13594de243854",
@@ -250,14 +274,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-e28317ddabe62e24b5"
@@ -276,14 +303,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-35b09e6de545c7820b"
@@ -302,14 +332,17 @@
       "official_sources": 1,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "lianlian-20261022"
@@ -328,14 +361,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-a087a0651e98124799"
@@ -354,14 +390,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-83af1835396d0da251"
@@ -380,14 +419,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-5324d4fa63f589b4c2"
@@ -406,14 +448,17 @@
       "official_sources": 1,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "payoneer-20261022"
@@ -432,14 +477,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-82e51dd46a45724e90"
@@ -458,14 +506,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-678ee3543ab999f835"
@@ -484,14 +535,17 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-1644a37113ff6550d1",
@@ -511,14 +565,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-9335e73bd0425af087"
@@ -537,14 +594,17 @@
       "official_sources": 1,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "airwallex-20261021"
@@ -563,14 +623,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-2b7635ec9683e7c875"
@@ -589,14 +652,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-1854ee63d477b28f17"
@@ -615,14 +681,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "sunrate-20261021"
@@ -641,14 +710,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-36ac4ab886d5c91ba6"
@@ -667,14 +739,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-b99b7197320eb58c23"
@@ -693,14 +768,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-072e82ff67d081820c"
@@ -719,14 +797,17 @@
       "official_sources": 1,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "payoneer-20261019"
@@ -745,14 +826,17 @@
       "official_sources": 1,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "airwallex-20261019",
@@ -772,14 +856,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-d585b8f63b15c075cc"
@@ -798,14 +885,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "worldfirst-20261019"
@@ -824,21 +914,24 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "pingpong-20261019"
       ]
     },
     {
-      "id": "event-5b20623cac17",
+      "id": "event-d230b1b1dd62",
       "company": "skyee",
       "headline": "拉卡拉控股Skyee：孙陶然，才是中国支付圈最被低估的出海操盘手 - 搜狐网",
       "date": "2026-10-19",
@@ -848,19 +941,23 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-ac1ed5c31b91630dd1"
+        "search-ac1ed5c31b91630dd1",
+        "search-98198839402900fbe5"
       ]
     },
     {
@@ -876,14 +973,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-548192dfba929da160"
@@ -902,14 +1002,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-afb64701a13fbede33"
@@ -928,14 +1031,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "douyin"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "social-curated-douyin-xtransfer-20261017"
@@ -954,14 +1060,17 @@
       "official_sources": 1,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "lianlian-20261016"
@@ -980,14 +1089,17 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-376ff5d09525d156cf",
@@ -1007,14 +1119,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-9e492352db4fba8d9c"
@@ -1033,14 +1148,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "skyee-20261016"
@@ -1059,14 +1177,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-12c85bc4d6d0b633e4"
@@ -1085,14 +1206,18 @@
       "official_sources": 0,
       "mention_count": 2,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web",
+        "zhihu"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-4fb6f06f0fccb75a69",
@@ -1112,14 +1237,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-04d74a00ff458ed655"
@@ -1138,14 +1266,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-37e519d9477f6fa880"
@@ -1164,14 +1295,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-8d9a62d3b9b2ac5391"
@@ -1190,14 +1324,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-3b26e4913f487afa43"
@@ -1216,14 +1353,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-52c3b4c4eac4461991"
@@ -1242,14 +1382,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "coral-20261015"
@@ -1268,14 +1411,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-ebcbeba95f1f886b40"
@@ -1294,14 +1440,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-903087f59e60081264"
@@ -1320,14 +1469,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-877887fc8e36ae73ec"
@@ -1346,14 +1498,17 @@
       "official_sources": 1,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "xtransfer-20261014"
@@ -1372,14 +1527,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-96163314abef455127"
@@ -1398,14 +1556,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-09248a7802a345295f"
@@ -1424,14 +1585,17 @@
       "official_sources": 1,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "payoneer-20261013"
@@ -1450,14 +1614,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-ae82852748bada8dd9"
@@ -1476,14 +1643,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-0e67f64bc061829641"
@@ -1502,14 +1672,17 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "公开网络/新闻检索"
+        "news_web"
       ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
       "status": "初筛／人工审核待完成",
       "reason": "未见标题级负面风险线索",
       "evidence_notes": [
         "标题级事件严重性（0至63分）",
         "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）"
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
         "search-d7b6b9e0b78911f2b2"
