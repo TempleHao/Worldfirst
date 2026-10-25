@@ -1,7 +1,47 @@
 {
-  "latest_outcome": "not_configured",
-  "last_attempt_at": null,
-  "last_success_at": null,
-  "collector": "none",
-  "notes": "初始历史核实样本。实时抓取服务尚未部署或验收；第三方社媒未接入。"
+  "latest_outcome": "ok",
+  "last_attempt_at": "2026-10-25T01:44:48.463179+00:00",
+  "last_success_at": "2026-10-25T01:44:48.463179+00:00",
+  "succeeded_sources": 9,
+  "attempted_sources": 9,
+  "new_items": 48,
+  "sources": {
+    "worldfirst": {
+      "ok": true,
+      "matched": 1
+    },
+    "airwallex": {
+      "ok": true,
+      "matched": 7
+    },
+    "payoneer": {
+      "ok": true,
+      "matched": 1
+    },
+    "xtransfer": {
+      "ok": true,
+      "matched": 0
+    },
+    "lianlian": {
+      "ok": true,
+      "matched": 32
+    },
+    "pingpong": {
+      "ok": true,
+      "matched": 1
+    },
+    "coral": {
+      "ok": true,
+      "matched": 0
+    },
+    "sunrate": {
+      "ok": true,
+      "matched": 1
+    },
+    "skyee": {
+      "ok": true,
+      "matched": 5
+    }
+  },
+  "notes": "公开 Google News RSS 实验性采集，不能推算全网声量。"
 }
