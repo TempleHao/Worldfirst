@@ -53,6 +53,21 @@ class ReputationTests(unittest.TestCase):
   b=make(2,"连连数字10月23日回购35.15万股")
   a["date"]="2026-10-21";b["date"]="2026-10-23"
   self.assertEqual(len(clusters([a,b])),2)
+ def test_unverified_social_index_does_not_get_platform_bonus(self):
+  x=make(1,"万里汇客户投诉账户冻结无法提现","索引站","search","unverified")
+  x["channel"]="zhihu"
+  x["link_origin"]="google-news-indirect"
+  _,rep=analyze({"items":[x]})
+  self.assertEqual(rep["events"][0]["confirmed_cross_platform_bonus"],0)
+  self.assertEqual(rep["events"][0]["risk_level"],"待核验")
+ def test_confirmed_multi_platform_has_small_bonus(self):
+  a=make(1,"万里汇客户投诉账户冻结无法提现","甲用户","social","verified")
+  b=make(2,"万里汇客户投诉账户冻结无法提现","乙用户","social","verified")
+  a.update(channel="zhihu",link_origin="direct")
+  b.update(channel="douyin",link_origin="direct")
+  _,rep=analyze({"items":[a,b]})
+  self.assertEqual(rep["events"][0]["confirmed_cross_platform_bonus"],4)
+  self.assertEqual(len(rep["events"][0]["confirmed_direct_social_platforms"]),2)
  def test_explanations_present(self):
   a=[make(1,"万里汇遭客户投诉账户冻结无法提现")]
   enriched,rep=analyze({"items":a})
