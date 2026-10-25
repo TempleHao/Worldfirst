@@ -14,6 +14,7 @@
 - **2026-10-23｜连连国际** 连连数字附属公司认购创业投资基金2亿元 占比89.98% … [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VQ1A0MFJydVZpNnp0NldFNnF6SnNjQTFidlhQZmFtYWI4ZlVrSVFiRlZZbTI1TENLLW95SEVieU1Bblo2bWxCZE04bzk?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字章德旺：Agent经济需要怎样的金融基础设施？ -… [原文](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnRsOFJJRTdVbzRWdnFxNmtsQjVZNWFQM0NBZVJXR3FZSGhJWUxlQXdIRWVaeFB3TllHNGJXejFfTnQwdllQemotMEltZmN0cUtTekVjdGlfUU9CM1BHWUwtY2dGR0tBZlZkSV9DZWhESUNuT1hCZHZtN2dGZEpvRGtmZHQ1dy1R?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字10月23日回购15.3万股H股 耗资约49.65… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nSWYxOGNCU2EwNVNsX0RlN0tEWjVZZncwVG0zOHJjaURfVTNkY1RWei1NVnYtRjN1b1lCZk5jS3Vmd0tHcUVFbTdpOS1ldVplQWtlZVZvcFdod0xI?oc=5)（unverified）
+- **2026-10-23｜连连国际** 连连数字(02598)拟出资2亿元参设基金 聚焦半导体、A… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqaTdnc2pURDZUd0thWEpPeXBnNTVkSERoaVhfZ1N1dUhmV0dhd1BoME4yTks2VTAxanFadi1iVDJ4dG9nU3hnWjd6dDg?oc=5)（unverified）
 - **2026-10-22｜派安盈** 派安盈定于11月5日披露三季报。 [原文](https://investor.payoneer.com/news-events/news-releases)（verified）
 - **2026-10-22｜连连国际** 连连分享香港本地化收单合作案例。 [原文](https://global.lianlianpay.com/news.html)（verified）
 - **2026-10-22｜派安盈** Payoneer Inc 评论 – 它是Safe和合法的吗… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE5aTm5SaU5TZ3Q3Mk90X3lsRU9OcDdlYjNUNXM1Y2c3X0JfdllRLVNNamtVaEUyZHFBemJ2eG12amcxOUpfMDVvRXlRVjNkbUlVemlUNXZSRFZORlJjcnZwMUpkaVY1XzItTEE?oc=5)（unverified）

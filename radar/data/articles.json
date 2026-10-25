@@ -175,6 +175,19 @@
       "status": "unverified"
     },
     {
+      "id": "search-2dfdc230271ffa6f2b",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "连连数字(02598)拟出资2亿元参设基金 聚焦半导体、AI 与先进制造 - 凤凰网",
+      "summary": "连连数字(02598)拟出资2亿元参设基金 聚焦半导体、A…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqaTdnc2pURDZUd0thWEpPeXBnNTVkSERoaVhfZ1N1dUhmV0dhd1BoME4yTks2VTAxanFadi1iVDJ4dG9nU3hnWjd6dDg?oc=5",
+      "status": "unverified"
+    },
+    {
       "id": "payoneer-20261022",
       "company": "payoneer",
       "date": "2026-10-22",
@@ -812,6 +825,6 @@
       "status": "unverified"
     }
   ],
-  "updated_at": "2026-10-25T01:44:48.463179+00:00",
+  "updated_at": "2026-10-25T01:46:26.433922+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
