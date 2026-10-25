@@ -158,6 +158,14 @@ def main():
          "authorised_api":{"zhihu":"not_configured","douyin":"not_configured","wechat":"not_configured","xiaohongshu":"not_configured"},
          "licensed_provider":"not_configured"}
  jobs=[(p,brand,query) for p in PLATFORMS for brand,(query,_terms) in QUERIES.items()]
+ curated_path=DATA/"social-curated.json"
+ curated_records=[]
+ if curated_path.exists():
+  for record in json.loads(curated_path.read_text(encoding="utf-8")).get("items",[]):
+   if record.get("status")=="unverified" and record.get("channel") in PLATFORMS and record.get("url","").startswith("https://"):
+    curated_records.append(record)
+    retained[record["id"]]=record
+ status["curated_search_records"]=len(curated_records)
  stats={k:{"index_requests_ok":0,"index_requests_failed":0,"indexed_items":0,
            "source_quality":"partial_public_index"} for k in PLATFORMS}
  with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
