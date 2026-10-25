@@ -26,6 +26,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Synchronize to latest main revision
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+      - name: Verify dashboard JavaScript syntax
+        run: |
+          python -c "from pathlib import Path; h=Path('radar/index.html').read_text(); js=h.rsplit('<script>',1)[1].split('</script>',1)[0]; Path('/tmp/radar-ui.js').write_text(js)"
+          node --check /tmp/radar-ui.js
       - name: Fetch public RSS search results
         run: python radar/scripts/collect.py
       - name: Verify reputation classifier
