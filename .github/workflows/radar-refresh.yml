@@ -35,6 +35,7 @@ jobs:
           git add radar/data/articles.json radar/data/latest.md radar/data/feed.xml radar/data/status.json
           if ! git diff --cached --quiet; then
             git commit -m "data(radar): update public search signals"
+            git pull --rebase origin main
             git push
           fi
       - name: Publish refreshed site
