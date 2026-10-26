@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-26T04:46:19.136537+00:00",
+  "generated_at": "2026-10-26T13:01:37.542362+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,18 +12,105 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 74,
-    "events": 59,
+    "articles": 79,
+    "events": 63,
     "sentiment": {
-      "中性": 74
+      "中性": 79
     },
     "crisis": {
-      "一般": 59
+      "一般": 63
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-6b395da0c40c",
+      "company": "airwallex",
+      "headline": "AI 企业跨境收款如何少走弯路？Airwallex 空中云汇提供思路 - 手机新浪网",
+      "date": "2026-10-26",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-968b784de0af0c9a17"
+      ]
+    },
+    {
+      "id": "event-4392bc66ac05",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)10月26日耗资41.74万港元回购13万股-证券之星 - 证券之星",
+      "date": "2026-10-26",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-e0253e211298564ddd"
+      ]
+    },
+    {
+      "id": "event-03d3671ecc61",
+      "company": "lianlian",
+      "headline": "连连数字(02598)10月26日斥资41.74万港元回购13万股 提供者 智通财经 - 英为财情 Investing.com",
+      "date": "2026-10-26",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-63da48a801e3939cfa"
+      ]
+    },
     {
       "id": "event-a05d3f221f1b",
       "company": "lianlian",
@@ -114,7 +201,7 @@
       ]
     },
     {
-      "id": "event-7b083da47060",
+      "id": "event-4e78bda01afb",
       "company": "lianlian",
       "headline": "23点聊电商：千峰访谈连连数字：从“跨境支付专家”迈向“值得信赖的全球化智能金融新- 栏目 - 亿邦动力网",
       "date": "2026-10-23",
@@ -124,7 +211,7 @@
       "independent_publishers": 2,
       "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -140,7 +227,8 @@
       ],
       "items": [
         "search-e9015d5e3238f73820",
-        "search-ddf4ef1c9f380d9f2d"
+        "search-ddf4ef1c9f380d9f2d",
+        "search-96b0bac69db6d7cabe"
       ]
     },
     {
@@ -350,6 +438,35 @@
       ]
     },
     {
+      "id": "event-f68d02ce692d",
+      "company": "lianlian",
+      "headline": "LianLian Global与PayPal合作 支持向全球PayPal及美国Venmo账户付款 - Moomoo",
+      "date": "2026-10-23",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-87d08021ca514c5fec"
+      ]
+    },
+    {
       "id": "event-68d1d5253599",
       "company": "lianlian",
       "headline": "连连介绍香港本地化收单合作案例",
@@ -524,6 +641,93 @@
       ]
     },
     {
+      "id": "event-924ef77542e0",
+      "company": "airwallex",
+      "headline": "空中云汇续约迈凯伦，成为官方AI金融合作伙伴",
+      "date": "2026-10-21",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 0,
+      "publisher_count": 1,
+      "official_sources": 1,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "airwallex-20261021"
+      ]
+    },
+    {
+      "id": "event-eae09fe57348",
+      "company": "airwallex",
+      "headline": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 新浪新闻_手机新浪网",
+      "date": "2026-10-21",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2b7635ec9683e7c875"
+      ]
+    },
+    {
+      "id": "event-4812f6b1977f",
+      "company": "airwallex",
+      "headline": "空中云汇：成为迈凯伦万事达卡F1车队的官方AI金融合作伙伴 - 新浪网",
+      "date": "2026-10-21",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1854ee63d477b28f17"
+      ]
+    },
+    {
       "id": "event-02cc3d9c1736",
       "company": "lianlian",
       "headline": "连连数字：10月21日斥资33.29万港元回购10.25万股 - 东方财富",
@@ -612,93 +816,6 @@
       ]
     },
     {
-      "id": "event-924ef77542e0",
-      "company": "airwallex",
-      "headline": "空中云汇续约迈凯伦，成为官方AI金融合作伙伴",
-      "date": "2026-10-21",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "airwallex-20261021"
-      ]
-    },
-    {
-      "id": "event-eae09fe57348",
-      "company": "airwallex",
-      "headline": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 新浪新闻_手机新浪网",
-      "date": "2026-10-21",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-2b7635ec9683e7c875"
-      ]
-    },
-    {
-      "id": "event-4812f6b1977f",
-      "company": "airwallex",
-      "headline": "空中云汇：成为迈凯伦万事达卡F1车队的官方AI金融合作伙伴 - 新浪网",
-      "date": "2026-10-21",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-1854ee63d477b28f17"
-      ]
-    },
-    {
       "id": "event-3d02e82aab88",
       "company": "sunrate",
       "headline": "寻汇与TourMind合作开发全球旅游支付能力",
@@ -754,6 +871,37 @@
       ],
       "items": [
         "search-36ac4ab886d5c91ba6"
+      ]
+    },
+    {
+      "id": "event-9765608b57e7",
+      "company": "airwallex",
+      "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 极客公园",
+      "date": "2026-10-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 3,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1d056120896571cb4d",
+        "search-548192dfba929da160",
+        "search-b62164fad3af51d314"
       ]
     },
     {
@@ -815,66 +963,6 @@
       ]
     },
     {
-      "id": "event-9765608b57e7",
-      "company": "airwallex",
-      "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 极客公园",
-      "date": "2026-10-20",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
-      "official_sources": 0,
-      "mention_count": 3,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-1d056120896571cb4d",
-        "search-548192dfba929da160",
-        "search-b62164fad3af51d314"
-      ]
-    },
-    {
-      "id": "event-c814fb0ee238",
-      "company": "payoneer",
-      "headline": "Payoneer发布稳定币在平台金融服务中的应用研究",
-      "date": "2026-10-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "payoneer-20261019"
-      ]
-    },
-    {
       "id": "event-5a64fca17866",
       "company": "airwallex",
       "headline": "空中云汇与韩国ONE Store达成战略合作",
@@ -932,6 +1020,35 @@
       ],
       "items": [
         "search-d585b8f63b15c075cc"
+      ]
+    },
+    {
+      "id": "event-c814fb0ee238",
+      "company": "payoneer",
+      "headline": "Payoneer发布稳定币在平台金融服务中的应用研究",
+      "date": "2026-10-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 0,
+      "publisher_count": 1,
+      "official_sources": 1,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "payoneer-20261019"
       ]
     },
     {
@@ -1111,6 +1228,35 @@
       ]
     },
     {
+      "id": "event-278f13cd9a65",
+      "company": "airwallex",
+      "headline": "AI驱动收付，外贸增长提速Airwallex 空中云汇亮相第140届广交会_行业新闻 - 证券之星",
+      "date": "2026-10-16",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-9e492352db4fba8d9c"
+      ]
+    },
+    {
       "id": "event-312959a1af72",
       "company": "lianlian",
       "headline": "连连国际携亿邦智库发布新兴市场B2B白皮书",
@@ -1167,35 +1313,6 @@
       "items": [
         "search-376ff5d09525d156cf",
         "search-986b765f1854ca70bc"
-      ]
-    },
-    {
-      "id": "event-278f13cd9a65",
-      "company": "airwallex",
-      "headline": "AI驱动收付，外贸增长提速Airwallex 空中云汇亮相第140届广交会_行业新闻 - 证券之星",
-      "date": "2026-10-16",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-9e492352db4fba8d9c"
       ]
     },
     {
@@ -1256,6 +1373,35 @@
       "items": [
         "search-4fb6f06f0fccb75a69",
         "social-index-2fd6afe8fc471cb2593f"
+      ]
+    },
+    {
+      "id": "event-a20570441218",
+      "company": "airwallex",
+      "headline": "Airwallex空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 投资界",
+      "date": "2026-10-15",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-52c3b4c4eac4461991"
       ]
     },
     {
@@ -1372,35 +1518,6 @@
       ],
       "items": [
         "search-3b26e4913f487afa43"
-      ]
-    },
-    {
-      "id": "event-a20570441218",
-      "company": "airwallex",
-      "headline": "Airwallex空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 投资界",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-52c3b4c4eac4461991"
       ]
     },
     {

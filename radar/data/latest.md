@@ -2,6 +2,9 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-10-26｜空中云汇** AI 企业跨境收款如何少走弯路？Airwallex 空中云… [原文](https://news.google.com/rss/articles/CBMijgFBVV95cUxPOHJSb0trRDYxVlo5c2pISjFwNDRvNlZ3WGFONHdrM285bU1xSF93RU1WdkhJWU01emlDMWU5YVozVVJYTTBjaFBqUW5mbHFwcmtVOFR3OTMzZzlxY2VWSHdCblQ5R19MLV9HdDRWUklsb3JmVlBPeEJydG5QZi04U2JvSEhJYTYzUC0wUExB?oc=5)（unverified）
+- **2026-10-26｜连连国际** 连连数字(02598.HK)10月26日耗资41.74万港… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vc3hUUHVpeU9NRGVVVVA3X2h1aFZsbzd1dkdpM2F2WkhFWFh6TlpvUGRUODV4M3V3TE9aakFjU00wd1Z2RDRyQ1lSV3AzUUxMVkx2Mjh3N0htYjR2YXc?oc=5)（unverified）
+- **2026-10-26｜连连国际** 连连数字(02598)10月26日斥资41.74万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTFBUX0hpcnNJRWFBNnVSQmdDc0ZpLVFvamZHcWlrbUhkZVdvYXlNamcxcmVvT3NRdFptTzBzU25od0pwZWNHSXVTdEg3TTNCZ2ZIekNrRFBtUTU1M05qVlZZRHpjR3dpcnBxTFUxbWp6NzA?oc=5)（unverified）
 - **2026-10-24｜连连国际** 连连数字谈AI出海支付：跨境支付从工具走向全球化智能金融新… [原文](https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3VE5ZenU5WEpfSElUcGZfeUNXRlVrSXJqZEZWMFRsbjFNaVdvNzRvaDI2V0dCTWxhb015VlJMMENWWUtCZmxRR0F4a3VMZw?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字附属公司认购创业投资基金2亿元 占比89.98% … [原文](https://news.google.com/rss/articles/CBMiYkFVX3lxTE83WWR6anVwU2RKZ3lHRmJ3RWtVRnRKOVZQajQ5VWNiV3JYSTY1VWNtZWhscDU5eG9XSWhTU3B2OTViOUw1enozQk5ZODBrSGhaeXVwYUpIbjc3cEo2R0dNNEVB?oc=5)（unverified）
 - **2026-10-23｜连连国际** 中信银行南京分行联合连连数字旗下境外持牌机构 让进口付汇全… [原文](https://news.google.com/rss/articles/CBMidEFVX3lxTE1yMXZUVmtPN01nUXc1X213aHZlbUFRZmc0aVdXTmNnWklsSWJXWnY5cG9laXlYOWVRb09fWngyTnlOV2FPWUNDU25fS3RWZkZFY2xZUW4wdk5rcVJVWlY4ODFycGVKMWNTSHRGMjEwSXdnRk93?oc=5)（unverified）
@@ -19,6 +22,8 @@
 - **2026-10-23｜连连国际** 连连数字：10月23日斥资49.65万港元回购15.3万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZSlJuTVNEWUtfRmxuMlFfa2V4V0NpcUJWdFBYc3FEYU5fY01TWHQzeDFxUnFJbmF2d2hpMWlXUG9NQnZLWm9GV090LTdCd3NRSGVmOHluMDR0b1Z3UjNHcm1Sb0VzUQ?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字附属公司认购创业投资基金2亿元 占比89.98% … [原文](https://news.google.com/rss/articles/CBMiTkFVX3lxTE8ySFBjQzNZYUt0WkhzZjFSYkx0bWhxYnV3Z3NqNXZUOXZEdDVUNnNzUjQyVmQ1Wm9ncnVlQmstWkR5XzZONTIzX2JsaEttdw?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字拟出资2亿元参设基金 聚焦半导体、AI 与先进制造… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTE02ZThaRGFzWF8wc2NnVEU4aFE2T0RwWGJXSWlWb2Z6TTdhSmRrUHhONmR1NFI4YThVc0lQTGVUUHhXMGZOMlRwWWJGa2NfY1NQTVBoZF9B?oc=5)（unverified）
+- **2026-10-23｜连连国际** LianLian Global与PayPal合作 支持向全… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xcV9hXzN0bWdvX0paaVVJU2dWczBsT3ZkMl9paHRVM1J2RlVOQWhPbEVpVTZFTmpvN2ZGdERuZWdNTUM1UjVnbDItc0pROW1memR5dGtrSHNyM0pz?oc=5)（unverified）
+- **2026-10-23｜连连国际** 19点聊电商：千峰访谈连连数字：从“跨境支付专家”迈向“值… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oa3VJRWtxdzNVTWhYajJraFRtYVJDQVRmcW85S2kxZ1ZoNHJhOVZTOXJQaHZlQzQwa2dMcThMZ05vSldnN1NlZFJlOUhZMWtYQnlRc3V3?oc=5)（unverified）
 - **2026-10-22｜派安盈** 派安盈定于11月5日披露三季报。 [原文](https://investor.payoneer.com/news-events/news-releases)（verified）
 - **2026-10-22｜连连国际** 连连分享香港本地化收单合作案例。 [原文](https://global.lianlianpay.com/news.html)（verified）
 - **2026-10-22｜派安盈** Payoneer Inc 评论 – 它是Safe和合法的吗… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE5aTm5SaU5TZ3Q3Mk90X3lsRU9OcDdlYjNUNXM1Y2c3X0JfdllRLVNNamtVaEUyZHFBemJ2eG12amcxOUpfMDVvRXlRVjNkbUlVemlUNXZSRFZORlJjcnZwMUpkaVY1XzItTEE?oc=5)（unverified）

@@ -19,6 +19,100 @@
   },
   "items": [
     {
+      "id": "search-968b784de0af0c9a17",
+      "company": "airwallex",
+      "date": "2026-10-26",
+      "title": "AI 企业跨境收款如何少走弯路？Airwallex 空中云汇提供思路 - 手机新浪网",
+      "summary": "AI 企业跨境收款如何少走弯路？Airwallex 空中云…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "手机新浪网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOHJSb0trRDYxVlo5c2pISjFwNDRvNlZ3WGFONHdrM285bU1xSF93RU1WdkhJWU01emlDMWU5YVozVVJYTTBjaFBqUW5mbHFwcmtVOFR3OTMzZzlxY2VWSHdCblQ5R19MLV9HdDRWUklsb3JmVlBPeEJydG5QZi04U2JvSEhJYTYzUC0wUExB?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-6b395da0c40c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-e0253e211298564ddd",
+      "company": "lianlian",
+      "date": "2026-10-26",
+      "title": "连连数字(02598.HK)10月26日耗资41.74万港元回购13万股-证券之星 - 证券之星",
+      "summary": "连连数字(02598.HK)10月26日耗资41.74万港…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vc3hUUHVpeU9NRGVVVVA3X2h1aFZsbzd1dkdpM2F2WkhFWFh6TlpvUGRUODV4M3V3TE9aakFjU00wd1Z2RDRyQ1lSV3AzUUxMVkx2Mjh3N0htYjR2YXc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4392bc66ac05",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-63da48a801e3939cfa",
+      "company": "lianlian",
+      "date": "2026-10-26",
+      "title": "连连数字(02598)10月26日斥资41.74万港元回购13万股 提供者 智通财经 - 英为财情 Investing.com",
+      "summary": "连连数字(02598)10月26日斥资41.74万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "英为财情 Investing.com",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUX0hpcnNJRWFBNnVSQmdDc0ZpLVFvamZHcWlrbUhkZVdvYXlNamcxcmVvT3NRdFptTzBzU25od0pwZWNHSXVTdEg3TTNCZ2ZIekNrRFBtUTU1M05qVlZZRHpjR3dpcnBxTFUxbWp6NzA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-03d3671ecc61",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-481161cc6ba24bbb19",
       "company": "lianlian",
       "date": "2026-10-24",
@@ -137,7 +231,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-7b083da47060",
+        "event_id": "event-4e78bda01afb",
         "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
@@ -292,7 +386,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-7b083da47060",
+        "event_id": "event-4e78bda01afb",
         "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
@@ -543,6 +637,68 @@
         "score": 0,
         "event_id": "event-77c4911745fd",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-87d08021ca514c5fec",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "LianLian Global与PayPal合作 支持向全球PayPal及美国Venmo账户付款 - Moomoo",
+      "summary": "LianLian Global与PayPal合作 支持向全…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "Moomoo",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xcV9hXzN0bWdvX0paaVVJU2dWczBsT3ZkMl9paHRVM1J2RlVOQWhPbEVpVTZFTmpvN2ZGdERuZWdNTUM1UjVnbDItc0pROW1memR5dGtrSHNyM0pz?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f68d02ce692d",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-96b0bac69db6d7cabe",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "19点聊电商：千峰访谈连连数字：从“跨境支付专家”迈向“值得信赖的全球化智能金融新- 栏目 - 亿邦动力网",
+      "summary": "19点聊电商：千峰访谈连连数字：从“跨境支付专家”迈向“值…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "亿邦动力网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oa3VJRWtxdzNVTWhYajJraFRtYVJDQVRmcW85S2kxZ1ZoNHJhOVZTOXJQaHZlQzQwa2dMcThMZ05vSldnN1NlZFJlOUhZMWtYQnlRc3V3?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4e78bda01afb",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2331,6 +2487,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-26T04:46:14.714001+00:00",
+  "updated_at": "2026-10-26T13:01:33.552598+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
