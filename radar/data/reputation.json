@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-26T13:01:37.542362+00:00",
+  "generated_at": "2026-10-26T22:39:58.784335+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 79,
-    "events": 63,
+    "articles": 81,
+    "events": 64,
     "sentiment": {
-      "中性": 79
+      "中性": 81
     },
     "crisis": {
-      "一般": 63
+      "一般": 64
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -564,7 +564,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -579,7 +579,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-5324d4fa63f589b4c2"
+        "search-5324d4fa63f589b4c2",
+        "search-cf522a322ef401bcbe"
       ]
     },
     {
@@ -963,6 +964,35 @@
       ]
     },
     {
+      "id": "event-b3774cba741c",
+      "company": "skyee",
+      "headline": "拉卡拉拟控股“Skyee”运营主体！资产最终交易价格待确定 - 新浪财经",
+      "date": "2026-10-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-374840c865fa49429c"
+      ]
+    },
+    {
       "id": "event-5a64fca17866",
       "company": "airwallex",
       "headline": "空中云汇与韩国ONE Store达成战略合作",
@@ -1052,6 +1082,36 @@
       ]
     },
     {
+      "id": "event-d230b1b1dd62",
+      "company": "skyee",
+      "headline": "拉卡拉控股Skyee：孙陶然，才是中国支付圈最被低估的出海操盘手 - 搜狐网",
+      "date": "2026-10-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-ac1ed5c31b91630dd1",
+        "search-98198839402900fbe5"
+      ]
+    },
+    {
       "id": "event-b1b8dec47873",
       "company": "worldfirst",
       "headline": "万里汇广交会展示Wyn全球账户智能体",
@@ -1107,36 +1167,6 @@
       ],
       "items": [
         "pingpong-20261019"
-      ]
-    },
-    {
-      "id": "event-d230b1b1dd62",
-      "company": "skyee",
-      "headline": "拉卡拉控股Skyee：孙陶然，才是中国支付圈最被低估的出海操盘手 - 搜狐网",
-      "date": "2026-10-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-ac1ed5c31b91630dd1",
-        "search-98198839402900fbe5"
       ]
     },
     {
@@ -1782,35 +1812,6 @@
       ]
     },
     {
-      "id": "event-63bf030ea566",
-      "company": "worldfirst",
-      "headline": "蚂蚁国际万里汇获批马来西亚央行MSB A类跨境支付服务许可 - 霞光社",
-      "date": "2026-10-13",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-ae82852748bada8dd9"
-      ]
-    },
-    {
       "id": "event-dd4f5c2e715c",
       "company": "skyee",
       "headline": "拉卡拉：正积极推进收购跨境支付服务平台“Skyee”控股权 - 东方财富",
@@ -1837,6 +1838,35 @@
       ],
       "items": [
         "search-0e67f64bc061829641"
+      ]
+    },
+    {
+      "id": "event-63bf030ea566",
+      "company": "worldfirst",
+      "headline": "蚂蚁国际万里汇获批马来西亚央行MSB A类跨境支付服务许可 - 霞光社",
+      "date": "2026-10-13",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-ae82852748bada8dd9"
       ]
     },
     {

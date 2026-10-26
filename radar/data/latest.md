@@ -30,6 +30,7 @@
 - **2026-10-22｜连连国际** 连连数字：10月22日斥资110.08万港元回购35.15… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE41VVh1c3hld2lUYWdPRktkOVlINTFEYWVIM3hFVk1GWllfZENjZXhnUGlNcGJNOHp2T0Fja2tHRnZsNmFTdm1GbzhXakZBUjR5RDdxdndJMXhHNzRsaTlpX2FHUWJ2Zw?oc=5)（unverified）
 - **2026-10-22｜连连国际** 连连数字(02598)10月22日斥资110.08万港元回… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WTGpPTUctbndIeGlYMUFXRFRsb1RCVUNzaGpwZGNzMHZmalBocVlGdHI5dG5ESEdpTGtpMy15enRnbWQyVTA0U0ptUHo?oc=5)（unverified）
 - **2026-10-22｜连连国际** 连连数字(02598.HK)10月22日耗资110万港元回… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE1fTXRDdjJwZzN4YTE1LUpGLUlSbE1RU2p1YUJFZ3cySDh4TmZhZjhja3ZVMVBYQUtNN19GR21JX3lzbDRnZU8ta2QydmFiTUlrNS1qbnV6QnZtTEdCV0RzTlN2U0FsTUw3NXc?oc=5)（unverified）
+- **2026-10-22｜连连国际** 连连数字(02598.HK)10月22日耗资110万港元回… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQjBDa1ZCN0wwc2RIbnZjRHhPY2tWSVNVTVJNM0tWNXd6X19ZSGl2OFk2S01HMi0yZFIyQzZaNjRZRHRGTGNlVnRPQlFYOFVKNjMyTTFrbk1DTm9OXzRvQS1wSkZtMUxpZEtR?oc=5)（unverified）
 - **2026-10-21｜空中云汇** 空中云汇续约迈凯伦，升级AI合作。 [原文](https://www.airwallex.com/cn/newsroom/f1-2027-ai)（verified）
 - **2026-10-21｜寻汇** 寻汇携手TourMind拓展全球旅游支付。 [原文](https://www.prnewswire.com/in/news-releases/sunrate-and-tourmind-partner-to-enhance-payment-capabilities-for-the-global-travel-industry-302913010.html)（verified）
 - **2026-10-21｜空中云汇** 迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20… [原文](https://news.google.com/rss/articles/CBMieEFVX3lxTE5SbnUwVUhjeS1xZEVMc3RUcFBiM3loVUJoOFhHRTN6R2I4VG9LUWJDbmRhOUVieTUwTVZLZGlmcWYtY3lneXN1QXltTVlRRjlWV05EeE4zbUd5YzlvT1ZnVlZNUW9IQld3NHpPME44OTBTbGs2aG1FWQ?oc=5)（unverified）
@@ -42,6 +43,7 @@
 - **2026-10-20｜连连国际** 连连数字(02598)10月20日耗资约72.42万港元回… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IUzFTTHFRV0dTa3U4RHUzUVFJMEpEalluSDdCbWROVm9vWTZTMzVQaVJ0T2lhTWZ1enhkMnpGdWNlQVNQNmdyZHhtbVM?oc=5)（unverified）
 - **2026-10-20｜连连国际** 连连数字(02598.HK)10月20日耗资72.4万港元… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE1CN3dFWjMwNE9EMUx4eklkMVl1NUo3Qm1QRFdTZzRHUVRUeF9EeVlqT1A5b2tJS1ZRT0FNWjJLMmZRVmpiUFgxeGdUOURkY0U1ZXgwTjl5S05pS3pFX1l0bUJzeWpTYmNHNjR3?oc=5)（unverified）
 - **2026-10-20｜空中云汇** Airwallex 空中云汇与韩国 ONE Store 签… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VRThzUjdEQ2JNR3NDMG5LT2QwQk1WamxRTTBlLWVUZGt6eWtIeE1VUXJGaEV2c0kyQl9rZS1LVmlvMkpjR3FzLXppWkU?oc=5)（unverified）
+- **2026-10-20｜Skyee** 拉卡拉拟控股“Skyee”运营主体！资产最终交易价格待确定… [原文](https://news.google.com/rss/articles/CBMieEFVX3lxTE52dnRDZEZyRzg3VU9xaGhaclhjRy1tWGlGT21yVzcza3ZVWUJvOXZIcFhzOWZfMTA4SGZQQlVSY3lyRWVBbzdkaW5jU3NfbDRqdDNvWldMSHhndElqVlBSWnlObzRocjIxRnN2YVNYYnJCZkVrQmtQbw?oc=5)（unverified）
 - **2026-10-19｜万里汇** 万里汇广交会展示Wyn与A2A协作。 [原文](https://m.21jingji.com/article/20261019/herald/d89b3011654b0b62824d52f22a7c039b_zaker.html)（verified）
 - **2026-10-19｜PingPong** PingPong展示非洲本币收付方案。 [原文](https://m.21jingji.com/article/20261019/herald/d89b3011654b0b62824d52f22a7c039b_zaker.html)（verified）
 - **2026-10-19｜空中云汇** 空中云汇与韩国ONE Store签署备忘录。 [原文](https://www.airwallex.com/cn/newsroom/airwallex-one-store)（verified）
