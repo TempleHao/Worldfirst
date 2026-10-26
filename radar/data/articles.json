@@ -485,6 +485,68 @@
       }
     },
     {
+      "id": "search-fc7581c601e7e4cbea",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "连连数字附属公司认购创业投资基金2亿元 占比89.98% - 观点网",
+      "summary": "连连数字附属公司认购创业投资基金2亿元 占比89.98% …",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "观点网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8ySFBjQzNZYUt0WkhzZjFSYkx0bWhxYnV3Z3NqNXZUOXZEdDVUNnNzUjQyVmQ1Wm9ncnVlQmstWkR5XzZONTIzX2JsaEttdw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9ecfec03de97",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-2d1ee3f19ea3bb2581",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "连连数字拟出资2亿元参设基金 聚焦半导体、AI 与先进制造 - QQ News",
+      "summary": "连连数字拟出资2亿元参设基金 聚焦半导体、AI 与先进制造…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "QQ News",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02ZThaRGFzWF8wc2NnVEU4aFE2T0RwWGJXSWlWb2Z6TTdhSmRrUHhONmR1NFI4YThVc0lQTGVUUHhXMGZOMlRwWWJGa2NfY1NQTVBoZF9B?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-77c4911745fd",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "payoneer-20261022",
       "company": "payoneer",
       "date": "2026-10-22",
@@ -1013,6 +1075,37 @@
       }
     },
     {
+      "id": "search-1d056120896571cb4d",
+      "company": "airwallex",
+      "date": "2026-10-20",
+      "title": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 极客公园",
+      "summary": "Airwallex 空中云汇与韩国 ONE Store 签…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "极客公园",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VRThzUjdEQ2JNR3NDMG5LT2QwQk1WamxRTTBlLWVUZGt6eWtIeE1VUXJGaEV2c0kyQl9rZS1LVmlvMkpjR3FzLXppWkU?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9765608b57e7",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "worldfirst-20261019",
       "company": "worldfirst",
       "date": "2026-10-19",
@@ -1317,8 +1410,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-15a24607e3ff",
-        "distinct_publishers": 1,
+        "event_id": "event-9765608b57e7",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1348,8 +1441,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-15a24607e3ff",
-        "distinct_publishers": 1,
+        "event_id": "event-9765608b57e7",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2021,6 +2114,37 @@
       }
     },
     {
+      "id": "search-bcd8aae08f3cfd337b",
+      "company": "lianlian",
+      "date": "2026-10-14",
+      "title": "连连数字连续第五次参展数贸会，全球支付与AI创新成果集中亮相 - 凤凰网",
+      "summary": "连连数字连续第五次参展数贸会，全球支付与AI创新成果集中亮…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MbkRKcGw3ektFblgzNXg3dUxVVWVGUEZsS0VYcnczQ2k4clVRQ0FabnQ3MU00U3B5TVA3enN6dU0tN0Y5TzkxdzF2Vjk?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-0ca5186a9969",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "payoneer-20261013",
       "company": "payoneer",
       "date": "2026-10-13",
@@ -2207,6 +2331,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-25T20:50:42.685808+00:00",
+  "updated_at": "2026-10-26T04:46:14.714001+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

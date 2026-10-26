@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-25T20:50:46.878939+00:00",
+  "generated_at": "2026-10-26T04:46:19.136537+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 70,
-    "events": 57,
+    "articles": 74,
+    "events": 59,
     "sentiment": {
-      "中性": 70
+      "中性": 74
     },
     "crisis": {
-      "一般": 57
+      "一般": 59
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -64,7 +64,7 @@
       "independent_publishers": 2,
       "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -80,7 +80,8 @@
       ],
       "items": [
         "search-5f2439d6411233f399",
-        "search-ff224d2b8998fc6054"
+        "search-ff224d2b8998fc6054",
+        "search-fc7581c601e7e4cbea"
       ]
     },
     {
@@ -317,6 +318,35 @@
       ],
       "items": [
         "search-35b09e6de545c7820b"
+      ]
+    },
+    {
+      "id": "event-77c4911745fd",
+      "company": "lianlian",
+      "headline": "连连数字拟出资2亿元参设基金 聚焦半导体、AI 与先进制造 - QQ News",
+      "date": "2026-10-23",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2d1ee3f19ea3bb2581"
       ]
     },
     {
@@ -785,6 +815,37 @@
       ]
     },
     {
+      "id": "event-9765608b57e7",
+      "company": "airwallex",
+      "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 极客公园",
+      "date": "2026-10-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 3,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1d056120896571cb4d",
+        "search-548192dfba929da160",
+        "search-b62164fad3af51d314"
+      ]
+    },
+    {
       "id": "event-c814fb0ee238",
       "company": "payoneer",
       "headline": "Payoneer发布稳定币在平台金融服务中的应用研究",
@@ -959,36 +1020,6 @@
       "items": [
         "search-ac1ed5c31b91630dd1",
         "search-98198839402900fbe5"
-      ]
-    },
-    {
-      "id": "event-15a24607e3ff",
-      "company": "airwallex",
-      "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 环球网",
-      "date": "2026-10-18",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-548192dfba929da160",
-        "search-b62164fad3af51d314"
       ]
     },
     {
@@ -1457,6 +1488,35 @@
       ],
       "items": [
         "search-903087f59e60081264"
+      ]
+    },
+    {
+      "id": "event-0ca5186a9969",
+      "company": "lianlian",
+      "headline": "连连数字连续第五次参展数贸会，全球支付与AI创新成果集中亮相 - 凤凰网",
+      "date": "2026-10-14",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-bcd8aae08f3cfd337b"
       ]
     },
     {
