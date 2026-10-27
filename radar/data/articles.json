@@ -200,7 +200,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-cc6f2d01a78a",
-        "distinct_publishers": 1,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -230,8 +230,101 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-6d6656e2397f",
+        "event_id": "event-aa42b97f6ba2",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-183cc83d8bfc9f7f17",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让进口付汇全流程线上化 - 紫牛新闻",
+      "summary": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "紫牛新闻",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05MDhCZlZ3aFBDbDZ3QUhaR19ESnE2dzJoWVBmMFpFSkZfVm11NGJXb3FjaWFXN2JwcElkdUhwMVJVWXBQTHlHSF9BWFM4UndyOUttb3BhbUZIb2R3RUhHR0s1T1ZjQ1NW?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-aa42b97f6ba2",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-523f2bfda486247d80",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "全国首单！连连数字联合中信银行实现进口付汇新突破 - 移动支付网",
+      "summary": "全国首单！连连数字联合中信银行实现进口付汇新突破 - 移动…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBR091X3oxQ1RPUFZvcVh4ajFuY3JYNTZWRFltZXFNTkVVdUNQRkpqQWpVZ0RWRUFDamxpdGJsSmtMdTVxSnBnVGp1WkZIM1BkZ1lIMUZJUkZPNDlseFh2RWVEUQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-22ed48d8377a",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-f2c5a06454ad8e8026",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "连连数字(02598)10月27日斥资28.22万港元回购8.85万股 - Moomoo",
+      "summary": "连连数字(02598)10月27日斥资28.22万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Moomoo",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLXRpd0hob3ZZN2xZZnBOR3hmYTEyZ3ZmaHkwX3VvS2V6M0pkV3hJV0hQeGQ4RDlYbWtjNTlKRXRxTm0yTXpPdHVqOWRvYzlWbmtRamNPVlBVdTV2bTU1SFJDN1BDZWhCbVJ3OXM1eVpOQWVxYnlITUhkbXllcFQxQ0VHMnA1ZVdQY3RSQTVDd1c1SGp4QmFfUVk0azUwMWpWd3N3UU05TWtuVmtham55TEttcWc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-cc6f2d01a78a",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2006,6 +2099,45 @@
       }
     },
     {
+      "id": "social-index-3229152d79bc19463470",
+      "company": "xtransfer",
+      "date": "2026-10-18",
+      "date_basis": "publication_index",
+      "title": "XTransfer疯狂收款哥的主页 - 抖音",
+      "summary": "XTransfer疯狂收款哥的主页 - 抖音",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "抖音",
+      "source_type": "search",
+      "channel": "douyin",
+      "platform": "douyin",
+      "discovery_method": "public_news_index",
+      "link_origin": "google-news-indirect",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPREMteVp2UGNXeWVGb3pKOG85N3NkRnhsNUJoWmtmS25lcVgyaGNnSGxsWTRPWmFsWjBLZlVSN01PVnRWUDZqblN6ZXQ5ODFUT0FOcFFiNEctRnRPSjhpMHJDa2Z6d3ZacXI1Z0lZeFp4cjhObmR2aWZMVTEwUk5HdDg2YUFPeEhXVFlTd2NCQ1liU1lMNlNUUUZKM0RGTjFoV2c0bDBXQUp4cC14?oc=5",
+      "status": "unverified",
+      "rights": "index_snippet_only",
+      "coverage": "partial_index_only",
+      "metrics": null,
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a4f2f97f9ab3",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-afb64701a13fbede33",
       "company": "lianlian",
       "date": "2026-10-17",
@@ -2921,6 +3053,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-27T12:10:36.138450+00:00",
+  "updated_at": "2026-10-27T18:00:32.603672+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
