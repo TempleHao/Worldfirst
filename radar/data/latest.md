@@ -2,9 +2,13 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-10-27｜万里汇** 外贸进入下半场：一站式外贸收付兑，万里汇给出新答案 - 雨… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTFBacjdrWkRWd1BFZUZrc3ljb1dyTzdDYmlwc0JJZTdkWk5tbkNWZ2xpRTFlS2Z0MzlkY3FPdkZrQnBqVFpiZ2JiSVZHaFc?oc=5)（unverified）
+- **2026-10-27｜连连国际** AI重塑跨境支付，连连数字“外贸B2B一站式解决方案”入选… [原文](https://news.google.com/rss/articles/CBMijAFBVV95cUxQX042S0FsQXhLN0dWUlJvSzNfSldZM3VCNm42bGtTVmtHOUsyQWtEamxiMldtZEtjLWk1bWxVR200T0NvUHZORTFzcVJzVlp4WDdqUmxYMDhRR2o0UjZsQzJBT3dpZW5Pc3h2M3hVdHpuUnhIOUNIN2pOUk1LSG9iLXM5VVc0SHZsbC1yMQ?oc=5)（unverified）
 - **2026-10-26｜空中云汇** AI 企业跨境收款如何少走弯路？Airwallex 空中云… [原文](https://news.google.com/rss/articles/CBMijgFBVV95cUxPOHJSb0trRDYxVlo5c2pISjFwNDRvNlZ3WGFONHdrM285bU1xSF93RU1WdkhJWU01emlDMWU5YVozVVJYTTBjaFBqUW5mbHFwcmtVOFR3OTMzZzlxY2VWSHdCblQ5R19MLV9HdDRWUklsb3JmVlBPeEJydG5QZi04U2JvSEhJYTYzUC0wUExB?oc=5)（unverified）
 - **2026-10-26｜连连国际** 连连数字(02598.HK)10月26日耗资41.74万港… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vc3hUUHVpeU9NRGVVVVA3X2h1aFZsbzd1dkdpM2F2WkhFWFh6TlpvUGRUODV4M3V3TE9aakFjU00wd1Z2RDRyQ1lSV3AzUUxMVkx2Mjh3N0htYjR2YXc?oc=5)（unverified）
 - **2026-10-26｜连连国际** 连连数字(02598)10月26日斥资41.74万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTFBUX0hpcnNJRWFBNnVSQmdDc0ZpLVFvamZHcWlrbUhkZVdvYXlNamcxcmVvT3NRdFptTzBzU25od0pwZWNHSXVTdEg3TTNCZ2ZIekNrRFBtUTU1M05qVlZZRHpjR3dpcnBxTFUxbWp6NzA?oc=5)（unverified）
+- **2026-10-26｜连连国际** 连连数字(02598)翌日披露报表 - [股份购回]翌日披… [原文](https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEQzdjg1dHVtS1VCaWhHUWVDQ3lJbl9CYk5fd3VlWk45M1RXWFpRX05oei1PY1I5VTNhcGNyV1IzM3FRQ0pDQlJDYVNoLWRmTDI5blc2Q1VZdHZRQW5IZnJNY1ZWeTBxd3RvRDYycG1jeVgxVnJjYzU3SVdnY1hDU3l6bGtNQ0U?oc=5)（unverified）
+- **2026-10-26｜连连国际** 连连数字（02598.HK）回购130,000股-证券之星… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FbXVqY0Njb3pLOEEzRlN1dFU0WEpqRHQ5M2thaXl0WXRpdTZHTmxlRjlhZ1JRcTVZMk1nb0FSblY0ZzUzUmptRW94T2NaSzd5T09aUlFDY3daT0xtRmc?oc=5)（unverified）
 - **2026-10-24｜连连国际** 连连数字谈AI出海支付：跨境支付从工具走向全球化智能金融新… [原文](https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3VE5ZenU5WEpfSElUcGZfeUNXRlVrSXJqZEZWMFRsbjFNaVdvNzRvaDI2V0dCTWxhb015VlJMMENWWUtCZmxRR0F4a3VMZw?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字附属公司认购创业投资基金2亿元 占比89.98% … [原文](https://news.google.com/rss/articles/CBMiYkFVX3lxTE83WWR6anVwU2RKZ3lHRmJ3RWtVRnRKOVZQajQ5VWNiV3JYSTY1VWNtZWhscDU5eG9XSWhTU3B2OTViOUw1enozQk5ZODBrSGhaeXVwYUpIbjc3cEo2R0dNNEVB?oc=5)（unverified）
 - **2026-10-23｜连连国际** 中信银行南京分行联合连连数字旗下境外持牌机构 让进口付汇全… [原文](https://news.google.com/rss/articles/CBMidEFVX3lxTE1yMXZUVmtPN01nUXc1X213aHZlbUFRZmc0aVdXTmNnWklsSWJXWnY5cG9laXlYOWVRb09fWngyTnlOV2FPWUNDU25fS3RWZkZFY2xZUW4wdk5rcVJVWlY4ODFycGVKMWNTSHRGMjEwSXdnRk93?oc=5)（unverified）
@@ -58,6 +62,7 @@
 - **2026-10-17｜连连国际** 广交会释放外贸新动能，连连数字加码新兴市场跨境支付服务 -… [原文](https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTlkc3NMMTVvV09JZFpmdWh0akdLNjN1MFBuQm52WDdLNU9HWjZuX1JTUGRiQUlMRzlORDF2UUhHWlh1RVp0TjR0U0dNRVBFcVdFRVJuUWhFSmc3SDZLUHU3WDVFMTk0dGZ0SUc2LXUwRjhFbDBPRVNmbkd6eU9KVUVRN0Y?oc=5)（unverified）
 - **2026-10-17｜XTransfer** XTransfer发布广交会参展宣传视频。 [原文](https://www.douyin.com/video/7697533899530740328)（unverified）
 - **2026-10-17｜Skyee** 发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfeDdGNFhtbDFWUWFpNHpaZkwzLXFSV0ZYTGdHREtkYVdydWZoNTZkQmE2Y1FWZEdfMmNxWHJrRm9xQkI0a3MxLWpFVG5YVk1wN1Y0b0ZVSENPaWJ0MHBLVg?oc=5)（unverified）
+- **2026-10-17｜Skyee** 发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨… [原文](https://news.google.com/rss/articles/CBMijAFBVV95cUxPS1BpYUt4aXpYS3JZa0JHR25uVzZTZS1JcG1DSXE2WW5KeEJOcnRweDRTMzhMbERPQWxQR3h0UEhCYmR4NndpQUxiWTc0ckd6enNoS0RSdlh5SGVEU0hNNVFBX3RsX2dGWXF2c0xqUDg0Yk80ZUJtODR1d0QwMS1vS0JFR3JpaUR0RzdzQQ?oc=5)（unverified）
 - **2026-10-16｜Skyee** 拉卡拉拟收购Skyee运营主体控股权。 [原文](https://www.nbd.com.cn/articles/2026-10-16/4607146.html)（verified）
 - **2026-10-16｜连连国际** 连连发布新兴市场B2B洞察白皮书。 [原文](https://global.lianlianpay.com/article/MTU5OTgzLDhkNQ.html)（verified）
 - **2026-10-16｜空中云汇** AI驱动收付，外贸增长提速Airwallex 空中云汇亮相… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE82c2FGRDB5OTR1ZFZJT2JtVkZUZ050VXNqWkI2TVBLSmZXeFFkckZOSWNiblBuczB0SFUwcFlDcTNuUkxIQ3pjNmtaOVBIZFdwWEMzRU8xbV9GUDNQSG1Ia25mb28?oc=5)（unverified）

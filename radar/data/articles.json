@@ -19,6 +19,68 @@
   },
   "items": [
     {
+      "id": "search-227ce4edf3287f9ac9",
+      "company": "worldfirst",
+      "date": "2026-10-27",
+      "title": "外贸进入下半场：一站式外贸收付兑，万里汇给出新答案 - 雨果跨境",
+      "summary": "外贸进入下半场：一站式外贸收付兑，万里汇给出新答案 - 雨…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "雨果跨境",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBacjdrWkRWd1BFZUZrc3ljb1dyTzdDYmlwc0JJZTdkWk5tbkNWZ2xpRTFlS2Z0MzlkY3FPdkZrQnBqVFpiZ2JiSVZHaFc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8434580b3ef7",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-134b15b8e0ae20a40c",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "AI重塑跨境支付，连连数字“外贸B2B一站式解决方案”入选博通报告 - 搜狐网",
+      "summary": "AI重塑跨境支付，连连数字“外贸B2B一站式解决方案”入选…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "搜狐网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX042S0FsQXhLN0dWUlJvSzNfSldZM3VCNm42bGtTVmtHOUsyQWtEamxiMldtZEtjLWk1bWxVR200T0NvUHZORTFzcVJzVlp4WDdqUmxYMDhRR2o0UjZsQzJBT3dpZW5Pc3h2M3hVdHpuUnhIOUNIN2pOUk1LSG9iLXM5VVc0SHZsbC1yMQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-928afc741907",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-968b784de0af0c9a17",
       "company": "airwallex",
       "date": "2026-10-26",
@@ -108,6 +170,68 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-03d3671ecc61",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-4a9c4012c472fe6715",
+      "company": "lianlian",
+      "date": "2026-10-26",
+      "title": "连连数字(02598)翌日披露报表 - [股份购回]翌日披露报表 - 新浪财经",
+      "summary": "连连数字(02598)翌日披露报表 - [股份购回]翌日披…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新浪财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEQzdjg1dHVtS1VCaWhHUWVDQ3lJbl9CYk5fd3VlWk45M1RXWFpRX05oei1PY1I5VTNhcGNyV1IzM3FRQ0pDQlJDYVNoLWRmTDI5blc2Q1VZdHZRQW5IZnJNY1ZWeTBxd3RvRDYycG1jeVgxVnJjYzU3SVdnY1hDU3l6bGtNQ0U?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8ad91c60bda8",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-26a75c4b390ffb271c",
+      "company": "lianlian",
+      "date": "2026-10-26",
+      "title": "连连数字（02598.HK）回购130,000股-证券之星 - 证券之星",
+      "summary": "连连数字（02598.HK）回购130,000股-证券之星…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FbXVqY0Njb3pLOEEzRlN1dFU0WEpqRHQ5M2thaXl0WXRpdTZHTmxlRjlhZ1JRcTVZMk1nb0FSblY0ZzUzUmptRW94T2NaSzd5T09aUlFDY3daT0xtRmc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b069a27cbd3d",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -1761,7 +1885,38 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-c13dac3ccb719bcc5d",
+      "company": "skyee",
+      "date": "2026-10-17",
+      "title": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - 搜狐",
+      "summary": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨…",
+      "category": "资本并购",
+      "priority": "normal",
+      "source": "搜狐",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS1BpYUt4aXpYS3JZa0JHR25uVzZTZS1JcG1DSXE2WW5KeEJOcnRweDRTMzhMbERPQWxQR3h0UEhCYmR4NndpQUxiWTc0ckd6enNoS0RSdlh5SGVEU0hNNVFBX3RsX2dGWXF2c0xqUDg0Yk80ZUJtODR1d0QwMS1vS0JFR3JpaUR0RzdzQQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-99a5bb87992f",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1947,7 +2102,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2549,6 +2704,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-26T22:39:54.769477+00:00",
+  "updated_at": "2026-10-27T05:03:56.453005+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
