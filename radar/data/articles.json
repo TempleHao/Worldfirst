@@ -81,6 +81,161 @@
       }
     },
     {
+      "id": "search-b346e852d25751e729",
+      "company": "worldfirst",
+      "date": "2026-10-27",
+      "title": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "summary": "2026跨境支付第三方支付平台对比：Ksher开时支付/连…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SYTNMTzFuYUd6Y3ZsUWJMWkdLWF8tNTN3Z0JTNzZTSm91eTJPb0FHd2dvTVNVM2NqcUdMN2ZDM0dCdjNfWFBGeXVqNzJHLV9veXdWeFAtdjB1UXkzcUc5WEtpWmo?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-36e42520c44f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-a85f3ae9af51dc6cde",
+      "company": "airwallex",
+      "date": "2026-10-27",
+      "title": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "summary": "2026跨境支付第三方支付平台对比：Ksher开时支付/连…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SYTNMTzFuYUd6Y3ZsUWJMWkdLWF8tNTN3Z0JTNzZTSm91eTJPb0FHd2dvTVNVM2NqcUdMN2ZDM0dCdjNfWFBGeXVqNzJHLV9veXdWeFAtdjB1UXkzcUc5WEtpWmo?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-d438aca59cfd",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-196c7e629c61ec5b12",
+      "company": "payoneer",
+      "date": "2026-10-27",
+      "title": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "summary": "2026跨境支付第三方支付平台对比：Ksher开时支付/连…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SYTNMTzFuYUd6Y3ZsUWJMWkdLWF8tNTN3Z0JTNzZTSm91eTJPb0FHd2dvTVNVM2NqcUdMN2ZDM0dCdjNfWFBGeXVqNzJHLV9veXdWeFAtdjB1UXkzcUc5WEtpWmo?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-ebd038e56ea7",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-839ee9435e31340393",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "连连数字(02598)10月27日斥资28.22万港元回购8.85万股_经济时评_财经 - 证券之星",
+      "summary": "连连数字(02598)10月27日斥资28.22万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Ba3hEd3RsNGFkaUtJY3RieEI1WGtLTHNCUXpyTk5rai1yOVUtcnRzZU1oM2RCQVBGeURnLVZoLUhscWVFUW1mM0NETUxkczc1d0FrbnRmN3NBOEN2VEhBVg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-cc6f2d01a78a",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-b00b549fa6bc4f0deb",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让进口付汇全流程线上化 - 手机新浪网",
+      "summary": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "手机新浪网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SSWVMUW40R1c2bldfTDFlRU1lT3Y0V0VRbnFITkx2ZTBoTDVRTnFmSXNGbk5LM09vZ3AyUGVqZTlIamE5RzVzR1hpSGM5MlUtV1dDU2VuWHVDTDJLRzBDNE91U3RJX0lSVlpULVVwRVY?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-6d6656e2397f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-968b784de0af0c9a17",
       "company": "airwallex",
       "date": "2026-10-26",
@@ -324,8 +479,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-15f1a18cdb36",
-        "distinct_publishers": 1,
+        "event_id": "event-f2576f3ee54e",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -822,6 +977,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-4e78bda01afb",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-2083f6fbb71bd62e14",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让进口付汇全流程线上化 - 凤凰网江苏",
+      "summary": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "凤凰网江苏",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE11NS1Ebk13U3IzZjhyU2dWcnNnSW5yTWIwQl9tUXBtWHlQM0V6akZpWGRMdEFTN0tuYjJiU2hIdTF6LWZNUnR1RnRn?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f2576f3ee54e",
         "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
@@ -1412,7 +1598,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1727,6 +1913,37 @@
       }
     },
     {
+      "id": "search-74ae5ca20830ab4777",
+      "company": "airwallex",
+      "date": "2026-10-19",
+      "title": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 中华网",
+      "summary": "Airwallex 空中云汇与韩国 ONE Store 签…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "中华网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iOGVsYzFnNXc3T1pVX285RG40U2dMa2xDZTRNWUZiUUt5RVZGVVFuS0U0X0xXblVBQUhVejNWckZnUVZnbENZSjhWNW01NzF3aFZvTkF2SWFtdGZDR084UmRfQ1NMZ3kxQU0wVk5reW1zb2ozN0E?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9765608b57e7",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-548192dfba929da160",
       "company": "airwallex",
       "date": "2026-10-18",
@@ -1753,7 +1970,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1784,7 +2001,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2704,6 +2921,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-27T05:03:56.453005+00:00",
+  "updated_at": "2026-10-27T12:10:36.138450+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
