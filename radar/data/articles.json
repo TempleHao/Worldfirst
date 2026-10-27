@@ -231,7 +231,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-aa42b97f6ba2",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -262,7 +262,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-aa42b97f6ba2",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -325,6 +325,37 @@
         "score": 0,
         "event_id": "event-cc6f2d01a78a",
         "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-731f21f7af5ed802e1",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让进口付汇全流程线上化 - 新浪财经",
+      "summary": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "新浪财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9fblp3SW9WcDNUbmlQSU9leDdzUjhoNkhVY3J0X3hNOFhFdUZzX28xem9peGlNN1VabGVXTVZmc1pTbUdINzJlSkZMV1Rkdjd5eVc1Rkx6TlBXRk1lcmluWFNIVlg0YkZhYnF2cUJyQ20yeG9RdkwwVQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-aa42b97f6ba2",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -852,8 +883,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-26b90001d9cd",
-        "distinct_publishers": 1,
+        "event_id": "event-0bc7dfd6e092",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1038,8 +1069,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-f68d02ce692d",
-        "distinct_publishers": 1,
+        "event_id": "event-bc462fa90070",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1101,6 +1132,69 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f2576f3ee54e",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-402edcc3877de601a5",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "LianLian Global与PayPal（PYPL）合作 支持向全球PayPal及美国Venmo账户付款 - 凤凰网",
+      "summary": "LianLian Global与PayPal（PYPL）合…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tNFRSaTBPcDdjZUE1Q21pUGEtb21NcnVKT3ZmdTlPdkswOThNLVJXUmlRa0lrNzBhNWZVYUlxNkhPV3hjVjJTYXd0d1k?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-bc462fa90070",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-75008ae36ce6f7bcd1",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ - 新浪财经",
+      "summary": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ -…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "新浪财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXOTFoV0xNNFpTUGlvbXFrZ2NaXzZPN3lGWUlVOFRXa0x1WEJrTWk3STRSVXFyNUtpS0xYMzhxYUE3SXR2ZW9CMGhkUmVDMEtRYlc2MFRsZlVwNmQtdEVWblN5c196Y2hDb2xMbmdn?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-0bc7dfd6e092",
         "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
@@ -2712,6 +2806,37 @@
       }
     },
     {
+      "id": "search-6038b477c8b8c16018",
+      "company": "lianlian",
+      "date": "2026-10-15",
+      "title": "连连数字(02598)10月15日斥资146.54万港元回购48.3万股 - 凤凰网",
+      "summary": "连连数字(02598)10月15日斥资146.54万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZaFA4TXlrNHc3MEI3ZUtEVW1oME1xc2Fka0NkWjBzU2pwS1IzNFJUWmhVb2c3MVk2N2xfX184dElYOFdGOXBWSWhyNTY?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c0f0076cb40f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "xtransfer-20261014",
       "company": "xtransfer",
       "date": "2026-10-14",
@@ -3053,6 +3178,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-27T18:00:32.603672+00:00",
+  "updated_at": "2026-10-27T22:14:10.770879+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
