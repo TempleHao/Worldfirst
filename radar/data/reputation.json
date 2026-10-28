@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-28T12:54:31.595614+00:00",
+  "generated_at": "2026-10-28T22:34:50.481240+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,10 +12,10 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 106,
+    "articles": 107,
     "events": 80,
     "sentiment": {
-      "中性": 106
+      "中性": 107
     },
     "crisis": {
       "一般": 80
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "id": "event-22ed48d8377a",
+      "id": "event-bcb060093462",
       "company": "lianlian",
       "headline": "全国首单！连连数字联合中信银行实现进口付汇新突破 - 移动支付网",
       "date": "2026-10-27",
@@ -184,7 +184,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -199,7 +199,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-523f2bfda486247d80"
+        "search-523f2bfda486247d80",
+        "search-1f76b52fc3c165c9d7"
       ]
     },
     {

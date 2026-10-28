@@ -1,7 +1,7 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-10-28T12:54:27.604494+00:00",
-  "last_success_at": "2026-10-28T12:54:27.604494+00:00",
+  "last_attempt_at": "2026-10-28T22:34:45.977876+00:00",
+  "last_success_at": "2026-10-28T22:34:45.977876+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
   "new_items": 1,
@@ -24,7 +24,7 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 35
+      "matched": 29
     },
     "pingpong": {
       "ok": true,
