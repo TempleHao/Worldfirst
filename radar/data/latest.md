@@ -3,6 +3,7 @@
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
 - **2026-10-28｜PingPong** PingPong跨境支付：牌照夯实合规基础，本地支付提升客… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE05NnJ3YkQxbHdiNlhnOHl6WDhaOGZOekJaMXJ4bzJacDVaRHVnM2taNE1Pd2k2SFBNZHZoTHpEVnZGZzZiSU83VWpZQlEzQVlrY2swV2pvTEpJMGV2Q2c?oc=5)（unverified）
+- **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XcUFmQk1LZ2tfbXN6aXhMUHBxSWhkRTNzdVFMdGtCZ1hGZFBlTXBKUUwxV0VDMHRncXkyNXpCbHNFdUpXMlNnU2dtN285aGVfZVhBRHcybEVYa2FqbE91eg?oc=5)（unverified）
 - **2026-10-27｜万里汇** 外贸进入下半场：一站式外贸收付兑，万里汇给出新答案 - 雨… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTFBacjdrWkRWd1BFZUZrc3ljb1dyTzdDYmlwc0JJZTdkWk5tbkNWZ2xpRTFlS2Z0MzlkY3FPdkZrQnBqVFpiZ2JiSVZHaFc?oc=5)（unverified）
 - **2026-10-27｜连连国际** AI重塑跨境支付，连连数字“外贸B2B一站式解决方案”入选… [原文](https://news.google.com/rss/articles/CBMijAFBVV95cUxQX042S0FsQXhLN0dWUlJvSzNfSldZM3VCNm42bGtTVmtHOUsyQWtEamxiMldtZEtjLWk1bWxVR200T0NvUHZORTFzcVJzVlp4WDdqUmxYMDhRR2o0UjZsQzJBT3dpZW5Pc3h2M3hVdHpuUnhIOUNIN2pOUk1LSG9iLXM5VVc0SHZsbC1yMQ?oc=5)（unverified）
 - **2026-10-27｜万里汇** 2026跨境支付第三方支付平台对比：Ksher开时支付/连… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SYTNMTzFuYUd6Y3ZsUWJMWkdLWF8tNTN3Z0JTNzZTSm91eTJPb0FHd2dvTVNVM2NqcUdMN2ZDM0dCdjNfWFBGeXVqNzJHLV9veXdWeFAtdjB1UXkzcUc5WEtpWmo?oc=5)（unverified）

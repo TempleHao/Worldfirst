@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-28T05:42:10.244808+00:00",
+  "generated_at": "2026-10-28T12:54:31.595614+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 105,
-    "events": 79,
+    "articles": 106,
+    "events": 80,
     "sentiment": {
-      "中性": 105
+      "中性": 106
     },
     "crisis": {
-      "一般": 79
+      "一般": 80
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -54,10 +54,10 @@
       ]
     },
     {
-      "id": "event-8434580b3ef7",
-      "company": "worldfirst",
-      "headline": "外贸进入下半场：一站式外贸收付兑，万里汇给出新答案 - 雨果跨境",
-      "date": "2026-10-27",
+      "id": "event-f4abe386b6b8",
+      "company": "lianlian",
+      "headline": "连连数字(02598)10月28日斥资29.61万港元回购9.3万股_经济时评_财经 - 证券之星",
+      "date": "2026-10-28",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -79,36 +79,7 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-227ce4edf3287f9ac9"
-      ]
-    },
-    {
-      "id": "event-36e42520c44f",
-      "company": "worldfirst",
-      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
-      "date": "2026-10-27",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-b346e852d25751e729"
+        "search-b6899dd43f95397b1b"
       ]
     },
     {
@@ -229,6 +200,64 @@
       ],
       "items": [
         "search-523f2bfda486247d80"
+      ]
+    },
+    {
+      "id": "event-8434580b3ef7",
+      "company": "worldfirst",
+      "headline": "外贸进入下半场：一站式外贸收付兑，万里汇给出新答案 - 雨果跨境",
+      "date": "2026-10-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-227ce4edf3287f9ac9"
+      ]
+    },
+    {
+      "id": "event-36e42520c44f",
+      "company": "worldfirst",
+      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "date": "2026-10-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-b346e852d25751e729"
       ]
     },
     {
@@ -2169,35 +2198,6 @@
       ]
     },
     {
-      "id": "event-63bf030ea566",
-      "company": "worldfirst",
-      "headline": "蚂蚁国际万里汇获批马来西亚央行MSB A类跨境支付服务许可 - 霞光社",
-      "date": "2026-10-13",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-ae82852748bada8dd9"
-      ]
-    },
-    {
       "id": "event-5e0937c4e045",
       "company": "lianlian",
       "headline": "连连数字再回应支付牌照续展审查被中止：个别客户风险事件所致，不影响有效性 - 国际金融报",
@@ -2253,6 +2253,35 @@
       ],
       "items": [
         "search-09248a7802a345295f"
+      ]
+    },
+    {
+      "id": "event-63bf030ea566",
+      "company": "worldfirst",
+      "headline": "蚂蚁国际万里汇获批马来西亚央行MSB A类跨境支付服务许可 - 霞光社",
+      "date": "2026-10-13",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-ae82852748bada8dd9"
       ]
     },
     {

@@ -1,10 +1,10 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-10-28T05:42:06.598347+00:00",
-  "last_success_at": "2026-10-28T05:42:06.598347+00:00",
+  "last_attempt_at": "2026-10-28T12:54:27.604494+00:00",
+  "last_success_at": "2026-10-28T12:54:27.604494+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
-  "new_items": 4,
+  "new_items": 1,
   "sources": {
     "worldfirst": {
       "ok": true,
@@ -40,7 +40,7 @@
     },
     "skyee": {
       "ok": true,
-      "matched": 4
+      "matched": 3
     }
   },
   "notes": "公开 Google News RSS 实验性采集，不能推算全网声量。"
