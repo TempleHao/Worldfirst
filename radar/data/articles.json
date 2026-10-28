@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-e1a17a3acdb83527d9",
+      "company": "pingpong",
+      "date": "2026-10-28",
+      "title": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客户转化 - 新讯网",
+      "summary": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客…",
+      "category": "监管合规",
+      "priority": "normal",
+      "source": "新讯网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05NnJ3YkQxbHdiNlhnOHl6WDhaOGZOekJaMXJ4bzJacDVaRHVnM2taNE1Pd2k2SFBNZHZoTHpEVnZGZzZiSU83VWpZQlEzQVlrY2swV2pvTEpJMGV2Q2c?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e3e82cc8f12d",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-227ce4edf3287f9ac9",
       "company": "worldfirst",
       "date": "2026-10-27",
@@ -199,8 +230,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-cc6f2d01a78a",
-        "distinct_publishers": 2,
+        "event_id": "event-e481c56f48b0",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -323,8 +354,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-cc6f2d01a78a",
-        "distinct_publishers": 2,
+        "event_id": "event-e481c56f48b0",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -356,6 +387,69 @@
         "score": 0,
         "event_id": "event-aa42b97f6ba2",
         "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-3dcd7e1d25c2e8b09d",
+      "company": "lianlian",
+      "date": "2026-10-27",
+      "title": "连连数字(02598)10月27日斥资28.22万港元回购8.85万股 - 富途牛牛",
+      "summary": "连连数字(02598)10月27日斥资28.22万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "富途牛牛",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNklOeFNoX1VkV2ZaQWV0SEpvd1VIZGpCOEpEQjBzUkF6X3lHOWtvc2ZTdUQtTEY3VXRXMWdrT3dnQTZXYmRiZUNXSHctMnlhMnRJS1o1aUxfeWhuSTJxSHFrRUs2enY0OHdCeVhWa25jbXE2ZThUdFRjZ0p2SGhidUg0Wl9WaDRVbGVIdmx2ZUw0anhOWEZ5Mkw5WkY3MGhBMmNpODFUeXU?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e481c56f48b0",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-61c7593ec7f8329571",
+      "company": "skyee",
+      "date": "2026-10-27",
+      "title": "财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？ - Jiemian.com",
+      "summary": "财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？…",
+      "category": "资本并购",
+      "priority": "normal",
+      "source": "Jiemian.com",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wWTBSVXBfd3lFR2RhU2w4ZDFoeF9CVjhMUWM1aEpmUG1CMjFCSzJTQTd3OFRVRFRhUElidFRYdG5YcUUyT3htc2VaVDdMMEJvck16eW83TUs?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2e72766ed0eb",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1413,6 +1507,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-ed8cf2229098",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-a27b48eb5547e14a8e",
+      "company": "pingpong",
+      "date": "2026-10-22",
+      "title": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
+      "summary": "PingPong跨境支付：自主支付基建，高效化解跨市场多币…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新讯网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KRlFoMEtUdUttNUx5TGdXZXR6VHF5ZkdzcmZsRG5ySU1femxnWXFKXzljT2JwZl8xNDRxVHhUbWNwbGFoeG5lX19abmlfcGhkZHc4V2w3UEpPa3JhQWc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-1fde3761b428",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -3178,6 +3303,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-27T22:14:10.770879+00:00",
+  "updated_at": "2026-10-28T05:42:06.598347+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
