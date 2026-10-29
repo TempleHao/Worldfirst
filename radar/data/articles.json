@@ -75,8 +75,39 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-f4abe386b6b8",
-        "distinct_publishers": 1,
+        "event_id": "event-60c8c2b19b26",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-3e3cacb12c247b12be",
+      "company": "lianlian",
+      "date": "2026-10-28",
+      "title": "连连数字(02598)10月28日斥资29.61万港元回购9.3万股_股市直播_市场 - 中金在线",
+      "summary": "连连数字(02598)10月28日斥资29.61万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "中金在线",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zUWxMeTJGcy1lZ1h0TWhUamc2UWtJNVAtRkt5cEh0UU9BbDl2d3FFQldCcjdEa2dpUkVxRUFvVFQyWUhnYTFZN1k5SVNwRDk2UVFVbmJ3N1FMYkVaYlMwLTJuSjUwa0hCbk9kSQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-60c8c2b19b26",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1040,7 +1071,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-0bc7dfd6e092",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1351,7 +1382,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-0bc7dfd6e092",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1601,6 +1632,38 @@
         "score": 0,
         "event_id": "event-1fde3761b428",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-ae66a25c1d60adb939",
+      "company": "lianlian",
+      "date": "2026-10-22",
+      "title": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ - 移动支付网",
+      "summary": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ -…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsN3ZNSTFfRDYtMXpkT2w3NWJlTV8tcDM1NjZva19kOFU4Z3NVdnpRYnNoSWN2LVFDSDVJbG5kOHlYZldfOXZpSlZOR1VuN2xTY09KUmp3Q0hBODlyOUVkaA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-0bc7dfd6e092",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -3365,6 +3428,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-28T22:34:45.977876+00:00",
+  "updated_at": "2026-10-29T05:47:17.376179+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

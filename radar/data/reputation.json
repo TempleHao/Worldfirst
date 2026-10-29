@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-28T22:34:50.481240+00:00",
+  "generated_at": "2026-10-29T05:47:21.664140+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,10 +12,10 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 107,
+    "articles": 109,
     "events": 80,
     "sentiment": {
-      "中性": 107
+      "中性": 109
     },
     "crisis": {
       "一般": 80
@@ -54,17 +54,17 @@
       ]
     },
     {
-      "id": "event-f4abe386b6b8",
+      "id": "event-60c8c2b19b26",
       "company": "lianlian",
       "headline": "连连数字(02598)10月28日斥资29.61万港元回购9.3万股_经济时评_财经 - 证券之星",
       "date": "2026-10-28",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -79,7 +79,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-b6899dd43f95397b1b"
+        "search-b6899dd43f95397b1b",
+        "search-3e3cacb12c247b12be"
       ]
     },
     {
@@ -736,15 +737,15 @@
     {
       "id": "event-0bc7dfd6e092",
       "company": "lianlian",
-      "headline": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ - 新浪财经",
+      "headline": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ - 移动支付网",
       "date": "2026-10-23",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
+      "independent_publishers": 3,
+      "publisher_count": 3,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -760,7 +761,8 @@
       ],
       "items": [
         "search-e28317ddabe62e24b5",
-        "search-75008ae36ce6f7bcd1"
+        "search-75008ae36ce6f7bcd1",
+        "search-ae66a25c1d60adb939"
       ]
     },
     {
