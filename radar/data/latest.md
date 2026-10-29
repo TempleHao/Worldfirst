@@ -4,6 +4,7 @@
 
 - **2026-10-29｜连连国际** 连连数字：10月29日斥资31.05万港元回购9.85万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE04X184ZUo4emxNSDRUbS1pVFUzeGs1OEZqUm5pbTJKQjZHRFFyc3dzNWcwTDljX1RlcmwtejlwMzZUZTdmVk43aG1kSXVmaWMwLUFlemJ1SFNub1k4N3ZHc3RPVzNDZw?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字(02598)10月29日斥资31.05万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnBUcUpYeFBYWEVKaktzTDc4MGVNckVhTGpUMkdSZXlMQVNUYUg0bzlRT3lGbGRCY3I2OUJVRks3NjVfMlJvLXRSQnYtSUFMZkVkWlUxenZ3WWNhZlR6MQ?oc=5)（unverified）
+- **2026-10-29｜连连国际** 连连数字(02598.HK)10月29日耗资31万港元回购… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZbGlRd3J3SkQ3Y1BvVC1BM0lmSjdaYlo4SzhRcndWMEpvNkZWNTB4NWl5NjM0OHFjMVN6U0xGVGdGeGNEU0tYZnVienZjckZLTTlFT2pJSkRuSGl3?oc=5)（unverified）
 - **2026-10-28｜PingPong** PingPong跨境支付：牌照夯实合规基础，本地支付提升客… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE05NnJ3YkQxbHdiNlhnOHl6WDhaOGZOekJaMXJ4bzJacDVaRHVnM2taNE1Pd2k2SFBNZHZoTHpEVnZGZzZiSU83VWpZQlEzQVlrY2swV2pvTEpJMGV2Q2c?oc=5)（unverified）
 - **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XcUFmQk1LZ2tfbXN6aXhMUHBxSWhkRTNzdVFMdGtCZ1hGZFBlTXBKUUwxV0VDMHRncXkyNXpCbHNFdUpXMlNnU2dtN285aGVfZVhBRHcybEVYa2FqbE91eg?oc=5)（unverified）
 - **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMibEFVX3lxTE0zUWxMeTJGcy1lZ1h0TWhUamc2UWtJNVAtRkt5cEh0UU9BbDl2d3FFQldCcjdEa2dpUkVxRUFvVFQyWUhnYTFZN1k5SVNwRDk2UVFVbmJ3N1FMYkVaYlMwLTJuSjUwa0hCbk9kSQ?oc=5)（unverified）
@@ -97,6 +98,7 @@
 - **2026-10-16｜Skyee** 发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨… [原文](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aMHhUU2dzUjc5NnlJR3ZNZ2VhVW9aanpBeUpXUlFReFAxakpPT2Z6dWowdlpzQVN4WWo2d0I5UlF2WlJ5aHlJamJsZml0bnVlLXNsczUwcnU?oc=5)（unverified）
 - **2026-10-16｜Skyee** 「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加… [原文](https://news.google.com/rss/articles/CBMiU0FVX3lxTE96TEtPaFRHVFFoYnpadFNOUFpGOTFmdWlUa2JXVFlZMFcyVG1sMGFEdnF5SFdIejBfalZ5elk0dzdGdnREb290NFZqa2xJMDloWnhR?oc=5)（unverified）
 - **2026-10-16｜Skyee** 「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iT1dZVE1ZTS1aNXFuTXliNEFIVlBkRXBXVS1Rb0ktQnVJTG9kZjA4ODNBblhGZGs4TXJtYW9UOWd3WDMyT2JUeXV1N2RWeVZreDZTTlQ3Ri13cUpI?oc=5)（unverified）
+- **2026-10-16｜Skyee** 24万卖家的收款工具Skyee要卖了？本土店卖家的钱袋子会… [原文](https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MaGZzR1lHMnNrR0x5dVdDeTdIQS1MamlTc29sdk1hRnlvcW9DY2lMVDVweVJYbDRpVGYzTDE5eWJzbVVQMUtrZDhQMEJlZw?oc=5)（unverified）
 - **2026-10-15｜珊瑚跨境** 珊瑚跨境强调全球化本地合规能力。 [原文](https://caifuhao.eastmoney.com/news/20261015114000776912970)（verified）
 - **2026-10-15｜空中云汇** Airwallex空中云汇与韩国 ONE Store 签署… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBldFVuLUd2VFlRMXZwTThqa0pWWEVCSUdOeWwycUJ4STMtckl6dEV0YkxOcDB4S2FwSGpqUHBiLXNiTjNzTzdlSVFESkVKbGZYVjllamNR?oc=5)（unverified）
 - **2026-10-15｜连连国际** 连连数字官网全面升级 系统化展示AI产品矩阵与全球化出海服… [原文](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PSV9tMHRVZWtybWl0VjhYMGd4NjlTZkp6YXhCQ3Y5Q3hmaUdKYzNoLWV1aDlqdkF0ZV9idVlCazFBa010Y1UtdzF0MVhPLWtzbkE?oc=5)（unverified）

@@ -1,10 +1,10 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-10-29T12:59:50.520403+00:00",
-  "last_success_at": "2026-10-29T12:59:50.520403+00:00",
+  "last_attempt_at": "2026-10-29T22:44:50.688934+00:00",
+  "last_success_at": "2026-10-29T22:44:50.688934+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
-  "new_items": 4,
+  "new_items": 2,
   "sources": {
     "worldfirst": {
       "ok": true,
@@ -12,7 +12,7 @@
     },
     "airwallex": {
       "ok": true,
-      "matched": 7
+      "matched": 8
     },
     "payoneer": {
       "ok": true,
@@ -24,7 +24,7 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 35
+      "matched": 30
     },
     "pingpong": {
       "ok": true,
@@ -40,7 +40,7 @@
     },
     "skyee": {
       "ok": true,
-      "matched": 3
+      "matched": 4
     }
   },
   "notes": "公开 Google News RSS 实验性采集，不能推算全网声量。"

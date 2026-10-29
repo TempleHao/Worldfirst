@@ -81,6 +81,37 @@
       }
     },
     {
+      "id": "search-02eecea7748679535c",
+      "company": "lianlian",
+      "date": "2026-10-29",
+      "title": "连连数字(02598.HK)10月29日耗资31万港元回购9.85万股 - Moomoo",
+      "summary": "连连数字(02598.HK)10月29日耗资31万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Moomoo",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZbGlRd3J3SkQ3Y1BvVC1BM0lmSjdaYlo4SzhRcndWMEpvNkZWNTB4NWl5NjM0OHFjMVN6U0xGVGdGeGNEU0tYZnVienZjckZLTTlFT2pJSkRuSGl3?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-68f8cd5f9347",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-e1a17a3acdb83527d9",
       "company": "pingpong",
       "date": "2026-10-28",
@@ -2995,6 +3026,38 @@
       }
     },
     {
+      "id": "search-da16f53e46f6a6f557",
+      "company": "skyee",
+      "date": "2026-10-16",
+      "title": "24万卖家的收款工具Skyee要卖了？本土店卖家的钱袋子会变吗 - 全球定制网",
+      "summary": "24万卖家的收款工具Skyee要卖了？本土店卖家的钱袋子会…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "全球定制网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MaGZzR1lHMnNrR0x5dVdDeTdIQS1MamlTc29sdk1hRnlvcW9DY2lMVDVweVJYbDRpVGYzTDE5eWJzbVVQMUtrZDhQMEJlZw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8e984dfa5c17",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "coral-20261015",
       "company": "coral",
       "date": "2026-10-15",
@@ -3553,6 +3616,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-29T12:59:50.520403+00:00",
+  "updated_at": "2026-10-29T22:44:50.688934+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
