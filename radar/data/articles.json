@@ -19,6 +19,68 @@
   },
   "items": [
     {
+      "id": "search-15516e3a657178d109",
+      "company": "lianlian",
+      "date": "2026-10-29",
+      "title": "连连数字：10月29日斥资31.05万港元回购9.85万股 - 东方财富",
+      "summary": "连连数字：10月29日斥资31.05万港元回购9.85万股…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04X184ZUo4emxNSDRUbS1pVFUzeGs1OEZqUm5pbTJKQjZHRFFyc3dzNWcwTDljX1RlcmwtejlwMzZUZTdmVk43aG1kSXVmaWMwLUFlemJ1SFNub1k4N3ZHc3RPVzNDZw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-1553797907ca",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-d828ad1b46c3b20b8d",
+      "company": "lianlian",
+      "date": "2026-10-29",
+      "title": "连连数字(02598)10月29日斥资31.05万港元回购9.85万股_经济时评_财经 - 证券之星",
+      "summary": "连连数字(02598)10月29日斥资31.05万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnBUcUpYeFBYWEVKaktzTDc4MGVNckVhTGpUMkdSZXlMQVNUYUg0bzlRT3lGbGRCY3I2OUJVRks3NjVfMlJvLXRSQnYtSUFMZkVkWlUxenZ3WWNhZlR6MQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-6417af8d74ee",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-e1a17a3acdb83527d9",
       "company": "pingpong",
       "date": "2026-10-28",
@@ -1387,6 +1449,38 @@
       }
     },
     {
+      "id": "search-9d6528f328dd55048f",
+      "company": "lianlian",
+      "date": "2026-10-23",
+      "title": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ - 搜狐网",
+      "summary": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ -…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "搜狐网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hVng3aGZyaElIVkNtWlRueVVqWHlUYWNRQmFOS2JGd3NoWmhRYmFrMWtTNjY3cWhfTGoycE5Edk1ZQXF0QmVEQ0RQV2UwV2dPM09nNmhsd1Rza0hTakZoV3hLZjJqMWc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-0bc7dfd6e092",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "payoneer-20261022",
       "company": "payoneer",
       "date": "2026-10-22",
@@ -1668,6 +1762,37 @@
       }
     },
     {
+      "id": "search-642e6e02f953dae4b7",
+      "company": "airwallex",
+      "date": "2026-10-22",
+      "title": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 中国日报网",
+      "summary": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "中国日报网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhSlUwN2NlT2dhd1VlNldqWUt0ZEFldWFaMDNfU1lvWW1TbW50b0xETVdWYlZWOEd5XzZMLVBrT21wdTVFZTJDNjdHTEpFTDREZXAyYUFxSDVGUXkyWmNBUVQ4blVVOXVvdGx0M0xTUnFaUmZ0NzFXWVFtdmY?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-eae09fe57348",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "airwallex-20261021",
       "company": "airwallex",
       "date": "2026-10-21",
@@ -1756,7 +1881,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-eae09fe57348",
-        "distinct_publishers": 1,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -3428,6 +3553,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-29T05:47:17.376179+00:00",
+  "updated_at": "2026-10-29T12:59:50.520403+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

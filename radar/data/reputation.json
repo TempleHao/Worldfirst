@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-29T05:47:21.664140+00:00",
+  "generated_at": "2026-10-29T12:59:54.848652+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,23 +12,23 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 109,
-    "events": 80,
+    "articles": 113,
+    "events": 82,
     "sentiment": {
-      "中性": 109
+      "中性": 113
     },
     "crisis": {
-      "一般": 80
+      "一般": 82
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
     {
-      "id": "event-e3e82cc8f12d",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客户转化 - 新讯网",
-      "date": "2026-10-28",
+      "id": "event-1553797907ca",
+      "company": "lianlian",
+      "headline": "连连数字：10月29日斥资31.05万港元回购9.85万股 - 东方财富",
+      "date": "2026-10-29",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -50,7 +50,36 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-e1a17a3acdb83527d9"
+        "search-15516e3a657178d109"
+      ]
+    },
+    {
+      "id": "event-6417af8d74ee",
+      "company": "lianlian",
+      "headline": "连连数字(02598)10月29日斥资31.05万港元回购9.85万股_经济时评_财经 - 证券之星",
+      "date": "2026-10-29",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-d828ad1b46c3b20b8d"
       ]
     },
     {
@@ -81,6 +110,35 @@
       "items": [
         "search-b6899dd43f95397b1b",
         "search-3e3cacb12c247b12be"
+      ]
+    },
+    {
+      "id": "event-e3e82cc8f12d",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客户转化 - 新讯网",
+      "date": "2026-10-28",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-e1a17a3acdb83527d9"
       ]
     },
     {
@@ -745,7 +803,7 @@
       "independent_publishers": 3,
       "publisher_count": 3,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 4,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -762,6 +820,7 @@
       "items": [
         "search-e28317ddabe62e24b5",
         "search-75008ae36ce6f7bcd1",
+        "search-9d6528f328dd55048f",
         "search-ae66a25c1d60adb939"
       ]
     },
@@ -851,35 +910,6 @@
       "items": [
         "search-87d08021ca514c5fec",
         "search-402edcc3877de601a5"
-      ]
-    },
-    {
-      "id": "event-1fde3761b428",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a27b48eb5547e14a8e"
       ]
     },
     {
@@ -997,6 +1027,65 @@
       "items": [
         "search-5324d4fa63f589b4c2",
         "search-cf522a322ef401bcbe"
+      ]
+    },
+    {
+      "id": "event-1fde3761b428",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a27b48eb5547e14a8e"
+      ]
+    },
+    {
+      "id": "event-eae09fe57348",
+      "company": "airwallex",
+      "headline": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 新浪新闻_手机新浪网",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-642e6e02f953dae4b7",
+        "search-2b7635ec9683e7c875"
       ]
     },
     {
@@ -1172,35 +1261,6 @@
       ],
       "items": [
         "airwallex-20261021"
-      ]
-    },
-    {
-      "id": "event-eae09fe57348",
-      "company": "airwallex",
-      "headline": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 新浪新闻_手机新浪网",
-      "date": "2026-10-21",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-2b7635ec9683e7c875"
       ]
     },
     {

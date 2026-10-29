@@ -2,6 +2,8 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-10-29｜连连国际** 连连数字：10月29日斥资31.05万港元回购9.85万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE04X184ZUo4emxNSDRUbS1pVFUzeGs1OEZqUm5pbTJKQjZHRFFyc3dzNWcwTDljX1RlcmwtejlwMzZUZTdmVk43aG1kSXVmaWMwLUFlemJ1SFNub1k4N3ZHc3RPVzNDZw?oc=5)（unverified）
+- **2026-10-29｜连连国际** 连连数字(02598)10月29日斥资31.05万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnBUcUpYeFBYWEVKaktzTDc4MGVNckVhTGpUMkdSZXlMQVNUYUg0bzlRT3lGbGRCY3I2OUJVRks3NjVfMlJvLXRSQnYtSUFMZkVkWlUxenZ3WWNhZlR6MQ?oc=5)（unverified）
 - **2026-10-28｜PingPong** PingPong跨境支付：牌照夯实合规基础，本地支付提升客… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE05NnJ3YkQxbHdiNlhnOHl6WDhaOGZOekJaMXJ4bzJacDVaRHVnM2taNE1Pd2k2SFBNZHZoTHpEVnZGZzZiSU83VWpZQlEzQVlrY2swV2pvTEpJMGV2Q2c?oc=5)（unverified）
 - **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XcUFmQk1LZ2tfbXN6aXhMUHBxSWhkRTNzdVFMdGtCZ1hGZFBlTXBKUUwxV0VDMHRncXkyNXpCbHNFdUpXMlNnU2dtN285aGVfZVhBRHcybEVYa2FqbE91eg?oc=5)（unverified）
 - **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMibEFVX3lxTE0zUWxMeTJGcy1lZ1h0TWhUamc2UWtJNVAtRkt5cEh0UU9BbDl2d3FFQldCcjdEa2dpUkVxRUFvVFQyWUhnYTFZN1k5SVNwRDk2UVFVbmJ3N1FMYkVaYlMwLTJuSjUwa0hCbk9kSQ?oc=5)（unverified）
@@ -46,6 +48,7 @@
 - **2026-10-23｜连连国际** 全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让… [原文](https://news.google.com/rss/articles/CBMiSkFVX3lxTE11NS1Ebk13U3IzZjhyU2dWcnNnSW5yTWIwQl9tUXBtWHlQM0V6akZpWGRMdEFTN0tuYjJiU2hIdTF6LWZNUnR1RnRn?oc=5)（unverified）
 - **2026-10-23｜连连国际** LianLian Global与PayPal（PYPL）合… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tNFRSaTBPcDdjZUE1Q21pUGEtb21NcnVKT3ZmdTlPdkswOThNLVJXUmlRa0lrNzBhNWZVYUlxNkhPV3hjVjJTYXd0d1k?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字章德旺：Agent经济需要怎样的金融基础设施？ -… [原文](https://news.google.com/rss/articles/CBMibkFVX3lxTFBXOTFoV0xNNFpTUGlvbXFrZ2NaXzZPN3lGWUlVOFRXa0x1WEJrTWk3STRSVXFyNUtpS0xYMzhxYUE3SXR2ZW9CMGhkUmVDMEtRYlc2MFRsZlVwNmQtdEVWblN5c196Y2hDb2xMbmdn?oc=5)（unverified）
+- **2026-10-23｜连连国际** 连连数字章德旺：Agent经济需要怎样的金融基础设施？ -… [原文](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hVng3aGZyaElIVkNtWlRueVVqWHlUYWNRQmFOS2JGd3NoWmhRYmFrMWtTNjY3cWhfTGoycE5Edk1ZQXF0QmVEQ0RQV2UwV2dPM09nNmhsd1Rza0hTakZoV3hLZjJqMWc?oc=5)（unverified）
 - **2026-10-22｜派安盈** 派安盈定于11月5日披露三季报。 [原文](https://investor.payoneer.com/news-events/news-releases)（verified）
 - **2026-10-22｜连连国际** 连连分享香港本地化收单合作案例。 [原文](https://global.lianlianpay.com/news.html)（verified）
 - **2026-10-22｜派安盈** Payoneer Inc 评论 – 它是Safe和合法的吗… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE5aTm5SaU5TZ3Q3Mk90X3lsRU9OcDdlYjNUNXM1Y2c3X0JfdllRLVNNamtVaEUyZHFBemJ2eG12amcxOUpfMDVvRXlRVjNkbUlVemlUNXZSRFZORlJjcnZwMUpkaVY1XzItTEE?oc=5)（unverified）
@@ -55,6 +58,7 @@
 - **2026-10-22｜连连国际** 连连数字(02598.HK)10月22日耗资110万港元回… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQjBDa1ZCN0wwc2RIbnZjRHhPY2tWSVNVTVJNM0tWNXd6X19ZSGl2OFk2S01HMi0yZFIyQzZaNjRZRHRGTGNlVnRPQlFYOFVKNjMyTTFrbk1DTm9OXzRvQS1wSkZtMUxpZEtR?oc=5)（unverified）
 - **2026-10-22｜PingPong** PingPong跨境支付：自主支付基建，高效化解跨市场多币… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KRlFoMEtUdUttNUx5TGdXZXR6VHF5ZkdzcmZsRG5ySU1femxnWXFKXzljT2JwZl8xNDRxVHhUbWNwbGFoeG5lX19abmlfcGhkZHc4V2w3UEpPa3JhQWc?oc=5)（unverified）
 - **2026-10-22｜连连国际** 连连数字章德旺：Agent经济需要怎样的金融基础设施？ -… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsN3ZNSTFfRDYtMXpkT2w3NWJlTV8tcDM1NjZva19kOFU4Z3NVdnpRYnNoSWN2LVFDSDVJbG5kOHlYZldfOXZpSlZOR1VuN2xTY09KUmp3Q0hBODlyOUVkaA?oc=5)（unverified）
+- **2026-10-22｜空中云汇** 迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20… [原文](https://news.google.com/rss/articles/CBMifEFVX3lxTFBhSlUwN2NlT2dhd1VlNldqWUt0ZEFldWFaMDNfU1lvWW1TbW50b0xETVdWYlZWOEd5XzZMLVBrT21wdTVFZTJDNjdHTEpFTDREZXAyYUFxSDVGUXkyWmNBUVQ4blVVOXVvdGx0M0xTUnFaUmZ0NzFXWVFtdmY?oc=5)（unverified）
 - **2026-10-21｜空中云汇** 空中云汇续约迈凯伦，升级AI合作。 [原文](https://www.airwallex.com/cn/newsroom/f1-2027-ai)（verified）
 - **2026-10-21｜寻汇** 寻汇携手TourMind拓展全球旅游支付。 [原文](https://www.prnewswire.com/in/news-releases/sunrate-and-tourmind-partner-to-enhance-payment-capabilities-for-the-global-travel-industry-302913010.html)（verified）
 - **2026-10-21｜空中云汇** 迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20… [原文](https://news.google.com/rss/articles/CBMieEFVX3lxTE5SbnUwVUhjeS1xZEVMc3RUcFBiM3loVUJoOFhHRTN6R2I4VG9LUWJDbmRhOUVieTUwTVZLZGlmcWYtY3lneXN1QXltTVlRRjlWV05EeE4zbUd5YzlvT1ZnVlZNUW9IQld3NHpPME44OTBTbGs2aG1FWQ?oc=5)（unverified）
