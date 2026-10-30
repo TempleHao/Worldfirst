@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-10-30｜连连国际** 连连数字：10月30日斥资17.05万港元回购5.45万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE52WmdISDZwLUJfa2ZSa2tCVkxmNG5ETU5MR202cVZtN1RXbV9sYUlhdTllbFZ1eGh0TVFtNGEtaDVBc1hxMmc4Tk9kdWdNZ1ZDM29BVnMxa0xlN1RTV3BwYzNGZjVuZw?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字：10月29日斥资31.05万港元回购9.85万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE04X184ZUo4emxNSDRUbS1pVFUzeGs1OEZqUm5pbTJKQjZHRFFyc3dzNWcwTDljX1RlcmwtejlwMzZUZTdmVk43aG1kSXVmaWMwLUFlemJ1SFNub1k4N3ZHc3RPVzNDZw?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字(02598)10月29日斥资31.05万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnBUcUpYeFBYWEVKaktzTDc4MGVNckVhTGpUMkdSZXlMQVNUYUg0bzlRT3lGbGRCY3I2OUJVRks3NjVfMlJvLXRSQnYtSUFMZkVkWlUxenZ3WWNhZlR6MQ?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字(02598.HK)10月29日耗资31万港元回购… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZbGlRd3J3SkQ3Y1BvVC1BM0lmSjdaYlo4SzhRcndWMEpvNkZWNTB4NWl5NjM0OHFjMVN6U0xGVGdGeGNEU0tYZnVienZjckZLTTlFT2pJSkRuSGl3?oc=5)（unverified）
