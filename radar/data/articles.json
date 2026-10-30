@@ -666,8 +666,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-6b395da0c40c",
-        "distinct_publishers": 1,
+        "event_id": "event-c06a4fd3c22b",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -792,6 +792,38 @@
         "score": 0,
         "event_id": "event-b069a27cbd3d",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-2d9f4a15c7e0cf8672",
+      "company": "airwallex",
+      "date": "2026-10-26",
+      "title": "AI 企业跨境收款如何少走弯路？Airwallex 空中云汇提供思路 - 新浪财经",
+      "summary": "AI 企业跨境收款如何少走弯路？Airwallex 空中云…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "新浪财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uT3RUWVY1OFdFQnRSdVd3OUd6SXBkNXdsdXlHTldyVVUwZ3hoSHhzSzEtbVRxX0VibGtyVC10Z0JpRXdmVUxUODlONGtLQ2RmeGZoSFZLUEpzN1lmSi1MbFZlaFRWemVPWGZVcTVR?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c06a4fd3c22b",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -3616,6 +3648,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-29T22:44:50.688934+00:00",
+  "updated_at": "2026-10-30T05:48:15.039180+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
