@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-10-30T12:54:52.958423+00:00",
+  "generated_at": "2026-10-30T22:19:31.168772+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,30 +12,30 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 117,
-    "events": 85,
+    "articles": 123,
+    "events": 86,
     "sentiment": {
-      "中性": 117
+      "中性": 123
     },
     "crisis": {
-      "一般": 85
+      "一般": 86
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
     {
-      "id": "event-b584bc041d16",
+      "id": "event-532e9fdc7ab9",
       "company": "lianlian",
-      "headline": "连连数字：10月30日斥资17.05万港元回购5.45万股 - 东方财富",
+      "headline": "连连数字：10月30日斥资17.05万港元回购5.45万股 - 东方财富网",
       "date": "2026-10-30",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -50,7 +50,38 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-833baba12cd1f7efad"
+        "search-833baba12cd1f7efad",
+        "search-1db4ae69b27c8a3cc0"
+      ]
+    },
+    {
+      "id": "event-bf96975f1576",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)10月30日耗资17.05万港元回购5.45万股_股市直播_市场 - 中金在线",
+      "date": "2026-10-30",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4693d98e50900cba53",
+        "search-b371f4063dd0b50934"
       ]
     },
     {
@@ -1275,7 +1306,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -1290,7 +1321,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-9335e73bd0425af087"
+        "search-9335e73bd0425af087",
+        "search-d3dc2c0d1760503884"
       ]
     },
     {
@@ -1470,15 +1502,15 @@
     {
       "id": "event-9765608b57e7",
       "company": "airwallex",
-      "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 极客公园",
+      "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 凤凰网深圳",
       "date": "2026-10-20",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 4,
+      "publisher_count": 4,
       "official_sources": 0,
-      "mention_count": 4,
+      "mention_count": 5,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -1495,6 +1527,7 @@
       "items": [
         "search-1d056120896571cb4d",
         "search-74ae5ca20830ab4777",
+        "search-2298a15b7488ea0d18",
         "search-548192dfba929da160",
         "search-b62164fad3af51d314"
       ]
@@ -1771,10 +1804,10 @@
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 4,
+      "publisher_count": 4,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 4,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -1791,6 +1824,7 @@
       "items": [
         "search-0e976706b058aa0719",
         "search-c13dac3ccb719bcc5d",
+        "search-e0048cdf4183414daa",
         "search-12c85bc4d6d0b633e4"
       ]
     },

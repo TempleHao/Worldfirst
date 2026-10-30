@@ -44,8 +44,101 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-b584bc041d16",
-        "distinct_publishers": 1,
+        "event_id": "event-532e9fdc7ab9",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-1db4ae69b27c8a3cc0",
+      "company": "lianlian",
+      "date": "2026-10-30",
+      "title": "连连数字：10月30日斥资17.05万港元回购5.45万股 - 东方财富网",
+      "summary": "连连数字：10月30日斥资17.05万港元回购5.45万股…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TV0F0TV9XMFVkcEFESHJQM3N1MlR3VW5hNkk3TTFWRGxLNEVQNHdicUh2V1c5SThRSU43Q3ZmYzg0Z1V1Z2NVTWVWcDdId29pZnAtUFRPd2lNNlJxUFpkaw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-532e9fdc7ab9",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-4693d98e50900cba53",
+      "company": "lianlian",
+      "date": "2026-10-30",
+      "title": "连连数字(02598.HK)10月30日耗资17.05万港元回购5.45万股_股市直播_市场 - 中金在线",
+      "summary": "连连数字(02598.HK)10月30日耗资17.05万港…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "中金在线",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FLVFkcmRVQmZzTVdWcHhJN0VsazZwbGRrN0I3SWlhLTBad0wyZi1ZYjlEdjNuUzhpallPTThrQVpLSnJ3cF9ON1o3aFhTV0dXdFZIUU9xcFo5U0JLajNSeEdnS3NVb05HV29xeg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-bf96975f1576",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-b371f4063dd0b50934",
+      "company": "lianlian",
+      "date": "2026-10-30",
+      "title": "连连数字(02598)10月30日斥资17.05万港元回购5.45万股-证券之星 - 证券之星",
+      "summary": "连连数字(02598)10月30日斥资17.05万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56VVRFOE5WbVZrOVZlWEg4cmFtVy1xX0g0cUoySGNnYWpmeUUtUDFWZ0R3OER6X0JQZExfeFowUV9iSnpfUWFvN1NxRFNpOUZJMFo5anBlUFVMamRCQ0E?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-bf96975f1576",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2166,6 +2259,37 @@
       }
     },
     {
+      "id": "search-d3dc2c0d1760503884",
+      "company": "lianlian",
+      "date": "2026-10-21",
+      "title": "连连数字(02598.HK)10月21日耗资33.3万港元回购10.25万股 - TradingView",
+      "summary": "连连数字(02598.HK)10月21日耗资33.3万港元…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xQ0VYUm1JX0dFSU42aTZtVnlLX1VoS1RYWmxrbTVFWUd4UnNVZmJHT3NVVEVxZkVkZnY0TFVwdW8yZzdmeGxvVDBUMm5WMURPTWlZdmRnd2RVcDg4NkR2TnV1ZnNVMXVQclE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-d877e7c992fe",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-b99b7197320eb58c23",
       "company": "lianlian",
       "date": "2026-10-20",
@@ -2254,7 +2378,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2595,7 +2719,38 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-2298a15b7488ea0d18",
+      "company": "airwallex",
+      "date": "2026-10-19",
+      "title": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 凤凰网深圳",
+      "summary": "Airwallex 空中云汇与韩国 ONE Store 签…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "凤凰网深圳",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBUX0VIS2pCUlExbEtPU3EzNW5fWVpUODhVQWlqaFhpbDBfdTJtaWZkS29PeVBqODJiWkpZZnQ5bkdkTHd3R25STHNn?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9765608b57e7",
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2626,7 +2781,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2657,7 +2812,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2797,7 +2952,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2828,7 +2983,38 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-e0048cdf4183414daa",
+      "company": "skyee",
+      "date": "2026-10-17",
+      "title": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - 搜狐网",
+      "summary": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨…",
+      "category": "资本并购",
+      "priority": "normal",
+      "source": "搜狐网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QX3YzRnZkc2J4WjZOU3Itb0gybmtNUXFKWkd4bnVQZnFVOVU0UEtTQ0thVUo2dW95MXhIdlpLWVdmZi13UHNrbTVTczVMc3dZaFdLQjln?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-99a5bb87992f",
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -3014,7 +3200,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -3679,6 +3865,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-30T12:54:49.065632+00:00",
+  "updated_at": "2026-10-30T22:19:27.027267+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
