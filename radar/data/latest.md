@@ -2,11 +2,13 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-10-31｜连连国际** 近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接… [原文](https://news.google.com/rss/articles/CBMijAFBVV95cUxQV3liY2J6RXR3Q0dDQVZ4RGs2VndVUkxHTDZGV2kySVRDVWZMSEJrTDUwYkFMVW9nR0dEVXFETnd6aGc3VVhtWWJzX1c5U2RrUTNXRkZpa1Q2dWl0bXg5NEE1LXVzb2JJb3puWXNDZjZzMHdxVEo0YkVyYXUyOHk1dDFUU1ZmLUNBNTU0VA?oc=5)（unverified）
 - **2026-10-30｜连连国际** 连连数字：10月30日斥资17.05万港元回购5.45万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE52WmdISDZwLUJfa2ZSa2tCVkxmNG5ETU5MR202cVZtN1RXbV9sYUlhdTllbFZ1eGh0TVFtNGEtaDVBc1hxMmc4Tk9kdWdNZ1ZDM29BVnMxa0xlN1RTV3BwYzNGZjVuZw?oc=5)（unverified）
 - **2026-10-30｜连连国际** 连连数字：10月30日斥资17.05万港元回购5.45万股… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TV0F0TV9XMFVkcEFESHJQM3N1MlR3VW5hNkk3TTFWRGxLNEVQNHdicUh2V1c5SThRSU43Q3ZmYzg0Z1V1Z2NVTWVWcDdId29pZnAtUFRPd2lNNlJxUFpkaw?oc=5)（unverified）
 - **2026-10-30｜连连国际** 连连数字(02598.HK)10月30日耗资17.05万港… [原文](https://news.google.com/rss/articles/CBMibEFVX3lxTE1FLVFkcmRVQmZzTVdWcHhJN0VsazZwbGRrN0I3SWlhLTBad0wyZi1ZYjlEdjNuUzhpallPTThrQVpLSnJ3cF9ON1o3aFhTV0dXdFZIUU9xcFo5U0JLajNSeEdnS3NVb05HV29xeg?oc=5)（unverified）
 - **2026-10-30｜连连国际** 连连数字(02598)10月30日斥资17.05万港元回购… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE56VVRFOE5WbVZrOVZlWEg4cmFtVy1xX0g0cUoySGNnYWpmeUUtUDFWZ0R3OER6X0JQZExfeFowUV9iSnpfUWFvN1NxRFNpOUZJMFo5anBlUFVMamRCQ0E?oc=5)（unverified）
 - **2026-10-30｜连连国际** 全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让… [原文](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmVtYng3a3Q0ci1tXzlyckxmamhUNm96ZFpCT3d4SWcyRW5CQ05vLWltdE1ZWUdRekFoQkF3ZDRqZnZQdDZFcTdPTDhKTW1Kb3J0NVFvSDdiOFZGZDB2WnNEc24yekFjbW5BekRBRHFxa2tmSm9ZSzliSVc2TF9FMHNOaXU0Nlp5?oc=5)（unverified）
+- **2026-10-30｜连连国际** 全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE51bjNfMXVNeEdZVnRnWlFtMEw4ZkJqNU1VNHlwcDVkOXJrUlJaOUNJNGg0WXZyV1ZMT0tHMk4wdUpNQmRXREtyenhvZndiSUo3MW9fU1VfZTJjSS02?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字：10月29日斥资31.05万港元回购9.85万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE04X184ZUo4emxNSDRUbS1pVFUzeGs1OEZqUm5pbTJKQjZHRFFyc3dzNWcwTDljX1RlcmwtejlwMzZUZTdmVk43aG1kSXVmaWMwLUFlemJ1SFNub1k4N3ZHc3RPVzNDZw?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字(02598)10月29日斥资31.05万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnBUcUpYeFBYWEVKaktzTDc4MGVNckVhTGpUMkdSZXlMQVNUYUg0bzlRT3lGbGRCY3I2OUJVRks3NjVfMlJvLXRSQnYtSUFMZkVkWlUxenZ3WWNhZlR6MQ?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字(02598.HK)10月29日耗资31万港元回购… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZbGlRd3J3SkQ3Y1BvVC1BM0lmSjdaYlo4SzhRcndWMEpvNkZWNTB4NWl5NjM0OHFjMVN6U0xGVGdGeGNEU0tYZnVienZjckZLTTlFT2pJSkRuSGl3?oc=5)（unverified）
@@ -120,5 +122,3 @@
 - **2026-10-14｜连连国际** 连连数字：10月14日斥资30.28万港元回购9.55万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvQVNZYUJkcnEzY3BNaE5EM19fekdmbmRxUWxuV3p5dTJOdE9XUmkzV0VXRjlRbkVWemhWZDlsd1RsSmxBTHJvNkd2SW1xNUFZaWVWTzlYRlNHN2NwWHNiWERYZHpPZw?oc=5)（unverified）
 - **2026-10-14｜连连国际** 连连数字10月14日回购95500股H股 耗资约30.28… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE52VzVlbEFtNEdqZ1A0TGh5d19IMkFUX0g3Zlk0dXpndHFBOEVHUGxKczZNR3U0OG5JNDVxMTlObHA5bVhKSWlJQm1tVkNMSjFkbHBZYVhudGkwdWV2?oc=5)（unverified）
 - **2026-10-14｜Skyee** 拉卡拉停牌筹划控股Skyee跨境支付整合 走到关键节点 -… [原文](https://news.google.com/rss/articles/CBMic0FVX3lxTFA3UmE0elZsN0ctMUlkazJrc1pUUWZ4cjA5YmNRMm85eUF3b0ktd0ZaZ1pfMWdRNEd6LTB1RTl6VzlMdmRPMDJZR3JRTGhpOW5pVFNuRmtVZndqV2dZa0FZTHVvUkFWaUNWdG5xZ01HMWVEMTQ?oc=5)（unverified）
-- **2026-10-14｜连连国际** 连连数字连续第五次参展数贸会，全球支付与AI创新成果集中亮… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MbkRKcGw3ektFblgzNXg3dUxVVWVGUEZsS0VYcnczQ2k4clVRQ0FabnQ3MU00U3B5TVA3enN6dU0tN0Y5TzkxdzF2Vjk?oc=5)（unverified）
-- **2026-10-13｜派安盈** 派安盈加拿大子公司完成支付服务商注册。 [原文](https://investor.payoneer.com/news-releases/news-release-details/payoneer-canada-registers-payment-service-provider-further)（verified）

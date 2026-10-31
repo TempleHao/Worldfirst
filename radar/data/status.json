@@ -1,10 +1,10 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-10-31T05:39:45.198051+00:00",
-  "last_success_at": "2026-10-31T05:39:45.198051+00:00",
+  "last_attempt_at": "2026-10-31T12:28:30.527167+00:00",
+  "last_success_at": "2026-10-31T12:28:30.527167+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
-  "new_items": 2,
+  "new_items": 1,
   "sources": {
     "worldfirst": {
       "ok": true,
@@ -24,7 +24,7 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 32
+      "matched": 27
     },
     "pingpong": {
       "ok": true,
@@ -40,7 +40,7 @@
     },
     "skyee": {
       "ok": true,
-      "matched": 3
+      "matched": 2
     }
   },
   "notes": "公开 Google News RSS 实验性采集，不能推算全网声量。"

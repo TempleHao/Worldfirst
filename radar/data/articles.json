@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-3008d21b5882f7d9c5",
+      "company": "lianlian",
+      "date": "2026-10-31",
+      "title": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接跨境创新力量 - 搜狐网",
+      "summary": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "搜狐网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV3liY2J6RXR3Q0dDQVZ4RGs2VndVUkxHTDZGV2kySVRDVWZMSEJrTDUwYkFMVW9nR0dEVXFETnd6aGc3VVhtWWJzX1c5U2RrUTNXRkZpa1Q2dWl0bXg5NEE1LXVzb2JJb3puWXNDZjZzMHdxVEo0YkVyYXUyOHk1dDFUU1ZmLUNBNTU0VA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2fb237f507f8",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-833baba12cd1f7efad",
       "company": "lianlian",
       "date": "2026-10-30",
@@ -169,7 +200,46 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-85e6c82afcd7",
-        "distinct_publishers": 1,
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "social-index-e5284aa9798ade2d493e",
+      "company": "lianlian",
+      "date": "2026-10-30",
+      "date_basis": "publication_index",
+      "title": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让进口付汇全流程线上化 - 知乎专栏",
+      "summary": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让…",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "知乎专栏",
+      "source_type": "search",
+      "channel": "zhihu",
+      "platform": "zhihu",
+      "discovery_method": "public_news_index",
+      "link_origin": "google-news-indirect",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51bjNfMXVNeEdZVnRnWlFtMEw4ZkJqNU1VNHlwcDVkOXJrUlJaOUNJNGg0WXZyV1ZMT0tHMk4wdUpNQmRXREtyenhvZndiSUo3MW9fU1VfZTJjSS02?oc=5",
+      "status": "unverified",
+      "rights": "index_snippet_only",
+      "coverage": "partial_index_only",
+      "metrics": null,
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-85e6c82afcd7",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -3927,6 +3997,6 @@
       }
     }
   ],
-  "updated_at": "2026-10-31T05:39:45.198051+00:00",
+  "updated_at": "2026-10-31T12:28:30.527167+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:39:47.515552+00:00",
+  "generated_at": "2026-10-31T12:28:32.727217+00:00",
   "platforms": {
     "wechat": {
       "index_requests_ok": 9,
@@ -28,10 +28,10 @@
     "zhihu": {
       "index_requests_ok": 9,
       "index_requests_failed": 0,
-      "indexed_items": 0,
+      "indexed_items": 1,
       "source_quality": "partial_public_index",
-      "total_available_records": 1,
-      "state": "connected_zero_matching_results"
+      "total_available_records": 2,
+      "state": "public_index_leads_only"
     }
   },
   "notes": "公开新闻搜索索引≠平台全文/评论/真实声量。API未授权的不作联网API成功声称。",
