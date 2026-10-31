@@ -1,10 +1,10 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-10-31T12:28:30.527167+00:00",
-  "last_success_at": "2026-10-31T12:28:30.527167+00:00",
+  "last_attempt_at": "2026-10-31T21:33:39.532252+00:00",
+  "last_success_at": "2026-10-31T21:33:39.532252+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
-  "new_items": 1,
+  "new_items": 0,
   "sources": {
     "worldfirst": {
       "ok": true,
@@ -24,11 +24,11 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 27
+      "matched": 29
     },
     "pingpong": {
       "ok": true,
-      "matched": 1
+      "matched": 0
     },
     "coral": {
       "ok": true,
