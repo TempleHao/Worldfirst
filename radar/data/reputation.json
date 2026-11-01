@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-01T13:23:23.721753+00:00",
+  "generated_at": "2026-11-01T22:01:49.888646+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 127,
-    "events": 88,
+    "articles": 129,
+    "events": 90,
     "sentiment": {
-      "中性": 127
+      "中性": 129
     },
     "crisis": {
-      "一般": 88
+      "一般": 90
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -142,6 +142,64 @@
       "items": [
         "search-5ee0fba959ee0cec03",
         "social-index-e5284aa9798ade2d493e"
+      ]
+    },
+    {
+      "id": "event-fe13123d06a3",
+      "company": "worldfirst",
+      "headline": "B2B跨境收款告别“一刀切”：Ksher、XTransfer、万里汇形成三条差异化路径_行业新闻 - 证券之星",
+      "date": "2026-10-30",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-068a7a51048df405e5"
+      ]
+    },
+    {
+      "id": "event-87063344cad5",
+      "company": "xtransfer",
+      "headline": "B2B跨境收款告别“一刀切”：Ksher、XTransfer、万里汇形成三条差异化路径_行业新闻 - 证券之星",
+      "date": "2026-10-30",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-225a8841919d762bbf"
       ]
     },
     {
@@ -1623,35 +1681,6 @@
       ]
     },
     {
-      "id": "event-a7dde3b307bf",
-      "company": "pingpong",
-      "headline": "PingPong广交会展示非洲本币收付款方案",
-      "date": "2026-10-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "pingpong-20261019"
-      ]
-    },
-    {
       "id": "event-b1b8dec47873",
       "company": "worldfirst",
       "headline": "万里汇广交会展示Wyn全球账户智能体",
@@ -1678,6 +1707,35 @@
       ],
       "items": [
         "worldfirst-20261019"
+      ]
+    },
+    {
+      "id": "event-a7dde3b307bf",
+      "company": "pingpong",
+      "headline": "PingPong广交会展示非洲本币收付款方案",
+      "date": "2026-10-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "pingpong-20261019"
       ]
     },
     {
@@ -1858,6 +1916,35 @@
       ]
     },
     {
+      "id": "event-e831cf749a40",
+      "company": "xtransfer",
+      "headline": "XTransfer公布参加第140届广交会的视频",
+      "date": "2026-10-17",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "douyin"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-curated-douyin-xtransfer-20261017"
+      ]
+    },
+    {
       "id": "event-99a5bb87992f",
       "company": "skyee",
       "headline": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - Jiemian.com",
@@ -1887,35 +1974,6 @@
         "search-c13dac3ccb719bcc5d",
         "search-e0048cdf4183414daa",
         "search-12c85bc4d6d0b633e4"
-      ]
-    },
-    {
-      "id": "event-e831cf749a40",
-      "company": "xtransfer",
-      "headline": "XTransfer公布参加第140届广交会的视频",
-      "date": "2026-10-17",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "douyin"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "social-curated-douyin-xtransfer-20261017"
       ]
     },
     {
@@ -2386,35 +2444,6 @@
       ]
     },
     {
-      "id": "event-c7f2a8396d26",
-      "company": "skyee",
-      "headline": "拉卡拉停牌筹划控股Skyee跨境支付整合 走到关键节点 - 中华网财经",
-      "date": "2026-10-14",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-877887fc8e36ae73ec"
-      ]
-    },
-    {
       "id": "event-e3fa133aff08",
       "company": "xtransfer",
       "headline": "XTransfer完成智利UAF注册拓展拉美",
@@ -2441,6 +2470,35 @@
       ],
       "items": [
         "xtransfer-20261014"
+      ]
+    },
+    {
+      "id": "event-c7f2a8396d26",
+      "company": "skyee",
+      "headline": "拉卡拉停牌筹划控股Skyee跨境支付整合 走到关键节点 - 中华网财经",
+      "date": "2026-10-14",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-877887fc8e36ae73ec"
       ]
     },
     {
