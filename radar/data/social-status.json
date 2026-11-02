@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:01:48.127720+00:00",
+  "generated_at": "2026-11-02T06:00:32.653809+00:00",
   "platforms": {
     "wechat": {
       "index_requests_ok": 9,
@@ -20,10 +20,10 @@
     "douyin": {
       "index_requests_ok": 9,
       "index_requests_failed": 0,
-      "indexed_items": 1,
+      "indexed_items": 0,
       "source_quality": "partial_public_index",
       "total_available_records": 2,
-      "state": "public_index_leads_only"
+      "state": "connected_zero_matching_results"
     },
     "zhihu": {
       "index_requests_ok": 9,

@@ -19,6 +19,68 @@
   },
   "items": [
     {
+      "id": "search-9df0e584ef4b3c33f8",
+      "company": "lianlian",
+      "date": "2026-11-02",
+      "title": "推动AI与跨境产业深度融合，连连数字“钱潮杯”决赛在杭举行 - www.icloudnews.net",
+      "summary": "推动AI与跨境产业深度融合，连连数字“钱潮杯”决赛在杭举行…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "www.icloudnews.net",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxcV9PNkRkRGVPOHdHWTlOSEp2UHpVeV9fSVRicEF3dFdSSmt6TUt4eld3RG5RZnl3dTRCT2hxVXhZMG4ycExxOWoyZF9ZdEp4MUE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-14b8a025e426",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-9ef517a84fd2201fd3",
+      "company": "pingpong",
+      "date": "2026-11-02",
+      "title": "PingPong跨境支付：打通订单与资金的信息链路，打造航旅业一站式支付解决方案 - 新讯网",
+      "summary": "PingPong跨境支付：打通订单与资金的信息链路，打造航…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新讯网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYnl5ejQzLWxHNTJoR3dCM0JvMktIRnFLdnFkZ3Q5RFVhYllYc2FmV0FXbDRHN0JnTk9rNjNkeTVfel9LRXBmdXU2dmVsemFiQWstTEFvVUktRVRHYmc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a918c241e36b",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-3008d21b5882f7d9c5",
       "company": "lianlian",
       "date": "2026-10-31",
@@ -890,7 +952,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-2e72766ed0eb",
+        "event_id": "event-a9a9feefaf6e",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -922,6 +984,38 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-bcb060093462",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-23b0b3ad968ab908a2",
+      "company": "skyee",
+      "date": "2026-10-27",
+      "title": "财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？ - Jiemian.com",
+      "summary": "财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？…",
+      "category": "资本并购",
+      "priority": "normal",
+      "source": "Jiemian.com",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DRklOa0xQVjFHajhoRjhzU0JoSEtZSVZ2bV84ZUw4eUlpVGtXYmVDLV9HaF9PcTVQQktCeVk4RlRPV0o2REFGMDZGNG42blRabDVoUV93?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a9a9feefaf6e",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -4059,6 +4153,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-01T22:01:45.923195+00:00",
+  "updated_at": "2026-11-02T06:00:30.253671+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

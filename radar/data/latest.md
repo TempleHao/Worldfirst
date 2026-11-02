@@ -2,6 +2,8 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-02｜连连国际** 推动AI与跨境产业深度融合，连连数字“钱潮杯”决赛在杭举行… [原文](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxcV9PNkRkRGVPOHdHWTlOSEp2UHpVeV9fSVRicEF3dFdSSmt6TUt4eld3RG5RZnl3dTRCT2hxVXhZMG4ycExxOWoyZF9ZdEp4MUE?oc=5)（unverified）
+- **2026-11-02｜PingPong** PingPong跨境支付：打通订单与资金的信息链路，打造航… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYnl5ejQzLWxHNTJoR3dCM0JvMktIRnFLdnFkZ3Q5RFVhYllYc2FmV0FXbDRHN0JnTk9rNjNkeTVfel9LRXBmdXU2dmVsemFiQWstTEFvVUktRVRHYmc?oc=5)（unverified）
 - **2026-10-31｜连连国际** 近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接… [原文](https://news.google.com/rss/articles/CBMijAFBVV95cUxQV3liY2J6RXR3Q0dDQVZ4RGs2VndVUkxHTDZGV2kySVRDVWZMSEJrTDUwYkFMVW9nR0dEVXFETnd6aGc3VVhtWWJzX1c5U2RrUTNXRkZpa1Q2dWl0bXg5NEE1LXVzb2JJb3puWXNDZjZzMHdxVEo0YkVyYXUyOHk1dDFUU1ZmLUNBNTU0VA?oc=5)（unverified）
 - **2026-10-30｜连连国际** 连连数字：10月30日斥资17.05万港元回购5.45万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE52WmdISDZwLUJfa2ZSa2tCVkxmNG5ETU5MR202cVZtN1RXbV9sYUlhdTllbFZ1eGh0TVFtNGEtaDVBc1hxMmc4Tk9kdWdNZ1ZDM29BVnMxa0xlN1RTV3BwYzNGZjVuZw?oc=5)（unverified）
 - **2026-10-30｜连连国际** 连连数字：10月30日斥资17.05万港元回购5.45万股… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TV0F0TV9XMFVkcEFESHJQM3N1MlR3VW5hNkk3TTFWRGxLNEVQNHdicUh2V1c5SThRSU43Q3ZmYzg0Z1V1Z2NVTWVWcDdId29pZnAtUFRPd2lNNlJxUFpkaw?oc=5)（unverified）
@@ -31,6 +33,7 @@
 - **2026-10-27｜连连国际** 连连数字(02598)10月27日斥资28.22万港元回购… [原文](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNklOeFNoX1VkV2ZaQWV0SEpvd1VIZGpCOEpEQjBzUkF6X3lHOWtvc2ZTdUQtTEY3VXRXMWdrT3dnQTZXYmRiZUNXSHctMnlhMnRJS1o1aUxfeWhuSTJxSHFrRUs2enY0OHdCeVhWa25jbXE2ZThUdFRjZ0p2SGhidUg0Wl9WaDRVbGVIdmx2ZUw0anhOWEZ5Mkw5WkY3MGhBMmNpODFUeXU?oc=5)（unverified）
 - **2026-10-27｜Skyee** 财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？… [原文](https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wWTBSVXBfd3lFR2RhU2w4ZDFoeF9CVjhMUWM1aEpmUG1CMjFCSzJTQTd3OFRVRFRhUElidFRYdG5YcUUyT3htc2VaVDdMMEJvck16eW83TUs?oc=5)（unverified）
 - **2026-10-27｜连连国际** 全国首单！连连数字联合中信银行实现进口付汇新突破 - 移动… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QVkprZVEwMktwdmlPVGJDeHJFTmo2UEpTdm1jd1FQUmI5M3RSX3J4R3BWTGRGcy05cVlfMzk0WUlwdjE4dGFWVEEyZUJzX24wTl9nOHRmM0JwMWU5TlRZVg?oc=5)（unverified）
+- **2026-10-27｜Skyee** 财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DRklOa0xQVjFHajhoRjhzU0JoSEtZSVZ2bV84ZUw4eUlpVGtXYmVDLV9HaF9PcTVQQktCeVk4RlRPV0o2REFGMDZGNG42blRabDVoUV93?oc=5)（unverified）
 - **2026-10-26｜空中云汇** AI 企业跨境收款如何少走弯路？Airwallex 空中云… [原文](https://news.google.com/rss/articles/CBMijgFBVV95cUxPOHJSb0trRDYxVlo5c2pISjFwNDRvNlZ3WGFONHdrM285bU1xSF93RU1WdkhJWU01emlDMWU5YVozVVJYTTBjaFBqUW5mbHFwcmtVOFR3OTMzZzlxY2VWSHdCblQ5R19MLV9HdDRWUklsb3JmVlBPeEJydG5QZi04U2JvSEhJYTYzUC0wUExB?oc=5)（unverified）
 - **2026-10-26｜连连国际** 连连数字(02598.HK)10月26日耗资41.74万港… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vc3hUUHVpeU9NRGVVVVA3X2h1aFZsbzd1dkdpM2F2WkhFWFh6TlpvUGRUODV4M3V3TE9aakFjU00wd1Z2RDRyQ1lSV3AzUUxMVkx2Mjh3N0htYjR2YXc?oc=5)（unverified）
 - **2026-10-26｜连连国际** 连连数字(02598)10月26日斥资41.74万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTFBUX0hpcnNJRWFBNnVSQmdDc0ZpLVFvamZHcWlrbUhkZVdvYXlNamcxcmVvT3NRdFptTzBzU25od0pwZWNHSXVTdEg3TTNCZ2ZIekNrRFBtUTU1M05qVlZZRHpjR3dpcnBxTFUxbWp6NzA?oc=5)（unverified）
@@ -119,6 +122,3 @@
 - **2026-10-15｜连连国际** 重磅：亿邦智库×连连数字联合发布《外贸新增长—新兴市场B2… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oNEt4NUxYTlQwTFZkM3RSXzVBZkZaZFc5U1hhemktcHFkNTFLbVhMRW5PdWtFZWRqNUxzYkRFdjJ2WjZjM2J3MU1zSjVJRFk5QmpoUDh3?oc=5)（unverified）
 - **2026-10-15｜连连国际** 连连数字：10月15日斥资146.54万港元回购48.30… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fT2F5VDRKeW8xRGZRS3g0VVZPQjdwb2tHT3d3TXM3UXFOUFRyVVp1TlE4SEhodnFMYVNJV21PS0NtYUppelRiMEpBUWVQRmNXa1VDYWdpTXpSbTFid3EydUxyMjZGZw?oc=5)（unverified）
 - **2026-10-15｜连连国际** 连连数字(02598.HK)10月15日耗资146.5万港… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE05ZndmWU1SZEtsQTE1LUdpQ0xFSU5rWEFPOXp3bXpmSGdBU3pnMUJEQ0xFX25zVFJPTzNBUnotdW5rcG9ydF9UR2lreEZGWW55cktDZ3RTYUZxMDNXS0NMaWI2U2ZuWjlVb1E?oc=5)（unverified）
-- **2026-10-15｜连连国际** 连连数字(02598)10月15日斥资146.54万港元回… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZaFA4TXlrNHc3MEI3ZUtEVW1oME1xc2Fka0NkWjBzU2pwS1IzNFJUWmhVb2c3MVk2N2xfX184dElYOFdGOXBWSWhyNTY?oc=5)（unverified）
-- **2026-10-14｜XTransfer** XTransfer完成智利UAF注册。 [原文](https://www.xtransfer.com/newsroom/xtransfer-chile-uaf-registration)（verified）
-- **2026-10-14｜连连国际** 连连数字：10月14日斥资30.28万港元回购9.55万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvQVNZYUJkcnEzY3BNaE5EM19fekdmbmRxUWxuV3p5dTJOdE9XUmkzV0VXRjlRbkVWemhWZDlsd1RsSmxBTHJvNkd2SW1xNUFZaWVWTzlYRlNHN2NwWHNiWERYZHpPZw?oc=5)（unverified）
