@@ -81,6 +81,223 @@
       }
     },
     {
+      "id": "search-c9fbbd81a080046127",
+      "company": "xtransfer",
+      "date": "2026-11-02",
+      "title": "XTransfer港股IPO申请，延期了！ - 新浪财经",
+      "summary": "XTransfer港股IPO申请，延期了！ - 新浪财经",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新浪财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByaDZoeS1ZaEx0ZTJQNVZkSlNGVDZfcmNPbFh2WDdwMmxxcnMxZzY1Zm9wTEFwU2VrVWFwVWd5Y2VrdE5RY1M3eGtWbXBNa05GRVpkbDFXQ25pWFNJSFNlVzlrQkpMOHY4R29jZE8yTQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4a851f1a3e8d",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-8e22c7aaba5169cb82",
+      "company": "xtransfer",
+      "date": "2026-11-02",
+      "title": "XTransfer与中银香港签署合作 携手提升外贸企业全球收付款体验 - 移动支付网",
+      "summary": "XTransfer与中银香港签署合作 携手提升外贸企业全球…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LYkw2U1NJWERGVnNrLVVfZ3R0TWhuNFNDQVlWWlVWWmF4a25CeDVEQWFGaUdMcU1BRldOSGVvZExVNy1hYmpSMWhGeS04WXJvc1BidXExNExNcnpYUlphSjZkbw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c1dddeb088e2",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-268e62f355bfdef0be",
+      "company": "lianlian",
+      "date": "2026-11-02",
+      "title": "连连数字与Cobre达成合作，拓展中拉跨境支付通道 - 移动支付网",
+      "summary": "连连数字与Cobre达成合作，拓展中拉跨境支付通道 - 移…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14cXFqN20tSDZBaWJaNnNINHN0M1A1MzRIZEtpWG5DNTlsaERYT1Q0bF9sODZEM3VZWFRvb3dWaTI2Y0FOZHgwempfaUx1aUJ1a3pGakZCZERCaHgxRVVScWphQQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-eb23341c696f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-769517955a3cb0698c",
+      "company": "lianlian",
+      "date": "2026-11-02",
+      "title": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接跨境创新力量 - 搜狐网",
+      "summary": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "搜狐网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd2pGZGdNenVIbFdKUWV0QmNZdWQtbEQ5R1JYajZydUU3NlM5emJyaTlBRmxuaUkzYkZHc0YteWs2ZUVXbHhScWdoRW95X2FrQkZ3YWxiX190S0JqUnAxVWY2ODV5UHVTSUduWGhMVFJNS2pzYnZVQzVSeWVnNHVYZXlhZUJRaW05?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2fb237f507f8",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-2da844c31d8515b1c5",
+      "company": "lianlian",
+      "date": "2026-11-02",
+      "title": "连连数字：11月2日斥资16.63万港元回购5.3万股 - 东方财富",
+      "summary": "连连数字：11月2日斥资16.63万港元回购5.3万股 -…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMNXcwX2dYMURYSDd6UGx5dzRoa19WNUVtS3M1S1laOVduTjF0ZW9VZjdZU2Q3d2NremZFZE00WVFEYzJaaGdOMEl6cURHaXRxcjR3aThfU29jazlHS3JiMmMtNnlNUQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b455fc8b2b20",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-596259f343b024315e",
+      "company": "lianlian",
+      "date": "2026-11-02",
+      "title": "连连数字(02598.HK)11月2日耗资16.63万港元回购5.3万股 - TradingView",
+      "summary": "连连数字(02598.HK)11月2日耗资16.63万港元…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GNkp6cU1LYWFUUk1SRzA2ODFIb08yVUxOd0RJeHZXbWVwZ3VfQk5oeFJhNmFTZjcyVVVNcUhDUXRKODNqNjZEcXlEZHFhVjhqNTBLWW1BdFVtTWtWY28zdFljLVFFTWF3eWRz?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-23be5f4147e0",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-8f9c20809defe48417",
+      "company": "sunrate",
+      "date": "2026-11-02",
+      "title": "AI智能体支付从白皮书走向落地，寻汇在港首发Sunrate Agentic Card - 移动支付网",
+      "summary": "AI智能体支付从白皮书走向落地，寻汇在港首发Sunrate…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHMWRXZU5HT1ZsVDhVMEdVS19uc1kwZEFOcUJDRVJUMWlERHRJbXh6ZTFOdDJ4eVduaEZMUm95TGVUMmpjb1BnZG1ZSjNoYzNmWlA0dFh3a0FZcEZSSk95YzRjUQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-925150ccbfee",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-3008d21b5882f7d9c5",
       "company": "lianlian",
       "date": "2026-10-31",
@@ -4153,6 +4370,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-02T06:00:30.253671+00:00",
+  "updated_at": "2026-11-02T15:50:29.187125+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

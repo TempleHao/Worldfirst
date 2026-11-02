@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-02T06:00:34.919045+00:00",
+  "generated_at": "2026-11-02T15:50:33.172140+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 132,
-    "events": 92,
+    "articles": 139,
+    "events": 98,
     "sentiment": {
-      "中性": 132
+      "中性": 139
     },
     "crisis": {
-      "一般": 92
+      "一般": 98
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -54,6 +54,123 @@
       ]
     },
     {
+      "id": "event-eb23341c696f",
+      "company": "lianlian",
+      "headline": "连连数字与Cobre达成合作，拓展中拉跨境支付通道 - 移动支付网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-268e62f355bfdef0be"
+      ]
+    },
+    {
+      "id": "event-2fb237f507f8",
+      "company": "lianlian",
+      "headline": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接跨境创新力量 - 搜狐网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-769517955a3cb0698c",
+        "search-3008d21b5882f7d9c5"
+      ]
+    },
+    {
+      "id": "event-b455fc8b2b20",
+      "company": "lianlian",
+      "headline": "连连数字：11月2日斥资16.63万港元回购5.3万股 - 东方财富",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2da844c31d8515b1c5"
+      ]
+    },
+    {
+      "id": "event-23be5f4147e0",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)11月2日耗资16.63万港元回购5.3万股 - TradingView",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-596259f343b024315e"
+      ]
+    },
+    {
       "id": "event-a918c241e36b",
       "company": "pingpong",
       "headline": "PingPong跨境支付：打通订单与资金的信息链路，打造航旅业一站式支付解决方案 - 新讯网",
@@ -83,10 +200,10 @@
       ]
     },
     {
-      "id": "event-2fb237f507f8",
-      "company": "lianlian",
-      "headline": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接跨境创新力量 - 搜狐网",
-      "date": "2026-10-31",
+      "id": "event-4a851f1a3e8d",
+      "company": "xtransfer",
+      "headline": "XTransfer港股IPO申请，延期了！ - 新浪财经",
+      "date": "2026-11-02",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -108,7 +225,65 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-3008d21b5882f7d9c5"
+        "search-c9fbbd81a080046127"
+      ]
+    },
+    {
+      "id": "event-c1dddeb088e2",
+      "company": "xtransfer",
+      "headline": "XTransfer与中银香港签署合作 携手提升外贸企业全球收付款体验 - 移动支付网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-8e22c7aaba5169cb82"
+      ]
+    },
+    {
+      "id": "event-925150ccbfee",
+      "company": "sunrate",
+      "headline": "AI智能体支付从白皮书走向落地，寻汇在港首发Sunrate Agentic Card - 移动支付网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-8f9c20809defe48417"
       ]
     },
     {
@@ -203,35 +378,6 @@
       ]
     },
     {
-      "id": "event-fe13123d06a3",
-      "company": "worldfirst",
-      "headline": "B2B跨境收款告别“一刀切”：Ksher、XTransfer、万里汇形成三条差异化路径_行业新闻 - 证券之星",
-      "date": "2026-10-30",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-068a7a51048df405e5"
-      ]
-    },
-    {
       "id": "event-87063344cad5",
       "company": "xtransfer",
       "headline": "B2B跨境收款告别“一刀切”：Ksher、XTransfer、万里汇形成三条差异化路径_行业新闻 - 证券之星",
@@ -258,6 +404,35 @@
       ],
       "items": [
         "search-225a8841919d762bbf"
+      ]
+    },
+    {
+      "id": "event-fe13123d06a3",
+      "company": "worldfirst",
+      "headline": "B2B跨境收款告别“一刀切”：Ksher、XTransfer、万里汇形成三条差异化路径_行业新闻 - 证券之星",
+      "date": "2026-10-30",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-068a7a51048df405e5"
       ]
     },
     {
@@ -1504,64 +1679,6 @@
       ]
     },
     {
-      "id": "event-924ef77542e0",
-      "company": "airwallex",
-      "headline": "空中云汇续约迈凯伦，成为官方AI金融合作伙伴",
-      "date": "2026-10-21",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "airwallex-20261021"
-      ]
-    },
-    {
-      "id": "event-4812f6b1977f",
-      "company": "airwallex",
-      "headline": "空中云汇：成为迈凯伦万事达卡F1车队的官方AI金融合作伙伴 - 新浪网",
-      "date": "2026-10-21",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-1854ee63d477b28f17"
-      ]
-    },
-    {
       "id": "event-3d02e82aab88",
       "company": "sunrate",
       "headline": "寻汇与TourMind合作开发全球旅游支付能力",
@@ -1617,6 +1734,64 @@
       ],
       "items": [
         "search-36ac4ab886d5c91ba6"
+      ]
+    },
+    {
+      "id": "event-924ef77542e0",
+      "company": "airwallex",
+      "headline": "空中云汇续约迈凯伦，成为官方AI金融合作伙伴",
+      "date": "2026-10-21",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 0,
+      "publisher_count": 1,
+      "official_sources": 1,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "airwallex-20261021"
+      ]
+    },
+    {
+      "id": "event-4812f6b1977f",
+      "company": "airwallex",
+      "headline": "空中云汇：成为迈凯伦万事达卡F1车队的官方AI金融合作伙伴 - 新浪网",
+      "date": "2026-10-21",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1854ee63d477b28f17"
       ]
     },
     {
