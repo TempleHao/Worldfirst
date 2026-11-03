@@ -19,6 +19,99 @@
   },
   "items": [
     {
+      "id": "search-a904c3f1ffb3336007",
+      "company": "lianlian",
+      "date": "2026-11-03",
+      "title": "连连数字：11月3日斥资21.44万港元回购6.95万股 - 东方财富",
+      "summary": "连连数字：11月3日斥资21.44万港元回购6.95万股 …",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3RTlrTXJLNll1TXVSQ0hwZmhkSTVaT0NwSmg3OVpXUXVXd0dtNnJIWE1DN1daOXRmaWxnbW9SMlowLUpsNjh0Q2pjTTJ2RXprbE1MX1NEVTNPQ3BCSUlDZUtqTVIzUQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-aee084731c9b",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-f5f5609b452877475b",
+      "company": "lianlian",
+      "date": "2026-11-03",
+      "title": "连连数字（02598.HK）回购69,500股-焦点信息 - 硬派网",
+      "summary": "连连数字（02598.HK）回购69,500股-焦点信息 …",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "硬派网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LQkFhRExsTUlQUy1EZHFiQWlGeDJpSFB6QWNSaDB3a1ZBbWxGOGZOZ0cya0NTbHgxeE03M0ZRdktLT0RnR2cwMDl5TldxQUo3X2dQM0tfLTJwM05vaktWU3E3QQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-5e15789e888d",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-4c592a500b3e5f0557",
+      "company": "pingpong",
+      "date": "2026-11-03",
+      "title": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
+      "summary": "跨境电商收款平台推荐，PingPong与中国外贸同频 - …",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新讯网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiQkY3SVBRUnpkdEw4OGdhSk4wRVlpVlZWSXcxUml5OXBKUjVodXdFQ051QThLaWZBM3l6ZExocFd6NjViVC1mVFhBVXlUSVJfUnlORTN5MVRMem5WTXc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c0f96b39d809",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-9df0e584ef4b3c33f8",
       "company": "lianlian",
       "date": "2026-11-02",
@@ -4432,6 +4525,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-03T00:57:34.544983+00:00",
+  "updated_at": "2026-11-03T14:13:26.223387+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
