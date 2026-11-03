@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-03T14:13:30.753692+00:00",
+  "generated_at": "2026-11-03T23:22:54.824911+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 144,
-    "events": 102,
+    "articles": 146,
+    "events": 103,
     "sentiment": {
-      "中性": 144
+      "中性": 146
     },
     "crisis": {
-      "一般": 102
+      "一般": 103
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -80,6 +80,65 @@
       ],
       "items": [
         "search-f5f5609b452877475b"
+      ]
+    },
+    {
+      "id": "event-1010dcc6973e",
+      "company": "lianlian",
+      "headline": "连连数字：11月2日斥资16.63万港元回购5.3万股 - 东方财富",
+      "date": "2026-11-03",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2ac7b16cfdd7ca3e2b",
+        "search-2da844c31d8515b1c5"
+      ]
+    },
+    {
+      "id": "event-88cf6bbee056",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)11月3日耗资21.4万港元回购6.95万股 - TradingView",
+      "date": "2026-11-03",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-e89fbb24787e97ab8a"
       ]
     },
     {
@@ -197,35 +256,6 @@
       "items": [
         "search-769517955a3cb0698c",
         "search-3008d21b5882f7d9c5"
-      ]
-    },
-    {
-      "id": "event-b455fc8b2b20",
-      "company": "lianlian",
-      "headline": "连连数字：11月2日斥资16.63万港元回购5.3万股 - 东方财富",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-2da844c31d8515b1c5"
       ]
     },
     {
