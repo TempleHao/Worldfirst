@@ -298,6 +298,37 @@
       }
     },
     {
+      "id": "search-1e1e6d97a0919ca4e8",
+      "company": "airwallex",
+      "date": "2026-11-02",
+      "title": "Airwallex 空中云汇亮相2026香港金融科技周，推出智能体驱动的全球企业账户_行业新闻 - 证券之星",
+      "summary": "Airwallex 空中云汇亮相2026香港金融科技周，推…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DdHMyWVhkTUJacHFSR05rVDVlOVdiZW1EenNYZ3ROaEtlSmQzeGdzNXZaWC1ldEJCS3FKQktpT1REamtVTWgzVWlUV3lxVG8xV25iYnhNY1pvdERsVTdMbFdjT2Q?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-d818fb4b9b98",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-3008d21b5882f7d9c5",
       "company": "lianlian",
       "date": "2026-10-31",
@@ -417,7 +448,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-bf96975f1576",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -448,7 +479,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-bf96975f1576",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -581,6 +612,37 @@
         "score": 0,
         "event_id": "event-87063344cad5",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-c1325a0982e7131bce",
+      "company": "lianlian",
+      "date": "2026-10-30",
+      "title": "连连数字(02598)10月30日斥资17.05万港元回购5.45万股 - 凤凰网",
+      "summary": "连连数字(02598)10月30日斥资17.05万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9iYTRrLUU2Tm1wRzlxRzRYbGdKblB5R01saWR0QkpCd0hDcmx2dkpzckYxcUJKX1ZrTVd6U3VNME8yTTRNcGJkMzJEdl8?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-bf96975f1576",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -4370,6 +4432,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-02T15:50:29.187125+00:00",
+  "updated_at": "2026-11-03T00:57:34.544983+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

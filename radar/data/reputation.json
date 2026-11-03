@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-02T15:50:33.172140+00:00",
+  "generated_at": "2026-11-03T00:57:38.856458+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 139,
-    "events": 98,
+    "articles": 141,
+    "events": 99,
     "sentiment": {
-      "中性": 139
+      "中性": 141
     },
     "crisis": {
-      "一般": 98
+      "一般": 99
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -287,6 +287,35 @@
       ]
     },
     {
+      "id": "event-d818fb4b9b98",
+      "company": "airwallex",
+      "headline": "Airwallex 空中云汇亮相2026香港金融科技周，推出智能体驱动的全球企业账户_行业新闻 - 证券之星",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1e1e6d97a0919ca4e8"
+      ]
+    },
+    {
       "id": "event-532e9fdc7ab9",
       "company": "lianlian",
       "headline": "连连数字：10月30日斥资17.05万港元回购5.45万股 - 东方财富网",
@@ -324,10 +353,10 @@
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
+      "independent_publishers": 3,
+      "publisher_count": 3,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -343,7 +372,8 @@
       ],
       "items": [
         "search-4693d98e50900cba53",
-        "search-b371f4063dd0b50934"
+        "search-b371f4063dd0b50934",
+        "search-c1325a0982e7131bce"
       ]
     },
     {
@@ -703,6 +733,35 @@
       ]
     },
     {
+      "id": "event-d438aca59cfd",
+      "company": "airwallex",
+      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "date": "2026-10-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a85f3ae9af51dc6cde"
+      ]
+    },
+    {
       "id": "event-8434580b3ef7",
       "company": "worldfirst",
       "headline": "外贸进入下半场：一站式外贸收付兑，万里汇给出新答案 - 雨果跨境",
@@ -758,35 +817,6 @@
       ],
       "items": [
         "search-b346e852d25751e729"
-      ]
-    },
-    {
-      "id": "event-d438aca59cfd",
-      "company": "airwallex",
-      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
-      "date": "2026-10-27",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a85f3ae9af51dc6cde"
       ]
     },
     {
@@ -1944,35 +1974,6 @@
       ]
     },
     {
-      "id": "event-b1b8dec47873",
-      "company": "worldfirst",
-      "headline": "万里汇广交会展示Wyn全球账户智能体",
-      "date": "2026-10-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "worldfirst-20261019"
-      ]
-    },
-    {
       "id": "event-5a64fca17866",
       "company": "airwallex",
       "headline": "空中云汇与韩国ONE Store达成战略合作",
@@ -2030,6 +2031,35 @@
       ],
       "items": [
         "search-d585b8f63b15c075cc"
+      ]
+    },
+    {
+      "id": "event-b1b8dec47873",
+      "company": "worldfirst",
+      "headline": "万里汇广交会展示Wyn全球账户智能体",
+      "date": "2026-10-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "worldfirst-20261019"
       ]
     },
     {
