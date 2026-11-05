@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-42669a9a730fcf4e2a",
+      "company": "payoneer",
+      "date": "2026-11-05",
+      "title": "派安盈与Shopee推出越南盾（VND）本币收款解决方案，助力跨境卖家把握越南快速增长的电商市场机遇 - 电商派",
+      "summary": "派安盈与Shopee推出越南盾（VND）本币收款解决方案，…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "电商派",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40eEpyYWZRX0hVOWJMc0lzT05tMlRScDJNV3FsNjJTT3VfQWEzSVZYamVJd2k1Y09mcnhBYldpaTNBSVJGS1BibkFnWVNMY1hPSUpLRU5qM1BELV9IWFl3dA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2b89e4e34541",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-900be1ccb4cb8ba680",
       "company": "airwallex",
       "date": "2026-11-04",
@@ -113,6 +144,37 @@
       }
     },
     {
+      "id": "search-f67c758a87ade08a59",
+      "company": "lianlian",
+      "date": "2026-11-04",
+      "title": "连连数字：11月4日斥资41.02万港元回购13.45万股 - 东方财富",
+      "summary": "连连数字：11月4日斥资41.02万港元回购13.45万股…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVbTRzUG1nUUF3elZ2OGZZSXRFVWtiNkxVMlE3aWsxdC1BNG9sQUdtYm1CUmRKdGdWMjNzdllBeWFZUnN0bGZkbFBQZWtIdF9GYnNzN0hyS2MzbmViMkQ4Sg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f213d428be3e",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-a904c3f1ffb3336007",
       "company": "lianlian",
       "date": "2026-11-03",
@@ -138,7 +200,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-aee084731c9b",
+        "event_id": "event-3bcbce4f6c9e",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -325,6 +387,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-49910232fa13",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-6889606de35bde49cf",
+      "company": "lianlian",
+      "date": "2026-11-03",
+      "title": "连连数字：11月3日斥资21.44万港元回购6.95万股 - 东方财富",
+      "summary": "连连数字：11月3日斥资21.44万港元回购6.95万股 …",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QMWVZSUk5cWtTeGltaTQ1S1FPX09qU0xYdy1uTnpFVFdoV3VTdERKaS1nNjU4eTlIaEpkVi1Lc1lkNEs1Q0RLMUIwMkdSRU1sb3VPa1NkNGx6WWJKZlY0bA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-3bcbce4f6c9e",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -4743,6 +4836,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-04T19:44:44.597905+00:00",
+  "updated_at": "2026-11-05T06:45:31.014419+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
