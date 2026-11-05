@@ -50,6 +50,231 @@
       }
     },
     {
+      "id": "search-a5c409873908197057",
+      "company": "airwallex",
+      "date": "2026-11-05",
+      "title": "AI 走进广交会，外贸收款平台Airwallex 空中云汇如何跟上外贸增长新节奏 - 衡阳新闻网",
+      "summary": "AI 走进广交会，外贸收款平台Airwallex 空中云汇…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "衡阳新闻网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NWldxUklwUXllSnEwSldQeXVJZ21ZWHpnQ2U1RmNiVHhSeDc1Ym9mclprUHFZYVpIV2R1Yl9UZzNnWHBRSV90c2FrcU81b21OcHdmektKbW8xSTFiemlZOC1Bamk?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-bd47769b897d",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-175b7158306a602e23",
+      "company": "payoneer",
+      "date": "2026-11-05",
+      "title": "派安盈2026年第三季度财报：B2B交易量加速增长而营业利润下滑 - TradingKey",
+      "summary": "派安盈2026年第三季度财报：B2B交易量加速增长而营业利…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingKey",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02SkNOWGVyRjJldjIxLTc0MXZ4YWtTSy1vbjROZk9iMkZfbE9FeFFzV3h3YlVwZkhiR0lXLXJ6ODVKa3JjQm5DQzcwSTV6ZWEzZlY3UUoweElwYzItbkFmOEZxZWJpbURSbjBj?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-ac048298e46f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-72ff90723067e54dc9",
+      "company": "lianlian",
+      "date": "2026-11-05",
+      "title": "连连数字(02598)11月5日耗资约106.11万港元回购33.65万股 - Moomoo",
+      "summary": "连连数字(02598)11月5日耗资约106.11万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Moomoo",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVOERubXp4OEd5TlZJcF9BT083UVJkWHAwd2RpclBTd2VXdzM5UEtBOHJJNmV4MEhUenpWbjBpcFREOHdKVnF6LWJXbmlCdUIzOXBLWTUwY28wVV91?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e8466bee1706",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-0c1a4968f308da7a38",
+      "company": "lianlian",
+      "date": "2026-11-05",
+      "title": "连连数字：11月5日斥资106.11万港元回购33.65万股 - 东方财富",
+      "summary": "连连数字：11月5日斥资106.11万港元回购33.65万…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlYzlTQ25sSXlVZnZoTHRCbEpnVGcyY05GdDJZVEREWGVfYmFuTWJwdkNqLUNSemJKSVVrRDk5S0NkUVY1Vjg1RkJock1Ba1F5V0o4amdRcm0wYTdIWXVnejZtT1d1Zw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b2998975a7aa",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-a8cdccafb45b9ba133",
+      "company": "lianlian",
+      "date": "2026-11-05",
+      "title": "连连数字(02598.HK)11月5日耗资106.1万港元回购33.65万股 - TradingView",
+      "summary": "连连数字(02598.HK)11月5日耗资106.1万港元…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKVW91VnpodXNhQkdQZ1UtZ05xNUxhRElJUjRtbUNENzF4c3ZLTm9obFBIV0dMSVlkenp1Y1RyOGdkTVFYNzNRczRSRWRVd3kxYmJHb2JIb1hzYVdONTM4RUR4MlpBUHJqcU5Z?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-89a670bc6de3",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-7de8a646bc7d5d916e",
+      "company": "pingpong",
+      "date": "2026-11-05",
+      "title": "PingPong上线一站式AI行业支付方案：开放全球收付与智能体支付能力 - 全球定制网",
+      "summary": "PingPong上线一站式AI行业支付方案：开放全球收付与…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "全球定制网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSM090Qk5GSl8wa25LYkdKeTBnYXYyNmhiczRTU01kaldLemR6WHRLTE5ZY0VkUGx2ekcwRVNhbHpobDQwVmgzMU9kZmR5Zw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-65a3befc963e",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "social-index-1e5f4f7b37e5e777a77c",
+      "company": "airwallex",
+      "date": "2026-11-05",
+      "date_basis": "publication_index",
+      "title": "广交会境外采购商云集，外贸收款平台Airwallex 空中云汇助力商家锁定订单利润 - 知乎专栏",
+      "summary": "广交会境外采购商云集，外贸收款平台Airwallex 空中…",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "知乎专栏",
+      "source_type": "search",
+      "channel": "zhihu",
+      "platform": "zhihu",
+      "discovery_method": "public_news_index",
+      "link_origin": "google-news-indirect",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kenRuSTd5bTV2Z1lFZTFzZVN4dndma0lCOUx3NDNmdkpkd0xjVnoweU5telZtRERCQTdSUnB6RUNYRm5FN1lpSjdLSUhpb01GWFF2N2RfQ3hzcUFw?oc=5",
+      "status": "unverified",
+      "rights": "index_snippet_only",
+      "coverage": "partial_index_only",
+      "metrics": null,
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4fec35e054ad",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-900be1ccb4cb8ba680",
       "company": "airwallex",
       "date": "2026-11-04",
@@ -4836,6 +5061,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-05T06:45:31.014419+00:00",
+  "updated_at": "2026-11-05T19:56:30.622597+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
