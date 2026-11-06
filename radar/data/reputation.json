@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-05T19:56:34.396618+00:00",
+  "generated_at": "2026-11-06T06:43:38.956184+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 161,
-    "events": 116,
+    "articles": 164,
+    "events": 117,
     "sentiment": {
-      "中性": 161
+      "中性": 164
     },
     "crisis": {
-      "一般": 116
+      "一般": 117
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -80,6 +80,35 @@
       ],
       "items": [
         "search-175b7158306a602e23"
+      ]
+    },
+    {
+      "id": "event-b97eb2665f8b",
+      "company": "payoneer",
+      "headline": "Payoneer Global第三季度营业利润为2,509.2万美元 - Moomoo",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-b1d3ea9ebce07d3d13"
       ]
     },
     {
@@ -783,7 +812,7 @@
       ]
     },
     {
-      "id": "event-925150ccbfee",
+      "id": "event-a43f666cc947",
       "company": "sunrate",
       "headline": "AI智能体支付从白皮书走向落地，寻汇在港首发Sunrate Agentic Card - 移动支付网",
       "date": "2026-11-02",
@@ -793,7 +822,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -808,7 +837,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-8f9c20809defe48417"
+        "search-8f9c20809defe48417",
+        "search-8eb45956a37e9925d2"
       ]
     },
     {
@@ -1046,6 +1076,37 @@
       ],
       "items": [
         "search-02eecea7748679535c"
+      ]
+    },
+    {
+      "id": "event-a9a9feefaf6e",
+      "company": "skyee",
+      "headline": "财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？ - Jiemian.com",
+      "date": "2026-10-29",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 3,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-ec829f208ed5edadeb",
+        "search-61c7593ec7f8329571",
+        "search-23b0b3ad968ab908a2"
       ]
     },
     {
@@ -1342,36 +1403,6 @@
       ],
       "items": [
         "search-b346e852d25751e729"
-      ]
-    },
-    {
-      "id": "event-a9a9feefaf6e",
-      "company": "skyee",
-      "headline": "财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？ - Jiemian.com",
-      "date": "2026-10-27",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-61c7593ec7f8329571",
-        "search-23b0b3ad968ab908a2"
       ]
     },
     {
