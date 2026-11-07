@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-07｜派安盈** Payoneer公布2026年第三季度财务业绩 - 币界网 [原文](https://news.google.com/rss/articles/CBMiUkFVX3lxTE05Yk5JV1lpV19UM3Izek9iQVFsVjZjbFp5S2xuYU9qaVh0OGR5YkFKVlVORS1IOTgxVGs2RThUMnVRRHNXbWRNanpzd01fMmNWZ3c?oc=5)（unverified）
 - **2026-11-06｜派安盈** Payoneer Global | 10-Q: Quart… [原文](https://news.google.com/rss/articles/CBMidkFVX3lxTE12aFhPeUZmMDE0SkFIMU5HMF9PSEgteXBGUFB0UGNtR2VUYzJDN1FYNExzUExFdmdhMlc5Y0lRSmNfY2t0WXJkd1VQaHk2WXMxQm95cXIyTTh5YUhPQWZxQndRYVkzbmd5M051SGxyVERWajdWT3c?oc=5)（unverified）
 - **2026-11-06｜连连国际** 连连数字(02598)11月6日斥资31.2万港元回购9.… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jR3JOMmZ0eEZzTFA1QkR2dE1lLVZSek9VV042R1hnUkJValI5NWhLMkU3QjJ6Vmp4UF9kYzNpb0k0eDBBNW1hQ3ZOcVBTQUZhMHF4eXMtWXhMdVZucnNnSg?oc=5)（unverified）
 - **2026-11-06｜连连国际** 连连数字(02598.HK)11月6日耗资31.2万港元回… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE9QcXFhNXcyZHVEUFVPYUFuVEc5OUtmdkh1NjdJMTRDbUFRRU5jQTFRWTJMcWdCQTBaSG1jQ2hLOXY0OFVsVXZwaFVDSkM2ZllQdzIwd181enhTT3BCRFRRUG1IQ2pwUnY5Ynh3?oc=5)（unverified）
@@ -121,4 +122,3 @@
 - **2026-10-22｜空中云汇** 迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20… [原文](https://news.google.com/rss/articles/CBMifEFVX3lxTFBhSlUwN2NlT2dhd1VlNldqWUt0ZEFldWFaMDNfU1lvWW1TbW50b0xETVdWYlZWOEd5XzZMLVBrT21wdTVFZTJDNjdHTEpFTDREZXAyYUFxSDVGUXkyWmNBUVQ4blVVOXVvdGx0M0xTUnFaUmZ0NzFXWVFtdmY?oc=5)（unverified）
 - **2026-10-21｜空中云汇** 空中云汇续约迈凯伦，升级AI合作。 [原文](https://www.airwallex.com/cn/newsroom/f1-2027-ai)（verified）
 - **2026-10-21｜寻汇** 寻汇携手TourMind拓展全球旅游支付。 [原文](https://www.prnewswire.com/in/news-releases/sunrate-and-tourmind-partner-to-enhance-payment-capabilities-for-the-global-travel-industry-302913010.html)（verified）
-- **2026-10-21｜空中云汇** 迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20… [原文](https://news.google.com/rss/articles/CBMieEFVX3lxTE5SbnUwVUhjeS1xZEVMc3RUcFBiM3loVUJoOFhHRTN6R2I4VG9LUWJDbmRhOUVieTUwTVZLZGlmcWYtY3lneXN1QXltTVlRRjlWV05EeE4zbUd5YzlvT1ZnVlZNUW9IQld3NHpPME44OTBTbGs2aG1FWQ?oc=5)（unverified）
