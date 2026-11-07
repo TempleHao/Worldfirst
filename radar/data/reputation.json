@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-06T19:24:10.595430+00:00",
+  "generated_at": "2026-11-07T05:57:32.033623+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 172,
-    "events": 121,
+    "articles": 177,
+    "events": 124,
     "sentiment": {
-      "中性": 172
+      "中性": 177
     },
     "crisis": {
-      "一般": 121
+      "一般": 124
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -84,9 +84,39 @@
       ]
     },
     {
-      "id": "event-7d400b0223c0",
-      "company": "pingpong",
-      "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态 - 搜狐网",
+      "id": "event-b2998975a7aa",
+      "company": "lianlian",
+      "headline": "连连数字：11月5日斥资106.11万港元回购33.65万股 - 东方财富",
+      "date": "2026-11-06",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-79f57e9a39b566a4e7",
+        "search-0c1a4968f308da7a38"
+      ]
+    },
+    {
+      "id": "event-c8b1d6241f4b",
+      "company": "lianlian",
+      "headline": "连连数字（02598.HK）回购9.95万股-证券之星 - 证券之星",
       "date": "2026-11-06",
       "risk_level": "一般",
       "risk_score": 0,
@@ -109,7 +139,37 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-4fa5aa30d00b916d10"
+        "search-476443f58994349744"
+      ]
+    },
+    {
+      "id": "event-af21f686a41c",
+      "company": "pingpong",
+      "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态，垄断型“巨无霸”不太容易出现 - 凤凰网",
+      "date": "2026-11-06",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4fa5aa30d00b916d10",
+        "search-08ba6491404835e496"
       ]
     },
     {
@@ -200,6 +260,35 @@
       ]
     },
     {
+      "id": "event-dead96163859",
+      "company": "payoneer",
+      "headline": "Payoneer Global 第三季度运营支出 2.51846亿 美元 - Moomoo",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-b9d3e9fb26c6c2b293"
+      ]
+    },
+    {
       "id": "event-e8466bee1706",
       "company": "lianlian",
       "headline": "连连数字(02598)11月5日耗资约106.11万港元回购33.65万股 - Moomoo",
@@ -227,35 +316,6 @@
       "items": [
         "search-72ff90723067e54dc9",
         "search-82ec5dd6480178f61a"
-      ]
-    },
-    {
-      "id": "event-b2998975a7aa",
-      "company": "lianlian",
-      "headline": "连连数字：11月5日斥资106.11万港元回购33.65万股 - 东方财富",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-0c1a4968f308da7a38"
       ]
     },
     {
@@ -1257,6 +1317,35 @@
       "items": [
         "search-b6899dd43f95397b1b",
         "search-3e3cacb12c247b12be"
+      ]
+    },
+    {
+      "id": "event-18bc9c29b977",
+      "company": "lianlian",
+      "headline": "连连数字（02598.HK）披露股份购回情况，10月28日股价上涨1.11%_个股动态_数据解析 - 证券之星",
+      "date": "2026-10-28",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-979d7ef1c5e6832a08"
       ]
     },
     {
