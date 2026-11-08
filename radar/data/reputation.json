@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-08T05:59:29.048213+00:00",
+  "generated_at": "2026-11-08T13:23:50.478675+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 187,
-    "events": 129,
+    "articles": 189,
+    "events": 131,
     "sentiment": {
-      "中性": 187
+      "中性": 189
     },
     "crisis": {
-      "一般": 129
+      "一般": 131
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -82,6 +82,64 @@
       ],
       "items": [
         "search-601c3935f3f9019136"
+      ]
+    },
+    {
+      "id": "event-f26d1c5a9817",
+      "company": "payoneer",
+      "headline": "Payoneer三季度交易量增13% B2B交易加速59% 与Nuvei合并推进至2027年 - 全球定制网",
+      "date": "2026-11-08",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-7bb806a822973c6b2d"
+      ]
+    },
+    {
+      "id": "event-58d88234ea84",
+      "company": "airwallex",
+      "headline": "幣安財務長將離職 支付平台Airwallex高層接任 - 世界新聞網",
+      "date": "2026-11-07",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-28e08070746fb73347"
       ]
     },
     {
