@@ -19,6 +19,99 @@
   },
   "items": [
     {
+      "id": "search-91c2d29e923fd6fad5",
+      "company": "airwallex",
+      "date": "2026-11-08",
+      "title": "币安财务长将离职 支付平台Airwallex高层接任 - e南洋",
+      "summary": "币安财务长将离职 支付平台Airwallex高层接任 - …",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "e南洋",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Gc0RsOG1xNHV4dENLbGdVcWtvMGhsRFdkYkF6WWd0M2dFVUl3X1BvZW5kVnc4RDJGSk5pQUoxVXhXVnEwRUNKOVNRUjhEQzFac3JPeW9TelBqWFJiNjhmT2ZnZw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a9ce29116587",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-8a135df693856ad162",
+      "company": "airwallex",
+      "date": "2026-11-08",
+      "title": "币安财务长将离职 支付平台Airwallex高层接任 - KLSE Screener",
+      "summary": "币安财务长将离职 支付平台Airwallex高层接任 - …",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "KLSE Screener",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQV29ack95aGZFVk5KaW9tYWNhWWIzYl8zemN5QjRVSzJBTFR6UFhvb0QzNHdHbjFmNUplU19hQlFRWGZwYlF1VXlxb3dEUG54TG15MjEyb29YdkFjOUVWOXBodTZmX0ZvcGd3ZXJqVXNxZHdVOUkyMlV5NWl4SWxZNHhCQ3JTQWxyRG1zdzcwN295cW5tLUs5Mk1OVXlBb2ZsWURpQmJGcmJfNVp5WFlvaC1WWkNiSVQ4Nk1wYUJTMXpuX3pCUzR2YlV0TjZyWUF6WFZvTWlsTzJQTHJsZ240clBKcTR5M3hnNnVoUEtnZnFKeVVwWG90ZFdST2p6ZUF6clJmZUlPc3E1NndHMm1MeV9qd2VVYkRNeTdja3R0dnpvYlZVTFo2Um1wNkE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a9ce29116587",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-601c3935f3f9019136",
+      "company": "airwallex",
+      "date": "2026-11-08",
+      "title": "Binance创纪录失窃案后一周换马 前Airwallex高层空降担任CFO - 香港01",
+      "summary": "Binance创纪录失窃案后一周换马 前Airwallex…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "香港01",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQR2w1ZEJHNks3cEd3UVpzc2pkaGxic3J3TTZGLWNEcHZmdXZKVi1Hd2tpUDBDZVZTSjZhVUNRTnJpYk13NG5DR2dYVnhpRm1ZQmhvUGZFcDVTeHFzVGZ6SnRVM1R6N1VZLVJiRVcwVWRUS1RCY0lYWTBwNFY5M2tKNmU3elpMR0ZWX045NEZNbGdPbExsX1lMODBBbjR6anhlYmk0NzBTbWNIdTdzcVVxQVo3azZIbXJEQWdQaWZpdEhycHJodW9VUWhqbGxkX0xZUl9rTVFDUC1NaEZSODkxTUsyRjcwZlNnNWpJem5xQkFBbVpBVmJuY25KMVFpa0ItTG9vSnJ3cXRzZlVJeDJ4Skk2NWFZVjdfU3VGb0xrM1ZzVFRMY291Q1hzNExKUkViZlB4TWxydmZhdDJVSHE2ZENFTDlSaDZQaXZLbFdGc1U1cVZNcU5WekNpQUM0OVpTSWFHR1ktN0JPQUkw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-fb75a998167a",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-a5d3bbf333dfa9034a",
       "company": "payoneer",
       "date": "2026-11-07",
@@ -46,6 +139,37 @@
         "score": 0,
         "event_id": "event-a198bc054d82",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-04faa575eb9f794ca6",
+      "company": "airwallex",
+      "date": "2026-11-07",
+      "title": "币安财务长将离职支付平台Airwallex高层接任| 财经即时| 财经 | 世界新闻网 - 世界新聞網",
+      "summary": "币安财务长将离职支付平台Airwallex高层接任| 财经…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "世界新聞網",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fQ0pEX1diampwakpaeVFQekVmSmNHbkEtUm5xeEdWbWtBRl8zOWljanZjSzJ1Uk9vdnFWNl9vNjZJLUZ2UXlvb25VbmJBN3hiazRUcWVBTkxvdThhWmtOZjYtN3lvRWV3SlE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a9ce29116587",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -294,6 +418,37 @@
         "score": 0,
         "event_id": "event-af21f686a41c",
         "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-b20230cc8518e08bc1",
+      "company": "lianlian",
+      "date": "2026-11-06",
+      "title": "连连数字(02598)11月6日斥资31.2万港元回购9.95万股_经济时评 - 证券之星",
+      "summary": "连连数字(02598)11月6日斥资31.2万港元回购9.…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1OHhMbG9rQWxQTFRXaER3YlhOWkdkelJVZkI4cG5ybWhpcXNRVWY3OWJBNGxuUG02bjFGU1ZvazFPWVVJNHZFWl8xNEJwRnVVRGVjUWI4dExtYWxWMDBqS1V5VVE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8878e0a7decb",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -673,6 +828,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-dead96163859",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-23cb3ae04726ae2d34",
+      "company": "payoneer",
+      "date": "2026-11-05",
+      "title": "Payoneer Global 第三季度收入增长推动股价上涨 - Moomoo",
+      "summary": "Payoneer Global 第三季度收入增长推动股价上…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Moomoo",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZkZ1VEpwT0gyelBMdGtDcE1kb0FLNzl6ZFF6cTJsVVNHWnUwLTJDeGxobHVBV3V2V0Jpeklzb0ZyOFdicEFLQmM1cXRMUGtURGFHZEozMm45OWlVN3NEVk5Dc0drb1I0MFJXRk85WFZrNHFUWENKTGVscHFWX1JTeUZTSlc2Z19meXRjTzFRLXJqYUR2U3BnaDRKOHJIZw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-0e7191bd61b1",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -2703,6 +2889,37 @@
         "score": 0,
         "event_id": "event-c06a4fd3c22b",
         "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-37e9491c36ad34dc18",
+      "company": "lianlian",
+      "date": "2026-10-26",
+      "title": "连连数字：10月26日斥资41.74万港元回购13万股 - 东方财富",
+      "summary": "连连数字：10月26日斥资41.74万港元回购13万股 -…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nNnU1bDVmeGhieUtJcW5WczJQVFc1THlneVBhM0RSV05OTW9uZWlrcE9tMnU3bHpNODlMek5DZDJaMnpqc1FyazNxRzRfbHN0bnpvOEQtOWFDbGVrbVBibg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-70d14cdddfb8",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -5651,6 +5868,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-07T21:49:29.774351+00:00",
+  "updated_at": "2026-11-08T05:59:25.270687+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
