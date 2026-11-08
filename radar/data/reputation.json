@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-08T13:23:50.478675+00:00",
+  "generated_at": "2026-11-08T22:04:15.261156+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,10 +12,10 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 189,
+    "articles": 191,
     "events": 131,
     "sentiment": {
-      "中性": 189
+      "中性": 191
     },
     "crisis": {
       "一般": 131
@@ -35,7 +35,7 @@
       "independent_publishers": 3,
       "publisher_count": 3,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 4,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -52,7 +52,8 @@
       "items": [
         "search-91c2d29e923fd6fad5",
         "search-8a135df693856ad162",
-        "search-04faa575eb9f794ca6"
+        "search-04faa575eb9f794ca6",
+        "search-7ab5811045bf2df458"
       ]
     },
     {
@@ -1024,7 +1025,7 @@
       ]
     },
     {
-      "id": "event-2fb237f507f8",
+      "id": "event-98244172f5e5",
       "company": "lianlian",
       "headline": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接跨境创新力量 - 搜狐网",
       "date": "2026-11-02",
@@ -1034,7 +1035,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -1050,7 +1051,8 @@
       ],
       "items": [
         "search-769517955a3cb0698c",
-        "search-3008d21b5882f7d9c5"
+        "search-3008d21b5882f7d9c5",
+        "search-2a33f17c9a31a0e86d"
       ]
     },
     {
