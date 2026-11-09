@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-f9c905417be82ee437",
+      "company": "payoneer",
+      "date": "2026-11-09",
+      "title": "派安盈：黑五促销提前启动 更考验商家资金周转能力 - 全球定制网",
+      "summary": "派安盈：黑五促销提前启动 更考验商家资金周转能力 - 全球…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "全球定制网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92b0hzQ2tjYW96cVFTb0U5b3dTSEMwYnRSdy1MQWdaT1lpci0wTGR0c1g1TU0tZWtITWs3QnB2b21aeC1WcU1aY3FhUThqUW8?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-3a8976712fd2",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-91c2d29e923fd6fad5",
       "company": "airwallex",
       "date": "2026-11-08",
@@ -139,6 +170,37 @@
         "score": 0,
         "event_id": "event-f26d1c5a9817",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-976bbb77bb2bb8b6fe",
+      "company": "airwallex",
+      "date": "2026-11-08",
+      "title": "币安财务长将离职 支付平台Airwallex高层接任 - KLSE Screener",
+      "summary": "币安财务长将离职 支付平台Airwallex高层接任 - …",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "KLSE Screener",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQYzJjVEhmYzdmT2FVNDF6Q3FOTVNPUHZRSFNFdzI3LUNzVnhTbmIzT2Z3ZFoxMW5jNkFWX3F0eDlvUHEwUzJUblBWR29CMHpEeVlESFduZHJtQUFDSkJIUUVDWXJmN1gxd2pEYjFnX0V2ZkhtaGhSLWh4UEhyMEZWcldVVjNNV1JaOUZKdzRFc3ZZUEZ5cGZHVXFwQ05IRTRueHU2djgzY2otbzJlS2hsS0ZndXBmWXQwdXdrcDYyUDd3cTJPQ3JoZnNPV0dxRkZtSXpTWTRSQkg3ZXZVWVpabnZiT3RMNUFqbXRxWHllNzhHTm5xQUVLcXg1N0ZYdG1TRDYtSFZoN2dwYTd1RXRnYTZ3S29rWFhfU1A0MG9Gdk4tR21jck15U2ZrcTg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a9ce29116587",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2825,6 +2887,37 @@
         "score": 0,
         "event_id": "event-928afc741907",
         "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-79c436ed6f4aa4dabb",
+      "company": "sunrate",
+      "date": "2026-10-27",
+      "title": "寻汇Sunrate亮相跨境数字金融大会：AI Agent落地需边界清晰、结果闭环 - 移动支付网",
+      "summary": "寻汇Sunrate亮相跨境数字金融大会：AI Agent落…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsejQ0NU9GemxQRG5yVUFyLUVXSk82YkhPa3JqOW5qSEQxcm5pNnlLTlUtS2JCajJjRnhzbUE5Y0Zja0JkMFpJVU9FSkprZERYbWU4WDlTMDZFTGFSODVOSQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-dec191c4c5e5",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -5992,6 +6085,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-08T22:04:11.262213+00:00",
+  "updated_at": "2026-11-09T06:26:10.103912+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
