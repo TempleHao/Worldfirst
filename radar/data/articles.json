@@ -50,6 +50,37 @@
       }
     },
     {
+      "id": "search-8b704246651f1814cc",
+      "company": "worldfirst",
+      "date": "2026-11-09",
+      "title": "双11不只是买买买，也是把心意“寄回家”的好时机🏠在新加坡赚新币，想转给爸妈、还国内账单、给孩子交学费——以前最怕：汇率看不懂、排队久、到账慢、私下换汇不踏实⚠️——📱万事通亲测超安全跨境汇款App：万里汇WorldFirst​✅️蚂蚁国际旗下，和支付宝同属✅️ - 新浪网",
+      "summary": "双11不只是买买买，也是把心意“寄回家”的好时机🏠在新加坡…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新浪网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YTG9UbVB1a21sRkdRSHNSY0NFV0w2bEUzbjVoZXBXSWY1dWsxcnB0c054blJtWTlUMFRqUFlHZ2V2T2xwOHBMNHJBMWJpdHpmUS1fdWNZWkp1dXZFQllDRVJNYw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-60a88de68847",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-91c2d29e923fd6fad5",
       "company": "airwallex",
       "date": "2026-11-08",
@@ -201,6 +232,37 @@
         "score": 0,
         "event_id": "event-a9ce29116587",
         "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-e916b1af9e2a97cfe7",
+      "company": "airwallex",
+      "date": "2026-11-08",
+      "title": "币安换CFO：Kaiser Ng离职，Airwallex前高管Justin Yek接任 - 凤凰网",
+      "summary": "币安换CFO：Kaiser Ng离职，Airwallex前…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FSk8wMVJqQlAxYmFkM0x3MlBad1hIdm1remphZFViSE8ya3ZhMmpobXBtZG1iY1RQTWZaWDFuZEp5WXhjRnhmS1RJUHBsVGV5MGc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-45e4c180ef37",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1790,6 +1852,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-a43f666cc947",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-c46de055812538804e",
+      "company": "lianlian",
+      "date": "2026-11-02",
+      "title": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接跨境创新力量 - 搜狐网",
+      "summary": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "搜狐网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HOGlVSmF4cVYxNTAzMVhUa3RCOExDSHdTV3ZndDFNN2lkYzViREJaWXFOVDBfYzAxYmIyNWtacS1JYTZZWkJVQ2ktUXlNSmR0X3c?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-98244172f5e5",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -6085,6 +6178,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-09T06:26:10.103912+00:00",
+  "updated_at": "2026-11-09T22:21:03.688457+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
