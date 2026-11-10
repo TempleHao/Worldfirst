@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-746e2196aedce0da1f",
+      "company": "lianlian",
+      "date": "2026-11-10",
+      "title": "连连数字：11月10日斥资17.91万港元回购5.8万股 - 东方财富",
+      "summary": "连连数字：11月10日斥资17.91万港元回购5.8万股 …",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSWVaT2JlczZIdnhvU3lITUpwdjJFU3Mtem0tX2J6NFNHLUZ2dldUdWdqb1JBSE8xUG5fSFFNZ1lrazhNVmVjbnBkVDVIdGljTWotcTQ2R2hTV29KYW1GVGFYOA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-11a153423552",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-f9c905417be82ee437",
       "company": "payoneer",
       "date": "2026-11-09",
@@ -732,6 +763,37 @@
       }
     },
     {
+      "id": "search-d03635840e487695f6",
+      "company": "pingpong",
+      "date": "2026-11-06",
+      "title": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态 - 每日经济新闻",
+      "summary": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "每日经济新闻",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5icHJXMzFhRHJjX19BaGw3M3JqQjUxMlJlSUYzRWdqOGdPVzJLR0dtSUFCZlM0VlVvVUFmaGk4eHZlV3B3ZnFaNVFSanNERzFTRGJyYVBQMG93WlFrYm82T1A0eGpkdw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-af21f686a41c",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-42669a9a730fcf4e2a",
       "company": "payoneer",
       "date": "2026-11-05",
@@ -1278,6 +1340,37 @@
       "source": "凤凰网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3WjVJZ1hNZFpiSkVCaDVLRF8wd1c3bmVhcUJ2allZRDZKbmRlMHFxVXZuZ3NSVkppMnN3RXQxV0hYUm1rNUZDblZRcVU?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7ff579d0d228",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-cca00c5bb2a2f54d83",
+      "company": "lianlian",
+      "date": "2026-11-04",
+      "title": "连连数字(02598.HK)11月4日耗资41.02万港元回购13.45万股 - TradingView",
+      "summary": "连连数字(02598.HK)11月4日耗资41.02万港元…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qTXFQYmFxRkY4R29EN25yMHYydGNUdGVudGlXNDhtcWlEcno1MnExWElsMjJiNkpseXBPdzgzY2l6Y1hRV3A0aUZrZFg0RTdwakljVmRLMVJSWDZaSndadEFvcXptQzQ2Y1E?oc=5",
       "status": "unverified",
       "sentiment": {
         "label": "中性",
@@ -6303,6 +6396,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-10T07:17:19.349775+00:00",
+  "updated_at": "2026-11-10T19:43:21.382713+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

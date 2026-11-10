@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-10｜连连国际** 连连数字：11月10日斥资17.91万港元回购5.8万股 … [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnSWVaT2JlczZIdnhvU3lITUpwdjJFU3Mtem0tX2J6NFNHLUZ2dldUdWdqb1JBSE8xUG5fSFFNZ1lrazhNVmVjbnBkVDVIdGljTWotcTQ2R2hTV29KYW1GVGFYOA?oc=5)（unverified）
 - **2026-11-09｜派安盈** 派安盈：黑五促销提前启动 更考验商家资金周转能力 - 全球… [原文](https://news.google.com/rss/articles/CBMiT0FVX3lxTE92b0hzQ2tjYW96cVFTb0U5b3dTSEMwYnRSdy1MQWdaT1lpci0wTGR0c1g1TU0tZWtITWs3QnB2b21aeC1WcU1aY3FhUThqUW8?oc=5)（unverified）
 - **2026-11-09｜万里汇** 双11不只是买买买，也是把心意“寄回家”的好时机🏠在新加坡… [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YTG9UbVB1a21sRkdRSHNSY0NFV0w2bEUzbjVoZXBXSWY1dWsxcnB0c054blJtWTlUMFRqUFlHZ2V2T2xwOHBMNHJBMWJpdHpmUS1fdWNZWkp1dXZFQllDRVJNYw?oc=5)（unverified）
 - **2026-11-09｜连连国际** 连连数字(02598)11月9日斥资29.94万港元回购9… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YSDlUZ05IcWRzNXktM1RlTElCaTZnZ01Dcm9yOEJnZjA4bU9PVk5XcU1YVlFZUnBONGtMN3g5eWd6b0pmeE9jLWlndXg?oc=5)（unverified）
@@ -25,6 +26,7 @@
 - **2026-11-06｜PingPong** PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SOHJsRmhYOVpvSDduNl85MEhxSm5pMGtrUmhyTUVVcjRIaHNvMmJBUXJqNE44R1pkdHhqenlmZks4RlJXN1lzODFOaHI?oc=5)（unverified）
 - **2026-11-06｜PingPong** PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE1CZmFMdEJGQXJrcDJwMWphbW1jYnpLbE9Qa3p2QkRFdVNMTjBFaThrX090c2dpYXYyUmJjUW81QTZmNlJCb3R6N0FHbnNtemZFMExhWWt2cGNSSFNMOTB0WHhvUXNRMElRdlZN?oc=5)（unverified）
 - **2026-11-06｜连连国际** 连连数字(02598)11月6日斥资31.2万港元回购9.… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1OHhMbG9rQWxQTFRXaER3YlhOWkdkelJVZkI4cG5ybWhpcXNRVWY3OWJBNGxuUG02bjFGU1ZvazFPWVVJNHZFWl8xNEJwRnVVRGVjUWI4dExtYWxWMDBqS1V5VVE?oc=5)（unverified）
+- **2026-11-06｜PingPong** PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5icHJXMzFhRHJjX19BaGw3M3JqQjUxMlJlSUYzRWdqOGdPVzJLR0dtSUFCZlM0VlVvVUFmaGk4eHZlV3B3ZnFaNVFSanNERzFTRGJyYVBQMG93WlFrYm82T1A0eGpkdw?oc=5)（unverified）
 - **2026-11-05｜派安盈** 派安盈与Shopee推出越南盾（VND）本币收款解决方案，… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE40eEpyYWZRX0hVOWJMc0lzT05tMlRScDJNV3FsNjJTT3VfQWEzSVZYamVJd2k1Y09mcnhBYldpaTNBSVJGS1BibkFnWVNMY1hPSUpLRU5qM1BELV9IWFl3dA?oc=5)（unverified）
 - **2026-11-05｜空中云汇** AI 走进广交会，外贸收款平台Airwallex 空中云汇… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NWldxUklwUXllSnEwSldQeXVJZ21ZWHpnQ2U1RmNiVHhSeDc1Ym9mclprUHFZYVpIV2R1Yl9UZzNnWHBRSV90c2FrcU81b21OcHdmektKbW8xSTFiemlZOC1Bamk?oc=5)（unverified）
 - **2026-11-05｜派安盈** 派安盈2026年第三季度财报：B2B交易量加速增长而营业利… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE02SkNOWGVyRjJldjIxLTc0MXZ4YWtTSy1vbjROZk9iMkZfbE9FeFFzV3h3YlVwZkhiR0lXLXJ6ODVKa3JjQm5DQzcwSTV6ZWEzZlY3UUoweElwYzItbkFmOEZxZWJpbURSbjBj?oc=5)（unverified）
@@ -43,6 +45,7 @@
 - **2026-11-04｜连连国际** 连连数字(02598.HK)11月4日耗资41.02万港元… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE16OWVIMjZqNGNKVGlSMHJ1NUF2MjBiaEcxSTAxSzJyaE4tZ3ktcmxuN3pmdGk5V2JKSkl4cjhjYlJJWExOZ2dJNlVnWklNZEtSUUFMRXZTUmdxUThnM3RIT2FJWHBoQmd6NmZv?oc=5)（unverified）
 - **2026-11-04｜连连国际** 连连数字：11月4日斥资41.02万港元回购13.45万股… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVbTRzUG1nUUF3elZ2OGZZSXRFVWtiNkxVMlE3aWsxdC1BNG9sQUdtYm1CUmRKdGdWMjNzdllBeWFZUnN0bGZkbFBQZWtIdF9GYnNzN0hyS2MzbmViMkQ4Sg?oc=5)（unverified）
 - **2026-11-04｜连连国际** 连连数字(02598)11月4日耗资约41.02万港元回购… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3WjVJZ1hNZFpiSkVCaDVLRF8wd1c3bmVhcUJ2allZRDZKbmRlMHFxVXZuZ3NSVkppMnN3RXQxV0hYUm1rNUZDblZRcVU?oc=5)（unverified）
+- **2026-11-04｜连连国际** 连连数字(02598.HK)11月4日耗资41.02万港元… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE5qTXFQYmFxRkY4R29EN25yMHYydGNUdGVudGlXNDhtcWlEcno1MnExWElsMjJiNkpseXBPdzgzY2l6Y1hRV3A0aUZrZFg0RTdwakljVmRLMVJSWDZaSndadEFvcXptQzQ2Y1E?oc=5)（unverified）
 - **2026-11-03｜连连国际** 连连数字：11月3日斥资21.44万港元回购6.95万股 … [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3RTlrTXJLNll1TXVSQ0hwZmhkSTVaT0NwSmg3OVpXUXVXd0dtNnJIWE1DN1daOXRmaWxnbW9SMlowLUpsNjh0Q2pjTTJ2RXprbE1MX1NEVTNPQ3BCSUlDZUtqTVIzUQ?oc=5)（unverified）
 - **2026-11-03｜连连国际** 连连数字（02598.HK）回购69,500股-焦点信息 … [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LQkFhRExsTUlQUy1EZHFiQWlGeDJpSFB6QWNSaDB3a1ZBbWxGOGZOZ0cya0NTbHgxeE03M0ZRdktLT0RnR2cwMDl5TldxQUo3X2dQM0tfLTJwM05vaktWU3E3QQ?oc=5)（unverified）
 - **2026-11-03｜PingPong** 跨境电商收款平台推荐，PingPong与中国外贸同频 - … [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiQkY3SVBRUnpkdEw4OGdhSk4wRVlpVlZWSXcxUml5OXBKUjVodXdFQ051QThLaWZBM3l6ZExocFd6NjViVC1mVFhBVXlUSVJfUnlORTN5MVRMem5WTXc?oc=5)（unverified）
@@ -119,6 +122,3 @@
 - **2026-10-23｜连连国际** 连连数字(02598)拟出资2亿元参设基金 聚焦半导体、A… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tcXR2X3BvQS05VXhLYnhkMzE1XzBNNUhkQnNPQlBPVW45UDJXUG1CTVc2enRaaU1rOU9sMzVrVDRXOENiQkU2eURFQTZfRzdhS3A0VWh2SFpRczUw?oc=5)（unverified）
 - **2026-10-23｜连连国际** 23点聊电商：千峰访谈连连数字：从“跨境支付专家”迈向“值… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5abU1BOUMzNV9NcGY4TlQzRzUxSnhzRzhJZXI2WkZNSWpPMVVTQU5PaUxQVl9ZS0dtdEF4NGc4MmFKVnRmVVRkOUdVelIwaTBYZVdMWGt3?oc=5)（unverified）
 - **2026-10-23｜连连国际** 连连数字：10月23日斥资49.65万港元回购15.3万股… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Id0VNWERkV0hjLTlhVmNicVRRU0RxUWM0V3RuOEtZakVnZmdtRzhLbDBOVmJ0eWJFb0k1MmhiSHlXaS03d1EwMDR4MFVoMWJoaUQxVUJZNmdfTWE3RE85Vm5hWlM?oc=5)（unverified）
-- **2026-10-23｜连连国际** 连连数字附属公司认购创业投资基金2亿元 占比89.98% … [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VQ1A0MFJydVZpNnp0NldFNnF6SnNjQTFidlhQZmFtYWI4ZlVrSVFiRlZZbTI1TENLLW95SEVieU1Bblo2bWxCZE04bzk?oc=5)（unverified）
-- **2026-10-23｜连连国际** 连连数字章德旺：Agent经济需要怎样的金融基础设施？ -… [原文](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnRsOFJJRTdVbzRWdnFxNmtsQjVZNWFQM0NBZVJXR3FZSGhJWUxlQXdIRWVaeFB3TllHNGJXejFfTnQwdllQemotMEltZmN0cUtTekVjdGlfUU9CM1BHWUwtY2dGR0tBZlZkSV9DZWhESUNuT1hCZHZtN2dGZEpvRGtmZHQ1dy1R?oc=5)（unverified）
-- **2026-10-23｜连连国际** 连连数字10月23日回购15.3万股H股 耗资约49.65… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nSWYxOGNCU2EwNVNsX0RlN0tEWjVZZncwVG0zOHJjaURfVTNkY1RWei1NVnYtRjN1b1lCZk5jS3Vmd0tHcUVFbTdpOS1ldVplQWtlZVZvcFdod0xI?oc=5)（unverified）
