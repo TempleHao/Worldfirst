@@ -81,6 +81,37 @@
       }
     },
     {
+      "id": "search-2b4e936abe2de45f36",
+      "company": "lianlian",
+      "date": "2026-11-09",
+      "title": "连连数字(02598)11月9日斥资29.94万港元回购9.6万股 - 凤凰网",
+      "summary": "连连数字(02598)11月9日斥资29.94万港元回购9…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YSDlUZ05IcWRzNXktM1RlTElCaTZnZ01Dcm9yOEJnZjA4bU9PVk5XcU1YVlFZUnBONGtMN3g5eWd6b0pmeE9jLWlndXg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f3d6225620d9",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-91c2d29e923fd6fad5",
       "company": "airwallex",
       "date": "2026-11-08",
@@ -387,6 +418,37 @@
         "score": 0,
         "event_id": "event-a9ce29116587",
         "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-8639f55d3216a0474f",
+      "company": "airwallex",
+      "date": "2026-11-07",
+      "title": "幣安財務長將離職 支付平台Airwallex高層接任 - 世界新聞網",
+      "summary": "幣安財務長將離職 支付平台Airwallex高層接任 - …",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "世界新聞網",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRHZHQ2VLSDlhSkhLMDR5MzZlT3ZOdTZ1UDgyZ3hTRmFTR0psLTg4cFRyYkx3dW81a2liZUwyaTQzcDNQYnBjbERfby14RF9kR3dKUlVDel81c3I2RHdRV25VSGo0dWE0V3E0U1RjcnkxQXpLNWItLVh0bE1xMTZhNEY1bmRQQdIBZ0FVX3lxTE1KU3FvbVVFaHF5MFNXcHlmOTZrRXJaZ3FYNmhvZm1oLTVvbmNLem1VdUV5LVZUVFplRUtrUGN6TW1sMFBXN1ZOUEZ5UnV3NVptZjRFRTIyLWNpYVc1dXNzZkFKSXpmUU0?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-58d88234ea84",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2357,7 +2419,38 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-a9a9feefaf6e",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-6a222aa430cd6c87b5",
+      "company": "lianlian",
+      "date": "2026-10-29",
+      "title": "连连数字：10月29日斥资31.05万港元回购9.85万股 - 东方财富",
+      "summary": "连连数字：10月29日斥资31.05万港元回购9.85万股…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KeXZMNV84dDhueE1heEtoZ2FzZUh1S1d6Qi1USlk2SEc4U3hFQS1RUEktRWxwb2MxUW84OGY3ak5SZTVjck9hRktaTWdYTENCT3hGUjlibnUtSnVPal9FMQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-1553797907ca",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2482,6 +2575,38 @@
         "score": 0,
         "event_id": "event-18bc9c29b977",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-344aa385cf0540873b",
+      "company": "skyee",
+      "date": "2026-10-28",
+      "title": "参股五年后收购Skyee，拉卡拉这笔交易划算吗？ - 腾讯新闻",
+      "summary": "参股五年后收购Skyee，拉卡拉这笔交易划算吗？ - 腾讯…",
+      "category": "资本并购",
+      "priority": "normal",
+      "source": "腾讯新闻",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VT0pTOUk3WFVvejRvQVBZWlRueUFTMGZ5dDJmdTBuV1lTemcyUl9TdHlxV19mS3BnZ0hlWWlQMzFXbUZldjRwN1RPSXFMVjVMLW56WjRn?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a9a9feefaf6e",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2885,7 +3010,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-a9a9feefaf6e",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2948,7 +3073,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-a9a9feefaf6e",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -6178,6 +6303,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-09T22:21:03.688457+00:00",
+  "updated_at": "2026-11-10T07:17:19.349775+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
