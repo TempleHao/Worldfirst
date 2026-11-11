@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-0d52ee89cb26bd1fb4",
+      "company": "airwallex",
+      "date": "2026-11-11",
+      "title": "空中云汇创始人「打脸」自己：从怒喷稳定币到亲手造链 - 深潮TechFlow",
+      "summary": "空中云汇创始人「打脸」自己：从怒喷稳定币到亲手造链 - 深…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "深潮TechFlow",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUS3pSOVFIR2Q0S1NTbGZaNnBfRlNpREEydEMtOHB5TkktRFVzOXdUMnF1UGpFSWJicGc4T2pzSHFFR2ZyZFQtZ1ktYU16T2tPcnR3Sw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-96ce7614b481",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-746e2196aedce0da1f",
       "company": "lianlian",
       "date": "2026-11-10",
@@ -138,6 +169,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f3d6225620d9",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-a9698acc2e4de63753",
+      "company": "airwallex",
+      "date": "2026-11-09",
+      "title": "独立站收款平台：三类方案、五类痛点与Airwallex空中云汇的能力边界 - 新浪网",
+      "summary": "独立站收款平台：三类方案、五类痛点与Airwallex空中…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "新浪网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10TUU4SVdXNWxpek5Ld0ZQa3hMSFhvSWlvNUduWDljMlMzclpnUFFpZkFCQ044TVBqNjBkQjlkVVhQRVhreWV1SDNfV3drQWlzc3BMY0xPbFBtbS1IekFWS2RSazEyUk9DTjBTXzNBRllMVHptYS1QS2JtS2xJZUk?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8080c096e477",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -6396,6 +6458,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-10T19:43:21.382713+00:00",
+  "updated_at": "2026-11-11T06:17:48.964713+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
