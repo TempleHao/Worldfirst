@@ -50,6 +50,161 @@
       }
     },
     {
+      "id": "search-87887138eb38e41d55",
+      "company": "airwallex",
+      "date": "2026-11-11",
+      "title": "空中云汇未来五年在新加坡投资20亿元 员工增至千人 - 联合早报",
+      "summary": "空中云汇未来五年在新加坡投资20亿元 员工增至千人 - 联…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "联合早报",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5rOExiNXRYQTFKdXU3Z1B3S3BaVmt5LXRlaURYTWtndEF2SW9tV19QUkNyZEs2UHB2NEtxa0FGdGFVWUNWZFo2WnFLR3B0empfYUlHSno5eFR2Mml5eGtxRlpzVUw4WGhlU290VkJzUXZ0aWc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7d17791c36fa",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-045f3098b0b29aff66",
+      "company": "airwallex",
+      "date": "2026-11-11",
+      "title": "空中云汇未来投资逾20亿元 为本地再增250个工作岗位 - 8world",
+      "summary": "空中云汇未来投资逾20亿元 为本地再增250个工作岗位 -…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "8world",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOE1GR0t0S0FqbFZVMzg4bHdzMDgzelJIU0hrNk80bnFnTW5vRzc4SGFwVzJ1MEpkWjZXSDFkMFZ6MndjR3dKQ0E5Z0pYN1Vzbmhhb1NFNmZzTjRxS0E5RXJVWkUtV0g5V3B5dGJFSHFpLVFkS3dKLVJYQ2U2R2djdWU5T2VMOVBiSlE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-dce9cea4ce9d",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-94f5466e5eb6990232",
+      "company": "airwallex",
+      "date": "2026-11-11",
+      "title": "金融科技公司Airwallex将在新加坡投资超过20亿元，员工人数增至1000人以上 - The Straits Times",
+      "summary": "金融科技公司Airwallex将在新加坡投资超过20亿元，…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "The Straits Times",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWlNac0ZjRDhFdGowa1Z0cWFEOGkwWlBqVy1Lek9PVmZ5Z28yZzFKRTZxYVU2WUZSUHR0TWVmUGlYWTVyT0xHQzJhWF9pVGZ5dmpNVDczSXVOeVlfcFdYbXVlbEZXZUtvU2xuUUVobnJncXZqNlNjUXRFRWpEM1dPN0FZMTlWSGFnTFR1SG1odEUybW42bjREeXJGY21hQmZLS2F6T1FHUzh5dkJIY296Y2dnZlV2cV9fSWEzcTl3blR3X3VvTklnVzZ2ZS1DMUZzenRpN2dCU21yMjg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e13c843a8977",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-32bbc5ca185fa334d4",
+      "company": "airwallex",
+      "date": "2026-11-11",
+      "title": "Airwallex计划在新加坡投资超过20亿新元，并将本地员工人数增至1000人以上 - The Business Times",
+      "summary": "Airwallex计划在新加坡投资超过20亿新元，并将本地…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "The Business Times",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVG4wWEJSZEZxX0pNeUV6TnZ4Ui1SbXZYTFZaVnp6MDdMQURzeHRLUE1NaV9DWUR5aGNBMWRaSGJhbjlXMWkxUDJ4eFYxZFd4Ymc5VFp6b2FNRnpsWE1kZHBIdUxPYzhVdExFdkp5N2dRSFhnb1dQb1Aybmdqc01iNlczenM0Zy1yV2RzZE5vTWlYd3BKRy0tOWpuWFQ5ZG9wajQyUkJianFNSThFeGhTWGhXYm9CVDlMOEVoSGJXX0tBSTFha1E?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-e13c843a8977",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-0f22b699a9a1b86389",
+      "company": "lianlian",
+      "date": "2026-11-11",
+      "title": "连连数字(02598)11月11日耗资约33.82万港元回购10.9万股_经济时评_财经 - 证券之星",
+      "summary": "连连数字(02598)11月11日耗资约33.82万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55SXlaUWd1bk95MGJTbEJYRzU1SFpOSU94ZER6VFI1V2RmbEVwUHpoUTlVWGZOamRIS3g3YWQwc2xMVlhCeFVXNG9kUWVWdktDZENPSGlnajJpcE1PLUZidw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-aeeadcaaecce",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-746e2196aedce0da1f",
       "company": "lianlian",
       "date": "2026-11-10",
@@ -76,6 +231,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-11a153423552",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-79db47d396bd77ab0e",
+      "company": "airwallex",
+      "date": "2026-11-10",
+      "title": "从唱空稳定币到亲手造链：空中云汇创始人张硕的转向与支付结算层之争 - ChainCatcher",
+      "summary": "从唱空稳定币到亲手造链：空中云汇创始人张硕的转向与支付结算…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "ChainCatcher",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PMWxXWFNzTWlvZDN6T3UxRHJtaWFGYlp0V2NtTEFkOXlFQmhyYllPblJ0MXJQVmpiOWtzWUYwcEE2MHdNOC1NWXhfUEJGVlY4ZDE4SG8tcw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-bf3ad5b0830d",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -385,7 +571,38 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-45e4c180ef37",
+        "event_id": "event-470ebf286ec3",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-4e994de45a64e96805",
+      "company": "airwallex",
+      "date": "2026-11-08",
+      "title": "币安换CFO：Kaiser Ng离职，Airwallex前高管Justin Yek接任 - 凤凰网",
+      "summary": "币安换CFO：Kaiser Ng离职，Airwallex前…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fMnlTbEJ5ckNRQjRRU1VwQmVQT24xSnc5RHJUY21SeFJpWnJBTTVrYVRHbUxnMmphUW9Sd0dnSzZBVTE1eTBZZTlXeE4?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-470ebf286ec3",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -603,7 +820,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-8878e0a7decb",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -634,7 +851,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-8878e0a7decb",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -820,7 +1037,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-8878e0a7decb",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -851,6 +1068,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-af21f686a41c",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-ce40c0a89e861d4efe",
+      "company": "lianlian",
+      "date": "2026-11-06",
+      "title": "连连数字(02598)11月6日斥资31.2万港元回购9.95万股 - 凤凰网",
+      "summary": "连连数字(02598)11月6日斥资31.2万港元回购9.…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Wcm9aVkI3cnVORE1RZ3NMaHVtdUdVbGJEem4ybE5ZYVROdkpZYmMxVzZNcjJqU3J0VmtZZlJ2VU0xQXhfLXM2UTNHSE8?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8878e0a7decb",
         "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
@@ -6458,6 +6706,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-11T06:17:48.964713+00:00",
+  "updated_at": "2026-11-11T19:35:23.414102+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
