@@ -50,6 +50,130 @@
       }
     },
     {
+      "id": "search-d8cc3fb21b42fc1dcf",
+      "company": "lianlian",
+      "date": "2026-11-12",
+      "title": "连连数字(02598)11月12日斥资36.14万港元回购11.95万股_经济时评_财经 - 证券之星",
+      "summary": "连连数字(02598)11月12日斥资36.14万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iWGFRY3EwVVVhakVCNGlaRXRSUDVaMGw2UjVFRXBvWWNTVklfZVp5S1JzLXNvWnlCYm4wR0hWMjlXT2h2VklmUG5OLVZwTFlDODV2aGNQZjNyRDdmRnJmNA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9c8aa41385fc",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-21bf62d943f8cb7160",
+      "company": "lianlian",
+      "date": "2026-11-12",
+      "title": "连连数字(02598)11月12日斥资36.14万港元回购11.95万股 提供者 智通财经 - 英为财情 Investing.com",
+      "summary": "连连数字(02598)11月12日斥资36.14万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "英为财情 Investing.com",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHQ1VoaXlOX0N2YndKUmo1S3hwVWxRd0hwd1RKcHdaclNwbHVvRDdpaUdVSGI4alNWOVNWajEwcmdmY0x6ekp5eXZPd0lMYjNPb1FWYUdKbGxxSWpmc25neEFFS0U3dFQ0VHRiVzlyU0Y?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9c8aa41385fc",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-bcabd552cb2e5fca46",
+      "company": "lianlian",
+      "date": "2026-11-12",
+      "title": "连连数字(02598.HK)11月12日耗资36.14万港元回购11.95万股 - TradingView",
+      "summary": "连连数字(02598.HK)11月12日耗资36.14万港…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1yRUZQNHZyTHN6eEplVGtYSC0wUkpzdmY3WkZxWnVWYVVsaDF2b1Q3MXd4alNrWTBfRi1yZG02c2Z5UG5Nc0tkblJDZk1VVXBQZTlZNE5kaFN2RVV4YzE0bUxOVTEtUTlGOWc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9c8aa41385fc",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-6c57e63165abbc233d",
+      "company": "pingpong",
+      "date": "2026-11-12",
+      "title": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态 - Sohu",
+      "summary": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Sohu",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HaUYtank5eGJWLWVXd19UbF9Qc1dsLTkzMDRaLXl3Si11OUdIei1jNW5Mc2VkTmVhLVUxVEI3RFYxOW0xdURJMGczczZESFBqdElv?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b18c8299e24c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-0d52ee89cb26bd1fb4",
       "company": "airwallex",
       "date": "2026-11-11",
@@ -6768,6 +6892,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-12T07:09:13.435415+00:00",
+  "updated_at": "2026-11-12T19:53:54.358213+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
