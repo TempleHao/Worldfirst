@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-f23c214ada2cfac3c8",
+      "company": "pingpong",
+      "date": "2026-11-12",
+      "title": "跨境支付平台推荐，PingPong保障资金高效流转 - 新讯网",
+      "summary": "跨境支付平台推荐，PingPong保障资金高效流转 - 新…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新讯网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GbEJad3RxSENZYW40N1dScW9wTmdMcmNnWFk2Zk9BYTRVeWV6Qkd2OFJ3TUFWaUh0aGpvbDdsc1lCdTZLNDlGUm5yVFF5NmhCSDl0QlVNdG1lTU45MHc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4a5f721275e4",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-0d52ee89cb26bd1fb4",
       "company": "airwallex",
       "date": "2026-11-11",
@@ -819,7 +850,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-8878e0a7decb",
+        "event_id": "event-a58c767f3407",
         "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
@@ -850,7 +881,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-8878e0a7decb",
+        "event_id": "event-a58c767f3407",
         "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
@@ -1036,7 +1067,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-8878e0a7decb",
+        "event_id": "event-a58c767f3407",
         "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
@@ -1098,7 +1129,38 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-8878e0a7decb",
+        "event_id": "event-a58c767f3407",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-24019be075a6737486",
+      "company": "lianlian",
+      "date": "2026-11-06",
+      "title": "连连数字(02598.HK)11月6日耗资31.2万港元回购9.95万股 - TradingView",
+      "summary": "连连数字(02598.HK)11月6日耗资31.2万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VUWJNb28ySGZkZFhoSlgwc29WaUI1NUs3UFZiaFRxQllvRWlXb1FiOXVUWUJoTFJmbGJBYzgyZGx0a1FvbnA3N3pjRDd0T3FlS294cFp4Z2FyTmVWT1piWnRJbzN4OC1oUkE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a58c767f3407",
         "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
@@ -6706,6 +6768,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-11T19:35:23.414102+00:00",
+  "updated_at": "2026-11-12T07:09:13.435415+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

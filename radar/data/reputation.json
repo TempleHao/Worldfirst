@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-11T19:35:27.651829+00:00",
+  "generated_at": "2026-11-12T07:09:17.446359+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,18 +12,47 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 214,
-    "events": 144,
+    "articles": 216,
+    "events": 145,
     "sentiment": {
-      "中性": 214
+      "中性": 216
     },
     "crisis": {
-      "一般": 144
+      "一般": 145
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-4a5f721275e4",
+      "company": "pingpong",
+      "headline": "跨境支付平台推荐，PingPong保障资金高效流转 - 新讯网",
+      "date": "2026-11-12",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-f23c214ada2cfac3c8"
+      ]
+    },
     {
       "id": "event-96ce7614b481",
       "company": "airwallex",
@@ -525,9 +554,9 @@
       ]
     },
     {
-      "id": "event-8878e0a7decb",
-      "company": "lianlian",
-      "headline": "连连数字(02598.HK)11月6日耗资31.2万港元回购9.95万股 - TradingView",
+      "id": "event-af21f686a41c",
+      "company": "pingpong",
+      "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态，垄断型“巨无霸”不太容易出现 - 每日经济新闻",
       "date": "2026-11-06",
       "risk_level": "一般",
       "risk_score": 0,
@@ -550,10 +579,43 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
+        "search-4fa5aa30d00b916d10",
+        "search-08ba6491404835e496",
+        "search-fee7c5241fd3bc0feb",
+        "search-d03635840e487695f6"
+      ]
+    },
+    {
+      "id": "event-a58c767f3407",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)11月6日耗资31.2万港元回购9.95万股 - TradingView",
+      "date": "2026-11-06",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 3,
+      "publisher_count": 3,
+      "official_sources": 0,
+      "mention_count": 5,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
         "search-408017152be9b4e846",
         "search-67f300c8531f7f97b2",
         "search-b20230cc8518e08bc1",
-        "search-ce40c0a89e861d4efe"
+        "search-ce40c0a89e861d4efe",
+        "search-24019be075a6737486"
       ]
     },
     {
@@ -645,17 +707,17 @@
       ]
     },
     {
-      "id": "event-af21f686a41c",
+      "id": "event-65a3befc963e",
       "company": "pingpong",
-      "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态，垄断型“巨无霸”不太容易出现 - 每日经济新闻",
-      "date": "2026-11-06",
+      "headline": "PingPong上线一站式AI行业支付方案：开放全球收付与智能体支付能力 - 全球定制网",
+      "date": "2026-11-05",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 1,
+      "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 4,
+      "mention_count": 1,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -670,10 +732,7 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-4fa5aa30d00b916d10",
-        "search-08ba6491404835e496",
-        "search-fee7c5241fd3bc0feb",
-        "search-d03635840e487695f6"
+        "search-7de8a646bc7d5d916e"
       ]
     },
     {
@@ -968,35 +1027,6 @@
       ]
     },
     {
-      "id": "event-65a3befc963e",
-      "company": "pingpong",
-      "headline": "PingPong上线一站式AI行业支付方案：开放全球收付与智能体支付能力 - 全球定制网",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-7de8a646bc7d5d916e"
-      ]
-    },
-    {
       "id": "event-686eeb1e1373",
       "company": "airwallex",
       "headline": "2026亚马逊卖家回款怎么选？从多站点资金管理看Airwallex空中云汇的核心能力_行业新闻 - 证券之星",
@@ -1084,6 +1114,35 @@
       ],
       "items": [
         "search-f67c758a87ade08a59"
+      ]
+    },
+    {
+      "id": "event-c0f96b39d809",
+      "company": "pingpong",
+      "headline": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
+      "date": "2026-11-03",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4c592a500b3e5f0557"
       ]
     },
     {
@@ -1235,35 +1294,6 @@
       ]
     },
     {
-      "id": "event-c0f96b39d809",
-      "company": "pingpong",
-      "headline": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
-      "date": "2026-11-03",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-4c592a500b3e5f0557"
-      ]
-    },
-    {
       "id": "event-49910232fa13",
       "company": "xtransfer",
       "headline": "XTransfer倪一雄：AI时代跨境支付新基建 三层风控+动态适配全球监管 - 新浪财经",
@@ -1290,6 +1320,35 @@
       ],
       "items": [
         "search-3543033b4c9d5b93c6"
+      ]
+    },
+    {
+      "id": "event-a918c241e36b",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：打通订单与资金的信息链路，打造航旅业一站式支付解决方案 - 新讯网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-9ef517a84fd2201fd3"
       ]
     },
     {
@@ -1438,35 +1497,6 @@
       ],
       "items": [
         "search-596259f343b024315e"
-      ]
-    },
-    {
-      "id": "event-a918c241e36b",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：打通订单与资金的信息链路，打造航旅业一站式支付解决方案 - 新讯网",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-9ef517a84fd2201fd3"
       ]
     },
     {
@@ -1828,6 +1858,35 @@
       ]
     },
     {
+      "id": "event-e3e82cc8f12d",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客户转化 - 新讯网",
+      "date": "2026-10-28",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-e1a17a3acdb83527d9"
+      ]
+    },
+    {
       "id": "event-60c8c2b19b26",
       "company": "lianlian",
       "headline": "连连数字(02598)10月28日斥资29.61万港元回购9.3万股_经济时评_财经 - 证券之星",
@@ -1884,35 +1943,6 @@
       ],
       "items": [
         "search-979d7ef1c5e6832a08"
-      ]
-    },
-    {
-      "id": "event-e3e82cc8f12d",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客户转化 - 新讯网",
-      "date": "2026-10-28",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-e1a17a3acdb83527d9"
       ]
     },
     {
@@ -2719,6 +2749,35 @@
       ]
     },
     {
+      "id": "event-1fde3761b428",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a27b48eb5547e14a8e"
+      ]
+    },
+    {
       "id": "event-eae09fe57348",
       "company": "airwallex",
       "headline": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 新浪新闻_手机新浪网",
@@ -2921,35 +2980,6 @@
       ],
       "items": [
         "search-82e51dd46a45724e90"
-      ]
-    },
-    {
-      "id": "event-1fde3761b428",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a27b48eb5547e14a8e"
       ]
     },
     {
@@ -3278,6 +3308,35 @@
       ]
     },
     {
+      "id": "event-a7dde3b307bf",
+      "company": "pingpong",
+      "headline": "PingPong广交会展示非洲本币收付款方案",
+      "date": "2026-10-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "pingpong-20261019"
+      ]
+    },
+    {
       "id": "event-5a64fca17866",
       "company": "airwallex",
       "headline": "空中云汇与韩国ONE Store达成战略合作",
@@ -3393,35 +3452,6 @@
       ],
       "items": [
         "worldfirst-20261019"
-      ]
-    },
-    {
-      "id": "event-a7dde3b307bf",
-      "company": "pingpong",
-      "headline": "PingPong广交会展示非洲本币收付款方案",
-      "date": "2026-10-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "pingpong-20261019"
       ]
     },
     {

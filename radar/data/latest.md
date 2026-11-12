@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-12｜PingPong** 跨境支付平台推荐，PingPong保障资金高效流转 - 新… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GbEJad3RxSENZYW40N1dScW9wTmdMcmNnWFk2Zk9BYTRVeWV6Qkd2OFJ3TUFWaUh0aGpvbDdsc1lCdTZLNDlGUm5yVFF5NmhCSDl0QlVNdG1lTU45MHc?oc=5)（unverified）
 - **2026-11-11｜空中云汇** 空中云汇创始人「打脸」自己：从怒喷稳定币到亲手造链 - 深… [原文](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUS3pSOVFIR2Q0S1NTbGZaNnBfRlNpREEydEMtOHB5TkktRFVzOXdUMnF1UGpFSWJicGc4T2pzSHFFR2ZyZFQtZ1ktYU16T2tPcnR3Sw?oc=5)（unverified）
 - **2026-11-11｜空中云汇** 空中云汇未来五年在新加坡投资20亿元 员工增至千人 - 联… [原文](https://news.google.com/rss/articles/CBMic0FVX3lxTE5rOExiNXRYQTFKdXU3Z1B3S3BaVmt5LXRlaURYTWtndEF2SW9tV19QUkNyZEs2UHB2NEtxa0FGdGFVWUNWZFo2WnFLR3B0empfYUlHSno5eFR2Mml5eGtxRlpzVUw4WGhlU290VkJzUXZ0aWc?oc=5)（unverified）
 - **2026-11-11｜空中云汇** 空中云汇未来投资逾20亿元 为本地再增250个工作岗位 -… [原文](https://news.google.com/rss/articles/CBMiigFBVV95cUxOOE1GR0t0S0FqbFZVMzg4bHdzMDgzelJIU0hrNk80bnFnTW5vRzc4SGFwVzJ1MEpkWjZXSDFkMFZ6MndjR3dKQ0E5Z0pYN1Vzbmhhb1NFNmZzTjRxS0E5RXJVWkUtV0g5V3B5dGJFSHFpLVFkS3dKLVJYQ2U2R2djdWU5T2VMOVBiSlE?oc=5)（unverified）
@@ -37,6 +38,7 @@
 - **2026-11-06｜连连国际** 连连数字(02598)11月6日斥资31.2万港元回购9.… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1OHhMbG9rQWxQTFRXaER3YlhOWkdkelJVZkI4cG5ybWhpcXNRVWY3OWJBNGxuUG02bjFGU1ZvazFPWVVJNHZFWl8xNEJwRnVVRGVjUWI4dExtYWxWMDBqS1V5VVE?oc=5)（unverified）
 - **2026-11-06｜PingPong** PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5icHJXMzFhRHJjX19BaGw3M3JqQjUxMlJlSUYzRWdqOGdPVzJLR0dtSUFCZlM0VlVvVUFmaGk4eHZlV3B3ZnFaNVFSanNERzFTRGJyYVBQMG93WlFrYm82T1A0eGpkdw?oc=5)（unverified）
 - **2026-11-06｜连连国际** 连连数字(02598)11月6日斥资31.2万港元回购9.… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Wcm9aVkI3cnVORE1RZ3NMaHVtdUdVbGJEem4ybE5ZYVROdkpZYmMxVzZNcjJqU3J0VmtZZlJ2VU0xQXhfLXM2UTNHSE8?oc=5)（unverified）
+- **2026-11-06｜连连国际** 连连数字(02598.HK)11月6日耗资31.2万港元回… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE1VUWJNb28ySGZkZFhoSlgwc29WaUI1NUs3UFZiaFRxQllvRWlXb1FiOXVUWUJoTFJmbGJBYzgyZGx0a1FvbnA3N3pjRDd0T3FlS294cFp4Z2FyTmVWT1piWnRJbzN4OC1oUkE?oc=5)（unverified）
 - **2026-11-05｜派安盈** 派安盈与Shopee推出越南盾（VND）本币收款解决方案，… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE40eEpyYWZRX0hVOWJMc0lzT05tMlRScDJNV3FsNjJTT3VfQWEzSVZYamVJd2k1Y09mcnhBYldpaTNBSVJGS1BibkFnWVNMY1hPSUpLRU5qM1BELV9IWFl3dA?oc=5)（unverified）
 - **2026-11-05｜空中云汇** AI 走进广交会，外贸收款平台Airwallex 空中云汇… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NWldxUklwUXllSnEwSldQeXVJZ21ZWHpnQ2U1RmNiVHhSeDc1Ym9mclprUHFZYVpIV2R1Yl9UZzNnWHBRSV90c2FrcU81b21OcHdmektKbW8xSTFiemlZOC1Bamk?oc=5)（unverified）
 - **2026-11-05｜派安盈** 派安盈2026年第三季度财报：B2B交易量加速增长而营业利… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE02SkNOWGVyRjJldjIxLTc0MXZ4YWtTSy1vbjROZk9iMkZfbE9FeFFzV3h3YlVwZkhiR0lXLXJ6ODVKa3JjQm5DQzcwSTV6ZWEzZlY3UUoweElwYzItbkFmOEZxZWJpbURSbjBj?oc=5)（unverified）
@@ -120,5 +122,3 @@
 - **2026-10-26｜连连国际** 连连数字(02598)10月26日斥资41.74万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTFBUX0hpcnNJRWFBNnVSQmdDc0ZpLVFvamZHcWlrbUhkZVdvYXlNamcxcmVvT3NRdFptTzBzU25od0pwZWNHSXVTdEg3TTNCZ2ZIekNrRFBtUTU1M05qVlZZRHpjR3dpcnBxTFUxbWp6NzA?oc=5)（unverified）
 - **2026-10-26｜连连国际** 连连数字(02598)翌日披露报表 - [股份购回]翌日披… [原文](https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEQzdjg1dHVtS1VCaWhHUWVDQ3lJbl9CYk5fd3VlWk45M1RXWFpRX05oei1PY1I5VTNhcGNyV1IzM3FRQ0pDQlJDYVNoLWRmTDI5blc2Q1VZdHZRQW5IZnJNY1ZWeTBxd3RvRDYycG1jeVgxVnJjYzU3SVdnY1hDU3l6bGtNQ0U?oc=5)（unverified）
 - **2026-10-26｜连连国际** 连连数字（02598.HK）回购130,000股-证券之星… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FbXVqY0Njb3pLOEEzRlN1dFU0WEpqRHQ5M2thaXl0WXRpdTZHTmxlRjlhZ1JRcTVZMk1nb0FSblY0ZzUzUmptRW94T2NaSzd5T09aUlFDY3daT0xtRmc?oc=5)（unverified）
-- **2026-10-26｜空中云汇** AI 企业跨境收款如何少走弯路？Airwallex 空中云… [原文](https://news.google.com/rss/articles/CBMibkFVX3lxTE5uT3RUWVY1OFdFQnRSdVd3OUd6SXBkNXdsdXlHTldyVVUwZ3hoSHhzSzEtbVRxX0VibGtyVC10Z0JpRXdmVUxUODlONGtLQ2RmeGZoSFZLUEpzN1lmSi1MbFZlaFRWemVPWGZVcTVR?oc=5)（unverified）
-- **2026-10-26｜连连国际** 连连数字：10月26日斥资41.74万港元回购13万股 -… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nNnU1bDVmeGhieUtJcW5WczJQVFc1THlneVBhM0RSV05OTW9uZWlrcE9tMnU3bHpNODlMek5DZDJaMnpqc1FyazNxRzRfbHN0bnpvOEQtOWFDbGVrbVBibg?oc=5)（unverified）
