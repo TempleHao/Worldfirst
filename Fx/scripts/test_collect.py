@@ -20,6 +20,7 @@ RSS=b"""<?xml version="1.0"?><rss version="2.0"><channel>
 <pubDate>Fri, 13 Nov 2026 10:00:00 GMT</pubDate></item>
 </channel></rss>"""
 
+# Regression fixtures represent valid FX-relevant articles within the seven-day window.
 class CollectorTests(unittest.TestCase):
     def test_rss_metadata_only(self):
         items=collect.parse_feed(RSS)
