@@ -13,7 +13,7 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: radar-search-refresh
+  group: worldfirst-pages
   cancel-in-progress: false
 jobs:
   scrape:
