@@ -1,9 +1,823 @@
 {
   "schema_version": 1,
-  "attempted_at": null,
-  "last_successful_at": null,
+  "attempted_at": "2026-11-13T21:31:41.312513Z",
+  "last_successful_at": "2026-11-13T21:31:41.312513Z",
   "quote_type": "official_daily_reference_not_realtime_or_executable",
-  "instruments": [],
-  "sources": [],
-  "notice": "首次正式采集前没有报价。官方参考汇率不是实时可成交价。"
+  "instruments": [
+    {
+      "pair": "EUR/USD",
+      "value": 1.1052,
+      "date": "2026-11-13",
+      "source": "欧洲央行 ECB",
+      "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "method": "direct_eur_reference",
+      "kind": "official_daily_reference",
+      "change_5_published_days_pct": -1.012,
+      "comparison_date": "2026-11-06",
+      "points": [
+        {
+          "date": "2026-10-05",
+          "value": 1.1204
+        },
+        {
+          "date": "2026-10-06",
+          "value": 1.1269
+        },
+        {
+          "date": "2026-10-07",
+          "value": 1.1177
+        },
+        {
+          "date": "2026-10-08",
+          "value": 1.1186
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1.1206
+        },
+        {
+          "date": "2026-10-12",
+          "value": 1.1181
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1.1188
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1.1195
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1.1208
+        },
+        {
+          "date": "2026-10-16",
+          "value": 1.1253
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1.1225
+        },
+        {
+          "date": "2026-10-20",
+          "value": 1.1215
+        },
+        {
+          "date": "2026-10-21",
+          "value": 1.1234
+        },
+        {
+          "date": "2026-10-22",
+          "value": 1.1205
+        },
+        {
+          "date": "2026-10-23",
+          "value": 1.1193
+        },
+        {
+          "date": "2026-10-26",
+          "value": 1.1188
+        },
+        {
+          "date": "2026-10-27",
+          "value": 1.115
+        },
+        {
+          "date": "2026-10-28",
+          "value": 1.1133
+        },
+        {
+          "date": "2026-10-29",
+          "value": 1.113
+        },
+        {
+          "date": "2026-10-30",
+          "value": 1.1172
+        },
+        {
+          "date": "2026-11-02",
+          "value": 1.1216
+        },
+        {
+          "date": "2026-11-03",
+          "value": 1.1179
+        },
+        {
+          "date": "2026-11-04",
+          "value": 1.1267
+        },
+        {
+          "date": "2026-11-05",
+          "value": 1.1224
+        },
+        {
+          "date": "2026-11-06",
+          "value": 1.1165
+        },
+        {
+          "date": "2026-11-09",
+          "value": 1.1193
+        },
+        {
+          "date": "2026-11-10",
+          "value": 1.1214
+        },
+        {
+          "date": "2026-11-11",
+          "value": 1.1127
+        },
+        {
+          "date": "2026-11-12",
+          "value": 1.1081
+        },
+        {
+          "date": "2026-11-13",
+          "value": 1.1052
+        }
+      ]
+    },
+    {
+      "pair": "USD/CNY",
+      "value": 6.671915,
+      "date": "2026-11-13",
+      "source": "欧洲央行 ECB",
+      "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "method": "same_day_cross",
+      "kind": "official_daily_reference_cross",
+      "change_5_published_days_pct": 0.009,
+      "comparison_date": "2026-11-06",
+      "points": [
+        {
+          "date": "2026-10-05",
+          "value": 6.70457
+        },
+        {
+          "date": "2026-10-06",
+          "value": 6.704588
+        },
+        {
+          "date": "2026-10-07",
+          "value": 6.704572
+        },
+        {
+          "date": "2026-10-08",
+          "value": 6.702306
+        },
+        {
+          "date": "2026-10-09",
+          "value": 6.692129
+        },
+        {
+          "date": "2026-10-12",
+          "value": 6.692782
+        },
+        {
+          "date": "2026-10-13",
+          "value": 6.693779
+        },
+        {
+          "date": "2026-10-14",
+          "value": 6.69272
+        },
+        {
+          "date": "2026-10-15",
+          "value": 6.691024
+        },
+        {
+          "date": "2026-10-16",
+          "value": 6.686217
+        },
+        {
+          "date": "2026-10-19",
+          "value": 6.680713
+        },
+        {
+          "date": "2026-10-20",
+          "value": 6.678021
+        },
+        {
+          "date": "2026-10-21",
+          "value": 6.676073
+        },
+        {
+          "date": "2026-10-22",
+          "value": 6.674342
+        },
+        {
+          "date": "2026-10-23",
+          "value": 6.67024
+        },
+        {
+          "date": "2026-10-26",
+          "value": 6.668127
+        },
+        {
+          "date": "2026-10-27",
+          "value": 6.667534
+        },
+        {
+          "date": "2026-10-28",
+          "value": 6.666397
+        },
+        {
+          "date": "2026-10-29",
+          "value": 6.661635
+        },
+        {
+          "date": "2026-10-30",
+          "value": 6.652882
+        },
+        {
+          "date": "2026-11-02",
+          "value": 6.64827
+        },
+        {
+          "date": "2026-11-03",
+          "value": 6.672332
+        },
+        {
+          "date": "2026-11-04",
+          "value": 6.672317
+        },
+        {
+          "date": "2026-11-05",
+          "value": 6.668389
+        },
+        {
+          "date": "2026-11-06",
+          "value": 6.671294
+        },
+        {
+          "date": "2026-11-09",
+          "value": 6.672831
+        },
+        {
+          "date": "2026-11-10",
+          "value": 6.670323
+        },
+        {
+          "date": "2026-11-11",
+          "value": 6.670711
+        },
+        {
+          "date": "2026-11-12",
+          "value": 6.668261
+        },
+        {
+          "date": "2026-11-13",
+          "value": 6.671915
+        }
+      ]
+    },
+    {
+      "pair": "USD/JPY",
+      "value": 159.99819,
+      "date": "2026-11-13",
+      "source": "欧洲央行 ECB",
+      "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "method": "same_day_cross",
+      "kind": "official_daily_reference_cross",
+      "change_5_published_days_pct": 1.057,
+      "comparison_date": "2026-11-06",
+      "points": [
+        {
+          "date": "2026-10-05",
+          "value": 158.229204
+        },
+        {
+          "date": "2026-10-06",
+          "value": 158.088562
+        },
+        {
+          "date": "2026-10-07",
+          "value": 158.226716
+        },
+        {
+          "date": "2026-10-08",
+          "value": 158.278205
+        },
+        {
+          "date": "2026-10-09",
+          "value": 158.254507
+        },
+        {
+          "date": "2026-10-12",
+          "value": 158.59941
+        },
+        {
+          "date": "2026-10-13",
+          "value": 158.124777
+        },
+        {
+          "date": "2026-10-14",
+          "value": 158.454667
+        },
+        {
+          "date": "2026-10-15",
+          "value": 157.976445
+        },
+        {
+          "date": "2026-10-16",
+          "value": 158.020084
+        },
+        {
+          "date": "2026-10-19",
+          "value": 158.244989
+        },
+        {
+          "date": "2026-10-20",
+          "value": 158.127508
+        },
+        {
+          "date": "2026-10-21",
+          "value": 157.877871
+        },
+        {
+          "date": "2026-10-22",
+          "value": 157.045962
+        },
+        {
+          "date": "2026-10-23",
+          "value": 156.803359
+        },
+        {
+          "date": "2026-10-26",
+          "value": 157.445477
+        },
+        {
+          "date": "2026-10-27",
+          "value": 157.820628
+        },
+        {
+          "date": "2026-10-28",
+          "value": 157.962813
+        },
+        {
+          "date": "2026-10-29",
+          "value": 158.059299
+        },
+        {
+          "date": "2026-10-30",
+          "value": 157.250269
+        },
+        {
+          "date": "2026-11-02",
+          "value": 157.899429
+        },
+        {
+          "date": "2026-11-03",
+          "value": 158.287861
+        },
+        {
+          "date": "2026-11-04",
+          "value": 158.249756
+        },
+        {
+          "date": "2026-11-05",
+          "value": 158.455096
+        },
+        {
+          "date": "2026-11-06",
+          "value": 158.325123
+        },
+        {
+          "date": "2026-11-09",
+          "value": 157.946931
+        },
+        {
+          "date": "2026-11-10",
+          "value": 158.177278
+        },
+        {
+          "date": "2026-11-11",
+          "value": 159.234295
+        },
+        {
+          "date": "2026-11-12",
+          "value": 159.696778
+        },
+        {
+          "date": "2026-11-13",
+          "value": 159.99819
+        }
+      ]
+    },
+    {
+      "pair": "USD/HKD",
+      "value": 7.846001,
+      "date": "2026-11-13",
+      "source": "欧洲央行 ECB",
+      "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "method": "same_day_cross",
+      "kind": "official_daily_reference_cross",
+      "change_5_published_days_pct": 0.109,
+      "comparison_date": "2026-11-06",
+      "points": [
+        {
+          "date": "2026-10-05",
+          "value": 7.847644
+        },
+        {
+          "date": "2026-10-06",
+          "value": 7.847901
+        },
+        {
+          "date": "2026-10-07",
+          "value": 7.848439
+        },
+        {
+          "date": "2026-10-08",
+          "value": 7.847577
+        },
+        {
+          "date": "2026-10-09",
+          "value": 7.847582
+        },
+        {
+          "date": "2026-10-12",
+          "value": 7.847509
+        },
+        {
+          "date": "2026-10-13",
+          "value": 7.847873
+        },
+        {
+          "date": "2026-10-14",
+          "value": 7.848057
+        },
+        {
+          "date": "2026-10-15",
+          "value": 7.847341
+        },
+        {
+          "date": "2026-10-16",
+          "value": 7.848218
+        },
+        {
+          "date": "2026-10-19",
+          "value": 7.848285
+        },
+        {
+          "date": "2026-10-20",
+          "value": 7.848685
+        },
+        {
+          "date": "2026-10-21",
+          "value": 7.84716
+        },
+        {
+          "date": "2026-10-22",
+          "value": 7.839804
+        },
+        {
+          "date": "2026-10-23",
+          "value": 7.843563
+        },
+        {
+          "date": "2026-10-26",
+          "value": 7.844834
+        },
+        {
+          "date": "2026-10-27",
+          "value": 7.844484
+        },
+        {
+          "date": "2026-10-28",
+          "value": 7.845055
+        },
+        {
+          "date": "2026-10-29",
+          "value": 7.846361
+        },
+        {
+          "date": "2026-10-30",
+          "value": 7.845686
+        },
+        {
+          "date": "2026-11-02",
+          "value": 7.846113
+        },
+        {
+          "date": "2026-11-03",
+          "value": 7.845961
+        },
+        {
+          "date": "2026-11-04",
+          "value": 7.845833
+        },
+        {
+          "date": "2026-11-05",
+          "value": 7.845242
+        },
+        {
+          "date": "2026-11-06",
+          "value": 7.837438
+        },
+        {
+          "date": "2026-11-09",
+          "value": 7.841687
+        },
+        {
+          "date": "2026-11-10",
+          "value": 7.844926
+        },
+        {
+          "date": "2026-11-11",
+          "value": 7.845601
+        },
+        {
+          "date": "2026-11-12",
+          "value": 7.844779
+        },
+        {
+          "date": "2026-11-13",
+          "value": 7.846001
+        }
+      ]
+    },
+    {
+      "pair": "GBP/USD",
+      "value": 1.322658,
+      "date": "2026-11-13",
+      "source": "欧洲央行 ECB",
+      "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "method": "same_day_cross",
+      "kind": "official_daily_reference_cross",
+      "change_5_published_days_pct": -1.183,
+      "comparison_date": "2026-11-06",
+      "points": [
+        {
+          "date": "2026-10-05",
+          "value": 1.322474
+        },
+        {
+          "date": "2026-10-06",
+          "value": 1.327639
+        },
+        {
+          "date": "2026-10-07",
+          "value": 1.320456
+        },
+        {
+          "date": "2026-10-08",
+          "value": 1.320692
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1.322039
+        },
+        {
+          "date": "2026-10-12",
+          "value": 1.32354
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1.324651
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1.326658
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1.324666
+        },
+        {
+          "date": "2026-10-16",
+          "value": 1.333531
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1.333056
+        },
+        {
+          "date": "2026-10-20",
+          "value": 1.334674
+        },
+        {
+          "date": "2026-10-21",
+          "value": 1.340173
+        },
+        {
+          "date": "2026-10-22",
+          "value": 1.337591
+        },
+        {
+          "date": "2026-10-23",
+          "value": 1.336829
+        },
+        {
+          "date": "2026-10-26",
+          "value": 1.334765
+        },
+        {
+          "date": "2026-10-27",
+          "value": 1.332807
+        },
+        {
+          "date": "2026-10-28",
+          "value": 1.328758
+        },
+        {
+          "date": "2026-10-29",
+          "value": 1.33169
+        },
+        {
+          "date": "2026-10-30",
+          "value": 1.33989
+        },
+        {
+          "date": "2026-11-02",
+          "value": 1.341948
+        },
+        {
+          "date": "2026-11-03",
+          "value": 1.341083
+        },
+        {
+          "date": "2026-11-04",
+          "value": 1.349988
+        },
+        {
+          "date": "2026-11-05",
+          "value": 1.345916
+        },
+        {
+          "date": "2026-11-06",
+          "value": 1.338488
+        },
+        {
+          "date": "2026-11-09",
+          "value": 1.341604
+        },
+        {
+          "date": "2026-11-10",
+          "value": 1.342271
+        },
+        {
+          "date": "2026-11-11",
+          "value": 1.330694
+        },
+        {
+          "date": "2026-11-12",
+          "value": 1.325558
+        },
+        {
+          "date": "2026-11-13",
+          "value": 1.322658
+        }
+      ]
+    },
+    {
+      "pair": "EUR/GBP",
+      "value": 0.83559,
+      "date": "2026-11-13",
+      "source": "欧洲央行 ECB",
+      "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "method": "direct_eur_reference",
+      "kind": "official_daily_reference",
+      "change_5_published_days_pct": 0.173,
+      "comparison_date": "2026-11-06",
+      "points": [
+        {
+          "date": "2026-10-05",
+          "value": 0.8472
+        },
+        {
+          "date": "2026-10-06",
+          "value": 0.8488
+        },
+        {
+          "date": "2026-10-07",
+          "value": 0.84645
+        },
+        {
+          "date": "2026-10-08",
+          "value": 0.84698
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0.84763
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0.84478
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0.8446
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0.84385
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0.8461
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0.84385
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0.84205
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0.84028
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0.83825
+        },
+        {
+          "date": "2026-10-22",
+          "value": 0.8377
+        },
+        {
+          "date": "2026-10-23",
+          "value": 0.83728
+        },
+        {
+          "date": "2026-10-26",
+          "value": 0.8382
+        },
+        {
+          "date": "2026-10-27",
+          "value": 0.83658
+        },
+        {
+          "date": "2026-10-28",
+          "value": 0.83785
+        },
+        {
+          "date": "2026-10-29",
+          "value": 0.83578
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.8338
+        },
+        {
+          "date": "2026-11-02",
+          "value": 0.8358
+        },
+        {
+          "date": "2026-11-03",
+          "value": 0.83358
+        },
+        {
+          "date": "2026-11-04",
+          "value": 0.8346
+        },
+        {
+          "date": "2026-11-05",
+          "value": 0.83393
+        },
+        {
+          "date": "2026-11-06",
+          "value": 0.83415
+        },
+        {
+          "date": "2026-11-09",
+          "value": 0.8343
+        },
+        {
+          "date": "2026-11-10",
+          "value": 0.83545
+        },
+        {
+          "date": "2026-11-11",
+          "value": 0.83618
+        },
+        {
+          "date": "2026-11-12",
+          "value": 0.83595
+        },
+        {
+          "date": "2026-11-13",
+          "value": 0.83559
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "欧洲央行每日参考汇率",
+      "ok": true,
+      "count": 6,
+      "error": null,
+      "last_observation_date": "2026-11-13"
+    },
+    {
+      "name": "香港金管局港元收市价",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "last_observation_date": "2026-10-31"
+    }
+  ],
+  "notice": "官方工作日参考/收市数据；ECB衍生交叉汇率使用同日EUR报价相除；非实时、非银行可成交价。无USD/CNH官方报价，不予填充。"
 }

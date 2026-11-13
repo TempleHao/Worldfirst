@@ -1,8 +1,8 @@
 {
-  "attempted_at": "2026-11-13T21:00:58.960627Z",
-  "last_successful_at": "2026-11-13T21:00:58.960627Z",
-  "success_count": 5,
-  "total_sources": 5,
+  "attempted_at": "2026-11-13T21:31:41.241415Z",
+  "last_successful_at": "2026-11-13T21:31:41.241415Z",
+  "success_count": 7,
+  "total_sources": 9,
   "sources": [
     {
       "name": "美联储·货币政策",
@@ -33,7 +33,31 @@
       "ok": true,
       "count": 10,
       "error": null
+    },
+    {
+      "name": "日本央行·官方发布",
+      "ok": true,
+      "count": 14,
+      "error": null
+    },
+    {
+      "name": "国际清算银行·央行讲话",
+      "ok": true,
+      "count": 27,
+      "error": null
+    },
+    {
+      "name": "美国劳工部·消费者价格",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError"
+    },
+    {
+      "name": "美国劳工部·就业报告",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError"
     }
   ],
-  "article_count": 18
+  "article_count": 40
 }
