@@ -1,19 +1,198 @@
-const $=id=>document.getElementById(id);
-const state={data:null,query:'',pair:'',source:''};
-const SAMPLE=[
- {title:'演示：美联储发布货币政策声明后，如何建立美元影响证据链？',source:'界面演示',topic:'货币政策',pairs:['EUR/USD','USD/CNY','USD/JPY'],summary:'应核对官方利率决议、措辞变化、市场预期和发布时点。本条仅展示分析结构，并非实际新闻。',url:'https://www.federalreserve.gov/monetarypolicy.htm',sample:true},
- {title:'演示：人民币汇率变动时，如何区分中间价、在岸与离岸市场？',source:'界面演示',topic:'人民币',pairs:['USD/CNY'],summary:'需要分别标注 USDCNY、USDCNH 的行情口径与时间，并区分央行政策信息和市场报价。',url:'https://www.pbc.gov.cn/',sample:true},
- {title:'演示：港币联系汇率下，什么情况下需要关注资金流动？',source:'界面演示',topic:'港币机制',pairs:['USD/HKD'],summary:'观察香港金管局官方公告、兑换保证区间及利率差。不可仅凭标题推断套息套利机会。',url:'https://www.hkma.gov.hk/',sample:true}
-];
-function escapeHtml(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function validUrl(v){try{const u=new URL(v);return ['https:','http:'].includes(u.protocol)?u.href:'#';}catch{return '#';}}
-function beijing(iso){if(!iso)return '未知';const d=new Date(iso);return isNaN(d)?'未知':new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(d);}
-function ageHours(iso){const t=new Date(iso).getTime();return Number.isFinite(t)?(Date.now()-t)/3600000:Infinity;}
-function safeArray(v){return Array.isArray(v)?v:[];}
-function articlePairs(a){return safeArray(a.pairs).map(String);}
-function showStatus(text,tone=''){const n=$('notice');n.textContent=text;n.className='notice '+tone;}
-function updateSelect(items){const select=$('origin'),current=select.value;select.innerHTML='<option value="">全部来源</option>';[...new Set(items.map(x=>x.source).filter(Boolean))].sort().forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;select.appendChild(o);});select.value=current;}
-function card(a){const pairs=articlePairs(a),href=validUrl(a.url);const label=a.sample?'明确标记的演示':(a.verification==='official'?'官方原始发布':'单源资讯·未交叉核实');return '<article class="item"><div class="item-head"><div class="badge-row"><span class="pill">'+escapeHtml(a.topic||'外汇')+'</span>'+pairs.slice(0,3).map(p=>'<span class="pill secondary">'+escapeHtml(p)+'</span>').join('')+(a.sample?'<span class="pill demo">DEMO</span>':'')+'</div><time>'+escapeHtml(a.sample?'示例内容':beijing(a.published_at))+'</time></div><h3>'+escapeHtml(a.title)+'</h3><p>'+escapeHtml(a.summary||'此条仅采集标题和来源；尚无经过核验的中文解读。')+'</p><div class="item-meta"><span>'+escapeHtml(a.source||'未知来源')+' · '+label+'</span><a href="'+escapeHtml(href)+'" target="_blank" rel="noopener noreferrer">原文来源 ↗</a></div></article>';}
-function render(){const data=state.data||{},actual=safeArray(data.articles);const demo=!actual.length;const all=demo?SAMPLE:actual;const q=state.query.trim().toLowerCase();const visible=all.filter(a=>(!state.pair||articlePairs(a).includes(state.pair)||state.pair==='其他'&&articlePairs(a).length===0)&&(!state.source||a.source===state.source)&&(!q||[a.title,a.source,a.summary,...articlePairs(a)].join(' ').toLowerCase().includes(q)));$('feed').innerHTML=visible.length?visible.slice(0,120).map(card).join(''):'<div class="empty"><strong>没有匹配的情报</strong>请尝试调整筛选条件。</div>';if(demo)$('feed').insertAdjacentHTML('afterbegin','<div class="notice warn">下方是明确标记的界面演示内容，真实 RSS 数据需等待首次成功采集。不会将演示记录当作市场新闻。</div>');const updated=data.updated_at;const healthy=ageHours(updated)<3;const s=safeArray(data.sources);$('count-total').textContent=demo?'0':actual.length;$('count-day').textContent=demo?'0':actual.filter(a=>ageHours(a.published_at)>=0&&ageHours(a.published_at)<=24).length;$('count-sources').textContent=s.length?s.filter(x=>x.ok).length+'/'+s.length:'0 / 0';$('updated-at').textContent=beijing(updated);$('freshness').textContent=!updated?'尚未采集':healthy?'最近 3 小时内更新':'数据可能已过期';$('health-label').textContent=!updated?'等待首次采集':healthy?'最近采集有效':'数据更新延迟';document.querySelector('.live-dot').classList.toggle('ok',healthy);updateSelect(all);$('source-status').innerHTML=s.length?s.map(v=>'<div class="source-entry"><span>'+escapeHtml(v.name)+'</span><span class="'+(v.ok?'ok':'fail')+'">'+(v.ok?'成功 · '+Number(v.count||0)+' 条':'失败 · 查看日志')+'</span></div>').join(''):'<p class="muted">尚无成功采集记录。</p>';let brief=$('brief');if(demo){brief.innerHTML='<p><strong>当前状态：演示模式</strong></p><p>尚未取得新的可核实 RSS 数据，系统不生成“今日行情结论”。</p><p>首轮运行后将显示真实资讯统计和关键主题。AI 报告只有经独立模型任务审核并提交时才会出现。</p>';}else{const topics={};actual.filter(a=>ageHours(a.published_at)>=0&&ageHours(a.published_at)<24).forEach(a=>topics[a.topic||'其他']=(topics[a.topic||'其他']||0)+1);const top=Object.entries(topics).sort((a,b)=>b[1]-a[1]).slice(0,4);brief.innerHTML='<p><strong>24 小时来源统计（规则生成）</strong></p><p>已收录 '+actual.length+' 条去重新闻，24 小时主要话题：'+(top.map(x=>escapeHtml(x[0])+' '+x[1]+' 条').join('、')||'暂无')+'。</p><p>这仅是主题频次，不代表市场涨跌方向或新闻真实性。</p>';if(data.ai_brief&&data.ai_brief.reviewed===true&&Array.isArray(data.ai_brief.claims)){const claims=data.ai_brief.claims.filter(c=>Array.isArray(c.evidence_ids)&&c.evidence_ids.length>0).slice(0,5);if(claims.length)brief.innerHTML+='<div class="rule-divider"></div><p><strong>AI 审核报告 · '+escapeHtml(data.ai_brief.generated_at||'')+'</strong></p>'+claims.map(c=>'<p>'+escapeHtml(c.statement)+'<br><small>证据：'+c.evidence_ids.map(id=>{const ev=actual.find(a=>a.id===id);return ev?'<a href="'+escapeHtml(validUrl(ev.url))+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(ev.source)+'</a>':escapeHtml(id);}).join(', ')+'</small></p>').join('');}}}
-async function load(){showStatus('正在读取发布数据…');try{const r=await fetch('./data/articles.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(!d||!Array.isArray(d.articles))throw Error('JSON 结构不正确');state.data=d;try{const ar=await fetch('./data/ai-brief.json?t='+Date.now(),{cache:'no-store'});if(ar.ok){const ab=await ar.json();const ids=new Set(d.articles.map(x=>x.id));const claimOk=c=>['F','O','I','X','U'].includes(c.type)&&['P0','P1','P2','P3','C','U'].includes(c.grade)&&typeof c.statement==='string'&&Array.isArray(c.evidence_ids)&&c.evidence_ids.length>0&&c.evidence_ids.every(id=>ids.has(id));if(ab&&ab.schema_version===1&&ab.reviewed===true&&ab.method==='chatgpt_review_with_cited_sources'&&Array.isArray(ab.claims)&&ab.claims.length>0&&ab.claims.every(claimOk)&&ageHours(ab.generated_at)>=0&&ageHours(ab.generated_at)<=26)d.ai_brief=ab;}}catch(e){console.warn('AI brief unavailable',e);}showStatus(d.articles.length?'已加载 RSS 采集快照；信息源成功不等于内容已交叉核验。':'采集尚未产生真实新闻；当前展示明确标记的演示样例。',d.articles.length?'good':'warn');render();}catch(e){state.data={articles:[],sources:[]};showStatus('读取失败：'+e.message+'。仍可浏览演示界面；请检查 GitHub Actions。','warn');render();}}
-$('search').addEventListener('input',e=>{state.query=e.target.value;render();});$('pair').addEventListener('change',e=>{state.pair=e.target.value;render();});$('origin').addEventListener('change',e=>{state.source=e.target.value;render();});$('reload').addEventListener('click',load);load();
+/* Worldfirst / Fx · 7-day verified-source reading and interactive mechanism teaching */
+"use strict";
+const $ = id => document.getElementById(id);
+const WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
+const app = { data:null, items:[], selectedId:null, query:"", pair:"", topic:"", scenario:"hawk", ai:null };
+function htmlEsc(x){ return String(x ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch])); }
+function safeURL(x){ try { const u = new URL(String(x)); return ["http:","https:"].includes(u.protocol) ? u.href : "#"; } catch { return "#"; } }
+function toDate(x){const n=Date.parse(x); return Number.isFinite(n)?n:NaN;}
+function within7(a){const stamp=toDate(a.published_at);const elapsed=Date.now()-stamp;return Number.isFinite(stamp)&&elapsed>=0&&elapsed<=WINDOW_MS;}
+const fmtDay = new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit"});
+const fmtTime = new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false});
+const fmtFull = new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false});
+function printable(stamp,f=fmtFull){const d=new Date(stamp);return Number.isFinite(d.getTime())?f.format(d):"未标日期";}
+function labelFor(a){return a.verification==="official"?"官方原始发布":"单源媒体资讯";}
+function pairsFor(a){return Array.isArray(a.pairs)?a.pairs.map(String):[];}
+function distinctTopics(){return [...new Set(app.items.map(a=>String(a.topic||"其他")))].sort();}
+function publishStatus(){const updated=toDate(app.data?.updated_at);return Number.isFinite(updated)&&Date.now()-updated>=0&&Date.now()-updated<=3*3600000;}
+const mechanics={
+  "货币政策":{
+    headline:"政策措辞如何进入汇率价格",
+    overview:"央行决议、官员讲话和市场解读需要分开阅读。利率通常影响货币吸引力，但真正推动价格变化的往往是政策信号与原有预期之间的差异。",
+    chain:["政策或官员表态","未来利率预期调整","利差与资产需求改变","汇率可能重新定价"],
+    checks:"请核对央行原文、新闻发布时点、决策前市场预期、国债收益率及主要货币对在相同时间窗口的变化。",
+    opposite:"如果市场已经提前消化、其他央行变化更大，或避险需求主导交易，方向可能不同。"
+  },
+  "通胀与就业":{
+    headline:"为什么市场更在意“预期差”",
+    overview:"通胀、就业数据的影响要对照公布值、市场预期和历史修订值。数据本身不是美元方向的充分理由。",
+    chain:["公布经济数据","与市场预期作比较","重新评估央行政策路径","利率与外汇可能受到影响"],
+    checks:"确认统计机构、公布时间、统计口径、实际值、预期值以及前值是否修订。",
+    opposite:"即使数据高于预期，市场也可能关注其中的结构问题，或者已有其他更强的风险因素。"
+  },
+  "人民币":{
+    headline:"理解 USD/CNY、USD/CNH 与人民币强弱",
+    overview:"人民币分析要明确是美元兑人民币，还是人民币兑美元；在岸 CNY、离岸 CNH、中间价也有不同形成机制。",
+    chain:["国内外利率及贸易变化","结售汇与资金流预期","在岸/离岸报价调整","企业收付汇成本改变"],
+    checks:"区分 USD/CNY 和 USD/CNH，确认数据时点、人民银行官方公告和具体报价方向。",
+    opposite:"USD/CNY 上升意味着同样一美元可兑换更多人民币。贸易流、结售汇和预期管理均可能令短期表现偏离简单的利差逻辑。"
+  },
+  "港币机制":{
+    headline:"联系汇率制度下，哪些变量更重要",
+    overview:"港币处于联系汇率安排之下，美元与港元的关系应从制度、兑换保证、金管局操作以及港元利率来理解。",
+    chain:["美元与港元利率差变化","资金配置与港元需求","港元汇率触及区间边缘的可能性","货币基础与银行体系流动性变化"],
+    checks:"核对香港金管局资料、官方兑换保证和银行体系总结余；区分机制解释与真正已经发生的操作。",
+    opposite:"港币联系汇率制度约束了汇率区间，但不意味着利率差能无风险持续套利；融资、交易成本和市场安排很重要。"
+  },
+  "外汇市场":{
+    headline:"汇率为什么不会只由一条新闻决定",
+    overview:"一则汇市新闻通常同时涉及利差、经济预期、风险情绪、资金流和政策信号。需要区分记者描述、机构预测与可核实的报价事实。",
+    chain:["消息或预期变化","市场参与者重新定价","资金配置及流动性反应","特定货币对变化"],
+    checks:"查看报价方向、数据提供者、时间、相关资产与市场背景；不要把新闻标题当作可验证因果。",
+    opposite:"不同货币对的计价方向不同，风险偏好、避险需求、流动性与已有仓位也可能使汇率与单一宏观叙事背离。"
+  },
+  "宏观经济":{
+    headline:"宏观信息如何传到外汇市场",
+    overview:"增长、财政、债券收益率与贸易变化都可能影响汇率，但需要识别是否真的改变了相对增长和利率预期。",
+    chain:["宏观数据与政策变化","增长或财政预期调整","收益率与资金流变化","汇率与跨境经营影响"],
+    checks:"查看官方统计与修订、经济周期、市场预期和同期间替代解释。",
+    opposite:"强劲经济数据未必必然推升货币；若通胀、财政风险或其他国家走势更强，结果可能不同。"
+  },
+  "其他":{
+    headline:"先确定事实，再判断关联",
+    overview:"这条消息的货币影响尚未被结构化核实。可以先阅读原始发布，再判断其与利率、增长、风险预期或资金流动的关系。",
+    chain:["核对原始发布","确定影响变量","寻找独立数据","保留尚未证实的部分"],
+    checks:"检查原始链接、发布者、时间和证据是否可追溯。",
+    opposite:"目前不能根据标题推断货币涨跌或市场已经作出的反应。"
+  }
+};
+const scenarios={
+  hawk:{
+    name:"偏鹰信号 / 示例",
+    chain:["政策表态偏鹰","市场可能上修美国利率预期","相对利差可能扩大","美元可能获得支撑"],
+    explain:"假设美联储释放的信息比市场此前预期更强调控制通胀，投资者可能重新评估未来降息幅度。与其他国家相比，美国资产收益率的变化会影响美元需求。",
+    counter:"如果偏鹰内容早已被充分定价，或市场突然更担心衰退和金融风险，美元不一定按照简单的利差逻辑变化。"
+  },
+  inflation:{
+    name:"通胀低于预期 / 示例",
+    chain:["实际 CPI 低于市场预期","未来政策利率预期可能下降","美元资产相对收益率可能走弱","美元可能承压"],
+    explain:"同一个通胀数字，只有放在预期、修订和市场原有定价中才有意义。低于预期可能改变投资者对未来政策路径的理解。",
+    counter:"市场可能早已预计通胀降温；核心通胀结构、其他经济数据、风险偏好及其他央行政策都可能改变最终市场反应。"
+  },
+  receivable:{
+    name:"美元收款 / 示例",
+    chain:["企业收到 100,000 美元","假设 USD/CNY 由 7.20 降到 7.00","若全部结汇：720,000 元 → 700,000 元","账面人民币收入差额 −20,000 元"],
+    explain:"这是纯算术情景：一美元能兑换的人民币减少，同样的美元收入转换成人民币就变少。这里未计手续费、锁汇成本及实际交易价。",
+    counter:"企业可能已有美元负债、外币成本、自然对冲或远期锁汇安排，因此不能只凭这一笔结汇差额判断经营损益。"
+  }
+};
+function renderScenario(){
+  const s=scenarios[app.scenario];$("scenario-name").textContent=s.name;
+  $("scenario-chain").innerHTML=s.chain.map((v,i)=>'<div class="chain-step"><small>0'+(i+1)+'</small>'+htmlEsc(v)+'</div>').join("");
+  $("scenario-explain").textContent=s.explain;$("scenario-counter").textContent=s.counter;
+  document.querySelectorAll("[data-scenario]").forEach(el=>{const active=el.dataset.scenario===app.scenario;el.classList.toggle("active",active);el.setAttribute("aria-pressed",String(active));});
+}
+function getLead(){
+  const items=app.items;
+  return items.find(a=>a.verification==="official"&&/fomc|monetary|rate|利率|政策|美联储|央行/i.test(a.title)) ||
+         items.find(a=>a.topic==="货币政策") || items[0] || null;
+}
+function renderLead(){
+  const a=getLead(),wrap=$("lead-content");
+  if(!a){wrap.innerHTML='<div class="empty"><strong>最近七天暂无可展示的有效新闻</strong>系统只展示有可核验发布时间的 RSS 信息。请查看连接状态；不会用过期消息填充本周焦点。</div>';return;}
+  const m=mechanics[a.topic]||mechanics["其他"];
+  wrap.innerHTML='<div class="feature-origin"><em>'+htmlEsc(a.topic||"其他")+'</em><span>'+htmlEsc(printable(a.published_at))+'（北京）</span><span>'+htmlEsc(a.source)+'</span></div>'+
+    '<h2>'+htmlEsc(a.title)+'</h2>'+
+    '<p class="context"><strong>为什么值得理解：</strong>'+htmlEsc(m.overview)+'<br><small>此处是对应主题的通用机制，不代表已经核实该事件对汇率的实际影响。</small></p>'+
+    '<div class="feature-actions"><button type="button" class="action-primary" data-select="'+htmlEsc(a.id)+'">逐步拆解这条信息 ↗</button><a class="action-secondary" href="'+htmlEsc(safeURL(a.url))+'" target="_blank" rel="noopener noreferrer">查看原始来源 ↗</a></div>';
+}
+function renderBars(){
+  const counts={};app.items.forEach(a=>counts[a.topic||"其他"]=(counts[a.topic||"其他"]||0)+1);
+  const entries=Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,5),max=Math.max(1,...entries.map(x=>x[1]));
+  $("topic-bars").innerHTML=entries.length?entries.map(([name,n])=>'<div class="bar-line"><span>'+htmlEsc(name)+'</span><div class="bar-track"><i style="width:'+Math.max(3,Math.round(n*100/max))+'%"></i></div><b>'+n+'</b></div>').join(""):'<p class="muted">最近七天暂无主题分布。</p>';
+}
+function renderOverview(){
+  $("week-period").textContent=fmtDay.format(new Date(Date.now()-WINDOW_MS))+" — "+fmtDay.format(new Date())+" / 北京";
+  $("metric-events").textContent=String(app.items.length);
+  const sources=Array.isArray(app.data?.sources)?app.data.sources:[];
+  const ok=sources.filter(x=>x.ok).length;
+  $("metric-sources").textContent=sources.length?ok+"/"+sources.length:"0";
+  $("last-sync").textContent=printable(app.data?.updated_at);
+  $("source-line").textContent="最近七天收录 "+app.items.length+" 条 / "+ok+" 个可连接信息源";
+  const live=publishStatus(); $("state-dot").classList.toggle("ok",live);
+  $("system-state").textContent=live?"最近采集有效":"数据更新状态待检查";
+  $("footer-coverage").textContent="滚动 7×24 小时窗口 · "+app.items.length+" 条有效信息";
+  renderLead();renderBars();
+}
+function renderOptions(){
+  const sel=$("topic"),current=app.topic;sel.replaceChildren();
+  const all=document.createElement("option");all.value="";all.textContent="全部";sel.appendChild(all);
+  distinctTopics().forEach(t=>{const opt=document.createElement("option");opt.value=t;opt.textContent=t;sel.appendChild(opt)});
+  sel.value=current;
+}
+function articleMatches(a){
+  const phrase=app.query.trim().toLocaleLowerCase("zh-CN"),allText=[a.title,a.source,a.topic, ...pairsFor(a)].join(" ").toLocaleLowerCase("zh-CN");
+  return (!phrase||allText.includes(phrase))&&(!app.topic||a.topic===app.topic)&&(!app.pair||pairsFor(a).includes(app.pair));
+}
+function articleMarkup(a,i){
+  const subject=a.topic||"其他",selected=a.id===app.selectedId;const link=safeURL(a.url);
+  return '<article class="article-row'+(selected?' selected':'')+'" data-article-id="'+htmlEsc(a.id)+'">'+
+    '<div class="article-time"><strong>'+htmlEsc(printable(a.published_at,fmtDay))+'</strong><span>'+htmlEsc(printable(a.published_at,fmtTime))+'</span></div>'+
+    '<div class="article-content"><div class="article-tags"><span class="topic">'+htmlEsc(subject)+'</span><span class="divider-dot"></span><span>'+htmlEsc(labelFor(a))+'</span>'+
+    (pairsFor(a).length?'<span class="divider-dot"></span><span>'+pairsFor(a).slice(0,2).map(htmlEsc).join(" / ")+'</span>':"")+'</div>'+
+    '<h3>'+htmlEsc(a.title)+'</h3><p>'+htmlEsc(a.source)+'</p></div>'+
+    '<div class="article-control"><button class="read-button" type="button" data-select="'+htmlEsc(a.id)+'" aria-label="理解这条新闻：'+htmlEsc(a.title)+'">解读 ↗</button><a class="source-link" href="'+htmlEsc(link)+'" target="_blank" rel="noopener noreferrer">原文 ↗</a></div></article>';
+}
+function renderNews(){
+  const visible=app.items.filter(articleMatches);
+  $("article-list").innerHTML=visible.length?visible.map(articleMarkup).join(""):'<div class="empty"><strong>最近七天没有符合筛选的资讯</strong>尝试搜索其他主题或取消筛选。系统不会填入旧消息或演示新闻。</div>';
+  $("feed-foot-count").textContent="显示 "+visible.length+" / "+app.items.length+" 条 · 仅最近七天";
+}
+function renderTeaching(){
+  const a=app.items.find(x=>x.id===app.selectedId),root=$("teaching-content");
+  if(!a){root.innerHTML='<div class="empty"><strong>先读一条真实消息。</strong>点击左侧新闻的“解读”，这里就会展示它涉及的汇率机制和核验清单。</div>';return;}
+  const m=mechanics[a.topic]||mechanics["其他"];
+  root.innerHTML='<div class="chosen-source">'+htmlEsc(a.source)+' / '+htmlEsc(printable(a.published_at))+'</div>'+
+    '<h3 class="chosen-title">'+htmlEsc(a.title)+'</h3>'+
+    '<div class="lesson-section"><span class="lesson-label">01 / 背景概念</span><p>'+htmlEsc(m.overview)+'</p></div>'+
+    '<div class="lesson-section"><span class="lesson-label">02 / 条件传导 · 教学示意</span><div class="lesson-chain">'+m.chain.map((v,i)=>(i?'<i>→</i>':'')+'<span>'+htmlEsc(v)+'</span>').join("")+'</div></div>'+
+    '<div class="lesson-section"><span class="lesson-label">03 / 这条新闻还需核对什么</span><p>'+htmlEsc(m.checks)+'</p></div>'+
+    '<div class="lesson-section"><span class="lesson-label">04 / 为什么可能出现相反结果</span><p>'+htmlEsc(m.opposite)+'</p></div>'+
+    '<div class="lesson-section"><span class="lesson-label">审稿状态</span><p>新闻标题与来源可追溯；以上是主题机制讲解，尚未完成该事件的独立 AI 因果核验。</p><a class="lesson-source" href="'+htmlEsc(safeURL(a.url))+'" target="_blank" rel="noopener noreferrer">核对新闻原文 ↗</a></div>';
+}
+function selectArticle(id){
+  if(!app.items.some(a=>a.id===id))return;
+  app.selectedId=id;renderNews();renderTeaching();
+  const target=$("reader"),screen=window.matchMedia("(max-width:850px)").matches;
+  if(screen)target.scrollIntoView({behavior:"smooth",block:"start"});
+}
+async function load(){
+  try{
+    const r=await fetch("./data/articles.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw Error("HTTP "+r.status);
+    const d=await r.json();
+    if(!d||!Array.isArray(d.articles))throw Error("资讯结构不符合协议");
+    app.data=d;
+    app.items=d.articles.filter(within7).sort((a,b)=>toDate(b.published_at)-toDate(a.published_at));
+    if(!app.items.some(a=>a.id===app.selectedId))app.selectedId=getLead()?.id||null;
+    renderOverview();renderOptions();renderNews();renderTeaching();
+  }catch(e){
+    app.data={updated_at:null,sources:[]};app.items=[];app.selectedId=null;
+    renderOverview();renderOptions();renderNews();renderTeaching();
+    $("article-list").insertAdjacentHTML("afterbegin",'<div class="alert">RSS 快照读取失败：'+htmlEsc(e.message)+'。请查看 GitHub Actions。没有使用任何演示新闻填充。</div>');
+  }
+}
+function init(){
+ $("search").addEventListener("input",e=>{app.query=e.target.value;renderNews()});
+ $("pair").addEventListener("change",e=>{app.pair=e.target.value;renderNews()});
+ $("topic").addEventListener("change",e=>{app.topic=e.target.value;renderNews()});
+ $("reset-filter").addEventListener("click",()=>{app.query="";app.pair="";app.topic="";$("search").value="";$("pair").value="";$("topic").value="";renderNews()});
+ document.addEventListener("click",e=>{
+   const scenario=e.target.closest("[data-scenario]");
+   if(scenario){if(scenarios[scenario.dataset.scenario]){app.scenario=scenario.dataset.scenario;renderScenario()}return;}
+   const link=e.target.closest("[data-select]");
+   if(link){selectArticle(link.dataset.select);return;}
+ });
+ renderScenario();load();
+}
+init();

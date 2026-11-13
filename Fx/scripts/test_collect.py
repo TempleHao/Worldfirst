@@ -53,6 +53,24 @@ class CollectorTests(unittest.TestCase):
         source={"name":"央行","url":"https://example.com/rss","kind":"official"}
         objs=collect.collect_source(source,opener=lambda *args,**kwargs:FakeResponse(RSS))
         self.assertEqual(len(objs),2)
+    def test_7_day_window_prunes_old_and_undated(self):
+        fixed=collect.dt.datetime(2026,11,14,12,0,tzinfo=collect.dt.timezone.utc)
+        source={"name":"央行","url":"https://example.com/rss","kind":"official"}
+        recent={"title":"Fed interest rate decision","url":"https://example.com/recent","published_at":"2026-11-13T10:00:00Z"}
+        old={"title":"Fed interest rate decision old","url":"https://example.com/old","published_at":"2026-11-06T10:00:00Z"}
+        unknown={"title":"Fed statement undated","url":"https://example.com/unknown","published_at":None}
+        class FixedDateTime(collect.dt.datetime):
+            @classmethod
+            def now(cls,tz=None):return fixed
+        with tempfile.TemporaryDirectory() as folder:
+            p=Path(folder)/"articles.json";s=Path(folder)/"status.json"
+            p.write_text(json.dumps({"articles":[collect.make_article(old,source), collect.make_article(unknown,source)]}))
+            with mock.patch.object(collect,"DATA",p),mock.patch.object(collect,"STATUS",s),mock.patch.object(collect,"SOURCES",[source]),mock.patch.object(collect,"collect_source",return_value=[collect.make_article(recent,source)]),mock.patch.object(collect.dt,"datetime",FixedDateTime):
+                collect.run()
+            result=json.loads(p.read_text())
+            self.assertEqual(len(result["articles"]),1)
+            self.assertEqual(result["articles"][0]["url"],"https://example.com/recent")
+            self.assertEqual(result["window_hours"],168)
     def test_zero_success_preserves_archive(self):
         with tempfile.TemporaryDirectory() as folder:
             d=Path(folder)/"articles.json";s=Path(folder)/"status.json"

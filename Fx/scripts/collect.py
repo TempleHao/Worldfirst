@@ -18,6 +18,7 @@ BASE = Path(__file__).resolve().parents[1]
 DATA = BASE / "data" / "articles.json"
 STATUS = BASE / "data" / "status.json"
 MAX_ITEMS = 400
+WINDOW_DAYS = 7
 SOURCES = [
     {"name": "美联储·货币政策", "url": "https://www.federalreserve.gov/feeds/press_monetary.xml", "kind": "official"},
     {"name": "美联储·讲话", "url": "https://www.federalreserve.gov/feeds/speeches.xml", "kind": "official"},
@@ -186,22 +187,26 @@ def run():
     current = utcnow()
     now_iso = current.isoformat().replace("+00:00", "Z")
     old_articles = old.get("articles", []) if isinstance(old.get("articles", []), list) else []
-    cutoff = current - dt.timedelta(days=30)
+    cutoff = current - dt.timedelta(days=WINDOW_DAYS)
     items = []
     for a in gathered + old_articles:
         if a.get("sample"):
             continue
         when = a.get("published_at")
-        if when and stamp(when):
-            date = dt.datetime.fromisoformat(stamp(when).replace("Z", "+00:00"))
-            if date < cutoff or date > current + dt.timedelta(hours=24):
-                continue
+        parsed = stamp(when)
+        if not parsed:
+            # Strict 7x24-hour window: undated RSS cannot be displayed.
+            continue
+        date = dt.datetime.fromisoformat(parsed.replace("Z", "+00:00"))
+        if date < cutoff or date > current:
+            continue
         items.append(a)
     items = dedup(items)
     last_success = now_iso if success else old.get("updated_at")
     data = {
         "schema_version": 1, "updated_at": last_success, "attempted_at": now_iso,
         "articles": items, "sources": statuses, "analysis_mode": "rule_index",
+        "window_hours": 168,
         "ai_brief": None,
         "message": "Model analysis is not automated by the GitHub script. Source metadata only."
     }
