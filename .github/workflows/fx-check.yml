@@ -1,0 +1,39 @@
+name: FX - Quality Gates
+on:
+  pull_request:
+    paths:
+      - "fx/**"
+      - ".github/workflows/fx-*.yml"
+      - ".github/workflows/radar-pages.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Python syntax and unit tests
+        run: |
+          python -m py_compile fx/scripts/collect.py fx/scripts/test_collect.py
+          python -m unittest discover -s fx/scripts -p 'test_*.py' -v
+      - name: JavaScript syntax
+        run: node --check fx/app.js
+      - name: Static publishing contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          assert Path('radar/index.html').exists(), 'existing radar must remain intact'
+          assert Path('fx/index.html').exists()
+          assert Path('fx/style.css').exists()
+          data=json.loads(Path('fx/data/articles.json').read_text())
+          assert isinstance(data['articles'],list)
+          ai=json.loads(Path('fx/data/ai-brief.json').read_text())
+          assert ai['reviewed'] is False, 'never ship synthetic AI claims as verified'
+          print('static FX + radar layouts and schemas verified')
+          PY
