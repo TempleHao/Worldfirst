@@ -1,72 +1,148 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#101c22">
-<meta name="description" content="FX 外汇内参：最近七天的全球外汇资讯、市场数据与中文解读。">
-<title>FX 内参｜全球外汇资讯与解读</title>
-<link rel="stylesheet" href="./style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f7fa">
+  <meta name="description" content="外汇内参：七天滚动外汇资讯、官方日度汇率数据与审慎的市场解读。">
+  <title>外汇内参｜全球汇市动态与解读</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-inner">
-    <a class="brand" href="./" aria-label="FX 内参首页"><span class="brand-emblem">FX<span>↗</span></span><span class="brand-label"><strong>FX 内参</strong><small>GLOBAL FX INTELLIGENCE</small></span></a>
-    <div class="masthead-center">全球外汇资讯 / 中文解读 / 商务参考</div>
-    <div class="masthead-right"><span class="status-dot" id="status-dot"></span><span id="status-text">读取中</span><span class="masthead-sep">/</span><span>7D ROLLING</span></div>
+<a class="skip-link" href="#latest-news">跳至资讯正文</a>
+<header class="site-header" id="top">
+  <div class="header-main page-width">
+    <a href="./" class="logo" aria-label="外汇内参首页"><span class="logo-name">外汇内参</span></a>
+    <span class="header-tagline">全球汇市动态 · 深度解读 · 出海经营参考</span>
+    <nav class="primary-nav" aria-label="主导航">
+      <a class="current" href="#top">首页</a>
+      <a href="#market-overview">市场速览</a>
+      <a href="#latest-news">资讯解读</a>
+      <a href="#market-chart">数据图表</a>
+      <a href="#calendar">经济日历</a>
+      <a href="#research">研究观察</a>
+    </nav>
+    <button class="header-action" id="header-search" type="button" aria-label="查找新闻" title="查找新闻">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.5"></circle><path d="m15.5 15.5 5.2 5.2"></path></svg>
+    </button>
   </div>
 </header>
-
-<div class="page">
-  <section class="intro">
-    <div class="intro-line"><span class="serial">FX / RESEARCH LETTER</span><span id="week-range" class="week-range">近七个自然日内持续更新</span></div>
-    <div class="intro-main">
-      <div><h1>外汇内参<span class="hl-dot">.</span></h1><p class="intro-sub">跟踪值得关注的全球外汇事件，并解释其背后的市场逻辑与商务影响。阅读从新闻开始，到形成判断为止。</p></div>
-      <div class="edition"><span>ISSUE</span><strong>07<span>D</span></strong><small>滚动七日<br>持续更新</small></div>
+<div class="status-band">
+  <div class="page-width status-inner">
+    <div class="status-left">
+      <span class="clock-mark" aria-hidden="true">◷</span><span id="latest-update">正在读取采集状态…</span>
+      <span class="status-separator"></span><span class="live-dot"></span>
+      <span>资讯与官方数据约每 20 分钟检查一次</span>
     </div>
-    <div class="intro-footer"><span>NEWS & INTERPRETATION <i></i> BUSINESS BRIEFING</span><span id="latest-update">RSS 最后采集：获取中</span></div>
-  </section>
-  <section class="market-panel" aria-label="官方汇率参考数据">
-    <div class="market-panel-head">
-      <div><span class="micro-label">MARKET MONITOR / REFERENCE FX</span><h2>全球汇率观察</h2></div>
-      <div class="market-updated" id="market-updated">官方日度数据 · 首次加载中</div>
-    </div>
-    <div class="market-grid" id="market-grid" aria-live="polite"><p class="loading-text">正在读取欧洲央行与香港金管局官方数据…</p></div>
-    <div class="market-panel-foot">
-      <span id="market-warning">仅供研究参考 · 官方发布日数据及同日交叉计算，绝非实时可成交价格</span>
-      <button type="button" id="refresh-data" title="重新检查已发布的资讯与汇率快照">检查最新数据 ↻</button>
-    </div>
-  </section>
-  <div class="content-grid">
-    <main class="main-content" id="feed">
-      <div class="section-top"><div><span class="section-no">01 / LIVE INTELLIGENCE</span><h2>资讯与解读</h2></div><span class="stream-mode">最新在前 · 北京时间</span></div>
-      <div class="editor-note"><span class="editor-note-sign">◎</span><p>读到的重要新闻，向下继续就是解读。区分新闻事实、市场分析和商务参考；未经原文复核的分析会明确注明。</p></div>
-      <div class="toolbar" role="group" aria-label="新闻筛选">
-        <div class="filter-tabs">
-          <button type="button" class="tab active" data-filter="all" aria-pressed="true">全部</button>
-          <button type="button" class="tab" data-filter="policy" aria-pressed="false">央行 / 政策</button>
-          <button type="button" class="tab" data-filter="currency" aria-pressed="false">汇率 / 货币</button>
-          <button type="button" class="tab" data-filter="macro" aria-pressed="false">宏观经济</button>
-        </div>
-        <label class="search-box"><span>⌕</span><input id="search" aria-label="搜索资讯" placeholder="搜索新闻、机构、货币…" autocomplete="off"></label>
-      </div>
-      <div class="stream-counter"><span><i class="signal-dot"></i><span id="article-count">资讯加载中</span></span><button id="clear-filter" type="button">清除筛选</button></div>
-      <div id="stream" class="stream" aria-live="polite"><p class="loading-text">正在读取最新七天的资讯…</p></div>
-      <div class="load-area"><button id="load-more" type="button" hidden>继续阅读更多资讯 <span>↓</span></button></div>
-    </main>
-    <aside class="sidebar" aria-label="阅读索引与编辑说明">
-      <div class="sidebar-sticky">
-        <div class="sidebar-intro"><span class="micro-label">THIS WEEK / 本周观察</span><h3>先看这几条</h3><p>从最近七天的信息中选取值得展开阅读的议题。每一条都能回到对应的原始资讯。</p></div>
-        <div id="highlight-links" class="highlights"><p class="sidebar-empty">正在生成阅读索引…</p></div>
-        <div class="side-rule"></div>
-        <div class="brief-head"><span class="micro-label">SOURCE DESK / 信源状态</span><span id="healthy-sources">—</span></div>
-        <div class="brief-text" id="source-detail">等待采集结果</div>
-        <div class="side-rule"></div>
-        <div class="side-bottom"><strong>阅读说明</strong><p>所有资讯均在最近七天的时间窗口内；解读注明来源与核验范围。网站为商务决策提供信息参考，不提供汇率报价或交易指令。</p><a href="./docs/RELIABILITY.md" target="_blank" rel="noopener">查看核验标准 <span>↗</span></a></div>
-      </div>
-    </aside>
+    <div class="status-right"><span id="beijing-clock">北京时间</span><i></i><span>纽约</span><i></i><span>伦敦</span><i></i><span>东京</span></div>
   </div>
-  <footer class="footer"><div><strong>FX <em> / INTELLIGENCE </em></strong><span>INDEPENDENT READING DESK</span></div><div><span>资讯仅供研究参考</span><a href="../radar/">舆情雷达 ↗</a></div></footer>
 </div>
-<script src="./app.js" defer></script>
+
+<main class="page-width">
+  <section class="top-grid" aria-label="焦点资讯与外汇市场概览">
+    <article class="hero" id="hero">
+      <div class="hero-background" aria-hidden="true">
+        <img id="hero-photo" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Federal_Reserve_Building_-_eagle_and_pediment_-_2012-09-13.jpg/500px-Federal_Reserve_Building_-_eagle_and_pediment_-_2012-09-13.jpg" alt="" loading="eager">
+        <div class="hero-abstract"></div>
+      </div>
+      <div class="hero-body">
+        <span class="eyebrow" id="hero-category">本周焦点</span>
+        <h1 id="hero-title">正在读取最近七天的重要资讯</h1>
+        <p id="hero-dek">依据实际发布的新闻和编辑内容选择焦点，不使用预设的示例新闻或示例行情。</p>
+        <div class="hero-foot">
+          <span id="hero-source">原始来源待载入</span><span class="line-separator"></span>
+          <time id="hero-time"></time><a id="hero-link" href="#latest-news">阅读相关资讯 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <a class="photo-credit" id="photo-credit" href="https://commons.wikimedia.org/wiki/File:Federal_Reserve_Building_-_eagle_and_pediment_-_2012-09-13.jpg" target="_blank" rel="noopener noreferrer" title="建筑照片：Tim Evanson，CC BY-SA 2.0" aria-label="照片来源及授权：Tim Evanson，CC BY-SA 2.0">图源 ↗</a>
+    </article>
+
+    <section class="quote-panel" id="market-overview" aria-label="主要汇率参考">
+      <div class="panel-heading market-heading"><h2>主要汇率与市场概览</h2><a href="#market-chart" class="text-link">查看图表 <span aria-hidden="true">↗</span></a></div>
+      <div class="quote-labels"><span>货币对</span><span>参考价</span><span>近5公布日</span><span>走势</span></div>
+      <div id="market-grid" class="quote-rows" aria-live="polite"><p class="pending-text">正在读取官方汇率参考数据…</p></div>
+      <div class="quote-foot"><span id="market-updated">数据来源核验中</span><button id="refresh-data" type="button">刷新 ↻</button></div>
+    </section>
+  </section>
+
+  <section class="focus-strip" id="focus" aria-label="本周重点主题">
+    <div class="focus-heading"><span class="focus-sign"></span><h2>本周关注</h2></div>
+    <button type="button" class="focus-item" data-quick-filter="policy">
+      <span class="focus-icon" aria-hidden="true">▤</span><span class="focus-copy"><strong>央行政策路径</strong><small id="focus-policy">持续追踪政策表态</small></span>
+    </button>
+    <button type="button" class="focus-item" data-quick-filter="macro">
+      <span class="focus-icon" aria-hidden="true">▥</span><span class="focus-copy"><strong>主要经济数据</strong><small id="focus-macro">经济指标与预期</small></span>
+    </button>
+    <button type="button" class="focus-item" data-quick-filter="currency">
+      <span class="focus-icon" aria-hidden="true">◎</span><span class="focus-copy"><strong>全球汇率变化</strong><small id="focus-currency">汇价与利差观察</small></span>
+    </button>
+    <button type="button" class="focus-item" data-quick-filter="all">
+      <span class="focus-icon" aria-hidden="true">◇</span><span class="focus-copy"><strong>全部资讯</strong><small id="focus-total">七天滚动信息</small></span>
+    </button>
+  </section>
+
+  <section class="overview" aria-label="新闻、市场解读与研究总览">
+    <section class="news-rail module" id="news-rail">
+      <div class="panel-heading"><h2>最新资讯 <small>最近7天</small></h2><a class="text-link" href="#latest-news">更多 <span aria-hidden="true">↗</span></a></div>
+      <div id="short-news" class="short-news"><p class="pending-text">读取中…</p></div>
+    </section>
+
+    <section class="analysis-rail module" id="analysis">
+      <div class="panel-heading"><h2>市场解读</h2><a class="text-link" href="#latest-news">全部解读 <span aria-hidden="true">↗</span></a></div>
+      <div id="analysis-preview" class="analysis-preview"><p class="pending-text">读取中…</p></div>
+    </section>
+
+    <div class="data-rail module">
+      <section class="chart-box" id="market-chart">
+        <div class="chart-top"><h2 id="chart-title">主要汇率走势</h2>
+          <label class="select-wrap"><span class="sr-only">选择货币对</span><select id="chart-select" aria-label="选择货币对">
+            <option value="USD/CNY">USD/CNY</option><option value="EUR/USD">EUR/USD</option>
+            <option value="USD/JPY">USD/JPY</option><option value="USD/HKD">USD/HKD</option>
+            <option value="GBP/USD">GBP/USD</option><option value="EUR/GBP">EUR/GBP</option>
+          </select></label></div>
+        <div class="chart-values"><strong id="chart-value">—</strong><span id="chart-change">—</span></div>
+        <div id="detail-chart" class="detail-chart" aria-label="来自官方数据的最近观察曲线"><span class="pending-text">等待官方历史数据…</span></div>
+        <p class="chart-note" id="chart-note">仅限官方日度参考数据；无法代表交易时报价。</p>
+      </section>
+      <section class="calendar" id="calendar">
+        <div class="panel-heading"><h2>重要经济日历</h2><span class="calendar-label">官方入口</span></div>
+        <p class="calendar-disclaimer">尚未接入可核实的具体事件时间，请查看官方发布日程。</p>
+        <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer"><span>美联储 FOMC 会议</span><span aria-hidden="true">↗</span></a>
+        <a href="https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html" target="_blank" rel="noopener noreferrer"><span>欧洲央行会议日程</span><span aria-hidden="true">↗</span></a>
+        <a href="https://www.boj.or.jp/en/about/calendar/index.htm" target="_blank" rel="noopener noreferrer"><span>日本央行官方发布日程</span><span aria-hidden="true">↗</span></a>
+      </section>
+    </div>
+
+    <aside class="watch-rail module" id="research">
+      <div class="panel-heading"><h2>本周重点观察</h2></div>
+      <div id="watch-list" class="watch-list"><p class="pending-text">梳理近期事件…</p></div>
+      <div class="watch-footer"><span id="source-health">信源状态核验中</span><span id="week-range">最近七日</span></div>
+    </aside>
+  </section>
+
+  <section class="reading-section" id="latest-news">
+    <div class="reading-header">
+      <div><span class="tiny-label">LATEST / NEWS & CONTEXT</span><h2>资讯与解读</h2><p>持续滚动的原始资讯与中文研究解读，按北京时区显示发布时间。</p></div>
+      <div class="reading-tools"><label class="search-input"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.5"></circle><path d="m15.5 15.5 5.2 5.2"></path></svg><input id="search" type="search" placeholder="搜索新闻、货币或机构" aria-label="搜索资讯"></label></div>
+    </div>
+    <div class="news-filter" role="group" aria-label="筛选资讯">
+      <button class="tab active" type="button" data-filter="all" aria-pressed="true">全部资讯</button>
+      <button class="tab" type="button" data-filter="policy" aria-pressed="false">央行与政策</button>
+      <button class="tab" type="button" data-filter="currency" aria-pressed="false">汇率与货币</button>
+      <button class="tab" type="button" data-filter="macro" aria-pressed="false">宏观经济</button>
+      <span class="filter-count" id="article-count">正在读取…</span>
+      <button class="clear-filter" type="button" id="clear-filter">重置</button>
+    </div>
+    <div id="stream" class="story-stream" aria-live="polite"><p class="pending-text">读取最近七天的资讯…</p></div>
+    <div class="more-wrap"><button id="load-more" class="load-more" type="button" hidden>显示更多资讯 ↓</button></div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><strong>外汇内参</strong><span>GLOBAL FX INTELLIGENCE</span></div>
+    <div class="footer-links"><a href="#top">返回顶部 ↑</a><a href="../radar/">舆情雷达 ↗</a><a href="https://commons.wikimedia.org/wiki/File:Federal_Reserve_Building_-_eagle_and_pediment_-_2012-09-13.jpg" target="_blank" rel="noopener noreferrer">建筑照片：Tim Evanson / CC BY-SA 2.0（裁切与冷色处理）↗</a></div>
+    <p id="market-warning">所有行情均为具备来源与日期的官方日度参考数据或同日交叉计算；非实时报价，不构成交易建议。</p>
+  </footer>
+</main>
 </body>
 </html>
