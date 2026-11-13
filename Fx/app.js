@@ -159,6 +159,12 @@ function renderTeaching(){
     '<div class="lesson-section"><span class="lesson-label">03 / 这条新闻还需核对什么</span><p>'+htmlEsc(m.checks)+'</p></div>'+
     '<div class="lesson-section"><span class="lesson-label">04 / 为什么可能出现相反结果</span><p>'+htmlEsc(m.opposite)+'</p></div>'+
     '<div class="lesson-section"><span class="lesson-label">审稿状态</span><p>新闻标题与来源可追溯；以上是主题机制讲解，尚未完成该事件的独立 AI 因果核验。</p><a class="lesson-source" href="'+htmlEsc(safeURL(a.url))+'" target="_blank" rel="noopener noreferrer">核对新闻原文 ↗</a></div>';
+  const reviewed=Array.isArray(app.ai?.claims)?app.ai.claims.filter(c=>c.evidence_ids.includes(a.id)):[];
+  if(reviewed.length){
+    root.insertAdjacentHTML("beforeend",'<div class="lesson-section"><span class="lesson-label">05 / AI 事实审稿 · 已有证据</span>'+
+      reviewed.slice(0,3).map(c=>'<p style="margin-bottom:12px">'+htmlEsc(c.statement)+'<br><small>'+htmlEsc(c.type)+' / '+htmlEsc(c.grade)+' · 审稿时间 '+htmlEsc(printable(app.ai.generated_at))+'</small></p>').join("")+
+      '</div>');
+  }
 }
 function selectArticle(id){
   if(!app.items.some(a=>a.id===id))return;
@@ -174,6 +180,21 @@ async function load(){
     if(!d||!Array.isArray(d.articles))throw Error("资讯结构不符合协议");
     app.data=d;
     app.items=d.articles.filter(within7).sort((a,b)=>toDate(b.published_at)-toDate(a.published_at));
+    app.ai=null;
+    try {
+      const aiResponse=await fetch("./data/ai-brief.json?t="+Date.now(),{cache:"no-store"});
+      if(aiResponse.ok){
+        const brief=await aiResponse.json();
+        const validIds=new Set(app.items.map(x=>x.id));
+        const validClaim=c=>c&&["F","O","I","X","U"].includes(c.type)&&
+          ["P0","P1","P2","P3","C","U"].includes(c.grade)&&typeof c.statement==="string"&&
+          Array.isArray(c.evidence_ids)&&c.evidence_ids.length>0&&c.evidence_ids.every(id=>validIds.has(id));
+        const stamp=toDate(brief.generated_at),age=Date.now()-stamp;
+        if(brief.schema_version===1&&brief.reviewed===true&&brief.method==="chatgpt_review_with_cited_sources"&&
+          Number.isFinite(stamp)&&age>=0&&age<=26*3600000&&
+          Array.isArray(brief.claims)&&brief.claims.length>0&&brief.claims.every(validClaim))app.ai=brief;
+      }
+    } catch { app.ai=null; }
     if(!app.items.some(a=>a.id===app.selectedId))app.selectedId=getLead()?.id||null;
     renderOverview();renderOptions();renderNews();renderTeaching();
   }catch(e){
