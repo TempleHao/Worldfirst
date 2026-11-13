@@ -1,4 +1,4 @@
-name: Publish WorldFirst Radar
+name: Publish Worldfirst Website
 on:
   workflow_dispatch:
   push:
@@ -6,6 +6,7 @@ on:
     paths:
       - "radar/**"
       - "Fx/**"
+      - "!Fx/scripts/**"
       - ".github/workflows/fx-refresh.yml"
       - ".github/workflows/radar-pages.yml"
 permissions:
