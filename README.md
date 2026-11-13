@@ -17,3 +17,12 @@
 数据中 `source_type` 代表来源性质（官方、独立媒体、企业通稿、搜索线索），`status=verified` 仅表示有可核实的公开原文，不代表对全部事实独立审计。新闻条数也不代表全网声量。
 
 下一阶段可以添加定时采集适配器，接入合法授权的社交平台数据供应方并配置告警；不会把模拟数据伪装为实时数据。
+
+## FX 全球外汇情报中心（Demo）
+
+- 页面（GitHub Pages 启用后）：https://templehao.github.io/Worldfirst/fx/
+- 路径：fx/，与现有 radar/ 并列，互不覆盖
+- 每小时抓取 RSS 元数据：.github/workflows/fx-refresh.yml
+- 使用说明与证据机制：fx/docs/RELIABILITY.md
+- ChatGPT 订阅分析须由独立的实际模型任务执行并提交，不能把确定性规则归类标为 AI 已分析。
+- 初始页面展示明确标记的演示条目，第一次抓取成功后才显示真实新闻。

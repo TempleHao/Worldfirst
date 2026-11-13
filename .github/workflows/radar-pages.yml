@@ -5,13 +5,15 @@ on:
     branches: [main]
     paths:
       - "radar/**"
+      - "fx/**"
+      - ".github/workflows/fx-refresh.yml"
       - ".github/workflows/radar-pages.yml"
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: radar-pages
+  group: worldfirst-pages
   cancel-in-progress: false
 jobs:
   deploy:
