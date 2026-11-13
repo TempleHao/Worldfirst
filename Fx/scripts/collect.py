@@ -25,6 +25,10 @@ SOURCES = [
     {"name": "欧洲央行·官方发布", "url": "https://www.ecb.europa.eu/rss/press.html", "kind": "official"},
     {"name": "英为财情·外汇新闻", "url": "https://cn.investing.com/rss/news_1.rss", "kind": "media"},
     {"name": "英为财情·外汇分析", "url": "https://cn.investing.com/rss/forex.rss", "kind": "media"},
+    {"name": "日本央行·官方发布", "url": "https://www.boj.or.jp/en/rss/whatsnew.xml", "kind": "official"},
+    {"name": "国际清算银行·央行讲话", "url": "https://www.bis.org/doclist/cbspeeches.rss", "kind": "official"},
+    {"name": "美国劳工部·消费者价格", "url": "https://www.bls.gov/feed/cpi.rss", "kind": "official"},
+    {"name": "美国劳工部·就业报告", "url": "https://www.bls.gov/feed/empsit.rss", "kind": "official"},
 ]
 TOPICS = [
     ("货币政策", r"央行|美联储|联储|利率|降息|加息|联邦基金|federal reserve|fomc|monetary policy|central bank|interest rate|rate decision|ecb|powell|lagarde"),

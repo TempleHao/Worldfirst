@@ -2,7 +2,7 @@
 "use strict";
 const $=id=>document.getElementById(id);
 const WEEK=7*24*60*60*1000;
-const state={raw:[],visible:[],editorial:{},brief:null,sources:[],updated_at:null,filter:"all",query:"",limit:12,loading:true};
+const state={raw:[],visible:[],editorial:{},brief:null,sources:[],updated_at:null,market:[],marketSources:[],marketLastSuccess:null,marketAttempted:null,filter:"all",query:"",limit:12,loading:true,fetchInFlight:false};
 const zhTitles={
 "b2851de93965f784":"欧洲央行施纳贝尔发表《欧洲制造》主题讲话",
 "87a784bdd6110f05":"美联储修订2027年FOMC会议暂定日程",
@@ -33,6 +33,65 @@ function currentAI(){
  const valid=b.claims.every(c=>["F","O","I","X","U"].includes(c.type)&&["P0","P1","P2","P3","C","U"].includes(c.grade)&&typeof c.statement==="string"&&Array.isArray(c.evidence_ids)&&c.evidence_ids.length>0&&c.evidence_ids.every(e=>state.raw.some(a=>a.id===e&&recent(a))));
  return valid?b.claims:[];
 }
+
+const SHOW_PAIRS=["EUR/USD","USD/CNY","USD/JPY","USD/HKD","GBP/USD","EUR/GBP"];
+const sourceMarket=pair=>state.market.find(x=>x.pair===pair&&x.source&&x.date&&Number.isFinite(Number(x.value))&&Number(x.value)>0);
+function referenceOld(row){
+ const d=Date.parse(row?.date||"");return !Number.isFinite(d)||Date.now()-d>8*24*3600000;
+}
+function displayQuote(row){
+ if(!row||referenceOld(row))return "—";
+ const n=Number(row.value);
+ return n.toFixed(row.pair==="USD/JPY"?3:4);
+}
+function safeSparkline(points){
+ if(!Array.isArray(points)||points.length<2)return "";
+ const list=points.slice(-15).map(p=>Number(p.value)).filter(n=>Number.isFinite(n)&&n>0);
+ if(list.length<2)return "";
+ const min=Math.min(...list),max=Math.max(...list),delta=max-min||1;
+ const coords=list.map((n,i)=>[Math.round(100*i/(list.length-1)),Math.round(23-18*(n-min)/delta)]).map(x=>x.join(",")).join(" ");
+ return '<svg viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#137e74" stroke-width="1.5" vector-effect="non-scaling-stroke" points="'+coords+'"/></svg>';
+}
+function pairRelated(a){
+ const joined=[a.title,title(a),(Array.isArray(a.pairs)?a.pairs:[]).join(" ")].join(" ");
+ const pairs=Array.isArray(a.pairs)?a.pairs:[];
+ for(const p of ["USD/CNY","USD/HKD","USD/JPY","EUR/USD","GBP/USD"]){
+   if(pairs.includes(p))return p;
+ }
+ if(/人民币|CNY|CNH/.test(joined))return "USD/CNY";
+ if(/港币|港元|HKD/.test(joined))return "USD/HKD";
+ if(/日元|JPY/.test(joined))return "USD/JPY";
+ if(/欧元|EUR/.test(joined))return "EUR/USD";
+ if(/英镑|GBP/.test(joined))return "GBP/USD";
+ return null;
+}
+function contextFor(a){
+ const pair=pairRelated(a),rate=pair&&sourceMarket(pair);
+ if(!rate||referenceOld(rate))return "";
+ const change=Number(rate.change_5_published_days_pct);
+ const movement=Number.isFinite(change)&&rate.change_5_published_days_pct!==null?" · 近5个公布日 "+(change>0?"+":"")+change.toFixed(2)+"%":"";
+ return '<div class="news-reference"><span class="nr-pair">'+esc(pair)+'</span><strong>'+esc(displayQuote(rate))+'</strong>'+
+ '<span class="nr-note">'+esc(rate.date)+' 官方参考'+esc(movement)+' · <a href="'+esc(safeLink(rate.source_url))+'" target="_blank" rel="noopener noreferrer">'+esc(rate.source)+'</a> · 并非该新闻发生时的报价</span></div>';
+}
+function marketHTML(pair){
+ const row=sourceMarket(pair),ok=row&&!referenceOld(row);
+ const change=ok&&row.change_5_published_days_pct!==null?Number(row.change_5_published_days_pct):NaN;
+ const changeText=Number.isFinite(change)?((change>0?"+":"")+change.toFixed(2)+"%"):"—";
+ const move=Number.isFinite(change)?(change>0?"up":change<0?"down":"flat"):"flat";
+ const label=ok?esc(row.date)+" · "+esc(row.source):row?"历史参考已过期":"暂无真实数据";
+ const link=ok?'<a href="'+esc(safeLink(row.source_url))+'" target="_blank" rel="noopener noreferrer">原始数据 ↗</a>':"";
+ return '<div class="market-quote"><span class="pair">'+esc(pair)+'</span><div class="rate-line"><strong>'+esc(displayQuote(row))+'</strong><span class="change '+move+'">'+esc(changeText)+'</span></div>'+
+ (ok?safeSparkline(row.points):"")+'<span class="quote-source">'+label+(link?" · "+link:"")+'</span></div>';
+}
+function renderMarket(){
+ $("market-grid").innerHTML=SHOW_PAIRS.map(marketHTML).join("");
+ const success=state.marketSources.filter(x=>x.ok).length;
+ const latest=state.market.filter(r=>r.date).map(r=>r.date).sort().at(-1);
+ $("market-updated").textContent=latest?"最新官方观察日期 "+latest+" · 数据源 "+success+"/"+state.marketSources.length:"尚未取得官方有效报价";
+ const sourceLine=state.marketSources.length&&success===0?"本轮官方接口均未成功，已验证的旧数据会按原始发布日期标记过期。":"";
+ $("market-warning").textContent="官方日度参考价及交叉计算 · 非实时买卖价 · 涨跌幅为近5个公布日"+(sourceLine?" · "+sourceLine:"");
+}
+
 function filterMatch(a){
  const q=state.query.toLocaleLowerCase("zh-CN").trim();
  const e=state.editorial[a.id]||{};
@@ -64,18 +123,20 @@ function storyHTML(a,previousDay){
  const business=e.business||"尚未形成可靠的商务参考，不建议只根据标题调整收付汇计划。";
  const watch=e.watch||"需要进一步查看原文、发布时间、汇率数据及其他独立来源。";
  const aiHTML=ai.length?'<div class="ai-note"><h5>经核验的 AI 编辑补充 <span>· '+esc(stamp(state.brief.generated_at))+'</span></h5>'+ai.map(c=>'<p>'+esc(c.statement)+' <small>('+esc(c.grade)+')</small></p>').join("")+'</div>':"";
+ const marketContext=contextFor(a);
  const details='<div class="story-details" id="detail-'+esc(a.id)+'" hidden><p><strong>继续关注：</strong>'+esc(watch)+'</p><p><strong>当前核验范围：</strong>'+esc(reference)+'</p>'+(Array.isArray(e.evidence)?e.evidence.map(u=>'<p><a class="source-cite" href="'+esc(safeLink(u))+'" target="_blank" rel="noopener noreferrer">官方材料 ↗</a></p>').join(""):"")+'</div>';
  return dateHeader+
  '<article class="story" id="story-'+esc(a.id)+'">'+
  '<div class="story-side"><strong>'+esc(stamp(a.published_at,fmtTime))+'</strong><small>GMT +8</small></div>'+
  '<div class="story-main"><div class="story-meta"><span class="channel">'+esc(topic(a))+'</span><span class="bullet"></span><span>'+esc(a.source)+'</span></div>'+
- '<h3>'+esc(title(a))+'</h3><p class="story-dek">'+esc(dek)+'</p>'+
+ '<h3>'+esc(title(a))+'</h3><p class="story-dek">'+esc(dek)+'</p>'+marketContext+
  '<div class="story-analysis"><section><h4>市场解读 / MARKET CONTEXT</h4><p>'+esc(m)+'</p></section><section><h4>商务参考 / BUSINESS IMPLICATION</h4><p>'+esc(business)+'</p></section></div>'+
  aiHTML+
  '<div class="story-footer"><span class="basis'+(e.status==="primary_checked"?' verified':'')+'">'+esc(status)+'</span><div class="story-actions"><button data-details="'+esc(a.id)+'" type="button" aria-controls="detail-'+esc(a.id)+'" aria-expanded="false">依据与后续关注 ▾</button><a href="'+esc(safeLink(a.url))+'" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div></div>'+
  details+'</div></article>';
 }
 function render(){
+ renderMarket();
  const all=state.raw.filter(recent).sort((a,b)=>ms(b.published_at)-ms(a.published_at));
  const visible=all.filter(filterMatch);
  state.visible=visible;
@@ -97,11 +158,14 @@ function render(){
  renderHighlights(all);
 }
 async function fetchData(){
+ if(state.fetchInFlight)return;
+ state.fetchInFlight=true;
  try{
-   const [newsRes,editRes,aiRes]=await Promise.all([
+   const [newsRes,editRes,aiRes,marketRes]=await Promise.all([
      fetch("./data/articles.json?rev="+Date.now(),{cache:"no-store"}),
      fetch("./data/editorial.json?rev="+Date.now(),{cache:"no-store"}),
-     fetch("./data/ai-brief.json?rev="+Date.now(),{cache:"no-store"})
+     fetch("./data/ai-brief.json?rev="+Date.now(),{cache:"no-store"}),
+     fetch("./data/market.json?rev="+Date.now(),{cache:"no-store"})
    ]);
    if(!newsRes.ok)throw new Error("资讯接口 HTTP "+newsRes.status);
    const data=await newsRes.json();
@@ -111,10 +175,19 @@ async function fetchData(){
    state.updated_at=data.updated_at;
    if(editRes.ok){const e=await editRes.json();state.editorial=e&&e.items&&typeof e.items==="object"?e.items:{};}
    if(aiRes.ok){state.brief=await aiRes.json();}
+   if(marketRes.ok){
+      const snapshot=await marketRes.json();
+      state.market=Array.isArray(snapshot.instruments)?snapshot.instruments:[];
+      state.marketSources=Array.isArray(snapshot.sources)?snapshot.sources:[];
+      state.marketAttempted=snapshot.attempted_at;
+      state.marketLastSuccess=snapshot.last_successful_at;
+   }
    render();
  }catch(error){
    state.raw=[];state.sources=[];state.updated_at=null;render();
    $("stream").innerHTML='<div class="empty-state"><strong>暂时无法读取资讯</strong>'+esc(error.message)+'。请查看自动更新状态。</div>';
+ } finally {
+   state.fetchInFlight=false;
  }
 }
 document.querySelectorAll("[data-filter]").forEach(b=>b.addEventListener("click",()=>{
@@ -150,4 +223,6 @@ document.addEventListener("click",e=>{
  detail.hidden=!detail.hidden;btn.setAttribute("aria-expanded",String(!detail.hidden));btn.textContent=detail.hidden?"依据与后续关注 ▾":"收起补充信息 ▴";
 });
 fetchData();
-setInterval(()=>{if(state.raw.length)render();},5*60*1000);
+$("refresh-data").addEventListener("click",fetchData);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)fetchData();});
+setInterval(()=>{if(!document.hidden)fetchData();},3*60*1000);

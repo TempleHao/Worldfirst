@@ -2,7 +2,7 @@ name: FX - Refresh Intelligence Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 * * * *"
+    - cron: "7,27,47 * * * *"
   push:
     branches: [main]
     paths:
@@ -28,43 +28,24 @@ jobs:
         run: |
           git fetch origin main
           git reset --hard origin/main
-      - name: Run collection tests
+      - name: Test RSS and market reference ingestion
         run: python -m unittest discover -s Fx/scripts -p 'test_*.py' -v
       - name: Fetch and index RSS metadata
         run: python Fx/scripts/collect.py
+      - name: Collect official daily FX reference series
+        run: python Fx/scripts/rates.py
       - name: Validate published JSON contract
         run: |
           python -c "import json; d=json.load(open('Fx/data/articles.json')); assert isinstance(d['articles'],list); assert isinstance(d['sources'],list); assert d['analysis_mode']=='rule_index'; assert d['window_hours']==168"
+          python -c "import json; d=json.load(open('Fx/data/market.json')); assert d['quote_type']=='official_daily_reference_not_realtime_or_executable'; assert isinstance(d['instruments'],list); assert isinstance(d['sources'],list)"
           node --check Fx/app.js
       - name: Commit only changed FX data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Fx/data/articles.json Fx/data/status.json
+          git add Fx/data/articles.json Fx/data/status.json Fx/data/market.json
           if ! git diff --cached --quiet; then
             git commit -m "data(fx): refresh seven-day RSS metadata and source health"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-  deploy:
-    needs: collect
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    concurrency:
-      group: worldfirst-pages
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-    steps:
-      - uses: actions/checkout@v4
-      - name: Publish newest main revision, including freshly committed RSS
-        run: |
-          git fetch origin main
-          git reset --hard origin/main
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - name: Wait briefly for GitHub to index Pages artifact
-        run: sleep 8
-      - uses: actions/deploy-pages@v4

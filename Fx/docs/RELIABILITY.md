@@ -45,3 +45,13 @@ RSS 工作流持续提供最近七天新信息；独立 ChatGPT 定时研究任�
 - 旧于七天的新闻自动从数据及页面退出，前端绝不以假新闻补位。
 - /Worldfirst/Fx/ 与 /Worldfirst/radar/ 独立可用。
 - 记录信源成功率、时间、证据区分，抓取失败不误报实时成功。
+
+## 真实汇率数据与刷新策略（2026-11-14）
+- 数据来源 1：欧洲央行（ECB）90 天每日欧元参考汇率 [官方 XML](https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml)。USD/CNY、USD/JPY、USD/HKD、GBP/USD 使用同一发布日期的欧元对两种货币参考汇率做交叉计算：A/B=(A per EUR)/(B per EUR)。并明确标识“同日交叉推算”，不得冒充可成交价格或即时银行报价。
+- 数据来源 2：香港金管局（HKMA）[每日港元汇率开放数据](https://apidocs.hkma.gov.hk/documentation/market-data-and-statistics/monthly-statistical-bulletin/er-ir/er-eeri-daily/)。优先使用更晚的官方 USD/HKD 观察，日期相同时优先 HKMA 收市价；不得将港元联系汇率制度上下限当作某时点现价。
+- **没有 USD/CNH 可授权实时源，所以不展示 USD/CNH 报价**；不能把 CNY 参考汇率当作 CNH。没有交易级实时价、买卖盘口或可成交价接口；不宣称实时行情。
+- 每一显示条目应提供 pair、value、date、source、source_url、method、kind、近 5 个官方公布日变动百分比和完整原始点序列。变动由确定性代码计算，不交给 AI 编造；低于 6 条有效观察时变动留空。
+- 一次或全部 API 抓取失败时，保留上次有出处的数据及原始发布日期，不以本次轮询时间伪装数据发布时间；观察日期超过八个自然日的数值隐藏并显示过期。
+- RSS 新增日本央行、国际清算银行、美国劳工统计局（就业和 CPI）官方 RSS。每一源单独记录请求成功与失败；来自英文源的原始英文标题未被可靠译审前不得宣称是完整中文解读。
+- 采集频率是 GitHub Actions **约每 20 分钟一次**（cron = 7,27,47），不是精确执行保证；每轮同时检查 RSS、ECB 和 HKMA 并发布数据快照。网站在页面保持活动时每 3 分钟检查是否已有新的静态快照，手动刷新按钮只读取已发布数据，不能立即触发后台新采集。ECB 官方参考汇率通常工作日公布一次，周末及假日无新数据。
+- 成本与配额：刷新工作流仅负责取数和提交 JSON。现有 Worldfirst Pages 发布工作流由数据更新提交触发，避免同一轮重复部署；现有 radar 模块不受修改。

@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
       - name: Python syntax and unit tests
         run: |
-          python -m py_compile Fx/scripts/collect.py Fx/scripts/test_collect.py Fx/scripts/test_editorial.py
+          python -m py_compile Fx/scripts/collect.py Fx/scripts/test_collect.py Fx/scripts/test_editorial.py Fx/scripts/rates.py Fx/scripts/test_rates.py
           python -m unittest discover -s Fx/scripts -p 'test_*.py' -v
       - name: JavaScript syntax
         run: node --check Fx/app.js
@@ -36,6 +36,12 @@ jobs:
           editorial=json.loads(Path('Fx/data/editorial.json').read_text())
           assert editorial.get('schema_version')==1
           assert isinstance(editorial.get('items'),dict)
+          market=json.loads(Path('Fx/data/market.json').read_text())
+          assert market.get('quote_type')=='official_daily_reference_not_realtime_or_executable'
+          assert isinstance(market.get('instruments'), list)
+          for r in market['instruments']:
+              assert r['pair'] and r['date'] and float(r['value'])>0 and r['source_url']
+              assert r['kind'] in {'official_daily_reference','official_daily_reference_cross'}
           ai=json.loads(Path('Fx/data/ai-brief.json').read_text())
           if ai.get('reviewed'):
               ids={article['id'] for article in data['articles']}
