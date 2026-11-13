@@ -79,7 +79,7 @@ class CollectorTests(unittest.TestCase):
     def test_zero_success_preserves_archive(self):
         with tempfile.TemporaryDirectory() as folder:
             d=Path(folder)/"articles.json";s=Path(folder)/"status.json"
-            d.write_text(json.dumps({"updated_at":"2026-11-13T00:00:00Z","articles":[{"id":"1","title":"Test","source":"X","published_at":"2026-11-13T00:00:00Z","url":"https://example.com/a"}]}))
+            d.write_text(json.dumps({"updated_at":"2026-11-13T00:00:00Z","articles":[{"id":"1","title":"Fed interest rate decision","source":"X","published_at":"2026-11-13T00:00:00Z","url":"https://example.com/a"}]}))
             with mock.patch.object(collect,"DATA",d), mock.patch.object(collect,"STATUS",s),mock.patch.object(collect,"collect_source",side_effect=OSError("blocked")):
                 collect.run()
             new=json.loads(d.read_text())
