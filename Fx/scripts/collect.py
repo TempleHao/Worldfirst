@@ -114,7 +114,7 @@ def topic_pairs(title, official=False):
     pairs = [pair for pair, pattern in PAIRS if re.search(pattern, text, re.I)]
     topic = next((name for name, regex in TOPICS if re.search(regex, text, re.I)), "其他")
     # Non-FX general items from non-FX feeds should be filtered out.
-    relevant = topic != "其他" or official
+    relevant = topic != "其他"
     return topic, pairs, relevant
 
 def make_article(item, src):

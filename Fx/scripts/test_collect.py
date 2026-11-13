@@ -45,6 +45,10 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(obj["analysis_mode"],"rule_index")
         self.assertEqual(obj["verification"],"official")
         self.assertFalse("可信度百分比" in str(obj))
+    def test_off_topic_official_article_excluded(self):
+        source={"name":"央行","url":"https://example.com/rss","kind":"official"}
+        item={"title":"Future of Artificial Intelligence and Democracy","url":"https://example.com/ai","published_at":"2026-11-13T12:00:00Z"}
+        self.assertIsNone(collect.make_article(item,source))
     def test_media_not_marked_official(self):
         source={"name":"媒体","url":"https://example.com/rss","kind":"media"}
         obj=collect.make_article(collect.parse_feed(RSS)[0],source)

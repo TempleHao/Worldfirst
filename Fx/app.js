@@ -86,6 +86,19 @@ const scenarios={
     counter:"企业可能已有美元负债、外币成本、自然对冲或远期锁汇安排，因此不能只凭这一笔结汇差额判断经营损益。"
   }
 };
+
+function mechanismFor(a){
+  if(pairsFor(a).includes("USD/JPY")&&/干预|intervention|160|日元/.test(a.title)){
+    return {
+      headline:"为什么外汇干预风险可能改变市场预期",
+      overview:"日元新闻需要区分三件事：官员的口头警告、市场对干预概率的判断、已经发生的实际外汇干预。即使三者同时受到讨论，也不表示未来汇率方向已经确定。",
+      chain:["USD/JPY 与利差变化","日本当局表达关注","市场调整干预概率","日元可能出现双向波动"],
+      checks:"优先核对日本财务省、央行官方记录；再检查相关新闻的发布时间、美元兑日元报价方向、真实干预操作是否披露以及美日利率预期。",
+      opposite:"若美日利差与其他基本面继续偏向美元，日元可能在口头警告后仍走弱；实际干预也不必然带来长期趋势反转。"
+    };
+  }
+  return mechanics[a.topic]||mechanics["其他"];
+}
 function renderScenario(){
   const s=scenarios[app.scenario];$("scenario-name").textContent=s.name;
   $("scenario-chain").innerHTML=s.chain.map((v,i)=>'<div class="chain-step"><small>0'+(i+1)+'</small>'+htmlEsc(v)+'</div>').join("");
@@ -93,14 +106,26 @@ function renderScenario(){
   document.querySelectorAll("[data-scenario]").forEach(el=>{const active=el.dataset.scenario===app.scenario;el.classList.toggle("active",active);el.setAttribute("aria-pressed",String(active));});
 }
 function getLead(){
-  const items=app.items;
-  return items.find(a=>a.verification==="official"&&/fomc|monetary|rate|利率|政策|美联储|央行/i.test(a.title)) ||
-         items.find(a=>a.topic==="货币政策") || items[0] || null;
+  // Transparent deterministic editorial ranking; this is not a model judgment.
+  const ranked=app.items.map(a=>{
+    const title=String(a.title||"");
+    const age=(Date.now()-toDate(a.published_at))/3600000;
+    let score=Math.max(0,8-age/21);
+    if(/干预|intervention|汇率干预|160关口/i.test(title))score+=16;
+    if(/美联储|利率|国债收益率|央行|通胀|CPI|加息|降息|interest rate|monetary policy/i.test(title))score+=7;
+    if(/美元|日元|人民币|港币|英镑|欧元|汇率|外汇|yen|dollar|exchange rate/i.test(title))score+=4;
+    if(/[\u3400-\u9fff]/.test(title))score+=5; // Favor immediately readable Chinese material.
+    if(a.verification==="official")score+=2;
+    if(/tentative schedule|meeting schedule|future of ai|digital euro|research conference|cash and the/i.test(title))score-=35;
+    if(/走势预测|forecast|technical analysis/i.test(title))score-=7;
+    return {a,score};
+  }).sort((x,y)=>y.score-x.score);
+  return ranked[0]?.a||null;
 }
 function renderLead(){
   const a=getLead(),wrap=$("lead-content");
   if(!a){wrap.innerHTML='<div class="empty"><strong>最近七天暂无可展示的有效新闻</strong>系统只展示有可核验发布时间的 RSS 信息。请查看连接状态；不会用过期消息填充本周焦点。</div>';return;}
-  const m=mechanics[a.topic]||mechanics["其他"];
+  const m=mechanismFor(a);
   wrap.innerHTML='<div class="feature-origin"><em>'+htmlEsc(a.topic||"其他")+'</em><span>'+htmlEsc(printable(a.published_at))+'（北京）</span><span>'+htmlEsc(a.source)+'</span></div>'+
     '<h2>'+htmlEsc(a.title)+'</h2>'+
     '<p class="context"><strong>为什么值得理解：</strong>'+htmlEsc(m.overview)+'<br><small>此处是对应主题的通用机制，不代表已经核实该事件对汇率的实际影响。</small></p>'+
@@ -151,7 +176,7 @@ function renderNews(){
 function renderTeaching(){
   const a=app.items.find(x=>x.id===app.selectedId),root=$("teaching-content");
   if(!a){root.innerHTML='<div class="empty"><strong>先读一条真实消息。</strong>点击左侧新闻的“解读”，这里就会展示它涉及的汇率机制和核验清单。</div>';return;}
-  const m=mechanics[a.topic]||mechanics["其他"];
+  const m=mechanismFor(a);
   root.innerHTML='<div class="chosen-source">'+htmlEsc(a.source)+' / '+htmlEsc(printable(a.published_at))+'</div>'+
     '<h3 class="chosen-title">'+htmlEsc(a.title)+'</h3>'+
     '<div class="lesson-section"><span class="lesson-label">01 / 背景概念</span><p>'+htmlEsc(m.overview)+'</p></div>'+
