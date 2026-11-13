@@ -193,6 +193,11 @@ def run():
         if not isinstance(a, dict) or a.get("sample"):
             # Previously indexed items may be malformed or discarded as irrelevant.
             continue
+        topic, pairs, relevant = topic_pairs(str(a.get("title") or ""))
+        if not relevant:
+            # Re-evaluate archived articles; obsolete off-topic records must not linger.
+            continue
+        a["topic"], a["pairs"] = topic, pairs
         when = a.get("published_at")
         parsed = stamp(when)
         if not parsed:

@@ -63,12 +63,13 @@ class CollectorTests(unittest.TestCase):
         recent={"title":"Fed interest rate decision","url":"https://example.com/recent","published_at":"2026-11-13T10:00:00Z"}
         old={"title":"Fed interest rate decision old","url":"https://example.com/old","published_at":"2026-11-06T10:00:00Z"}
         unknown={"title":"Fed statement undated","url":"https://example.com/unknown","published_at":None}
+        irrelevant={"id":"offtopic","title":"Future of Artificial Intelligence and Democracy","url":"https://example.com/offtopic","published_at":"2026-11-13T10:00:00Z","topic":"其他","verification":"official"}
         class FixedDateTime(collect.dt.datetime):
             @classmethod
             def now(cls,tz=None):return fixed
         with tempfile.TemporaryDirectory() as folder:
             p=Path(folder)/"articles.json";s=Path(folder)/"status.json"
-            p.write_text(json.dumps({"articles":[collect.make_article(old,source), collect.make_article(unknown,source)]}))
+            p.write_text(json.dumps({"articles":[collect.make_article(old,source), collect.make_article(unknown,source), irrelevant]}))
             with mock.patch.object(collect,"DATA",p),mock.patch.object(collect,"STATUS",s),mock.patch.object(collect,"SOURCES",[source]),mock.patch.object(collect,"collect_source",return_value=[collect.make_article(recent,source)]),mock.patch.object(collect.dt,"datetime",FixedDateTime):
                 collect.run()
             result=json.loads(p.read_text())
