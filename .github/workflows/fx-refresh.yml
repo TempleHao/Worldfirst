@@ -1,0 +1,54 @@
+name: FX - Refresh Intelligence Feed
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "fx/scripts/**"
+      - ".github/workflows/fx-refresh.yml"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: worldfirst-pages
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run collection tests
+        run: python -m unittest discover -s fx/scripts -p 'test_*.py' -v
+      - name: Fetch and index RSS metadata
+        run: python fx/scripts/collect.py
+      - name: Validate published JSON contract
+        run: |
+          python -c "import json; d=json.load(open('fx/data/articles.json')); assert isinstance(d['articles'],list); assert isinstance(d['sources'],list); assert d['analysis_mode']=='rule_index'"
+          node --check fx/app.js
+      - name: Commit only changed FX data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fx/data/articles.json fx/data/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(fx): refresh RSS metadata and source health"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload full Worldfirst site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
