@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-07c35962a9cf20c8e2",
+      "company": "xtransfer",
+      "date": "2026-11-13",
+      "title": "XTransfer荣获证券之星第十四届“资本力量”卓越金融科技领航奖_公司新闻 - 证券之星",
+      "summary": "XTransfer荣获证券之星第十四届“资本力量”卓越金融…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9naGNXc1VqOGxYR2tnUTd3aGFrc252T1pCWUJsRTd3QkFOYkNOcTNHeWJHdnc5TWVXeGZ1bzZsbUYtOWNXV2M4QzhqZmdLNllxWi1uUkk1anhncHM1NTVkRHdnczY?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-efe907f7d203",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-f23c214ada2cfac3c8",
       "company": "pingpong",
       "date": "2026-11-12",
@@ -75,8 +106,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-9c8aa41385fc",
-        "distinct_publishers": 3,
+        "event_id": "event-f717bd641608",
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -106,8 +137,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-9c8aa41385fc",
-        "distinct_publishers": 3,
+        "event_id": "event-f717bd641608",
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -137,8 +168,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-9c8aa41385fc",
-        "distinct_publishers": 3,
+        "event_id": "event-f717bd641608",
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -170,6 +201,37 @@
         "score": 0,
         "event_id": "event-b18c8299e24c",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-0bcfdbf49a4ff78749",
+      "company": "lianlian",
+      "date": "2026-11-12",
+      "title": "连连数字(02598)11月12日斥资36.14万港元回购11.95万股 - 凤凰网",
+      "summary": "连连数字(02598)11月12日斥资36.14万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMVnZQMF9nQXBlSF91MGsxYXVNeEVGaVZoaWZzLWlqV1VSSU5tZDBGOENxaTUxRzFjSjA3NHYyNkZRU0dqU01Gb0JSdGg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f717bd641608",
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -418,6 +480,68 @@
         "score": 0,
         "event_id": "event-bf3ad5b0830d",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-c4539c00a927ca9701",
+      "company": "lianlian",
+      "date": "2026-11-10",
+      "title": "连连数字(02598)11月10日斥资约17.91万港元回购5.8万股 - Moomoo",
+      "summary": "连连数字(02598)11月10日斥资约17.91万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Moomoo",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYkw0cFpKc3FfeFpEazY4UXM0LWEtdXhUa1NtMlhHclBFQzRBSU5vSWkyNXFXdVBBSHhZV0JkMHBRaDVOdzFZM2pfcDBtYlJCaWg4T0pxNXBENHp2RUhjM2VXd2gzMXd6bmRldFdSaldYU21xNkZHQ25FeURUZjhUSUtIWE9lMDRxbW00elRtZ1FuZ3ppamQ1cC01Ykhoc1RNbmFYdTlYbE9rcnBHWUF2elVoNjJZZw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-edc0fa6f934f",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-7ce9550cf8450ffc70",
+      "company": "lianlian",
+      "date": "2026-11-10",
+      "title": "连连数字(02598)11月10日斥资约17.91万港元回购5.8万股 - 凤凰网",
+      "summary": "连连数字(02598)11月10日斥资约17.91万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5lY0Q3WDNRUWM5aGRIUTBpeUFoZ2FSRmlxOFBMbXJ0czBoM2pXTzhvY1kyam5KdkZnU2NLdVdsVmQ5QWFsZ01RaERuSGU?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-edc0fa6f934f",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2518,6 +2642,37 @@
       "source": "搜狐网",
       "source_type": "search",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HOGlVSmF4cVYxNTAzMVhUa3RCOExDSHdTV3ZndDFNN2lkYzViREJaWXFOVDBfYzAxYmIyNWtacS1JYTZZWkJVQ2ktUXlNSmR0X3c?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-98244172f5e5",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-eb76e6b91552d54457",
+      "company": "lianlian",
+      "date": "2026-11-02",
+      "title": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接跨境创新力量 - 搜狐网",
+      "summary": "近500个项目参赛、10强晋级决赛，连连数字“钱潮杯”链接…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "搜狐网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdk5fMnd5OW8zMXkzNEVEUGdudnQxbzV0N1dIQWc5Z2hjeXg5dTFZb1ZBWXZsSXZXRDRzNUdKNEpYMTJ5cVRRQ2pTZG9jLTRLeC1UWWJZZE9uU0NsOXhnZG9odG96cDVnLWt1cThoU3ZvWDNFNFdFMUg1aW9tVzVZMWFScDAtUUVVaTdV?oc=5",
       "status": "unverified",
       "sentiment": {
         "label": "中性",
@@ -6892,6 +7047,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-12T19:53:54.358213+00:00",
+  "updated_at": "2026-11-13T06:44:34.106697+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

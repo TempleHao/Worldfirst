@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-12T19:53:58.908481+00:00",
+  "generated_at": "2026-11-13T06:44:38.656740+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,18 +12,47 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 220,
-    "events": 147,
+    "articles": 225,
+    "events": 149,
     "sentiment": {
-      "中性": 220
+      "中性": 225
     },
     "crisis": {
-      "一般": 147
+      "一般": 149
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-efe907f7d203",
+      "company": "xtransfer",
+      "headline": "XTransfer荣获证券之星第十四届“资本力量”卓越金融科技领航奖_公司新闻 - 证券之星",
+      "date": "2026-11-13",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-07c35962a9cf20c8e2"
+      ]
+    },
     {
       "id": "event-4a5f721275e4",
       "company": "pingpong",
@@ -83,17 +112,17 @@
       ]
     },
     {
-      "id": "event-9c8aa41385fc",
+      "id": "event-f717bd641608",
       "company": "lianlian",
       "headline": "连连数字(02598)11月12日斥资36.14万港元回购11.95万股 提供者 智通财经 - 英为财情 Investing.com",
       "date": "2026-11-12",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 4,
+      "publisher_count": 4,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 4,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -110,7 +139,8 @@
       "items": [
         "search-d8cc3fb21b42fc1dcf",
         "search-21bf62d943f8cb7160",
-        "search-bcabd552cb2e5fca46"
+        "search-bcabd552cb2e5fca46",
+        "search-0bcfdbf49a4ff78749"
       ]
     },
     {
@@ -286,6 +316,36 @@
       ],
       "items": [
         "search-746e2196aedce0da1f"
+      ]
+    },
+    {
+      "id": "event-edc0fa6f934f",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月10日斥资约17.91万港元回购5.8万股 - Moomoo",
+      "date": "2026-11-10",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-c4539c00a927ca9701",
+        "search-7ce9550cf8450ffc70"
       ]
     },
     {
@@ -1177,6 +1237,35 @@
       ]
     },
     {
+      "id": "event-49910232fa13",
+      "company": "xtransfer",
+      "headline": "XTransfer倪一雄：AI时代跨境支付新基建 三层风控+动态适配全球监管 - 新浪财经",
+      "date": "2026-11-03",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-3543033b4c9d5b93c6"
+      ]
+    },
+    {
       "id": "event-c0f96b39d809",
       "company": "pingpong",
       "headline": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
@@ -1354,10 +1443,10 @@
       ]
     },
     {
-      "id": "event-49910232fa13",
+      "id": "event-4a851f1a3e8d",
       "company": "xtransfer",
-      "headline": "XTransfer倪一雄：AI时代跨境支付新基建 三层风控+动态适配全球监管 - 新浪财经",
-      "date": "2026-11-03",
+      "headline": "XTransfer港股IPO申请，延期了！ - 新浪财经",
+      "date": "2026-11-02",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -1379,7 +1468,36 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-3543033b4c9d5b93c6"
+        "search-c9fbbd81a080046127"
+      ]
+    },
+    {
+      "id": "event-c1dddeb088e2",
+      "company": "xtransfer",
+      "headline": "XTransfer与中银香港签署合作 携手提升外贸企业全球收付款体验 - 移动支付网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-8e22c7aaba5169cb82"
       ]
     },
     {
@@ -1480,7 +1598,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 4,
+      "mention_count": 5,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -1497,6 +1615,7 @@
       "items": [
         "search-769517955a3cb0698c",
         "search-c46de055812538804e",
+        "search-eb76e6b91552d54457",
         "search-3008d21b5882f7d9c5",
         "search-2a33f17c9a31a0e86d"
       ]
@@ -1560,64 +1679,6 @@
       ]
     },
     {
-      "id": "event-4a851f1a3e8d",
-      "company": "xtransfer",
-      "headline": "XTransfer港股IPO申请，延期了！ - 新浪财经",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-c9fbbd81a080046127"
-      ]
-    },
-    {
-      "id": "event-c1dddeb088e2",
-      "company": "xtransfer",
-      "headline": "XTransfer与中银香港签署合作 携手提升外贸企业全球收付款体验 - 移动支付网",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-8e22c7aaba5169cb82"
-      ]
-    },
-    {
       "id": "event-a43f666cc947",
       "company": "sunrate",
       "headline": "AI智能体支付从白皮书走向落地，寻汇在港首发Sunrate Agentic Card - 移动支付网",
@@ -1645,6 +1706,35 @@
       "items": [
         "search-8f9c20809defe48417",
         "search-8eb45956a37e9925d2"
+      ]
+    },
+    {
+      "id": "event-87063344cad5",
+      "company": "xtransfer",
+      "headline": "B2B跨境收款告别“一刀切”：Ksher、XTransfer、万里汇形成三条差异化路径_行业新闻 - 证券之星",
+      "date": "2026-10-30",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-225a8841919d762bbf"
       ]
     },
     {
@@ -1766,35 +1856,6 @@
       ],
       "items": [
         "search-068a7a51048df405e5"
-      ]
-    },
-    {
-      "id": "event-87063344cad5",
-      "company": "xtransfer",
-      "headline": "B2B跨境收款告别“一刀切”：Ksher、XTransfer、万里汇形成三条差异化路径_行业新闻 - 证券之星",
-      "date": "2026-10-30",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-225a8841919d762bbf"
       ]
     },
     {
@@ -3574,35 +3635,6 @@
       ]
     },
     {
-      "id": "event-e3659b5ffc7a",
-      "company": "lianlian",
-      "headline": "广交会释放外贸新动能，连连数字加码新兴市场跨境支付服务 - 广州日报新花城",
-      "date": "2026-10-17",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-afb64701a13fbede33"
-      ]
-    },
-    {
       "id": "event-e831cf749a40",
       "company": "xtransfer",
       "headline": "XTransfer公布参加第140届广交会的视频",
@@ -3629,6 +3661,35 @@
       ],
       "items": [
         "social-curated-douyin-xtransfer-20261017"
+      ]
+    },
+    {
+      "id": "event-e3659b5ffc7a",
+      "company": "lianlian",
+      "headline": "广交会释放外贸新动能，连连数字加码新兴市场跨境支付服务 - 广州日报新花城",
+      "date": "2026-10-17",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-afb64701a13fbede33"
       ]
     },
     {
@@ -4044,6 +4105,35 @@
       ]
     },
     {
+      "id": "event-e3fa133aff08",
+      "company": "xtransfer",
+      "headline": "XTransfer完成智利UAF注册拓展拉美",
+      "date": "2026-10-14",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 0,
+      "publisher_count": 1,
+      "official_sources": 1,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "xtransfer-20261014"
+      ]
+    },
+    {
       "id": "event-b1cb5a6cf3ea",
       "company": "lianlian",
       "headline": "连连数字：10月14日斥资30.28万港元回购9.55万股 - 东方财富",
@@ -4128,35 +4218,6 @@
       ],
       "items": [
         "search-bcd8aae08f3cfd337b"
-      ]
-    },
-    {
-      "id": "event-e3fa133aff08",
-      "company": "xtransfer",
-      "headline": "XTransfer完成智利UAF注册拓展拉美",
-      "date": "2026-10-14",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "xtransfer-20261014"
       ]
     },
     {
