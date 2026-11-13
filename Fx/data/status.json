@@ -1,6 +1,6 @@
 {
-  "attempted_at": "2026-11-13T20:07:41.842188Z",
-  "last_successful_at": "2026-11-13T20:07:41.842188Z",
+  "attempted_at": "2026-11-13T20:24:48.894994Z",
+  "last_successful_at": "2026-11-13T20:24:48.894994Z",
   "success_count": 5,
   "total_sources": 5,
   "sources": [
@@ -35,5 +35,5 @@
       "error": null
     }
   ],
-  "article_count": 39
+  "article_count": 19
 }
