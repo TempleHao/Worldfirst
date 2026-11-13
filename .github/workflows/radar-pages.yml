@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - "radar/**"
-      - "fx/**"
+      - "Fx/**"
       - ".github/workflows/fx-refresh.yml"
       - ".github/workflows/radar-pages.yml"
 permissions:

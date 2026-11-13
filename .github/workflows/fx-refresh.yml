@@ -6,7 +6,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "fx/scripts/**"
+      - "Fx/scripts/**"
       - ".github/workflows/fx-refresh.yml"
 permissions:
   contents: write
@@ -27,18 +27,18 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run collection tests
-        run: python -m unittest discover -s fx/scripts -p 'test_*.py' -v
+        run: python -m unittest discover -s Fx/scripts -p 'test_*.py' -v
       - name: Fetch and index RSS metadata
-        run: python fx/scripts/collect.py
+        run: python Fx/scripts/collect.py
       - name: Validate published JSON contract
         run: |
-          python -c "import json; d=json.load(open('fx/data/articles.json')); assert isinstance(d['articles'],list); assert isinstance(d['sources'],list); assert d['analysis_mode']=='rule_index'"
-          node --check fx/app.js
+          python -c "import json; d=json.load(open('Fx/data/articles.json')); assert isinstance(d['articles'],list); assert isinstance(d['sources'],list); assert d['analysis_mode']=='rule_index'"
+          node --check Fx/app.js
       - name: Commit only changed FX data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add fx/data/articles.json fx/data/status.json
+          git add Fx/data/articles.json Fx/data/status.json
           if ! git diff --cached --quiet; then
             git commit -m "data(fx): refresh RSS metadata and source health"
             git pull --rebase origin main

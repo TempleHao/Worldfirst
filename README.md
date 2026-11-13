@@ -20,9 +20,9 @@
 
 ## FX 全球外汇情报中心（Demo）
 
-- 页面（GitHub Pages 启用后）：https://templehao.github.io/Worldfirst/fx/
-- 路径：fx/，与现有 radar/ 并列，互不覆盖
+- 页面（GitHub Pages 启用后）：https://templehao.github.io/Worldfirst/Fx/
+- 路径：Fx/，与现有 radar/ 并列，互不覆盖
 - 每小时抓取 RSS 元数据：.github/workflows/fx-refresh.yml
-- 使用说明与证据机制：fx/docs/RELIABILITY.md
+- 使用说明与证据机制：Fx/docs/RELIABILITY.md
 - ChatGPT 订阅分析须由独立的实际模型任务执行并提交，不能把确定性规则归类标为 AI 已分析。
 - 初始页面展示明确标记的演示条目，第一次抓取成功后才显示真实新闻。
