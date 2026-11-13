@@ -1,9 +1,595 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "attempted_at": null,
-  "articles": [],
-  "sources": [],
+  "updated_at": "2026-11-13T20:07:41.842188Z",
+  "attempted_at": "2026-11-13T20:07:41.842188Z",
+  "articles": [
+    {
+      "id": "4c2296bc7093ce84",
+      "title": "智利比索跌至19个月低点，铜价下滑叠加美国利率前景施压",
+      "url": "https://cn.investing.com/news/forex-news/article-93CH-3667776",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-13T19:31:53Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "d7fba7a557090b97",
+      "title": "美元强势与通胀压力持续，加元徘徊于近一个月低位",
+      "url": "https://cn.investing.com/news/forex-news/article-3667487",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-13T14:38:09Z",
+      "topic": "通胀与就业",
+      "pairs": [],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及经济指标；需先核对统计口径、实际值、预期值及前值。"
+    },
+    {
+      "id": "d9460e239bf1a208",
+      "title": "英镑今日走势：鹰派美联储支撑美元，英镑维持稳定",
+      "url": "https://cn.investing.com/news/forex-news/article-3666580",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-13T09:08:09Z",
+      "topic": "货币政策",
+      "pairs": [
+        "GBP/USD"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "cc29a3d0dc50233e",
+      "title": "美国国债收益率创2025年4月以来最大单周涨幅，美联储鹰派信号引发抛售潮",
+      "url": "https://cn.investing.com/news/forex-news/article-3666556",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-13T08:46:43Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "b2851de93965f784",
+      "title": "Isabel Schnabel: Made in Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-13T07:20:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "e4f37ebc7ba7655e",
+      "title": "美元多头迎来9月以来最强周表现，日元徘徊160关口边缘",
+      "url": "https://cn.investing.com/news/forex-news/article-3666084",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-13T03:25:27Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "0590b115c87e920c",
+      "title": "日元再度逼近160关口，日本当局发出干预警告",
+      "url": "https://cn.investing.com/news/forex-news/article-3666045",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-13T02:55:28Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "f4f8959fbb46e660",
+      "title": "27万亿日元干预创下纪录，日元却再度逼近160：全球最难交易货币的“多空拉锯”困局",
+      "url": "https://cn.investing.com/news/stock-market-news/article-3665704",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-12T23:03:19Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "87a784bdd6110f05",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "source": "美联储·货币政策",
+      "source_url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+      "published_at": "2026-11-12T17:45:00Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "b22ed4f6f4f19869",
+      "title": "Barr, American Inequality and the Future of AI",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+      "source": "美联储·讲话",
+      "source_url": "https://www.federalreserve.gov/feeds/speeches.xml",
+      "published_at": "2026-11-12T15:00:00Z",
+      "topic": "其他",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "仅索引原文标题及来源，尚未形成经审核的市场结论。"
+    },
+    {
+      "id": "d237973580b43b13",
+      "title": "美元是否终于准备突破？BCA研究公司发表最新看法",
+      "url": "https://cn.investing.com/news/forex-news/article-3664840",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-12T14:21:37Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "593edd67a1dd2eee",
+      "title": "英镑因美联储鹰派立场承压，尽管英国GDP增长0.7%",
+      "url": "https://cn.investing.com/news/forex-news/article-3663885",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-12T10:14:10Z",
+      "topic": "货币政策",
+      "pairs": [
+        "GBP/USD"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "0040329e474488dc",
+      "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+      "source": "美联储·讲话",
+      "source_url": "https://www.federalreserve.gov/feeds/speeches.xml",
+      "published_at": "2026-11-10T20:30:00Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "e3471b85e9068b8b",
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-10T16:45:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "461728c10cfa467f",
+      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-10T14:00:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "7e8ebfec1b135b15",
+      "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "source": "美联储·讲话",
+      "source_url": "https://www.federalreserve.gov/feeds/speeches.xml",
+      "published_at": "2026-11-10T09:00:00Z",
+      "topic": "通胀与就业",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及经济指标；需先核对统计口径、实际值、预期值及前值。"
+    },
+    {
+      "id": "7b46d20682db403c",
+      "title": "中国10月外汇储备小幅增长 黄金储备连续24个月增加",
+      "url": "https://cn.investing.com/analysis/article-200502447",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-11-09T07:07:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "fb1c8d6b7973ae96",
+      "title": "Aurra Markets：【欧元兑美元走势预测】汇价试探 1.1285 关键阻力位",
+      "url": "https://cn.investing.com/analysis/article-200502427",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-11-09T01:01:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "b9dcd2ec49851590",
+      "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-07T14:00:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "308c455948d25aeb",
+      "title": "ECB publishes consolidated banking data for end-June 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-06T09:00:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "b35bb5aa079a5414",
+      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-05T08:00:00Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "d6f8534e0e4ef3d0",
+      "title": "Piero Cipollone: Shaping the future of money",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-05T07:30:00Z",
+      "topic": "其他",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "仅索引原文标题及来源，尚未形成经审核的市场结论。"
+    },
+    {
+      "id": "9e212ae2ea3dba12",
+      "title": "Aurra Markets：【美元兑日元走势预测】158.50 阻力位面临干预风险",
+      "url": "https://cn.investing.com/analysis/article-200502363",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-11-04T00:58:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "995a2369a7ff72f6",
+      "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-04T00:00:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "9452bef5142f4608",
+      "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-02T09:30:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "ebe3120c8047d083",
+      "title": "Philip R. Lane: AI adoption in Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-10-30T16:10:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "116cf971800a3bfb",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-10-30T14:00:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "e7ad213e30394acd",
+      "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-10-30T09:00:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "1921ca3763ba8cb9",
+      "title": "Aurra Markets：【英镑兑美元走势展望】关注 1.3135 支撑位与 1.3418 阻力位",
+      "url": "https://cn.investing.com/analysis/article-200502298",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-10-30T01:39:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "GBP/USD"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "9eadc21a517cd054",
+      "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-10-29T15:50:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "68b91cf9e39d6916",
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-10-29T14:00:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "7b7f5adf10a3b9f7",
+      "title": "Monetary policy decisions",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-10-29T13:15:00Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "a0c3e1be77e8b5a2",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "source": "美联储·货币政策",
+      "source_url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+      "published_at": "2026-10-28T18:00:00Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "e867806110e7d0a1",
+      "title": "Aurra Markets：【欧元兑澳元走势展望】澳洲联储鹰派立场与法国债务忧虑加剧走势分化",
+      "url": "https://cn.investing.com/analysis/article-200502199",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-10-26T01:07:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "bdea460aa0d877c6",
+      "title": "Aurra Markets：【美元兑日元走势展望】上升三角形形态指向突破 162 日元",
+      "url": "https://cn.investing.com/analysis/article-200502153",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-10-21T08:05:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "6014bfa80b378d0a",
+      "title": "Aurra Markets：【欧元兑美元技术分析】1.1200 枢轴位面临考验，多头陷阱风险升温",
+      "url": "https://cn.investing.com/analysis/article-200502108",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-10-20T01:15:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "542e8ef3c489a0f4",
+      "title": "Aurra Markets：【澳元兑美元走势展望】美国 CPI 公布前，汇价试探 0.7000 阻力位",
+      "url": "https://cn.investing.com/analysis/article-200502063",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-10-16T01:36:00Z",
+      "topic": "通胀与就业",
+      "pairs": [],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及经济指标；需先核对统计口径、实际值、预期值及前值。"
+    },
+    {
+      "id": "9c2e70ef035e5c91",
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "source": "美联储·讲话",
+      "source_url": "https://www.federalreserve.gov/feeds/speeches.xml",
+      "published_at": "2026-10-15T02:55:00Z",
+      "topic": "其他",
+      "pairs": [],
+      "verification": "official",
+      "analysis_mode": "rule_index",
+      "summary": "仅索引原文标题及来源，尚未形成经审核的市场结论。"
+    },
+    {
+      "id": "a488a908a05d6be0",
+      "title": "美元破位: 预期差后的不寻常",
+      "url": "https://cn.investing.com/analysis/article-200502060",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-10-15T01:25:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "single_source",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "美联储·货币政策",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "name": "美联储·讲话",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "name": "欧洲央行·官方发布",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "name": "英为财情·外汇新闻",
+      "ok": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "name": "英为财情·外汇分析",
+      "ok": true,
+      "count": 10,
+      "error": null
+    }
+  ],
   "analysis_mode": "rule_index",
-  "message": "Awaiting first actual RSS run; example cards are explicitly marked as demos."
+  "ai_brief": null,
+  "message": "Model analysis is not automated by the GitHub script. Source metadata only."
 }

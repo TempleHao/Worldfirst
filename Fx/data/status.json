@@ -1,8 +1,39 @@
 {
-  "attempted_at": null,
-  "last_successful_at": null,
-  "success_count": 0,
+  "attempted_at": "2026-11-13T20:07:41.842188Z",
+  "last_successful_at": "2026-11-13T20:07:41.842188Z",
+  "success_count": 5,
   "total_sources": 5,
-  "sources": [],
-  "article_count": 0
+  "sources": [
+    {
+      "name": "美联储·货币政策",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "name": "美联储·讲话",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "name": "欧洲央行·官方发布",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "name": "英为财情·外汇新闻",
+      "ok": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "name": "英为财情·外汇分析",
+      "ok": true,
+      "count": 10,
+      "error": null
+    }
+  ],
+  "article_count": 39
 }
