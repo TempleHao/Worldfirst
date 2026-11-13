@@ -7,7 +7,6 @@ on:
       - "radar/**"
       - "Fx/**"
       - "!Fx/scripts/**"
-      - ".github/workflows/fx-refresh.yml"
       - ".github/workflows/radar-pages.yml"
 permissions:
   contents: read
