@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-13T19:41:08.916365+00:00",
+  "generated_at": "2026-11-13T20:07:15.244637+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,10 +12,10 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 228,
+    "articles": 229,
     "events": 151,
     "sentiment": {
-      "中性": 228
+      "中性": 229
     },
     "crisis": {
       "一般": 151
@@ -119,10 +119,10 @@
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 4,
-      "publisher_count": 4,
+      "independent_publishers": 5,
+      "publisher_count": 5,
       "official_sources": 0,
-      "mention_count": 4,
+      "mention_count": 5,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -140,7 +140,8 @@
         "search-d8cc3fb21b42fc1dcf",
         "search-21bf62d943f8cb7160",
         "search-bcabd552cb2e5fca46",
-        "search-0bcfdbf49a4ff78749"
+        "search-0bcfdbf49a4ff78749",
+        "search-f8b934152bd9952e10"
       ]
     },
     {
