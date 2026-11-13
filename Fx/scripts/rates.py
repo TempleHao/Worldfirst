@@ -158,12 +158,15 @@ def collect(opener=None):
                     or (item["date"] == previous.get("date") and name.startswith("香港"))):
                     existing[item["pair"]] = item
             successes+=1
+            newest = max(x["date"] for x in good)
+            age = (current.date() - parse_date(newest)).days
             statuses.append({"name":name,"ok":True,"count":len(good),"error":None,
-                            "last_observation_date":max(x["date"] for x in good)})
+                            "last_observation_date":newest,
+                            "date_fresh":age<=7})
             print(f"OK {name}: {len(good)} instruments")
         except (OSError, TimeoutError, ValueError, KeyError, ET.ParseError, TypeError, json.JSONDecodeError) as exc:
             statuses.append({"name":name,"ok":False,"count":0,"error":type(exc).__name__,
-                             "last_observation_date":None})
+                             "last_observation_date":None,"date_fresh":False})
             print(f"FAIL {name}: {type(exc).__name__}",file=sys.stderr)
     items = sorted(existing.values(), key=lambda r: (PAIRS.index(next(p for p in PAIRS if p[0]==r["pair"])) if r["pair"] in [p[0] for p in PAIRS] else 999))
     # On failure, preserve previously confirmed reference prices with original observation dates.

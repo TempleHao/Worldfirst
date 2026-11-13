@@ -50,6 +50,12 @@ class CollectorTests(unittest.TestCase):
         source={"name":"央行","url":"https://example.com/rss","kind":"official"}
         item={"title":"Future of Artificial Intelligence and Democracy","url":"https://example.com/ai","published_at":"2026-11-13T12:00:00Z"}
         self.assertIsNone(collect.make_article(item,source))
+    def test_bis_editorial_relevance_gate(self):
+        official={"name":"国际清算银行·央行讲话","url":"https://www.bis.org/rss","kind":"official"}
+        item={"title":"Opening remarks at Financial Services Gala","url":"https://example.com/unrelated","published_at":"2026-11-13T10:00:00Z"}
+        self.assertIsNone(collect.make_article(item,official))
+        item["title"]="Monetary policy and exchange rates"
+        self.assertIsNotNone(collect.make_article(item,official))
     def test_media_not_marked_official(self):
         source={"name":"媒体","url":"https://example.com/rss","kind":"media"}
         obj=collect.make_article(collect.parse_feed(RSS)[0],source)

@@ -27,8 +27,6 @@ SOURCES = [
     {"name": "英为财情·外汇分析", "url": "https://cn.investing.com/rss/forex.rss", "kind": "media"},
     {"name": "日本央行·官方发布", "url": "https://www.boj.or.jp/en/rss/whatsnew.xml", "kind": "official"},
     {"name": "国际清算银行·央行讲话", "url": "https://www.bis.org/doclist/cbspeeches.rss", "kind": "official"},
-    {"name": "美国劳工部·消费者价格", "url": "https://www.bls.gov/feed/cpi.rss", "kind": "official"},
-    {"name": "美国劳工部·就业报告", "url": "https://www.bls.gov/feed/empsit.rss", "kind": "official"},
 ]
 TOPICS = [
     ("货币政策", r"央行|美联储|联储|利率|降息|加息|联邦基金|federal reserve|fomc|monetary policy|central bank|interest rate|rate decision|ecb|powell|lagarde"),
@@ -121,9 +119,19 @@ def topic_pairs(title, official=False):
     relevant = topic != "其他"
     return topic, pairs, relevant
 
+def source_relevant(title, source_name):
+    # BIS aggregates many speeches outside the currency/monetary-policy remit.
+    if source_name == "国际清算银行·央行讲话":
+        return bool(re.search(
+            r"monetary policy|foreign exchange|exchange rate|currency|interest rate|"
+            r"inflation|central bank independence|financial market|capital flow|"
+            r"labou?r market|economic outlook|central bank communication",
+            title, re.I))
+    return True
+
 def make_article(item, src):
     topic, pairs, relevant = topic_pairs(item["title"], official=src["kind"] == "official")
-    if not relevant:
+    if not relevant or not source_relevant(item["title"], src["name"]):
         return None
     url = item["url"]
     return {
@@ -161,7 +169,17 @@ def dedup(articles):
             continue
         merged[key] = a
         seen_titles.add(title_key)
-    return sorted(merged.values(), key=lambda a: (a.get("published_at") or "", a["id"]), reverse=True)[:MAX_ITEMS]
+    ordered_by_date = sorted(merged.values(), key=lambda a: (a.get("published_at") or "", a["id"]), reverse=True)
+    capped, bis_count = [], 0
+    for a in ordered_by_date:
+        if a.get("source") == "国际清算银行·央行讲话":
+            if bis_count >= 8:
+                continue
+            bis_count += 1
+        capped.append(a)
+        if len(capped) >= MAX_ITEMS:
+            break
+    return capped
 
 def read_json(path, fallback):
     try:
@@ -198,7 +216,7 @@ def run():
             # Previously indexed items may be malformed or discarded as irrelevant.
             continue
         topic, pairs, relevant = topic_pairs(str(a.get("title") or ""))
-        if not relevant:
+        if not relevant or not source_relevant(str(a.get("title") or ""), str(a.get("source") or "")):
             # Re-evaluate archived articles; obsolete off-topic records must not linger.
             continue
         a["topic"], a["pairs"] = topic, pairs
