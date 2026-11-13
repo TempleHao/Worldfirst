@@ -1,90 +1,60 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#080e19">
-  <meta name="description" content="Worldfirst FX｜最近七天全球外汇信号、新闻关联与金融机制解读。">
-  <title>FX / Worldfirst — 一周外汇情报</title>
-  <link rel="stylesheet" href="./style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101c22">
+<meta name="description" content="Worldfirst FX 外汇内参：最近七天的外汇资讯、背景解读与商务参考。">
+<title>FX 内参 | Worldfirst</title>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="page-grid" aria-hidden="true"></div>
-<div class="frame">
-  <header class="topbar">
-    <a class="brand" href="./" aria-label="Worldfirst Fx 首页">
-      <span class="brand-mark">W<span>✳</span></span>
-      <span class="brand-text"><strong>WORLDFIRST</strong><small>FX / INTELLIGENCE</small></span>
-    </a>
-    <nav class="nav" aria-label="页面导航">
-      <a href="#overview">一周概览</a><a href="#newswire">情报流</a><a href="#laboratory">机制实验室</a>
-    </nav>
-    <div class="connection"><span class="state-dot" id="state-dot"></span><span id="system-state">正在核对数据</span><span class="connection-sub">RSS / 7D</span></div>
-  </header>
-  <main>
-    <section class="intro" id="overview">
-      <div class="eyebrow"><span class="eyebrow-square"></span> WEEKLY FOREIGN EXCHANGE INTELLIGENCE <span class="date-pill" id="week-period">近 7 × 24 小时</span></div>
-      <div class="intro-line">
-        <div>
-          <h1>外汇信息很多。<br><span>重要的是理解它们。</span></h1>
-          <p>从央行政策到全球货币波动，把一周的财经信号串联起来。读原始信息，理解传导机制，再决定哪些变化值得持续关注。</p>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="brand" href="./" aria-label="FX 内参首页"><span class="brand-emblem">W<span>↗</span></span><span class="brand-label"><strong>WORLDFIRST</strong><small>FX INTELLIGENCE</small></span></a>
+    <div class="masthead-center">全球外汇资讯 / 中文解读 / 商务参考</div>
+    <div class="masthead-right"><span class="status-dot" id="status-dot"></span><span id="status-text">读取中</span><span class="masthead-sep">/</span><span>7D ROLLING</span></div>
+  </div>
+</header>
+
+<div class="page">
+  <section class="intro">
+    <div class="intro-line"><span class="serial">FX / RESEARCH LETTER</span><span id="week-range" class="week-range">近七个自然日内持续更新</span></div>
+    <div class="intro-main">
+      <div><h1>外汇内参<span class="hl-dot">.</span></h1><p class="intro-sub">跟踪值得关注的全球外汇事件，并解释其背后的市场逻辑与商务影响。阅读从新闻开始，到形成判断为止。</p></div>
+      <div class="edition"><span>ISSUE</span><strong>07<span>D</span></strong><small>滚动七日<br>持续更新</small></div>
+    </div>
+    <div class="intro-footer"><span>NEWS & INTERPRETATION <i></i> BUSINESS BRIEFING</span><span id="latest-update">最后采集：获取中</span></div>
+  </section>
+  <div class="content-grid">
+    <main class="main-content" id="feed">
+      <div class="section-top"><div><span class="section-no">01 / LIVE INTELLIGENCE</span><h2>资讯与解读</h2></div><span class="stream-mode">最新在前 · 北京时间</span></div>
+      <div class="editor-note"><span class="editor-note-sign">◎</span><p>读到的重要新闻，向下继续就是解读。区分新闻事实、市场分析和商务参考；未经原文复核的分析会明确注明。</p></div>
+      <div class="toolbar" role="group" aria-label="新闻筛选">
+        <div class="filter-tabs">
+          <button type="button" class="tab active" data-filter="all" aria-pressed="true">全部</button>
+          <button type="button" class="tab" data-filter="policy" aria-pressed="false">央行 / 政策</button>
+          <button type="button" class="tab" data-filter="currency" aria-pressed="false">汇率 / 货币</button>
+          <button type="button" class="tab" data-filter="macro" aria-pressed="false">宏观经济</button>
         </div>
-        <div class="signature" aria-hidden="true"><span>FX</span><small>07 / DAY<br>INTELLIGENCE</small><i></i></div>
+        <label class="search-box"><span>⌕</span><input id="search" aria-label="搜索资讯" placeholder="搜索新闻、机构、货币…" autocomplete="off"></label>
       </div>
-      <div class="intro-bottom"><span>01 — WEEKLY OVERVIEW</span><span id="source-line">正在读取真实 RSS 数据…</span><span>每小时尝试同步 / 北京时间</span></div>
-    </section>
-    <section class="top-grid" aria-label="本周外汇关注">
-      <article class="feature">
-        <div class="panel-heading"><span><i class="pin"></i> 本周焦点 / 规则优先级排序</span><span>FROM 7D LIVE RSS</span></div>
-        <div id="lead-content" class="feature-body"><div class="loading">正在筛选最近 7 天的新闻…</div></div>
-        <div class="feature-footer"><span>基于可追溯的原始资讯 · 不将单源报道视为市场定论</span><span class="feature-code">FX–01</span></div>
-      </article>
-      <aside class="pulse-panel">
-        <div class="panel-heading"><span>7D / SIGNAL MONITOR</span><span class="square-index">01.1</span></div>
-        <div class="pulse-numbers">
-          <div><strong id="metric-events">—</strong><span>近七天资讯</span></div>
-          <div><strong id="metric-sources">—</strong><span>成功连接信源</span></div>
-        </div>
-        <div class="pulse-title"><span>本周内容分布</span><small>ARTICLE COUNT / 非市场热度</small></div>
-        <div id="topic-bars" class="topic-bars"><p class="muted">读取中…</p></div>
-        <div class="pulse-bottom"><span>最近同步</span><strong id="last-sync">—</strong></div>
-      </aside>
-    </section>
-    <section class="working-grid" id="newswire">
-      <div class="news-column">
-        <div class="section-title"><div><p class="overline">02 / INTELLIGENCE FEED</p><h2>最近七天的全球外汇信号<span class="title-dot">.</span></h2></div><span class="section-side">排序 / 最新优先</span></div>
-        <div class="filter-row">
-          <label class="field search"><span class="search-icon">⌕</span><input id="search" placeholder="搜索事件、政策、货币…" aria-label="搜索最近七天的资讯"></label>
-          <label class="field select"><span>货币</span><select id="pair" aria-label="按货币对筛选"><option value="">全部</option><option value="USD/CNY">美元 / 人民币</option><option value="USD/HKD">美元 / 港币</option><option value="EUR/USD">欧元 / 美元</option><option value="USD/JPY">美元 / 日元</option><option value="GBP/USD">英镑 / 美元</option></select></label>
-          <label class="field select"><span>主题</span><select id="topic" aria-label="按新闻主题筛选"><option value="">全部</option></select></label>
-        </div>
-        <div class="feed-key"><span>TIME / BEIJING</span><span>STORY & CONTEXT</span><span>ACTION</span></div>
-        <div id="article-list" class="article-list" aria-live="polite"><div class="empty">正在读取新闻…</div></div>
-        <div class="feed-foot"><span id="feed-foot-count">仅展示已确认发布时间属于最近 7 天的资讯</span><button type="button" id="reset-filter">清除筛选 ↗</button></div>
+      <div class="stream-counter"><span><i class="signal-dot"></i><span id="article-count">资讯加载中</span></span><button id="clear-filter" type="button">清除筛选</button></div>
+      <div id="stream" class="stream" aria-live="polite"><p class="loading-text">正在读取最新七天的资讯…</p></div>
+      <div class="load-area"><button id="load-more" type="button" hidden>继续阅读更多资讯 <span>↓</span></button></div>
+    </main>
+    <aside class="sidebar" aria-label="阅读索引与编辑说明">
+      <div class="sidebar-sticky">
+        <div class="sidebar-intro"><span class="micro-label">THIS WEEK / 本周观察</span><h3>先看这几条</h3><p>从最近七天的信息中选取值得展开阅读的议题。每一条都能回到对应的原始资讯。</p></div>
+        <div id="highlight-links" class="highlights"><p class="sidebar-empty">正在生成阅读索引…</p></div>
+        <div class="side-rule"></div>
+        <div class="brief-head"><span class="micro-label">SOURCE DESK / 信源状态</span><span id="healthy-sources">—</span></div>
+        <div class="brief-text" id="source-detail">等待采集结果</div>
+        <div class="side-rule"></div>
+        <div class="side-bottom"><strong>阅读说明</strong><p>所有资讯均在最近七天的时间窗口内；解读注明来源与核验范围。网站为商务决策提供信息参考，不提供汇率报价或交易指令。</p><a href="./docs/RELIABILITY.md" target="_blank" rel="noopener">查看核验标准 <span>↗</span></a></div>
       </div>
-      <aside class="insight-column" id="reader">
-        <div class="reader-sticky">
-          <div class="reader-head"><span class="reader-symbol">✳</span><span>03 / CONTEXT ENGINE</span></div>
-          <h2>读完一条消息，<br><span>再看背后的逻辑。</span></h2>
-          <p class="reader-intro">选择左边任何一条新闻，我会展示它涉及的经济概念、可能的传导路径、反向力量，以及值得进一步核实的问题。</p>
-          <div id="teaching-content" class="teaching-content"><p class="muted">请从左侧选择一条新闻。</p></div>
-          <div class="reader-foot"><span>机制教学与事实核验分开呈现</span><a href="./docs/RELIABILITY.md" target="_blank" rel="noopener">证据标准 ↗</a></div>
-        </div>
-      </aside>
-    </section>
-    <section class="lab" id="laboratory">
-      <div class="lab-top"><span class="overline">04 / FX MECHANISM LAB</span><span>INTERACTIVE / LEARN BY REASONING</span></div>
-      <div class="lab-intro"><div><h2>为什么一条消息<br><em>可能改变汇率？</em></h2><p>从情景出发，理解货币政策、市场预期、利差与资金流动的关系。这里的情景是教学示例，并非对当前市场的预测。</p></div><div class="lab-number" aria-hidden="true">04<span>↘</span></div></div>
-      <div class="scenario-tabs" role="group" aria-label="选择学习情景">
-        <button class="scenario active" type="button" data-scenario="hawk" aria-pressed="true"><small>01 / 利率预期</small><strong>美联储释放偏鹰信号</strong><span>美国利率预期如何传导？ ↗</span></button>
-        <button class="scenario" type="button" data-scenario="inflation" aria-pressed="false"><small>02 / 经济数据</small><strong>美国通胀低于预期</strong><span>为什么“预期差”很重要？ ↗</span></button>
-        <button class="scenario" type="button" data-scenario="receivable" aria-pressed="false"><small>03 / 跨境收款</small><strong>收到美元时人民币升值</strong><span>企业的换汇结果怎样变化？ ↗</span></button>
-      </div>
-      <div class="lab-result"><div class="lab-result-head"><span>CONDITIONAL TRANSMISSION / 条件传导</span><span id="scenario-name">—</span></div><div class="chain" id="scenario-chain"></div><div class="lab-lesson"><div><span>为什么可能成立</span><p id="scenario-explain"></p></div><div><span>哪些情况会让结论失效</span><p id="scenario-counter"></p></div></div></div>
-    </section>
-    <section class="method-strip" aria-label="可信度说明"><div><span class="method-icon">◎</span><strong>每条消息，都回到证据。</strong><small>原文发布时间、来源和链接可以追溯。事实、机构观点与经济学推论分别标识。</small></div><a href="./docs/RELIABILITY.md" target="_blank" rel="noopener">查看证据分级体系 <span>↗</span></a></section>
-  </main>
-  <footer><div><strong>WORLDFIRST / FX</strong><span>一周外汇情报 · 中文阅读与机制理解</span></div><div><span id="footer-coverage">仅保留最近 7 天的 RSS 内容</span><a href="https://github.com/TempleHao/Worldfirst/tree/main/Fx" target="_blank" rel="noopener">源代码 ↗</a><a href="../radar/">舆情雷达 ↗</a></div></footer>
+    </aside>
+  </div>
+  <footer class="footer"><div><strong>WORLDFIRST <em> / FX </em></strong><span>INDEPENDENT READING DESK</span></div><div><span>资讯仅供研究参考</span><a href="../radar/">舆情雷达 ↗</a><a href="https://github.com/TempleHao/Worldfirst/tree/main/Fx" target="_blank" rel="noopener">项目源码 ↗</a></div></footer>
 </div>
 <script src="./app.js" defer></script>
 </body>
