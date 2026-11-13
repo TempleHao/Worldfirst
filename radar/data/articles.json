@@ -50,6 +50,68 @@
       }
     },
     {
+      "id": "search-ceede4ebb1266caf93",
+      "company": "lianlian",
+      "date": "2026-11-13",
+      "title": "连连数字：11月13日斥资101.24万港元回购34.25万股 - 东方财富",
+      "summary": "连连数字：11月13日斥资101.24万港元回购34.25…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPLTRGbDNReVJOUW40TGpWdS1scXJXbmhvbWxJWF9nREItSk9yLTlpX0xTVE1qSXZxenR2d3o0MkM3dUJjQjRhcC1LdjJuRkpzWHg0Qk44MEwyMkh4dXJERg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-d8f35f4d8fb4",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-e57c91667ab35a50a7",
+      "company": "lianlian",
+      "date": "2026-11-13",
+      "title": "连连数字(02598)11月13日斥资101.24万港元回购34.25万股-证券之星 - 证券之星",
+      "summary": "连连数字(02598)11月13日斥资101.24万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yOEpuTVJtNHdpRXVKOWMtYlExTHlPUVN3akdHWEh0OEdpNkFzLWRxUzJ6Z2xhV0pPNlIzUVlHWE56ZHJDcEtqRnk5aDRfQ2FLdldhOEpKbVc0cDhnVFE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-abadf009c390",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-f23c214ada2cfac3c8",
       "company": "pingpong",
       "date": "2026-11-12",
@@ -2378,8 +2440,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-4a851f1a3e8d",
-        "distinct_publishers": 1,
+        "event_id": "event-b6e9e7e3f5c6",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2690,6 +2752,37 @@
         "score": 0,
         "event_id": "event-98244172f5e5",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-15f1f3129419d5d61a",
+      "company": "xtransfer",
+      "date": "2026-11-02",
+      "title": "XTransfer港股IPO申请，延期了 - 凤凰网",
+      "summary": "XTransfer港股IPO申请，延期了 - 凤凰网",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1TazJGRm9seE01UzQ0SlZ0WUVOVEFKYnl1UUJfUHZyY0hUN1JyWjlxUjB0SUVlQ19VS0pYZExOMkl4YjdJM2xIT01kX0c5bFhk?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b6e9e7e3f5c6",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7047,6 +7140,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-13T06:44:34.106697+00:00",
+  "updated_at": "2026-11-13T19:41:03.959430+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

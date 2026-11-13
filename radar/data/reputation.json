@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-13T06:44:38.656740+00:00",
+  "generated_at": "2026-11-13T19:41:08.916365+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 225,
-    "events": 149,
+    "articles": 228,
+    "events": 151,
     "sentiment": {
-      "中性": 225
+      "中性": 228
     },
     "crisis": {
-      "一般": 149
+      "一般": 151
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -51,6 +51,96 @@
       ],
       "items": [
         "search-07c35962a9cf20c8e2"
+      ]
+    },
+    {
+      "id": "event-d8f35f4d8fb4",
+      "company": "lianlian",
+      "headline": "连连数字：11月13日斥资101.24万港元回购34.25万股 - 东方财富",
+      "date": "2026-11-13",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-ceede4ebb1266caf93"
+      ]
+    },
+    {
+      "id": "event-abadf009c390",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月13日斥资101.24万港元回购34.25万股-证券之星 - 证券之星",
+      "date": "2026-11-13",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-e57c91667ab35a50a7"
+      ]
+    },
+    {
+      "id": "event-f717bd641608",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月12日斥资36.14万港元回购11.95万股 提供者 智通财经 - 英为财情 Investing.com",
+      "date": "2026-11-12",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 4,
+      "publisher_count": 4,
+      "official_sources": 0,
+      "mention_count": 4,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-d8cc3fb21b42fc1dcf",
+        "search-21bf62d943f8cb7160",
+        "search-bcabd552cb2e5fca46",
+        "search-0bcfdbf49a4ff78749"
       ]
     },
     {
@@ -109,38 +199,6 @@
       ],
       "items": [
         "search-6c57e63165abbc233d"
-      ]
-    },
-    {
-      "id": "event-f717bd641608",
-      "company": "lianlian",
-      "headline": "连连数字(02598)11月12日斥资36.14万港元回购11.95万股 提供者 智通财经 - 英为财情 Investing.com",
-      "date": "2026-11-12",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 4,
-      "publisher_count": 4,
-      "official_sources": 0,
-      "mention_count": 4,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-d8cc3fb21b42fc1dcf",
-        "search-21bf62d943f8cb7160",
-        "search-bcabd552cb2e5fca46",
-        "search-0bcfdbf49a4ff78749"
       ]
     },
     {
@@ -674,38 +732,6 @@
       ]
     },
     {
-      "id": "event-af21f686a41c",
-      "company": "pingpong",
-      "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态，垄断型“巨无霸”不太容易出现 - 每日经济新闻",
-      "date": "2026-11-06",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
-      "official_sources": 0,
-      "mention_count": 4,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-4fa5aa30d00b916d10",
-        "search-08ba6491404835e496",
-        "search-fee7c5241fd3bc0feb",
-        "search-d03635840e487695f6"
-      ]
-    },
-    {
       "id": "event-a58c767f3407",
       "company": "lianlian",
       "headline": "连连数字(02598.HK)11月6日耗资31.2万港元回购9.95万股 - TradingView",
@@ -798,6 +824,38 @@
       ]
     },
     {
+      "id": "event-af21f686a41c",
+      "company": "pingpong",
+      "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态，垄断型“巨无霸”不太容易出现 - 每日经济新闻",
+      "date": "2026-11-06",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 3,
+      "publisher_count": 3,
+      "official_sources": 0,
+      "mention_count": 4,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4fa5aa30d00b916d10",
+        "search-08ba6491404835e496",
+        "search-fee7c5241fd3bc0feb",
+        "search-d03635840e487695f6"
+      ]
+    },
+    {
       "id": "event-3be18a5b334f",
       "company": "payoneer",
       "headline": "Payoneer Global | 10-Q: Quarterly report - Moomoo",
@@ -824,35 +882,6 @@
       ],
       "items": [
         "search-2010f562dd9b08c069"
-      ]
-    },
-    {
-      "id": "event-65a3befc963e",
-      "company": "pingpong",
-      "headline": "PingPong上线一站式AI行业支付方案：开放全球收付与智能体支付能力 - 全球定制网",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-7de8a646bc7d5d916e"
       ]
     },
     {
@@ -941,6 +970,35 @@
       ],
       "items": [
         "search-f97912c3db199b3f42"
+      ]
+    },
+    {
+      "id": "event-65a3befc963e",
+      "company": "pingpong",
+      "headline": "PingPong上线一站式AI行业支付方案：开放全球收付与智能体支付能力 - 全球定制网",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-7de8a646bc7d5d916e"
       ]
     },
     {
@@ -1266,35 +1324,6 @@
       ]
     },
     {
-      "id": "event-c0f96b39d809",
-      "company": "pingpong",
-      "headline": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
-      "date": "2026-11-03",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-4c592a500b3e5f0557"
-      ]
-    },
-    {
       "id": "event-3bcbce4f6c9e",
       "company": "lianlian",
       "headline": "连连数字：11月3日斥资21.44万港元回购6.95万股 - 东方财富",
@@ -1443,10 +1472,10 @@
       ]
     },
     {
-      "id": "event-4a851f1a3e8d",
-      "company": "xtransfer",
-      "headline": "XTransfer港股IPO申请，延期了！ - 新浪财经",
-      "date": "2026-11-02",
+      "id": "event-c0f96b39d809",
+      "company": "pingpong",
+      "headline": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
+      "date": "2026-11-03",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -1468,7 +1497,37 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-c9fbbd81a080046127"
+        "search-4c592a500b3e5f0557"
+      ]
+    },
+    {
+      "id": "event-b6e9e7e3f5c6",
+      "company": "xtransfer",
+      "headline": "XTransfer港股IPO申请，延期了！ - 新浪财经",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-c9fbbd81a080046127",
+        "search-15f1f3129419d5d61a"
       ]
     },
     {
@@ -1498,35 +1557,6 @@
       ],
       "items": [
         "search-8e22c7aaba5169cb82"
-      ]
-    },
-    {
-      "id": "event-a918c241e36b",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：打通订单与资金的信息链路，打造航旅业一站式支付解决方案 - 新讯网",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-9ef517a84fd2201fd3"
       ]
     },
     {
@@ -1647,6 +1677,35 @@
       ],
       "items": [
         "search-596259f343b024315e"
+      ]
+    },
+    {
+      "id": "event-a918c241e36b",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：打通订单与资金的信息链路，打造航旅业一站式支付解决方案 - 新讯网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-9ef517a84fd2201fd3"
       ]
     },
     {
@@ -1979,35 +2038,6 @@
       ]
     },
     {
-      "id": "event-e3e82cc8f12d",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客户转化 - 新讯网",
-      "date": "2026-10-28",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-e1a17a3acdb83527d9"
-      ]
-    },
-    {
       "id": "event-60c8c2b19b26",
       "company": "lianlian",
       "headline": "连连数字(02598)10月28日斥资29.61万港元回购9.3万股_经济时评_财经 - 证券之星",
@@ -2064,6 +2094,35 @@
       ],
       "items": [
         "search-979d7ef1c5e6832a08"
+      ]
+    },
+    {
+      "id": "event-e3e82cc8f12d",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：牌照夯实合规基础，本地支付提升客户转化 - 新讯网",
+      "date": "2026-10-28",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-e1a17a3acdb83527d9"
       ]
     },
     {
@@ -2870,35 +2929,6 @@
       ]
     },
     {
-      "id": "event-1fde3761b428",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a27b48eb5547e14a8e"
-      ]
-    },
-    {
       "id": "event-68d1d5253599",
       "company": "lianlian",
       "headline": "连连介绍香港本地化收单合作案例",
@@ -3013,6 +3043,35 @@
       "items": [
         "search-5324d4fa63f589b4c2",
         "search-cf522a322ef401bcbe"
+      ]
+    },
+    {
+      "id": "event-1fde3761b428",
+      "company": "pingpong",
+      "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a27b48eb5547e14a8e"
       ]
     },
     {
