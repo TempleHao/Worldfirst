@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T21:31:41.241415Z",
-  "attempted_at": "2026-11-13T21:31:41.241415Z",
+  "updated_at": "2026-11-13T21:35:39.489678Z",
+  "attempted_at": "2026-11-13T21:35:39.489678Z",
   "articles": [
     {
       "id": "4c2296bc7093ce84",
@@ -211,21 +211,6 @@
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     },
     {
-      "id": "636dc442679d4367",
-      "title": "Cash and the digital euro - two sides of the same coin",
-      "url": "https://www.bis.org/speeches/20261112-cash-and-digital-euro-two-sides-same-coin",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-12T00:00:00Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "EUR/USD"
-      ],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
       "id": "60e081067af58c39",
       "title": "The low-gear labour market",
       "url": "https://www.bis.org/speeches/20261112-low-gear-labour-market",
@@ -252,35 +237,9 @@
       "summary": "涉及经济指标；需先核对统计口径、实际值、预期值及前值。"
     },
     {
-      "id": "41372711cd192adc",
-      "title": "Foundations for innovative and resilient capital markets",
-      "url": "https://www.bis.org/speeches/20261112-foundations-innovative-and-resilient-capital-markets",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-12T00:00:00Z",
-      "topic": "宏观经济",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
-    },
-    {
       "id": "31a8fb5b119dbfe7",
       "title": "Central bank independence in today’s world",
       "url": "https://www.bis.org/speeches/20261112-central-bank-independence-todays-world",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-12T00:00:00Z",
-      "topic": "货币政策",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "044447f738f04969",
-      "title": "Opening remarks - Joint Central Bank of Kuwait and Global Finance Magazine Roundtable Discussion with Kuwait Banks",
-      "url": "https://www.bis.org/speeches/20261112-opening-remarks-joint-central-bank-kuwait-and-global-finance-magazine-roundtable-discussion-kuwait-banks",
       "source": "国际清算银行·央行讲话",
       "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
       "published_at": "2026-11-12T00:00:00Z",
@@ -360,63 +319,9 @@
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     },
     {
-      "id": "e1ca2db252fb9bdb",
-      "title": "Welcome address - Fourth Women in Central Banking Workshop",
-      "url": "https://www.bis.org/speeches/20261110-welcome-address-fourth-women-central-banking-workshop",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-10T00:00:00Z",
-      "topic": "货币政策",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
       "id": "d5cd1520daa84901",
       "title": "Opening remarks - Monetary Policy Report (IPOM) press conference, third quarter of 2026",
       "url": "https://www.bis.org/speeches/20261110-opening-remarks-monetary-policy-report-ipom-press-conference-third-quarter-2026",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-10T00:00:00Z",
-      "topic": "货币政策",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "a72e1bf59d4fa41a",
-      "title": "Message for the European Chamber of Commerce Philippines Luncheon Meeting",
-      "url": "https://www.bis.org/speeches/20261110-message-european-chamber-commerce-philippines-luncheon-meeting",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-10T00:00:00Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "EUR/USD"
-      ],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "9de329724f8756f7",
-      "title": "Transmission and conduct of monetary policy in Switzerland",
-      "url": "https://www.bis.org/speeches/20261110-transmission-and-conduct-monetary-policy-switzerland",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-10T00:00:00Z",
-      "topic": "货币政策",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "5bafb36d0c8368df",
-      "title": "Navigating stormy waters - reflections on monetary policy",
-      "url": "https://www.bis.org/speeches/20261110-navigating-stormy-waters-reflections-monetary-policy",
       "source": "国际清算银行·央行讲话",
       "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
       "published_at": "2026-11-10T00:00:00Z",
@@ -479,47 +384,6 @@
       "verification": "single_source",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "e7d753f5ba0122b7",
-      "title": "Integrated, open and resilient - Europe’s strengths in a fragmenting world",
-      "url": "https://www.bis.org/speeches/20261109-integrated-open-and-resilient-europes-strengths-fragmenting-world",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-09T00:00:00Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "EUR/USD"
-      ],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "2d1def3c4e01642c",
-      "title": "Message for the SEACEN masterclass - central bank communication",
-      "url": "https://www.bis.org/speeches/20261109-message-seacen-masterclass-central-bank-communication",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-09T00:00:00Z",
-      "topic": "货币政策",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "0d3613fb11199473",
-      "title": "Opening remarks - 2026 Market Practitioners Group Conference",
-      "url": "https://www.bis.org/speeches/20261109-opening-remarks-2026-market-practitioners-group-conference",
-      "source": "国际清算银行·央行讲话",
-      "source_url": "https://www.bis.org/doclist/cbspeeches.rss",
-      "published_at": "2026-11-09T00:00:00Z",
-      "topic": "宏观经济",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
     },
     {
       "id": "73aaea5bce6db22e",
@@ -590,20 +454,8 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 27,
+      "count": 13,
       "error": null
-    },
-    {
-      "name": "美国劳工部·消费者价格",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError"
-    },
-    {
-      "name": "美国劳工部·就业报告",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError"
     }
   ],
   "analysis_mode": "rule_index",

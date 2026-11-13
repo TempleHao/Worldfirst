@@ -1,8 +1,8 @@
 {
-  "attempted_at": "2026-11-13T21:31:41.241415Z",
-  "last_successful_at": "2026-11-13T21:31:41.241415Z",
+  "attempted_at": "2026-11-13T21:35:39.489678Z",
+  "last_successful_at": "2026-11-13T21:35:39.489678Z",
   "success_count": 7,
-  "total_sources": 9,
+  "total_sources": 7,
   "sources": [
     {
       "name": "美联储·货币政策",
@@ -43,21 +43,9 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 27,
+      "count": 13,
       "error": null
-    },
-    {
-      "name": "美国劳工部·消费者价格",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError"
-    },
-    {
-      "name": "美国劳工部·就业报告",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError"
     }
   ],
-  "article_count": 40
+  "article_count": 30
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "attempted_at": "2026-11-13T21:31:41.312513Z",
-  "last_successful_at": "2026-11-13T21:31:41.312513Z",
+  "attempted_at": "2026-11-13T21:35:39.560554Z",
+  "last_successful_at": "2026-11-13T21:35:39.560554Z",
   "quote_type": "official_daily_reference_not_realtime_or_executable",
   "instruments": [
     {
@@ -809,14 +809,16 @@
       "ok": true,
       "count": 6,
       "error": null,
-      "last_observation_date": "2026-11-13"
+      "last_observation_date": "2026-11-13",
+      "date_fresh": true
     },
     {
       "name": "香港金管局港元收市价",
       "ok": true,
       "count": 1,
       "error": null,
-      "last_observation_date": "2026-10-31"
+      "last_observation_date": "2026-10-31",
+      "date_fresh": false
     }
   ],
   "notice": "官方工作日参考/收市数据；ECB衍生交叉汇率使用同日EUR报价相除；非实时、非银行可成交价。无USD/CNH官方报价，不予填充。"
