@@ -21,7 +21,7 @@ function safeLink(url){try{const u=new URL(String(url));return /^(https?:)$/.tes
 function ms(v){const n=Date.parse(v);return Number.isFinite(n)?n:NaN;}
 function recent(article){const t=ms(article.published_at);const diff=Date.now()-t;return Number.isFinite(t)&&diff>=0&&diff<=WEEK;}
 function stamp(value,fmt=fmtStamp){let n=ms(value);return Number.isFinite(n)?fmt.format(new Date(n)):"时间未核实";}
-function title(a){return zhTitles[a.id]||a.title||"标题待补充";}
+function title(a){const e=state.editorial[a.id]||{};return typeof e.title_zh==="string"&&e.title_zh.trim()?e.title_zh:zhTitles[a.id]||a.title||"标题待补充";}
 function topic(a){return a.topic||"外汇资讯";}
 function canShowAI(c,id){
  return c&&["F","O","I","X","U"].includes(c.type)&&["P0","P1","P2","P3","C","U"].includes(c.grade)&&typeof c.statement==="string"&&Array.isArray(c.evidence_ids)&&c.evidence_ids.includes(id)&&c.evidence_ids.every(e=>state.raw.some(a=>a.id===e&&recent(a)));
@@ -86,9 +86,11 @@ function marketHTML(pair){
 function renderMarket(){
  $("market-grid").innerHTML=SHOW_PAIRS.map(marketHTML).join("");
  const success=state.marketSources.filter(x=>x.ok).length;
+ const fresh=state.marketSources.filter(x=>x.ok&&x.date_fresh===true).length;
  const latest=state.market.filter(r=>r.date).map(r=>r.date).sort().at(-1);
- $("market-updated").textContent=latest?"最新官方观察日期 "+latest+" · 数据源 "+success+"/"+state.marketSources.length:"尚未取得官方有效报价";
- const sourceLine=state.marketSources.length&&success===0?"本轮官方接口均未成功，已验证的旧数据会按原始发布日期标记过期。":"";
+ $("market-updated").textContent=latest?"最新官方观察日期 "+latest+" · 有效来源 "+fresh+"/"+state.marketSources.length:"尚未取得官方有效报价";
+ const delayed=state.marketSources.filter(x=>x.ok&&!x.date_fresh).map(x=>x.name+"观测日 "+(x.last_observation_date||"未知")).join("；");
+ const sourceLine=state.marketSources.length&&success===0?"本轮官方接口均未成功，历史数据按原日期显示。":delayed?"以下来源数据滞后，未用于覆盖较新汇率："+delayed:"";
  $("market-warning").textContent="官方日度参考价及交叉计算 · 非实时买卖价 · 涨跌幅为近5个公布日"+(sourceLine?" · "+sourceLine:"");
 }
 
