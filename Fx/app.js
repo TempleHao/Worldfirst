@@ -1,4 +1,4 @@
-/* Worldfirst FX / 商务内参资讯流 · 文本和证据优先。 */
+/* FX 内参 / 商务外汇资讯流 · 真实数据与来源优先。 */
 "use strict";
 const $=id=>document.getElementById(id);
 const WEEK=7*24*60*60*1000;
