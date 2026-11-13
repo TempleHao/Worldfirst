@@ -1,230 +1,367 @@
-/* FX 内参 / 商务外汇资讯流 · 真实数据与来源优先。 */
+/* 外汇内参 / 冷峻金融资讯界面：所有行情和新闻均来自已发布的来源快照。 */
 "use strict";
 const $=id=>document.getElementById(id);
-const WEEK=7*24*60*60*1000;
-const state={raw:[],visible:[],editorial:{},brief:null,sources:[],updated_at:null,market:[],marketSources:[],marketLastSuccess:null,marketAttempted:null,filter:"all",query:"",limit:12,loading:true,fetchInFlight:false};
-const zhTitles={
-"b2851de93965f784":"欧洲央行施纳贝尔发表《欧洲制造》主题讲话",
-"87a784bdd6110f05":"美联储修订2027年FOMC会议暂定日程",
-"0040329e474488dc":"美联储鲍曼：美国经济与货币政策的考量",
-"e3471b85e9068b8b":"欧洲央行莱恩：货币政策沟通的科学与实践",
-"461728c10cfa467f":"欧洲央行奇波洛内：现金与数字欧元的关系",
-"7e8ebfec1b135b15":"美联储沃勒：美国经济展望与劳动力市场动态",
-"b9dcd2ec49851590":"欧洲央行拉加德接受《读卖新闻》采访"
+const SEVEN=7*24*60*60*1000;
+const state={
+  raw:[],editorial:{},brief:null,market:[],marketSources:[],
+  newsSources:[],newsUpdated:null,marketUpdated:null,
+  filter:"all",query:"",limit:12,selectedPair:"USD/CNY",
+  busy:false,imageFailed:false,loadError:null
 };
-const fmtDay=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit"});
-const fmtDate=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"});
-const fmtTime=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false});
-const fmtStamp=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false});
+const ZH={
+  "b2851de93965f784":"欧洲央行施纳贝尔发表《欧洲制造》主题讲话",
+  "87a784bdd6110f05":"美联储修订2027年FOMC会议暂定日程",
+  "0040329e474488dc":"美联储鲍曼谈美国经济与货币政策的考量",
+  "e3471b85e9068b8b":"欧洲央行莱恩谈货币政策沟通的科学与实践",
+  "461728c10cfa467f":"欧洲央行奇波洛内谈现金与数字欧元",
+  "7e8ebfec1b135b15":"美联储沃勒谈经济展望与劳动力市场",
+  "b9dcd2ec49851590":"欧洲央行行长拉加德接受《读卖新闻》采访"
+};
+const clockFmt=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false});
+const dayFmt=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"});
+const timeFmt=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false});
 function esc(t){return String(t??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
-function safeLink(url){try{const u=new URL(String(url));return /^(https?:)$/.test(u.protocol)?u.href:"#";}catch{return "#";}}
-function ms(v){const n=Date.parse(v);return Number.isFinite(n)?n:NaN;}
-function recent(article){const t=ms(article.published_at);const diff=Date.now()-t;return Number.isFinite(t)&&diff>=0&&diff<=WEEK;}
-function stamp(value,fmt=fmtStamp){let n=ms(value);return Number.isFinite(n)?fmt.format(new Date(n)):"时间未核实";}
-function title(a){const e=state.editorial[a.id]||{};return typeof e.title_zh==="string"&&e.title_zh.trim()?e.title_zh:zhTitles[a.id]||a.title||"标题待补充";}
-function topic(a){return a.topic||"外汇资讯";}
-function canShowAI(c,id){
- return c&&["F","O","I","X","U"].includes(c.type)&&["P0","P1","P2","P3","C","U"].includes(c.grade)&&typeof c.statement==="string"&&Array.isArray(c.evidence_ids)&&c.evidence_ids.includes(id)&&c.evidence_ids.every(e=>state.raw.some(a=>a.id===e&&recent(a)));
+function safeURL(u){try{const url=new URL(String(u));return /^https?:$/.test(url.protocol)?url.href:"#";}catch{return "#";}}
+function ms(x){const v=Date.parse(x);return Number.isFinite(v)?v:NaN;}
+function format(x,f=clockFmt){const t=ms(x);return Number.isFinite(t)?f.format(new Date(t)):"时间待核实";}
+function recent(a){const t=ms(a?.published_at),age=Date.now()-t;return Number.isFinite(t)&&age>=0&&age<=SEVEN;}
+function news(){return state.raw.filter(recent).sort((a,b)=>ms(b.published_at)-ms(a.published_at));}
+function ed(a){return state.editorial[a.id]||{};}
+function title(a){const e=ed(a);return typeof e.title_zh==="string"&&e.title_zh.trim()?e.title_zh:ZH[a.id]||a.title||"标题待核实";}
+function summary(a){return ed(a).dek||"这条原始资讯已收录，尚未完成独立的中文事件解读。";}
+function kind(a){return String(a.topic||"外汇市场");}
+function codeFor(a){
+ const joined=(a.title||"")+" "+kind(a);
+ if(/美联储|federal reserve|fomc|美国|美元|usd|dollar/i.test(joined))return "USD";
+ if(/欧洲|欧元|ecb|euro|eur/i.test(joined))return "EUR";
+ if(/日本|日元|boj|jpy|yen/i.test(joined))return "JPY";
+ if(/英镑|英国|gbp|sterling/i.test(joined))return "GBP";
+ if(/人民币|中国|cny|cnh/i.test(joined))return "CNY";
+ if(/港币|港元|香港|hkd/i.test(joined))return "HKD";
+ return "FX";
 }
-function currentAI(){
- const b=state.brief;
- if(!b||b.schema_version!==1||b.reviewed!==true||b.method!=="chatgpt_review_with_cited_sources"||!Array.isArray(b.claims))return [];
- const t=ms(b.generated_at),elapsed=Date.now()-t;if(!Number.isFinite(t)||elapsed<0||elapsed>26*3600000)return [];
- const valid=b.claims.every(c=>["F","O","I","X","U"].includes(c.type)&&["P0","P1","P2","P3","C","U"].includes(c.grade)&&typeof c.statement==="string"&&Array.isArray(c.evidence_ids)&&c.evidence_ids.length>0&&c.evidence_ids.every(e=>state.raw.some(a=>a.id===e&&recent(a))));
- return valid?b.claims:[];
+function categoryType(a){
+ const words=(a.title||"")+" "+kind(a);
+ if(/央行|美联储|利率|FOMC|monetary policy|central bank/i.test(words))return "policy";
+ if(/通胀|CPI|GDP|失业|就业|经济|就业|employment|inflation|payroll|yield|国债/i.test(words))return "macro";
+ return "currency";
 }
-
-const SHOW_PAIRS=["EUR/USD","USD/CNY","USD/JPY","USD/HKD","GBP/USD","EUR/GBP"];
-const sourceMarket=pair=>state.market.find(x=>x.pair===pair&&x.source&&x.date&&Number.isFinite(Number(x.value))&&Number(x.value)>0);
-function referenceOld(row){
- const d=Date.parse(row?.date||"");return !Number.isFinite(d)||Date.now()-d>8*24*3600000;
+function matches(a){
+ const cat=categoryType(a);
+ const q=state.query.trim().toLocaleLowerCase("zh-CN");
+ const e=ed(a);
+ const hay=[a.title,title(a),a.source,a.topic,(a.pairs||[]).join(" "),e.dek,e.insight,e.business].join(" ").toLocaleLowerCase("zh-CN");
+ return (state.filter==="all"||state.filter===cat)&&(!q||hay.includes(q));
 }
-function displayQuote(row){
- if(!row||referenceOld(row))return "—";
- const n=Number(row.value);
- return n.toFixed(row.pair==="USD/JPY"?3:4);
+function sourceMarket(pair){
+ const m=state.market.find(x=>x?.pair===pair&&x.source&&x.date&&Number.isFinite(Number(x.value))&&Number(x.value)>0);
+ if(!m)return null;
+ const observed=ms(m.date+"T00:00:00Z"),diff=Date.now()-observed;
+ return Number.isFinite(observed)&&diff>=-24*3600000&&diff<=9*24*3600000?m:null;
 }
-function safeSparkline(points){
- if(!Array.isArray(points)||points.length<2)return "";
- const list=points.slice(-15).map(p=>Number(p.value)).filter(n=>Number.isFinite(n)&&n>0);
- if(list.length<2)return "";
- const min=Math.min(...list),max=Math.max(...list),delta=max-min||1;
- const coords=list.map((n,i)=>[Math.round(100*i/(list.length-1)),Math.round(23-18*(n-min)/delta)]).map(x=>x.join(",")).join(" ");
- return '<svg viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#137e74" stroke-width="1.5" vector-effect="non-scaling-stroke" points="'+coords+'"/></svg>';
+function price(m){if(!m)return "—";const n=Number(m.value);return n.toFixed(m.pair==="USD/JPY"?3:4);}
+function pct(m){
+ if(!m||m.change_5_published_days_pct===null||m.change_5_published_days_pct===undefined)return null;
+ const n=Number(m.change_5_published_days_pct);return Number.isFinite(n)?n:null;
 }
-function pairRelated(a){
- const joined=[a.title,title(a),(Array.isArray(a.pairs)?a.pairs:[]).join(" ")].join(" ");
- const pairs=Array.isArray(a.pairs)?a.pairs:[];
- for(const p of ["USD/CNY","USD/HKD","USD/JPY","EUR/USD","GBP/USD"]){
-   if(pairs.includes(p))return p;
- }
- if(/人民币|CNY|CNH/.test(joined))return "USD/CNY";
- if(/港币|港元|HKD/.test(joined))return "USD/HKD";
- if(/日元|JPY/.test(joined))return "USD/JPY";
- if(/欧元|EUR/.test(joined))return "EUR/USD";
- if(/英镑|GBP/.test(joined))return "GBP/USD";
- return null;
+function deltaText(d){return d===null?"—":(d>0?"+":"")+d.toFixed(2)+"%";}
+function deltaClass(d){return d===null?"flat":d>0?"up":d<0?"down":"flat";}
+function validPoints(m){
+ if(!m||!Array.isArray(m.points))return [];
+ return m.points.filter(p=>p&&Number.isFinite(Number(p.value))&&Number(p.value)>0&&Number.isFinite(ms(p.date+"T00:00:00Z")));
 }
-function contextFor(a){
- const pair=pairRelated(a),rate=pair&&sourceMarket(pair);
- if(!rate||referenceOld(rate))return "";
- const change=Number(rate.change_5_published_days_pct);
- const movement=Number.isFinite(change)&&rate.change_5_published_days_pct!==null?" · 近5个公布日 "+(change>0?"+":"")+change.toFixed(2)+"%":"";
- return '<div class="news-reference"><span class="nr-pair">'+esc(pair)+'</span><strong>'+esc(displayQuote(rate))+'</strong>'+
- '<span class="nr-note">'+esc(rate.date)+' 官方参考'+esc(movement)+' · <a href="'+esc(safeLink(rate.source_url))+'" target="_blank" rel="noopener noreferrer">'+esc(rate.source)+'</a> · 并非该新闻发生时的报价</span></div>';
+function pathFor(points,width,height,pad){
+ if(points.length<2)return "";
+ const values=points.map(p=>Number(p.value)),lo=Math.min(...values),hi=Math.max(...values),span=hi-lo||1;
+ return points.map((p,i)=>{
+   const x=pad+(i/(points.length-1))*(width-2*pad);
+   const y=pad+(1-(Number(p.value)-lo)/span)*(height-2*pad);
+   return (i===0?"M":"L")+x.toFixed(2)+" "+y.toFixed(2);
+ }).join(" ");
 }
-function marketHTML(pair){
- const row=sourceMarket(pair),ok=row&&!referenceOld(row);
- const change=ok&&row.change_5_published_days_pct!==null?Number(row.change_5_published_days_pct):NaN;
- const changeText=Number.isFinite(change)?((change>0?"+":"")+change.toFixed(2)+"%"):"—";
- const move=Number.isFinite(change)?(change>0?"up":change<0?"down":"flat"):"flat";
- const label=ok?esc(row.date)+" · "+esc(row.source):row?"历史参考已过期":"暂无真实数据";
- const link=ok?'<a href="'+esc(safeLink(row.source_url))+'" target="_blank" rel="noopener noreferrer">原始数据 ↗</a>':"";
- return '<div class="market-quote"><span class="pair">'+esc(pair)+'</span><div class="rate-line"><strong>'+esc(displayQuote(row))+'</strong><span class="change '+move+'">'+esc(changeText)+'</span></div>'+
- (ok?safeSparkline(row.points):"")+'<span class="quote-source">'+label+(link?" · "+link:"")+'</span></div>';
+function spark(m){
+ const points=validPoints(m).slice(-15);
+ if(points.length<2)return '<span class="quote-empty">—</span>';
+ const d=pathFor(points,110,26,2),isDown=Number(points.at(-1).value)<Number(points[0].value);
+ return '<svg class="quote-spark" viewBox="0 0 110 26" preserveAspectRatio="none" aria-hidden="true"><path d="'+d+'" fill="none" stroke="'+(isDown?"#bf5154":"#12855f")+'" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
 function renderMarket(){
- $("market-grid").innerHTML=SHOW_PAIRS.map(marketHTML).join("");
- const success=state.marketSources.filter(x=>x.ok).length;
- const fresh=state.marketSources.filter(x=>x.ok&&x.date_fresh===true).length;
- const latest=state.market.filter(r=>r.date).map(r=>r.date).sort().at(-1);
- $("market-updated").textContent=latest?"最新官方观察日期 "+latest+" · 有效来源 "+fresh+"/"+state.marketSources.length:"尚未取得官方有效报价";
- const delayed=state.marketSources.filter(x=>x.ok&&!x.date_fresh).map(x=>x.name+"观测日 "+(x.last_observation_date||"未知")).join("；");
- const sourceLine=state.marketSources.length&&success===0?"本轮官方接口均未成功，历史数据按原日期显示。":delayed?"以下来源数据滞后，未用于覆盖较新汇率："+delayed:"";
- $("market-warning").textContent="官方日度参考价及交叉计算 · 非实时买卖价 · 涨跌幅为近5个公布日"+(sourceLine?" · "+sourceLine:"");
+ const pairs=["USD/CNY","EUR/USD","USD/JPY","GBP/USD","USD/HKD","EUR/GBP"];
+ $("market-grid").innerHTML=pairs.map(pair=>{
+   const m=sourceMarket(pair),d=pct(m);
+   const hint=m?esc(m.source+" · "+m.date+"（日度参考）"):"尚无有效官方日度数据";
+   return '<div class="quote-row" title="'+hint+'"><span class="quote-pair">'+esc(pair)+'</span>'+
+     '<span class="quote-value">'+price(m)+'</span><span class="quote-change '+deltaClass(d)+'">'+deltaText(d)+'</span>'+
+     spark(m)+'</div>';
+ }).join("");
+ const valid=state.market.filter(x=>sourceMarket(x.pair)).length;
+ $("market-updated").textContent=valid+"组有日期的参考价 · 非实时行情";
+ const latest=state.market.map(x=>x?.date).filter(Boolean).sort().at(-1);
+ const delayed=state.marketSources.filter(x=>x.ok&&!x.date_fresh).map(x=>x.name+"（"+x.last_observation_date+"）");
+ $("market-warning").textContent="汇率数据为官方工作日参考值或同日交叉计算，非银行可成交价；"+
+ (latest?"最新观察日 "+latest+"。":"目前没有有效报价。")+
+ (delayed.length?"部分来源滞后："+delayed.join("、")+"。":"");
 }
-
-function filterMatch(a){
- const q=state.query.toLocaleLowerCase("zh-CN").trim();
- const e=state.editorial[a.id]||{};
- const text=[a.title,title(a),a.source,a.topic,e.dek,e.insight,e.business,(a.pairs||[]).join(" ")].join(" ").toLocaleLowerCase("zh-CN");
- if(q&&!text.includes(q))return false;
- if(state.filter==="policy")return /货币政策|央行|利率|美联储|联储|fomc|美债|inflation|政策/i.test(text);
- if(state.filter==="currency")return /美元|人民币|日元|港币|英镑|欧元|智利比索|加元|外汇|汇率|forex|usd|eur|jpy|cny|peso|cad/i.test(a.title+" "+title(a));
- if(state.filter==="macro")return /通胀|GDP|经济|财政|就业|储备|债券|劳动力|工资|国债|inflation/i.test(a.title+" "+title(a));
- return true;
+function marketPairFor(a){
+ const p=Array.isArray(a.pairs)?a.pairs:[];
+ for(const k of ["USD/CNY","USD/JPY","EUR/USD","USD/HKD","GBP/USD"]){if(p.includes(k))return k;}
+ const t=title(a);
+ if(/人民币|CNY|CNH/i.test(t))return "USD/CNY";
+ if(/日元|JPY/i.test(t))return "USD/JPY";
+ if(/欧元|EUR/i.test(t))return "EUR/USD";
+ if(/港币|港元|HKD/i.test(t))return "USD/HKD";
+ if(/英镑|GBP/i.test(t))return "GBP/USD";
+ return null;
 }
-function highlightHTML(a,n){
- return '<div class="highlight"><span class="highlight-no">0'+n+'</span><div><a href="#story-'+esc(a.id)+'">'+esc(title(a))+'</a><small>'+esc(a.source)+' · '+esc(stamp(a.published_at,fmtDay))+'</small></div></div>';
+function marketContext(a){
+ const pair=marketPairFor(a),m=pair&&sourceMarket(pair);
+ if(!m)return "";
+ const d=pct(m),extra=d===null?"":' · 近5个公布日 '+deltaText(d);
+ return '<div class="story-market"><span>'+esc(pair)+'</span><strong>'+price(m)+'</strong>'+
+ '<span>'+esc(m.date)+extra+' · 官方参考值，非新闻发生时的成交价</span>'+
+ '<a href="'+esc(safeURL(m.source_url))+'" target="_blank" rel="noopener noreferrer">'+esc(m.source)+' ↗</a></div>';
 }
-function renderHighlights(items){
- const picks=["0590b115c87e920c","cc29a3d0dc50233e","7e8ebfec1b135b15"];
- const chosen=picks.map(id=>items.find(a=>a.id===id)).filter(Boolean);
- for(const a of items){if(chosen.length>=3)break;if(!chosen.includes(a))chosen.push(a);}
- $("highlight-links").innerHTML=chosen.length?chosen.map((a,i)=>highlightHTML(a,i+1)).join(""):'<p class="sidebar-empty">本周暂无可用内容。</p>';
+function highlightScore(a){
+ const ageDays=(Date.now()-ms(a.published_at))/86400000;
+ const name=title(a)+" "+kind(a);
+ return (ed(a).insight?8:0)+(ed(a).status==="primary_checked"?3:0)
+ +(/美元|人民币|美联储|日元|汇率|央行|USD|JPY|CNY|CNH|Fed|BOJ|ECB/i.test(name)?6:0)
+ +(/美联储|联储|FOMC/i.test(name)?3:0)+Math.max(0,7-ageDays)*1.5;
 }
-function storyHTML(a,previousDay){
- const e=state.editorial[a.id]||{};
- const d=stamp(a.published_at,fmtDay);
- const dateHeader=d!==previousDay?'<div class="date-divider"><span>'+esc(stamp(a.published_at,fmtDate))+'</span><span>BEIJING TIME</span></div>':"";
- const ai=currentAI().filter(c=>canShowAI(c,a.id)).slice(0,3);
- const status=e.status==="primary_checked"?"官方原文已复核":"标题背景解读";
- const reference=e.status==="primary_checked"?"核验至官方公开讲话或公告；其他因果尚未验证":"依据已收录的 RSS 标题提供背景分析，尚未逐条核对报道全文";
- const dek=e.dek||"这条资讯已收录，但还没有足够证据生成专属解读。请通过原文链接查看发布内容。";
- const m=e.insight||"目前暂无通过证据校验的逐条市场解读。";
- const business=e.business||"尚未形成可靠的商务参考，不建议只根据标题调整收付汇计划。";
- const watch=e.watch||"需要进一步查看原文、发布时间、汇率数据及其他独立来源。";
- const aiHTML=ai.length?'<div class="ai-note"><h5>经核验的 AI 编辑补充 <span>· '+esc(stamp(state.brief.generated_at))+'</span></h5>'+ai.map(c=>'<p>'+esc(c.statement)+' <small>('+esc(c.grade)+')</small></p>').join("")+'</div>':"";
- const marketContext=contextFor(a);
- const details='<div class="story-details" id="detail-'+esc(a.id)+'" hidden><p><strong>继续关注：</strong>'+esc(watch)+'</p><p><strong>当前核验范围：</strong>'+esc(reference)+'</p>'+(Array.isArray(e.evidence)?e.evidence.map(u=>'<p><a class="source-cite" href="'+esc(safeLink(u))+'" target="_blank" rel="noopener noreferrer">官方材料 ↗</a></p>').join(""):"")+'</div>';
- return dateHeader+
- '<article class="story" id="story-'+esc(a.id)+'">'+
- '<div class="story-side"><strong>'+esc(stamp(a.published_at,fmtTime))+'</strong><small>GMT +8</small></div>'+
- '<div class="story-main"><div class="story-meta"><span class="channel">'+esc(topic(a))+'</span><span class="bullet"></span><span>'+esc(a.source)+'</span></div>'+
- '<h3>'+esc(title(a))+'</h3><p class="story-dek">'+esc(dek)+'</p>'+marketContext+
- '<div class="story-analysis"><section><h4>市场解读 / MARKET CONTEXT</h4><p>'+esc(m)+'</p></section><section><h4>商务参考 / BUSINESS IMPLICATION</h4><p>'+esc(business)+'</p></section></div>'+
- aiHTML+
- '<div class="story-footer"><span class="basis'+(e.status==="primary_checked"?' verified':'')+'">'+esc(status)+'</span><div class="story-actions"><button data-details="'+esc(a.id)+'" type="button" aria-controls="detail-'+esc(a.id)+'" aria-expanded="false">依据与后续关注 ▾</button><a href="'+esc(safeLink(a.url))+'" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div></div>'+
- details+'</div></article>';
+function heroArticle(list){
+ if(!list.length)return null;
+ return [...list].sort((a,b)=>highlightScore(b)-highlightScore(a))[0];
+}
+function renderHero(list){
+ const a=heroArticle(list);
+ const hb=document.querySelector(".hero-background");
+ if(!a){
+  $("hero-title").textContent="最近七天暂时没有可核实的外汇新闻";
+  $("hero-dek").textContent="当前不会使用过期资讯或示意新闻补位，请检查信源与采集状态。";
+  $("hero-source").textContent="暂无资讯";$("hero-time").textContent="";
+  $("hero-link").hidden=true;hb.classList.add("no-photo");$("photo-credit").hidden=true;return;
+ }
+ $("hero-category").textContent="焦点资讯 / "+kind(a);
+ $("hero-title").textContent=title(a);
+ $("hero-dek").textContent=summary(a);
+ $("hero-source").textContent=a.source||"来源待核实";
+ $("hero-time").textContent=format(a.published_at);
+ $("hero-link").href="#story-"+a.id;
+ $("hero-link").hidden=false;
+ const federal=/美联储|联储|Federal Reserve|FOMC/i.test(a.title+" "+title(a));
+ hb.classList.toggle("no-photo",!federal||state.imageFailed);
+ $("photo-credit").hidden=!federal||state.imageFailed;
+}
+function shortStory(a){
+ const cat=categoryType(a);
+ return '<article class="news-entry"><div class="news-illustration type-'+cat+'" aria-hidden="true"><span>'+esc(codeFor(a))+'</span></div><div class="news-copy">'+
+ '<a href="#story-'+esc(a.id)+'">'+esc(title(a))+'</a>'+
+ '<div class="news-meta">'+esc(a.source||"来源待核实")+'　｜　'+esc(format(a.published_at))+'</div></div></article>';
+}
+function renderShortNews(list){
+ $("short-news").innerHTML=list.length?list.slice(0,4).map(shortStory).join(""):'<p class="pending-text">当前无最近七天的资讯。</p>';
+}
+function previewStory(a){
+ const e=ed(a);
+ return '<article class="analysis-card"><div class="analysis-art" aria-hidden="true"><span>'+esc(codeFor(a))+'</span></div>'+
+ '<div class="analysis-copy"><span class="analysis-topic">'+esc(kind(a))+'</span><a href="#story-'+esc(a.id)+'">'+esc(title(a))+'</a>'+
+ '<p>'+esc(e.insight||e.dek||"解读仍在核验，详情请参阅原文。")+'</p>'+
+ '<div class="analysis-meta">'+esc(a.source)+" · "+esc(format(a.published_at))+'</div></div></article>';
+}
+function renderAnalysis(list){
+ const candidates=list.filter(a=>ed(a).insight).sort((a,b)=>highlightScore(b)-highlightScore(a));
+ $("analysis-preview").innerHTML=candidates.length?candidates.slice(0,2).map(previewStory).join(""):'<p class="pending-text">暂无已完成的分析内容，待核验后上线。</p>';
+}
+function watchHTML(a){
+ return '<a class="watch-story" href="#story-'+esc(a.id)+'"><strong>'+esc(title(a))+'</strong>'+
+ '<small>'+esc(a.source||"新闻来源待核实")+' · '+esc(format(a.published_at))+'</small></a>';
+}
+function renderWatch(list){
+ const picks=[];const chosenGroups=new Set();
+ for(const a of [...list].sort((a,b)=>highlightScore(b)-highlightScore(a))){
+   const group=codeFor(a);
+   if(chosenGroups.has(group))continue;
+   picks.push(a);chosenGroups.add(group);if(picks.length>=4)break;
+ }
+ for(const a of list){if(picks.length>=4)break;if(!picks.includes(a))picks.push(a);}
+ $("watch-list").innerHTML=picks.length?picks.map(watchHTML).join(""):'<p class="pending-text">暂无近期可核实的重要事件。</p>';
+ const ok=state.newsSources.filter(x=>x.ok).length;
+ $("source-health").textContent="RSS信源 "+ok+"/"+state.newsSources.length+" 成功 · 数据状态以最近采集为准";
+ $("week-range").textContent="最近7×24小时";
+}
+function renderFocus(list){
+ const total=list.length;
+ for(const cat of ["policy","macro","currency"]){
+  const n=list.filter(a=>categoryType(a)===cat).length;
+  $("focus-"+cat).textContent="近七天 "+n+" 条相关资讯";
+ }
+ $("focus-total").textContent="近七天 "+total+" 条资讯";
+}
+function renderChart(){
+ const pair=state.selectedPair,m=sourceMarket(pair),points=validPoints(m).slice(-30);
+ $("chart-title").textContent=pair+" / 走势";
+ $("chart-value").textContent=price(m);
+ const d=pct(m);$("chart-change").textContent=deltaText(d);$("chart-change").className=deltaClass(d);
+ const container=$("detail-chart");
+ if(points.length<2){container.innerHTML='<p class="pending-text">暂无满足日期和来源要求的历史报价。</p>'; $("chart-note").textContent="未取得可用历史数据，未补造曲线。";return;}
+ const w=340,h=124,p=12,dPath=pathFor(points,w,h,p);
+ const values=points.map(x=>Number(x.value)),min=Math.min(...values),max=Math.max(...values);
+ const fillPath=dPath+" L"+(w-p)+" "+(h-p)+" L"+p+" "+(h-p)+" Z";
+ const start=points[0].date.slice(5),end=points.at(-1).date.slice(5);
+ container.innerHTML='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="'+esc(pair)+'官方日度参考汇率从'+esc(start)+'至'+esc(end)+'的走势">'+
+ '<path d="M'+p+' 35 H'+(w-p)+' M'+p+' 76 H'+(w-p)+'" fill="none" stroke="#e3eaf1" stroke-width="1"/>'+
+ '<path d="'+fillPath+'" fill="#d6e8e3" opacity=".58"/>'+
+ '<path d="'+dPath+'" fill="none" stroke="#15815d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>'+
+ '<text x="'+p+'" y="'+(h-1)+'" fill="#718397" font-size="10">'+esc(start)+'</text>'+
+ '<text x="'+(w-p)+'" y="'+(h-1)+'" fill="#718397" font-size="10" text-anchor="end">'+esc(end)+'</text>'+
+ '<text x="'+(w-p)+'" y="17" text-anchor="end" fill="#718397" font-size="10">'+esc(max.toFixed(pair==="USD/JPY"?2:4))+'</text></svg>';
+ $("chart-note").textContent=m.date+" · "+m.source+" · "+points.length+"个官方公布日 · 非实时交易价";
+}
+function filterUI(){
+ document.querySelectorAll("[data-filter]").forEach(b=>{
+  const active=b.dataset.filter===state.filter;b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));
+ });
+}
+function validAI(){
+ const b=state.brief;
+ if(!b||b.reviewed!==true||b.schema_version!==1||b.method!=="chatgpt_review_with_cited_sources"||!Array.isArray(b.claims))return [];
+ const delta=Date.now()-ms(b.generated_at);if(!Number.isFinite(delta)||delta<0||delta>26*3600000)return [];
+ const ids=new Set(news().map(x=>x.id));
+ return b.claims.filter(c=>c&&["F","O","I","X","U"].includes(c.type)&&["P0","P1","P2","P3","C","U"].includes(c.grade)
+  &&typeof c.statement==="string"&&Array.isArray(c.evidence_ids)&&c.evidence_ids.length&&c.evidence_ids.every(id=>ids.has(id)));
+}
+function storyHTML(a,lastDay,claims){
+ const e=ed(a),day=format(a.published_at,dayFmt);
+ const dateHeader=lastDay!==day?'<div class="story-date">'+esc(day)+'　/　北京时间</div>':"";
+ const isChecked=e.status==="primary_checked";
+ const claimHTML=claims.filter(c=>c.evidence_ids.includes(a.id)).slice(0,2).map(c=>'<p>'+esc(c.statement)+' <span>('+esc(c.grade)+')</span></p>').join("");
+ const note=claimHTML?'<div class="story-ai"><h4>已核验的研究补充 · '+esc(format(state.brief.generated_at))+'</h4>'+claimHTML+'</div>':"";
+ const analysis=(e.insight||e.business)?'<div class="story-context">'+
+ '<section><h4>市场解读</h4><p>'+esc(e.insight||"尚缺独立核验的解读。")+'</p></section>'+
+ '<section><h4>相关商业影响</h4><p>'+esc(e.business||"尚未取得足够资料确认具体的商业影响。")+'</p></section></div>':"";
+ const evidence=Array.isArray(e.evidence)?e.evidence.map(url=>'<p><a href="'+esc(safeURL(url))+'" target="_blank" rel="noopener noreferrer">官方原始材料 ↗</a></p>').join(""):"";
+ const detail='<div class="story-details" id="detail-'+esc(a.id)+'" hidden><p><strong>下一步关注：</strong>'+esc(e.watch||"查看事件原始资料与后续更新。")+'</p><p><strong>证据边界：</strong>'+
+ (isChecked?"已核对对应官方公开资料，尚不意味着事件与价格变化之间的因果关系已获证明。":"仅基于收录标题提供背景或已完成部分说明；原文事实尚未逐项核对。")+
+ '</p>'+evidence+'</div>';
+ return dateHeader+'<article class="story" id="story-'+esc(a.id)+'"><div class="story-time"><span>'+esc(format(a.published_at,timeFmt))+'</span><small>GMT +8</small></div>'+
+ '<div class="story-main"><div class="story-meta"><span class="story-category">'+esc(kind(a))+'</span><span>'+esc(a.source||"来源待核实")+'</span></div>'+
+ '<h3>'+esc(title(a))+'</h3><p class="story-dek">'+esc(summary(a))+'</p>'+marketContext(a)+analysis+note+
+ '<div class="story-actions"><span>'+(isChecked?"官方原文已核对":"背景解读 · 未全部复核")+'</span>'+
+ '<button type="button" data-detail="'+esc(a.id)+'" aria-controls="detail-'+esc(a.id)+'" aria-expanded="false">核验范围与后续关注 ▾</button>'+
+ '<a href="'+esc(safeURL(a.url))+'" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div>'+detail+'</div></article>';
+}
+function renderStream(list){
+ const all=list.filter(matches);
+ $("article-count").textContent="近七天 "+list.length+" 条 · 当前 "+all.length+" 条";
+ let lastDay="",markup="";
+ const claims=validAI();
+ for(const a of all.slice(0,state.limit)){
+  const day=format(a.published_at,dayFmt);
+  markup+=storyHTML(a,lastDay,claims);lastDay=day;
+ }
+ $("stream").innerHTML=markup||'<div class="empty-state">最近七天暂无符合条件的资讯；系统不会使用过期新闻或示例数据补位。</div>';
+ $("load-more").hidden=all.length<=state.limit;
+ $("load-more").textContent="显示更多（剩余 "+Math.max(0,all.length-state.limit)+" 条） ↓";
+}
+function renderStatus(){
+ const n=ms(state.newsUpdated),age=Date.now()-n;
+ $("latest-update").textContent=Number.isFinite(n)?"RSS最近成功采集："+format(state.newsUpdated)+"（北京时间）":"RSS 尚无成功采集记录";
+ const dot=document.querySelector(".live-dot");
+ const fresh=Number.isFinite(age)&&age>=0&&age<=80*60*1000;
+ dot.classList.toggle("good",fresh);dot.classList.toggle("bad",!fresh);
+ $("beijing-clock").textContent="北京 "+new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date());
 }
 function render(){
- renderMarket();
- const all=state.raw.filter(recent).sort((a,b)=>ms(b.published_at)-ms(a.published_at));
- const visible=all.filter(filterMatch);
- state.visible=visible;
- $("week-range").textContent=stamp(new Date(Date.now()-WEEK).toISOString(),fmtDate)+" — "+stamp(new Date().toISOString(),fmtDate)+" · 北京时间";
- $("article-count").textContent="近七天 "+all.length+" 条 · 当前筛选 "+visible.length+" 条";
- const last=ms(state.updated_at);
- $("latest-update").textContent=last?"最近采集："+stamp(state.updated_at)+"（北京时间）":"尚无成功采集时间";
- const ok=state.sources.filter(s=>s.ok).length;
- $("healthy-sources").textContent=state.sources.length?ok+"/"+state.sources.length:"未连接";
- $("source-detail").textContent=state.sources.length?"本轮 "+state.sources.length+" 个 RSS 信源，"+ok+" 个获取成功。采集成功仅表示取得公开订阅内容，新闻观点仍需分层核验。":"尚未取得信源状态。";
- const fresh=Number.isFinite(last)&&Date.now()-last>=0&&Date.now()-last<=3*3600000;
- $("status-dot").classList.toggle("ok",fresh);
- $("status-text").textContent=fresh?"最近采集有效":"数据可能延迟";
- const list=visible.slice(0,state.limit),frag=[];
- let lastDay=null;
- for(const a of list){const day=stamp(a.published_at,fmtDay);frag.push(storyHTML(a,lastDay));lastDay=day;}
- $("stream").innerHTML=frag.length?frag.join(""):'<div class="empty-state"><strong>最近七天暂无匹配资讯</strong>可以调整搜索词或选择其他分类。这里不会使用旧新闻或演示内容补位。</div>';
- const more=$("load-more");more.hidden=visible.length<=state.limit;more.textContent="继续阅读（剩余 "+Math.max(0,visible.length-state.limit)+" 条） ↓";
- renderHighlights(all);
+ const list=news();
+ renderStatus();renderHero(list);renderMarket();renderFocus(list);renderShortNews(list);
+ renderAnalysis(list);renderWatch(list);renderChart();renderStream(list);filterUI();
 }
-async function fetchData(){
- if(state.fetchInFlight)return;
- state.fetchInFlight=true;
+function setFilter(value){
+ state.filter=["all","policy","macro","currency"].includes(value)?value:"all";
+ state.limit=12;render();
+ document.getElementById("latest-news").scrollIntoView({behavior:"smooth",block:"start"});
+}
+function goToStory(id){
+ const index=news().findIndex(x=>x.id===id);
+ if(index<0)return;
+ state.filter="all";state.query="";$("search").value="";
+ state.limit=Math.max(state.limit,index+1);
+ render();
+ document.getElementById("story-"+id)?.scrollIntoView({behavior:"smooth",block:"start"});
+}
+async function getJSON(path){
+ const res=await fetch(path+"?r="+Date.now(),{cache:"no-store"});
+ if(!res.ok)throw new Error(path+" HTTP "+res.status);
+ return await res.json();
+}
+async function refresh(){
+ if(state.busy)return;
+ state.busy=true;
  try{
-   const [newsRes,editRes,aiRes,marketRes]=await Promise.all([
-     fetch("./data/articles.json?rev="+Date.now(),{cache:"no-store"}),
-     fetch("./data/editorial.json?rev="+Date.now(),{cache:"no-store"}),
-     fetch("./data/ai-brief.json?rev="+Date.now(),{cache:"no-store"}),
-     fetch("./data/market.json?rev="+Date.now(),{cache:"no-store"})
-   ]);
-   if(!newsRes.ok)throw new Error("资讯接口 HTTP "+newsRes.status);
-   const data=await newsRes.json();
-   if(!data||!Array.isArray(data.articles))throw new Error("资讯数据格式错误");
-   state.raw=data.articles.filter(x=>x&&typeof x==="object"&&x.id&&x.title&&x.url);
-   state.sources=Array.isArray(data.sources)?data.sources:[];
-   state.updated_at=data.updated_at;
-   if(editRes.ok){const e=await editRes.json();state.editorial=e&&e.items&&typeof e.items==="object"?e.items:{};}
-   if(aiRes.ok){state.brief=await aiRes.json();}
-   if(marketRes.ok){
-      const snapshot=await marketRes.json();
-      state.market=Array.isArray(snapshot.instruments)?snapshot.instruments:[];
-      state.marketSources=Array.isArray(snapshot.sources)?snapshot.sources:[];
-      state.marketAttempted=snapshot.attempted_at;
-      state.marketLastSuccess=snapshot.last_successful_at;
-   }
-   render();
- }catch(error){
-   state.raw=[];state.sources=[];state.updated_at=null;render();
-   $("stream").innerHTML='<div class="empty-state"><strong>暂时无法读取资讯</strong>'+esc(error.message)+'。请查看自动更新状态。</div>';
- } finally {
-   state.fetchInFlight=false;
- }
+  const settled=await Promise.allSettled([
+    getJSON("./data/articles.json"),getJSON("./data/editorial.json"),
+    getJSON("./data/market.json"),getJSON("./data/ai-brief.json")
+  ]);
+  if(settled[0].status==="fulfilled"){
+   const obj=settled[0].value;
+   if(!Array.isArray(obj.articles))throw new Error("RSS 结构不可用");
+   state.raw=obj.articles.filter(x=>x&&x.id&&x.title&&x.url&&x.published_at);
+   state.newsSources=Array.isArray(obj.sources)?obj.sources:[];
+   state.newsUpdated=obj.updated_at||null;
+   state.loadError=null;
+  }else{state.loadError=String(settled[0].reason?.message||"资讯快照无法读取");}
+  if(settled[1].status==="fulfilled"){
+   const d=settled[1].value;
+   state.editorial=d?.items&&typeof d.items==="object"?d.items:{};
+  }
+  if(settled[2].status==="fulfilled"){
+   const d=settled[2].value;
+   state.market=Array.isArray(d?.instruments)?d.instruments:[];
+   state.marketSources=Array.isArray(d?.sources)?d.sources:[];
+   state.marketUpdated=d?.last_successful_at||null;
+  }
+  if(settled[3].status==="fulfilled")state.brief=settled[3].value;
+  render();
+  if(state.loadError)$("stream").insertAdjacentHTML("afterbegin",'<div class="empty-state">最新采集快照读取失败：'+esc(state.loadError)+'。显示仍符合七日时效的已缓存内容。</div>');
+ }catch(e){
+  state.loadError=String(e?.message||"数据校验失败");
+  render();
+  $("stream").insertAdjacentHTML("afterbegin",'<div class="empty-state">资讯数据结构校验失败：'+esc(state.loadError)+'</div>');
+ }finally{state.busy=false;}
 }
-document.querySelectorAll("[data-filter]").forEach(b=>b.addEventListener("click",()=>{
- state.filter=b.dataset.filter;state.limit=12;
- document.querySelectorAll("[data-filter]").forEach(x=>{const on=x===b;x.classList.toggle("active",on);x.setAttribute("aria-pressed",String(on));});
- render();
-}));
-$("search").addEventListener("input",e=>{state.query=e.target.value;state.limit=12;render();});
+$("refresh-data").addEventListener("click",refresh);
+$("header-search").addEventListener("click",()=>{
+ document.getElementById("latest-news").scrollIntoView({behavior:"smooth"});
+ $("search").focus({preventScroll:true});
+});
+$("search").addEventListener("input",e=>{state.query=e.target.value;state.limit=12;renderStream(news());});
 $("clear-filter").addEventListener("click",()=>{
- state.query="";state.filter="all";state.limit=12;$("search").value="";
- document.querySelectorAll("[data-filter]").forEach(x=>{const on=x.dataset.filter==="all";x.classList.toggle("active",on);x.setAttribute("aria-pressed",String(on));});
- render();
+ state.query="";$("search").value="";state.filter="all";state.limit=12;renderStream(news());filterUI();
 });
-$("load-more").addEventListener("click",()=>{state.limit+=12;render();});
+$("chart-select").addEventListener("change",e=>{
+ state.selectedPair=e.target.value;renderChart();
+});
+$("load-more").addEventListener("click",()=>{state.limit+=12;renderStream(news());});
 document.addEventListener("click",e=>{
- const shortcut=e.target.closest('.highlight a[href^="#story-"]');
- if(shortcut){
-   e.preventDefault();
-   const id=shortcut.getAttribute("href").slice("#story-".length);
-   const all=state.raw.filter(recent).sort((a,b)=>ms(b.published_at)-ms(a.published_at));
-   const index=all.findIndex(a=>a.id===id);
-   if(index>=0){
-     state.query="";state.filter="all";state.limit=Math.max(state.limit,index+1);
-     $("search").value="";
-     document.querySelectorAll("[data-filter]").forEach(x=>{const active=x.dataset.filter==="all";x.classList.toggle("active",active);x.setAttribute("aria-pressed",String(active));});
-     render();
-     document.getElementById("story-"+id)?.scrollIntoView({behavior:"smooth",block:"start"});
-   }
-   return;
+ const filter=e.target.closest("[data-filter]");if(filter){setFilter(filter.dataset.filter);return;}
+ const quick=e.target.closest("[data-quick-filter]");if(quick){setFilter(quick.dataset.quickFilter);return;}
+ const detail=e.target.closest("[data-detail]");
+ if(detail){
+  const content=document.getElementById("detail-"+detail.dataset.detail);
+  if(content){content.hidden=!content.hidden;detail.textContent=content.hidden?"核验范围与后续关注 ▾":"收起核验说明 ▴";detail.setAttribute("aria-expanded",String(!content.hidden));}
+  return;
  }
- const btn=e.target.closest("[data-details]");if(!btn)return;
- const detail=document.getElementById("detail-"+btn.dataset.details);if(!detail)return;
- detail.hidden=!detail.hidden;btn.setAttribute("aria-expanded",String(!detail.hidden));btn.textContent=detail.hidden?"依据与后续关注 ▾":"收起补充信息 ▴";
+ const storyLink=e.target.closest('a[href^="#story-"]');
+ if(storyLink){
+  const id=storyLink.getAttribute("href").slice(7);
+  if(news().some(a=>a.id===id)){
+   e.preventDefault();goToStory(id);
+  }
+ }
 });
-fetchData();
-$("refresh-data").addEventListener("click",fetchData);
-document.addEventListener("visibilitychange",()=>{if(!document.hidden)fetchData();});
-setInterval(()=>{if(!document.hidden)fetchData();},3*60*1000);
+const photo=$("hero-photo");
+photo.addEventListener("error",()=>{state.imageFailed=true;document.querySelector(".hero-background").classList.add("no-photo");$("photo-credit").hidden=true;});
+refresh();
+setInterval(()=>{if(!document.hidden)refresh();},3*60*1000);
+setInterval(()=>{renderStatus();},60*1000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});
