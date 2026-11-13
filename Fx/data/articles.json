@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T20:29:44.082057Z",
-  "attempted_at": "2026-11-13T20:29:44.082057Z",
+  "updated_at": "2026-11-13T20:32:19.589389Z",
+  "attempted_at": "2026-11-13T20:32:19.589389Z",
   "articles": [
     {
       "id": "4c2296bc7093ce84",
@@ -129,19 +129,6 @@
       "verification": "official",
       "analysis_mode": "rule_index",
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "b22ed4f6f4f19869",
-      "title": "Barr, American Inequality and the Future of AI",
-      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
-      "source": "美联储·讲话",
-      "source_url": "https://www.federalreserve.gov/feeds/speeches.xml",
-      "published_at": "2026-11-12T15:00:00Z",
-      "topic": "其他",
-      "pairs": [],
-      "verification": "official",
-      "analysis_mode": "rule_index",
-      "summary": "仅索引原文标题及来源，尚未形成经审核的市场结论。"
     },
     {
       "id": "d237973580b43b13",
