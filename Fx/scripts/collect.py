@@ -190,7 +190,8 @@ def run():
     cutoff = current - dt.timedelta(days=WINDOW_DAYS)
     items = []
     for a in gathered + old_articles:
-        if a.get("sample"):
+        if not isinstance(a, dict) or a.get("sample"):
+            # Previously indexed items may be malformed or discarded as irrelevant.
             continue
         when = a.get("published_at")
         parsed = stamp(when)
