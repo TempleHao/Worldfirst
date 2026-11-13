@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T20:34:46.316994Z",
-  "attempted_at": "2026-11-13T20:34:46.316994Z",
+  "updated_at": "2026-11-13T21:00:58.960627Z",
+  "attempted_at": "2026-11-13T21:00:58.960627Z",
   "articles": [
     {
       "id": "4c2296bc7093ce84",
@@ -74,18 +74,16 @@
     },
     {
       "id": "e4f37ebc7ba7655e",
-      "title": "美元多头迎来9月以来最强周表现，日元徘徊160关口边缘",
+      "title": "美元创9月以来最大单周涨幅，美联储加息预期升温",
       "url": "https://cn.investing.com/news/forex-news/article-3666084",
       "source": "英为财情·外汇新闻",
       "source_url": "https://cn.investing.com/rss/news_1.rss",
       "published_at": "2026-11-13T03:25:27Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "USD/JPY"
-      ],
+      "topic": "货币政策",
+      "pairs": [],
       "verification": "single_source",
       "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     },
     {
       "id": "0590b115c87e920c",
