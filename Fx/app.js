@@ -130,6 +130,21 @@ $("clear-filter").addEventListener("click",()=>{
 });
 $("load-more").addEventListener("click",()=>{state.limit+=12;render();});
 document.addEventListener("click",e=>{
+ const shortcut=e.target.closest('.highlight a[href^="#story-"]');
+ if(shortcut){
+   e.preventDefault();
+   const id=shortcut.getAttribute("href").slice("#story-".length);
+   const all=state.raw.filter(recent).sort((a,b)=>ms(b.published_at)-ms(a.published_at));
+   const index=all.findIndex(a=>a.id===id);
+   if(index>=0){
+     state.query="";state.filter="all";state.limit=Math.max(state.limit,index+1);
+     $("search").value="";
+     document.querySelectorAll("[data-filter]").forEach(x=>{const active=x.dataset.filter==="all";x.classList.toggle("active",active);x.setAttribute("aria-pressed",String(active));});
+     render();
+     document.getElementById("story-"+id)?.scrollIntoView({behavior:"smooth",block:"start"});
+   }
+   return;
+ }
  const btn=e.target.closest("[data-details]");if(!btn)return;
  const detail=document.getElementById("detail-"+btn.dataset.details);if(!detail)return;
  detail.hidden=!detail.hidden;btn.setAttribute("aria-expanded",String(!detail.hidden));btn.textContent=detail.hidden?"依据与后续关注 ▾":"收起补充信息 ▴";
