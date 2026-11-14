@@ -267,3 +267,34 @@ svg{display:block}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;pa
 @media(prefers-reduced-motion:reduce){
  .market-viewport{scroll-behavior:auto}
 }
+
+/* FX INTEL wordmark and monogram: display the actual SVG asset, not a text placeholder. */
+.site-name.brand-lockup{gap:11px;display:flex;align-items:center;flex:none;letter-spacing:0}
+.site-name.brand-lockup::before{display:none}
+.brand-symbol{display:block;flex:none;width:37px;height:37px;object-fit:contain;filter:drop-shadow(0 0 9px rgba(245,174,74,.08))}
+.brand-words{display:flex;flex-direction:column;gap:2px;align-items:flex-start}
+.brand-english{font:650 24px/.98 var(--font);color:#edf4f8;letter-spacing:-.6px;white-space:nowrap}
+.brand-signal{display:inline-block;color:#ee655c;margin:0 2px;position:relative;top:-2px;
+ font:700 25px/.6 var(--font);text-shadow:0 0 8px rgba(238,101,92,.14)}
+.brand-chinese{font:400 9px/1.1 var(--font);letter-spacing:3.6px;color:#8ea5b9;margin-left:1px}
+.header-description{color:#7591a7;letter-spacing:.85px}
+.feed-heading h1{font-weight:600}
+.rail-heading h2{font-weight:600}
+.market-title-row h2{font-weight:600}
+.item-headline{font-weight:600}
+.tile-code{font-weight:600}
+.site-nav a.nav-current{font-weight:600}
+.chart-single-note{padding:23px 12px;border:1px dashed #395066;background:#12202d;
+ color:#b1c6d5;font-size:11.5px;line-height:2}
+.source-row .third-party{color:var(--amber)}
+@media(max-width:800px){
+ .brand-symbol{width:34px;height:34px}
+ .brand-english{font-size:22px}
+ .brand-chinese{font-size:8.5px;letter-spacing:3.1px}
+}
+@media(max-width:580px){
+ .brand-symbol{width:32px;height:32px}
+ .brand-english{font-size:21px}
+ .brand-signal{font-size:23px}
+ .brand-chinese{font-size:8px}
+}
