@@ -106,8 +106,101 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-abadf009c390",
+        "event_id": "event-da6c8fed353a",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-804ad3089f5af6f8f9",
+      "company": "xtransfer",
+      "date": "2026-11-13",
+      "title": "XTransfer荣获证券之星第十四届“资本力量”卓越金融科技领航奖_公司新闻_财经 - 证券之星",
+      "summary": "XTransfer荣获证券之星第十四届“资本力量”卓越金融…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rSmgyN0tvZ3hJc09LVkpKWG9jSmZnOWhRN3Z4Z2RfOWNIOHA2d1BlRjhiZ1RrRTNGUzdtaFVWMThZdVg4SDRaOXRQckl4d2ZxeThBUDBhX3R0eWRFOVNUMw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-efe907f7d203",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-fc379c2869216e8d2f",
+      "company": "lianlian",
+      "date": "2026-11-13",
+      "title": "连连数字(02598)11月13日斥资101.24万港元回购34.25万股 - 凤凰网",
+      "summary": "连连数字(02598)11月13日斥资101.24万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BZlhGcUJjYlhURGxYVHQxeHV4TEUxMzFHQ2lJYzNPX3BnLTY1N1oyaEtXb0QzakM3WVV1ZU9jckNnSXBtS0hydTh1TGM?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-da6c8fed353a",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-1ee7a479ef54ce4bd4",
+      "company": "lianlian",
+      "date": "2026-11-13",
+      "title": "连连数字(02598.HK)11月13日耗资101.24万港元回购34.25万股 - TradingView",
+      "summary": "连连数字(02598.HK)11月13日耗资101.24万…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KazlNREhUS3Y3SUlYTEotZmFuOWIzeDE3TzQ1VFBnVEUxekg2TDlYdXBsTFVxZnF3b3RpcFhoSzNnOG5DcExZSkhlSEZHMm1iR284YmJrWEV4WExVRndQZVlhRURZVDhNQ0E?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-da6c8fed353a",
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7171,6 +7264,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-13T20:07:11.934152+00:00",
+  "updated_at": "2026-11-14T06:21:53.519126+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

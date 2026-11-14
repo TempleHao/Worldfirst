@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-13T20:07:15.244637+00:00",
+  "generated_at": "2026-11-14T06:21:57.578881+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,10 +12,10 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 229,
+    "articles": 232,
     "events": 151,
     "sentiment": {
-      "中性": 229
+      "中性": 232
     },
     "crisis": {
       "一般": 151
@@ -27,7 +27,7 @@
     {
       "id": "event-efe907f7d203",
       "company": "xtransfer",
-      "headline": "XTransfer荣获证券之星第十四届“资本力量”卓越金融科技领航奖_公司新闻 - 证券之星",
+      "headline": "XTransfer荣获证券之星第十四届“资本力量”卓越金融科技领航奖_公司新闻_财经 - 证券之星",
       "date": "2026-11-13",
       "risk_level": "一般",
       "risk_score": 0,
@@ -35,7 +35,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -50,7 +50,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-07c35962a9cf20c8e2"
+        "search-07c35962a9cf20c8e2",
+        "search-804ad3089f5af6f8f9"
       ]
     },
     {
@@ -83,17 +84,17 @@
       ]
     },
     {
-      "id": "event-abadf009c390",
+      "id": "event-da6c8fed353a",
       "company": "lianlian",
-      "headline": "连连数字(02598)11月13日斥资101.24万港元回购34.25万股-证券之星 - 证券之星",
+      "headline": "连连数字(02598.HK)11月13日耗资101.24万港元回购34.25万股 - TradingView",
       "date": "2026-11-13",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 3,
+      "publisher_count": 3,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -108,7 +109,9 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-e57c91667ab35a50a7"
+        "search-e57c91667ab35a50a7",
+        "search-fc379c2869216e8d2f",
+        "search-1ee7a479ef54ce4bd4"
       ]
     },
     {
