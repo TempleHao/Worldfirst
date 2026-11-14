@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f4f6f8">
+<meta name="theme-color" content="#090d13">
 <meta name="description" content="外汇内参：最近七天全球汇市资讯、官方汇率参考数据与中文市场解读。">
 <title>外汇内参｜全球汇市资讯与解读</title>
-<link rel="stylesheet" href="./style.css">
-<script src="./app.js" defer></script>
+<link rel="stylesheet" href="./style.css?v=20261114-dark-fx">
+<script src="./app.js?v=20261114-live-fx" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#latest-news">跳转到资讯流</a>
@@ -25,7 +25,7 @@
 </header>
 <div class="status-line">
   <div class="shell status-layout">
-    <div><span class="status-light" id="status-light"></span><span id="latest-update">正在获取资讯更新时间</span><span class="status-divider">/</span><span>自动检查约每20分钟</span></div>
+    <div><span class="status-light" id="status-light"></span><span id="latest-update">正在获取资讯更新时间</span><span class="status-divider">/</span><span>目标每20分钟采集 · 调度可能延迟</span></div>
     <div class="status-time"><span id="beijing-clock">北京时间</span><span id="source-health">信源检测中</span></div>
   </div>
 </div>
@@ -33,7 +33,7 @@
 <main class="shell">
   <section class="market-overview" id="market-overview" aria-label="官方汇率参考概览">
     <div class="market-title">
-      <div class="section-kicker">MARKET REFERENCE / 日度参考</div>
+      <div class="section-kicker">MARKET REFERENCE / OFFICIAL DAILY FX</div>
       <div class="market-title-row"><h2>主要汇率</h2><span id="market-updated">读取官方公布日…</span></div>
     </div>
     <div id="market-grid" class="market-strip" aria-live="polite"><div class="loading">正在读取有来源的汇率数据…</div></div>
@@ -43,7 +43,7 @@
     <section class="feed-column" id="latest-news">
       <div class="feed-heading">
         <div>
-          <span class="section-kicker">LATEST 7 DAYS / NEWS & CONTEXT</span>
+          <span class="section-kicker">FX INTELLIGENCE / 7D ROLLING FEED</span>
           <h1>全球汇市动态</h1>
           <p>持续更新的外汇信息与解读。每条内容直接呈现已知事实、分析背景和证据范围。</p>
         </div>
@@ -67,13 +67,13 @@
 
     <aside class="data-column" aria-label="汇率数据与信源核验">
       <section class="rail-section" id="market-chart">
-        <div class="rail-heading"><div><span class="section-kicker">DATA / REFERENCE SERIES</span><h2>汇率走势</h2></div><label><span class="sr-only">选择观察货币对</span><select id="chart-select" aria-label="选择观察货币对"><option value="USD/CNY">USD/CNY</option><option value="EUR/USD">EUR/USD</option><option value="USD/JPY">USD/JPY</option><option value="USD/HKD">USD/HKD</option><option value="GBP/USD">GBP/USD</option><option value="EUR/GBP">EUR/GBP</option></select></label></div>
+        <div class="rail-heading"><div><span class="section-kicker">FX CURVES / VERIFIED SERIES</span><h2>汇率走势</h2></div><label><span class="sr-only">选择观察货币对</span><select id="chart-select" aria-label="选择观察货币对"><option value="USD/CNY">USD/CNY</option><option value="EUR/USD">EUR/USD</option><option value="USD/JPY">USD/JPY</option><option value="USD/HKD">USD/HKD</option><option value="GBP/USD">GBP/USD</option><option value="EUR/GBP">EUR/GBP</option></select></label></div>
         <div class="chart-primary"><strong id="chart-value">—</strong><span id="chart-change">—</span></div>
         <div id="detail-chart" class="detail-chart" aria-label="官方汇率历史观察曲线"><p class="loading">正在读取历史记录…</p></div>
         <div id="chart-note" class="chart-note">官方工作日参考汇率 · 非实时报价</div>
       </section>
       <section class="rail-section" id="source-desk">
-        <div class="rail-heading"><div><span class="section-kicker">SOURCE DESK / 数据透明</span><h2>来源与时间</h2></div></div>
+        <div class="rail-heading"><div><span class="section-kicker">SOURCE DESK / PROVENANCE</span><h2>来源与时间</h2></div></div>
         <p class="source-description">收录的消息保留原始来源和发布时间。汇率为官方发布的日度参考值或按同日数据计算的交叉参考，不能作为银行成交报价。</p>
         <div id="source-list" class="source-list"><p class="loading">正在检查来源…</p></div>
         <div class="source-warning" id="market-warning">数据缺失或过期时直接标明，不填充模拟行情。</div>

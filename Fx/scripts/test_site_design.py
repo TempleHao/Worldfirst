@@ -33,8 +33,8 @@ class SiteDesignTests(unittest.TestCase):
     def test_sans_serif_and_responsive(self):
         self.assertIn('"PingFang SC"',self.css)
         self.assertIn("font-weight:350",self.css)
-        self.assertIn("--bg:#f4f6f8",self.css)
-        self.assertIn("@media(max-width:560px)",self.css)
+        self.assertIn("--bg:#090d13",self.css)
+        self.assertIn("@media(max-width:580px)",self.css)
         self.assertNotIn("Songti",self.css)
         self.assertNotIn("STSong",self.css)
         self.assertNotIn("font-family:serif",self.css)
@@ -42,14 +42,19 @@ class SiteDesignTests(unittest.TestCase):
     def test_no_fabricated_data_or_front_page_placeholders(self):
         for number in ("7.2356","106.84","USD/CNH"):
             self.assertNotIn(number,self.html)
-        for source in ('json("./data/articles.json")','json("./data/editorial.json")',
-                       'json("./data/market.json")'):
+        for source in ('json("articles.json")','json("editorial.json")',
+                       'json("market.json")'):
             self.assertIn(source,self.js)
         self.assertIn("change_5_published_days_pct",self.js)
         self.assertIn("function sevenDays",self.js)
         self.assertIn("function rateFor",self.js)
         self.assertIn('source_url',self.js)
-        self.assertNotIn("Worldfirst",self.js)
+        self.assertIn("raw.githubusercontent.com/TempleHao/Worldfirst",self.js)
+        self.assertIn('origin:"page"',self.js)
+        self.assertIn("更新延迟",self.js)
+        workflow=(ROOT.parent/".github/workflows/fx-refresh.yml").read_text(encoding="utf-8")
+        self.assertIn("gh workflow run radar-pages.yml",workflow)
+        self.assertIn("actions: write",workflow)
     def test_no_redundant_research_calendar_or_fake_news(self):
         for heading in ("最新资讯","本周重点观察","重要经济日历","本周关注"):
             self.assertNotIn(heading,self.html)

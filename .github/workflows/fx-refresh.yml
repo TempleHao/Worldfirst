@@ -2,7 +2,7 @@ name: FX - Refresh Intelligence Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,27,47 * * * *"
+    - cron: "13,33,53 * * * *"
   push:
     branches: [main]
     paths:
@@ -10,6 +10,7 @@ on:
       - ".github/workflows/fx-refresh.yml"
 permissions:
   contents: write
+  actions: write
   pages: write
   id-token: write
 jobs:
@@ -39,6 +40,38 @@ jobs:
           python -c "import json; d=json.load(open('Fx/data/articles.json')); assert isinstance(d['articles'],list); assert isinstance(d['sources'],list); assert d['analysis_mode']=='rule_index'; assert d['window_hours']==168"
           python -c "import json; d=json.load(open('Fx/data/market.json')); assert d['quote_type']=='official_daily_reference_not_realtime_or_executable'; assert isinstance(d['instruments'],list); assert isinstance(d['sources'],list)"
           node --check Fx/app.js
+      - name: Determine if data changed materially
+        id: material
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          def before(path):
+              try:
+                  return json.loads(subprocess.check_output(["git","show","HEAD:"+path],text=True))
+              except (subprocess.CalledProcessError, ValueError):
+                  return {}
+          def now(path):
+              return json.loads(Path(path).read_text())
+          oldnews=before("Fx/data/articles.json")
+          newnews=now("Fx/data/articles.json")
+          oldmarket=before("Fx/data/market.json")
+          newmarket=now("Fx/data/market.json")
+          def news_content(d):
+              return {"articles":d.get("articles",[]),"sources":[
+                  {"name":s.get("name"),"ok":s.get("ok")}
+                  for s in d.get("sources",[]) if isinstance(s,dict)]}
+          def market_content(d):
+              return {"instruments":d.get("instruments",[]),"sources":[
+                  {"name":s.get("name"),"ok":s.get("ok"),
+                   "last_observation_date":s.get("last_observation_date")}
+                  for s in d.get("sources",[]) if isinstance(s,dict)]}
+          changed=(news_content(oldnews)!=news_content(newnews) or
+                   market_content(oldmarket)!=market_content(newmarket))
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+              print("publish="+str(changed).lower(),file=f)
+          print("Meaningful news/price/source change:",changed)
+          PY
       - name: Commit only changed FX data
         run: |
           git config user.name "github-actions[bot]"
@@ -49,3 +82,35 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+
+      - name: Check static publication freshness
+        id: page_health
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import datetime as dt, json, os, subprocess
+          try:
+              payload=subprocess.check_output([
+                  "gh","api",
+                  "repos/"+os.environ["GITHUB_REPOSITORY"]+"/actions/workflows/radar-pages.yml/runs",
+                  "-f","per_page=8","--method","GET"
+              ],text=True,timeout=20)
+              runs=json.loads(payload)["workflow_runs"]
+              published=next((r["created_at"] for r in runs if r.get("conclusion")=="success"),None)
+              stamp=dt.datetime.fromisoformat(published.replace("Z","+00:00")) if published else None
+              old=stamp is None or (dt.datetime.now(dt.timezone.utc)-stamp).total_seconds()>7200
+          except Exception as exc:
+              print("Unable to verify most recent published snapshot:",type(exc).__name__)
+              old=True
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+              print("stale="+str(old).lower(),file=f)
+          print("Static site refresh needed:",old)
+          PY
+      - name: Dispatch Pages publication for new content or stale snapshot
+        if: steps.material.outputs.publish == 'true' || steps.page_health.outputs.stale == 'true' || github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run radar-pages.yml --ref main
+          echo "Pages publication explicitly dispatched after successful collection."
