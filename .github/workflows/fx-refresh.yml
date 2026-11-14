@@ -108,7 +108,7 @@ jobs:
           print("Static site refresh needed:",old)
           PY
       - name: Dispatch Pages publication for new content or stale snapshot
-        if: steps.material.outputs.publish == 'true' || steps.page_health.outputs.stale == 'true'
+        if: steps.material.outputs.publish == 'true' || steps.page_health.outputs.stale == 'true' || github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
