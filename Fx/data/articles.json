@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T07:25:27.934737Z",
-  "attempted_at": "2026-11-14T07:25:27.934737Z",
+  "updated_at": "2026-11-14T07:46:14.106665Z",
+  "attempted_at": "2026-11-14T07:46:14.106665Z",
   "articles": [
     {
       "id": "4c2296bc7093ce84",
@@ -419,45 +419,54 @@
       "name": "美联储·货币政策",
       "ok": true,
       "count": 11,
+      "latest_item_published_at": "2026-11-12T17:45:00Z",
       "error": null
     },
     {
       "name": "美联储·讲话",
       "ok": true,
       "count": 5,
+      "latest_item_published_at": "2026-11-10T20:30:00Z",
       "error": null
     },
     {
       "name": "欧洲央行·官方发布",
       "ok": true,
       "count": 14,
+      "latest_item_published_at": "2026-11-13T07:20:00Z",
       "error": null
     },
     {
       "name": "英为财情·外汇新闻",
       "ok": true,
       "count": 9,
+      "latest_item_published_at": "2026-11-13T19:31:53Z",
       "error": null
     },
     {
       "name": "英为财情·外汇分析",
       "ok": true,
       "count": 10,
+      "latest_item_published_at": "2026-11-09T07:07:00Z",
       "error": null
     },
     {
       "name": "日本央行·官方发布",
       "ok": true,
       "count": 14,
+      "latest_item_published_at": "2026-11-12T01:30:00Z",
       "error": null
     },
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
       "count": 13,
+      "latest_item_published_at": "2026-11-12T00:00:00Z",
       "error": null
     }
   ],
+  "latest_article_published_at": "2026-11-13T19:31:53Z",
+  "new_article_count": 0,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
