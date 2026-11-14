@@ -40,7 +40,7 @@ class SiteDesignTests(unittest.TestCase):
         self.assertNotIn("font-family:serif",self.css)
         self.assertNotIn("Worldfirst",self.html)
     def test_no_fabricated_data_or_front_page_placeholders(self):
-        for number in ("7.2356","106.84","USD/CNH"):
+        for number in ("7.2356","106.84"):
             self.assertNotIn(number,self.html)
         for source in ('json("articles.json")','json("editorial.json")',
                        'json("market.json")'):
@@ -55,6 +55,22 @@ class SiteDesignTests(unittest.TestCase):
         workflow=(ROOT.parent/".github/workflows/fx-refresh.yml").read_text(encoding="utf-8")
         self.assertIn("gh workflow run radar-pages.yml",workflow)
         self.assertIn("actions: write",workflow)
+    def test_r14_accessible_ticker_with_offshore_cnh_boundary(self):
+        for key in ("market-viewport","ticker-toggle","ticker-prev","ticker-next"):
+            self.assertIn(key,self.page.ids)
+        self.assertEqual(sum(tag=="option" for tag,attrs in self.page.tags),14)
+        self.assertIn('value="USD/CNH"',self.html)
+        self.assertIn('value="USD/CNY"',self.html)
+        self.assertIn("香港财资市场公会",self.html)
+        self.assertIn("const R14=",self.js)
+        self.assertIn("离岸·待授权",self.js)
+        self.assertIn("initTicker()",self.js)
+        self.assertIn("prefers-reduced-motion",self.js)
+        self.assertIn('ticker-run ticker-clone',self.js)
+        self.assertIn('aria-hidden="true"',self.js)
+        self.assertIn("market-viewport",self.css)
+        self.assertIn("ticker-controls",self.css)
+        self.assertNotIn('USD/CNH", "CNY"',self.js)
     def test_no_redundant_research_calendar_or_fake_news(self):
         for heading in ("最新资讯","本周重点观察","重要经济日历","本周关注"):
             self.assertNotIn(heading,self.html)
