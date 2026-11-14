@@ -1,7 +1,7 @@
 {
-  "attempted_at": "2026-11-14T08:51:36.283256Z",
-  "last_successful_at": "2026-11-14T08:51:36.283256Z",
-  "success_count": 7,
+  "attempted_at": "2026-11-14T08:54:45.318327Z",
+  "last_successful_at": "2026-11-14T08:54:45.318327Z",
+  "success_count": 6,
   "total_sources": 7,
   "sources": [
     {
@@ -41,10 +41,10 @@
     },
     {
       "name": "日本央行·官方发布",
-      "ok": true,
-      "count": 14,
-      "latest_item_published_at": "2026-11-12T01:30:00Z",
-      "error": null
+      "ok": false,
+      "count": 0,
+      "latest_item_published_at": null,
+      "error": "ParseError"
     },
     {
       "name": "国际清算银行·央行讲话",
