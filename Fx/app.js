@@ -5,7 +5,7 @@ const WINDOW=7*24*60*60*1000;
 const state={
  articles:[],editorial:{},ai:null,sources:[],market:[],marketSources:[],
  newsUpdated:null,marketUpdated:null,filter:"all",search:"",limit:12,
- selectedPair:"USD/CNY",fetching:false,lastError:null
+ selectedPair:"USD/CNY",fetching:false,lastError:null,dataOrigins:{},remoteErrors:{}
 };
 const zhTitles={
  "b2851de93965f784":"欧洲央行施纳贝尔发表《欧洲制造》主题讲话",
@@ -82,7 +82,7 @@ function renderMarket(){
   '<span class="tile-bottom"><span class="tile-delta '+deltaStyle(d)+'">'+deltaLabel(d)+'</span>'+sparkline(m)+'</span></button>';
  }).join("");
  const latest=state.market.filter(r=>r&&r.date).map(r=>r.date).sort().at(-1);
- $("market-updated").textContent=latest?"最近官方观察日 "+latest:"官方数据尚未就绪";
+ $("market-updated").textContent=latest?"最近官方观察日 "+latest+" · 非实时报价":"官方数据尚未就绪";
 }
 function renderChart(){
  const m=rateFor(state.selectedPair),points=series(m),d=delta(m);
@@ -125,13 +125,15 @@ function renderSources(){
  (old.length?"以下来源本轮数据滞后："+old.join("、")+"；过期值不会覆盖新观察。":"原始日期与来源在数据详情中展示。");
 }
 function renderStatus(){
- const t=ms(state.newsUpdated),age=Date.now()-t;
- $("latest-update").textContent=Number.isFinite(t)?"RSS 最近成功采集："+fmt(state.newsUpdated)+"（北京时间）":"RSS 暂无成功采集记录";
- const good=Number.isFinite(age)&&age>=0&&age<80*60*1000;
- $("status-light").classList.toggle("good",good);
- $("status-light").classList.toggle("bad",!good);
- const healthy=state.sources.filter(s=>s.ok).length;
- $("source-health").textContent=state.sources.length?"RSS "+healthy+"/"+state.sources.length+" 信源成功":"RSS 信源未核验";
+ const n=ms(state.newsUpdated),age=Date.now()-n;
+ const recent=Number.isFinite(n)&&age>=0&&age<=70*60*1000;
+ const source=state.dataOrigins.news==="repository"?"仓库最新数据":state.dataOrigins.news==="page"?"网站静态备份":"数据源未知";
+ const delay=Number.isFinite(age)&&age>=0?(age<3600000?Math.floor(age/60000)+"分钟前":(age/3600000).toFixed(1)+"小时前"):"时间未核实";
+ $("latest-update").textContent=Number.isFinite(n)?"RSS "+source+" · "+fmt(state.newsUpdated)+"（北京）· "+delay+(recent?"":" · 更新延迟"):"RSS 尚无有效采集时间";
+ const lamp=$("status-light");lamp.classList.toggle("good",recent);lamp.classList.toggle("bad",!recent);
+ lamp.title=recent?"最近成功采集处于预期窗口内":"最近成功采集已超出预期窗口，可能存在调度、采集或发布故障";
+ const healthy=state.sources.filter(x=>x.ok).length;
+ $("source-health").textContent=state.sources.length?"上次检查 "+healthy+"/"+state.sources.length+" 源成功":"RSS 信源状态未取得";
  $("beijing-clock").textContent=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date())+" 北京";
 }
 function pairForArticle(a){
@@ -192,33 +194,46 @@ function renderNews(){
  });
 }
 function render(){renderMarket();renderChart();renderSources();renderStatus();renderNews();}
-async function json(path){
- const res=await fetch(path+"?v="+Date.now(),{cache:"no-store"});
- if(!res.ok)throw new Error(path+" HTTP "+res.status);
- return await res.json();
+async function json(file){
+ if(!/^(articles|editorial|market|ai-brief)\.json$/.test(file))throw new Error("Unsupported data name");
+ const remote="https://raw.githubusercontent.com/TempleHao/Worldfirst/main/Fx/data/"+file;
+ let remoteError=null;
+ try{
+  const r=await fetch(remote+"?v="+Date.now(),{cache:"no-store",signal:AbortSignal.timeout(9000)});
+  if(!r.ok)throw new Error("GitHub raw HTTP "+r.status);
+  return {value:await r.json(),origin:"repository"};
+ }catch(err){remoteError=String(err?.message||err);}
+ const path="./data/"+file;
+ const fallback=await fetch(path+"?v="+Date.now(),{cache:"no-store"});
+ if(!fallback.ok)throw new Error("GitHub与网页备份均无法读取 "+file+"（"+remoteError+"）");
+ return {value:await fallback.json(),origin:"page",remoteError};
 }
 async function refresh(){
  if(state.fetching)return;
  state.fetching=true;
  try{
   const results=await Promise.allSettled([
-   json("./data/articles.json"),json("./data/editorial.json"),
-   json("./data/market.json"),json("./data/ai-brief.json")
+   json("articles.json"),json("editorial.json"),
+   json("market.json"),json("ai-brief.json")
   ]);
   const news=results[0];
-  if(news.status==="fulfilled"&&Array.isArray(news.value?.articles)){
-   state.articles=news.value.articles.filter(a=>a?.id&&a?.title&&a?.url&&a?.published_at);
-   state.sources=Array.isArray(news.value.sources)?news.value.sources:[];
-   state.newsUpdated=news.value.updated_at||null;
+  if(news.status==="fulfilled"&&Array.isArray(news.value?.value?.articles)){
+   state.dataOrigins.news=news.value.origin;
+   state.remoteErrors.news=news.value.remoteError||null;
+   const snapshot=news.value.value;
+   state.articles=snapshot.articles.filter(a=>a?.id&&a?.title&&a?.url&&a?.published_at);
+   state.sources=Array.isArray(snapshot.sources)?snapshot.sources:[];
+   state.newsUpdated=snapshot.updated_at||null;
    state.lastError=null;
   }else{state.lastError=String(news.status==="rejected"?news.reason?.message:"RSS 数据结构异常");}
-  if(results[1].status==="fulfilled")state.editorial=results[1].value?.items||{};
+  if(results[1].status==="fulfilled")state.editorial=results[1].value?.value?.items||{};
   if(results[2].status==="fulfilled"){
-   state.market=Array.isArray(results[2].value?.instruments)?results[2].value.instruments:[];
-   state.marketSources=Array.isArray(results[2].value?.sources)?results[2].value.sources:[];
-   state.marketUpdated=results[2].value.last_successful_at||null;
+   const snapshot=results[2].value.value;
+   state.market=Array.isArray(snapshot?.instruments)?snapshot.instruments:[];
+   state.marketSources=Array.isArray(snapshot?.sources)?snapshot.sources:[];
+   state.marketUpdated=snapshot?.last_successful_at||null;
   }
-  if(results[3].status==="fulfilled")state.ai=results[3].value;
+  if(results[3].status==="fulfilled")state.ai=results[3].value.value;
   render();
   if(state.lastError)$("stream").insertAdjacentHTML("afterbegin",'<div class="empty-state">最新资讯读取失败：'+esc(state.lastError)+'，仅保留仍处于最近七天的已缓存内容。</div>');
  }finally{state.fetching=false;}
