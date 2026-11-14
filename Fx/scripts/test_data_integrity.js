@@ -36,4 +36,12 @@ const boj=articles.find(x=>x.source==="日本央行·官方发布"&&x.url.starts
 if(boj)assert(ctx.validRSSArticle(boj),"real BOJ official legacy URL must remain visible");
 assert(!ctx.validRSSArticle({...a,url:"http://cn.investing.com/news/example"}),"ordinary RSS item must not silently downgrade HTTPS");
 
+const aggregated={...a,source:"Google新闻·中文外汇聚合",
+ source_url:"https://news.google.com/rss/search?q=forex",
+ url:"https://news.google.com/rss/articles/testxyz",verification:"aggregated_unverified",
+ time_basis:"aggregator_listing"};
+assert(ctx.validRSSArticle(aggregated),"explicitly identified Google aggregator should be allowed");
+assert(!ctx.validRSSArticle({...aggregated,verification:"official"}),"Google aggregation is never official");
+assert(!ctx.validRSSArticle({...aggregated,url:"https://example.com/story"}),"no fake syndicated publisher domain");
+assert(!ctx.validRSSArticle({...aggregated,time_basis:"publisher_rss"}),"Google news time must be marked aggregator listing");
 console.log("Data integrity tests passed: "+instruments.length+" authentic source-checked rates, "+articles.length+" RSS metadata items; malformed records fail closed.");

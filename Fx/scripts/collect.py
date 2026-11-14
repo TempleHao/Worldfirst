@@ -27,21 +27,30 @@ SOURCES = [
     {"name": "英为财情·外汇分析", "url": "https://cn.investing.com/rss/forex.rss", "kind": "media"},
     {"name": "日本央行·官方发布", "url": "https://www.boj.or.jp/en/rss/whatsnew.xml", "kind": "official"},
     {"name": "国际清算银行·央行讲话", "url": "https://www.bis.org/doclist/cbspeeches.rss", "kind": "official"},
+    # Google News is an aggregator. Index only its own article title, listing timestamp
+    # and its news.google.com redirect; never assert it independently verified the event.
+    {"name": "Google新闻·中文外汇聚合", "url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans", "kind": "aggregator"},
 ]
 TOPICS = [
     ("货币政策", r"央行|美联储|联储|利率|降息|加息|联邦基金|federal reserve|fomc|monetary policy|central bank|interest rate|rate decision|ecb|powell|lagarde"),
     ("通胀与就业", r"通胀|物价|非农|就业|失业|cpi|inflation|employment|payroll|labou?r market|pce"),
     ("人民币", r"人民币|离岸|在岸|中国人民银行|美元兑人民币|usd.?cny|usd.?cnh|renminbi|yuan|china fx"),
     ("港币机制", r"港币|港元|香港金管局|联系汇率|usd.?hkd|hong kong dollar|hkma"),
-    ("外汇市场", r"外汇|汇率|美元|欧元|日元|英镑|汇市|foreign exchange|forex|currency|dollar|yen|sterling|euro|dxy"),
+    ("外汇市场", r"外汇|汇率|美元|欧元|日元|英镑|汇市|foreign exchange|forex|currency|dollar|yen|sterling|euro|dxy|fx market|\b(?:usd|eur|jpy|gbp|aud|nzd|cad|chf|hkd|cny|cnh)\b"),
     ("宏观经济", r"经济|增长|gdp|债券|国债|yield|economic|recession|tariff|trade|market"),
 ]
 PAIRS = [
-    ("USD/CNY", r"人民币|离岸|在岸|renminbi|yuan|cny|cnh|usd.?cny|usd.?cnh"),
+    ("USD/CNH", r"离岸人民币|cnh|offshore yuan|offshore renminbi"),
+    ("USD/CNY", r"在岸人民币|境内人民币|renminbi|yuan|cny|usd.?cny"),
     ("USD/HKD", r"港币|港元|港元联系汇率|hkd|hkma|hong kong dollar"),
     ("EUR/USD", r"欧元|欧洲央行|ecb|eur|euro|lagarde"),
     ("USD/JPY", r"日元|日本央行|日央行|jpy|yen|boj|ueda"),
     ("GBP/USD", r"英镑|英国央行|gbp|sterling|bank of england"),
+    ("AUD/USD", r"澳元|澳洲联储|aud|australian dollar|rba"),
+    ("NZD/USD", r"纽元|新西兰联储|nzd|new zealand dollar|rbnz"),
+    ("USD/CAD", r"加元|加拿大央行|cad|canadian dollar|boc"),
+    ("USD/CHF", r"瑞郎|瑞士央行|chf|swiss franc|snb"),
+    ("USD/SGD", r"新加坡元|新加坡金管局|sgd|singapore dollar|mas"),
 ]
 GLOSS = {
     "货币政策": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。",
@@ -139,7 +148,8 @@ def make_article(item, src):
         "title": item["title"], "url": url, "source": src["name"],
         "source_url": src["url"], "published_at": item["published_at"],
         "topic": topic, "pairs": pairs,
-        "verification": "official" if src["kind"] == "official" else "single_source",
+        "verification": "official" if src["kind"] == "official" else "aggregated_unverified" if src["kind"] == "aggregator" else "single_source",
+        "time_basis": "aggregator_listing" if src["kind"] == "aggregator" else "publisher_rss",
         "analysis_mode": "rule_index",
         "summary": GLOSS[topic],
     }
@@ -206,7 +216,7 @@ def run():
                 "name": source["name"], "ok": True, "count": len(articles),
                 "latest_item_published_at": max(published_dates, default=None), "error": None
             })
-            print(f"OK {source['name']}: {len(articles)}")
+            print(f"OK {source['name']}: relevant={len(articles)}, latest={max(published_dates, default=None)}")
         except (OSError, TimeoutError, ValueError, ET.ParseError) as exc:
             statuses.append({"name": source["name"], "ok": False, "count": 0, "latest_item_published_at": None, "error": type(exc).__name__})
             print(f"FAIL {source['name']}: {type(exc).__name__}", file=sys.stderr)
