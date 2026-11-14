@@ -85,6 +85,18 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn('workflows: ["Refresh Radar Search Feeds"]',wf)
         self.assertIn("workflow_run:",wf)
         self.assertIn("github.event.workflow_run.conclusion == 'success'",wf)
+    def test_compact_ticker_without_redundant_provenance_labels(self):
+        self.assertIn("FX / R14", self.html)
+        self.assertNotIn("market-updated", self.html)
+        self.assertNotIn("market-disclaimer", self.html)
+        self.assertNotIn("market-updated", self.js)
+        self.assertNotIn("ECB交叉 · ", self.js)
+        self.assertNotIn("ECB参考 · ", self.js)
+        self.assertNotIn("HKMA参考 · ", self.js)
+        self.assertIn('在岸 · ', self.js)
+        self.assertIn('离岸 · ', self.js)
+        self.assertIn('id="source-list"', self.html)
+        self.assertIn("esc(hint)", self.js)
     def test_bold_ticker_and_verifiable_market_data(self):
         self.assertIn("font-size:23px;font-weight:750",self.css)
         self.assertIn("font:750 25px/1.13 var(--mono)",self.css)
