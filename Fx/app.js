@@ -3,13 +3,19 @@
 const $=id=>document.getElementById(id);
 const WINDOW=7*24*60*60*1000;
 // R14 is the 14-pair viewing list, NOT a claim of 14 live providers:
-// 13 sourced ECB/HKMA daily reference pairs, one separate CNH slot awaiting an authorized feed.
+// 13 ECB/HKMA official daily rates + independent USD/CNH third-party daily reference.
+ // Third-party data are fetched directly by each visitor; never redistributed in our static JSON.
 const R14=["USD/CNH","USD/CNY","USD/HKD","EUR/USD","USD/JPY","GBP/USD","AUD/USD","NZD/USD","USD/CAD","USD/CHF","USD/SGD","EUR/GBP","EUR/JPY","EUR/CHF"];
 const FX_DATA_AGE_DAYS=9;
+const CNH_FREE_URL="https://open.er-api.com/v6/latest/USD";
+const CNH_FREE_DOCS="https://www.exchangerate-api.com/docs/free";
+const CNH_COMMUNITY_URL="https://latest.currency-api.pages.dev/v1/currencies/usd.min.json";
+const CNH_COMMUNITY_DOCS="https://github.com/fawazahmed0/exchange-api";
 const state={
  articles:[],editorial:{},ai:null,sources:[],market:[],marketSources:[],
  newsUpdated:null,marketUpdated:null,filter:"all",search:"",limit:12,
- selectedPair:"EUR/USD",fetching:false,lastError:null,dataOrigins:{},remoteErrors:{}
+ selectedPair:"EUR/USD",fetching:false,lastError:null,dataOrigins:{},remoteErrors:{},
+ cnh:null,cnhStatus:"pending",cnhError:null,cnhBusy:false,cnhAttemptedAt:0,cnhProvider:""
 };
 const zhTitles={
  "b2851de93965f784":"欧洲央行施纳贝尔发表《欧洲制造》主题讲话",
@@ -44,10 +50,67 @@ function matching(a){
  return [a.title,headline(a),a.source,a.topic,(a.pairs||[]).join(" "),e.dek,e.insight,e.business].join(" ").toLocaleLowerCase("zh-CN").includes(q);
 }
 function rateFor(pair){
- const m=state.market.find(x=>x?.pair===pair&&x.source&&x.date&&Number.isFinite(Number(x.value))&&Number(x.value)>0);
+ const m=pair==="USD/CNH"?state.cnh:state.market.find(x=>x?.pair===pair&&x.source&&x.date&&Number.isFinite(Number(x.value))&&Number(x.value)>0);
  if(!m)return null;
  const day=ms(m.date+"T00:00:00Z"),age=Date.now()-day;
  return Number.isFinite(day)&&age>=-24*3600000&&age<=FX_DATA_AGE_DAYS*24*3600000?m:null;
+}
+// Validate the third-party CNH rate using its own quote code and provider observation timestamp.
+// There is intentionally no CNY-based fallback or synthetic CNH calculation.
+function parseCNHOpen(data,now=Date.now()){
+ if(!data||data.result!=="success"||data.base_code!=="USD"||!data.rates||typeof data.rates!=="object")
+  throw new Error("第三方返回结构或基准币种无效");
+ const n=Number(data.rates.CNH),seconds=Number(data.time_last_update_unix);
+ if(!Number.isFinite(n)||n<=0||n>100||!Number.isFinite(seconds)||seconds<=0)
+  throw new Error("没有有效且带时间的离岸人民币报价");
+ const observed=seconds*1000,age=now-observed;
+ if(age< -4*3600000||age>5*86400000)throw new Error("第三方离岸报价日期过期或位于未来");
+ const date=new Date(observed).toISOString().slice(0,10);
+ return {pair:"USD/CNH",value:n,date,observation_timestamp:new Date(observed).toISOString(),
+  source:"ExchangeRate-API",source_url:CNH_FREE_DOCS,method:"direct_third_party_daily_reference",
+  kind:"third_party_daily_indicative",points:[{date,value:n}],
+  change_5_published_days_pct:null,comparison_date:null};
+}
+function parseCNHCommunity(data,now=Date.now()){
+ const raw=data?.usd?.cnh;
+ if(!data||typeof data.date!=="string"||!/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(data.date))
+  throw new Error("社区日度来源没有可用日期");
+ const stamp=Date.parse(data.date+"T00:00:00Z"),age=now-stamp,n=Number(raw);
+ if(!Number.isFinite(stamp)||age< -36*3600000||age>5*86400000
+     ||!Number.isFinite(n)||n<=0||n>100)
+  throw new Error("社区日度来源没有有效CNH数值或日期");
+ return {pair:"USD/CNH",value:n,date:data.date,observation_timestamp:data.date+"T00:00:00Z",
+  source:"Community Currency API",source_url:CNH_COMMUNITY_DOCS,
+  method:"third_party_community_daily_reference",kind:"third_party_daily_indicative",
+  points:[{date:data.date,value:n}],change_5_published_days_pct:null,comparison_date:null};
+}
+async function loadRemoteCNH(url){
+ const response=await fetch(url,{mode:"cors",credentials:"omit",cache:"no-store",
+   signal:typeof AbortSignal.timeout==="function"?AbortSignal.timeout(9000):undefined});
+ if(!response.ok)throw new Error("数据提供方HTTP "+response.status);
+ return response.json();
+}
+async function refreshCNH(){
+ const now=Date.now();
+ // Open access provider refreshes once per day; never poll it every three minutes.
+ if(state.cnhBusy||now-state.cnhAttemptedAt<60*60*1000)return;
+ state.cnhBusy=true;state.cnhAttemptedAt=now;state.cnhStatus="loading";state.cnhError=null;
+ try{
+  let result,firstError;
+  try{result=parseCNHOpen(await loadRemoteCNH(CNH_FREE_URL));}
+  catch(err){firstError=String(err?.message||err);}
+  if(!result){
+   try{result=parseCNHCommunity(await loadRemoteCNH(CNH_COMMUNITY_URL));}
+   catch(err){throw new Error("官方发布之外的两条独立CNH公开来源均无法访问："+firstError+"；备用："+String(err?.message||err));}
+  }
+  state.cnh=result;state.cnhStatus="ok";state.cnhProvider=result.source;state.cnhError=null;
+ }catch(err){
+  state.cnhStatus="error";state.cnhError=String(err?.message||err);
+  if(!rateFor("USD/CNH"))state.cnh=null;
+ }finally{
+  state.cnhBusy=false;
+  renderMarket();renderChart();renderSources();renderNews();
+ }
 }
 function quote(m){return m?Number(m.value).toFixed(m.pair==="USD/JPY"?3:4):"—";}
 function delta(m){
@@ -77,16 +140,19 @@ function sparkline(m){
 }
 function marketTile(pair,duplicate=false){
  const m=rateFor(pair),d=delta(m),isCNH=pair==="USD/CNH",isCNY=pair==="USD/CNY";
- const stateLabel=isCNH?"离岸·待授权":isCNY?"境内参考":m?(m.source.includes("香港")?"HKMA · ":"ECB · ")+m.date.slice(5):"暂无数据";
- const hint=isCNH?"CNH是离岸人民币。未接入获得使用授权的CNH数据，不使用USD/CNY代替。":
-   m?m.source+" · 观察日 "+m.date+" · 官方日度参考/交叉计算，不是实时可成交价":"暂无有效日期的官方日度参考数据";
+ const waiting=isCNH&&!m&&["pending","loading"].includes(state.cnhStatus);
+ const sourceLabel=isCNH?(m?"第三方 "+m.date.slice(5):waiting?"获取离岸数据中":"离岸源暂不可用"):
+   isCNY?"境内官方参考":m?(m.source.includes("香港")?"HKMA · ":"ECB · ")+m.date.slice(5):"暂无有效参考";
+ const hint=m?m.source+" · "+m.date+" · "+(isCNH?"第三方日度参考，非官方基准":"官方日度参考/交叉计算")+" · 非可成交价":
+  isCNH?(waiting?"正在查询CNH第三方日度参考":"CNH独立数据源不可用，绝不使用在岸CNY代替"):"暂无有效日期的官方日度参考数据";
+ const amount=m?quote(m):waiting?"获取中":"暂无数据";
  return '<button type="button" class="market-tile'+(state.selectedPair===pair?" active":"")+
-   (isCNH?" unquoted":"")+'" data-pair="'+pair+'"'+(duplicate?' tabindex="-1"':'')+
-   ' aria-label="'+esc(pair)+" · "+esc(isCNH?"离岸人民币暂未接入授权报价":"查看已公布日参考值与走势")+
+   (!m?" unquoted":"")+(isCNH?" offshore-rate":"")+'" data-pair="'+pair+'"'+(duplicate?' tabindex="-1"':'')+
+   ' aria-label="'+esc(pair)+" · "+esc(hint)+
    '" title="'+esc(hint)+'"><span class="tile-code">'+esc(pair)+'</span>'+
-   '<span class="tile-amount'+(isCNH?" missing":"")+'">'+(isCNH?"待接入":quote(m))+'</span>'+
+   '<span class="tile-amount'+(!m?" missing":"")+'">'+esc(amount)+'</span>'+
    '<span class="tile-bottom"><span class="tile-delta '+deltaStyle(d)+'">'+deltaLabel(d)+'</span>'+sparkline(m)+'</span>'+
-   '<small class="tile-origin">'+esc(stateLabel)+'</small></button>';
+   '<small class="tile-origin">'+esc(sourceLabel)+'</small></button>';
 }
 function renderMarket(){
  const viewport=$("market-viewport");
@@ -98,8 +164,9 @@ function renderMarket(){
  const first=$("market-grid").firstElementChild?.offsetWidth||0;
  if(first)viewport.scrollLeft=savedScroll%first;
  const latest=state.market.filter(x=>x?.date).map(x=>x.date).sort().at(-1);
- const usable=R14.filter(pair=>!!rateFor(pair)).length;
- $("market-updated").textContent=usable+"/14组有官方参考 · "+(latest||"观察日待核实")+" · 5公布日变化";
+ const availableOfficial=R14.filter(pair=>pair!=="USD/CNH"&&!!rateFor(pair)).length;
+ const cnhAvailable=!!rateFor("USD/CNH");
+ $("market-updated").textContent=(availableOfficial+(cnhAvailable?1:0))+"/14组可读 · "+availableOfficial+"组官方日度"+(cnhAvailable?" + 1组第三方CNH":"")+" · 官方最近 "+(latest||"待核实");
 }
 function renderChart(){
  const m=rateFor(state.selectedPair),points=series(m),d=delta(m);
@@ -110,7 +177,15 @@ function renderChart(){
  const target=$("detail-chart");
  if(points.length<2){
   target.innerHTML='<p class="loading">暂无可核实的历史走势，未填入模拟曲线。</p>';
-  $("chart-note").textContent=state.selectedPair==="USD/CNH"?"CNH离岸人民币尚无已授权报价。不能用境内USD/CNY替代；可从香港交易所或TMA官方来源查看基准资料。":m?m.source+" · "+m.date+" · 官方参考价（非实时）":"官方参考记录尚不可用";
+  if(state.selectedPair==="USD/CNH"&&m){
+   target.innerHTML='<div class="chart-single-note">已取得独立离岸人民币日度参考值 · '+esc(m.date)+
+    '<br>当前提供方只发布这一期参考值，尚无可核实的连续历史序列，未绘制虚假曲线。</div>';
+   $("chart-note").textContent=m.source+" · "+m.date+" · 第三方日度参考，非官方定盘价或可成交价";
+  }else{
+   $("chart-note").textContent=state.selectedPair==="USD/CNH"?
+    "CNH第三方来源暂无法读取，请检查来源状态；绝不使用境内CNY代替。":
+    m?m.source+" · "+m.date+" · 官方参考价（非实时）":"官方参考记录尚不可用";
+  }
   return;
  }
  const w=340,h=158,pad=12,line=polyline(points,w,h,pad);
@@ -135,7 +210,11 @@ function renderSources(){
   status:s.ok?(s.date_fresh===false?"滞后":"已获取"):"失败",
   label:s.ok?(s.date_fresh===false?"数据滞后 "+(s.last_observation_date||""):(s.last_observation_date||"已获取")):"抓取失败"
  }));
- const sources=[...rss,...market];
+ const cnh=rateFor("USD/CNH");
+ const cnSource={name:"USD/CNH · 离岸日度参考",
+    ok:!!cnh,status:cnh?"已取得":"获取失败",
+    label:cnh?cnh.source+" · "+cnh.date:state.cnhStatus==="loading"?"查询中":state.cnhStatus==="error"?"第三方源不可用":"待加载"};
+ const sources=[...rss,...market,cnSource];
  $("source-list").innerHTML=sources.length?sources.map(s=>'<div class="source-row"><span>'+esc(s.name)+'</span><small class="'+(!s.ok?"bad":"")+'">'+esc(s.label)+'</small></div>').join(""):'<p class="loading">尚未取得信源健康记录。</p>';
  const old=state.marketSources.filter(s=>s.ok&&s.date_fresh===false).map(s=>s.name+" "+(s.last_observation_date||"未知日期"));
  $("market-warning").textContent="汇率为官方日度参考或同日交叉计算，非银行成交报价。"+
@@ -168,7 +247,7 @@ function pairForArticle(a){
 function articleRate(a){
  const pair=pairForArticle(a),r=pair&&rateFor(pair);
  if(!r)return "";
- return '<div class="item-quote"><span class="pair">'+esc(pair)+'</span><span class="rate">'+quote(r)+'</span><span>官方 '+esc(r.date)+' 参考，非新闻发生时的成交价</span><a href="'+esc(safeURL(r.source_url))+'" target="_blank" rel="noopener noreferrer">数据来源 ↗</a><button type="button" data-chart-pair="'+esc(pair)+'" class="quote-chart-link">查看走势 ↗</button></div>';
+ return '<div class="item-quote"><span class="pair">'+esc(pair)+'</span><span class="rate">'+quote(r)+'</span><span>'+(r.kind==="third_party_daily_indicative"?"第三方日度":"官方")+' '+esc(r.date)+' 参考，非新闻发生时的成交价</span><a href="'+esc(safeURL(r.source_url))+'" target="_blank" rel="noopener noreferrer">数据来源 ↗</a><button type="button" data-chart-pair="'+esc(pair)+'" class="quote-chart-link">查看走势 ↗</button></div>';
 }
 function currentClaims(){
  const b=state.ai,n=ms(b?.generated_at),age=Date.now()-n;
@@ -320,6 +399,8 @@ function initTicker(){
 }
 initTicker();
 refresh();
+void refreshCNH();
 setInterval(()=>{if(!document.hidden)refresh();},3*60*1000);
 setInterval(renderStatus,60*1000);
-document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});
+setInterval(()=>{if(!document.hidden)void refreshCNH();},60*60*1000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden){refresh();void refreshCNH();}});

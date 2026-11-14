@@ -49,7 +49,7 @@ RSS 工作流持续提供最近七天新信息；独立 ChatGPT 定时研究任�
 ## 真实汇率数据与刷新策略（2026-11-14）
 - 数据来源 1：欧洲央行（ECB）90 天每日欧元参考汇率 [官方 XML](https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml)。USD/CNY、USD/JPY、USD/HKD、GBP/USD 使用同一发布日期的欧元对两种货币参考汇率做交叉计算：A/B=(A per EUR)/(B per EUR)。并明确标识“同日交叉推算”，不得冒充可成交价格或即时银行报价。
 - 数据来源 2：香港金管局（HKMA）[每日港元汇率开放数据](https://apidocs.hkma.gov.hk/documentation/market-data-and-statistics/monthly-statistical-bulletin/er-ir/er-eeri-daily/)。优先使用更晚的官方 USD/HKD 观察，日期相同时优先 HKMA 收市价；不得将港元联系汇率制度上下限当作某时点现价。
-- **没有 USD/CNH 可授权实时源，所以不展示 USD/CNH 报价**；不能把 CNY 参考汇率当作 CNH。没有交易级实时价、买卖盘口或可成交价接口；不宣称实时行情。
+- **USD/CNH（离岸人民币）已接入独立第三方日度参考值**：访客浏览器直接查询 ExchangeRate-API 开放端点（CORS，网页标注其要求的来源链接）；无授权重分发，本站不把第三方数据写入公开 GitHub JSON，也不以在岸 CNY 替代 CNH。此值为第三方日度汇率，非官方 TMA 离岸定盘价或可成交报价，当前不宣称具有历史走势图。
 - 每一显示条目应提供 pair、value、date、source、source_url、method、kind、近 5 个官方公布日变动百分比和完整原始点序列。变动由确定性代码计算，不交给 AI 编造；低于 6 条有效观察时变动留空。
 - 一次或全部 API 抓取失败时，保留上次有出处的数据及原始发布日期，不以本次轮询时间伪装数据发布时间；观察日期超过八个自然日的数值隐藏并显示过期。
 - RSS 新增日本央行与国际清算银行央行讲话官方 RSS。美国劳工统计局 CPI 与就业 RSS 曾试接入，但在 GitHub 采集环境返回 HTTPError，已暂停，待验证可用的官方替代渠道后再恢复。每一源单独记录请求成功与失败；来自英文源的原始英文标题未被可靠译审前不得宣称是完整中文解读。
@@ -77,7 +77,14 @@ RSS 工作流持续提供最近七天新信息；独立 ChatGPT 定时研究任�
 ## R14 横向行情带（2026-11-14）
 - 首页行情的“R14”是 **14 个观察货币对**，不是“14个实时信源”或“14组实时可成交报价”。14个位置为：USD/CNH、USD/CNY、USD/HKD、EUR/USD、USD/JPY、GBP/USD、AUD/USD、NZD/USD、USD/CAD、USD/CHF、USD/SGD、EUR/GBP、EUR/JPY、EUR/CHF。
 - 其中 **13 个观察位**可由既有的 ECB 官方日度欧元参考汇率与香港金管局来源提供或用同一公布日数据确定性交叉计算；数据必须有实际观察日期、来源、来源网址，最近5公布日的变化百分比也只由历史已发布数字推导，不得称为“日内涨跌”。
-- **USD/CNH 是离岸人民币，USD/CNY 是境内人民币**。ECB 的人民币参考序列币种代码为 CNY，无法据此构造 CNH。美元兑离岸人民币的 TMA Spot USD/CNY(HK) fixing / CNH 基准有使用许可限制，尚未确认可合法纳入本站公开分发；目前 USD/CNH 保留独立观察位置，数值显示“待接入”，不填充 CNY 或从其他币种推断。官方说明可见 [香港交易所 FAQ](https://www.hkex.com.hk/Global/Exchange/FAQ/Featured?sc_lang=en) 和 [TMA 市场信息](https://www.tma.org.hk/en_market_info.aspx)。
+- **USD/CNH 是离岸人民币，USD/CNY 是境内人民币**。ECB 官方参考数据只有 CNY，无法据此生成 CNH。现在 CNH 值由浏览器直接从 [ExchangeRate-API Open Access](https://www.exchangerate-api.com/docs/free) 获取，失败时尝试 [fawazahmed0 社区汇率公开 API](https://github.com/fawazahmed0/exchange-api)；两者均按来源日期校验。网页按服务方要求提供“Rates By Exchange Rate API”署名，且不把 Open Access 汇率写入网站 JSON 或向第三方重新提供可编程数据访问。此值来自第三方，不能标称 TMA 官方定盘价、银行牌价或实时可成交价。TMA 基准具有单独的公开再发布许可限制，故没有被直接复制。
 - 行情带在桌面端自动**横向滚动**，鼠标悬停、键盘焦点和用户手动拖动/左右按钮操作暂停自动滚动。可点击“暂停滚动”；系统要求减少动画时默认不自动移动，仍可手动查看全部14组。
 - 持续移动的是**视觉位置**，并非交易行情发生实时变化。网页每3分钟在活动状态检查仓库已公布快照；ECB仅工作日提供日度参考价。不存在数据时显示缺失状态和官方日期，不生成模拟走势。
 - 新闻正文仍是唯一资讯流，行情带的视觉滚动不触发额外新闻分类或重复模块。
+
+## FX INTEL 顶栏品牌资产与 CNH 交互校验（2026-11-14）
+- 顶栏采用 `Fx/assets/fx-intel-mark.svg` 原生矢量资产作为真实图标和浏览器 favicon，英文极简字标 FX·INTEL 的小橙红点由 CSS 实现，中文“外汇内参”为副字标；与第三方金融媒体品牌保持区别，不复制商标。
+- 汇率 R14 仍保持13组 ECB/HKMA 有出处的官方日度参考数据；第14组 USD/CNH 不再恒定留空。仅当浏览器从独立第三方成功取得有明确币种、日期、正数值的离岸报价时才显示，否则明确显示获取失败；不使用 CNY 值代替、也不把失败状态藏掉。
+- Open Access 提供方更新频率为每天一次，前端成功或失败均限频，每个会话最多约每小时检查一次，防止滥用 API。仅保留浏览器内存中的一次报价，绝不作为本站公开数据文件重新发布。数据许可参考 [ExchangeRate-API 公开接口条款](https://www.exchangerate-api.com/docs/free)；备选为社区公开日度参考。
+- 第三方当前数据只有最新一期，走势面板会清晰写明“没有可核实的连续历史序列”，不连造出两端点或把另一来源的在岸历史串进来。
+- 所有新闻/汇率分区只因真实数据出现而出现：不重启焦点卡片、空的经济日历或重复分类面板。

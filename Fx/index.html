@@ -6,15 +6,19 @@
 <meta name="theme-color" content="#090d13">
 <meta name="description" content="外汇内参：最近七天全球汇市资讯、官方汇率参考数据与中文市场解读。">
 <title>外汇内参｜全球汇市资讯与解读</title>
-<link rel="stylesheet" href="./style.css?v=20261114-r14-ticker">
-<script src="./app.js?v=20261114-r14-ticker" defer></script>
+<link rel="icon" type="image/svg+xml" href="./assets/fx-intel-mark.svg">
+<link rel="stylesheet" href="./style.css?v=20261114-logo-cnh">
+<script src="./app.js?v=20261114-logo-cnh" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#latest-news">跳转到资讯流</a>
 <header class="site-header" id="top">
   <div class="shell header-layout">
-    <a class="site-name" href="./">外汇内参<span class="site-mark">/ FX</span></a>
-    <span class="header-description">GLOBAL FX INTELLIGENCE</span>
+    <a class="site-name brand-lockup" href="./" aria-label="FX INTEL 外汇内参首页">
+      <img class="brand-symbol" src="./assets/fx-intel-mark.svg" alt="" width="37" height="37">
+      <span class="brand-words"><span class="brand-english">FX<span class="brand-signal" aria-hidden="true">·</span>INTEL</span><span class="brand-chinese">外汇内参</span></span>
+    </a>
+    <span class="header-description">GLOBAL FOREIGN EXCHANGE INTELLIGENCE</span>
     <nav class="site-nav" aria-label="网站导航">
       <a href="#latest-news" class="nav-current">资讯流</a>
       <a href="#market-overview">汇率概览</a>
@@ -31,11 +35,11 @@
 </div>
 
 <main class="shell">
-  <section class="market-overview" id="market-overview" aria-label="官方汇率参考概览">
+  <section class="market-overview" id="market-overview" aria-label="14组货币对参考行情，包括第三方离岸人民币日度数据">
     <div class="market-title">
       <div class="section-kicker">FX TICKER / R14 WATCHLIST</div>
       <div class="market-title-row"><h2>主要汇率</h2><span id="market-updated">读取官方公布日…</span></div>
-      <small class="market-disclaimer">横向轮播 · 观察值非实时成交价</small>
+      <small class="market-disclaimer">14组行情 · 来源不同 · 全部为参考价，非实时成交价</small>
     </div>
     <div class="ticker-area">
       <div id="market-viewport" class="market-viewport" tabindex="0" role="region" aria-label="可横向滚动的14组外汇参考行情，鼠标悬停会暂停">
@@ -77,23 +81,23 @@
 
     <aside class="data-column" aria-label="汇率数据与信源核验">
       <section class="rail-section" id="market-chart">
-        <div class="rail-heading"><div><span class="section-kicker">FX CURVES / VERIFIED SERIES</span><h2>汇率走势</h2></div><label><span class="sr-only">选择观察货币对</span><select id="chart-select" aria-label="选择观察货币对"><option value="EUR/USD">EUR/USD</option><option value="USD/CNH">USD/CNH · 离岸待接入</option><option value="USD/CNY">USD/CNY · 境内</option><option value="USD/HKD">USD/HKD</option><option value="USD/JPY">USD/JPY</option><option value="GBP/USD">GBP/USD</option><option value="AUD/USD">AUD/USD</option><option value="NZD/USD">NZD/USD</option><option value="USD/CAD">USD/CAD</option><option value="USD/CHF">USD/CHF</option><option value="USD/SGD">USD/SGD</option><option value="EUR/GBP">EUR/GBP</option><option value="EUR/JPY">EUR/JPY</option><option value="EUR/CHF">EUR/CHF</option></select></label></div>
+        <div class="rail-heading"><div><span class="section-kicker">FX CURVES / VERIFIED SERIES</span><h2>汇率走势</h2></div><label><span class="sr-only">选择观察货币对</span><select id="chart-select" aria-label="选择观察货币对"><option value="EUR/USD">EUR/USD</option><option value="USD/CNH">USD/CNH · 第三方日度参考</option><option value="USD/CNY">USD/CNY · 境内</option><option value="USD/HKD">USD/HKD</option><option value="USD/JPY">USD/JPY</option><option value="GBP/USD">GBP/USD</option><option value="AUD/USD">AUD/USD</option><option value="NZD/USD">NZD/USD</option><option value="USD/CAD">USD/CAD</option><option value="USD/CHF">USD/CHF</option><option value="USD/SGD">USD/SGD</option><option value="EUR/GBP">EUR/GBP</option><option value="EUR/JPY">EUR/JPY</option><option value="EUR/CHF">EUR/CHF</option></select></label></div>
         <div class="chart-primary"><strong id="chart-value">—</strong><span id="chart-change">—</span></div>
-        <div id="detail-chart" class="detail-chart" aria-label="官方汇率历史观察曲线"><p class="loading">正在读取历史记录…</p></div>
+        <div id="detail-chart" class="detail-chart" aria-label="已核验来源的汇率历史观察曲线"><p class="loading">正在读取历史记录…</p></div>
         <div id="chart-note" class="chart-note">官方工作日参考汇率 · 非实时报价</div>
       </section>
       <section class="rail-section" id="source-desk">
         <div class="rail-heading"><div><span class="section-kicker">SOURCE DESK / PROVENANCE</span><h2>来源与时间</h2></div></div>
-        <p class="source-description">收录的消息保留原始来源和发布时间。汇率为官方发布的日度参考值或按同日数据计算的交叉参考，不能作为银行成交报价。</p>
+        <p class="source-description">收录消息保留原始来源与发布时间。13组汇率使用官方日度参考及同日交叉计算；USD/CNH由独立第三方直接提供，须标明来源、日期与取数失败状态。全部不可视为银行成交报价。</p>
         <div id="source-list" class="source-list"><p class="loading">正在检查来源…</p></div>
         <div class="source-warning" id="market-warning">数据缺失或过期时直接标明，不填充模拟行情。</div>
       </section>
-      <div class="rail-footnote">14组观察位中包含 USD/CNH（离岸人民币），其独立报价尚未获授权接入，不以 CNY 冒充。可参考 <a href="https://www.tma.org.hk/en_market_info.aspx" target="_blank" rel="noopener noreferrer">香港财资市场公会基准信息 ↗</a>。行情滚动仅为展示方式，汇率仍按官方公布日更新。</div>
+      <div class="rail-footnote">USD/CNH 单独读取第三方日度参考值；USD/CNY 仍为境内官方参考，两者绝不混用。离岸报价由访客浏览器直接查询 <a href="https://www.exchangerate-api.com" target="_blank" rel="noopener noreferrer">Rates By Exchange Rate API ↗</a>，本站不转售或重新发布数据。第三方数据按其使用条款提供，仅供参考；网络或服务不可用时显示明确错误。行情自动滚动只是展示形式，不代表报价实时变化。</div>
     </aside>
   </div>
 
   <footer class="footer">
-    <div><strong>外汇内参</strong><span>全球外汇资讯 / 中文解读 / 数据来源透明</span></div>
+    <div><strong>FX INTEL</strong><span>外汇内参 / 全球外汇资讯 / 数据来源透明</span></div>
     <div><a href="#top">返回顶部 ↑</a><a href="../radar/">舆情雷达 ↗</a></div>
   </footer>
 </main>
