@@ -436,16 +436,9 @@ document.addEventListener("click",event=>{
   if(target){target.hidden=!target.hidden;proof.textContent=target.hidden?"证据与后续关注 ▾":"收起核验说明 ▴";proof.setAttribute("aria-expanded",String(!target.hidden));}
  }
 });
-const tickerState={pauseUser:false,hover:false,focus:false,holdUntil:0,previousFrame:0,lastFrame:null};
+const tickerState={hover:false,focus:false,holdUntil:0,previousFrame:0,lastFrame:null};
 function initTicker(){
- const viewport=$("market-viewport"),toggle=$("ticker-toggle"),reduced=window.matchMedia("(prefers-reduced-motion: reduce)");
- const setUserPause=(paused)=>{
-  tickerState.pauseUser=paused;
-  toggle.setAttribute("aria-pressed",String(paused));
-  toggle.textContent=paused?"继续滚动 ▷":"暂停滚动 Ⅱ";
- };
- setUserPause(reduced.matches);
- toggle.addEventListener("click",()=>setUserPause(!tickerState.pauseUser));
+ const viewport=$("market-viewport"),reduced=window.matchMedia("(prefers-reduced-motion: reduce)");
  viewport.addEventListener("mouseenter",()=>{tickerState.hover=true;});
  viewport.addEventListener("mouseleave",()=>{tickerState.hover=false;});
  viewport.addEventListener("focusin",()=>{tickerState.focus=true;});
@@ -464,7 +457,7 @@ function initTicker(){
   const group=$("market-grid").firstElementChild;
   const cycle=group?.offsetWidth||0;
   if(cycle&&viewport.scrollLeft>=cycle)viewport.scrollLeft-=cycle;
-  const paused=tickerState.pauseUser||tickerState.hover||tickerState.focus||document.hidden||reduced.matches||Date.now()<tickerState.holdUntil;
+  const paused=tickerState.hover||tickerState.focus||document.hidden||reduced.matches||Date.now()<tickerState.holdUntil;
   if(!paused&&cycle&&elapsed>0){
    viewport.scrollLeft+=(elapsed*0.038);
    if(viewport.scrollLeft>=cycle)viewport.scrollLeft-=cycle;
