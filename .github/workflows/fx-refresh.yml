@@ -40,6 +40,7 @@ jobs:
           python -c "import json; d=json.load(open('Fx/data/articles.json')); assert isinstance(d['articles'],list); assert isinstance(d['sources'],list); assert d['analysis_mode']=='rule_index'; assert d['window_hours']==168"
           python -c "import json; d=json.load(open('Fx/data/market.json')); assert d['quote_type']=='official_daily_reference_not_realtime_or_executable'; assert isinstance(d['instruments'],list); assert isinstance(d['sources'],list)"
           node --check Fx/app.js
+          node Fx/scripts/test_data_integrity.js
       - name: Determine if data changed materially
         id: material
         run: |
