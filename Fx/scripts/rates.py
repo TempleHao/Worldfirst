@@ -16,14 +16,24 @@ ECB_PAGE = "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_refer
 HKMA_FEED = "https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/er-ir/er-eeri-daily?offset=0&pagesize=30"
 HKMA_PAGE = "https://apidocs.hkma.gov.hk/documentation/market-data-and-statistics/monthly-statistical-bulletin/er-ir/er-eeri-daily/"
 KINDS = ("official_daily_reference", "official_daily_reference_cross")
+# 13 dated ECB/HKMA reference series plus an explicit USD/CNH unavailable slot
+# in the frontend's 14-pair watchlist. Never substitute onshore CNY for CNH.
 PAIRS = (
-    ("EUR/USD", "USD", None),
     ("USD/CNY", "CNY", "USD"),
-    ("USD/JPY", "JPY", "USD"),
     ("USD/HKD", "HKD", "USD"),
+    ("EUR/USD", "USD", None),
+    ("USD/JPY", "JPY", "USD"),
     ("GBP/USD", "USD", "GBP"),
+    ("AUD/USD", "USD", "AUD"),
+    ("NZD/USD", "USD", "NZD"),
+    ("USD/CAD", "CAD", "USD"),
+    ("USD/CHF", "CHF", "USD"),
+    ("USD/SGD", "SGD", "USD"),
     ("EUR/GBP", "GBP", None),
+    ("EUR/JPY", "JPY", None),
+    ("EUR/CHF", "CHF", None),
 )
+ECB_CURRENCIES = {code for _, numerator, denominator in PAIRS for code in (numerator, denominator) if code}
 MAX_BYTES = 2_000_000
 MAX_AGE_DAYS = 14  # Keep older source observations identifiable, never pass as live.
 def now_utc():
@@ -46,7 +56,7 @@ def decimal_rate(value):
 def fetch(url, opener=None):
     opener = opener or urllib.request.urlopen
     req = urllib.request.Request(url, headers={
-        "User-Agent": "WorldfirstFxReferenceData/1.0 (+https://github.com/TempleHao/Worldfirst)",
+        "User-Agent": "FxIntelligenceReferenceData/1.1 (+https://github.com/TempleHao/Worldfirst)",
         "Accept": "application/xml, text/xml, application/json"
     })
     with opener(req, timeout=18) as response:
@@ -66,7 +76,7 @@ def parse_ecb(xml_bytes):
         for child in node:
             if child.tag.rsplit("}", 1)[-1] == "Cube" and child.attrib.get("currency") and child.attrib.get("rate"):
                 c = child.attrib["currency"].upper()
-                if c in {"USD","CNY","JPY","HKD","GBP","CHF","CAD","SGD"}:
+                if c in ECB_CURRENCIES:
                     values[c] = decimal_rate(child.attrib["rate"])
         if values:
             rows[day] = values
@@ -179,7 +189,7 @@ def collect(opener=None):
         "quote_type":"official_daily_reference_not_realtime_or_executable",
         "instruments":items,
         "sources":statuses,
-        "notice":"官方工作日参考/收市数据；ECB衍生交叉汇率使用同日EUR报价相除；非实时、非银行可成交价。无USD/CNH官方报价，不予填充。"
+        "notice":"13组官方日度参考值、同日交叉汇率；CNH并非CNY，尚未接入获授权离岸报价，不得填充。滚动行情为显示方式，不代表数据实时变化。"
     }
 def run():
     data=collect()
