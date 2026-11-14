@@ -113,7 +113,7 @@ svg{display:block}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;pa
 .item-quote .pair{font:500 11px var(--mono);color:var(--cyan)}
 .item-quote .rate{font:500 12px var(--mono);color:#e7f0f7}
 .item-quote a{color:#a2c8d8;text-decoration:underline;text-decoration-color:#4c6170;text-underline-offset:3px}
-.item-quote button{border:0;background:none;padding:0;color:var(--amber)!important;font:400 10px var(--font)}
+.item-quote button,.quote-chart-link{border:0;background:none;padding:0;color:var(--amber);font:400 10px var(--font)}
 .item-foot{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin-top:13px;padding-top:10px;border-top:1px dashed #344352}
 .item-foot a,.item-foot button{font-size:10.5px;border:0;background:none;padding:0;color:var(--cyan)}
 .item-foot a:hover,.item-foot button:hover{text-decoration:underline}
