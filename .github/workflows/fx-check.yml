@@ -30,6 +30,7 @@ jobs:
           from pathlib import Path
           assert Path('radar/index.html').exists(), 'existing radar must remain intact'
           assert Path('Fx/index.html').exists() and Path('Fx/style.css').exists()
+          assert Path('Fx/scripts/test_site_design.py').exists()
           assert '机制实验室' not in Path('Fx/index.html').read_text()
           data=json.loads(Path('Fx/data/articles.json').read_text())
           assert data.get('window_hours')==168 and isinstance(data['articles'],list)

@@ -1,59 +1,61 @@
-"""Cold financial dashboard: visual system, data provenance and navigation contracts."""
+"""Content-first information-flow regression tests."""
 import unittest
 from html.parser import HTMLParser
 from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
 
-ROOT = Path(__file__).resolve().parents[1]
-
-class Ids(HTMLParser):
+class Page(HTMLParser):
     def __init__(self):
-        super().__init__(); self.ids=[]; self.internal=[]
+        super().__init__();self.ids=[];self.links=[];self.tags=[]
     def handle_starttag(self,tag,attrs):
-        d=dict(attrs)
-        if "id" in d:self.ids.append(d["id"])
-        if tag=="a" and d.get("href","").startswith("#"):
-            self.internal.append(d["href"][1:])
+        data=dict(attrs);self.tags.append((tag,data))
+        if data.get("id"):self.ids.append(data["id"])
+        if tag=="a" and data.get("href","").startswith("#"):self.links.append(data["href"][1:])
 
 class SiteDesignTests(unittest.TestCase):
-    def test_navigation_and_data_ids(self):
-        html=(ROOT/"index.html").read_text(encoding="utf-8")
-        p=Ids();p.feed(html)
-        self.assertEqual(len(p.ids),len(set(p.ids)),"duplicate HTML IDs")
-        for name in ["hero-title","hero-dek","hero-source","market-grid","chart-select",
-                     "detail-chart","latest-news","analysis-preview","short-news",
-                     "watch-list","calendar","stream","search","refresh-data","market-warning"]:
-            self.assertIn(name,p.ids)
-        for target in p.internal:
-            if target.startswith("story-"):continue
-            self.assertIn(target,p.ids)
-    def test_sans_serif_cold_design(self):
-        css=(ROOT/"style.css").read_text(encoding="utf-8")
-        html=(ROOT/"index.html").read_text(encoding="utf-8")
-        self.assertIn('"PingFang SC"',css)
-        self.assertIn("font-weight:350",css)
-        self.assertIn("--page:#f5f7fa",css)
-        self.assertIn("@media(max-width:570px)",css)
-        self.assertNotIn("Songti",css)
-        self.assertNotIn("STSong",css)
-        self.assertNotIn("font-family:serif",css)
-        self.assertNotIn("Worldfirst",html)
-        self.assertNotIn("Worldfirst",css)
-    def test_no_fabricated_market_numbers_or_events(self):
-        html=(ROOT/"index.html").read_text(encoding="utf-8")
-        js=(ROOT/"app.js").read_text(encoding="utf-8")
-        for example in ["7.2356","106.84","USD/CNH"]:
-            self.assertNotIn(example,html)
-        self.assertIn('getJSON("./data/articles.json")',js)
-        self.assertIn('getJSON("./data/market.json")',js)
-        self.assertIn("change_5_published_days_pct",js)
-        self.assertIn("sourceMarket",js)
-        self.assertIn("recent(a)",js)
-        self.assertNotIn("Worldfirst",js)
-    def test_real_official_calendar_links(self):
-        html=(ROOT/"index.html").read_text(encoding="utf-8")
-        for domain in ["federalreserve.gov","ecb.europa.eu","boj.or.jp"]:
-            self.assertIn(domain,html)
-        self.assertIn("尚未接入可核实的具体事件时间",html)
+    def setUp(self):
+        self.html=(ROOT/"index.html").read_text(encoding="utf-8")
+        self.css=(ROOT/"style.css").read_text(encoding="utf-8")
+        self.js=(ROOT/"app.js").read_text(encoding="utf-8")
+        self.page=Page();self.page.feed(self.html)
+    def test_single_canonical_news_flow(self):
+        self.assertEqual(len(self.page.ids),len(set(self.page.ids)))
+        for key in ("market-grid","market-chart","detail-chart","market-warning",
+                    "latest-news","stream","article-count","source-list","source-health",
+                    "search","refresh-data","load-more","chart-select","chart-value"):
+            self.assertIn(key,self.page.ids)
+        for removed in ("hero-title","short-news","analysis-preview","watch-list",
+                        "calendar","focus","research","news-rail","analysis"):
+            self.assertNotIn(removed,self.page.ids)
+        self.assertEqual(self.page.ids.count("stream"),1)
+        for target in self.page.links:
+            self.assertIn(target,self.page.ids)
+    def test_sans_serif_and_responsive(self):
+        self.assertIn('"PingFang SC"',self.css)
+        self.assertIn("font-weight:350",self.css)
+        self.assertIn("--bg:#f4f6f8",self.css)
+        self.assertIn("@media(max-width:560px)",self.css)
+        self.assertNotIn("Songti",self.css)
+        self.assertNotIn("STSong",self.css)
+        self.assertNotIn("font-family:serif",self.css)
+        self.assertNotIn("Worldfirst",self.html)
+    def test_no_fabricated_data_or_front_page_placeholders(self):
+        for number in ("7.2356","106.84","USD/CNH"):
+            self.assertNotIn(number,self.html)
+        for source in ('json("./data/articles.json")','json("./data/editorial.json")',
+                       'json("./data/market.json")'):
+            self.assertIn(source,self.js)
+        self.assertIn("change_5_published_days_pct",self.js)
+        self.assertIn("function sevenDays",self.js)
+        self.assertIn("function rateFor",self.js)
+        self.assertIn('source_url',self.js)
+        self.assertNotIn("Worldfirst",self.js)
+    def test_no_redundant_research_calendar_or_fake_news(self):
+        for heading in ("最新资讯","本周重点观察","重要经济日历","本周关注"):
+            self.assertNotIn(heading,self.html)
+        self.assertNotIn('id="hero"',self.html)
+        self.assertNotIn('id="analysis"',self.html)
+        self.assertNotIn("市场解读</h2>",self.html)
+        self.assertIn("数据缺失或过期时直接标明",self.html)
 
-if __name__=="__main__":
-    unittest.main()
+if __name__=="__main__":unittest.main()
