@@ -68,7 +68,14 @@ function validRSSArticle(a){
    ||typeof a.title!=="string"||!a.title.trim()||a.title.length>280
    ||!a.published_at||!Number.isFinite(ms(a.published_at)))return false;
  const required=RSS_DOMAINS[a.source];
- return !!required&&urlHost(a.source_url)===required&&urlHost(a.url)===required
+ // The Bank of Japan still publishes several verified official RSS article links
+ // with http://; permit only this exact official hostname in that legacy case.
+ const articleHost=urlHost(a.url);
+ let legacyBoJ=false;
+ if(a.source==="日本央行·官方发布"&&typeof a.url==="string"){
+  try{const u=new URL(a.url);legacyBoJ=u.protocol==="http:"&&u.hostname==="www.boj.or.jp";}catch{}
+ }
+ return !!required&&urlHost(a.source_url)===required&&(articleHost===required||legacyBoJ)
   &&["official","single_source"].includes(a.verification);
 }
 function validOfficialRate(m){
