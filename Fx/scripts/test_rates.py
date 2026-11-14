@@ -11,7 +11,7 @@ def ecb_xml():
     days=[f"2026-11-{day:02d}" for day in range(6,14)]
     rows=[]
     for idx,day in enumerate(days):
-        rows.append(f"<Cube time='{day}'><Cube currency='USD' rate='{1.10+idx/1000:.4f}'/><Cube currency='CNY' rate='{7.30+idx/100:.4f}'/><Cube currency='JPY' rate='{175+idx:.4f}'/><Cube currency='HKD' rate='8.7'/><Cube currency='GBP' rate='0.84'/></Cube>")
+        rows.append(f"<Cube time='{day}'><Cube currency='USD' rate='{1.10+idx/1000:.4f}'/><Cube currency='CNY' rate='{7.30+idx/100:.4f}'/><Cube currency='JPY' rate='{175+idx:.4f}'/><Cube currency='HKD' rate='8.7'/><Cube currency='GBP' rate='0.84'/><Cube currency='AUD' rate='1.7'/><Cube currency='NZD' rate='1.88'/><Cube currency='CAD' rate='1.55'/><Cube currency='CHF' rate='0.94'/><Cube currency='SGD' rate='1.51'/></Cube>")
     return ("<Envelope xmlns='urn:x'><Cube>"+"".join(rows)+"</Cube></Envelope>").encode()
 class FakeResponse:
     def __init__(self, data):self.body=io.BytesIO(data)
@@ -27,6 +27,14 @@ class RateTests(unittest.TestCase):
         self.assertEqual(instruments["USD/CNY"]["method"],"same_day_cross")
         self.assertEqual(instruments["USD/CNY"]["comparison_date"],"2026-11-08")
         self.assertEqual(len(instruments["USD/CNY"]["points"]),8)
+        self.assertEqual(len(instruments),13)
+        self.assertNotIn("USD/CNH",instruments)
+        self.assertAlmostEqual(instruments["AUD/USD"]["value"],float(Decimal("1.107")/Decimal("1.7")),places=5)
+        self.assertAlmostEqual(instruments["USD/SGD"]["value"],float(Decimal("1.51")/Decimal("1.107")),places=5)
+        self.assertAlmostEqual(instruments["EUR/JPY"]["value"],182,places=4)
+        for pair in ["AUD/USD","NZD/USD","USD/CAD","USD/CHF","USD/SGD","EUR/JPY","EUR/CHF"]:
+            self.assertEqual(instruments[pair]["kind"],"official_daily_reference_cross" if "/" in pair and not pair.startswith("EUR/") else "official_daily_reference" if pair.startswith("EUR/") else "official_daily_reference_cross")
+            self.assertEqual(len(instruments[pair]["points"]),8)
     def test_hkma_daily_close_and_date(self):
         raw=json.dumps({"result":{"records":[{"end_of_day":"2026-11-13","usd":7.8123},{"end_of_day":"2026-11-12","usd":"7.8120"}]}}).encode()
         items=rates.parse_hkma(raw)
