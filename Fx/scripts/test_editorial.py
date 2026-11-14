@@ -16,7 +16,11 @@ class EditorialTests(unittest.TestCase):
                 self.assertGreater(len(note[key]),12)
             self.assertNotIn("<script", str(note).lower())
             if note.get("status")=="primary_checked":
-                self.assertTrue(all(str(link).startswith("https://") for link in note["evidence"]))
+                evidence=note.get("evidence")
+                urls=[evidence] if isinstance(evidence,str) else evidence
+                self.assertIsInstance(urls,list)
+                self.assertTrue(urls)
+                self.assertTrue(all(isinstance(link,str) and link.startswith("https://") for link in urls))
     def test_editorial_coverage_of_initial_news(self):
         news=json.loads((FX/"data"/"articles.json").read_text(encoding="utf-8"))
         editorial=json.loads((FX/"data"/"editorial.json").read_text(encoding="utf-8"))
