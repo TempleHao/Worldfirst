@@ -87,6 +87,37 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(result["new_article_count"],1)
             self.assertEqual(json.loads(s.read_text())["new_article_count"],1)
             self.assertEqual(result["sources"][0]["latest_item_published_at"],"2026-11-13T10:00:00Z")
+    def test_extended_currency_pairs_have_real_relevance_gates(self):
+        for phrase in ("AUD/USD outlook ahead of RBA decision",
+                       "NZD/USD slides after New Zealand inflation data",
+                       "USD/CAD sees Canadian Dollar strengthen",
+                       "USD/CHF breaks a new level"):
+            topic, _, relevant=collect.topic_pairs(phrase)
+            self.assertTrue(relevant,phrase)
+            self.assertNotEqual(topic,"其他")
+        topic,pairs,valid=collect.topic_pairs("离岸人民币USD/CNH走势")
+        self.assertTrue(valid)
+        self.assertIn("USD/CNH",pairs)
+        self.assertNotIn("USD/CNY",pairs)
+
+    def test_aggregator_marked_unverified(self):
+        src=next(x for x in collect.SOURCES if x["kind"]=="aggregator")
+        item={"title":"离岸人民币汇率今日变动", "url":"https://news.google.com/rss/articles/example",
+              "published_at":"2026-11-14T12:00:00Z"}
+        a=collect.make_article(item,src)
+        self.assertEqual(a["verification"],"aggregated_unverified")
+        self.assertEqual(a["time_basis"],"aggregator_listing")
+        self.assertEqual(a["source"],"Google新闻·中文外汇聚合")
+        self.assertEqual(a["url"],item["url"])
+
+    def test_fxstreet_news_source_is_media_not_official(self):
+        src=next(x for x in collect.SOURCES if x["name"]=="FXStreet·全球外汇新闻")
+        a=collect.make_article({"title":"US Dollar gains as central bank acts",
+            "url":"https://www.fxstreet.com/news/test-article",
+            "published_at":"2026-11-14T10:00:00Z"},src)
+        self.assertEqual(a["verification"],"single_source")
+        self.assertEqual(a["time_basis"],"publisher_rss")
+
     def test_zero_success_preserves_archive(self):
         with tempfile.TemporaryDirectory() as folder:
             d=Path(folder)/"articles.json";s=Path(folder)/"status.json"
