@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T17:46:59.480712Z",
-  "attempted_at": "2026-11-14T17:46:59.480712Z",
+  "updated_at": "2026-11-14T18:00:38.463373Z",
+  "attempted_at": "2026-11-14T18:00:38.463373Z",
   "articles": [
     {
       "id": "384e0763e6f53f13",
@@ -1147,13 +1147,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 47,
+      "count": 46,
       "latest_item_published_at": "2026-11-14T14:55:15Z",
       "error": null
     }
   ],
   "latest_article_published_at": "2026-11-14T14:55:15Z",
-  "new_article_count": 47,
+  "new_article_count": 0,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
