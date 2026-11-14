@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T22:23:56.805191Z",
-  "attempted_at": "2026-11-14T22:23:56.805191Z",
+  "updated_at": "2026-11-14T22:46:27.814279Z",
+  "attempted_at": "2026-11-14T22:46:27.814279Z",
   "articles": [
     {
       "id": "384e0763e6f53f13",
@@ -1167,7 +1167,7 @@
     }
   ],
   "latest_article_published_at": "2026-11-14T14:55:15Z",
-  "new_article_count": 1,
+  "new_article_count": 0,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
