@@ -200,8 +200,9 @@ function sparkline(m){
 function marketTile(pair,duplicate=false){
  const m=rateFor(pair),d=delta(m),isCNH=pair==="USD/CNH",isCNY=pair==="USD/CNY";
  const waiting=isCNH&&!m&&["pending","loading"].includes(state.cnhStatus);
- const sourceLabel=isCNH?(m?"第三方·"+m.date.slice(5):waiting?"获取离岸数据中":"离岸源暂不可用"):
-   isCNY?"境内·"+(m?"ECB交叉":"数据不可用"):m?(m.method==="same_day_cross"?"ECB交叉 · ":m.source.includes("香港")?"HKMA参考 · ":"ECB参考 · ")+m.date.slice(5):"校验失败/无数据";
+ const sourceLabel=isCNH?(m?"离岸 · "+m.date.slice(5).replace("-","/"):waiting?"离岸 · 获取中":"离岸 · 暂无数据"):
+   isCNY?(m?"在岸 · "+m.date.slice(5).replace("-","/"):"在岸 · 暂无数据"):
+   m?m.date.slice(5).replace("-","/"):"暂无数据";
  const hint=m?m.source+" · "+m.date+" · "+(isCNH?"第三方日度参考，非官方基准":"官方日度参考/交叉计算")+" · 非可成交价":
   isCNH?(waiting?"正在查询CNH第三方日度参考":"CNH独立数据源不可用，绝不使用在岸CNY代替"):"暂无有效日期的官方日度参考数据";
  const amount=m?quote(m):waiting?"获取中":"暂无数据";
@@ -223,10 +224,7 @@ function renderMarket(){
  '<div class="ticker-run ticker-clone" aria-hidden="true">'+copy+'</div>';
  const first=$("market-grid").firstElementChild?.offsetWidth||0;
  if(first)viewport.scrollLeft=savedScroll%first;
- const latest=state.market.filter(x=>validOfficialRate(x)).map(x=>x.date).sort().at(-1);
- const availableOfficial=R14.filter(pair=>pair!=="USD/CNH"&&!!rateFor(pair)).length;
- const cnhAvailable=!!rateFor("USD/CNH");
- $("market-updated").textContent=(availableOfficial+(cnhAvailable?1:0))+"/14组可读 · "+availableOfficial+"组官方日度"+(cnhAvailable?" + 1组第三方CNH":"")+" · 观察日 "+(latest||"待核实");
+
 }
 function renderChart(){
  const m=rateFor(state.selectedPair),points=series(m),d=delta(m);
