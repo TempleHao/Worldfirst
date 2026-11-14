@@ -56,7 +56,6 @@ const RSS_DOMAINS={
  "欧洲央行·官方发布":"www.ecb.europa.eu",
  "英为财情·外汇新闻":"cn.investing.com","英为财情·外汇分析":"cn.investing.com",
  "日本央行·官方发布":"www.boj.or.jp","国际清算银行·央行讲话":"www.bis.org",
- "FXStreet·全球外汇新闻":"www.fxstreet.com",
  "Google新闻·中文外汇聚合":"news.google.com"
 };
 function urlHost(uri){try{const u=new URL(String(uri));return u.protocol==="https:"?u.hostname.toLowerCase():null;}catch{return null;}}
@@ -266,7 +265,7 @@ function renderChart(){
 }
 function renderSources(){
  const rss=state.sources.map(s=>({
-  name:s.name,ok:!!s.ok,status:s.ok?"已获取":"失败",label:s.ok?"抓取"+(Number.isFinite(Number(s.count))?s.count+"条":"成功")+(s.latest_item_published_at?" · 源最近"+fmt(s.latest_item_published_at):" · 源未提供有效发布时间"):"抓取失败"
+  name:s.name,ok:!!s.ok,status:s.ok?"已获取":"失败",label:s.ok?"抓取"+(Number.isFinite(Number(s.count))?s.count+"条":"成功")+(s.latest_item_published_at?(s.name==="Google新闻·中文外汇聚合"?" · 聚合收录":" · 源最近")+fmt(s.latest_item_published_at):" · 源未提供有效发布时间"):"抓取失败"
  }));
  const market=state.marketSources.map(s=>({
   name:s.name,ok:!!s.ok&&s.date_fresh!==false,
