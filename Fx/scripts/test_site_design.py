@@ -56,7 +56,7 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn("gh workflow run radar-pages.yml",workflow)
         self.assertIn("actions: write",workflow)
     def test_r14_accessible_ticker_with_offshore_cnh_boundary(self):
-        for key in ("market-viewport","ticker-toggle","ticker-prev","ticker-next"):
+        for key in ("market-viewport","ticker-prev","ticker-next"):
             self.assertIn(key,self.page.ids)
         self.assertEqual(sum(tag=="option" for tag,attrs in self.page.tags),14)
         self.assertIn('value="USD/CNH"',self.html)
@@ -85,6 +85,13 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn('workflows: ["Refresh Radar Search Feeds"]',wf)
         self.assertIn("workflow_run:",wf)
         self.assertIn("github.event.workflow_run.conclusion == 'success'",wf)
+    def test_ticker_has_no_manual_pause_toggle(self):
+        self.assertNotIn('ticker-toggle',self.html)
+        self.assertNotIn('ticker-toggle',self.js)
+        self.assertNotIn('pauseUser',self.js)
+        self.assertIn('ticker-prev',self.html)
+        self.assertIn('ticker-next',self.html)
+        self.assertIn('prefers-reduced-motion',self.js)
     def test_r14_half_height_two_line_market_quotation(self):
         self.assertIn("R14 half-height terminal ticker", self.css)
         self.assertIn("height:58px!important;min-height:58px!important;max-height:58px!important", self.css)
@@ -96,9 +103,9 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn(".market-tile .tile-origin{grid-column:2;grid-row:2", self.css)
         self.assertIn(".market-tile .tile-spark{display:none}", self.css)
         self.assertIn(".ticker-controls{flex:0 0 42px;height:58px", self.css)
-        self.assertIn('id="ticker-toggle"', self.html)
+        self.assertNotIn('id="ticker-toggle"', self.html)
         self.assertIn('id="market-viewport"', self.html)
-        self.assertIn("style.css?v=20261114-half-height-r14-r5", self.html)
+        self.assertIn("style.css?v=20261114-no-pause-r6", self.html)
     def test_r14_dense_quote_tiles_keep_readable_rates(self):
         # Layout gets smaller, key numerical data remains bold and visible.
         self.assertIn("R14 density pass",self.css)
@@ -108,7 +115,7 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn("flex:0 0 150px;width:150px!important;min-width:150px",self.css)
         self.assertIn("min-height:108px!important",self.css)
         self.assertIn("font:750 25px/1.13 var(--mono)",self.css)
-        self.assertIn('id="ticker-toggle"',self.html)
+        self.assertNotIn('id="ticker-toggle"',self.html)
         self.assertIn('id="market-grid"',self.html)
     def test_compact_ticker_without_redundant_provenance_labels(self):
         self.assertIn("FX / R14", self.html)
