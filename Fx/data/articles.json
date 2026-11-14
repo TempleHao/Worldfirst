@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T18:52:25.823778Z",
-  "attempted_at": "2026-11-14T18:52:25.823778Z",
+  "updated_at": "2026-11-14T22:23:56.805191Z",
+  "attempted_at": "2026-11-14T22:23:56.805191Z",
   "articles": [
     {
       "id": "384e0763e6f53f13",
@@ -610,6 +610,20 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
+      "id": "53f76067ae0b7a17",
+      "title": "美元指數刷新新高，通脹與鷹派聯儲持續推升美指 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVThPQTRlTXkwT1czTGkxOXFSU2psTXJhc1JrSDg1TXRWVWJJUW82WU5LMnVHaUZSVkExTUN0TXRNT01QTDZyODN6NEYwZDYwcUtrelpyd05Pc0lzVGZJMktrTTNNZHZ5X25mQlpJdFdPU1lvR3k0N1MxYXNRNURXVlRZa0pIQlJtcG5QUXVwWFk1Y25xQUZTTXJPTkJIX2hw?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-12T08:25:30Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "1247a6d85aa94a8d",
       "title": "今日外匯：美元指數攀抵19個月新高，金價跌破4,000美元 - www.tmgm.com",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYjZIbnBRR1NWejZJUTJPMThmejlSdFRXQlF6eUxvM05DZDVJd1Y5dkVXbGdITHZHcWp1SUh3WFhSVmJkalpqa1VWVi1yYTR2d3NTMWgxZFh6M2U1VF9qNzJfT0p3M1BKYnJMX19lLUEwdjZxcDZySDlWSjBKd1JWeXJSeTFCNnhXajI5NmI5eFNaZ3FVa2JtMHlOWGQwZWMxN3ZRQklHWkdadi1sX2F2WlVBZEFfSi1fY1ZYWWpEeWNScGQxWmlhR2R6c3ZyQmRyNGpEZXZxUXdYVmZHMXVmQmRaNnpXUQ?oc=5",
@@ -1147,13 +1161,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 46,
+      "count": 44,
       "latest_item_published_at": "2026-11-14T14:55:15Z",
       "error": null
     }
   ],
   "latest_article_published_at": "2026-11-14T14:55:15Z",
-  "new_article_count": 0,
+  "new_article_count": 1,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
