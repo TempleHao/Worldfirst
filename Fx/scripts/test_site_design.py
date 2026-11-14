@@ -85,6 +85,17 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn('workflows: ["Refresh Radar Search Feeds"]',wf)
         self.assertIn("workflow_run:",wf)
         self.assertIn("github.event.workflow_run.conclusion == 'success'",wf)
+    def test_r14_dense_quote_tiles_keep_readable_rates(self):
+        # Layout gets smaller, key numerical data remains bold and visible.
+        self.assertIn("R14 density pass",self.css)
+        self.assertIn("flex:0 0 164px;width:164px!important;min-width:164px",self.css)
+        self.assertIn("min-height:116px!important",self.css)
+        self.assertIn("font-size:23px!important",self.css)
+        self.assertIn("flex:0 0 150px;width:150px!important;min-width:150px",self.css)
+        self.assertIn("min-height:108px!important",self.css)
+        self.assertIn("font:750 25px/1.13 var(--mono)",self.css)
+        self.assertIn('id="ticker-toggle"',self.html)
+        self.assertIn('id="market-grid"',self.html)
     def test_compact_ticker_without_redundant_provenance_labels(self):
         self.assertIn("FX / R14", self.html)
         self.assertNotIn("market-updated", self.html)
