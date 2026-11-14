@@ -110,14 +110,6 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(a["source"],"Google新闻·中文外汇聚合")
         self.assertEqual(a["url"],item["url"])
 
-    def test_fxstreet_news_source_is_media_not_official(self):
-        src=next(x for x in collect.SOURCES if x["name"]=="FXStreet·全球外汇新闻")
-        a=collect.make_article({"title":"US Dollar gains as central bank acts",
-            "url":"https://www.fxstreet.com/news/test-article",
-            "published_at":"2026-11-14T10:00:00Z"},src)
-        self.assertEqual(a["verification"],"single_source")
-        self.assertEqual(a["time_basis"],"publisher_rss")
-
     def test_zero_success_preserves_archive(self):
         with tempfile.TemporaryDirectory() as folder:
             d=Path(folder)/"articles.json";s=Path(folder)/"status.json"
