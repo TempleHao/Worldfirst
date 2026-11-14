@@ -1,0 +1,37 @@
+"use strict";
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const path=require("node:path");
+const vm=require("node:vm");
+const src=fs.readFileSync(path.join(__dirname,"..","app.js"),"utf8");
+const start=src.indexOf("function parseCNHOpen(");
+const end=src.indexOf("async function loadRemoteCNH",start);
+assert(start>=0&&end>start,"CNH independent parser must exist");
+const ctx={Date,Number,Error,CNH_FREE_DOCS:"https://www.exchangerate-api.com/docs/free",
+ CNH_COMMUNITY_DOCS:"https://github.com/fawazahmed0/exchange-api"};
+vm.createContext(ctx);
+vm.runInContext(src.slice(start,end),ctx);
+const now=Date.parse("2026-11-14T10:00:00Z");
+const observation=Date.parse("2026-11-14T00:02:31Z")/1000;
+const sample={result:"success",base_code:"USD",time_last_update_unix:observation,
+ rates:{CNY:6.684938,CNH:6.67347}};
+const parsed=ctx.parseCNHOpen(sample,now);
+assert.equal(parsed.pair,"USD/CNH");
+assert.equal(parsed.value,6.67347,"must read distinct CNH, never onshore CNY");
+assert.notEqual(parsed.value,sample.rates.CNY);
+assert.equal(parsed.source,"ExchangeRate-API");
+assert.equal(parsed.kind,"third_party_daily_indicative");
+assert.equal(parsed.date,"2026-11-14");
+assert.equal(parsed.change_5_published_days_pct,null);
+assert.equal(parsed.points.length,1,"never invent history from one observation");
+assert.throws(()=>ctx.parseCNHOpen({...sample,rates:{CNY:6.7}},now),/没有有效/);
+assert.throws(()=>ctx.parseCNHOpen({...sample,base_code:"CNY"},now),/无效/);
+assert.throws(()=>ctx.parseCNHOpen({...sample,time_last_update_unix:1},now),/过期/);
+assert.throws(()=>ctx.parseCNHOpen({...sample,rates:{CNH:-1}},now),/没有有效/);
+assert.throws(()=>ctx.parseCNHOpen({...sample,rates:{CNH:"NaN"}},now),/没有有效/);
+const fallback=ctx.parseCNHCommunity({date:"2026-11-14",usd:{cny:6.68,cnh:6.67}},now);
+assert.equal(fallback.value,6.67);
+assert.equal(fallback.kind,"third_party_daily_indicative");
+assert.throws(()=>ctx.parseCNHCommunity({date:"2026-11-14",usd:{cny:6.68}},now),/没有有效/);
+assert.throws(()=>ctx.parseCNHCommunity({date:"2025-01-01",usd:{cnh:6.7}},now),/没有有效/);
+console.log("CNH tests passed: independent source code, direction, age, missing data and no fabricated history.");
