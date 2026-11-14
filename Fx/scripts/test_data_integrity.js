@@ -32,4 +32,8 @@ assert(!ctx.validRSSArticle({...a,source:"Unknown provider"}));
 assert(!ctx.validRSSArticle({...a,source_url:"https://example.com/rss"}));
 assert(!ctx.validRSSArticle({...a,published_at:"not-a-date"}));
 assert(!ctx.validRSSArticle({...a,url:"javascript:alert(1)"}));
+const boj=articles.find(x=>x.source==="日本央行·官方发布"&&x.url.startsWith("http://"));
+if(boj)assert(ctx.validRSSArticle(boj),"real BOJ official legacy URL must remain visible");
+assert(!ctx.validRSSArticle({...a,url:"http://cn.investing.com/news/example"}),"ordinary RSS item must not silently downgrade HTTPS");
+
 console.log("Data integrity tests passed: "+instruments.length+" authentic source-checked rates, "+articles.length+" RSS metadata items; malformed records fail closed.");
