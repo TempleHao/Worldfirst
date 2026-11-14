@@ -73,6 +73,17 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn("market-viewport",self.css)
         self.assertIn("ticker-controls",self.css)
         self.assertNotIn('USD/CNH", "CNY"',self.js)
+    def test_bold_ticker_and_verifiable_market_data(self):
+        self.assertIn("font-size:23px;font-weight:750",self.css)
+        self.assertIn("font:750 25px/1.13 var(--mono)",self.css)
+        self.assertIn("font:700 12.5px/1.2 var(--mono)",self.css)
+        self.assertIn("font:400 10px/1.3 var(--font)",self.css)
+        self.assertIn("tile-change-label",self.js)
+        self.assertIn("validRSSArticle",self.js)
+        self.assertIn("validOfficialRate",self.js)
+        self.assertIn("newsAttempted",self.js)
+        self.assertIn("integrityIssues",self.js)
+        self.assertIn("非事实核验",self.js)
     def test_real_vector_logo_and_attribution(self):
         import xml.etree.ElementTree as ET
         brand=(ROOT/"assets"/"fx-intel-mark.svg")
