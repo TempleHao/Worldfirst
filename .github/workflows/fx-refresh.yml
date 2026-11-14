@@ -1,6 +1,11 @@
 name: FX - Refresh Intelligence Feed
 on:
   workflow_dispatch:
+  # Backup path: the separately scheduled Radar collector is independent.
+  # When its run completes, use it as a second wake-up source for the FX feed.
+  workflow_run:
+    workflows: ["Refresh Radar Search Feeds"]
+    types: [completed]
   schedule:
     - cron: "13,33,53 * * * *"
   push:
@@ -15,6 +20,8 @@ permissions:
   id-token: write
 jobs:
   collect:
+    # A failed radar run must not cause a redundant FX refresh.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     concurrency:
       group: fx-rss-collector
       cancel-in-progress: false
@@ -33,6 +40,27 @@ jobs:
         run: python -m unittest discover -s Fx/scripts -p 'test_*.py' -v
       - name: Fetch and index RSS metadata
         run: python Fx/scripts/collect.py
+      - name: Report collected-news freshness separately from feed fetch time
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import json
+          from pathlib import Path
+          data=json.loads(Path("Fx/data/articles.json").read_text())
+          fetched=data.get("updated_at","unknown")
+          latest=data.get("latest_article_published_at")
+          new=data.get("new_article_count",0)
+          print(f"Last successful RSS fetch: {fetched}")
+          print(f"Latest upstream news publication: {latest or 'none'}")
+          print(f"New source article ids in this run: {new}")
+          report=Path(__import__("os").environ["GITHUB_STEP_SUMMARY"])
+          report.open("a",encoding="utf-8").write(
+              f"### FX RSS Health\n- Success fetch: {fetched}\n"
+              f"- Latest original publication: {latest or 'none'}\n"
+              f"- Newly indexed URLs this run: {new}\n"
+              f"- Feeds fetched: {sum(s.get('ok',False) for s in data.get('sources',[]))}/"
+              f"{len(data.get('sources',[]))}\n")
+          PY
       - name: Collect official daily FX reference series
         run: python Fx/scripts/rates.py
       - name: Validate published JSON contract

@@ -15,7 +15,7 @@ const state={
  articles:[],editorial:{},ai:null,sources:[],market:[],marketSources:[],
  newsUpdated:null,marketUpdated:null,filter:"all",search:"",limit:12,
  selectedPair:"EUR/USD",fetching:false,lastError:null,dataOrigins:{},remoteErrors:{},
- newsAttempted:null,marketAttempted:null,integrityIssues:[],invalidNews:0,
+ newsAttempted:null,marketAttempted:null,integrityIssues:[],invalidNews:0,newsAddedCount:null,newsOriginalLatest:null,
  cnh:null,cnhStatus:"pending",cnhError:null,cnhBusy:false,cnhAttemptedAt:0,cnhProvider:""
 };
 const zhTitles={
@@ -263,7 +263,7 @@ function renderChart(){
 }
 function renderSources(){
  const rss=state.sources.map(s=>({
-  name:s.name,ok:!!s.ok,status:s.ok?"已获取":"失败",label:s.ok?"抓取成功"+(Number.isFinite(Number(s.count))?" · "+s.count+"条":"")+"（未逐篇核实）":"抓取失败"
+  name:s.name,ok:!!s.ok,status:s.ok?"已获取":"失败",label:s.ok?"抓取"+(Number.isFinite(Number(s.count))?s.count+"条":"成功")+(s.latest_item_published_at?" · 源最近"+fmt(s.latest_item_published_at):" · 源未提供有效发布时间"):"抓取失败"
  }));
  const market=state.marketSources.map(s=>({
   name:s.name,ok:!!s.ok&&s.date_fresh!==false,
@@ -341,9 +341,13 @@ function entryHTML(a,lastDay,claims,position){
 function renderNews(){
  const records=allNews(),filtered=records.filter(matching),claims=currentClaims();
  $("article-count").textContent="近七日 "+records.length+" 条";
- const published=records[0]?.published_at;
+ const published=records[0]?.published_at||state.newsOriginalLatest;
+ const publishedAge=Date.now()-ms(published);
+ const sourceQuiet=Number.isFinite(publishedAge)&&publishedAge>=12*3600000?" · 距最近源文章已"+Math.floor(publishedAge/3600000)+"小时":"";
+ const runNew=Number.isInteger(state.newsAddedCount)?" · 本轮新收录"+state.newsAddedCount+"条":"";
  $("feed-status").textContent="当前筛选 "+filtered.length+" 条 · 最新在前 · 北京时间"+
- (published?" · 最新原始新闻发布时间 "+fmt(published):" · 无符合时限的新闻")+
+ (published?" · 最新原文发布 "+fmt(published)+sourceQuiet:" · 暂无含时间的最新文章")+
+ runNew+
  (state.invalidNews?" · "+state.invalidNews+"条元数据未通过来源校验，未展示":"")+
  (state.lastError?" · 最近一次请求异常":"");
  let previous=null;
@@ -388,6 +392,8 @@ async function refresh(){
    state.articles=snapshot.articles.filter(validRSSArticle);
    state.invalidNews=snapshot.articles.length-state.articles.length;
    state.newsAttempted=snapshot.attempted_at||null;
+   state.newsAddedCount=Number.isInteger(snapshot.new_article_count)?snapshot.new_article_count:null;
+   state.newsOriginalLatest=snapshot.latest_article_published_at||null;
    state.sources=Array.isArray(snapshot.sources)?snapshot.sources:[];
    state.newsUpdated=snapshot.updated_at||null;
    state.lastError=null;

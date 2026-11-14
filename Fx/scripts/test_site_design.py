@@ -73,6 +73,18 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn("market-viewport",self.css)
         self.assertIn("ticker-controls",self.css)
         self.assertNotIn('USD/CNH", "CNY"',self.js)
+    def test_freshness_vs_collection_status_and_schedule_fallback(self):
+        self.assertIn("latest_article_published_at",self.js)
+        self.assertIn("new_article_count",self.js)
+        self.assertIn("最新原文发布",self.js)
+        self.assertIn("本轮新收录",self.js)
+        self.assertIn("检查已发布数据",self.html)
+        self.assertIn("不会立即从所有 RSS 源抓取",self.html)
+        from pathlib import Path
+        wf=(ROOT.parent/".github/workflows/fx-refresh.yml").read_text(encoding="utf-8")
+        self.assertIn('workflows: ["Refresh Radar Search Feeds"]',wf)
+        self.assertIn("workflow_run:",wf)
+        self.assertIn("github.event.workflow_run.conclusion == 'success'",wf)
     def test_bold_ticker_and_verifiable_market_data(self):
         self.assertIn("font-size:23px;font-weight:750",self.css)
         self.assertIn("font:750 25px/1.13 var(--mono)",self.css)
