@@ -164,7 +164,8 @@ function entryHTML(a,lastDay,claims,position){
  const analysis=e.insight||e.business?'<div class="item-analysis">'+(e.insight?'<p>'+esc(e.insight)+'</p>':"")+(e.business?'<p>'+esc(e.business)+'</p>':"")+'</div>':"";
  const supplement=claims.filter(c=>c.evidence_ids.includes(a.id)).slice(0,3);
  const note=supplement.length?'<div class="claims"><strong>经证据校验的补充分析</strong>'+supplement.map(c=>'<p>'+esc(c.statement)+'</p>').join("")+'</div>':"";
- const refs=Array.isArray(e.evidence)?e.evidence.filter(Boolean).map(url=>'<p><a href="'+esc(safeURL(url))+'" target="_blank" rel="noopener noreferrer">官方材料与原文 ↗</a></p>').join(""):"";
+ const evidenceList=typeof e.evidence==="string"?[e.evidence]:Array.isArray(e.evidence)?e.evidence:[];
+ const refs=evidenceList.filter(Boolean).map(url=>'<p><a href="'+esc(safeURL(url))+'" target="_blank" rel="noopener noreferrer">官方材料与原文 ↗</a></p>').join(""):"";
  const detail='<div class="proof-brief" id="proof-'+esc(a.id)+'" hidden><p><strong>需要继续关注：</strong>'+esc(e.watch||"该新闻的官方后续信息与原始资料。")+'</p>'+
  '<p><strong>核验范围：</strong>'+(isOfficial?"对应官方公开资料已核对，不能据此推断汇率反应因果。":"目前未完成全部原文核验。部分文字属于基于标题的经济背景解读。")+'</p>'+refs+'</div>';
  return dateHead+'<article class="news-item" id="story-'+esc(a.id)+'" data-article-id="'+esc(a.id)+'">'+
