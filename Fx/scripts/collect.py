@@ -201,10 +201,14 @@ def run():
             articles = collect_source(source)
             gathered.extend(articles)
             success += 1
-            statuses.append({"name": source["name"], "ok": True, "count": len(articles), "error": None})
+            published_dates = [a["published_at"] for a in articles if isinstance(a.get("published_at"), str)]
+            statuses.append({
+                "name": source["name"], "ok": True, "count": len(articles),
+                "latest_item_published_at": max(published_dates, default=None), "error": None
+            })
             print(f"OK {source['name']}: {len(articles)}")
         except (OSError, TimeoutError, ValueError, ET.ParseError) as exc:
-            statuses.append({"name": source["name"], "ok": False, "count": 0, "error": type(exc).__name__})
+            statuses.append({"name": source["name"], "ok": False, "count": 0, "latest_item_published_at": None, "error": type(exc).__name__})
             print(f"FAIL {source['name']}: {type(exc).__name__}", file=sys.stderr)
     current = utcnow()
     now_iso = current.isoformat().replace("+00:00", "Z")
@@ -230,10 +234,17 @@ def run():
             continue
         items.append(a)
     items = dedup(items)
+    # A successful HTTP fetch is not evidence that publishers released a new article.
+    old_ids = {a.get("id") for a in old_articles if isinstance(a, dict)}
+    new_count = sum(1 for a in items if a.get("id") not in old_ids)
+    latest_published = max((a["published_at"] for a in items), default=None)
     last_success = now_iso if success else old.get("updated_at")
     data = {
         "schema_version": 1, "updated_at": last_success, "attempted_at": now_iso,
-        "articles": items, "sources": statuses, "analysis_mode": "rule_index",
+        "articles": items, "sources": statuses,
+        "latest_article_published_at": latest_published,
+        "new_article_count": new_count,
+        "analysis_mode": "rule_index",
         "window_hours": 168,
         "ai_brief": None,
         "message": "Model analysis is not automated by the GitHub script. Source metadata only."
@@ -242,11 +253,13 @@ def run():
     write_json(STATUS, {
         "attempted_at": now_iso, "last_successful_at": last_success,
         "success_count": success, "total_sources": len(SOURCES),
-        "sources": statuses, "article_count": len(items)
+        "sources": statuses, "article_count": len(items),
+        "latest_article_published_at": latest_published,
+        "new_article_count": new_count
     })
     if success == 0:
         print("Warning: all RSS sources failed; preserved last successful data.", file=sys.stderr)
-    print(f"articles={len(items)} sources_ok={success}/{len(SOURCES)}")
+    print(f"articles={len(items)} new_ids={new_count} latest_source_publication={latest_published} sources_ok={success}/{len(SOURCES)}")
 
 if __name__ == "__main__":
     run()
