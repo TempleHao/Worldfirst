@@ -55,7 +55,9 @@ const RSS_DOMAINS={
  "美联储·货币政策":"www.federalreserve.gov","美联储·讲话":"www.federalreserve.gov",
  "欧洲央行·官方发布":"www.ecb.europa.eu",
  "英为财情·外汇新闻":"cn.investing.com","英为财情·外汇分析":"cn.investing.com",
- "日本央行·官方发布":"www.boj.or.jp","国际清算银行·央行讲话":"www.bis.org"
+ "日本央行·官方发布":"www.boj.or.jp","国际清算银行·央行讲话":"www.bis.org",
+ "FXStreet·全球外汇新闻":"www.fxstreet.com",
+ "Google新闻·中文外汇聚合":"news.google.com"
 };
 function urlHost(uri){try{const u=new URL(String(uri));return u.protocol==="https:"?u.hostname.toLowerCase():null;}catch{return null;}}
 function strictDay(day){
@@ -75,8 +77,11 @@ function validRSSArticle(a){
  if(a.source==="日本央行·官方发布"&&typeof a.url==="string"){
   try{const u=new URL(a.url);legacyBoJ=u.protocol==="http:"&&u.hostname==="www.boj.or.jp";}catch{}
  }
+ const isAggregate=a.source==="Google新闻·中文外汇聚合";
+ const expected=isAggregate?"aggregated_unverified":a.source.includes("官方")||a.source.startsWith("美联储")||a.source.startsWith("国际清算银行")?"official":"single_source";
  return !!required&&urlHost(a.source_url)===required&&(articleHost===required||legacyBoJ)
-  &&["official","single_source"].includes(a.verification);
+  &&a.verification===expected
+  &&(!isAggregate||a.time_basis==="aggregator_listing");
 }
 function validOfficialRate(m){
  if(!m||m.pair==="USD/CNH"||!R14.includes(m.pair)||!strictDay(m.date)
@@ -329,10 +334,10 @@ function entryHTML(a,lastDay,claims,position){
  const detail='<div class="proof-brief" id="proof-'+esc(a.id)+'" hidden><p><strong>需要继续关注：</strong>'+esc(e.watch||"该新闻的官方后续信息与原始资料。")+'</p>'+
  '<p><strong>核验范围：</strong>'+(isOfficial?"编辑记录提供了可查看的官方资料链接；请以原始文本为准，不能直接推断价格变化因果。":"目前未完成全部原文核验。部分文字属于基于标题的经济背景解读。")+'</p>'+refs+'</div>';
  return dateHead+'<article class="news-item" id="story-'+esc(a.id)+'" data-article-id="'+esc(a.id)+'">'+
- '<div class="item-time">'+esc(fmt(a.published_at,hourFmt))+'<small>GMT +8</small></div>'+
+ '<div class="item-time">'+esc(fmt(a.published_at,hourFmt))+'<small>'+(a.verification==="aggregated_unverified"?"聚合收录":"GMT +8")+'</small></div>'+
  '<div class="item-main"><div class="item-byline"><span class="item-topic">'+esc(a.topic||"外汇市场")+'</span><span>'+esc(a.source||"来源待核实")+'</span></div>'+
  '<h2 class="item-headline">'+esc(headline(a))+'</h2>'+dek+analysis+articleRate(a)+note+
- '<div class="item-foot"><span class="proof'+(isOfficial?" checked":"")+'">'+(isOfficial?"标记为已核对官方原文":e.dek||e.insight?"背景解读 · 有待补充核验":"原始资讯 · 尚无独立解读")+'</span>'+
+ '<div class="item-foot"><span class="proof'+(isOfficial?" checked":"")+'">'+(isOfficial?"标记为已核对官方原文":e.dek||e.insight?"背景解读 · 有待补充核验":a.verification==="aggregated_unverified"?"聚合索引 · 事件未经独立核验":"原始资讯 · 尚无独立解读")+'</span>'+
  '<button type="button" data-proof="'+esc(a.id)+'" aria-controls="proof-'+esc(a.id)+'" aria-expanded="false">证据与后续关注 ▾</button>'+
  '<a href="'+esc(safeURL(a.url))+'" target="_blank" rel="noopener noreferrer">原文 ↗</a></div>'+detail+'</div></article>';
 }
@@ -341,10 +346,10 @@ function renderNews(){
  $("article-count").textContent="近七日 "+records.length+" 条";
  const published=records[0]?.published_at||state.newsOriginalLatest;
  const publishedAge=Date.now()-ms(published);
- const sourceQuiet=Number.isFinite(publishedAge)&&publishedAge>=12*3600000?" · 距最近源文章已"+Math.floor(publishedAge/3600000)+"小时":"";
+ const sourceQuiet=Number.isFinite(publishedAge)&&publishedAge>=12*3600000?" · 距最近RSS条目已"+Math.floor(publishedAge/3600000)+"小时":"";
  const runNew=Number.isInteger(state.newsAddedCount)?" · 本轮新收录"+state.newsAddedCount+"条":"";
  $("feed-status").textContent="当前筛选 "+filtered.length+" 条 · 最新在前 · 北京时间"+
- (published?" · 最新原文发布 "+fmt(published)+sourceQuiet:" · 暂无含时间的最新文章")+
+ (published?" · 最新 RSS 条目时间 "+fmt(published)+sourceQuiet:" · 暂无含时间的最新文章")+
  runNew+
  (state.invalidNews?" · "+state.invalidNews+"条元数据未通过来源校验，未展示":"")+
  (state.lastError?" · 最近一次请求异常":"");
