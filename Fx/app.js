@@ -15,6 +15,7 @@ const state={
  articles:[],editorial:{},ai:null,sources:[],market:[],marketSources:[],
  newsUpdated:null,marketUpdated:null,filter:"all",search:"",limit:12,
  selectedPair:"EUR/USD",fetching:false,lastError:null,dataOrigins:{},remoteErrors:{},
+ newsAttempted:null,marketAttempted:null,integrityIssues:[],invalidNews:0,
  cnh:null,cnhStatus:"pending",cnhError:null,cnhBusy:false,cnhAttemptedAt:0,cnhProvider:""
 };
 const zhTitles={
@@ -49,8 +50,59 @@ function matching(a){
  const e=editorial(a),q=state.search.trim().toLocaleLowerCase("zh-CN");
  return [a.title,headline(a),a.source,a.topic,(a.pairs||[]).join(" "),e.dek,e.insight,e.business].join(" ").toLocaleLowerCase("zh-CN").includes(q);
 }
+// Fail closed on malformed, mismatched, stale or falsely-labelled source records.
+const RSS_DOMAINS={
+ "美联储·货币政策":"www.federalreserve.gov","美联储·讲话":"www.federalreserve.gov",
+ "欧洲央行·官方发布":"www.ecb.europa.eu",
+ "英为财情·外汇新闻":"cn.investing.com","英为财情·外汇分析":"cn.investing.com",
+ "日本央行·官方发布":"www.boj.or.jp","国际清算银行·央行讲话":"www.bis.org"
+};
+function urlHost(uri){try{const u=new URL(String(uri));return u.protocol==="https:"?u.hostname.toLowerCase():null;}catch{return null;}}
+function strictDay(day){
+ if(typeof day!=="string"||!/^\d{4}-\d{2}-\d{2}$/.test(day))return false;
+ const t=Date.parse(day+"T00:00:00Z");
+ return Number.isFinite(t)&&new Date(t).toISOString().slice(0,10)===day;
+}
+function validRSSArticle(a){
+ if(!a||typeof a.id!=="string"||!/^[a-f0-9]{16}$/.test(a.id)
+   ||typeof a.title!=="string"||!a.title.trim()||a.title.length>280
+   ||!a.published_at||!Number.isFinite(ms(a.published_at)))return false;
+ const required=RSS_DOMAINS[a.source];
+ return !!required&&urlHost(a.source_url)===required&&urlHost(a.url)===required
+  &&["official","single_source"].includes(a.verification);
+}
+function validOfficialRate(m){
+ if(!m||m.pair==="USD/CNH"||!R14.includes(m.pair)||!strictDay(m.date)
+   ||typeof m.value!=="number"||!Number.isFinite(m.value)||m.value<=0||m.value>1000000)return false;
+ const cross=m.method==="same_day_cross";
+ const direct=["direct_eur_reference","direct_hkd_close"].includes(m.method);
+ if(!cross&&!direct)return false;
+ if(m.kind!==(cross?"official_daily_reference_cross":"official_daily_reference"))return false;
+ if(m.source==="欧洲央行 ECB"){
+  if(urlHost(m.source_url)!=="www.ecb.europa.eu"||m.method==="direct_hkd_close")return false;
+ }else if(m.source==="香港金管局 HKMA"){
+  if(urlHost(m.source_url)!=="apidocs.hkma.gov.hk"||m.method!=="direct_hkd_close"||m.pair!=="USD/HKD")return false;
+ }else return false;
+ if(!Array.isArray(m.points)||!m.points.length||m.points.length>120)return false;
+ let lastDate="",lastValue=0;
+ for(const p of m.points){
+  if(!p||!strictDay(p.date)||p.date<=lastDate||typeof p.value!=="number"
+   ||!Number.isFinite(p.value)||p.value<=0||p.value>1000000)return false;
+  lastDate=p.date;lastValue=p.value;
+ }
+ if(lastDate!==m.date||Math.abs(lastValue-m.value)>0.000002)return false;
+ if(m.change_5_published_days_pct!=null){
+  if(typeof m.change_5_published_days_pct!=="number"||!Number.isFinite(m.change_5_published_days_pct)
+    ||!strictDay(m.comparison_date))return false;
+  const compare=m.points.find(p=>p.date===m.comparison_date);
+  if(!compare||compare.date>=m.date)return false;
+  const computed=(m.value/compare.value-1)*100;
+  if(Math.abs(computed-m.change_5_published_days_pct)>0.02)return false;
+ }
+ return true;
+}
 function rateFor(pair){
- const m=pair==="USD/CNH"?state.cnh:state.market.find(x=>x?.pair===pair&&x.source&&x.date&&Number.isFinite(Number(x.value))&&Number(x.value)>0);
+ const m=pair==="USD/CNH"?state.cnh:state.market.find(x=>x?.pair===pair&&validOfficialRate(x));
  if(!m)return null;
  const day=ms(m.date+"T00:00:00Z"),age=Date.now()-day;
  return Number.isFinite(day)&&age>=-24*3600000&&age<=FX_DATA_AGE_DAYS*24*3600000?m:null;
@@ -141,17 +193,18 @@ function sparkline(m){
 function marketTile(pair,duplicate=false){
  const m=rateFor(pair),d=delta(m),isCNH=pair==="USD/CNH",isCNY=pair==="USD/CNY";
  const waiting=isCNH&&!m&&["pending","loading"].includes(state.cnhStatus);
- const sourceLabel=isCNH?(m?"第三方 "+m.date.slice(5):waiting?"获取离岸数据中":"离岸源暂不可用"):
-   isCNY?"境内官方参考":m?(m.source.includes("香港")?"HKMA · ":"ECB · ")+m.date.slice(5):"暂无有效参考";
+ const sourceLabel=isCNH?(m?"第三方·"+m.date.slice(5):waiting?"获取离岸数据中":"离岸源暂不可用"):
+   isCNY?"境内·"+(m?"ECB交叉":"数据不可用"):m?(m.method==="same_day_cross"?"ECB交叉 · ":m.source.includes("香港")?"HKMA参考 · ":"ECB参考 · ")+m.date.slice(5):"校验失败/无数据";
  const hint=m?m.source+" · "+m.date+" · "+(isCNH?"第三方日度参考，非官方基准":"官方日度参考/交叉计算")+" · 非可成交价":
   isCNH?(waiting?"正在查询CNH第三方日度参考":"CNH独立数据源不可用，绝不使用在岸CNY代替"):"暂无有效日期的官方日度参考数据";
  const amount=m?quote(m):waiting?"获取中":"暂无数据";
+ const changeLabel=d===null?'':'<span class="tile-change-label">5D</span>';
  return '<button type="button" class="market-tile'+(state.selectedPair===pair?" active":"")+
    (!m?" unquoted":"")+(isCNH?" offshore-rate":"")+'" data-pair="'+pair+'"'+(duplicate?' tabindex="-1"':'')+
    ' aria-label="'+esc(pair)+" · "+esc(hint)+
    '" title="'+esc(hint)+'"><span class="tile-code">'+esc(pair)+'</span>'+
    '<span class="tile-amount'+(!m?" missing":"")+'">'+esc(amount)+'</span>'+
-   '<span class="tile-bottom"><span class="tile-delta '+deltaStyle(d)+'">'+deltaLabel(d)+'</span>'+sparkline(m)+'</span>'+
+   '<span class="tile-bottom"><span class="tile-delta '+deltaStyle(d)+'">'+changeLabel+deltaLabel(d)+'</span>'+sparkline(m)+'</span>'+
    '<small class="tile-origin">'+esc(sourceLabel)+'</small></button>';
 }
 function renderMarket(){
@@ -163,10 +216,10 @@ function renderMarket(){
  '<div class="ticker-run ticker-clone" aria-hidden="true">'+copy+'</div>';
  const first=$("market-grid").firstElementChild?.offsetWidth||0;
  if(first)viewport.scrollLeft=savedScroll%first;
- const latest=state.market.filter(x=>x?.date).map(x=>x.date).sort().at(-1);
+ const latest=state.market.filter(x=>validOfficialRate(x)).map(x=>x.date).sort().at(-1);
  const availableOfficial=R14.filter(pair=>pair!=="USD/CNH"&&!!rateFor(pair)).length;
  const cnhAvailable=!!rateFor("USD/CNH");
- $("market-updated").textContent=(availableOfficial+(cnhAvailable?1:0))+"/14组可读 · "+availableOfficial+"组官方日度"+(cnhAvailable?" + 1组第三方CNH":"")+" · 官方最近 "+(latest||"待核实");
+ $("market-updated").textContent=(availableOfficial+(cnhAvailable?1:0))+"/14组可读 · "+availableOfficial+"组官方日度"+(cnhAvailable?" + 1组第三方CNH":"")+" · 观察日 "+(latest||"待核实");
 }
 function renderChart(){
  const m=rateFor(state.selectedPair),points=series(m),d=delta(m);
@@ -203,7 +256,7 @@ function renderChart(){
 }
 function renderSources(){
  const rss=state.sources.map(s=>({
-  name:s.name,ok:!!s.ok,status:s.ok?"已获取":"失败",label:s.ok?"成功"+(Number.isFinite(Number(s.count))?" · "+s.count+"条":""):"失败"
+  name:s.name,ok:!!s.ok,status:s.ok?"已获取":"失败",label:s.ok?"抓取成功"+(Number.isFinite(Number(s.count))?" · "+s.count+"条":"")+"（未逐篇核实）":"抓取失败"
  }));
  const market=state.marketSources.map(s=>({
   name:s.name,ok:!!s.ok&&s.date_fresh!==false,
@@ -217,7 +270,8 @@ function renderSources(){
  const sources=[...rss,...market,cnSource];
  $("source-list").innerHTML=sources.length?sources.map(s=>'<div class="source-row"><span>'+esc(s.name)+'</span><small class="'+(!s.ok?"bad":"")+'">'+esc(s.label)+'</small></div>').join(""):'<p class="loading">尚未取得信源健康记录。</p>';
  const old=state.marketSources.filter(s=>s.ok&&s.date_fresh===false).map(s=>s.name+" "+(s.last_observation_date||"未知日期"));
- $("market-warning").textContent="汇率为官方日度参考或同日交叉计算，非银行成交报价。"+
+ $("market-warning").textContent="13组来源为官方日度参考或同日交叉；USD/CNH独立第三方日度参考。全部不是实时或银行成交报价。"+
+ (state.integrityIssues.length?"本次有"+state.integrityIssues.length+"组报价未通过日期、来源或历史数值一致性校验，已隐藏。":"")+
  (old.length?"以下来源本轮数据滞后："+old.join("、")+"；过期值不会覆盖新观察。":"原始日期与来源在数据详情中展示。");
 }
 function renderStatus(){
@@ -225,11 +279,12 @@ function renderStatus(){
  const recent=Number.isFinite(n)&&age>=0&&age<=70*60*1000;
  const source=state.dataOrigins.news==="repository"?"仓库最新数据":state.dataOrigins.news==="page"?"网站静态备份":"数据源未知";
  const delay=Number.isFinite(age)&&age>=0?(age<3600000?Math.floor(age/60000)+"分钟前":(age/3600000).toFixed(1)+"小时前"):"时间未核实";
- $("latest-update").textContent=Number.isFinite(n)?"RSS "+source+" · "+fmt(state.newsUpdated)+"（北京）· "+delay+(recent?"":" · 更新延迟"):"RSS 尚无有效采集时间";
+ const attempt=ms(state.newsAttempted);
+ $("latest-update").textContent=Number.isFinite(n)?"RSS "+source+" · 最近成功拉取 "+fmt(state.newsUpdated)+"（北京）· "+delay+(recent?"":" · 更新延迟")+(Number.isFinite(attempt)&&attempt>n+30000?" · 最近尝试 "+fmt(state.newsAttempted):""):"RSS 尚无有效成功拉取时间";
  const lamp=$("status-light");lamp.classList.toggle("good",recent);lamp.classList.toggle("bad",!recent);
  lamp.title=recent?"最近成功采集处于预期窗口内":"最近成功采集已超出预期窗口，可能存在调度、采集或发布故障";
  const healthy=state.sources.filter(x=>x.ok).length;
- $("source-health").textContent=state.sources.length?"上次检查 "+healthy+"/"+state.sources.length+" 源成功":"RSS 信源状态未取得";
+ $("source-health").textContent=state.sources.length?"上次拉取 "+healthy+"/"+state.sources.length+" 源成功（非事实核验）":"RSS 信源状态未取得";
  $("beijing-clock").textContent=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date())+" 北京";
 }
 function pairForArticle(a){
@@ -257,28 +312,33 @@ function currentClaims(){
 }
 function entryHTML(a,lastDay,claims,position){
  const e=editorial(a),day=fmt(a.published_at,dayFmt);
- const isOfficial=e.status==="primary_checked";
+ const evidenceURLs=typeof e.evidence==="string"?[e.evidence]:Array.isArray(e.evidence)?e.evidence:[];
+ const isOfficial=e.status==="primary_checked"&&evidenceURLs.some(url=>urlHost(url)!==null);
  const dateHead=day!==lastDay?'<div class="news-date">'+esc(day)+' <span>BEIJING TIME</span></div>':"";
  const dek=e.dek?'<p class="item-dek">'+esc(e.dek)+'</p>':"";
  const analysis=e.insight||e.business?'<div class="item-analysis">'+(e.insight?'<p>'+esc(e.insight)+'</p>':"")+(e.business?'<p>'+esc(e.business)+'</p>':"")+'</div>':"";
  const supplement=claims.filter(c=>c.evidence_ids.includes(a.id)).slice(0,3);
- const note=supplement.length?'<div class="claims"><strong>经证据校验的补充分析</strong>'+supplement.map(c=>'<p>'+esc(c.statement)+'</p>').join("")+'</div>':"";
+ const note=supplement.length?'<div class="claims"><strong>已关联来源的研究补充（结论仍需复核）</strong>'+supplement.map(c=>'<p>'+esc(c.statement)+'</p>').join("")+'</div>':"";
  const evidenceList=typeof e.evidence==="string"?[e.evidence]:Array.isArray(e.evidence)?e.evidence:[];
  const refs=evidenceList.filter(Boolean).map(url=>'<p><a href="'+esc(safeURL(url))+'" target="_blank" rel="noopener noreferrer">官方材料与原文 ↗</a></p>').join("");
  const detail='<div class="proof-brief" id="proof-'+esc(a.id)+'" hidden><p><strong>需要继续关注：</strong>'+esc(e.watch||"该新闻的官方后续信息与原始资料。")+'</p>'+
- '<p><strong>核验范围：</strong>'+(isOfficial?"对应官方公开资料已核对，不能据此推断汇率反应因果。":"目前未完成全部原文核验。部分文字属于基于标题的经济背景解读。")+'</p>'+refs+'</div>';
+ '<p><strong>核验范围：</strong>'+(isOfficial?"编辑记录提供了可查看的官方资料链接；请以原始文本为准，不能直接推断价格变化因果。":"目前未完成全部原文核验。部分文字属于基于标题的经济背景解读。")+'</p>'+refs+'</div>';
  return dateHead+'<article class="news-item" id="story-'+esc(a.id)+'" data-article-id="'+esc(a.id)+'">'+
  '<div class="item-time">'+esc(fmt(a.published_at,hourFmt))+'<small>GMT +8</small></div>'+
  '<div class="item-main"><div class="item-byline"><span class="item-topic">'+esc(a.topic||"外汇市场")+'</span><span>'+esc(a.source||"来源待核实")+'</span></div>'+
  '<h2 class="item-headline">'+esc(headline(a))+'</h2>'+dek+analysis+articleRate(a)+note+
- '<div class="item-foot"><span class="proof'+(isOfficial?" checked":"")+'">'+(isOfficial?"已核对官方原文":e.dek||e.insight?"背景解读 · 有待补充核验":"原始资讯 · 尚无独立解读")+'</span>'+
+ '<div class="item-foot"><span class="proof'+(isOfficial?" checked":"")+'">'+(isOfficial?"标记为已核对官方原文":e.dek||e.insight?"背景解读 · 有待补充核验":"原始资讯 · 尚无独立解读")+'</span>'+
  '<button type="button" data-proof="'+esc(a.id)+'" aria-controls="proof-'+esc(a.id)+'" aria-expanded="false">证据与后续关注 ▾</button>'+
  '<a href="'+esc(safeURL(a.url))+'" target="_blank" rel="noopener noreferrer">原文 ↗</a></div>'+detail+'</div></article>';
 }
 function renderNews(){
  const records=allNews(),filtered=records.filter(matching),claims=currentClaims();
  $("article-count").textContent="近七日 "+records.length+" 条";
- $("feed-status").textContent="当前筛选 "+filtered.length+" 条 · 最新在前 · 北京时间"+(state.lastError?" · 最近一次请求异常":"");
+ const published=records[0]?.published_at;
+ $("feed-status").textContent="当前筛选 "+filtered.length+" 条 · 最新在前 · 北京时间"+
+ (published?" · 最新原始新闻发布时间 "+fmt(published):" · 无符合时限的新闻")+
+ (state.invalidNews?" · "+state.invalidNews+"条元数据未通过来源校验，未展示":"")+
+ (state.lastError?" · 最近一次请求异常":"");
  let previous=null;
  $("stream").innerHTML=filtered.length?filtered.slice(0,state.limit).map((a,i)=>{
   const html=entryHTML(a,previous,claims,i);previous=fmt(a.published_at,dayFmt);return html;
@@ -318,7 +378,9 @@ async function refresh(){
    state.dataOrigins.news=news.value.origin;
    state.remoteErrors.news=news.value.remoteError||null;
    const snapshot=news.value.value;
-   state.articles=snapshot.articles.filter(a=>a?.id&&a?.title&&a?.url&&a?.published_at);
+   state.articles=snapshot.articles.filter(validRSSArticle);
+   state.invalidNews=snapshot.articles.length-state.articles.length;
+   state.newsAttempted=snapshot.attempted_at||null;
    state.sources=Array.isArray(snapshot.sources)?snapshot.sources:[];
    state.newsUpdated=snapshot.updated_at||null;
    state.lastError=null;
@@ -326,7 +388,10 @@ async function refresh(){
   if(results[1].status==="fulfilled")state.editorial=results[1].value?.value?.items||{};
   if(results[2].status==="fulfilled"){
    const snapshot=results[2].value.value;
-   state.market=Array.isArray(snapshot?.instruments)?snapshot.instruments:[];
+   const raw=Array.isArray(snapshot?.instruments)?snapshot.instruments:[];
+   state.integrityIssues=raw.filter(m=>!validOfficialRate(m)).map(m=>m?.pair||"未知货币对");
+   state.market=raw.filter(validOfficialRate);
+   state.marketAttempted=snapshot?.attempted_at||null;
    state.marketSources=Array.isArray(snapshot?.sources)?snapshot.sources:[];
    state.marketUpdated=snapshot?.last_successful_at||null;
   }
