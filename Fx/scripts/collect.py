@@ -27,7 +27,6 @@ SOURCES = [
     {"name": "英为财情·外汇分析", "url": "https://cn.investing.com/rss/forex.rss", "kind": "media"},
     {"name": "日本央行·官方发布", "url": "https://www.boj.or.jp/en/rss/whatsnew.xml", "kind": "official"},
     {"name": "国际清算银行·央行讲话", "url": "https://www.bis.org/doclist/cbspeeches.rss", "kind": "official"},
-    {"name": "FXStreet·全球外汇新闻", "url": "https://www.fxstreet.com/rss/news", "kind": "media"},
     # Google News is an aggregator. Index only its own article title, listing timestamp
     # and its news.google.com redirect; never assert it independently verified the event.
     {"name": "Google新闻·中文外汇聚合", "url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans", "kind": "aggregator"},
