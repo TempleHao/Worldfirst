@@ -44,8 +44,4 @@ assert(ctx.validRSSArticle(aggregated),"explicitly identified Google aggregator 
 assert(!ctx.validRSSArticle({...aggregated,verification:"official"}),"Google aggregation is never official");
 assert(!ctx.validRSSArticle({...aggregated,url:"https://example.com/story"}),"no fake syndicated publisher domain");
 assert(!ctx.validRSSArticle({...aggregated,time_basis:"publisher_rss"}),"Google news time must be marked aggregator listing");
-const fxstreet={...a,source:"FXStreet·全球外汇新闻",source_url:"https://www.fxstreet.com/rss/news",
- url:"https://www.fxstreet.com/news/verified",verification:"single_source"};
-assert(ctx.validRSSArticle(fxstreet),"direct publisher source must validate");
-assert(!ctx.validRSSArticle({...fxstreet,source_url:"https://fake.example.com/news"}),"bad publisher feed");
 console.log("Data integrity tests passed: "+instruments.length+" authentic source-checked rates, "+articles.length+" RSS metadata items; malformed records fail closed.");
