@@ -450,3 +450,7 @@ svg{display:block}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;pa
  .ticker-controls button{min-height:0;padding:0;font-size:12px}
  .ticker-controls #ticker-toggle{font-size:7.5px}
 }
+
+/* Pause toggle removed: arrows remain as simple manual navigation. */
+.ticker-controls{justify-content:stretch}
+.ticker-controls button{flex:1 1 50%;min-height:0}
