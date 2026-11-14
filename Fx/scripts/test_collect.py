@@ -83,6 +83,10 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(len(result["articles"]),1)
             self.assertEqual(result["articles"][0]["url"],"https://example.com/recent")
             self.assertEqual(result["window_hours"],168)
+            self.assertEqual(result["latest_article_published_at"],"2026-11-13T10:00:00Z")
+            self.assertEqual(result["new_article_count"],1)
+            self.assertEqual(json.loads(s.read_text())["new_article_count"],1)
+            self.assertEqual(result["sources"][0]["latest_item_published_at"],"2026-11-13T10:00:00Z")
     def test_zero_success_preserves_archive(self):
         with tempfile.TemporaryDirectory() as folder:
             d=Path(folder)/"articles.json";s=Path(folder)/"status.json"
@@ -93,6 +97,8 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(len(new["articles"]),1)
             self.assertEqual(new["updated_at"],"2026-11-13T00:00:00Z")
             self.assertEqual(json.loads(s.read_text())["success_count"],0)
+            self.assertEqual(new["new_article_count"],0)
+            self.assertEqual(new["latest_article_published_at"],"2026-11-13T00:00:00Z")
 
 if __name__=="__main__":
     unittest.main()
