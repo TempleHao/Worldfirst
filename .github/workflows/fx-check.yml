@@ -35,7 +35,7 @@ jobs:
           sys.path.insert(0,"Fx/scripts")
           import collect
           for feed in collect.SOURCES:
-              if feed["name"] not in ("FXStreet·全球外汇新闻","Google新闻·中文外汇聚合"):
+              if feed["name"] not in ("Google新闻·中文外汇聚合",):
                   continue
               try:
                   rows=collect.collect_source(feed)
