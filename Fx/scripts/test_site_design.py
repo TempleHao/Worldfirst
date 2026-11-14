@@ -76,7 +76,7 @@ class SiteDesignTests(unittest.TestCase):
     def test_freshness_vs_collection_status_and_schedule_fallback(self):
         self.assertIn("latest_article_published_at",self.js)
         self.assertIn("new_article_count",self.js)
-        self.assertIn("最新原文发布",self.js)
+        self.assertIn("最新 RSS 条目时间",self.js)
         self.assertIn("本轮新收录",self.js)
         self.assertIn("检查已发布数据",self.html)
         self.assertIn("不会立即从所有 RSS 源抓取",self.html)
@@ -85,6 +85,12 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn('workflows: ["Refresh Radar Search Feeds"]',wf)
         self.assertIn("workflow_run:",wf)
         self.assertIn("github.event.workflow_run.conclusion == 'success'",wf)
+    def test_additional_real_news_sources_are_explicitly_unverified(self):
+        self.assertIn("FXStreet·全球外汇新闻",self.js)
+        self.assertIn("Google新闻·中文外汇聚合",self.js)
+        self.assertIn("aggregated_unverified",self.js)
+        self.assertIn("聚合索引 · 事件未经独立核验",self.js)
+        self.assertIn("聚合收录",self.js)
     def test_ticker_has_no_manual_pause_toggle(self):
         self.assertNotIn('ticker-toggle',self.html)
         self.assertNotIn('ticker-toggle',self.js)
@@ -105,7 +111,7 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn(".ticker-controls{flex:0 0 42px;height:58px", self.css)
         self.assertNotIn('id="ticker-toggle"', self.html)
         self.assertIn('id="market-viewport"', self.html)
-        self.assertIn("style.css?v=20261114-no-pause-r6", self.html)
+        self.assertIn("style.css?v=20261115-coverage-r7", self.html)
     def test_r14_dense_quote_tiles_keep_readable_rates(self):
         # Layout gets smaller, key numerical data remains bold and visible.
         self.assertIn("R14 density pass",self.css)
