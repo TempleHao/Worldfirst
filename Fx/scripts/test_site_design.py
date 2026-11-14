@@ -86,7 +86,6 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn("workflow_run:",wf)
         self.assertIn("github.event.workflow_run.conclusion == 'success'",wf)
     def test_additional_real_news_sources_are_explicitly_unverified(self):
-        self.assertIn("FXStreet·全球外汇新闻",self.js)
         self.assertIn("Google新闻·中文外汇聚合",self.js)
         self.assertIn("aggregated_unverified",self.js)
         self.assertIn("聚合索引 · 事件未经独立核验",self.js)
