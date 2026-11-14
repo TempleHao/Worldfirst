@@ -8,7 +8,7 @@
 <title>外汇内参｜全球汇市资讯与解读</title>
 <link rel="icon" type="image/svg+xml" href="./assets/fx-intel-mark.svg">
 <link rel="stylesheet" href="./style.css?v=20261114-market-integrity-r1">
-<script src="./app.js?v=20261114-market-integrity-r1" defer></script>
+<script src="./app.js?v=20261114-source-freshness-r2" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#latest-news">跳转到资讯流</a>
@@ -61,7 +61,7 @@
           <h1>全球汇市动态</h1>
           <p>持续更新的外汇信息与解读。每条内容直接呈现已知事实、分析背景和证据范围。</p>
         </div>
-        <div class="feed-live"><span id="article-count">加载中</span><button id="refresh-data" type="button">检查更新 <span aria-hidden="true">↻</span></button></div>
+        <div class="feed-live"><span id="article-count">加载中</span><button id="refresh-data" type="button" title="只读取已采集和已发布的数据快照，不会立即从所有 RSS 源抓取">检查已发布数据 <span aria-hidden="true">↻</span></button></div>
       </div>
 
       <div class="filter-row">
@@ -74,7 +74,7 @@
         <label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.2"></circle><path d="m15.3 15.3 5.1 5.1"></path></svg><input type="search" id="search" placeholder="搜索资讯 / 货币" aria-label="搜索最近七天资讯"></label>
       </div>
 
-      <div class="feed-status" id="feed-status">最近七天 · 北京时间 · 最新在前</div>
+      <div class="feed-status" id="feed-status">最近七天 · 原文发布时间与采集时间分开显示 · 最新在前</div>
       <div id="stream" class="news-stream" aria-live="polite"><p class="loading">资讯正在载入…</p></div>
       <div class="load-more-wrap"><button id="load-more" type="button" hidden>继续阅读 ↓</button></div>
     </section>
