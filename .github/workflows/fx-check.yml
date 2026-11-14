@@ -26,6 +26,27 @@ jobs:
           node --check Fx/app.js
           node Fx/scripts/test_cnh.js
           node Fx/scripts/test_data_integrity.js
+      - name: Probe candidate live FX RSS feeds (read-only, non-blocking)
+        continue-on-error: true
+        timeout-minutes: 2
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0,"Fx/scripts")
+          import collect
+          for feed in collect.SOURCES:
+              if feed["name"] not in ("FXStreet·全球外汇新闻","Google新闻·中文外汇聚合"):
+                  continue
+              try:
+                  rows=collect.collect_source(feed)
+                  dates=sorted([r["published_at"] for r in rows if r.get("published_at")])
+                  print("LIVE RSS",feed["name"],"relevant",len(rows),
+                        "latest original/listing date",dates[-1] if dates else "none",
+                        "sample",[(r["title"][:90],r["url"][:90]) for r in rows[:3]])
+                  if not rows: raise RuntimeError("No relevant records from candidate source")
+              except Exception as exc:
+                  print("UNAVAILABLE RSS",feed["name"],type(exc).__name__,str(exc)[:120])
+          PY
       - name: Verify external offshore data source and CORS (non-blocking)
         continue-on-error: true
         timeout-minutes: 1
