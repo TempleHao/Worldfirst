@@ -85,6 +85,20 @@ class SiteDesignTests(unittest.TestCase):
         self.assertIn('workflows: ["Refresh Radar Search Feeds"]',wf)
         self.assertIn("workflow_run:",wf)
         self.assertIn("github.event.workflow_run.conclusion == 'success'",wf)
+    def test_r14_half_height_two_line_market_quotation(self):
+        self.assertIn("R14 half-height terminal ticker", self.css)
+        self.assertIn("height:58px!important;min-height:58px!important;max-height:58px!important", self.css)
+        self.assertIn("height:54px!important;min-height:54px!important;max-height:54px!important", self.css)
+        self.assertIn("grid-template-columns:minmax(0,1fr) max-content", self.css)
+        self.assertIn(".market-tile .tile-code{grid-column:1;grid-row:1", self.css)
+        self.assertIn(".market-tile .tile-bottom{grid-column:2;grid-row:1", self.css)
+        self.assertIn(".market-tile .tile-amount{grid-column:1;grid-row:2", self.css)
+        self.assertIn(".market-tile .tile-origin{grid-column:2;grid-row:2", self.css)
+        self.assertIn(".market-tile .tile-spark{display:none}", self.css)
+        self.assertIn(".ticker-controls{flex:0 0 42px;height:58px", self.css)
+        self.assertIn('id="ticker-toggle"', self.html)
+        self.assertIn('id="market-viewport"', self.html)
+        self.assertIn("style.css?v=20261114-half-height-r14-r5", self.html)
     def test_r14_dense_quote_tiles_keep_readable_rates(self):
         # Layout gets smaller, key numerical data remains bold and visible.
         self.assertIn("R14 density pass",self.css)
