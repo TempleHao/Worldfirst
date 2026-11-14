@@ -298,3 +298,44 @@ svg{display:block}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;pa
  .brand-signal{font-size:23px}
  .brand-chinese{font-size:8px}
 }
+
+/* Market typography refinement: distinct hierarchy, no new content modules. */
+.market-overview{grid-template-columns:216px minmax(0,1fr)}
+.market-title{padding:19px 18px}
+.market-title .section-kicker{font:600 10px/1.35 var(--mono);letter-spacing:1.25px;color:#e7ab5c}
+.market-title-row h2{font-family:var(--font);font-size:23px;font-weight:750;line-height:1.25;letter-spacing:.2px;color:#f5f8fb;margin:11px 0 8px}
+.market-title-row #market-updated{display:block;color:#b2c2ce;font:450 10px/1.75 var(--font);letter-spacing:.1px}
+.market-disclaimer{font:400 10px/1.6 var(--font);color:#798e9e;margin-top:9px;max-width:180px}
+.market-tile{flex:0 0 199px;width:199px!important;min-width:199px;min-height:148px!important;
+  display:grid;grid-template-rows:18px 32px 28px 17px;align-content:center;align-items:center;
+  gap:6px;justify-content:stretch;padding:14px 16px!important;transition:background-color .18s ease,border-color .18s ease}
+.market-tile .tile-code{display:block;color:#d8e6f0;font:750 13px/1.1 var(--mono);letter-spacing:.55px}
+.market-tile.active .tile-code{color:#ffc477}
+.market-tile .tile-amount{display:block;color:#f6f9fb;font:750 25px/1.13 var(--mono)!important;
+  letter-spacing:-.8px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.market-tile .tile-amount.missing{color:#a6b6c4;font:550 14px/1.25 var(--font)!important;letter-spacing:0}
+.market-tile .tile-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-width:0}
+.market-tile .tile-delta{font:700 12.5px/1.2 var(--mono);letter-spacing:.05px;white-space:nowrap}
+.market-tile .tile-delta.neutral{color:#94a5b4}
+.market-tile .tile-origin{font:400 10px/1.3 var(--font);color:#859aaa;max-width:165px;letter-spacing:.1px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.market-tile .tile-spark{flex:0 1 73px;width:73px;max-width:73px;height:23px}
+.market-tile .tile-change-label{display:inline-block;font:500 9px var(--mono);color:#849bad;margin-right:4px}
+.market-tile.active{background:linear-gradient(180deg,rgba(245,174,74,.11),rgba(245,174,74,.018))}
+.market-tile:hover{background:#192633}
+.market-tile:focus-visible{outline-offset:-3px}
+@media(max-width:1120px){
+ .market-overview{grid-template-columns:1fr}
+ .market-title{padding:13px 16px}
+ .market-title-row h2{font-size:21px;margin:5px 0}
+ .market-disclaimer{max-width:none}
+ .market-tile{min-height:142px!important}
+}
+@media(max-width:580px){
+ .market-tile{flex-basis:178px;width:178px!important;min-width:178px;min-height:135px!important;
+  padding:10px 13px!important;grid-template-rows:17px 30px 24px 16px;gap:5px}
+ .market-tile .tile-code{font-size:12px}
+ .market-tile .tile-amount{font-size:22px!important}
+ .market-tile .tile-delta{font-size:11.5px}
+ .market-tile .tile-origin{font-size:9.5px}
+ .market-title-row h2{font-size:21px}
+}
