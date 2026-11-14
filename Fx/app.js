@@ -69,7 +69,7 @@ function sparkline(m){
  if(list.length<2)return "";
  const line=polyline(list,72,24,2);
  return '<svg class="tile-spark" viewBox="0 0 72 24" preserveAspectRatio="none" aria-hidden="true"><path d="'+line+'" fill="none" stroke="'+
- (Number(list.at(-1).value)<Number(list[0].value)?"#be5257":"#147c5b")+'" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+ (Number(list.at(-1).value)<Number(list[0].value)?"#f47a81":"#36c996")+'" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
 function renderMarket(){
  const pairs=["USD/CNY","EUR/USD","USD/JPY","GBP/USD","USD/HKD","EUR/GBP"];
@@ -100,13 +100,13 @@ function renderChart(){
  const bottom=h-pad,area=line+" L"+(w-pad)+" "+bottom+" L"+pad+" "+bottom+" Z";
  const vals=points.map(p=>Number(p.value)),max=Math.max(...vals),min=Math.min(...vals);
  target.innerHTML='<svg viewBox="0 0 340 158" role="img" aria-label="'+esc(state.selectedPair)+'官方公布日历史走势">'+
- '<path d="M12 44 H328 M12 86 H328 M12 128 H328" fill="none" stroke="#dce5ed" stroke-width=".8"/>'+
- '<path d="'+area+'" fill="#dbece6" opacity=".7"/>'+
- '<path d="'+line+'" fill="none" stroke="#167c60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'+
- '<text x="12" y="156" font-size="9" fill="#657d91">'+esc(points[0].date.slice(5))+'</text>'+
- '<text x="328" y="156" font-size="9" fill="#657d91" text-anchor="end">'+esc(points.at(-1).date.slice(5))+'</text>'+
- '<text x="328" y="13" font-size="9" fill="#657d91" text-anchor="end">'+max.toFixed(m.pair==="USD/JPY"?2:4)+'</text>'+
- '<text x="328" y="145" font-size="9" fill="#657d91" text-anchor="end">'+min.toFixed(m.pair==="USD/JPY"?2:4)+'</text></svg>';
+ '<path d="M12 44 H328 M12 86 H328 M12 128 H328" fill="none" stroke="#2e4050" stroke-width=".8"/>'+
+ '<path d="'+area+'" fill="#204d50" opacity=".35"/>'+
+ '<path d="'+line+'" fill="none" stroke="#64c9c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'+
+ '<text x="12" y="156" font-size="9" fill="#98acc0">'+esc(points[0].date.slice(5))+'</text>'+
+ '<text x="328" y="156" font-size="9" fill="#98acc0" text-anchor="end">'+esc(points.at(-1).date.slice(5))+'</text>'+
+ '<text x="328" y="13" font-size="9" fill="#98acc0" text-anchor="end">'+max.toFixed(m.pair==="USD/JPY"?2:4)+'</text>'+
+ '<text x="328" y="145" font-size="9" fill="#98acc0" text-anchor="end">'+min.toFixed(m.pair==="USD/JPY"?2:4)+'</text></svg>';
  $("chart-note").textContent=m.source+" · "+m.date+" · "+points.length+"个公布日 · "+(m.method==="same_day_cross"?"同日交叉计算":"直接参考数据")+" · 非实时可成交价";
 }
 function renderSources(){
@@ -150,7 +150,7 @@ function pairForArticle(a){
 function articleRate(a){
  const pair=pairForArticle(a),r=pair&&rateFor(pair);
  if(!r)return "";
- return '<div class="item-quote"><span class="pair">'+esc(pair)+'</span><span class="rate">'+quote(r)+'</span><span>官方 '+esc(r.date)+' 参考，非新闻发生时的成交价</span><a href="'+esc(safeURL(r.source_url))+'" target="_blank" rel="noopener noreferrer">数据来源 ↗</a><button type="button" data-chart-pair="'+esc(pair)+'" style="background:none;border:0;color:#225f91;font-size:10px;padding:0">查看走势 ↗</button></div>';
+ return '<div class="item-quote"><span class="pair">'+esc(pair)+'</span><span class="rate">'+quote(r)+'</span><span>官方 '+esc(r.date)+' 参考，非新闻发生时的成交价</span><a href="'+esc(safeURL(r.source_url))+'" target="_blank" rel="noopener noreferrer">数据来源 ↗</a><button type="button" data-chart-pair="'+esc(pair)+'" class="quote-chart-link">查看走势 ↗</button></div>';
 }
 function currentClaims(){
  const b=state.ai,n=ms(b?.generated_at),age=Date.now()-n;
