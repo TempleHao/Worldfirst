@@ -25,6 +25,7 @@ jobs:
         run: |
           node --check Fx/app.js
           node Fx/scripts/test_cnh.js
+          node Fx/scripts/test_data_integrity.js
       - name: Verify external offshore data source and CORS (non-blocking)
         continue-on-error: true
         timeout-minutes: 1
