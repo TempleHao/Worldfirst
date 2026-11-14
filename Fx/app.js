@@ -2,10 +2,14 @@
 "use strict";
 const $=id=>document.getElementById(id);
 const WINDOW=7*24*60*60*1000;
+// R14 is the 14-pair viewing list, NOT a claim of 14 live providers:
+// 13 sourced ECB/HKMA daily reference pairs, one separate CNH slot awaiting an authorized feed.
+const R14=["USD/CNH","USD/CNY","USD/HKD","EUR/USD","USD/JPY","GBP/USD","AUD/USD","NZD/USD","USD/CAD","USD/CHF","USD/SGD","EUR/GBP","EUR/JPY","EUR/CHF"];
+const FX_DATA_AGE_DAYS=9;
 const state={
  articles:[],editorial:{},ai:null,sources:[],market:[],marketSources:[],
  newsUpdated:null,marketUpdated:null,filter:"all",search:"",limit:12,
- selectedPair:"USD/CNY",fetching:false,lastError:null,dataOrigins:{},remoteErrors:{}
+ selectedPair:"EUR/USD",fetching:false,lastError:null,dataOrigins:{},remoteErrors:{}
 };
 const zhTitles={
  "b2851de93965f784":"欧洲央行施纳贝尔发表《欧洲制造》主题讲话",
@@ -43,7 +47,7 @@ function rateFor(pair){
  const m=state.market.find(x=>x?.pair===pair&&x.source&&x.date&&Number.isFinite(Number(x.value))&&Number(x.value)>0);
  if(!m)return null;
  const day=ms(m.date+"T00:00:00Z"),age=Date.now()-day;
- return Number.isFinite(day)&&age>=-24*3600000&&age<=9*24*3600000?m:null;
+ return Number.isFinite(day)&&age>=-24*3600000&&age<=FX_DATA_AGE_DAYS*24*3600000?m:null;
 }
 function quote(m){return m?Number(m.value).toFixed(m.pair==="USD/JPY"?3:4):"—";}
 function delta(m){
@@ -71,18 +75,31 @@ function sparkline(m){
  return '<svg class="tile-spark" viewBox="0 0 72 24" preserveAspectRatio="none" aria-hidden="true"><path d="'+line+'" fill="none" stroke="'+
  (Number(list.at(-1).value)<Number(list[0].value)?"#f47a81":"#36c996")+'" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
+function marketTile(pair,duplicate=false){
+ const m=rateFor(pair),d=delta(m),isCNH=pair==="USD/CNH",isCNY=pair==="USD/CNY";
+ const stateLabel=isCNH?"离岸·待授权":isCNY?"境内参考":m?(m.source.includes("香港")?"HKMA · ":"ECB · ")+m.date.slice(5):"暂无数据";
+ const hint=isCNH?"CNH是离岸人民币。未接入获得使用授权的CNH数据，不使用USD/CNY代替。":
+   m?m.source+" · 观察日 "+m.date+" · 官方日度参考/交叉计算，不是实时可成交价":"暂无有效日期的官方日度参考数据";
+ return '<button type="button" class="market-tile'+(state.selectedPair===pair?" active":"")+
+   (isCNH?" unquoted":"")+'" data-pair="'+pair+'"'+(duplicate?' tabindex="-1"':'')+
+   ' aria-label="'+esc(pair)+" · "+esc(isCNH?"离岸人民币暂未接入授权报价":"查看已公布日参考值与走势")+
+   '" title="'+esc(hint)+'"><span class="tile-code">'+esc(pair)+'</span>'+
+   '<span class="tile-amount'+(isCNH?" missing":"")+'">'+(isCNH?"待接入":quote(m))+'</span>'+
+   '<span class="tile-bottom"><span class="tile-delta '+deltaStyle(d)+'">'+deltaLabel(d)+'</span>'+sparkline(m)+'</span>'+
+   '<small class="tile-origin">'+esc(stateLabel)+'</small></button>';
+}
 function renderMarket(){
- const pairs=["USD/CNY","EUR/USD","USD/JPY","GBP/USD","USD/HKD","EUR/GBP"];
- $("market-grid").innerHTML=pairs.map(pair=>{
-  const m=rateFor(pair),d=delta(m);
-  const title=m?esc(m.source+" / "+m.date+" / 官方日度参考"):"尚无有效日期的官方数据";
-  return '<button type="button" class="market-tile'+(state.selectedPair===pair?" active":"")+
-  '" data-pair="'+pair+'" aria-label="查看'+pair+'的官方参考走势" title="'+title+'">'+
-  '<span class="tile-code">'+pair+'</span><span class="tile-amount">'+quote(m)+'</span>'+
-  '<span class="tile-bottom"><span class="tile-delta '+deltaStyle(d)+'">'+deltaLabel(d)+'</span>'+sparkline(m)+'</span></button>';
- }).join("");
- const latest=state.market.filter(r=>r&&r.date).map(r=>r.date).sort().at(-1);
- $("market-updated").textContent=latest?"最近官方观察日 "+latest+" · 非实时报价":"官方数据尚未就绪";
+ const viewport=$("market-viewport");
+ const savedScroll=viewport.scrollLeft;
+ const items=R14.map(p=>marketTile(p,false)).join("");
+ const copy=R14.map(p=>marketTile(p,true)).join("");
+ $("market-grid").innerHTML='<div class="ticker-run" role="group" aria-label="14个外汇观察货币对">'+items+'</div>'+
+ '<div class="ticker-run ticker-clone" aria-hidden="true">'+copy+'</div>';
+ const first=$("market-grid").firstElementChild?.offsetWidth||0;
+ if(first)viewport.scrollLeft=savedScroll%first;
+ const latest=state.market.filter(x=>x?.date).map(x=>x.date).sort().at(-1);
+ const usable=R14.filter(pair=>!!rateFor(pair)).length;
+ $("market-updated").textContent=usable+"/14组有官方参考 · "+(latest||"观察日待核实")+" · 5公布日变化";
 }
 function renderChart(){
  const m=rateFor(state.selectedPair),points=series(m),d=delta(m);
@@ -93,7 +110,7 @@ function renderChart(){
  const target=$("detail-chart");
  if(points.length<2){
   target.innerHTML='<p class="loading">暂无可核实的历史走势，未填入模拟曲线。</p>';
-  $("chart-note").textContent=m?m.source+" · "+m.date+" · 官方参考价（非实时）":"官方参考记录尚不可用";
+  $("chart-note").textContent=state.selectedPair==="USD/CNH"?"CNH离岸人民币尚无已授权报价。不能用境内USD/CNY替代；可从香港交易所或TMA官方来源查看基准资料。":m?m.source+" · "+m.date+" · 官方参考价（非实时）":"官方参考记录尚不可用";
   return;
  }
  const w=340,h=158,pad=12,line=polyline(points,w,h,pad);
@@ -137,10 +154,11 @@ function renderStatus(){
  $("beijing-clock").textContent=new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date())+" 北京";
 }
 function pairForArticle(a){
- const tags=Array.isArray(a.pairs)?a.pairs:[];
- for(const pair of ["USD/CNY","USD/JPY","EUR/USD","USD/HKD","GBP/USD"]){if(tags.includes(pair))return pair;}
  const t=headline(a);
- if(/人民币|CNY|CNH/.test(t))return "USD/CNY";
+ if(/CNH|离岸人民币/i.test(t))return "USD/CNH";
+ const tags=Array.isArray(a.pairs)?a.pairs:[];
+ for(const pair of R14){if(tags.includes(pair))return pair;}
+ if(/CNY|在岸人民币|境内人民币/i.test(t))return "USD/CNY";
  if(/日元|JPY/.test(t))return "USD/JPY";
  if(/欧元|EUR/.test(t))return "EUR/USD";
  if(/港币|港元|HKD/.test(t))return "USD/HKD";
@@ -239,7 +257,7 @@ async function refresh(){
  }finally{state.fetching=false;}
 }
 function selectPair(pair,scroll){
- if(!["USD/CNY","EUR/USD","USD/JPY","GBP/USD","USD/HKD","EUR/GBP"].includes(pair))return;
+ if(!R14.includes(pair))return;
  state.selectedPair=pair;renderMarket();renderChart();
  if(scroll)document.getElementById("market-chart").scrollIntoView({behavior:"smooth",block:"start"});
 }
@@ -263,6 +281,44 @@ document.addEventListener("click",event=>{
   if(target){target.hidden=!target.hidden;proof.textContent=target.hidden?"证据与后续关注 ▾":"收起核验说明 ▴";proof.setAttribute("aria-expanded",String(!target.hidden));}
  }
 });
+const tickerState={pauseUser:false,hover:false,focus:false,holdUntil:0,previousFrame:0,lastFrame:null};
+function initTicker(){
+ const viewport=$("market-viewport"),toggle=$("ticker-toggle"),reduced=window.matchMedia("(prefers-reduced-motion: reduce)");
+ const setUserPause=(paused)=>{
+  tickerState.pauseUser=paused;
+  toggle.setAttribute("aria-pressed",String(paused));
+  toggle.textContent=paused?"继续滚动 ▷":"暂停滚动 Ⅱ";
+ };
+ setUserPause(reduced.matches);
+ toggle.addEventListener("click",()=>setUserPause(!tickerState.pauseUser));
+ viewport.addEventListener("mouseenter",()=>{tickerState.hover=true;});
+ viewport.addEventListener("mouseleave",()=>{tickerState.hover=false;});
+ viewport.addEventListener("focusin",()=>{tickerState.focus=true;});
+ viewport.addEventListener("focusout",e=>{if(!viewport.contains(e.relatedTarget))tickerState.focus=false;});
+ viewport.addEventListener("pointerdown",()=>{tickerState.holdUntil=Date.now()+12000;});
+ viewport.addEventListener("wheel",()=>{tickerState.holdUntil=Date.now()+12000;},{passive:true});
+ for(const [id,sign] of [["ticker-prev",-1],["ticker-next",1]]){
+  $(id).addEventListener("click",()=>{
+   tickerState.holdUntil=Date.now()+12000;
+   viewport.scrollBy({left:sign*440,behavior:reduced.matches?"instant":"smooth"});
+  });
+ }
+ function frame(t){
+  const elapsed=tickerState.previousFrame?Math.min(64,t-tickerState.previousFrame):0;
+  tickerState.previousFrame=t;
+  const group=$("market-grid").firstElementChild;
+  const cycle=group?.offsetWidth||0;
+  if(cycle&&viewport.scrollLeft>=cycle)viewport.scrollLeft-=cycle;
+  const paused=tickerState.pauseUser||tickerState.hover||tickerState.focus||document.hidden||reduced.matches||Date.now()<tickerState.holdUntil;
+  if(!paused&&cycle&&elapsed>0){
+   viewport.scrollLeft+=(elapsed*0.038);
+   if(viewport.scrollLeft>=cycle)viewport.scrollLeft-=cycle;
+  }
+  requestAnimationFrame(frame);
+ }
+ requestAnimationFrame(frame);
+}
+initTicker();
 refresh();
 setInterval(()=>{if(!document.hidden)refresh();},3*60*1000);
 setInterval(renderStatus,60*1000);
