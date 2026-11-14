@@ -394,3 +394,59 @@ svg{display:block}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;pa
  .market-tile .tile-spark{max-width:48px;width:48px;flex-basis:48px;height:17px}
  .market-tile .tile-origin{font-size:8.5px}
 }
+
+/* R14 half-height terminal ticker: two precise lines, no fabricated data. */
+.market-overview{grid-template-columns:144px minmax(0,1fr);margin-top:14px;margin-bottom:18px}
+.market-title{padding:7px 10px!important}
+.market-title .section-kicker{font-size:8px;line-height:1.2;letter-spacing:1.2px}
+.market-title-row h2{margin:4px 0 0;font-size:19px;line-height:1.15;font-weight:750}
+.market-tile{
+  flex:0 0 164px;width:164px!important;min-width:164px;
+  height:58px!important;min-height:58px!important;max-height:58px!important;
+  display:grid;grid-template-columns:minmax(0,1fr) max-content;
+  grid-template-rows:17px 24px;column-gap:3px;row-gap:1px;
+  align-content:center;align-items:center;justify-content:stretch;
+  padding:5px 9px!important
+}
+.market-tile .tile-code{grid-column:1;grid-row:1;font-size:11px;line-height:1.1;white-space:nowrap}
+.market-tile .tile-bottom{grid-column:2;grid-row:1;width:auto;justify-content:flex-end;min-width:0;gap:0}
+.market-tile .tile-delta{font-size:9px;line-height:1.1;white-space:nowrap}
+.market-tile .tile-change-label{font-size:8px;margin-right:2px}
+.market-tile .tile-amount{grid-column:1;grid-row:2;font-size:20px!important;line-height:1.1;white-space:nowrap}
+.market-tile .tile-amount.missing{font-size:11px!important}
+.market-tile .tile-origin{grid-column:2;grid-row:2;font-size:8.5px;max-width:69px;
+  text-align:right;white-space:nowrap;line-height:1.1}
+.market-tile .tile-spark{display:none}
+.ticker-area{min-height:58px}
+.ticker-controls{flex:0 0 42px;height:58px;min-height:58px;gap:0}
+.ticker-controls button{flex:1 1 0;min-height:0;height:auto;padding:0;font-size:13px;line-height:1.05}
+.ticker-controls #ticker-toggle{flex:1.2 1 0;font-size:8px}
+@media(max-width:1120px){
+ .market-overview{grid-template-columns:1fr}
+ .market-title{min-height:27px!important;padding:4px 12px!important;display:flex;
+  align-items:center;justify-content:flex-start;flex-direction:row;gap:10px}
+ .market-title-row{display:flex;align-items:center}
+ .market-title-row h2{margin:0;font-size:18px}
+ .market-tile{height:58px!important;min-height:58px!important;max-height:58px!important}
+ .ticker-area{min-height:58px}
+}
+@media(max-width:800px){
+ .market-tile{height:58px!important;min-height:58px!important;max-height:58px!important}
+}
+@media(max-width:580px){
+ .market-overview{margin-top:9px;margin-bottom:14px}
+ .market-title{min-height:26px!important;padding:4px 9px!important}
+ .market-title .section-kicker{font-size:8px}
+ .market-title-row h2{font-size:17px;margin:0}
+ .market-tile{flex:0 0 150px;width:150px!important;min-width:150px;
+   height:54px!important;min-height:54px!important;max-height:54px!important;
+   grid-template-rows:15px 23px;padding:4px 8px!important;gap:1px}
+ .market-tile .tile-code{font-size:10.5px}
+ .market-tile .tile-amount{font-size:19px!important}
+ .market-tile .tile-delta{font-size:8.5px}
+ .market-tile .tile-origin{font-size:8px}
+ .ticker-area{min-height:54px}
+ .ticker-controls{height:54px;min-height:54px;flex-basis:38px}
+ .ticker-controls button{min-height:0;padding:0;font-size:12px}
+ .ticker-controls #ticker-toggle{font-size:7.5px}
+}
