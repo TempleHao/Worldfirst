@@ -339,3 +339,14 @@ svg{display:block}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;pa
  .market-tile .tile-origin{font-size:9.5px}
  .market-title-row h2{font-size:21px}
 }
+
+/* Compact R14 layout: provenance remains available in tile tooltip and Source Desk. */
+.market-overview{grid-template-columns:174px minmax(0,1fr)}
+.market-title{padding:16px 16px}
+.market-title .section-kicker{letter-spacing:1.6px}
+.market-title-row h2{margin:9px 0 0;font-size:23px;line-height:1.2}
+.market-tile .tile-origin{font-size:10px;font-weight:450;color:#95a8b8}
+@media(max-width:1120px){
+ .market-overview{grid-template-columns:1fr}
+ .market-title-row h2{margin:5px 0 0}
+}
