@@ -1,6 +1,6 @@
 {
-  "attempted_at": "2026-11-15T02:11:16.163554Z",
-  "last_successful_at": "2026-11-15T02:11:16.163554Z",
+  "attempted_at": "2026-11-15T06:30:45.018106Z",
+  "last_successful_at": "2026-11-15T06:30:45.018106Z",
   "success_count": 8,
   "total_sources": 8,
   "sources": [
@@ -56,12 +56,12 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 42,
-      "latest_item_published_at": "2026-11-14T14:55:15Z",
+      "count": 40,
+      "latest_item_published_at": "2026-11-15T05:47:30Z",
       "error": null
     }
   ],
-  "article_count": 77,
-  "latest_article_published_at": "2026-11-14T14:55:15Z",
-  "new_article_count": 1
+  "article_count": 80,
+  "latest_article_published_at": "2026-11-15T05:47:30Z",
+  "new_article_count": 4
 }

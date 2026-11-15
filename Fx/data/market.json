@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "attempted_at": "2026-11-15T02:11:16.281786Z",
-  "last_successful_at": "2026-11-15T02:11:16.281786Z",
+  "attempted_at": "2026-11-15T06:30:45.162311Z",
+  "last_successful_at": "2026-11-15T06:30:45.162311Z",
   "quote_type": "official_daily_reference_not_realtime_or_executable",
   "instruments": [
     {
