@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T09:19:44.474984Z",
-  "attempted_at": "2026-11-15T09:19:44.474984Z",
+  "updated_at": "2026-11-15T16:29:55.114430Z",
+  "attempted_at": "2026-11-15T16:29:55.114430Z",
   "articles": [
+    {
+      "id": "561ef1b171a56af6",
+      "title": "今年首三季離岸人民幣債券佔港上市債券總發行額38% 首次超越美元債券 - TVB",
+      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxNUDR0MjFxSWFNYUtSTURHNl8zWVluUjlTQ0htMzFSclQ0WFB1c0RlQnlMWjZHSkJMbk5aNzFwQ18tSUlUdFhUUW05aVZvWHdBT24takQxbmlVYlZyYjFGdzdheldEZ1hCaEhZR01zbHFLV2FjNXJpb05oQWZVTjlZd3BKLUJ3VnpLQ3piMVd5LVZBY0d4Qk5HdHhDMDJ2b1Jaa3Q3R1k0QXA0YnNQbU9pOVREd3hxTS1hSFRCSFFETUUyZ2RUWWVubUJCQmNfNHpPbmdtanBIVW1EaFNGVlVJMFQtX0Z0aDlOUlVYT3BaRjdYOExsNHk0RlZYVFcyajZDaHV4d2RZcDBXSUUyNTBHcEZDcmsxeWhlOXJjYWZsU3ZvcTBNTTJSdFRxblhqQ0NUWTQ1bXJVeDlIV0UxNEV3N1pzN2Jvbmh2clRZZklTTjY4T3p4NzVlazhxQ1FHWEJ0NVRWX0xZdUUyQTUtdEJiMTdOM3NqQnhZWEdXMHYtZ3ZvanV1UFZDVjN5czdvM3JzUmJ2ZTNaclBqTmVoWG9WT2NCLTBzVnlfbUs5dGhrTURTZw?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-15T08:47:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "77fa40b0a1a98157",
       "title": "陳茂波指香港金融貿易由「量」轉「值」 點心債首超美元債成最大發行幣種 - Sing Tao Daily 星島日報加拿大",
@@ -10,6 +24,20 @@
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
       "published_at": "2026-11-15T05:47:30Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "f3adecfea0590324",
+      "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZW1nZWtwLXBpenN2YTAyeXdvcWV5OVVTX1A1LWMtWXhLX1JNcVIxUW5HMWxPdFBfbW5OZGRKc2xXN3Mxd1FYM3FsajRaQkk2NmJOMmUweXBvVlk2?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-15T01:35:16Z",
       "topic": "外汇市场",
       "pairs": [],
       "verification": "aggregated_unverified",
@@ -1208,12 +1236,12 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 31,
-      "latest_item_published_at": "2026-11-15T05:47:30Z",
+      "count": 25,
+      "latest_item_published_at": "2026-11-15T08:47:00Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-15T05:47:30Z",
+  "latest_article_published_at": "2026-11-15T08:47:00Z",
   "new_article_count": 2,
   "analysis_mode": "rule_index",
   "window_hours": 168,
