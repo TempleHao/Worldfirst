@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T22:46:27.814279Z",
-  "attempted_at": "2026-11-14T22:46:27.814279Z",
+  "updated_at": "2026-11-15T02:11:16.163554Z",
+  "attempted_at": "2026-11-15T02:11:16.163554Z",
   "articles": [
     {
       "id": "384e0763e6f53f13",
@@ -24,6 +24,20 @@
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
       "published_at": "2026-11-14T08:16:35Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "46a795d4a31c6dc0",
+      "title": "美元指數走勢預測：突破多頭旗形，為新一波漲勢鋪路 - www.tmgm.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZEVLbEpvZzVCM2t6MVU4TEprMDNseVprZTRpam92UlBPWUpqQ2pzUjhKRHd5N0E2a0Z6MkxEQWNSY0RYZ2k5aTd0Z3lobUhIQzJBVGVmUGwyT1FybXZYcDFSRHZQMzkxV3hVSkV6US1tWngxVm1xcERMRjJTTTFRM2FsZC1WSnVtT3BYa21UWU9SV2VLYWJRLXd0WkZoNE5MckxlNkZpQnhCeEd2MzdyTDJMaHNDc2c1dC1IaS1UdmpOTVJXVVAxclhoMk5nM2d1WldjQktJR2Y1SnFtczhR?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-14T01:45:09Z",
       "topic": "外汇市场",
       "pairs": [],
       "verification": "aggregated_unverified",
@@ -202,20 +216,6 @@
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "3fc05ab0eea65d84",
-      "title": "美元指數走勢預測：突破多頭旗形，為新一波漲勢鋪路 - www.tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS0YyR2tfRjBHT1RKeFNjT2JfUXdvQ3NyNzdQN3YwMmdMeW9Takg4c3pLWTIxR3FHanZ0eTh1NWxWLWJWOUJIMEdUUW5EQ2V4MUhYUHNPaWN4QURzSlFTaTRxNUU4QmI1UUtHUGJwMmRQaUlFNUk4QkZSSEhiRU5FOFhUY05mUkZheURZaEtNTHhRNXl3ekJSUms1TXpLTVNXWnhGdVVZajRRZHdaaUx6RGNBSkRITWx2MlhWUUdYeG9ka1hqWjhmWENKNEFHdmtzZHVfWkZQWC12UmJvb3lQejBDaGk?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-13T08:22:24Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
       "id": "a01956046ad09482",
@@ -1161,13 +1161,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 44,
+      "count": 42,
       "latest_item_published_at": "2026-11-14T14:55:15Z",
       "error": null
     }
   ],
   "latest_article_published_at": "2026-11-14T14:55:15Z",
-  "new_article_count": 0,
+  "new_article_count": 1,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
