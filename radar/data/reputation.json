@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-14T22:23:34.023180+00:00",
+  "generated_at": "2026-11-15T06:30:18.415457+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 236,
-    "events": 155,
+    "articles": 238,
+    "events": 156,
     "sentiment": {
-      "中性": 236
+      "中性": 238
     },
     "crisis": {
-      "一般": 155
+      "一般": 156
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": "event-d8f35f4d8fb4",
+      "id": "event-817a94711c3c",
       "company": "lianlian",
       "headline": "连连数字：11月13日斥资101.24万港元回购34.25万股 - 东方财富",
       "date": "2026-11-13",
@@ -65,7 +65,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -80,7 +80,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-ceede4ebb1266caf93"
+        "search-ceede4ebb1266caf93",
+        "search-76252d20df22621d97"
       ]
     },
     {
@@ -1797,6 +1798,35 @@
       ],
       "items": [
         "search-1e1e6d97a0919ca4e8"
+      ]
+    },
+    {
+      "id": "event-276d3baffabb",
+      "company": "airwallex",
+      "headline": "广交会 AI 应用释放出海新需求，外贸收款平台 Airwallex 空中云汇助力订阅支付转化 - 知乎专栏",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-5b9f74c0fc6ee1f28317"
       ]
     },
     {

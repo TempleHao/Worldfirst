@@ -75,7 +75,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-d8f35f4d8fb4",
+        "event_id": "event-817a94711c3c",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -231,6 +231,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-b0464fbd6e0c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-76252d20df22621d97",
+      "company": "lianlian",
+      "date": "2026-11-13",
+      "title": "连连数字：11月13日斥资101.24万港元回购34.25万股 - 东方财富",
+      "summary": "连连数字：11月13日斥资101.24万港元回购34.25…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uVWZrdExsYU50RXZSUExuMllSeFZCQkUyOXJ0djBEaHVtdEhGc0NqaHJVT2dLdjJYR1Q5Z25GOE1aUTVWeWF3eEU5aVZFbFhQclZrel9lUjBMcjVDb1pTYkNMWQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-817a94711c3c",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -3030,6 +3061,45 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-351d008f2e0f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "social-index-5b9f74c0fc6ee1f28317",
+      "company": "airwallex",
+      "date": "2026-11-02",
+      "date_basis": "publication_index",
+      "title": "广交会 AI 应用释放出海新需求，外贸收款平台 Airwallex 空中云汇助力订阅支付转化 - 知乎专栏",
+      "summary": "广交会 AI 应用释放出海新需求，外贸收款平台 Airwa…",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "知乎专栏",
+      "source_type": "search",
+      "channel": "zhihu",
+      "platform": "zhihu",
+      "discovery_method": "public_news_index",
+      "link_origin": "google-news-indirect",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53TlNaaEVuWXBidXRERkE5d0k4OElOV1NjQnlud193bTNYaW1JMEd4YjBIS0p5ZU1xcGl3Rko3SHJmNWZxc3VXY3NISzNkeFphbTlVRUpnVlhCRGVi?oc=5",
+      "status": "unverified",
+      "rights": "index_snippet_only",
+      "coverage": "partial_index_only",
+      "metrics": null,
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-276d3baffabb",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -7388,6 +7458,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-14T22:23:30.017852+00:00",
+  "updated_at": "2026-11-15T06:30:13.046245+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
