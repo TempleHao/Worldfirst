@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T16:29:55.114430Z",
-  "attempted_at": "2026-11-15T16:29:55.114430Z",
+  "updated_at": "2026-11-15T18:51:18.009355Z",
+  "attempted_at": "2026-11-15T18:51:18.009355Z",
   "articles": [
     {
       "id": "561ef1b171a56af6",
@@ -1229,20 +1229,20 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 13,
+      "count": 14,
       "latest_item_published_at": "2026-11-12T00:00:00Z",
       "error": null
     },
     {
       "name": "Google新闻·中文外汇聚合",
-      "ok": true,
-      "count": 25,
-      "latest_item_published_at": "2026-11-15T08:47:00Z",
-      "error": null
+      "ok": false,
+      "count": 0,
+      "latest_item_published_at": null,
+      "error": "HTTPError"
     }
   ],
   "latest_article_published_at": "2026-11-15T08:47:00Z",
-  "new_article_count": 2,
+  "new_article_count": 0,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
