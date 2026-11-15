@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T06:30:45.018106Z",
-  "attempted_at": "2026-11-15T06:30:45.018106Z",
+  "updated_at": "2026-11-15T09:19:44.474984Z",
+  "attempted_at": "2026-11-15T09:19:44.474984Z",
   "articles": [
     {
       "id": "77fa40b0a1a98157",
@@ -262,6 +262,20 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
+      "id": "bded40829b4230f5",
+      "title": "《匯市簡訊》美元/離岸人民幣徘徊不前，中國經濟數據料表現疲軟 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNeDJ0NndhaHVSSE9HcmxVVmd4QjF1TTAtcnlfYl9WbWdmWENxTW45cTJZcV9RYVI2R0NILWlHM2JINWdlVkdTOFYxUVZOUUhwT2wyVGlkRzJjVXZ2NlZPbW1IUHl4WnFNd1RFMVlkNmxWMGJXcnRr?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-13T07:04:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "4d8a66cadc70469d",
       "title": "【每日外匯】美元指數續強、升破103 創去年4月來高 - 大紀元時報香港",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EM1BUOWV0Z0R5SFRib19yY0VOZ0VsX1FXdVJULU9LWEpBclU4eVU0YldHcW1kSFhMdm9QeXhPWXNsdEpiSi1vek1uaC0ydll0RVlFbmt5OXFkZnNWQUFN?oc=5",
@@ -455,20 +469,6 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
-      "id": "f6c5c21d3625b80d",
-      "title": "《匯市簡訊》美元/離岸人民幣徘徊不前，中國經濟數據料表現疲軟 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xQS0yZzEzdlg0N01KcU9pdjk5b0FFSlMtN0ZhZmJGYnJnYjVRQUViaEpIeGRaQ2FCVXJUd1lwWmQ4MjA0NDhBaVVIREtUWEFDYkNENmh0THVoVXJfZmFMdm42SFgzYjR5OUNUWUo1QjdlUXhteDVJ?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T22:22:00Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
       "id": "24e19a9ec36116a6",
       "title": "Fed鷹派升息訊號推升美債殖利率 美元指數創19個月新高 - 民視新聞網",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mYzJ5blVrN1ROWWFMTnRYQWc3TDh3RlZRU3Y3Z0tGa29Gc3EzTUtwTWxRc1FzTGFIY1BJc3VNSVpHazJuQU5iM2RGcDFLQjFoRWhMMHRKRTdrSFhTSGkzaQ?oc=5",
@@ -613,6 +613,20 @@
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     },
     {
+      "id": "902da1abe951bcbe",
+      "title": "今日外匯：美元指數攀抵19個月新高，金價跌破4,000美元 - www.tmgm.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcXZHS0Rnc2hIN29ySkFhNjU5SF9aZ1ZnUklWS3I4MWZUdTlSSlRaZ2otdHdFZ3hkUEhJTGxyc1pNXzNjWUl4WjVhZnZqWEh1THY4MkIyb1BjNERHX3BQaXEwZ042ZzE5YjJ6SkY5UWhRQ0hENzBxMzhDVldxZXhSeFhPLV9IcjZzNVB1NmlrZzlSLWE2ZFJRdklCMXJQYWw1UzNzX3RWUHdwWWZ4Nk8wbFkzME50SjY0RGdGakRua3VCNGpnaHNOSG9BU2NFeDd6aEczajNlejNPazQzVktncw?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-12T09:59:14Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "4b7929ed46f1f997",
       "title": "美元指數破102強勢重燃 投資者要留意三大市場衝擊 - 香港經濟日報HKET",
       "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNUU95UDd0NU1HTjAtU01YaUhzUEJMbWxhZFJYQzItSWRvR0tINE5na0MtUWpnb25DcFhmSkhSamNneDYtQWhmSC1ISjFOb3BUSFZHemRPSmcwVUVyUEZLblVsc3QxaWdFQmJlSDVQaTRtcVN4d0luelZjZVM4a20zOFZFWktTeUhhM0ItUWI3SVdQeFVYa2V0Znl5MWZLVE83REtMa3RXemVhcFRKUTdvQ2QyeVIxMWNDV1l3NmZyT3BQUmpmTDlQMnF4TDZLZmZaeVhPMXlMb1A2TFRlalQtZUppRWc3Tlp5R2JCX2ZFT1k2bndRenk2ZzJhTHN4aVJpdXlPX05aMlhRSTJsb0VuNHlMRjV2X2xjQ1lyUkpHREY4Q09CcXI5Ymh0bUw5VFB2eHJDR01xSEhhQnlIakdpRHhyakwxa2FReEI4SC1rX1A4U3Yxb09qV280eUtNLWFGSGFFeG4xaw?oc=5",
@@ -663,20 +677,6 @@
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
       "published_at": "2026-11-12T08:25:30Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "1247a6d85aa94a8d",
-      "title": "今日外匯：美元指數攀抵19個月新高，金價跌破4,000美元 - www.tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYjZIbnBRR1NWejZJUTJPMThmejlSdFRXQlF6eUxvM05DZDVJd1Y5dkVXbGdITHZHcWp1SUh3WFhSVmJkalpqa1VWVi1yYTR2d3NTMWgxZFh6M2U1VF9qNzJfT0p3M1BKYnJMX19lLUEwdjZxcDZySDlWSjBKd1JWeXJSeTFCNnhXajI5NmI5eFNaZ3FVa2JtMHlOWGQwZWMxN3ZRQklHWkdadi1sX2F2WlVBZEFfSi1fY1ZYWWpEeWNScGQxWmlhR2R6c3ZyQmRyNGpEZXZxUXdYVmZHMXVmQmRaNnpXUQ?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T08:20:48Z",
       "topic": "外汇市场",
       "pairs": [],
       "verification": "aggregated_unverified",
@@ -1208,13 +1208,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 40,
+      "count": 31,
       "latest_item_published_at": "2026-11-15T05:47:30Z",
       "error": null
     }
   ],
   "latest_article_published_at": "2026-11-15T05:47:30Z",
-  "new_article_count": 4,
+  "new_article_count": 2,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
