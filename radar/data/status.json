@@ -1,7 +1,7 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-11-15T06:30:13.046245+00:00",
-  "last_success_at": "2026-11-15T06:30:13.046245+00:00",
+  "last_attempt_at": "2026-11-15T18:50:33.385349+00:00",
+  "last_success_at": "2026-11-15T18:50:33.385349+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
   "new_items": 1,
@@ -16,7 +16,7 @@
     },
     "payoneer": {
       "ok": true,
-      "matched": 2
+      "matched": 1
     },
     "xtransfer": {
       "ok": true,
@@ -24,7 +24,7 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 17
+      "matched": 18
     },
     "pingpong": {
       "ok": true,

@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-14｜空中云汇** 从痛批稳定币到入局造 L1：空中云汇张硕不是 “真香”，是… [原文](https://news.google.com/rss/articles/CBMiSkFVX3lxTE5MR21MeTFBSXlyS0YwLWU4ZUtlUFdYUjFObTdnRWc4c3JEMXJHTGxFOTVrTm9vVXJTQTlQTjhubWxOMkFxeTc2aG9n?oc=5)（unverified）
 - **2026-11-13｜XTransfer** XTransfer荣获证券之星第十四届“资本力量”卓越金融… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9naGNXc1VqOGxYR2tnUTd3aGFrc252T1pCWUJsRTd3QkFOYkNOcTNHeWJHdnc5TWVXeGZ1bzZsbUYtOWNXV2M4QzhqZmdLNllxWi1uUkk1anhncHM1NTVkRHdnczY?oc=5)（unverified）
 - **2026-11-13｜连连国际** 连连数字：11月13日斥资101.24万港元回购34.25… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPLTRGbDNReVJOUW40TGpWdS1scXJXbmhvbWxJWF9nREItSk9yLTlpX0xTVE1qSXZxenR2d3o0MkM3dUJjQjRhcC1LdjJuRkpzWHg0Qk44MEwyMkh4dXJERg?oc=5)（unverified）
 - **2026-11-13｜连连国际** 连连数字(02598)11月13日斥资101.24万港元回… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yOEpuTVJtNHdpRXVKOWMtYlExTHlPUVN3akdHWEh0OEdpNkFzLWRxUzJ6Z2xhV0pPNlIzUVlHWE56ZHJDcEtqRnk5aDRfQ2FLdldhOEpKbVc0cDhnVFE?oc=5)（unverified）
@@ -121,4 +122,3 @@
 - **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XcUFmQk1LZ2tfbXN6aXhMUHBxSWhkRTNzdVFMdGtCZ1hGZFBlTXBKUUwxV0VDMHRncXkyNXpCbHNFdUpXMlNnU2dtN285aGVfZVhBRHcybEVYa2FqbE91eg?oc=5)（unverified）
 - **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMibEFVX3lxTE0zUWxMeTJGcy1lZ1h0TWhUamc2UWtJNVAtRkt5cEh0UU9BbDl2d3FFQldCcjdEa2dpUkVxRUFvVFQyWUhnYTFZN1k5SVNwRDk2UVFVbmJ3N1FMYkVaYlMwLTJuSjUwa0hCbk9kSQ?oc=5)（unverified）
 - **2026-10-28｜连连国际** 连连数字（02598.HK）披露股份购回情况，10月28日… [原文](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jaG1HQmVteUxoUlNXeWQwZGRkTTlWQUZiRV9XdkNIMm92U0FjZzFxLXJ0aThpMTk3Q2FFTDdzc1JiOElQcXpZamJIMEFoT25OamluYzJpLTlmQWJFTGRoRDl3?oc=5)（unverified）
-- **2026-10-28｜Skyee** 参股五年后收购Skyee，拉卡拉这笔交易划算吗？ - 腾讯… [原文](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VT0pTOUk3WFVvejRvQVBZWlRueUFTMGZ5dDJmdTBuV1lTemcyUl9TdHlxV19mS3BnZ0hlWWlQMzFXbUZldjRwN1RPSXFMVjVMLW56WjRn?oc=5)（unverified）

@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-e80a769b0f7f278c0d",
+      "company": "airwallex",
+      "date": "2026-11-14",
+      "title": "从痛批稳定币到入局造 L1：空中云汇张硕不是 “真香”，是结算层争夺战打响 - 区块周刊BlockWeeks",
+      "summary": "从痛批稳定币到入局造 L1：空中云汇张硕不是 “真香”，是…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "区块周刊BlockWeeks",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5MR21MeTFBSXlyS0YwLWU4ZUtlUFdYUjFObTdnRWc4c3JEMXJHTGxFOTVrTm9vVXJTQTlQTjhubWxOMkFxeTc2aG9n?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b0464fbd6e0c",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-07c35962a9cf20c8e2",
       "company": "xtransfer",
       "date": "2026-11-13",
@@ -231,7 +262,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-b0464fbd6e0c",
-        "distinct_publishers": 1,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7458,6 +7489,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-15T06:30:13.046245+00:00",
+  "updated_at": "2026-11-15T18:50:33.385349+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
