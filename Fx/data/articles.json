@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T18:51:18.009355Z",
-  "attempted_at": "2026-11-15T18:51:18.009355Z",
+  "updated_at": "2026-11-15T21:10:03.275872Z",
+  "attempted_at": "2026-11-15T21:10:03.275872Z",
   "articles": [
     {
       "id": "561ef1b171a56af6",
@@ -290,20 +290,6 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
-      "id": "bded40829b4230f5",
-      "title": "《匯市簡訊》美元/離岸人民幣徘徊不前，中國經濟數據料表現疲軟 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNeDJ0NndhaHVSSE9HcmxVVmd4QjF1TTAtcnlfYl9WbWdmWENxTW45cTJZcV9RYVI2R0NILWlHM2JINWdlVkdTOFYxUVZOUUhwT2wyVGlkRzJjVXZ2NlZPbW1IUHl4WnFNd1RFMVlkNmxWMGJXcnRr?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-13T07:04:00Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
       "id": "4d8a66cadc70469d",
       "title": "【每日外匯】美元指數續強、升破103 創去年4月來高 - 大紀元時報香港",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EM1BUOWV0Z0R5SFRib19yY0VOZ0VsX1FXdVJULU9LWEpBclU4eVU0YldHcW1kSFhMdm9QeXhPWXNsdEpiSi1vek1uaC0ydll0RVlFbmt5OXFkZnNWQUFN?oc=5",
@@ -489,6 +475,20 @@
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
       "published_at": "2026-11-12T22:57:17Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "f6c5c21d3625b80d",
+      "title": "《匯市簡訊》美元/離岸人民幣徘徊不前，中國經濟數據料表現疲軟 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xQS0yZzEzdlg0N01KcU9pdjk5b0FFSlMtN0ZhZmJGYnJnYjVRQUViaEpIeGRaQ2FCVXJUd1lwWmQ4MjA0NDhBaVVIREtUWEFDYkNENmh0THVoVXJfZmFMdm42SFgzYjR5OUNUWUo1QjdlUXhteDVJ?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-12T22:22:00Z",
       "topic": "外汇市场",
       "pairs": [],
       "verification": "aggregated_unverified",
@@ -1235,14 +1235,14 @@
     },
     {
       "name": "Google新闻·中文外汇聚合",
-      "ok": false,
-      "count": 0,
-      "latest_item_published_at": null,
-      "error": "HTTPError"
+      "ok": true,
+      "count": 26,
+      "latest_item_published_at": "2026-11-15T08:47:00Z",
+      "error": null
     }
   ],
   "latest_article_published_at": "2026-11-15T08:47:00Z",
-  "new_article_count": 0,
+  "new_article_count": 1,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
