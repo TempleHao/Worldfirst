@@ -1,34 +1,37 @@
 {
-  "generated_at": "2026-11-16T06:27:34.349745+00:00",
+  "generated_at": "2026-11-16T22:00:53.778179+00:00",
   "platforms": {
     "wechat": {
-      "index_requests_ok": 9,
-      "index_requests_failed": 0,
+      "index_requests_ok": 7,
+      "index_requests_failed": 2,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
+      "last_error": "HTTP Error 429: Too Many Requests",
       "total_available_records": 0,
       "state": "connected_zero_matching_results"
     },
     "xiaohongshu": {
-      "index_requests_ok": 9,
-      "index_requests_failed": 0,
+      "index_requests_ok": 4,
+      "index_requests_failed": 5,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
+      "last_error": "HTTP Error 429: Too Many Requests",
       "total_available_records": 0,
       "state": "connected_zero_matching_results"
     },
     "douyin": {
-      "index_requests_ok": 9,
-      "index_requests_failed": 0,
+      "index_requests_ok": 3,
+      "index_requests_failed": 6,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
+      "last_error": "HTTP Error 429: Too Many Requests",
       "total_available_records": 2,
       "state": "connected_zero_matching_results"
     },
     "zhihu": {
       "index_requests_ok": 9,
       "index_requests_failed": 0,
-      "indexed_items": 2,
+      "indexed_items": 1,
       "source_quality": "partial_public_index",
       "total_available_records": 4,
       "state": "public_index_leads_only"

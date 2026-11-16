@@ -1,34 +1,34 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-11-16T06:27:32.229146+00:00",
-  "last_success_at": "2026-11-16T06:27:32.229146+00:00",
-  "succeeded_sources": 9,
+  "last_attempt_at": "2026-11-16T22:00:51.034686+00:00",
+  "last_success_at": "2026-11-16T22:00:51.034686+00:00",
+  "succeeded_sources": 6,
   "attempted_sources": 9,
-  "new_items": 2,
+  "new_items": 1,
   "sources": {
     "worldfirst": {
       "ok": true,
       "matched": 0
     },
     "airwallex": {
-      "ok": true,
-      "matched": 13
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     "payoneer": {
       "ok": true,
-      "matched": 1
+      "matched": 0
     },
     "xtransfer": {
       "ok": true,
-      "matched": 3
+      "matched": 0
     },
     "lianlian": {
       "ok": true,
-      "matched": 18
+      "matched": 17
     },
     "pingpong": {
-      "ok": true,
-      "matched": 2
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     "coral": {
       "ok": true,
@@ -36,11 +36,11 @@
     },
     "sunrate": {
       "ok": true,
-      "matched": 2
+      "matched": 0
     },
     "skyee": {
-      "ok": true,
-      "matched": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     }
   },
   "notes": "公开 Google News RSS 实验性采集，不能推算全网声量。"

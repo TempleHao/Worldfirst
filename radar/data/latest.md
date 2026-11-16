@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-16｜连连国际** 连连数字(02598)11月16日斥资51.02万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTE9sQ1ZXTlY3dVRWNzd4MUdSNDIxVVcwT1l6dFZKMzhXbWNyYVVTdVFkVk1XR3E0MU91NkR2eGZXbkNsT0JlQkFEVDRJTlo3Z2lqRGlFN3AwZENqZlhyb1hZc3dTSWQtaktaNGpfbFRBLUE?oc=5)（unverified）
 - **2026-11-14｜空中云汇** 从痛批稳定币到入局造 L1：空中云汇张硕不是 “真香”，是… [原文](https://news.google.com/rss/articles/CBMiSkFVX3lxTE5MR21MeTFBSXlyS0YwLWU4ZUtlUFdYUjFObTdnRWc4c3JEMXJHTGxFOTVrTm9vVXJTQTlQTjhubWxOMkFxeTc2aG9n?oc=5)（unverified）
 - **2026-11-13｜XTransfer** XTransfer荣获证券之星第十四届“资本力量”卓越金融… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9naGNXc1VqOGxYR2tnUTd3aGFrc252T1pCWUJsRTd3QkFOYkNOcTNHeWJHdnc5TWVXeGZ1bzZsbUYtOWNXV2M4QzhqZmdLNllxWi1uUkk1anhncHM1NTVkRHdnczY?oc=5)（unverified）
 - **2026-11-13｜连连国际** 连连数字：11月13日斥资101.24万港元回购34.25… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPLTRGbDNReVJOUW40TGpWdS1scXJXbmhvbWxJWF9nREItSk9yLTlpX0xTVE1qSXZxenR2d3o0MkM3dUJjQjRhcC1LdjJuRkpzWHg0Qk44MEwyMkh4dXJERg?oc=5)（unverified）
@@ -121,4 +122,3 @@
 - **2026-10-29｜Skyee** 财说| 参股五年后收购Skyee， 拉卡拉这笔交易划算吗？… [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9EV0diNThCWDJ5bWdVd3ZBQm5GcnFQNWtPcklCZVBxMU5IWV82SjcyMXVYc3h4ZHRkdlVnMkpHcXppQ2RpUHFRTG02OGZ2MmYtSk5RYlBZQV84SUhxLXkyM0Z2OA?oc=5)（unverified）
 - **2026-10-29｜连连国际** 连连数字：10月29日斥资31.05万港元回购9.85万股… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KeXZMNV84dDhueE1heEtoZ2FzZUh1S1d6Qi1USlk2SEc4U3hFQS1RUEktRWxwb2MxUW84OGY3ak5SZTVjck9hRktaTWdYTENCT3hGUjlibnUtSnVPal9FMQ?oc=5)（unverified）
 - **2026-10-28｜PingPong** PingPong跨境支付：牌照夯实合规基础，本地支付提升客… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE05NnJ3YkQxbHdiNlhnOHl6WDhaOGZOekJaMXJ4bzJacDVaRHVnM2taNE1Pd2k2SFBNZHZoTHpEVnZGZzZiSU83VWpZQlEzQVlrY2swV2pvTEpJMGV2Q2c?oc=5)（unverified）
-- **2026-10-28｜连连国际** 连连数字(02598)10月28日斥资29.61万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XcUFmQk1LZ2tfbXN6aXhMUHBxSWhkRTNzdVFMdGtCZ1hGZFBlTXBKUUwxV0VDMHRncXkyNXpCbHNFdUpXMlNnU2dtN285aGVfZVhBRHcybEVYa2FqbE91eg?oc=5)（unverified）
