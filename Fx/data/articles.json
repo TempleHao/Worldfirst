@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T06:28:02.474228Z",
-  "attempted_at": "2026-11-16T06:28:02.474228Z",
+  "updated_at": "2026-11-16T07:55:25.695591Z",
+  "attempted_at": "2026-11-16T07:55:25.695591Z",
   "articles": [
     {
       "id": "1e72e4e10f932744",
-      "title": "亚洲外汇市场普遍低迷，美元维持近19个月高位；日元在GDP数据疲软后保持稳定",
+      "title": "美元连续五个交易日上涨，维持近19个月高位！日元对日本GDP疲软数据反应平淡",
       "url": "https://cn.investing.com/news/forex-news/article-3668919",
       "source": "英为财情·外汇新闻",
       "source_url": "https://cn.investing.com/rss/news_1.rss",
-      "published_at": "2026-11-16T04:43:37Z",
+      "published_at": "2026-11-16T07:07:34Z",
       "topic": "外汇市场",
       "pairs": [
         "USD/JPY"
@@ -50,6 +50,25 @@
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     },
     {
+      "id": "fb39bb63ed82b86f",
+      "title": "現貨黃金、美元指數、歐元美元、美元日元、英鎊美元、美元加元、澳元美元、美元瑞郎、紐元美元支撐阻力位作者FX168 - Investing.com 香港 - 股市報價& 財經新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6WkoxNUlGeUFFdTRzMzFVOUZRSkpGWmxpS1dhVXU5YmVZT0d0dEZ6R2U1UzE3bER6RXAwNGxIcGFxS1NSX3ZzUGFuMXJPZGlZUjAxdmRqVG9yUGR6UjZTdTRGc3U2dDA?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T03:59:36Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY",
+        "AUD/USD",
+        "USD/CAD",
+        "USD/CHF"
+      ],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "d55262dd3b4fb930",
       "title": "點心債首三季佔發行額38% 歷史性首超美元債 - Finance730",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdnNUT0pEQU1RR2lIaVM3Y3J1QWhlSWpZN2RMX2ZQRGNCSHhnYTE0SllCLTNqZ1pZZUNoXy02eHZwX05GZXQwOXpUa1NyV1F0QW5iWmF0NE04cm9Ua3JlYlVWcnkyQnQtNm1YSnJjWW85a0c0MU81d2h5TklZS18waUFKTXdaX1NJVFZTRUVRVU1HblU4dHFV?oc=5",
@@ -88,25 +107,6 @@
       "published_at": "2026-11-16T02:46:53Z",
       "topic": "外汇市场",
       "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "fb39bb63ed82b86f",
-      "title": "現貨黃金、美元指數、歐元美元、美元日元、英鎊美元、美元加元、澳元美元、美元瑞郎、紐元美元支撐阻力位作者FX168 - Investing.com 香港 - 股市報價& 財經新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6WkoxNUlGeUFFdTRzMzFVOUZRSkpGWmxpS1dhVXU5YmVZT0d0dEZ6R2U1UzE3bER6RXAwNGxIcGFxS1NSX3ZzUGFuMXJPZGlZUjAxdmRqVG9yUGR6UjZTdTRGc3U2dDA?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-16T01:27:12Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "USD/JPY",
-        "AUD/USD",
-        "USD/CAD",
-        "USD/CHF"
-      ],
       "verification": "aggregated_unverified",
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
@@ -1301,20 +1301,6 @@
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "7b46d20682db403c",
-      "title": "中国10月外汇储备小幅增长 黄金储备连续24个月增加",
-      "url": "https://cn.investing.com/analysis/article-200502447",
-      "source": "英为财情·外汇分析",
-      "source_url": "https://cn.investing.com/rss/forex.rss",
-      "published_at": "2026-11-09T07:07:00Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "single_source",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     }
   ],
   "sources": [
@@ -1343,7 +1329,7 @@
       "name": "英为财情·外汇新闻",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-16T04:43:37Z",
+      "latest_item_published_at": "2026-11-16T07:07:34Z",
       "error": null
     },
     {
@@ -1363,20 +1349,20 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 14,
+      "count": 13,
       "latest_item_published_at": "2026-11-12T00:00:00Z",
       "error": null
     },
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 22,
+      "count": 19,
       "latest_item_published_at": "2026-11-16T04:26:22Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-16T04:43:37Z",
-  "new_article_count": 9,
+  "latest_article_published_at": "2026-11-16T07:07:34Z",
+  "new_article_count": 0,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
