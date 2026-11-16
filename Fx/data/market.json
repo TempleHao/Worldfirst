@@ -1,24 +1,20 @@
 {
   "schema_version": 1,
-  "attempted_at": "2026-11-16T07:55:25.791818Z",
-  "last_successful_at": "2026-11-16T07:55:25.791818Z",
+  "attempted_at": "2026-11-16T18:25:58.568118Z",
+  "last_successful_at": "2026-11-16T18:25:58.568118Z",
   "quote_type": "official_daily_reference_not_realtime_or_executable",
   "instruments": [
     {
       "pair": "USD/CNY",
-      "value": 6.671915,
-      "date": "2026-11-13",
+      "value": 6.666515,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": 0.009,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": -0.095,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 6.70457
-        },
         {
           "date": "2026-10-06",
           "value": 6.704588
@@ -134,24 +130,24 @@
         {
           "date": "2026-11-13",
           "value": 6.671915
+        },
+        {
+          "date": "2026-11-16",
+          "value": 6.666515
         }
       ]
     },
     {
       "pair": "USD/HKD",
-      "value": 7.846001,
-      "date": "2026-11-13",
+      "value": 7.847013,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": 0.109,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": 0.068,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 7.847644
-        },
         {
           "date": "2026-10-06",
           "value": 7.847901
@@ -267,24 +263,24 @@
         {
           "date": "2026-11-13",
           "value": 7.846001
+        },
+        {
+          "date": "2026-11-16",
+          "value": 7.847013
         }
       ]
     },
     {
       "pair": "EUR/USD",
-      "value": 1.1052,
-      "date": "2026-11-13",
+      "value": 1.1014,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "direct_eur_reference",
       "kind": "official_daily_reference",
-      "change_5_published_days_pct": -1.012,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": -1.599,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 1.1204
-        },
         {
           "date": "2026-10-06",
           "value": 1.1269
@@ -400,24 +396,24 @@
         {
           "date": "2026-11-13",
           "value": 1.1052
+        },
+        {
+          "date": "2026-11-16",
+          "value": 1.1014
         }
       ]
     },
     {
       "pair": "USD/JPY",
-      "value": 159.99819,
-      "date": "2026-11-13",
+      "value": 159.596877,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": 1.057,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": 1.045,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 158.229204
-        },
         {
           "date": "2026-10-06",
           "value": 158.088562
@@ -533,24 +529,24 @@
         {
           "date": "2026-11-13",
           "value": 159.99819
+        },
+        {
+          "date": "2026-11-16",
+          "value": 159.596877
         }
       ]
     },
     {
       "pair": "GBP/USD",
-      "value": 1.322658,
-      "date": "2026-11-13",
+      "value": 1.319832,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": -1.183,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": -1.623,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 1.322474
-        },
         {
           "date": "2026-10-06",
           "value": 1.327639
@@ -666,24 +662,24 @@
         {
           "date": "2026-11-13",
           "value": 1.322658
+        },
+        {
+          "date": "2026-11-16",
+          "value": 1.319832
         }
       ]
     },
     {
       "pair": "AUD/USD",
-      "value": 0.678536,
-      "date": "2026-11-13",
+      "value": 0.675664,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": -1.243,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": -1.992,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 0.69603
-        },
         {
           "date": "2026-10-06",
           "value": 0.698203
@@ -799,24 +795,24 @@
         {
           "date": "2026-11-13",
           "value": 0.678536
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0.675664
         }
       ]
     },
     {
       "pair": "NZD/USD",
-      "value": 0.553209,
-      "date": "2026-11-13",
+      "value": 0.5515,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": -0.204,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": -1.747,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 0.559138
-        },
         {
           "date": "2026-10-06",
           "value": 0.561737
@@ -932,24 +928,24 @@
         {
           "date": "2026-11-13",
           "value": 0.553209
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0.5515
         }
       ]
     },
     {
       "pair": "USD/CAD",
-      "value": 1.425805,
-      "date": "2026-11-13",
+      "value": 1.428545,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": 1.363,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": 1.297,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 1.425295
-        },
         {
           "date": "2026-10-06",
           "value": 1.424971
@@ -1065,24 +1061,24 @@
         {
           "date": "2026-11-13",
           "value": 1.425805
+        },
+        {
+          "date": "2026-11-16",
+          "value": 1.428545
         }
       ]
     },
     {
       "pair": "USD/CHF",
-      "value": 0.8384,
-      "date": "2026-11-13",
+      "value": 0.839295,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": 2.381,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": 2.512,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 0.831042
-        },
         {
           "date": "2026-10-06",
           "value": 0.830508
@@ -1198,24 +1194,24 @@
         {
           "date": "2026-11-13",
           "value": 0.8384
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0.839295
         }
       ]
     },
     {
       "pair": "USD/SGD",
-      "value": 1.288093,
-      "date": "2026-11-13",
+      "value": 1.288814,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "same_day_cross",
       "kind": "official_daily_reference_cross",
-      "change_5_published_days_pct": 0.507,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": 0.682,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 1.280257
-        },
         {
           "date": "2026-10-06",
           "value": 1.277132
@@ -1331,24 +1327,24 @@
         {
           "date": "2026-11-13",
           "value": 1.288093
+        },
+        {
+          "date": "2026-11-16",
+          "value": 1.288814
         }
       ]
     },
     {
       "pair": "EUR/GBP",
-      "value": 0.83559,
-      "date": "2026-11-13",
+      "value": 0.8345,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "direct_eur_reference",
       "kind": "official_daily_reference",
-      "change_5_published_days_pct": 0.173,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": 0.024,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 0.8472
-        },
         {
           "date": "2026-10-06",
           "value": 0.8488
@@ -1464,24 +1460,24 @@
         {
           "date": "2026-11-13",
           "value": 0.83559
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0.8345
         }
       ]
     },
     {
       "pair": "EUR/JPY",
-      "value": 176.83,
-      "date": "2026-11-13",
+      "value": 175.78,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "direct_eur_reference",
       "kind": "official_daily_reference",
-      "change_5_published_days_pct": 0.034,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": -0.571,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 177.28
-        },
         {
           "date": "2026-10-06",
           "value": 178.15
@@ -1597,24 +1593,24 @@
         {
           "date": "2026-11-13",
           "value": 176.83
+        },
+        {
+          "date": "2026-11-16",
+          "value": 175.78
         }
       ]
     },
     {
       "pair": "EUR/CHF",
-      "value": 0.9266,
-      "date": "2026-11-13",
+      "value": 0.9244,
+      "date": "2026-11-16",
       "source": "欧洲央行 ECB",
       "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
       "method": "direct_eur_reference",
       "kind": "official_daily_reference",
-      "change_5_published_days_pct": 1.345,
-      "comparison_date": "2026-11-06",
+      "change_5_published_days_pct": 0.873,
+      "comparison_date": "2026-11-09",
       "points": [
-        {
-          "date": "2026-10-05",
-          "value": 0.9311
-        },
         {
           "date": "2026-10-06",
           "value": 0.9359
@@ -1730,6 +1726,10 @@
         {
           "date": "2026-11-13",
           "value": 0.9266
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0.9244
         }
       ]
     }
@@ -1740,7 +1740,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "last_observation_date": "2026-11-13",
+      "last_observation_date": "2026-11-16",
       "date_fresh": true
     },
     {

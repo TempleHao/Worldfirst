@@ -1,8 +1,122 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T07:55:25.695591Z",
-  "attempted_at": "2026-11-16T07:55:25.695591Z",
+  "updated_at": "2026-11-16T18:25:58.433399Z",
+  "attempted_at": "2026-11-16T18:25:58.433399Z",
   "articles": [
+    {
+      "id": "8493a1f7dd756510",
+      "title": "美國Anthropic大型IPO可望吸引190億美元指數買盤，SpaceX前例揭示隱憂 - BigGo 財經",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3czJsY3U3eEpTMEp2X1Z4aUZtNGkzc2M3bnpWUU5tQ3NvY3lJSmU0ZGh1b2cxLU03SzdPeEJwb0lyQXRHVlRybFlzUWx6VFJ4Z0syZlFvN19rRWdueDlscUtnbkQ4a2tTX0NTamZmaWRnYTRaVnYwWlVn?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T16:55:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "c8a7388bbd10de68",
+      "title": "美元指數創19個月新高 日圓無視日本經濟衰退持穩 - 民視新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13NnQ2V0FRTW5qbjRWWlR4dVpMWFBEQXYyUHRUQ3Rpc0ZVYU5jd1JQdmc2ZG91YXZXLTNSVVR1WVlhUng3WGpCdXg0c3pTRnFCTGVITTVvQVJENDJrS293RQ?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T13:00:13Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "9e05b17daac2f0bd",
+      "title": "美元指數延續漲勢，交易員押注美聯儲加息週期將更長 - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbW5ESjJNLXNuOHJsZno4dTRvS2IxWG0tTG1halgwUHlkZUdpazBzdlQ3c29MekEwblptSWRMMlZMbDJDZVRDb1JqT0pyaDVlcmF5YjEtR1FpbEJFTkF2STMzR0d2ZDhXY2h2dUtTNlVnb2R2U0p4TzMwTkdBLTJRYWtSZXRmLU1IcngwTTdQaDB1WVpzTFBOUmdwc2l6c29LblZJZW1vSDN1NW9FN3c0Q2tSZ2F2T0xVTENPMnozWXFGWlAwS3NNWnI2TFFMVndldzBscXYwdw?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T12:15:45Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "f0c9453fd6ea0266",
+      "title": "【即時新聞】輝達(NVDA)財報將揭曉！美元指數創19個月新高，聯準會決策牽動美股 - CMoney投資網誌",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNU8wVEQwNldRNzNqcUw1YXhTeXNlanpkSjNPSjhvWldVOU00bmFZV1VGVTJBUHNCLXkyRkNSZUZzejJMbmItekRqMjBKWGh0NXFzM1lpNjVFUlBTZTQ5MFljNkZiTTFfUFlqTU5QQmVIUTVuUFFnTERmT1dtNG5ZUlhVcGUyVjlTLVBvb0hXSF8?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T11:51:43Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "07d39ecfe82c86ac",
+      "title": "【外匯】星展：市場押注12月加息50基點可能性 美元指數突破103關口 - 大紀元時報香港",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QaXc3Ty1kTENCUHlGdk94LUVneDNCWlRObDA2ZDFlRVZ1QlVGMFo2Q0ExNUwzMXRZeGRaSEdEYnhpU0VxTm4xTWEtblQzSUY1a2VxZWlCVzMzVUJPa0lV?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T09:59:00Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "853f1dc9a4452a56",
+      "title": "美国国债收益率在近一个月高位附近暂歇，交易员静待美联储信号",
+      "url": "https://cn.investing.com/news/forex-news/article-3669199",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-16T09:00:34Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "single_source",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "e583d81e56c05777",
+      "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-16T08:30:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "a19bbdcc46d3f80a",
+      "title": "Highlights of the Outlook for Economic Activity and Prices (October 2026)",
+      "url": "http://www.boj.or.jp/en/mopo/outlook/highlight/ten202610.htm",
+      "source": "日本央行·官方发布",
+      "source_url": "https://www.boj.or.jp/en/rss/whatsnew.xml",
+      "published_at": "2026-11-16T08:00:00Z",
+      "topic": "宏观经济",
+      "pairs": [],
+      "verification": "official",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
+    },
     {
       "id": "1e72e4e10f932744",
       "title": "美元连续五个交易日上涨，维持近19个月高位！日元对日本GDP疲软数据反应平淡",
@@ -74,7 +188,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdnNUT0pEQU1RR2lIaVM3Y3J1QWhlSWpZN2RMX2ZQRGNCSHhnYTE0SllCLTNqZ1pZZUNoXy02eHZwX05GZXQwOXpUa1NyV1F0QW5iWmF0NE04cm9Ua3JlYlVWcnkyQnQtNm1YSnJjWW85a0c0MU81d2h5TklZS18waUFKTXdaX1NJVFZTRUVRVU1HblU4dHFV?oc=5",
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-16T03:51:04Z",
+      "published_at": "2026-11-16T03:56:55Z",
       "topic": "外汇市场",
       "pairs": [],
       "verification": "aggregated_unverified",
@@ -129,6 +243,20 @@
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     },
     {
+      "id": "8caf2a903815aa97",
+      "title": "講一個，很反常識的問題 美元指數上升，美股下跌， 正常來說... - 股市爆料同學會 - CMoney",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wcVpLWng5bU5SeTBWck9FOHo4UjV4TENjYXpWSkowUTZUTjlobi1YVzlKVXhQVlRwR1J6ZFFJanJWS0Z1MzF3Q2ZraHVBQmxlOUVUSzJVenM?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T00:45:41Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "d23450e2219b66d2",
       "title": "《匯市簡訊》美元/離岸人民幣走強，關注中國工業增加值與零售額數據 - TradingView",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54MUhFRjE0ajgzM1U5NzlvWmFEci11eHVmemRuRWZET2ZHOHBPLVBQVjJqVUUxYTZqMF9UVHFGbm1rZV9yZ1JEUjlKU3RDNnE0REdVUV9lREd4aFRFaUZRM2RPUENIdjhYTFdfMmZZUVFtRDN0eFMw?oc=5",
@@ -181,6 +309,20 @@
       "pairs": [
         "USD/JPY"
       ],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "fc7824343c7c27df",
+      "title": "陳茂波指首三季離岸人民幣債券佔港上市債券總發行額38% 首超美元債券 - TVB",
+      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPQjJQYVhXZ3FNZ2lOZW02Z2lLUVFidC1lLU9OT1JmallxUXN6Zmp6TUNyYlpESG45NTJLbG1uQmZxQk1TNTFIeG5EUF9iQVk3T3BLd1VlZE1ieXNsMkQxVk8tb0dqcGNGTEV5SGNzRzNHQjBsVXdmWmJHWF8wSGsxR0k2YVdBVGNVYk9BVGx6ZGVST3VuREd2VFVIa19PdDE4TVU0NFExNDFlaG1GNlNpblMxN3UzWFlPZFlWWDlLaEpNX2kzV1lrczFiUnJQWGZLQ01uWGpKbWhVeHdhQXRyLS0xSlNVUG1TcGk4bkRZQlBRalA1dmVJRW9TX2tOa1JBN1dPWXZPbi1sblNabUxURU9EaVV1TmZrUmNnYzBIRU5tRGd5cWkzc05KZFdrQ0NMMkpHUkJGSDNRa2lIeE02QUhJQXJwY3FjMTdiclpra19RUktJSmhmb1M3RmRUeUZnanFsak8yblE0Rm85RHpfN2pub0sydFBEQTJXOVFVWjNiUVVWRmg2ZVhtaEFKbFdkQnJiRktUaDZGcS1TSjFKN29MVmJJd0NtbnlTR1F0RU45Zw?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-15T08:47:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
       "verification": "aggregated_unverified",
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
@@ -1321,15 +1463,15 @@
     {
       "name": "欧洲央行·官方发布",
       "ok": true,
-      "count": 14,
-      "latest_item_published_at": "2026-11-13T07:20:00Z",
+      "count": 13,
+      "latest_item_published_at": "2026-11-16T08:30:00Z",
       "error": null
     },
     {
       "name": "英为财情·外汇新闻",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-16T07:07:34Z",
+      "latest_item_published_at": "2026-11-16T09:00:34Z",
       "error": null
     },
     {
@@ -1342,8 +1484,8 @@
     {
       "name": "日本央行·官方发布",
       "ok": true,
-      "count": 14,
-      "latest_item_published_at": "2026-11-16T04:00:00Z",
+      "count": 15,
+      "latest_item_published_at": "2026-11-16T08:00:00Z",
       "error": null
     },
     {
@@ -1356,13 +1498,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 19,
-      "latest_item_published_at": "2026-11-16T04:26:22Z",
+      "count": 22,
+      "latest_item_published_at": "2026-11-16T16:55:00Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-16T07:07:34Z",
-  "new_article_count": 0,
+  "latest_article_published_at": "2026-11-16T16:55:00Z",
+  "new_article_count": 10,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
