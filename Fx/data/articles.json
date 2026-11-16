@@ -1,8 +1,50 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T18:25:58.433399Z",
-  "attempted_at": "2026-11-16T18:25:58.433399Z",
+  "updated_at": "2026-11-16T22:01:22.484572Z",
+  "attempted_at": "2026-11-16T22:01:22.484572Z",
   "articles": [
+    {
+      "id": "aea65d97e53313ae",
+      "title": "通膨升溫推升升息預期！美元指數創2025年4月以來新高 - 民視財經網",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xVkRYbkZLVDA2Z2NwUmNKSnZtY2JTcFUwTzRzS2xLVXc5Y0JtNDMxQ24yTFIzV0c5Z0hEQkRLOUZPUVA3Y3NjUWhtTmROaUgyaE56YnQyZXNPb1ZFY0tqcW9WMVFrUQ?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T20:55:51Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "412bf9b81b56b9ed",
+      "title": "美元指數衝高外銀：103.5成關鍵阻力位- 財經要聞- 工商時報 - 中時新聞網",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nVjJJdXU2Q2lITnpJNUNJWXl4RFRkX1ozYm1OUFlLTm01YUlDekwtWUZlNHJZYzEwU2htOW83SUlmcWxydXpYNGJ4T2dNVWRxSS1iZTNhTkRqb0tWbHpSVTZDVVBaREhDSnFz?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T20:10:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "223b5bf23be6c752",
+      "title": "美元指數衝高外銀：103.5成關鍵阻力位- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOc1FvcU9mWXljaWZWaUllLVJwZmpiVEZFQm1rNkNrTnRsRlE2SDRRaGhRZy1ucGZBZWJxYnB5VF96dmtJd2d5c1Z4UUVxVHlkQ3JlSnB2OWdyQndycUc4?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T19:00:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "8493a1f7dd756510",
       "title": "美國Anthropic大型IPO可望吸引190億美元指數買盤，SpaceX前例揭示隱憂 - BigGo 財經",
@@ -197,12 +239,12 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
-      "id": "c72ac34c7dedda7a",
+      "id": "ebe9e94fce83812a",
       "title": "離岸人民幣：CNH同業拆息利率漲跌互現，隔夜拆息創逾半個月新低 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DbDdWek1nN0NTU0QzV3ZYX0IwTzVsNTdXTkV1cWwyWVdhMi1FdlljaE9waW92aG5TNTlPLUVEeFNmRWtuLUVJTG9WdXdLYjhJd3NZckJfX1JZUi1ZZXhsNmFUYkl2NmM1ckV1YzhnOTl0M095d3hB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBdmIxNlM4dVcwS2FvMS0xY0w0QUZLeXA2Rm4xbVhPd1E5eHVvdFlxTXRxdnN6cGZjTVRFQWppNFVveTlkcWlqS3lydk1TX3M5NVNKaWFOcW9hY0pYN25vSzloRVRTdkNnMTBkMkk0M2xKUDRLbmk0?oc=5",
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-16T03:50:08Z",
+      "published_at": "2026-11-16T03:27:46Z",
       "topic": "货币政策",
       "pairs": [
         "USD/CNH"
@@ -1498,13 +1540,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 22,
-      "latest_item_published_at": "2026-11-16T16:55:00Z",
+      "count": 24,
+      "latest_item_published_at": "2026-11-16T20:55:51Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-16T16:55:00Z",
-  "new_article_count": 10,
+  "latest_article_published_at": "2026-11-16T20:55:51Z",
+  "new_article_count": 4,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
