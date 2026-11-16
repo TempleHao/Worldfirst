@@ -1,8 +1,133 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T00:59:06.759790Z",
-  "attempted_at": "2026-11-16T00:59:06.759790Z",
+  "updated_at": "2026-11-16T06:28:02.474228Z",
+  "attempted_at": "2026-11-16T06:28:02.474228Z",
   "articles": [
+    {
+      "id": "1e72e4e10f932744",
+      "title": "亚洲外汇市场普遍低迷，美元维持近19个月高位；日元在GDP数据疲软后保持稳定",
+      "url": "https://cn.investing.com/news/forex-news/article-3668919",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-16T04:43:37Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "single_source",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "77ef5311c40f74b0",
+      "title": "GDP 萎縮 0.1% 難阻加息，日元匯率博弈加劇 作者 智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wMlg3YlAtYXdMdGJtR0hJeVNnV2Q4TURHLUZUc1R2UG00Q2FGSVgyZnMyQjFzbU4yZ0tJc3hyUzBZRDd5Vk5LNGRtd2h5aXBZX0NNY1d1TldCX2tPZENGYjJCQ0ZDUmsxVkNPeHdJRjk?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T04:26:22Z",
+      "topic": "货币政策",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "832a78a8a2295782",
+      "title": "Speech by Board Member TAKATA at a Meeting Held by the Tokushima Association of Corporate Executives (Economic Activity, Prices, and Monetary Policy in Japan: Japan's Money and Capital Market Transformation -- Will a Paradigm Shift Occur?)",
+      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261116a.htm",
+      "source": "日本央行·官方发布",
+      "source_url": "https://www.boj.or.jp/en/rss/whatsnew.xml",
+      "published_at": "2026-11-16T04:00:00Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "official",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "d55262dd3b4fb930",
+      "title": "點心債首三季佔發行額38% 歷史性首超美元債 - Finance730",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdnNUT0pEQU1RR2lIaVM3Y3J1QWhlSWpZN2RMX2ZQRGNCSHhnYTE0SllCLTNqZ1pZZUNoXy02eHZwX05GZXQwOXpUa1NyV1F0QW5iWmF0NE04cm9Ua3JlYlVWcnkyQnQtNm1YSnJjWW85a0c0MU81d2h5TklZS18waUFKTXdaX1NJVFZTRUVRVU1HblU4dHFV?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T03:51:04Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "c72ac34c7dedda7a",
+      "title": "離岸人民幣：CNH同業拆息利率漲跌互現，隔夜拆息創逾半個月新低 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DbDdWek1nN0NTU0QzV3ZYX0IwTzVsNTdXTkV1cWwyWVdhMi1FdlljaE9waW92aG5TNTlPLUVEeFNmRWtuLUVJTG9WdXdLYjhJd3NZckJfX1JZUi1ZZXhsNmFUYkl2NmM1ckV1YzhnOTl0M095d3hB?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T03:50:08Z",
+      "topic": "货币政策",
+      "pairs": [
+        "USD/CNH"
+      ],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "1eadcfcb24f42ae1",
+      "title": "美國美元指數在偏鷹派美聯儲言論後守住103.50上方漲幅 - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOanlGZ3pxcnRPbU9VWUpSWFc5WkowSTVRQXk1RkhPQUlhRXFtTmFUX1lBa1ExU2dXRnc0c21FMUd2bTJsOTVCemlTajZRMGlRQmg4SmN6QUJfRnlodDdPSnZZZWd0MnVYZzFZbWp2OHhncFpzMWlMejdHVVlaUXgxZ1NuYTVQZXBQOWNzZkxxUkczSllDekJETGhkRWpSLVhneGFNSkRzbUdZMjFIcnM3UWIxVWx6dUU1X0xsOW93QnJ2NnVNTnZzR2tjb045RXpEalJMY3lzTUJuclU?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T02:46:53Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "fb39bb63ed82b86f",
+      "title": "現貨黃金、美元指數、歐元美元、美元日元、英鎊美元、美元加元、澳元美元、美元瑞郎、紐元美元支撐阻力位作者FX168 - Investing.com 香港 - 股市報價& 財經新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6WkoxNUlGeUFFdTRzMzFVOUZRSkpGWmxpS1dhVXU5YmVZT0d0dEZ6R2U1UzE3bER6RXAwNGxIcGFxS1NSX3ZzUGFuMXJPZGlZUjAxdmRqVG9yUGR6UjZTdTRGc3U2dDA?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-16T01:27:12Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY",
+        "AUD/USD",
+        "USD/CAD",
+        "USD/CHF"
+      ],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "a534d6a80797fd5e",
+      "title": "Aurra Markets：【英镑兑美元走势预测】英国央行政策转向，英镑剑指 1.3500",
+      "url": "https://cn.investing.com/analysis/article-200502491",
+      "source": "英为财情·外汇分析",
+      "source_url": "https://cn.investing.com/rss/forex.rss",
+      "published_at": "2026-11-16T01:01:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "GBP/USD"
+      ],
+      "verification": "single_source",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
     {
       "id": "d23450e2219b66d2",
       "title": "《匯市簡訊》美元/離岸人民幣走強，關注中國工業增加值與零售額數據 - TradingView",
@@ -332,6 +457,20 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
+      "id": "43c0d0536e856100",
+      "title": "Invesco 德銀放空美元指數ETF(UDN)成分股、持股明細總覽 - 口袋證券",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mcWpvb2dfMVRTM19Sd2RQZUp0bFBnZk1ESHI1NG55dm9ZZEpDN1YyZ09Ma3h4aDB0Si1hZnJiUTR2ZExJaE5QYw?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-13T08:00:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "b2851de93965f784",
       "title": "Isabel Schnabel: Made in Europe",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
@@ -446,25 +585,6 @@
       ],
       "verification": "single_source",
       "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "84341559b4104959",
-      "title": "現貨黃金、美元指數、歐元美元、美元日元、英鎊美元、美元加元、澳元美元、美元瑞郎、紐元美元支撐阻力位作者FX168 - Investing.com 香港 - 股市報價& 財經新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Bd3Z4X0pYRVNnTElsbHdneGNhOFAxZHJXR3VUZ1VqR2E0S2JQclNzb0hLOWlUMXRDSHBSMzlseGxMZGMzRGdZeEQ3Q0E1Y094blczYkRUQWhUcG8tQVdObFdfSFJvTDA?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-13T02:48:09Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "USD/JPY",
-        "AUD/USD",
-        "USD/CAD",
-        "USD/CHF"
-      ],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
@@ -1195,36 +1315,6 @@
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "b5fbec55e5ddb880",
-      "title": "Amounts Outstanding in the Call Money Market (Oct.)",
-      "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx",
-      "source": "日本央行·官方发布",
-      "source_url": "https://www.boj.or.jp/en/rss/whatsnew.xml",
-      "published_at": "2026-11-09T06:00:00Z",
-      "topic": "宏观经济",
-      "pairs": [],
-      "verification": "official",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
-    },
-    {
-      "id": "fb1c8d6b7973ae96",
-      "title": "Aurra Markets：【欧元兑美元走势预测】汇价试探 1.1285 关键阻力位",
-      "url": "https://cn.investing.com/analysis/article-200502427",
-      "source": "英为财情·外汇分析",
-      "source_url": "https://cn.investing.com/rss/forex.rss",
-      "published_at": "2026-11-09T01:01:00Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "EUR/USD"
-      ],
-      "verification": "single_source",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     }
   ],
   "sources": [
@@ -1252,22 +1342,22 @@
     {
       "name": "英为财情·外汇新闻",
       "ok": true,
-      "count": 9,
-      "latest_item_published_at": "2026-11-13T19:31:53Z",
+      "count": 10,
+      "latest_item_published_at": "2026-11-16T04:43:37Z",
       "error": null
     },
     {
       "name": "英为财情·外汇分析",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-09T07:07:00Z",
+      "latest_item_published_at": "2026-11-16T01:01:00Z",
       "error": null
     },
     {
       "name": "日本央行·官方发布",
       "ok": true,
       "count": 14,
-      "latest_item_published_at": "2026-11-12T01:30:00Z",
+      "latest_item_published_at": "2026-11-16T04:00:00Z",
       "error": null
     },
     {
@@ -1280,13 +1370,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 25,
-      "latest_item_published_at": "2026-11-15T23:42:42Z",
+      "count": 22,
+      "latest_item_published_at": "2026-11-16T04:26:22Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-15T23:42:42Z",
-  "new_article_count": 4,
+  "latest_article_published_at": "2026-11-16T04:43:37Z",
+  "new_article_count": 9,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,

@@ -1,6 +1,6 @@
 {
-  "attempted_at": "2026-11-16T00:59:06.759790Z",
-  "last_successful_at": "2026-11-16T00:59:06.759790Z",
+  "attempted_at": "2026-11-16T06:28:02.474228Z",
+  "last_successful_at": "2026-11-16T06:28:02.474228Z",
   "success_count": 8,
   "total_sources": 8,
   "sources": [
@@ -28,22 +28,22 @@
     {
       "name": "英为财情·外汇新闻",
       "ok": true,
-      "count": 9,
-      "latest_item_published_at": "2026-11-13T19:31:53Z",
+      "count": 10,
+      "latest_item_published_at": "2026-11-16T04:43:37Z",
       "error": null
     },
     {
       "name": "英为财情·外汇分析",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-09T07:07:00Z",
+      "latest_item_published_at": "2026-11-16T01:01:00Z",
       "error": null
     },
     {
       "name": "日本央行·官方发布",
       "ok": true,
       "count": 14,
-      "latest_item_published_at": "2026-11-12T01:30:00Z",
+      "latest_item_published_at": "2026-11-16T04:00:00Z",
       "error": null
     },
     {
@@ -56,12 +56,12 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 25,
-      "latest_item_published_at": "2026-11-15T23:42:42Z",
+      "count": 22,
+      "latest_item_published_at": "2026-11-16T04:26:22Z",
       "error": null
     }
   ],
-  "article_count": 85,
-  "latest_article_published_at": "2026-11-15T23:42:42Z",
-  "new_article_count": 4
+  "article_count": 91,
+  "latest_article_published_at": "2026-11-16T04:43:37Z",
+  "new_article_count": 9
 }
