@@ -1,8 +1,66 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T21:10:03.275872Z",
-  "attempted_at": "2026-11-15T21:10:03.275872Z",
+  "updated_at": "2026-11-16T00:59:06.759790Z",
+  "attempted_at": "2026-11-16T00:59:06.759790Z",
   "articles": [
+    {
+      "id": "d23450e2219b66d2",
+      "title": "《匯市簡訊》美元/離岸人民幣走強，關注中國工業增加值與零售額數據 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54MUhFRjE0ajgzM1U5NzlvWmFEci11eHVmemRuRWZET2ZHOHBPLVBQVjJqVUUxYTZqMF9UVHFGbm1rZV9yZ1JEUjlKU3RDNnE0REdVUV9lREd4aFRFaUZRM2RPUENIdjhYTFdfMmZZUVFtRDN0eFMw?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-15T23:42:42Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "944de316c1f9c08c",
+      "title": "國內匯市：美元指數高檔回落與台股反彈，台幣上週五帶量升值5.1分收32.838元 - 富聯網",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNREVqYk1vNVJqR1VKelF2VldYdnhDZTBYTEo0V3hJOGF4S2dpZlR6YTV3ek55eFI1ckJLMXEtT2Zpc2xiZHpiV2tLV1pZMVl3X05kdDhFZkJlQVRHMlJxUlB0dDV4ckxwaFMyNXBWSG05TEdtMENnS1pRMGRqR255T3pQTTBBZnI3?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-15T23:00:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "5abe59960e44c3a5",
+      "title": "美元指數飆上19個月新高 聯準會鷹派預期壓抑商品與主要貨幣 - ENN台灣電報",
+      "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFAyR2tlVGdvVm50V0pickhTSndPMHhKX1ZDX2ozSHVLS01UeGtVQVUyTGxIVWJ2ODVoRmc?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-15T16:40:23Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "b0625c8fcd98f818",
+      "title": "【2026必逛大阪中古店】日元匯率低迷！ 推介 3 大必逛二手名牌店、日本名牌中古 - ELLE HK",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPblQ4Z2lKZlpqSzIyQ1FucGNUejU4NkF2a2RyM0ZrSEVvaEdvSjRVbDNnS2Q4bVZsLVVUamdQXzVSakVZODVpZmhWcFZZdUowdGhHZTZuTW5ocHlPa2IyWHo3TE82cjhXaVMwQWpGZFAtaWFMX1plcWdodjRCVWhTTHlwSW8zWUZUalRya21n?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-15T16:05:00Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "561ef1b171a56af6",
       "title": "今年首三季離岸人民幣債券佔港上市債券總發行額38% 首次超越美元債券 - TVB",
@@ -1167,20 +1225,6 @@
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "73aaea5bce6db22e",
-      "title": "Market Operations by the Bank of Japan (Oct.)",
-      "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2610.xlsx",
-      "source": "日本央行·官方发布",
-      "source_url": "https://www.boj.or.jp/en/rss/whatsnew.xml",
-      "published_at": "2026-11-08T23:50:00Z",
-      "topic": "宏观经济",
-      "pairs": [],
-      "verification": "official",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
     }
   ],
   "sources": [
@@ -1236,13 +1280,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 26,
-      "latest_item_published_at": "2026-11-15T08:47:00Z",
+      "count": 25,
+      "latest_item_published_at": "2026-11-15T23:42:42Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-15T08:47:00Z",
-  "new_article_count": 1,
+  "latest_article_published_at": "2026-11-15T23:42:42Z",
+  "new_article_count": 4,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
