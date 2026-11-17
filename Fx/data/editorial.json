@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:23:38.000Z",
+  "updated_at": "2026-11-17T16:29:00.325Z",
   "method": "editorial_context_source_limited",
   "disclaimer": "除明确注明官方原文复核的条目外，当前编辑性解读只依据RSS标题及常识性经济传导机制，不代表已核实报道全文或价格因果。",
   "items": {
@@ -285,6 +285,14 @@
       "watch": "关注12月15日下一期就业统计、工资与职位空缺是否继续同步下降，以及能源价格是否推高服务通胀。若后续样本修订改变失业率方向，应重新评估本次数据的政策含义。",
       "status": "primary_checked",
       "evidence": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026"
+    },
+    "9e09b40fca323029": {
+      "dek": "港交所11月16日正式推出离岸人民币债券指数，彭博负责指数管理与计算；11月17日文汇报社评关注其长期市场意义。",
+      "insight": "【F/P0】港交所公告确认指数已推出，覆盖符合条件的离岸人民币政府及企业债券，并列出12家计划开发相关产品的资管机构。【O】社评认为基准有助完善离岸金融生态。【I】统一基准有望改善债券相对定价，但产品计划不等于资金已流入，亦不能据此判断CNH走势。",
+      "business": "拥有香港资金中心的企业可将新指数作为人民币债券融资报价的辅助参照，重点区分无风险利率、发行人信用利差及发行费用；短期贸易周转仍需比较银行贷款与实际换汇成本，不能直接套用债券指数表现。",
+      "watch": "关注跟踪指数的基金是否实际成立、成分券成交深度及企业债发行利差。若投资需求集中于高评级政府债，普通贸易企业融资成本未必受益。",
+      "status": "primary_checked",
+      "evidence": "https://www.hkex.com.hk/News/News-Release/2026/261116news?sc_lang=en"
     }
   }
 }
