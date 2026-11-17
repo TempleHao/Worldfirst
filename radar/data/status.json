@@ -1,18 +1,18 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-11-17T07:54:09.804173+00:00",
-  "last_success_at": "2026-11-17T07:54:09.804173+00:00",
-  "succeeded_sources": 7,
+  "last_attempt_at": "2026-11-17T20:54:38.732423+00:00",
+  "last_success_at": "2026-11-17T20:54:38.732423+00:00",
+  "succeeded_sources": 9,
   "attempted_sources": 9,
-  "new_items": 3,
+  "new_items": 1,
   "sources": {
     "worldfirst": {
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "matched": 0
     },
     "airwallex": {
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "matched": 12
     },
     "payoneer": {
       "ok": true,
@@ -24,11 +24,11 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 19
+      "matched": 18
     },
     "pingpong": {
       "ok": true,
-      "matched": 2
+      "matched": 1
     },
     "coral": {
       "ok": true,
