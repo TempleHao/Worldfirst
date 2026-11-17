@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:29:00.325Z",
+  "updated_at": "2026-11-17T21:24:33Z",
   "method": "editorial_context_source_limited",
   "disclaimer": "除明确注明官方原文复核的条目外，当前编辑性解读只依据RSS标题及常识性经济传导机制，不代表已核实报道全文或价格因果。",
   "items": {
@@ -293,6 +293,15 @@
       "watch": "关注跟踪指数的基金是否实际成立、成分券成交深度及企业债发行利差。若投资需求集中于高评级政府债，普通贸易企业融资成本未必受益。",
       "status": "primary_checked",
       "evidence": "https://www.hkex.com.hk/News/News-Release/2026/261116news?sc_lang=en"
+    },
+    "89550e05f9915ac8": {
+      "title_zh": "美国零售销售数据公布后，美元走势受到关注",
+      "dek": "11月17日公布的美国10月零售销售数据呈现总量放缓、部分消费类别较强的分化。",
+      "insight": "【F/P2】路透社与美联社均报道10月名义零售销售环比增长0.2%，低于9月的0.8%；核心零售控制组增长0.6%。【I】核心消费韧性可能支撑紧缩预期，但住房疲软及价格上涨挤压购买力可能抵消这一影响。【U】统计局当前可访问页面仍显示9月数据，未核实FXStreet原文及美元盘中因果。",
+      "business": "美国站卖家可分别评估促销带来的名义销售增长、实际订单量及折扣后的毛利；美元回款与人民币采购的折算风险应与库存周转和美元融资成本分开测算。",
+      "watch": "关注11月19日美国季度电商统计、12月16日下一期零售报告及美联储会议纪要；若销售增长主要来自价格而非数量，需求韧性的判断需下修。",
+      "status": "secondary_checked",
+      "evidence": "https://www.reuters.com/world/us/us-retail-sales-increase-moderately-october-2026-11-17/"
     }
   }
 }
