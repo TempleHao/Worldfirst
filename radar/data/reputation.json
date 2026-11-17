@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-16T22:00:55.967251+00:00",
+  "generated_at": "2026-11-17T07:54:14.334002+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,18 +12,47 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 242,
-    "events": 157,
+    "articles": 244,
+    "events": 158,
     "sentiment": {
-      "中性": 242
+      "中性": 244
     },
     "crisis": {
-      "一般": 157
+      "一般": 158
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-248adf3b1684",
+      "company": "lianlian",
+      "headline": "连连数字携手ClearBank，拓展英镑及欧元本地支付服务能力 - 移动支付网",
+      "date": "2026-11-17",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-cab96ba5db6ee4ffc4"
+      ]
+    },
     {
       "id": "event-4c44fec9b188",
       "company": "lianlian",
@@ -51,6 +80,35 @@
       ],
       "items": [
         "search-37d025addd39ada364"
+      ]
+    },
+    {
+      "id": "event-394746f7c345",
+      "company": "lianlian",
+      "headline": "连连数字（02598.HK）回购18万股 耗资51.02万港元-证券之星 - 证券之星",
+      "date": "2026-11-16",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-6ebfa70573841376ea"
       ]
     },
     {
@@ -424,7 +482,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -439,7 +497,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-746e2196aedce0da1f"
+        "search-746e2196aedce0da1f",
+        "search-eb0e3680f35a1e73d8"
       ]
     },
     {
@@ -4633,35 +4692,6 @@
       ],
       "items": [
         "search-0e67f64bc061829641"
-      ]
-    },
-    {
-      "id": "event-8388f5471438",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：从制造到数字文化，一站式支付解决方案加速企业走向全球 - 新讯网",
-      "date": "2026-10-12",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-d7b6b9e0b78911f2b2"
       ]
     }
   ],

@@ -1,14 +1,14 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-11-16T22:00:51.034686+00:00",
-  "last_success_at": "2026-11-16T22:00:51.034686+00:00",
-  "succeeded_sources": 6,
+  "last_attempt_at": "2026-11-17T07:54:09.804173+00:00",
+  "last_success_at": "2026-11-17T07:54:09.804173+00:00",
+  "succeeded_sources": 7,
   "attempted_sources": 9,
-  "new_items": 1,
+  "new_items": 3,
   "sources": {
     "worldfirst": {
-      "ok": true,
-      "matched": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     "airwallex": {
       "ok": false,
@@ -24,11 +24,11 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 17
+      "matched": 19
     },
     "pingpong": {
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "matched": 2
     },
     "coral": {
       "ok": true,
@@ -39,8 +39,8 @@
       "matched": 0
     },
     "skyee": {
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "matched": 0
     }
   },
   "notes": "公开 Google News RSS 实验性采集，不能推算全网声量。"

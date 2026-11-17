@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-16T22:00:53.778179+00:00",
+  "generated_at": "2026-11-17T07:54:12.258759+00:00",
   "platforms": {
     "wechat": {
+      "index_requests_ok": 5,
+      "index_requests_failed": 4,
+      "indexed_items": 0,
+      "source_quality": "partial_public_index",
+      "last_error": "HTTP Error 429: Too Many Requests",
+      "total_available_records": 0,
+      "state": "connected_zero_matching_results"
+    },
+    "xiaohongshu": {
       "index_requests_ok": 7,
       "index_requests_failed": 2,
       "indexed_items": 0,
@@ -10,18 +19,9 @@
       "total_available_records": 0,
       "state": "connected_zero_matching_results"
     },
-    "xiaohongshu": {
-      "index_requests_ok": 4,
-      "index_requests_failed": 5,
-      "indexed_items": 0,
-      "source_quality": "partial_public_index",
-      "last_error": "HTTP Error 429: Too Many Requests",
-      "total_available_records": 0,
-      "state": "connected_zero_matching_results"
-    },
     "douyin": {
-      "index_requests_ok": 3,
-      "index_requests_failed": 6,
+      "index_requests_ok": 7,
+      "index_requests_failed": 2,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
       "last_error": "HTTP Error 429: Too Many Requests",
@@ -29,12 +29,13 @@
       "state": "connected_zero_matching_results"
     },
     "zhihu": {
-      "index_requests_ok": 9,
-      "index_requests_failed": 0,
-      "indexed_items": 1,
+      "index_requests_ok": 3,
+      "index_requests_failed": 6,
+      "indexed_items": 0,
       "source_quality": "partial_public_index",
+      "last_error": "HTTP Error 429: Too Many Requests",
       "total_available_records": 4,
-      "state": "public_index_leads_only"
+      "state": "connected_zero_matching_results"
     }
   },
   "notes": "公开新闻搜索索引≠平台全文/评论/真实声量。API未授权的不作联网API成功声称。",
