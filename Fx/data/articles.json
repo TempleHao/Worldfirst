@@ -1,8 +1,52 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:38:24.948416Z",
-  "attempted_at": "2026-11-17T10:38:24.948416Z",
+  "updated_at": "2026-11-17T19:26:16.303755Z",
+  "attempted_at": "2026-11-17T19:26:16.303755Z",
   "articles": [
+    {
+      "id": "2ce385fa09e1ffe4",
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-17T18:30:00Z",
+      "topic": "货币政策",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "official",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+    },
+    {
+      "id": "ea2cc2cb2e56d1e9",
+      "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+      "source": "美联储·讲话",
+      "source_url": "https://www.federalreserve.gov/feeds/speeches.xml",
+      "published_at": "2026-11-17T14:10:00Z",
+      "topic": "宏观经济",
+      "pairs": [],
+      "verification": "official",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
+    },
+    {
+      "id": "b1c3910f065ed4c5",
+      "title": "花旗预测巴西雷亚尔将于2027年贬至每美元5.50",
+      "url": "https://cn.investing.com/news/forex-news/article-93CH-3672125",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-17T11:51:59Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "single_source",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "a1ab2180670f108c",
       "title": "英镑有望终结连跌势头，美元涨势暂歇；英国失业率意外降至4.6%",
@@ -21,19 +65,17 @@
     },
     {
       "id": "39b54887d3ca6bc9",
-      "title": "欧元区国债收益率徘徊近一个月高位，美债引力难以摆脱",
+      "title": "美国国债收益率在近一个月高位附近企稳",
       "url": "https://cn.investing.com/news/forex-news/article-3671583",
       "source": "英为财情·外汇新闻",
       "source_url": "https://cn.investing.com/rss/news_1.rss",
       "published_at": "2026-11-17T09:00:34Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "EUR/USD"
-      ],
+      "topic": "宏观经济",
+      "pairs": [],
       "verification": "single_source",
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
     },
     {
       "id": "4b019d70215ee634",
@@ -1739,38 +1781,6 @@
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "e3471b85e9068b8b",
-      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
-      "source": "欧洲央行·官方发布",
-      "source_url": "https://www.ecb.europa.eu/rss/press.html",
-      "published_at": "2026-11-10T16:45:00Z",
-      "topic": "货币政策",
-      "pairs": [
-        "EUR/USD"
-      ],
-      "verification": "official",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "461728c10cfa467f",
-      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
-      "source": "欧洲央行·官方发布",
-      "source_url": "https://www.ecb.europa.eu/rss/press.html",
-      "published_at": "2026-11-10T14:00:00Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "EUR/USD"
-      ],
-      "verification": "official",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     }
   ],
   "sources": [
@@ -1785,21 +1795,21 @@
       "name": "美联储·讲话",
       "ok": true,
       "count": 5,
-      "latest_item_published_at": "2026-11-10T20:30:00Z",
+      "latest_item_published_at": "2026-11-17T14:10:00Z",
       "error": null
     },
     {
       "name": "欧洲央行·官方发布",
       "ok": true,
       "count": 13,
-      "latest_item_published_at": "2026-11-16T08:30:00Z",
+      "latest_item_published_at": "2026-11-17T18:30:00Z",
       "error": null
     },
     {
       "name": "英为财情·外汇新闻",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-17T09:22:09Z",
+      "latest_item_published_at": "2026-11-17T11:51:59Z",
       "error": null
     },
     {
@@ -1825,14 +1835,14 @@
     },
     {
       "name": "Google新闻·中文外汇聚合",
-      "ok": true,
-      "count": 34,
-      "latest_item_published_at": "2026-11-17T08:59:57Z",
-      "error": null
+      "ok": false,
+      "count": 0,
+      "latest_item_published_at": null,
+      "error": "HTTPError"
     }
   ],
-  "latest_article_published_at": "2026-11-17T09:22:09Z",
-  "new_article_count": 4,
+  "latest_article_published_at": "2026-11-17T18:30:00Z",
+  "new_article_count": 3,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
