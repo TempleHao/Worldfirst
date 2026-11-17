@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:28:54Z",
+  "updated_at": "2026-11-17T11:23:38.000Z",
   "method": "editorial_context_source_limited",
   "disclaimer": "除明确注明官方原文复核的条目外，当前编辑性解读只依据RSS标题及常识性经济传导机制，不代表已核实报道全文或价格因果。",
   "items": {
@@ -277,6 +277,14 @@
       "watch": "关注GDP后续修订、日本工资与物价数据，以及日本央行下一次政策沟通。若消费恢复或通胀持续，低增长未必阻止进一步紧缩；若内需继续恶化，政策路径可能调整。",
       "status": "primary_checked",
       "evidence": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe263/pdf/gaiyou2631_e.pdf"
+    },
+    "a1ab2180670f108c": {
+      "dek": "英国国家统计局11月17日公布，7至9月失业率降至4.6%，但工资增速与招聘需求同时走弱。",
+      "insight": "【F/P0】失业率较上一滚动三个月的4.7%下降；不含奖金的名义工资同比增速由3.7%降至3.5%，8至10月职位空缺为69万。统计局指出调查样本轮换部分影响就业和失业指标。【I】若招聘疲软逐步抑制工资与服务价格，英国央行进一步紧缩的压力可能减轻；若能源成本向工资传导，英镑仍可能受到利率预期支撑。【U】原始中文报道正文未能访问，英镑日内反应及其归因未核实。",
+      "business": "面向英国的消费品卖家可将英镑回款折算与当地订单需求分别做压力测试；依赖英国小企业客户的赊销供应商需关注招聘收缩是否伴随付款周期延长。英镑浮息融资与固定价格销售合同的成本风险也应分别测算。",
+      "watch": "关注12月15日下一期就业统计、工资与职位空缺是否继续同步下降，以及能源价格是否推高服务通胀。若后续样本修订改变失业率方向，应重新评估本次数据的政策含义。",
+      "status": "primary_checked",
+      "evidence": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026"
     }
   }
 }
