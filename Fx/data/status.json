@@ -1,6 +1,6 @@
 {
-  "attempted_at": "2026-11-17T07:54:38.531209Z",
-  "last_successful_at": "2026-11-17T07:54:38.531209Z",
+  "attempted_at": "2026-11-17T10:38:24.948416Z",
+  "last_successful_at": "2026-11-17T10:38:24.948416Z",
   "success_count": 8,
   "total_sources": 8,
   "sources": [
@@ -29,7 +29,7 @@
       "name": "英为财情·外汇新闻",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-17T04:29:45Z",
+      "latest_item_published_at": "2026-11-17T09:22:09Z",
       "error": null
     },
     {
@@ -56,12 +56,12 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 35,
-      "latest_item_published_at": "2026-11-17T06:56:40Z",
+      "count": 34,
+      "latest_item_published_at": "2026-11-17T08:59:57Z",
       "error": null
     }
   ],
-  "article_count": 120,
-  "latest_article_published_at": "2026-11-17T06:56:40Z",
-  "new_article_count": 11
+  "article_count": 123,
+  "latest_article_published_at": "2026-11-17T09:22:09Z",
+  "new_article_count": 4
 }

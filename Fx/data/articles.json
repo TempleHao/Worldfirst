@@ -1,8 +1,54 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T07:54:38.531209Z",
-  "attempted_at": "2026-11-17T07:54:38.531209Z",
+  "updated_at": "2026-11-17T10:38:24.948416Z",
+  "attempted_at": "2026-11-17T10:38:24.948416Z",
   "articles": [
+    {
+      "id": "a1ab2180670f108c",
+      "title": "英镑有望终结连跌势头，美元涨势暂歇；英国失业率意外降至4.6%",
+      "url": "https://cn.investing.com/news/forex-news/article-3671658",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-17T09:22:09Z",
+      "topic": "通胀与就业",
+      "pairs": [
+        "GBP/USD"
+      ],
+      "verification": "single_source",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及经济指标；需先核对统计口径、实际值、预期值及前值。"
+    },
+    {
+      "id": "39b54887d3ca6bc9",
+      "title": "欧元区国债收益率徘徊近一个月高位，美债引力难以摆脱",
+      "url": "https://cn.investing.com/news/forex-news/article-3671583",
+      "source": "英为财情·外汇新闻",
+      "source_url": "https://cn.investing.com/rss/news_1.rss",
+      "published_at": "2026-11-17T09:00:34Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "EUR/USD"
+      ],
+      "verification": "single_source",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "4b019d70215ee634",
+      "title": "美元指數預測：DXY從數月高點回落，守住103.45 - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN29FbG9nc3p2Sl9pZU1oaHJoTk5EX0NfaHBiQnZ3QVJvUmZ0VzVvdklZa3N2UnNTbnpjb0F6cDNhcTJhNlFOY21IYjZGZV81MmI4Y2NUNFJxVjJ0LWNjR0hWMmpWTHVQak9aQmRYcjlJZ2Y3RUctYmtERkZpV2trQjJ3VTVFR0VGLUdCem9wTnNYM0NkWWcwUGttVk1OcmRWbThPWEd0M2htY1VjMFNNSHJZa0xlWGExZjJtMHBsRjJueTI5c0hDMUZB?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-17T08:59:57Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "b04cd4f7e74ae704",
       "title": "聯準會升息預期升溫 美元指數創19個月新高 紐幣重挫 | 民視新聞網 - LINE TODAY",
@@ -10,6 +56,20 @@
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
       "published_at": "2026-11-17T06:56:40Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "7fa6084662339d75",
+      "title": "聯準會升息預期升溫 美元指數創19個月新高 紐幣重挫 - 民視新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jWlBiMmQxb05za2VyRzgzcHczTllDeXU1X3k4Z29IVU56djZIb3FOaTh5dnlVdzZRdUk2dE5MMGtzbnVXVzlYQk1rUExlZW5RdGVId2ZBSGVWaWp5d2JleA?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-17T06:46:39Z",
       "topic": "外汇市场",
       "pairs": [],
       "verification": "aggregated_unverified",
@@ -33,17 +93,19 @@
     },
     {
       "id": "03a7da3ed15da423",
-      "title": "美元触及19个月新高，押注美联储进一步收紧货币政策",
+      "title": "美元升至19个月新高，日元徘徊于160关口附近",
       "url": "https://cn.investing.com/news/forex-news/article-3671240",
       "source": "英为财情·外汇新闻",
       "source_url": "https://cn.investing.com/rss/news_1.rss",
       "published_at": "2026-11-17T04:29:45Z",
-      "topic": "货币政策",
-      "pairs": [],
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
       "verification": "single_source",
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
       "id": "20106d3af9f6e1d6",
@@ -1709,20 +1771,6 @@
       "time_basis": "publisher_rss",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "7e8ebfec1b135b15",
-      "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
-      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
-      "source": "美联储·讲话",
-      "source_url": "https://www.federalreserve.gov/feeds/speeches.xml",
-      "published_at": "2026-11-10T09:00:00Z",
-      "topic": "通胀与就业",
-      "pairs": [],
-      "verification": "official",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及经济指标；需先核对统计口径、实际值、预期值及前值。"
     }
   ],
   "sources": [
@@ -1751,7 +1799,7 @@
       "name": "英为财情·外汇新闻",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-17T04:29:45Z",
+      "latest_item_published_at": "2026-11-17T09:22:09Z",
       "error": null
     },
     {
@@ -1778,13 +1826,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 35,
-      "latest_item_published_at": "2026-11-17T06:56:40Z",
+      "count": 34,
+      "latest_item_published_at": "2026-11-17T08:59:57Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-17T06:56:40Z",
-  "new_article_count": 11,
+  "latest_article_published_at": "2026-11-17T09:22:09Z",
+  "new_article_count": 4,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
