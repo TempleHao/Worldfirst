@@ -1,8 +1,36 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:28:58.551370Z",
-  "attempted_at": "2026-11-18T07:28:58.551370Z",
+  "updated_at": "2026-11-18T09:14:54.837055Z",
+  "attempted_at": "2026-11-18T09:14:54.837055Z",
   "articles": [
+    {
+      "id": "01f1c87b91ecde2d",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "source": "欧洲央行·官方发布",
+      "source_url": "https://www.ecb.europa.eu/rss/press.html",
+      "published_at": "2026-11-18T09:00:00Z",
+      "topic": "宏观经济",
+      "pairs": [],
+      "verification": "official",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
+    },
+    {
+      "id": "5f1a41697d626464",
+      "title": "美元指數預測：美聯儲會議紀要公布前，DXY 接近104.00 - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUWJEVXFkbzF4UnVlcUVFd0NjdU1abC1VNEFHclJ2Vnljd3dBc0NBVWtyTWFOT1NnMnlJWVFuSGpnZEZ3cnMyeFJ5NVljdVEzUG1zandFaFgtRHM1Rk5jMDlJc0pBVkJnQjRFN1VONTBFa3lSdGlodEFON2FmRmNmRE53NUdkY25LWUxJSEtmbW5IUFFUakNQc1BOa3o4YXREX21kdXdnemIyRThJZ0VOdUZOS2ZBV3JTRktWVGpfbF9lZmpmNUNVdTE1N05Rd1M5d0xFbHFabmI5MXdyTk02Y1lrZXVvZm1ieFY5MFdjaHlsUVNMU0dJenY4Ull3ZUVVUHN4RXRBcEJLS0FFalhWUXh5NDVDQQ?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T08:21:05Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "9303c2323f52a9be",
       "title": "美國升息預期增溫 美元指數穩居19個月高點 | 民視新聞網 - LINE TODAY",
@@ -10,6 +38,20 @@
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
       "published_at": "2026-11-18T06:43:20Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "c1e82dfbaa53b6ee",
+      "title": "美國升息預期增溫 美元指數穩居19個月高點 - 民視新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vR1lnNHNTUVFydW9LTGQtbEQ3bWhxNWEteTRUMVpjWU9NU0pvSVJ5bFdrNmRGYl8tdXZXYXhiN1dUZThVQWowaGg1S0Ztd0lZTjlTNHVLYXhDc2tnRHYyVQ?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T06:38:34Z",
       "topic": "外汇市场",
       "pairs": [],
       "verification": "aggregated_unverified",
@@ -44,6 +86,20 @@
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "7344dddc1bb76a90",
+      "title": "美元指數收復“解放日”跌幅，美聯儲加息預期持續升溫 - 群益期貨",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWW5IbE1qN3pLT3E0WFpvT3hndlRsNDFvWnVOR2Z2MjNDcWh6YU9uRnQ1YUJaZTlxbFpRYWlYNjdQU2hjbnhzWGtMblUtTHNVRjJGRTdsVGV1eEFBWDFKM3ZITVBnNGdGQzF1WmRSVFJvdU1OWXh0U1p6alNSVXpEVjZIb2JoUk92NUJBa25GVjlGXzgyVEtGelBoUDlqWjBa?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T05:11:03Z",
+      "topic": "货币政策",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     },
     {
       "id": "2f00ebf92426fdbb",
@@ -102,6 +158,25 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
+      "id": "99a96cbffba70a23",
+      "title": "現貨黃金、美元指數、歐元美元、美元日元、英鎊美元、美元加元、澳元美元、美元瑞郎、紐元美元支撐阻力位作者FX168 - Investing.com 香港 - 股市報價& 財經新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JV0VweEcxNmJoOEZJc3BJN2NDb3BJNjVnS3ctREsyTlBZUjAxNnVKTTVGWElsZUZ4aklja2hhVVdwZTRhWkVJZ0R2WHVHY1VhQW02UlBmc3FYTlRZanhLTFpIcXlUYnc?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T02:21:07Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY",
+        "AUD/USD",
+        "USD/CAD",
+        "USD/CHF"
+      ],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "fe6e37e52c081017",
       "title": "日元匯率為什麼難跌破160？ - 日經中文網",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSkVNV19oOXhmbi1yak1heE1lbXpMZE1zeFU2ZG9FYlJXVVpSR2hOeHpqSXBmNE12bHJOR3F0cU05OXI0cVFUR3c5Y1AtSzQ1QkxQbFZ4am93TUJsdHg4RDc3UERDd3JBQVNGVFVSbzRxNzJ6Y3Z5UkxqS1FRck5KdmQyNTBQQWtobDZZ?oc=5",
@@ -111,25 +186,6 @@
       "topic": "外汇市场",
       "pairs": [
         "USD/JPY"
-      ],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "99a96cbffba70a23",
-      "title": "現貨黃金、美元指數、歐元美元、美元日元、英鎊美元、美元加元、澳元美元、美元瑞郎、紐元美元支撐阻力位作者FX168 - Investing.com 香港 - 股市報價& 財經新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JV0VweEcxNmJoOEZJc3BJN2NDb3BJNjVnS3ctREsyTlBZUjAxNnVKTTVGWElsZUZ4aklja2hhVVdwZTRhWkVJZ0R2WHVHY1VhQW02UlBmc3FYTlRZanhLTFpIcXlUYnc?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-18T01:45:41Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "USD/JPY",
-        "AUD/USD",
-        "USD/CAD",
-        "USD/CHF"
       ],
       "verification": "aggregated_unverified",
       "time_basis": "aggregator_listing",
@@ -2081,8 +2137,8 @@
     {
       "name": "欧洲央行·官方发布",
       "ok": true,
-      "count": 13,
-      "latest_item_published_at": "2026-11-17T18:30:00Z",
+      "count": 12,
+      "latest_item_published_at": "2026-11-18T09:00:00Z",
       "error": null
     },
     {
@@ -2109,7 +2165,7 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 13,
+      "count": 14,
       "latest_item_published_at": "2026-11-12T00:00:00Z",
       "error": null
     },
@@ -2117,12 +2173,12 @@
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
       "count": 47,
-      "latest_item_published_at": "2026-11-18T06:43:20Z",
+      "latest_item_published_at": "2026-11-18T08:21:05Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-18T06:43:20Z",
-  "new_article_count": 9,
+  "latest_article_published_at": "2026-11-18T09:00:00Z",
+  "new_article_count": 4,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,

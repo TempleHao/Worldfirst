@@ -1,6 +1,6 @@
 {
-  "attempted_at": "2026-11-18T07:28:58.551370Z",
-  "last_successful_at": "2026-11-18T07:28:58.551370Z",
+  "attempted_at": "2026-11-18T09:14:54.837055Z",
+  "last_successful_at": "2026-11-18T09:14:54.837055Z",
   "success_count": 8,
   "total_sources": 8,
   "sources": [
@@ -21,8 +21,8 @@
     {
       "name": "欧洲央行·官方发布",
       "ok": true,
-      "count": 13,
-      "latest_item_published_at": "2026-11-17T18:30:00Z",
+      "count": 12,
+      "latest_item_published_at": "2026-11-18T09:00:00Z",
       "error": null
     },
     {
@@ -49,7 +49,7 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 13,
+      "count": 14,
       "latest_item_published_at": "2026-11-12T00:00:00Z",
       "error": null
     },
@@ -57,11 +57,11 @@
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
       "count": 47,
-      "latest_item_published_at": "2026-11-18T06:43:20Z",
+      "latest_item_published_at": "2026-11-18T08:21:05Z",
       "error": null
     }
   ],
-  "article_count": 144,
-  "latest_article_published_at": "2026-11-18T06:43:20Z",
-  "new_article_count": 9
+  "article_count": 148,
+  "latest_article_published_at": "2026-11-18T09:00:00Z",
+  "new_article_count": 4
 }
