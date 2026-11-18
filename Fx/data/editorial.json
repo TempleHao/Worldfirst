@@ -302,6 +302,15 @@
       "watch": "关注11月19日美国季度电商统计、12月16日下一期零售报告及美联储会议纪要；若销售增长主要来自价格而非数量，需求韧性的判断需下修。",
       "status": "secondary_checked",
       "evidence": "https://www.reuters.com/world/us/us-retail-sales-increase-moderately-october-2026-11-17/"
+    },
+    "ea2cc2cb2e56d1e9": {
+      "title_zh": "美联储理事沃勒谈支付系统与代币化市场的衔接",
+      "dek": "11月17日，沃勒在纽约支付行业会议上讨论传统结算网络与代币化金融并存的前景。",
+      "insight": "【F/P2】路透社与英为财情分别报道，沃勒主张美联储提供基础结算设施，并在职责范围内协调行业难以自行解决的问题；传统支付网络仍承担重要作用。【I】若新旧网络能够互通，跨境资金周转可能改善，但逐笔即时结算也可能增加预存流动性需求。【U】官方正文未能直接访问；讲话没有提供新的利率路径依据。",
+      "business": "跨境支付企业评估代币化美元结算渠道时，应分别测算链上到账、法币兑回、周末资金占用和异常退款的全过程成本；到账速度提高不代表汇兑点差下降，也不意味着客户资金能够即时提现。",
+      "watch": "关注有限用途结算账户的最终准入规则、传统银行与代币化网络互通标准，以及托管和错误转账责任安排。若法币出入金仍受营业时间限制，全天候链上转账对企业现金周转的改善可能有限。",
+      "status": "secondary_checked",
+      "evidence": "https://www.reuters.com/business/finance/feds-waller-says-central-bank-will-work-with-private-sector-digital-finance-2026-11-17/"
     }
   }
 }
