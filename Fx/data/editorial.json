@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:24:33Z",
+  "updated_at": "2026-11-18T13:27:05Z",
   "method": "editorial_context_source_limited",
   "disclaimer": "除明确注明官方原文复核的条目外，当前编辑性解读只依据RSS标题及常识性经济传导机制，不代表已核实报道全文或价格因果。",
   "items": {
@@ -311,6 +311,15 @@
       "watch": "关注有限用途结算账户的最终准入规则、传统银行与代币化网络互通标准，以及托管和错误转账责任安排。若法币出入金仍受营业时间限制，全天候链上转账对企业现金周转的改善可能有限。",
       "status": "secondary_checked",
       "evidence": "https://www.reuters.com/business/finance/feds-waller-says-central-bank-will-work-with-private-sector-digital-finance-2026-11-17/"
+    },
+    "01f1c87b91ecde2d": {
+      "title_zh": "欧洲央行：AI估值、财政失衡与地缘经济紧张威胁金融稳定",
+      "dek": "11月18日欧洲央行发布金融稳定评估，指出资产重新定价与非银行金融机构的流动性风险，同时认为欧元区银行仍具备较强缓冲能力。",
+      "insight": "【O/P1】欧洲央行认为AI投资对债务融资的依赖加深，估值调整可能从股票传至债券市场；主权债务压力也可能放大波动。【I】若风险冲击导致跨境融资收紧，美元流动性需求可能上升，但若冲击主要源于美国资产，欧元相对美元方向仍不确定。本报告并非利率决议。",
+      "business": "欧洲客户账期较长的出口商可分别评估应收账款信用风险、欧元折算风险与银行授信续期成本。即使已锁定欧元汇率，客户延期付款仍可能造成套保期限错配；使用非银行融资的企业也需关注续贷及抵押品要求。",
+      "watch": "关注欧洲主权债券利差、企业信用点差及银行贷款条件是否同步恶化。若银行资本与流动性缓冲有效吸收冲击，信用收缩可能有限。目前没有同期证据证明报告引起具体汇率变动。",
+      "status": "primary_checked",
+      "evidence": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.sv.html"
     }
   }
 }
