@@ -1,8 +1,64 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:18:45.396486Z",
-  "attempted_at": "2026-11-18T18:18:45.396486Z",
+  "updated_at": "2026-11-18T20:30:38.534083Z",
+  "attempted_at": "2026-11-18T20:30:38.534083Z",
   "articles": [
+    {
+      "id": "055550f2ae386efa",
+      "title": "Fed官員唱鷹美元指數攀揚- 全球財經- 工商時報 - 中時新聞網",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pS2h2S1VPWGRNZWh4Y3puRWVLeHJCcm9BV0ZjbHY2akdUQWt5OUFUdWhZaW1YNVEwbzNIWW5LLWM1ekFaSmtXU1BqYXRxQ2Y4eW5JZE83SFZFNXZZQUVORWdTOEpaQ1I0TDM0?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T20:10:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "d4642e53e91d56e2",
+      "title": "Fed官員放鷹力挺升息 美元指數創19個月新高 - 民視新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vVG1zOFI4eEc0UWFsM1I2a19mam1IX1RSNHhESWpOU1B4OTZ2a3lUREhhbmZ3azdIT05xRVl1TzVJODdvZWUxY1M2bF9rQmtCZjhTbDR6YXlHdE5kQlVudg?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T20:09:43Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "c0c4ef66e0d9307c",
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "source": "美联储·货币政策",
+      "source_url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+      "published_at": "2026-11-18T19:00:00Z",
+      "topic": "宏观经济",
+      "pairs": [],
+      "verification": "official",
+      "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及宏观信息；其外汇影响需结合利差和市场预期核实。"
+    },
+    {
+      "id": "b8d0b23db1a873a5",
+      "title": "Fed官員唱鷹美元指數攀揚- 日報 - 工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHa0RHUDhjcC1ueFJzMjhoWGJnY1ZDZGV4eno4bzFxd3VlRGdUd3JtWTQwTXlPMzdkTm1KREg2cjZyTmtmR1V5SHRvTHFua2s1YWdDejUtR05rVVVSVFlZ?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T19:00:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "4148e0944c80830f",
       "title": "金價跌破3,800美元、美元指數衝52週新高 輝達財報救AI股但鷹派升息陰影未散 - BigGo 財經",
@@ -46,6 +102,20 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
+      "id": "c3634ab8b88947fb",
+      "title": "市場押注聯準會12月升息 美元指數創19個月新高 | 民視新聞網 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04RzFQM292N2dHb0F6dkViN3RJejV1dzJGVGFtT01BcUM2c2V6a1RUWEtCZ2hTcnc2RU9EVmNzZ3dfd0k0N0xVYkN0RlVkdjBNSE4xYXB3?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T12:31:14Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "9915b3627e320b51",
       "title": "渣打支持按證公司發行等值約225億港元多幣種債券 - on.cc東網",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWFJ4bHk0eklMcUdLM1U0RGVDVUJaZ0pDdnBkZ1FJUU9hN3g2eGxNZ2VHSDRGZ25hV3dLaERuQS1tR1haQlFjMGJSaEduNjIzd1BOUDAzdWs0VGwyYk9PcmhBNGdyM20wMUV1ckhuSVhnc0pwc3QzV2NsREh0dlk2RnlKa0dHLVJLVU9xVHptTQ?oc=5",
@@ -60,20 +130,6 @@
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及港元；需结合金管局官方数据与联系汇率制度审视。"
-    },
-    {
-      "id": "c3634ab8b88947fb",
-      "title": "市場押注聯準會12月升息 美元指數創19個月新高 | 民視新聞網 - LINE TODAY",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04RzFQM292N2dHb0F6dkViN3RJejV1dzJGVGFtT01BcUM2c2V6a1RUWEtCZ2hTcnc2RU9EVmNzZ3dfd0k0N0xVYkN0RlVkdjBNSE4xYXB3?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-18T11:49:26Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
       "id": "d30b71c3cf193468",
@@ -235,7 +291,7 @@
     },
     {
       "id": "2f00ebf92426fdbb",
-      "title": "美元连涨七日触及19个月高点，押注美联储加息情绪升温",
+      "title": "美元连续第七日上涨，美联储会议纪要强化加息预期",
       "url": "https://cn.investing.com/news/forex-news/article-3673728",
       "source": "英为财情·外汇新闻",
       "source_url": "https://cn.investing.com/rss/news_1.rss",
@@ -481,6 +537,20 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
+      "id": "00326cbcc4ccbfed",
+      "title": "美股早盤／美元指數衝上103.6！三大指數盡墨費半開高後漲幅收斂| 全球財經| 全球 - UDN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCX3RaRHNoV3BPOXRWbl9IeG1PY29VSDUtbHBzZGJhR0J4UUtKbG9Ia2VsQThFX0EwdmI0R3VrR0hWanl0bHNobkkwZVJYN0dE?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-17T14:56:37Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "ea2cc2cb2e56d1e9",
       "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
       "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
@@ -531,6 +601,22 @@
       "published_at": "2026-11-17T09:59:22Z",
       "topic": "外汇市场",
       "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "ee55ff280ce27bbd",
+      "title": "美元指數漲勢有望延續，歐元/美元、美元/日元、黃金、比特幣技術分析 - Mitrade",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yOFFtRWc3SXNzSWltM2pSR1AtVVUxNGgzd1JSeDlTdTYtSk1vZ0tkWlZpazRoY3ZXY1RPWUhmY2hnTnloZkR5a2ZoWWZDSGNxTnhjM05CX3dHVXFjaXhfb1BsN05weWZ0cG5ub01wQzEtLThy?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-17T09:33:39Z",
+      "topic": "外汇市场",
+      "pairs": [
+        "USD/JPY"
+      ],
       "verification": "aggregated_unverified",
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
@@ -2255,8 +2341,8 @@
     {
       "name": "美联储·货币政策",
       "ok": true,
-      "count": 11,
-      "latest_item_published_at": "2026-11-12T17:45:00Z",
+      "count": 12,
+      "latest_item_published_at": "2026-11-18T19:00:00Z",
       "error": null
     },
     {
@@ -2297,20 +2383,20 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 14,
+      "count": 13,
       "latest_item_published_at": "2026-11-12T00:00:00Z",
       "error": null
     },
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 48,
-      "latest_item_published_at": "2026-11-18T13:56:00Z",
+      "count": 52,
+      "latest_item_published_at": "2026-11-18T20:10:00Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-18T13:56:00Z",
-  "new_article_count": 9,
+  "latest_article_published_at": "2026-11-18T20:10:00Z",
+  "new_article_count": 6,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
