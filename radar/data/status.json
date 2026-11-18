@@ -1,10 +1,10 @@
 {
   "latest_outcome": "ok",
-  "last_attempt_at": "2026-11-17T20:54:38.732423+00:00",
-  "last_success_at": "2026-11-17T20:54:38.732423+00:00",
+  "last_attempt_at": "2026-11-18T07:28:24.637619+00:00",
+  "last_success_at": "2026-11-18T07:28:24.637619+00:00",
   "succeeded_sources": 9,
   "attempted_sources": 9,
-  "new_items": 1,
+  "new_items": 3,
   "sources": {
     "worldfirst": {
       "ok": true,
@@ -12,7 +12,7 @@
     },
     "airwallex": {
       "ok": true,
-      "matched": 12
+      "matched": 11
     },
     "payoneer": {
       "ok": true,
@@ -24,11 +24,11 @@
     },
     "lianlian": {
       "ok": true,
-      "matched": 18
+      "matched": 16
     },
     "pingpong": {
       "ok": true,
-      "matched": 1
+      "matched": 2
     },
     "coral": {
       "ok": true,

@@ -2,6 +2,8 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-18｜连连国际** 连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉 - S… [原文](https://news.google.com/rss/articles/CBMijAFBVV95cUxQZFpoVnNlM2ktU0x1c3BQc3FEeDVaa1huLVFFN1Jfd3RDQWV3VUQ2clFDRkJPMkkyNkJjQm1kUU5wdXNBRjlHVEJZVWljb0NyMHRoLWNMYk1vM1AwQk1SOG1sRWdlN09zOXJYRzd3WTRjbFlTVmNpQjZ0Ym01RURtLTBfMnljNExSbkd5dA?oc=5)（unverified）
+- **2026-11-18｜PingPong** PingPong Currentz升级为全球银行服务方案 … [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE93T0xLeHJwM1NlTzhlRU1IbkgtYnhZRDNYQm1QOVBiUXlnQnp5Zy1KX2RLMU5HWDIwUDU5UXlKNXhLX0dXMjhCdnpXODI3ZmliQ040TkdRV25LNUFBU3VMbHZGRQ?oc=5)（unverified）
 - **2026-11-17｜连连国际** 连连数字携手ClearBank，拓展英镑及欧元本地支付服务… [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RRmt4RW1KSWpMWkJIQmRrb3d6ck5nYmlkMU93SkxNZmlNQ0UzeG1kdTMzYmZlYXo3dDBuR1ptZ003N2NUUk5xMDZUX3h3QmthUmU2STUyR1dXcmI2c0V0WFdHYw?oc=5)（unverified）
 - **2026-11-17｜连连国际** 连连数字(02598)11月17日斥资约26.22万港元回… [原文](https://news.google.com/rss/articles/CBMirwFBVV95cUxPM1ZEanpiYmVxejVPa1lBQXRldTlyUlJkNTNwU01RbVF3S2dwNVhnWXhDV0ZZbGotTmJhZkljUU1VU0ltQkVVNk15OS1Ua1J3TVRrZmZkSTUwc1BQRkQ0T2dfbXFVZU1venR6aWVtS3pmYUNDVzE5RjItRlc3ckN1cHUxT1dtejJyMDBFSV92bXUtbTJud2psMlJ4ZFl5OU90R3ZjckJnUE9ZTm1YM2dz?oc=5)（unverified）
 - **2026-11-16｜连连国际** 连连数字(02598)11月16日斥资51.02万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTE9sQ1ZXTlY3dVRWNzd4MUdSNDIxVVcwT1l6dFZKMzhXbWNyYVVTdVFkVk1XR3E0MU91NkR2eGZXbkNsT0JlQkFEVDRJTlo3Z2lqRGlFN3AwZENqZlhyb1hZc3dTSWQtaktaNGpfbFRBLUE?oc=5)（unverified）
@@ -15,6 +17,7 @@
 - **2026-11-13｜连连国际** 连连数字(02598.HK)11月13日耗资101.24万… [原文](https://news.google.com/rss/articles/CBMiakFVX3lxTE5KazlNREhUS3Y3SUlYTEotZmFuOWIzeDE3TzQ1VFBnVEUxekg2TDlYdXBsTFVxZnF3b3RpcFhoSzNnOG5DcExZSkhlSEZHMm1iR284YmJrWEV4WExVRndQZVlhRURZVDhNQ0E?oc=5)（unverified）
 - **2026-11-13｜空中云汇** 从痛批稳定币到入局造 L1：空中云汇张硕不是 “真香”，是… [原文](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1INXFYcDQ3TnRrSzZQb1BQdDBaSTFrUFVWRGdLY0NUZkxRR2JiM2N4VmJ1Nk9OQ3h2azNtanctTkRlS0JTWm8tY2RFUEhuQXV1a0MxU2JoMA?oc=5)（unverified）
 - **2026-11-13｜连连国际** 连连数字：11月13日斥资101.24万港元回购34.25… [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uVWZrdExsYU50RXZSUExuMllSeFZCQkUyOXJ0djBEaHVtdEhGc0NqaHJVT2dLdjJYR1Q5Z25GOE1aUTVWeWF3eEU5aVZFbFhQclZrel9lUjBMcjVDb1pTYkNMWQ?oc=5)（unverified）
+- **2026-11-13｜连连国际** 连连数字(02598.HK)11月13日耗资101.24万… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE1MWEl1WVJ6bkIyTmdaeVQtRWlpZEtIZXE4NG5tbm1vSktaS3BqZUljZEg2VTh1bTdyZkFtRXJUeTZ5Vm5sNlVPNGQ3VklwU1VabGJ5ZTdEZENSTVM3cklFd3VMclNjY0RsZ2Fj?oc=5)（unverified）
 - **2026-11-12｜PingPong** 跨境支付平台推荐，PingPong保障资金高效流转 - 新… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GbEJad3RxSENZYW40N1dScW9wTmdMcmNnWFk2Zk9BYTRVeWV6Qkd2OFJ3TUFWaUh0aGpvbDdsc1lCdTZLNDlGUm5yVFF5NmhCSDl0QlVNdG1lTU45MHc?oc=5)（unverified）
 - **2026-11-12｜连连国际** 连连数字(02598)11月12日斥资36.14万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iWGFRY3EwVVVhakVCNGlaRXRSUDVaMGw2UjVFRXBvWWNTVklfZVp5S1JzLXNvWnlCYm4wR0hWMjlXT2h2VklmUG5OLVZwTFlDODV2aGNQZjNyRDdmRnJmNA?oc=5)（unverified）
 - **2026-11-12｜连连国际** 连连数字(02598)11月12日斥资36.14万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTFBHQ1VoaXlOX0N2YndKUmo1S3hwVWxRd0hwd1RKcHdaclNwbHVvRDdpaUdVSGI4alNWOVNWajEwcmdmY0x6ekp5eXZPd0lMYjNPb1FWYUdKbGxxSWpmc25neEFFS0U3dFQ0VHRiVzlyU0Y?oc=5)（unverified）
@@ -119,6 +122,3 @@
 - **2026-10-30｜连连国际** 全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTE51bjNfMXVNeEdZVnRnWlFtMEw4ZkJqNU1VNHlwcDVkOXJrUlJaOUNJNGg0WXZyV1ZMT0tHMk4wdUpNQmRXREtyenhvZndiSUo3MW9fU1VfZTJjSS02?oc=5)（unverified）
 - **2026-10-30｜万里汇** B2B跨境收款告别“一刀切”：Ksher、XTransfe… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xMWJTLUw5LXBuUXB3M0k4cmZfeUQ1TEs1ckstRmFTMGxzR0tUVkdaU3IxOGZmTFpGSXpoVS1nWTVaeWFwU1JzWmFlT1RlTTREUE5TLV8tRmV3dWdCc2I0cUVSWkk?oc=5)（unverified）
 - **2026-10-30｜XTransfer** B2B跨境收款告别“一刀切”：Ksher、XTransfe… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xMWJTLUw5LXBuUXB3M0k4cmZfeUQ1TEs1ckstRmFTMGxzR0tUVkdaU3IxOGZmTFpGSXpoVS1nWTVaeWFwU1JzWmFlT1RlTTREUE5TLV8tRmV3dWdCc2I0cUVSWkk?oc=5)（unverified）
-- **2026-10-30｜连连国际** 连连数字(02598)10月30日斥资17.05万港元回购… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9iYTRrLUU2Tm1wRzlxRzRYbGdKblB5R01saWR0QkpCd0hDcmx2dkpzckYxcUJKX1ZrTVd6U3VNME8yTTRNcGJkMzJEdl8?oc=5)（unverified）
-- **2026-10-29｜连连国际** 连连数字：10月29日斥资31.05万港元回购9.85万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE04X184ZUo4emxNSDRUbS1pVFUzeGs1OEZqUm5pbTJKQjZHRFFyc3dzNWcwTDljX1RlcmwtejlwMzZUZTdmVk43aG1kSXVmaWMwLUFlemJ1SFNub1k4N3ZHc3RPVzNDZw?oc=5)（unverified）
-- **2026-10-29｜连连国际** 连连数字(02598)10月29日斥资31.05万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnBUcUpYeFBYWEVKaktzTDc4MGVNckVhTGpUMkdSZXlMQVNUYUg0bzlRT3lGbGRCY3I2OUJVRks3NjVfMlJvLXRSQnYtSUFMZkVkWlUxenZ3WWNhZlR6MQ?oc=5)（unverified）
