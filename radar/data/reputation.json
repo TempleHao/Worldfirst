@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-18T07:28:28.942581+00:00",
+  "generated_at": "2026-11-18T20:30:11.485061+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 244,
-    "events": 157,
+    "articles": 250,
+    "events": 162,
     "sentiment": {
-      "中性": 244
+      "中性": 250
     },
     "crisis": {
-      "一般": 157
+      "一般": 162
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -51,6 +51,94 @@
       ],
       "items": [
         "search-b61cada4e63e40b85e"
+      ]
+    },
+    {
+      "id": "event-f888a29f1647",
+      "company": "lianlian",
+      "headline": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_公司新闻 - 证券之星",
+      "date": "2026-11-18",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-72d23e28c02bae9196",
+        "search-6e6194a48b602f79d4"
+      ]
+    },
+    {
+      "id": "event-d7e65f7e0017",
+      "company": "lianlian",
+      "headline": "Visa与连连数字合作落地亚太首笔B2B智能体真实交易-36氪 - www.36kr.com",
+      "date": "2026-11-18",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-efac46818f978603ca"
+      ]
+    },
+    {
+      "id": "event-b689e045be6d",
+      "company": "lianlian",
+      "headline": "连连数字回购20.45万股H股 - www.caiwennews.com",
+      "date": "2026-11-18",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-768b279e0308267558"
       ]
     },
     {
@@ -138,6 +226,35 @@
       ],
       "items": [
         "search-fef3c011e2dd28dfd3"
+      ]
+    },
+    {
+      "id": "event-14b361da6716",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)：翌日披露报表内容摘要_公告简述_数据解析 - 证券之星",
+      "date": "2026-11-17",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-f3b0281e7f68f7e0e9"
       ]
     },
     {
@@ -410,6 +527,35 @@
       ],
       "items": [
         "search-6c57e63165abbc233d"
+      ]
+    },
+    {
+      "id": "event-f1608b81d7a5",
+      "company": "airwallex",
+      "headline": "空中云汇Airwallex参与L1网络Alta搭建，深度布局稳定币结算 - 移动支付网",
+      "date": "2026-11-12",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-b9b5216624a8899574"
       ]
     },
     {

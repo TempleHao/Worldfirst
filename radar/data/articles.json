@@ -81,6 +81,130 @@
       }
     },
     {
+      "id": "search-72d23e28c02bae9196",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营 - 每日经济新闻",
+      "summary": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "每日经济新闻",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GYWs5c2s5QmdRSEl4M2tsdzQtOEhOdjVwREU1TlNKa0ZGaERaTXk3T01YeFczOTJhQkJlYjRnaHRDRUU0MGxBTDdHcHJkdFQxSzRVWlB3dk5ybnBtVFFaNDFabnBJQQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f888a29f1647",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-6e6194a48b602f79d4",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_公司新闻 - 证券之星",
+      "summary": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zZU81djVoaXc2MmZnUEJwYnZ2N2JmZ0VSZVpCSk9HMzZDYkJpb1pnWDh4U04tekY3S1JndHB0Ry1zNDBPem1zeWNwOHU2RGNfMjRnVHZrcUNZQU1ybTl2WGRpZG8?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f888a29f1647",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-efac46818f978603ca",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "Visa与连连数字合作落地亚太首笔B2B智能体真实交易-36氪 - www.36kr.com",
+      "summary": "Visa与连连数字合作落地亚太首笔B2B智能体真实交易-3…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "www.36kr.com",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByUHZYYXRFTzNLSnltNEUyejRqdjJTandGaWZTRzFZa3NRSjFGQ3ZsWmtiTWRfUDhpOF9BS2h5NEo0ejlrbU9pZG9ubWtZNXJGbXBVNVNaeUpqbk9BX1E?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-d7e65f7e0017",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-768b279e0308267558",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "连连数字回购20.45万股H股 - www.caiwennews.com",
+      "summary": "连连数字回购20.45万股H股 - www.caiwenn…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "www.caiwennews.com",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xdVFfOXFVU2p2TEFOZXNJRFJ3Qm9laTk0dHFxQnF3U3AxZ1FwdHhLN3pUcmQydDJyOVZpSjNMNlhCTlZxZEpSQklTU0VMU09TZHhSSkdGTXNiSnlC?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b689e045be6d",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-cab96ba5db6ee4ffc4",
       "company": "lianlian",
       "date": "2026-11-17",
@@ -138,6 +262,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-1961d23ad08c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-f3b0281e7f68f7e0e9",
+      "company": "lianlian",
+      "date": "2026-11-17",
+      "title": "连连数字(02598.HK)：翌日披露报表内容摘要_公告简述_数据解析 - 证券之星",
+      "summary": "连连数字(02598.HK)：翌日披露报表内容摘要_公告简…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wOENrVzlvVTgzQjVYYWJ6RHI5VlROTk1tRGdrVHZHNnEwOUZ2WHVpNUxGMW5CaW1xdzc0dGlvZFlERlFiOTJQTzI0bng3b3JWcW9tSGFVSm9ZSldheXJfWDh3?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-14b361da6716",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -759,6 +914,37 @@
         "score": 0,
         "event_id": "event-f717bd641608",
         "distinct_publishers": 5,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-b9b5216624a8899574",
+      "company": "airwallex",
+      "date": "2026-11-12",
+      "title": "空中云汇Airwallex参与L1网络Alta搭建，深度布局稳定币结算 - 移动支付网",
+      "summary": "空中云汇Airwallex参与L1网络Alta搭建，深度布…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93aUppU2lrTHRtdWJXZXhlZ3hpakFiclZTVDZPMG5XeGRJa1ozak9xY2xjeHF6QXZvOGpSZXh5ZVBoNzR3SzZhQXVrYjNhcGNPc21GZmJQR2xrYmRoTmdZRHBRVQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f1608b81d7a5",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7644,6 +7830,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-18T07:28:24.637619+00:00",
+  "updated_at": "2026-11-18T20:30:07.214913+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
