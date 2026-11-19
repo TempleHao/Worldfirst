@@ -1,8 +1,36 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:36:55.779035Z",
-  "attempted_at": "2026-11-19T20:36:55.779035Z",
+  "updated_at": "2026-11-19T23:41:32.615950Z",
+  "attempted_at": "2026-11-19T23:41:32.615950Z",
   "articles": [
+    {
+      "id": "48afd745301a3f40",
+      "title": "美元指數再創逾1年半新高 美國10年期債息下試5厘 - RTHK News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EUFRVVmhvTDE4dmw0dXFueUZ0UmVfelJXZWEtYlZGakU3emJfRXpFa0dfMWpWR3NZZzdFbl83V1daUzhIanZNMG5MMTNtWlIzXzBrVWRmVW9ZWkw4UC1Xc3V1NVFNLXlqT0FuTGFNWQ?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-19T22:55:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "5d6243512c6efa14",
+      "title": "離岸人民幣突然跳水 一度兌美元跌至逾一個月低點 - Yahoo 財經",
+      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOa3RYSzFzSURnajV5eUhaNGNXMnl2VnVNbjFCZkF1bU42OUhxTHl1SnpDRV9SYlBXamt1Nzh0d1lxYWxXRURQRUlGRXM5b0QxbHljNnFnV1BkbXBTVkRqeXNsTzRrUlNoWk80X21DLWpLSGdGaFAwczZFOUZkV045MVpnaENTZ2RkcDZIdGoxTm16MDRub1JIOVhQdDh0NWxlaW02d29ISUVRb2FFVUQza2JqY25fdFlseXVfMFYtM0wySmN5M0RqYlJ0MU1DZmtLMUdpMEplU0dwR08wcU5lbENPdVdGc2Z0V3JFb0lQRzBaQlJ0V2ZDSmx3azkxd3BDcWdUa0NscHFidlJ6b0VqRHhqVlVuTnNnVGtyeF9ZUXhIMzhkYWpFVTdhR3VWWXlQNUJkSjJ6eXN3TjQyc2pPaWpUa1NYQmtTcWJwZ01hM1U?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-19T18:46:11Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
     {
       "id": "1aaf5e3c7a917d71",
       "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
@@ -58,6 +86,20 @@
       ],
       "verification": "single_source",
       "time_basis": "publisher_rss",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
+      "id": "9bfc74068648e858",
+      "title": "美元指數連7漲後微幅拉回 聯準會鷹派與外資買盤力挺 | 民視新聞網 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YMUM3TUZPWEdFNWdGVnhaTVdvZ3VZTWNaTG80TWNXNldycDJfODlmTWhqTkJ1SnVnc085VVh4bVhmakZVYU53ZXgxSXpfd0gyNlpMd0FB?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-19T09:36:18Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
@@ -137,7 +179,7 @@
     },
     {
       "id": "cb0cca52501cfbd2",
-      "title": "美元徘徊于19个月高位，鹰派美联储会议纪要提振强势格局",
+      "title": "美元触及逾19个月高位，美联储加息预期持续升温",
       "url": "https://cn.investing.com/news/forex-news/article-3675935",
       "source": "英为财情·外汇新闻",
       "source_url": "https://cn.investing.com/rss/news_1.rss",
@@ -2212,64 +2254,6 @@
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "f4f8959fbb46e660",
-      "title": "27万亿日元干预创下纪录，日元却再度逼近160：全球最难交易货币的“多空拉锯”困局",
-      "url": "https://cn.investing.com/news/stock-market-news/article-3665704",
-      "source": "英为财情·外汇新闻",
-      "source_url": "https://cn.investing.com/rss/news_1.rss",
-      "published_at": "2026-11-12T23:03:19Z",
-      "topic": "外汇市场",
-      "pairs": [
-        "USD/JPY"
-      ],
-      "verification": "single_source",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "c91fd6f44d771f3c",
-      "title": "美元指數飆上19個月新高 聯準會鷹派預期壓抑商品與主要貨幣 - 商傳媒",
-      "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNREZaTS1wWlRGQ3RZX0k3Ykt4dlA3b1JXa2VhX0FVYUtJTi1mbjlXMHp4MkgwM2VaZHBGNThodDl1YWFBTGNyeVFaZmtFbkJGb0tmcnpkeG96MDdqd3JIdEtENEhKTFA0ZkNIYjhZLWRSeDhyN0w0R290V3FvaGJjYy1McW1GNUZSUGdUckRDTklyOGJKSmwwNFdGVGJoOWc4cnhMeUdfdmtweDJ1MGx6QjU3QUhrYVJiZDJZMUhDYlBXLUNTdlFlM0ZWNjZfSS1mUS0zQlpWYy12Q2U1d2JUNUdpeHAxbVZMM2d5YnZPOE5UcTVTRmwyZlZPZVRVZlJTZ2RFTVJ6Qkc5SlZoWTRhMG1wanFMeURVV3dyQlFGOFBIamZST3JQbzJPYlRCcmdZZ1I0OEVmaHNneWdMbEQzTFdtTzQ5MDQwWWdOUmFMblZDdGppWHZlRXVXWHo1MnNnalNlTGZ1RGoydWxZZExuYndUd0NJQmYzUUtLSUtXcDRHS0JEM3FfNzdoUkNSeF9IRE0yZmVB?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T22:57:17Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "f6c5c21d3625b80d",
-      "title": "《匯市簡訊》美元/離岸人民幣徘徊不前，中國經濟數據料表現疲軟 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xQS0yZzEzdlg0N01KcU9pdjk5b0FFSlMtN0ZhZmJGYnJnYjVRQUViaEpIeGRaQ2FCVXJUd1lwWmQ4MjA0NDhBaVVIREtUWEFDYkNENmh0THVoVXJfZmFMdm42SFgzYjR5OUNUWUo1QjdlUXhteDVJ?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T22:22:00Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "24e19a9ec36116a6",
-      "title": "Fed鷹派升息訊號推升美債殖利率 美元指數創19個月新高 - 民視新聞網",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mYzJ5blVrN1ROWWFMTnRYQWc3TDh3RlZRU3Y3Z0tGa29Gc3EzTUtwTWxRc1FzTGFIY1BJc3VNSVpHazJuQU5iM2RGcDFLQjFoRWhMMHRKRTdrSFhTSGkzaQ?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T21:12:14Z",
-      "topic": "货币政策",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     }
   ],
   "sources": [
@@ -2325,13 +2309,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 50,
-      "latest_item_published_at": "2026-11-19T14:24:36Z",
+      "count": 49,
+      "latest_item_published_at": "2026-11-19T22:55:00Z",
       "error": null
     }
   ],
-  "latest_article_published_at": "2026-11-19T14:25:00Z",
-  "new_article_count": 0,
+  "latest_article_published_at": "2026-11-19T22:55:00Z",
+  "new_article_count": 3,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
