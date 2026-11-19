@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-18T20:30:11.485061+00:00",
+  "generated_at": "2026-11-19T07:24:30.997106+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,17 +13,48 @@
   ],
   "overview": {
     "articles": 250,
-    "events": 162,
+    "events": 160,
     "sentiment": {
       "中性": 250
     },
     "crisis": {
-      "一般": 162
+      "一般": 160
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-f888a29f1647",
+      "company": "lianlian",
+      "headline": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_公司新闻 - 证券之星",
+      "date": "2026-11-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 3,
+      "publisher_count": 3,
+      "official_sources": 0,
+      "mention_count": 3,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-c4a6bc3d067839ebd4",
+        "search-72d23e28c02bae9196",
+        "search-6e6194a48b602f79d4"
+      ]
+    },
     {
       "id": "event-bbc19a88c6e0",
       "company": "lianlian",
@@ -51,36 +82,6 @@
       ],
       "items": [
         "search-b61cada4e63e40b85e"
-      ]
-    },
-    {
-      "id": "event-f888a29f1647",
-      "company": "lianlian",
-      "headline": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_公司新闻 - 证券之星",
-      "date": "2026-11-18",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-72d23e28c02bae9196",
-        "search-6e6194a48b602f79d4"
       ]
     },
     {
@@ -171,6 +172,64 @@
       ]
     },
     {
+      "id": "event-122e41ccbc21",
+      "company": "pingpong",
+      "headline": "PingPong升级跨境支付解决方案 - 新浪财经",
+      "date": "2026-11-18",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-3481968fd2ec40fbed"
+      ]
+    },
+    {
+      "id": "event-7b34c4f64cea",
+      "company": "airwallex",
+      "headline": "Airwallex：融资轮次与投资情况 - CryptoRank",
+      "date": "2026-11-18",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1dfd35a13faf3289e1"
+      ]
+    },
+    {
       "id": "event-248adf3b1684",
       "company": "lianlian",
       "headline": "连连数字携手ClearBank，拓展英镑及欧元本地支付服务能力 - 移动支付网",
@@ -200,17 +259,17 @@
       ]
     },
     {
-      "id": "event-1961d23ad08c",
+      "id": "event-29b0b9ba7763",
       "company": "lianlian",
       "headline": "连连数字(02598)11月17日斥资约26.22万港元回购9.2万股 - Moomoo",
       "date": "2026-11-17",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -225,7 +284,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-fef3c011e2dd28dfd3"
+        "search-fef3c011e2dd28dfd3",
+        "search-9b7093181cc46f2301"
       ]
     },
     {
@@ -4639,93 +4699,6 @@
       ]
     },
     {
-      "id": "event-b1cb5a6cf3ea",
-      "company": "lianlian",
-      "headline": "连连数字：10月14日斥资30.28万港元回购9.55万股 - 东方财富",
-      "date": "2026-10-14",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-ebcbeba95f1f886b40"
-      ]
-    },
-    {
-      "id": "event-ee40cbbbd360",
-      "company": "lianlian",
-      "headline": "连连数字10月14日回购95500股H股 耗资约30.28万港元 - www.caiwennews.com",
-      "date": "2026-10-14",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-903087f59e60081264"
-      ]
-    },
-    {
-      "id": "event-0ca5186a9969",
-      "company": "lianlian",
-      "headline": "连连数字连续第五次参展数贸会，全球支付与AI创新成果集中亮相 - 凤凰网",
-      "date": "2026-10-14",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-bcd8aae08f3cfd337b"
-      ]
-    },
-    {
       "id": "event-e3fa133aff08",
       "company": "xtransfer",
       "headline": "XTransfer完成智利UAF注册拓展拉美",
@@ -4752,35 +4725,6 @@
       ],
       "items": [
         "xtransfer-20261014"
-      ]
-    },
-    {
-      "id": "event-c7f2a8396d26",
-      "company": "skyee",
-      "headline": "拉卡拉停牌筹划控股Skyee跨境支付整合 走到关键节点 - 中华网财经",
-      "date": "2026-10-14",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-877887fc8e36ae73ec"
       ]
     },
     {

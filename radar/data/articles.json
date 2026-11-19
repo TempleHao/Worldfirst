@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-c4a6bc3d067839ebd4",
+      "company": "lianlian",
+      "date": "2026-11-19",
+      "title": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易 - zqrb.cn",
+      "summary": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "zqrb.cn",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50SThDei1hYTdrSWFpeDlrb1dIdWVha2JYaUtLLXhKNjcxOC15S2Uza1FyckZfaDloVGl6UlhFT00xdW1WT1dyRTZpbVdiWjVmTmlrTG90M1hQekg4c1dlU2FacDUxUzlKTjJhbkh3?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f888a29f1647",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-b61cada4e63e40b85e",
       "company": "lianlian",
       "date": "2026-11-18",
@@ -107,7 +138,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f888a29f1647",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -138,7 +169,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f888a29f1647",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -205,6 +236,68 @@
       }
     },
     {
+      "id": "search-1dfd35a13faf3289e1",
+      "company": "airwallex",
+      "date": "2026-11-18",
+      "title": "Airwallex：融资轮次与投资情况 - CryptoRank",
+      "summary": "Airwallex：融资轮次与投资情况 - CryptoR…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "CryptoRank",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fYlNLOGc0UXZvcVkxUVEwVE1SNHZXLUk5TWQ1Qkw0MHBBTnBGeENDVE9xbU42WjR0aldpX0RsLUxMWGhCQTYyMEpZM0V1dVoyQnJ5UHdiVTJ3NW8?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7b34c4f64cea",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-3481968fd2ec40fbed",
+      "company": "pingpong",
+      "date": "2026-11-18",
+      "title": "PingPong升级跨境支付解决方案 - 新浪财经",
+      "summary": "PingPong升级跨境支付解决方案 - 新浪财经",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "新浪财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zeEZxOWNpMXRRaUo3YWM5ZUdpbk1yZmVVeVpBakpOaHJHdXNGNmR1OUVIU2FyTHBIdmlYTkVtZE1MdTAxZFJZemVGTnJJb0tmNFdGbDJCdVdOQUV1ZU4wTHBMeE1YUERwdVNUVDRVRXhNeDBlclRMVw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-122e41ccbc21",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-cab96ba5db6ee4ffc4",
       "company": "lianlian",
       "date": "2026-11-17",
@@ -261,8 +354,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-1961d23ad08c",
-        "distinct_publishers": 1,
+        "event_id": "event-29b0b9ba7763",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -294,6 +387,37 @@
         "score": 0,
         "event_id": "event-14b361da6716",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-9b7093181cc46f2301",
+      "company": "lianlian",
+      "date": "2026-11-17",
+      "title": "连连数字(02598)11月17日斥资约26.22万港元回购9.2万股 - 凤凰网",
+      "summary": "连连数字(02598)11月17日斥资约26.22万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YRmIwdVViUVBCQjdWNWtkU1NRM2V4WGtmaG5FYzdkSUlGR0RFLTljYm1qMnZDVWl4RjBiRnhRY0JBS09GMTgyVVN4ek0?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-29b0b9ba7763",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7675,130 +7799,6 @@
       }
     },
     {
-      "id": "search-ebcbeba95f1f886b40",
-      "company": "lianlian",
-      "date": "2026-10-14",
-      "title": "连连数字：10月14日斥资30.28万港元回购9.55万股 - 东方财富",
-      "summary": "连连数字：10月14日斥资30.28万港元回购9.55万股…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "东方财富",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvQVNZYUJkcnEzY3BNaE5EM19fekdmbmRxUWxuV3p5dTJOdE9XUmkzV0VXRjlRbkVWemhWZDlsd1RsSmxBTHJvNkd2SW1xNUFZaWVWTzlYRlNHN2NwWHNiWERYZHpPZw?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-b1cb5a6cf3ea",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-903087f59e60081264",
-      "company": "lianlian",
-      "date": "2026-10-14",
-      "title": "连连数字10月14日回购95500股H股 耗资约30.28万港元 - www.caiwennews.com",
-      "summary": "连连数字10月14日回购95500股H股 耗资约30.28…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "www.caiwennews.com",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52VzVlbEFtNEdqZ1A0TGh5d19IMkFUX0g3Zlk0dXpndHFBOEVHUGxKczZNR3U0OG5JNDVxMTlObHA5bVhKSWlJQm1tVkNMSjFkbHBZYVhudGkwdWV2?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-ee40cbbbd360",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-877887fc8e36ae73ec",
-      "company": "skyee",
-      "date": "2026-10-14",
-      "title": "拉卡拉停牌筹划控股Skyee跨境支付整合 走到关键节点 - 中华网财经",
-      "summary": "拉卡拉停牌筹划控股Skyee跨境支付整合 走到关键节点 -…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "中华网财经",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3UmE0elZsN0ctMUlkazJrc1pUUWZ4cjA5YmNRMm85eUF3b0ktd0ZaZ1pfMWdRNEd6LTB1RTl6VzlMdmRPMDJZR3JRTGhpOW5pVFNuRmtVZndqV2dZa0FZTHVvUkFWaUNWdG5xZ01HMWVEMTQ?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-c7f2a8396d26",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-bcd8aae08f3cfd337b",
-      "company": "lianlian",
-      "date": "2026-10-14",
-      "title": "连连数字连续第五次参展数贸会，全球支付与AI创新成果集中亮相 - 凤凰网",
-      "summary": "连连数字连续第五次参展数贸会，全球支付与AI创新成果集中亮…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "凤凰网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MbkRKcGw3ektFblgzNXg3dUxVVWVGUEZsS0VYcnczQ2k4clVRQ0FabnQ3MU00U3B5TVA3enN6dU0tN0Y5TzkxdzF2Vjk?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-0ca5186a9969",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
       "id": "payoneer-20261013",
       "company": "payoneer",
       "date": "2026-10-13",
@@ -7830,6 +7830,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-18T20:30:07.214913+00:00",
+  "updated_at": "2026-11-19T07:24:27.136401+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
