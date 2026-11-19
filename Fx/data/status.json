@@ -1,6 +1,6 @@
 {
-  "attempted_at": "2026-11-19T07:59:41.084042Z",
-  "last_successful_at": "2026-11-19T07:59:41.084042Z",
+  "attempted_at": "2026-11-19T17:19:58.033444Z",
+  "last_successful_at": "2026-11-19T17:19:58.033444Z",
   "success_count": 8,
   "total_sources": 8,
   "sources": [
@@ -14,8 +14,8 @@
     {
       "name": "美联储·讲话",
       "ok": true,
-      "count": 5,
-      "latest_item_published_at": "2026-11-17T14:10:00Z",
+      "count": 6,
+      "latest_item_published_at": "2026-11-19T14:25:00Z",
       "error": null
     },
     {
@@ -29,7 +29,7 @@
       "name": "英为财情·外汇新闻",
       "ok": true,
       "count": 10,
-      "latest_item_published_at": "2026-11-19T07:05:09Z",
+      "latest_item_published_at": "2026-11-19T11:33:25Z",
       "error": null
     },
     {
@@ -49,19 +49,19 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 14,
-      "latest_item_published_at": "2026-11-12T00:00:00Z",
+      "count": 13,
+      "latest_item_published_at": "2026-11-19T00:00:00Z",
       "error": null
     },
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 58,
-      "latest_item_published_at": "2026-11-19T05:11:38Z",
+      "count": 53,
+      "latest_item_published_at": "2026-11-19T14:24:36Z",
       "error": null
     }
   ],
-  "article_count": 162,
-  "latest_article_published_at": "2026-11-19T07:05:09Z",
-  "new_article_count": 0
+  "article_count": 159,
+  "latest_article_published_at": "2026-11-19T14:25:00Z",
+  "new_article_count": 11
 }
