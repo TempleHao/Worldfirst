@@ -45,7 +45,224 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f888a29f1647",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-d51f1aa948732ecded",
+      "company": "payoneer",
+      "date": "2026-11-19",
+      "title": "拉美采购需求直达中国产业带，派安盈搭建对接渠道助力出海企业拓展拉美市场_行业新闻 - 证券之星",
+      "summary": "拉美采购需求直达中国产业带，派安盈搭建对接渠道助力出海企业…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwNDIzUm9OSFR5NHdDSXRHZVNZUnVjSWw5ZnBFWXMta3NOamRPMmpvdFA1WmJjSXFVQWFvNm53RFowOERPVjdJYTYtY3dRUlFZZTk1dDlZMWFpMGZfcDhYVmpQR0o?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-cd2ee381cd2c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-10201919679c443b4e",
+      "company": "xtransfer",
+      "date": "2026-11-19",
+      "title": "XTransfer与越南VPBank、SmartPay达成合作 - 移动支付网",
+      "summary": "XTransfer与越南VPBank、SmartPay达成…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oWUM5Q0RVMDA5R2ZVTmp3WVZfVHBFOEpQRzk0SEhnVkhEU0taRnRfWi1QVEwtaDczMHd2SThfeWdmUEZnWlNKblBTNzMyb3FiR3UxRUVJcWJuYjZSa09VVWFpcw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-a496e89fc32c",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-84de457f87a0cc3767",
+      "company": "xtransfer",
+      "date": "2026-11-19",
+      "title": "XTransfer与VPBank、SmartPay在2026年新加坡金融科技节达成合作 - Jiemian.com",
+      "summary": "XTransfer与VPBank、SmartPay在202…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "Jiemian.com",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNWXZQc1c2QUY0UXdQUUFVTC0yZU5ycFVTYmczN21YZEpILW9UczZWUlhQZmUzSGc2S3ZzMlVVQUF0Um9VZVZvRWZIZFZZMTVKcTlyX2ttMnc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-aca4876337f9",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-dc3bd0af55175a7b21",
+      "company": "lianlian",
+      "date": "2026-11-19",
+      "title": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_行业动态 - 投资界",
+      "summary": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "投资界",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lcktsbWlwN2RMbkRvcWpDZGU4QV96aHppM0swZ2UxOEZGLVgtZFVNQ09HdkdBUTNrTXFKeVBYOENQakQ5Uk5EODdkNlpYOVZiVC13cnJMNEs?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f888a29f1647",
+        "distinct_publishers": 4,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-17aa4c287d9da1b48a",
+      "company": "lianlian",
+      "date": "2026-11-19",
+      "title": "连连数字(02598)11月19日耗资约49.48万港元回购18.3万股_经济时评_财经 - 证券之星",
+      "summary": "连连数字(02598)11月19日耗资约49.48万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zS3ZaMWhnMmtKc2w3ckJJV05Xcmd3WjY4eC1mdkNEaDBPTTBiYktEVnUtQ3JJUkJMaVFQd3hkbVA5MDc2N0xmaTBRNE9xY0p1d1QxUTM0akVLOTc3RG40Tw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4b8261532604",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-df59036e4d1781d3cd",
+      "company": "lianlian",
+      "date": "2026-11-19",
+      "title": "连连数字发布LianLian XWorker：打造面向全球商业的跨境经营合伙人 - Sohu",
+      "summary": "连连数字发布LianLian XWorker：打造面向全球…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Sohu",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeEhpQ09Uc1VMdE44a0RzMFB0TlZjeGQtVDFwd0NWN1dQX19wWW1fR0pST3huT3JCekJRYlQ0MFV4LTlyVHpFOEl1QXJYX2NxdUpfZlcybGNKR3ZMbXlBd1MzVDBqZHAyVmRhb2V1ZzljbVVCemFHT01GY0ZBeDRRSzhNVmk1djkzQ0YwRg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f6629a6354c9",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-2b2547a299d5f9c5ba",
+      "company": "lianlian",
+      "date": "2026-11-19",
+      "title": "支付基建“适配”产业出海：连连数字的新能源观察与AI落地 - Sohu",
+      "summary": "支付基建“适配”产业出海：连连数字的新能源观察与AI落地 …",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "Sohu",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUhJSTBKOGRwMGpzS2Q1M24xcTB1UlBnM1BOVVBBQTBjTjkydXZoWjVXMEwyT3FjNU5uQ0RmY0lUcVpoenpjZjlrRFJQbkQ3QTdGeEcxZmhCeTlXb2RHSjg0TEpsQU56WmV6cHhFRWVtOHlERWJSSE9LQ2Y2WUhZeW13R0trMjlwQThEMA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-fb5b0d3efbf5",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -138,7 +355,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f888a29f1647",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -169,7 +386,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f888a29f1647",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -293,6 +510,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-122e41ccbc21",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-5b38c74a10b26a52c4",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "连连数字(02598)11月18日斥资56.35万港元回购20.45万股-证券之星 - 证券之星",
+      "summary": "连连数字(02598)11月18日斥资56.35万港元回购…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ieG8tZmZGd3k5U1ZvTDFHdHowdmFOY0M4WFdWN3lDbk43bFN1SFh3ckEzUjUzS0pWSzBnelRLTmJFbGtHM3U4QVlKZUlnQTJKUk10RUhBQlA3QXdPRUE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-d6942b2f0579",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -1564,6 +1812,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-8080c096e477",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-9a16ef2282e3b5382f",
+      "company": "payoneer",
+      "date": "2026-11-09",
+      "title": "派安盈：黑五促销提前更考验商家资金周转能力| 黑五微访谈- 跨境电商 - 亿邦动力",
+      "summary": "派安盈：黑五促销提前更考验商家资金周转能力| 黑五微访谈-…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "亿邦动力",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0xVU9IRnp3NklBMmJIdk9TcTNCcGl4NE5iWkNTdlJ5dG45QjljU3Y5OTItYmVqcWhLZFpucklZdUdmbjU0RGc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-30c93c6878a9",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -7549,287 +7828,8 @@
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
-    },
-    {
-      "id": "coral-20261015",
-      "company": "coral",
-      "date": "2026-10-15",
-      "title": "珊瑚跨境谈企业全球化与本地合规风控",
-      "summary": "珊瑚跨境强调全球化本地合规能力。",
-      "category": "监管合规",
-      "priority": "normal",
-      "source": "东方财富财富号（转载）",
-      "source_type": "media",
-      "url": "https://caifuhao.eastmoney.com/news/20261015114000776912970",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-8113d53368a9",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-52c3b4c4eac4461991",
-      "company": "airwallex",
-      "date": "2026-10-15",
-      "title": "Airwallex空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 投资界",
-      "summary": "Airwallex空中云汇与韩国 ONE Store 签署…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "投资界",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBldFVuLUd2VFlRMXZwTThqa0pWWEVCSUdOeWwycUJ4STMtckl6dEV0YkxOcDB4S2FwSGpqUHBiLXNiTjNzTzdlSVFESkVKbGZYVjllamNR?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-a20570441218",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-04d74a00ff458ed655",
-      "company": "lianlian",
-      "date": "2026-10-15",
-      "title": "连连数字官网全面升级 系统化展示AI产品矩阵与全球化出海服务能力 - 人工智能",
-      "summary": "连连数字官网全面升级 系统化展示AI产品矩阵与全球化出海服…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "人工智能",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PSV9tMHRVZWtybWl0VjhYMGd4NjlTZkp6YXhCQ3Y5Q3hmaUdKYzNoLWV1aDlqdkF0ZV9idVlCazFBa010Y1UtdzF0MVhPLWtzbkE?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-4e43246bbe14",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-37e519d9477f6fa880",
-      "company": "lianlian",
-      "date": "2026-10-15",
-      "title": "重磅：亿邦智库×连连数字联合发布《外贸新增长—新兴市场B2B商业机会洞察》 - 亿邦动力",
-      "summary": "重磅：亿邦智库×连连数字联合发布《外贸新增长—新兴市场B2…",
-      "category": "品牌合作",
-      "priority": "normal",
-      "source": "亿邦动力",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oNEt4NUxYTlQwTFZkM3RSXzVBZkZaZFc5U1hhemktcHFkNTFLbVhMRW5PdWtFZWRqNUxzYkRFdjJ2WjZjM2J3MU1zSjVJRFk5QmpoUDh3?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-2792f5041130",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-8d9a62d3b9b2ac5391",
-      "company": "lianlian",
-      "date": "2026-10-15",
-      "title": "连连数字：10月15日斥资146.54万港元回购48.30万股 - 东方财富",
-      "summary": "连连数字：10月15日斥资146.54万港元回购48.30…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "东方财富",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fT2F5VDRKeW8xRGZRS3g0VVZPQjdwb2tHT3d3TXM3UXFOUFRyVVp1TlE4SEhodnFMYVNJV21PS0NtYUppelRiMEpBUWVQRmNXa1VDYWdpTXpSbTFid3EydUxyMjZGZw?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-02d371ed3ef4",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-3b26e4913f487afa43",
-      "company": "lianlian",
-      "date": "2026-10-15",
-      "title": "连连数字(02598.HK)10月15日耗资146.5万港元回购48.3万股 - TradingView",
-      "summary": "连连数字(02598.HK)10月15日耗资146.5万港…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "TradingView",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05ZndmWU1SZEtsQTE1LUdpQ0xFSU5rWEFPOXp3bXpmSGdBU3pnMUJEQ0xFX25zVFJPTzNBUnotdW5rcG9ydF9UR2lreEZGWW55cktDZ3RTYUZxMDNXS0NMaWI2U2ZuWjlVb1E?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-888faa8f036f",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-6038b477c8b8c16018",
-      "company": "lianlian",
-      "date": "2026-10-15",
-      "title": "连连数字(02598)10月15日斥资146.54万港元回购48.3万股 - 凤凰网",
-      "summary": "连连数字(02598)10月15日斥资146.54万港元回…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "凤凰网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZaFA4TXlrNHc3MEI3ZUtEVW1oME1xc2Fka0NkWjBzU2pwS1IzNFJUWmhVb2c3MVk2N2xfX184dElYOFdGOXBWSWhyNTY?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-c0f0076cb40f",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "xtransfer-20261014",
-      "company": "xtransfer",
-      "date": "2026-10-14",
-      "title": "XTransfer完成智利UAF注册拓展拉美",
-      "summary": "XTransfer完成智利UAF注册。",
-      "category": "监管合规",
-      "priority": "normal",
-      "source": "XTransfer 官网",
-      "source_type": "official",
-      "url": "https://www.xtransfer.com/newsroom/xtransfer-chile-uaf-registration",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-e3fa133aff08",
-        "distinct_publishers": 0,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "payoneer-20261013",
-      "company": "payoneer",
-      "date": "2026-10-13",
-      "title": "Payoneer加拿大子公司完成支付服务商注册",
-      "summary": "派安盈加拿大子公司完成支付服务商注册。",
-      "category": "监管合规",
-      "priority": "high",
-      "source": "Payoneer 投资者关系",
-      "source_type": "official",
-      "url": "https://investor.payoneer.com/news-releases/news-release-details/payoneer-canada-registers-payment-service-provider-further",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-e7e85d290818",
-        "distinct_publishers": 0,
-        "rationale": "未见标题级负面风险线索"
-      }
     }
   ],
-  "updated_at": "2026-11-19T07:24:27.136401+00:00",
+  "updated_at": "2026-11-19T20:36:22.949554+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

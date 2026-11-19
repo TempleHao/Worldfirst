@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-19T07:24:30.997106+00:00",
+  "generated_at": "2026-11-19T20:36:26.771499+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,12 +13,12 @@
   ],
   "overview": {
     "articles": 250,
-    "events": 160,
+    "events": 159,
     "sentiment": {
       "中性": 250
     },
     "crisis": {
-      "一般": 160
+      "一般": 159
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -32,10 +32,10 @@
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 4,
+      "publisher_count": 4,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 4,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -51,8 +51,183 @@
       ],
       "items": [
         "search-c4a6bc3d067839ebd4",
+        "search-dc3bd0af55175a7b21",
         "search-72d23e28c02bae9196",
         "search-6e6194a48b602f79d4"
+      ]
+    },
+    {
+      "id": "event-4b8261532604",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月19日耗资约49.48万港元回购18.3万股_经济时评_财经 - 证券之星",
+      "date": "2026-11-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-17aa4c287d9da1b48a"
+      ]
+    },
+    {
+      "id": "event-f6629a6354c9",
+      "company": "lianlian",
+      "headline": "连连数字发布LianLian XWorker：打造面向全球商业的跨境经营合伙人 - Sohu",
+      "date": "2026-11-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-df59036e4d1781d3cd"
+      ]
+    },
+    {
+      "id": "event-fb5b0d3efbf5",
+      "company": "lianlian",
+      "headline": "支付基建“适配”产业出海：连连数字的新能源观察与AI落地 - Sohu",
+      "date": "2026-11-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2b2547a299d5f9c5ba"
+      ]
+    },
+    {
+      "id": "event-cd2ee381cd2c",
+      "company": "payoneer",
+      "headline": "拉美采购需求直达中国产业带，派安盈搭建对接渠道助力出海企业拓展拉美市场_行业新闻 - 证券之星",
+      "date": "2026-11-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-d51f1aa948732ecded"
+      ]
+    },
+    {
+      "id": "event-a496e89fc32c",
+      "company": "xtransfer",
+      "headline": "XTransfer与越南VPBank、SmartPay达成合作 - 移动支付网",
+      "date": "2026-11-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-10201919679c443b4e"
+      ]
+    },
+    {
+      "id": "event-aca4876337f9",
+      "company": "xtransfer",
+      "headline": "XTransfer与VPBank、SmartPay在2026年新加坡金融科技节达成合作 - Jiemian.com",
+      "date": "2026-11-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-84de457f87a0cc3767"
       ]
     },
     {
@@ -140,6 +315,35 @@
       ],
       "items": [
         "search-768b279e0308267558"
+      ]
+    },
+    {
+      "id": "event-d6942b2f0579",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月18日斥资56.35万港元回购20.45万股-证券之星 - 证券之星",
+      "date": "2026-11-18",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-5b38c74a10b26a52c4"
       ]
     },
     {
@@ -884,35 +1088,6 @@
       ]
     },
     {
-      "id": "event-8080c096e477",
-      "company": "airwallex",
-      "headline": "独立站收款平台：三类方案、五类痛点与Airwallex空中云汇的能力边界 - 新浪网",
-      "date": "2026-11-09",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a9698acc2e4de63753"
-      ]
-    },
-    {
       "id": "event-3a8976712fd2",
       "company": "payoneer",
       "headline": "派安盈：黑五促销提前启动 更考验商家资金周转能力 - 全球定制网",
@@ -942,6 +1117,64 @@
       ]
     },
     {
+      "id": "event-30c93c6878a9",
+      "company": "payoneer",
+      "headline": "派安盈：黑五促销提前更考验商家资金周转能力| 黑五微访谈- 跨境电商 - 亿邦动力",
+      "date": "2026-11-09",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-9a16ef2282e3b5382f"
+      ]
+    },
+    {
+      "id": "event-8080c096e477",
+      "company": "airwallex",
+      "headline": "独立站收款平台：三类方案、五类痛点与Airwallex空中云汇的能力边界 - 新浪网",
+      "date": "2026-11-09",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a9698acc2e4de63753"
+      ]
+    },
+    {
       "id": "event-60a88de68847",
       "company": "worldfirst",
       "headline": "双11不只是买买买，也是把心意“寄回家”的好时机🏠在新加坡赚新币，想转给爸妈、还国内账单、给孩子交学费——以前最怕：汇率看不懂、排队久、到账慢、私下换汇不踏实⚠️——📱万事通亲测超安全跨境汇款App：万里汇WorldFirst​✅️蚂蚁国际旗下，和支付宝同属✅️ - 新浪网",
@@ -968,6 +1201,35 @@
       ],
       "items": [
         "search-8b704246651f1814cc"
+      ]
+    },
+    {
+      "id": "event-f26d1c5a9817",
+      "company": "payoneer",
+      "headline": "Payoneer三季度交易量增13% B2B交易加速59% 与Nuvei合并推进至2027年 - 全球定制网",
+      "date": "2026-11-08",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-7bb806a822973c6b2d"
       ]
     },
     {
@@ -1092,10 +1354,10 @@
       ]
     },
     {
-      "id": "event-f26d1c5a9817",
+      "id": "event-a198bc054d82",
       "company": "payoneer",
-      "headline": "Payoneer三季度交易量增13% B2B交易加速59% 与Nuvei合并推进至2027年 - 全球定制网",
-      "date": "2026-11-08",
+      "headline": "Payoneer公布2026年第三季度财务业绩 - 币界网",
+      "date": "2026-11-07",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -1117,7 +1379,7 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-7bb806a822973c6b2d"
+        "search-a5d3bbf333dfa9034a"
       ]
     },
     {
@@ -1148,35 +1410,6 @@
       "items": [
         "search-28e08070746fb73347",
         "search-8639f55d3216a0474f"
-      ]
-    },
-    {
-      "id": "event-a198bc054d82",
-      "company": "payoneer",
-      "headline": "Payoneer公布2026年第三季度财务业绩 - 币界网",
-      "date": "2026-11-07",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a5d3bbf333dfa9034a"
       ]
     },
     {
@@ -1272,6 +1505,35 @@
       ]
     },
     {
+      "id": "event-3be18a5b334f",
+      "company": "payoneer",
+      "headline": "Payoneer Global | 10-Q: Quarterly report - Moomoo",
+      "date": "2026-11-06",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2010f562dd9b08c069"
+      ]
+    },
+    {
       "id": "event-af21f686a41c",
       "company": "pingpong",
       "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态，垄断型“巨无霸”不太容易出现 - 每日经济新闻",
@@ -1301,35 +1563,6 @@
         "search-08ba6491404835e496",
         "search-fee7c5241fd3bc0feb",
         "search-d03635840e487695f6"
-      ]
-    },
-    {
-      "id": "event-3be18a5b334f",
-      "company": "payoneer",
-      "headline": "Payoneer Global | 10-Q: Quarterly report - Moomoo",
-      "date": "2026-11-06",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-2010f562dd9b08c069"
       ]
     },
     {
@@ -1418,93 +1651,6 @@
       ],
       "items": [
         "search-f97912c3db199b3f42"
-      ]
-    },
-    {
-      "id": "event-65a3befc963e",
-      "company": "pingpong",
-      "headline": "PingPong上线一站式AI行业支付方案：开放全球收付与智能体支付能力 - 全球定制网",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-7de8a646bc7d5d916e"
-      ]
-    },
-    {
-      "id": "event-bd47769b897d",
-      "company": "airwallex",
-      "headline": "AI 走进广交会，外贸收款平台Airwallex 空中云汇如何跟上外贸增长新节奏 - 衡阳新闻网",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a5c409873908197057"
-      ]
-    },
-    {
-      "id": "event-4fec35e054ad",
-      "company": "airwallex",
-      "headline": "广交会境外采购商云集，外贸收款平台Airwallex 空中云汇助力商家锁定订单利润 - 知乎专栏",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "zhihu"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "social-index-1e5f4f7b37e5e777a77c"
       ]
     },
     {
@@ -1650,6 +1796,93 @@
       ],
       "items": [
         "search-23cb3ae04726ae2d34"
+      ]
+    },
+    {
+      "id": "event-65a3befc963e",
+      "company": "pingpong",
+      "headline": "PingPong上线一站式AI行业支付方案：开放全球收付与智能体支付能力 - 全球定制网",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-7de8a646bc7d5d916e"
+      ]
+    },
+    {
+      "id": "event-bd47769b897d",
+      "company": "airwallex",
+      "headline": "AI 走进广交会，外贸收款平台Airwallex 空中云汇如何跟上外贸增长新节奏 - 衡阳新闻网",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a5c409873908197057"
+      ]
+    },
+    {
+      "id": "event-4fec35e054ad",
+      "company": "airwallex",
+      "headline": "广交会境外采购商云集，外贸收款平台Airwallex 空中云汇助力商家锁定订单利润 - 知乎专栏",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-1e5f4f7b37e5e777a77c"
       ]
     },
     {
@@ -1920,35 +2153,6 @@
       ]
     },
     {
-      "id": "event-c0f96b39d809",
-      "company": "pingpong",
-      "headline": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
-      "date": "2026-11-03",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-4c592a500b3e5f0557"
-      ]
-    },
-    {
       "id": "event-49910232fa13",
       "company": "xtransfer",
       "headline": "XTransfer倪一雄：AI时代跨境支付新基建 三层风控+动态适配全球监管 - 新浪财经",
@@ -1975,6 +2179,35 @@
       ],
       "items": [
         "search-3543033b4c9d5b93c6"
+      ]
+    },
+    {
+      "id": "event-c0f96b39d809",
+      "company": "pingpong",
+      "headline": "跨境电商收款平台推荐，PingPong与中国外贸同频 - 新讯网",
+      "date": "2026-11-03",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4c592a500b3e5f0557"
       ]
     },
     {
@@ -2098,6 +2331,65 @@
       ]
     },
     {
+      "id": "event-b6e9e7e3f5c6",
+      "company": "xtransfer",
+      "headline": "XTransfer港股IPO申请，延期了！ - 新浪财经",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-c9fbbd81a080046127",
+        "search-15f1f3129419d5d61a"
+      ]
+    },
+    {
+      "id": "event-c1dddeb088e2",
+      "company": "xtransfer",
+      "headline": "XTransfer与中银香港签署合作 携手提升外贸企业全球收付款体验 - 移动支付网",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-8e22c7aaba5169cb82"
+      ]
+    },
+    {
       "id": "event-a918c241e36b",
       "company": "pingpong",
       "headline": "PingPong跨境支付：打通订单与资金的信息链路，打造航旅业一站式支付解决方案 - 新讯网",
@@ -2182,65 +2474,6 @@
       ],
       "items": [
         "social-index-5b9f74c0fc6ee1f28317"
-      ]
-    },
-    {
-      "id": "event-b6e9e7e3f5c6",
-      "company": "xtransfer",
-      "headline": "XTransfer港股IPO申请，延期了！ - 新浪财经",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-c9fbbd81a080046127",
-        "search-15f1f3129419d5d61a"
-      ]
-    },
-    {
-      "id": "event-c1dddeb088e2",
-      "company": "xtransfer",
-      "headline": "XTransfer与中银香港签署合作 携手提升外贸企业全球收付款体验 - 移动支付网",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-8e22c7aaba5169cb82"
       ]
     },
     {
@@ -2783,35 +3016,6 @@
       ]
     },
     {
-      "id": "event-d438aca59cfd",
-      "company": "airwallex",
-      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
-      "date": "2026-10-27",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a85f3ae9af51dc6cde"
-      ]
-    },
-    {
       "id": "event-ebd038e56ea7",
       "company": "payoneer",
       "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
@@ -2838,6 +3042,35 @@
       ],
       "items": [
         "search-196c7e629c61ec5b12"
+      ]
+    },
+    {
+      "id": "event-d438aca59cfd",
+      "company": "airwallex",
+      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "date": "2026-10-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a85f3ae9af51dc6cde"
       ]
     },
     {
@@ -3581,6 +3814,64 @@
       ]
     },
     {
+      "id": "event-7e1c3503a7fb",
+      "company": "payoneer",
+      "headline": "Payoneer将于11月5日发布第三季度财报",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 0,
+      "publisher_count": 1,
+      "official_sources": 1,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "payoneer-20261022"
+      ]
+    },
+    {
+      "id": "event-5e26a0952805",
+      "company": "payoneer",
+      "headline": "Payoneer Inc 评论 – 它是Safe和合法的吗？(十月2026) - Traders Union",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-82e51dd46a45724e90"
+      ]
+    },
+    {
       "id": "event-1fde3761b428",
       "company": "pingpong",
       "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
@@ -3637,64 +3928,6 @@
       "items": [
         "search-642e6e02f953dae4b7",
         "search-2b7635ec9683e7c875"
-      ]
-    },
-    {
-      "id": "event-7e1c3503a7fb",
-      "company": "payoneer",
-      "headline": "Payoneer将于11月5日发布第三季度财报",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "payoneer-20261022"
-      ]
-    },
-    {
-      "id": "event-5e26a0952805",
-      "company": "payoneer",
-      "headline": "Payoneer Inc 评论 – 它是Safe和合法的吗？(十月2026) - Traders Union",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-82e51dd46a45724e90"
       ]
     },
     {
@@ -4023,6 +4256,35 @@
       ]
     },
     {
+      "id": "event-c814fb0ee238",
+      "company": "payoneer",
+      "headline": "Payoneer发布稳定币在平台金融服务中的应用研究",
+      "date": "2026-10-19",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 0,
+      "publisher_count": 1,
+      "official_sources": 1,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "payoneer-20261019"
+      ]
+    },
+    {
       "id": "event-a7dde3b307bf",
       "company": "pingpong",
       "headline": "PingPong广交会展示非洲本币收付款方案",
@@ -4109,35 +4371,6 @@
       ],
       "items": [
         "search-d585b8f63b15c075cc"
-      ]
-    },
-    {
-      "id": "event-c814fb0ee238",
-      "company": "payoneer",
-      "headline": "Payoneer发布稳定币在平台金融服务中的应用研究",
-      "date": "2026-10-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "payoneer-20261019"
       ]
     },
     {
@@ -4493,267 +4726,6 @@
       ],
       "items": [
         "search-da16f53e46f6a6f557"
-      ]
-    },
-    {
-      "id": "event-4e43246bbe14",
-      "company": "lianlian",
-      "headline": "连连数字官网全面升级 系统化展示AI产品矩阵与全球化出海服务能力 - 人工智能",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-04d74a00ff458ed655"
-      ]
-    },
-    {
-      "id": "event-2792f5041130",
-      "company": "lianlian",
-      "headline": "重磅：亿邦智库×连连数字联合发布《外贸新增长—新兴市场B2B商业机会洞察》 - 亿邦动力",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-37e519d9477f6fa880"
-      ]
-    },
-    {
-      "id": "event-02d371ed3ef4",
-      "company": "lianlian",
-      "headline": "连连数字：10月15日斥资146.54万港元回购48.30万股 - 东方财富",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-8d9a62d3b9b2ac5391"
-      ]
-    },
-    {
-      "id": "event-888faa8f036f",
-      "company": "lianlian",
-      "headline": "连连数字(02598.HK)10月15日耗资146.5万港元回购48.3万股 - TradingView",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-3b26e4913f487afa43"
-      ]
-    },
-    {
-      "id": "event-c0f0076cb40f",
-      "company": "lianlian",
-      "headline": "连连数字(02598)10月15日斥资146.54万港元回购48.3万股 - 凤凰网",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-6038b477c8b8c16018"
-      ]
-    },
-    {
-      "id": "event-a20570441218",
-      "company": "airwallex",
-      "headline": "Airwallex空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 投资界",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-52c3b4c4eac4461991"
-      ]
-    },
-    {
-      "id": "event-8113d53368a9",
-      "company": "coral",
-      "headline": "珊瑚跨境谈企业全球化与本地合规风控",
-      "date": "2026-10-15",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "coral-20261015"
-      ]
-    },
-    {
-      "id": "event-e3fa133aff08",
-      "company": "xtransfer",
-      "headline": "XTransfer完成智利UAF注册拓展拉美",
-      "date": "2026-10-14",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "xtransfer-20261014"
-      ]
-    },
-    {
-      "id": "event-e7e85d290818",
-      "company": "payoneer",
-      "headline": "Payoneer加拿大子公司完成支付服务商注册",
-      "date": "2026-10-13",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "payoneer-20261013"
       ]
     }
   ],
