@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:23:06Z",
+  "updated_at": "2026-11-19T07:25:19.726Z",
   "method": "editorial_context_source_limited",
   "disclaimer": "除明确注明官方原文复核的条目外，当前编辑性解读只依据RSS标题及常识性经济传导机制，不代表已核实报道全文或价格因果。",
   "items": {
@@ -345,6 +345,14 @@
       "watch": "关注12月8日至9日议息会议及会前通胀数据。若通胀降温或融资压力扩散，进一步收紧的节奏可能改变；纪要记录的是10月讨论，并非12月决议。",
       "status": "secondary_checked",
       "evidence": "https://www.reuters.com/business/fed-policymakers-focused-inflation-risks-october-with-some-seeing-need-bigger-2026-11-18/"
+    },
+    "cb0cca52501cfbd2": {
+      "dek": "澳大利亚统计局11月19日公布，10月季调就业人数减少4.35万人，失业率为4.9%。",
+      "insight": "【F/P1】官方就业报告确认兼职就业减少4.06万人，趋势就业仍小幅增加。【I】若劳动力市场疲软持续并缓解工资压力，澳洲央行进一步紧缩的必要性可能下降，澳元相对美元的利差支撑或减弱。【U】媒体正文未能访问，未核实市场预期及公布时段汇率，不能确认标题所述跌幅或因果。",
+      "business": "澳大利亚站卖家可同时压力测试澳元回款折算和当地消费需求，避免只按汇率变化估计毛利；以澳元支付当地仓储及广告费用的企业应先扣除同币种支出，再评估净敞口。",
+      "watch": "关注12月17日下一期就业报告及工资、通胀数据。官方方法说明显示本月就业变化的95%置信区间包含零，且维州样本权重有调整；若就业反弹或通胀仍高，政策预期可能反向变化。",
+      "status": "primary_checked",
+      "evidence": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/oct-2026"
     }
   }
 }
