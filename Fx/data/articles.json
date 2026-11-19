@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T07:24:56.910482Z",
-  "attempted_at": "2026-11-19T07:24:56.910482Z",
+  "updated_at": "2026-11-19T07:59:41.084042Z",
+  "attempted_at": "2026-11-19T07:59:41.084042Z",
   "articles": [
     {
       "id": "90156ab7755fc01b",
@@ -2330,48 +2330,6 @@
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "4f396373ce4db4c5",
-      "title": "美元指數一度升至103.08，創18個月新高 - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcXRJWTFSMzluZGRuNTFpZm1GOFdMU05CRl9zNTQtZm5rMU5qckIyOWRzZ3dzajNyRWlzaXNYMVJ5UTExOGY0YXFpVGp2bjMyT2xXalBwUEtEcTJIQ2pwUEhtLVNiek5pVEtCQU1ValhDQVV6dkJrUklJRHhobEFNTEw1amlDdk1xNWozdTlpdzJQVEZzQ19LQ2hTSTVNN3ZT?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T07:45:37Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "d4e5ccf0d531c9d4",
-      "title": "美元指數：美聯儲定價支撐美元重新走強 – 德意志銀行 - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVTRSNkpGWGthMEYxeTB1ZWdsRTVrNWg3Z1J6bVFld0FGRks4NlRuUnFGTDBLQTkxV3FVR2RndGJtWldGejJ2YnZRLXFtUnZCLXA5MUhKblJYdnp1M3RUNnV5ejZpOXpkNzI1Vk8zQWVxN0ozNGVoLUFpa0t3RERFNGpVcmFJRnIzeFFndUxUMWhfRDYxbXEwRWg2bTBKaUY4dmFsN1hDWFN5MnMtOWZnX1g5bHJmN3R6ZTRIa29SdmxUckJBZjlteUFoU0x1enpaeURtRQ?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T07:43:10Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
-    },
-    {
-      "id": "98addd34f516daf1",
-      "title": "今日外匯：美元指數攀升至19個月新高，黃金跌破4,000美元 - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeUdFQkhtcWs4Q19CVXRSbjhQTklucGtWUVZ0Vmk5d0pmRHIwVy0tMEpHT3BPVWI0cm9iMlZwVWsxX0xnT0hMYWFpakdDR2RHdEJsTnVNLTBHcnRtSURyNVMtc3EteFRvVWJhLWVmZTFlNkdFMFFwSHJ1WlhfUlF0MWd3SFF0Yjh5Sk5tR1ZCMm9PYk1URkY5VjExbVpTU1oxQXNCcDY3eUFfQnhjNUJrR05YcXZoellWY19NT2YwRngtbktieUNiOVVXQjQ3YWlz?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-12T07:26:28Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     }
   ],
   "sources": [
@@ -2420,20 +2378,20 @@
     {
       "name": "国际清算银行·央行讲话",
       "ok": true,
-      "count": 13,
+      "count": 14,
       "latest_item_published_at": "2026-11-12T00:00:00Z",
       "error": null
     },
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 59,
+      "count": 58,
       "latest_item_published_at": "2026-11-19T05:11:38Z",
       "error": null
     }
   ],
   "latest_article_published_at": "2026-11-19T07:05:09Z",
-  "new_article_count": 16,
+  "new_article_count": 0,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
