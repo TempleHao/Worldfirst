@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:19:58.033444Z",
-  "attempted_at": "2026-11-19T17:19:58.033444Z",
+  "updated_at": "2026-11-19T20:36:55.779035Z",
+  "attempted_at": "2026-11-19T20:36:55.779035Z",
   "articles": [
     {
       "id": "1aaf5e3c7a917d71",
@@ -599,6 +599,20 @@
       "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
+      "id": "8d2b8aa3d5fda6b0",
+      "title": "美元指數破102強勢重燃 投資者要留意三大市場衝擊 - 香港經濟日報HKET",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQU3llVjA3cy1DMndKVFpnMEpxaHdKQVp3azZNS0IwanJPTHRSeXYxT25PTnRpaUxHVzIzS3M2RW9xVnl0eFJ5Sl9ZTFlIUzRtNU1UMnhmOXdOQTNJdkZWWGVpZ182dHlVT29CazFEODlVZGp5ZDN1WGhJQzVYOFZDTURoaFhkZkN4VklPU0twM3FMNk5MbkJxNjhrVTBBdVllX21fTnljTkJMLTZYWXp0QWRXSHp6bjhTN2E3OFpqeFZrTURFTi0zQVpKR1V2bjg3Z1NoTk1TejhBU3dZTkw5WG9SOS1JNmx1eUdFWUhJTWxuVUpnT1dMeEFJaDg3Ny1EdlRjeDNLdVhWRmJTb01KU0hQQXJrLWVjTFFuelFiY1E3OEZfVXpZNDU2TTl3MTVjZEo0aS1ud21RekM3MWU2bHNCNUVlbi1GQ19ZeEpMUWNtaTNCQzIxODN3?oc=5",
+      "source": "Google新闻·中文外汇聚合",
+      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
+      "published_at": "2026-11-18T08:00:00Z",
+      "topic": "外汇市场",
+      "pairs": [],
+      "verification": "aggregated_unverified",
+      "time_basis": "aggregator_listing",
+      "analysis_mode": "rule_index",
+      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
+    },
+    {
       "id": "82b282271426d47f",
       "title": "美國升息預期增溫 美元指數穩居19個月高點 - 民視財經網",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ER193ajJrbHo0eXBNLXFoZGZyRnpoWGlDeXpOSUNCd3BudHJ0Vi1INVhNRVVtRHlST3F3N3pWTU8zSm5MUmVLZVhGb3J1d3J0aDlSSTNoMW0tMXRyYjktMTd1blRiUQ?oc=5",
@@ -926,7 +940,7 @@
     },
     {
       "id": "00326cbcc4ccbfed",
-      "title": "美股早盤／美元指數衝上103.6！三大指數盡墨費半開高後漲幅收斂| 全球財經| 全球 - udn",
+      "title": "美股早盤／美元指數衝上103.6！三大指數盡墨費半開高後漲幅收斂| 全球財經| 全球 - UDN",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCX3RaRHNoV3BPOXRWbl9IeG1PY29VSDUtbHBzZGJhR0J4UUtKbG9Ia2VsQThFX0EwdmI0R3VrR0hWanl0bHNobkkwZVJYN0dE?oc=5",
       "source": "Google新闻·中文外汇聚合",
       "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
@@ -993,20 +1007,6 @@
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "8d2b8aa3d5fda6b0",
-      "title": "美元指數破102強勢重燃 投資者要留意三大市場衝擊 - 香港經濟日報HKET",
-      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQU3llVjA3cy1DMndKVFpnMEpxaHdKQVp3azZNS0IwanJPTHRSeXYxT25PTnRpaUxHVzIzS3M2RW9xVnl0eFJ5Sl9ZTFlIUzRtNU1UMnhmOXdOQTNJdkZWWGVpZ182dHlVT29CazFEODlVZGp5ZDN1WGhJQzVYOFZDTURoaFhkZkN4VklPU0twM3FMNk5MbkJxNjhrVTBBdVllX21fTnljTkJMLTZYWXp0QWRXSHp6bjhTN2E3OFpqeFZrTURFTi0zQVpKR1V2bjg3Z1NoTk1TejhBU3dZTkw5WG9SOS1JNmx1eUdFWUhJTWxuVUpnT1dMeEFJaDg3Ny1EdlRjeDNLdVhWRmJTb01KU0hQQXJrLWVjTFFuelFiY1E3OEZfVXpZNDU2TTl3MTVjZEo0aS1ud21RekM3MWU2bHNCNUVlbi1GQ19ZeEpMUWNtaTNCQzIxODN3?oc=5",
-      "source": "Google新闻·中文外汇聚合",
-      "source_url": "https://news.google.com/rss/search?q=%E5%A4%96%E6%B1%87%20OR%20%22%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%22%20OR%20%22%E7%A6%BB%E5%B2%B8%E4%BA%BA%E6%B0%91%E5%B8%81%22%20OR%20%22%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87%22%20when%3A3d&hl=zh-CN&gl=HK&ceid=HK%3Azh-Hans",
-      "published_at": "2026-11-17T09:59:22Z",
-      "topic": "外汇市场",
-      "pairs": [],
-      "verification": "aggregated_unverified",
-      "time_basis": "aggregator_listing",
-      "analysis_mode": "rule_index",
-      "summary": "涉及汇市动态；仅凭标题无法确定汇率方向与因果关系。"
     },
     {
       "id": "ee55ff280ce27bbd",
@@ -2270,20 +2270,6 @@
       "time_basis": "aggregator_listing",
       "analysis_mode": "rule_index",
       "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
-    },
-    {
-      "id": "87a784bdd6110f05",
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-      "source": "美联储·货币政策",
-      "source_url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
-      "published_at": "2026-11-12T17:45:00Z",
-      "topic": "货币政策",
-      "pairs": [],
-      "verification": "official",
-      "time_basis": "publisher_rss",
-      "analysis_mode": "rule_index",
-      "summary": "涉及央行政策；请核对官方决议、公布时点和市场原有预期。"
     }
   ],
   "sources": [
@@ -2339,13 +2325,13 @@
     {
       "name": "Google新闻·中文外汇聚合",
       "ok": true,
-      "count": 53,
+      "count": 50,
       "latest_item_published_at": "2026-11-19T14:24:36Z",
       "error": null
     }
   ],
   "latest_article_published_at": "2026-11-19T14:25:00Z",
-  "new_article_count": 11,
+  "new_article_count": 0,
   "analysis_mode": "rule_index",
   "window_hours": 168,
   "ai_brief": null,
