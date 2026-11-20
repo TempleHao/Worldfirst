@@ -50,6 +50,68 @@
       }
     },
     {
+      "id": "search-4ca0c01ae7dda6cd1d",
+      "company": "payoneer",
+      "date": "2026-11-20",
+      "title": "派安盈“盈聚拉美”订单洽谈会成功举办，打通拉美市场采购渠道助力出海企业拓展新商机 - 央视网",
+      "summary": "派安盈“盈聚拉美”订单洽谈会成功举办，打通拉美市场采购渠道…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "央视网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10MGFfMGxDT1NPNTY5cWNJN0E4M0dTRXlZWVRoWFZFSUtvdDJTX0pHaE1zNHRhbzd1V3YwLVZYQkNlVk9Ucy1pd0RXeV9jdDVIUTg2VWxRSWpuTkZmVloySkdoYmJUN2xta3V0WUk2TFJITUZJNG5WcUZ3MF8?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-bc15767bcfbd",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-4b0559050bd8343d78",
+      "company": "lianlian",
+      "date": "2026-11-20",
+      "title": "连连数字：11月20日斥资75.01万港元回购29.5万股 - 东方财富网",
+      "summary": "连连数字：11月20日斥资75.01万港元回购29.5万股…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDUFc5a3FqdnVhRkR3VUlMM2twT1J1RjJmUDMzMVRFUUtFWWhZNkJoVGpHTmZ2cVZ4bDc4ZTEweGZDYmpCNUdqMFdmUU9FWnVUWWpPRVBSRjA0bGNMdVMwdnItMjNKUQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-25140154aff5",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-c4a6bc3d067839ebd4",
       "company": "lianlian",
       "date": "2026-11-19",
@@ -7568,7 +7630,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 4,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7599,7 +7661,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 4,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7630,7 +7692,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 4,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7754,73 +7816,11 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-b389020893a8",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-986b765f1854ca70bc",
-      "company": "lianlian",
-      "date": "2026-10-16",
-      "title": "连连数字(02598)10月16日斥资约64.3万港元回购20.6万股 速递 - www.sxcntv.com",
-      "summary": "连连数字(02598)10月16日斥资约64.3万港元回购…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "www.sxcntv.com",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CRFRSSVhFcTJDT3JCWTRJSFF2Y3lucXNQNlczaVBCTHRzUkY4eGFOVDhKaWt6UF81cE13bXNma3pGRVdOa1RwVFpxR1RXS0xMTUFRangzR0VxTFhqWDhaYVhpSy0xb2c?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-b389020893a8",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-12c85bc4d6d0b633e4",
-      "company": "skyee",
-      "date": "2026-10-16",
-      "title": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - Jiemian.com",
-      "summary": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨…",
-      "category": "资本并购",
-      "priority": "normal",
-      "source": "Jiemian.com",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aMHhUU2dzUjc5NnlJR3ZNZ2VhVW9aanpBeUpXUlFReFAxakpPT2Z6dWowdlpzQVN4WWo2d0I5UlF2WlJ5aHlJamJsZml0bnVlLXNsczUwcnU?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 4,
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     }
   ],
-  "updated_at": "2026-11-20T07:14:30.494735+00:00",
+  "updated_at": "2026-11-20T20:17:59.062872+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

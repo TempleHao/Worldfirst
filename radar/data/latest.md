@@ -3,6 +3,8 @@
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
 - **2026-11-20｜空中云汇** Airwallex 空中云汇新加坡金融科技节发布《AI 重… [原文](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GUUVqd01xY0xNT1JwdXNEb2oyX2xXelh6MjhvMXBkeHFxQ09NRHRKSDFFYzh5c003SnFFb0QxQlFPeFBrQWc?oc=5)（unverified）
+- **2026-11-20｜派安盈** 派安盈“盈聚拉美”订单洽谈会成功举办，打通拉美市场采购渠道… [原文](https://news.google.com/rss/articles/CBMifEFVX3lxTE10MGFfMGxDT1NPNTY5cWNJN0E4M0dTRXlZWVRoWFZFSUtvdDJTX0pHaE1zNHRhbzd1V3YwLVZYQkNlVk9Ucy1pd0RXeV9jdDVIUTg2VWxRSWpuTkZmVloySkdoYmJUN2xta3V0WUk2TFJITUZJNG5WcUZ3MF8?oc=5)（unverified）
+- **2026-11-20｜连连国际** 连连数字：11月20日斥资75.01万港元回购29.5万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDUFc5a3FqdnVhRkR3VUlMM2twT1J1RjJmUDMzMVRFUUtFWWhZNkJoVGpHTmZ2cVZ4bDc4ZTEweGZDYmpCNUdqMFdmUU9FWnVUWWpPRVBSRjA0bGNMdVMwdnItMjNKUQ?oc=5)（unverified）
 - **2026-11-19｜连连国际** Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体… [原文](https://news.google.com/rss/articles/CBMibkFVX3lxTE50SThDei1hYTdrSWFpeDlrb1dIdWVha2JYaUtLLXhKNjcxOC15S2Uza1FyckZfaDloVGl6UlhFT00xdW1WT1dyRTZpbVdiWjVmTmlrTG90M1hQekg4c1dlU2FacDUxUzlKTjJhbkh3?oc=5)（unverified）
 - **2026-11-19｜派安盈** 拉美采购需求直达中国产业带，派安盈搭建对接渠道助力出海企业… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwNDIzUm9OSFR5NHdDSXRHZVNZUnVjSWw5ZnBFWXMta3NOamRPMmpvdFA1WmJjSXFVQWFvNm53RFowOERPVjdJYTYtY3dRUlFZZTk1dDlZMWFpMGZfcDhYVmpQR0o?oc=5)（unverified）
 - **2026-11-19｜XTransfer** XTransfer与越南VPBank、SmartPay达成… [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oWUM5Q0RVMDA5R2ZVTmp3WVZfVHBFOEpQRzk0SEhnVkhEU0taRnRfWi1QVEwtaDczMHd2SThfeWdmUEZnWlNKblBTNzMyb3FiR3UxRUVJcWJuYjZSa09VVWFpcw?oc=5)（unverified）
@@ -120,5 +122,3 @@
 - **2026-11-03｜连连国际** 连连数字亮相2026香港金融科技周，联合Cobre共建中拉… [原文](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KblhtNU5WMGtPUElubGxEVnBtZHJCTHBMejZ1T2YzVUwxTnhxZ0ZQdGlkdVRiSUNobzJIOWJuSzZMaHFyMVlPTThTQVdJUQ?oc=5)（unverified）
 - **2026-11-02｜连连国际** 推动AI与跨境产业深度融合，连连数字“钱潮杯”决赛在杭举行… [原文](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxcV9PNkRkRGVPOHdHWTlOSEp2UHpVeV9fSVRicEF3dFdSSmt6TUt4eld3RG5RZnl3dTRCT2hxVXhZMG4ycExxOWoyZF9ZdEp4MUE?oc=5)（unverified）
 - **2026-11-02｜PingPong** PingPong跨境支付：打通订单与资金的信息链路，打造航… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoYnl5ejQzLWxHNTJoR3dCM0JvMktIRnFLdnFkZ3Q5RFVhYllYc2FmV0FXbDRHN0JnTk9rNjNkeTVfel9LRXBmdXU2dmVsemFiQWstTEFvVUktRVRHYmc?oc=5)（unverified）
-- **2026-11-02｜XTransfer** XTransfer港股IPO申请，延期了！ - 新浪财经 [原文](https://news.google.com/rss/articles/CBMib0FVX3lxTFByaDZoeS1ZaEx0ZTJQNVZkSlNGVDZfcmNPbFh2WDdwMmxxcnMxZzY1Zm9wTEFwU2VrVWFwVWd5Y2VrdE5RY1M3eGtWbXBNa05GRVpkbDFXQ25pWFNJSFNlVzlrQkpMOHY4R29jZE8yTQ?oc=5)（unverified）
-- **2026-11-02｜XTransfer** XTransfer与中银香港签署合作 携手提升外贸企业全球… [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LYkw2U1NJWERGVnNrLVVfZ3R0TWhuNFNDQVlWWlVWWmF4a25CeDVEQWFGaUdMcU1BRldOSGVvZExVNy1hYmpSMWhGeS04WXJvc1BidXExNExNcnpYUlphSjZkbw?oc=5)（unverified）
