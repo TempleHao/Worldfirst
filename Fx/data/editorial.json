@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:21:37.215Z",
+  "updated_at": "2026-11-20T12:26:23.799Z",
   "method": "editorial_context_source_limited",
   "disclaimer": "除明确注明官方原文复核的条目外，当前编辑性解读只依据RSS标题及常识性经济传导机制，不代表已核实报道全文或价格因果。",
   "items": {
@@ -378,6 +378,15 @@
       "watch": "观察日本家庭资金流向国内还是海外资产、银行贷款定价以及美日实际利差；资产配置变化本身不能证明资金已回流，也未核验讲话当日成交行情。BIS页面日期栏与正文讲话日期不一致，以日本央行官网及PDF封面11月16日为准。",
       "status": "primary_checked",
       "evidence": "https://www.bis.org/speeches/20261119-economic-activity-prices-and-monetary-policy-japan-japans-money-and-capital-market-transformation-will-paradigm.pdf"
+    },
+    "48afd745301a3f40": {
+      "title_zh": "美元指数再创逾一年半新高，美国长债收益率回落",
+      "dek": "香港电台11月20日早间报道美元指数走强与美国长债收益率下降并存；另一媒体同日报道方向一致。",
+      "insight": "【F/P2】已阅读香港电台原始报道，巴士的报同日报道相同方向，但两者可能共享行情来源，尚未核验盘中原始报价。【I】美元走强与长债收益率回落可以同时发生，例如短期政策预期、避险资金需求与长期增长预期分别影响汇率和长端债券；当日报价不能识别各因素贡献。",
+      "business": "美元采购、欧元或英镑销售的企业，可将订单毛利中的汇兑影响与美元贷款重定价分别测算。长期美债收益率回落不保证短期美元授信或银行换汇报价同步下降。",
+      "watch": "关注短端政策利率预期与长端期限溢价是否继续分化，以及美元需求是否伴随风险资产波动。若美元回落或海外央行紧缩预期增强，跨币种毛利压力可能缓解。尚未核验原始盘中行情及市场事前预期，不引用具体点位。",
+      "status": "secondary_checked",
+      "evidence": "https://news.rthk.hk/rthk/ch/component/k2/1878531-20261120.htm"
     }
   }
 }
