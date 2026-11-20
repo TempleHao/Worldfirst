@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:36:25.160335+00:00",
+  "generated_at": "2026-11-20T07:14:32.515257+00:00",
   "platforms": {
     "wechat": {
       "index_requests_ok": 9,
@@ -30,7 +30,7 @@
       "index_requests_failed": 0,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
-      "total_available_records": 4,
+      "total_available_records": 3,
       "state": "connected_zero_matching_results"
     }
   },

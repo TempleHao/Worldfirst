@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-f11caeaf7cc64a680f",
+      "company": "airwallex",
+      "date": "2026-11-20",
+      "title": "Airwallex 空中云汇新加坡金融科技节发布《AI 重塑金融科技》白皮书： 以智能全球企业账户推动智能体金融规模化落地 - 36氪出海",
+      "summary": "Airwallex 空中云汇新加坡金融科技节发布《AI 重…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "36氪出海",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GUUVqd01xY0xNT1JwdXNEb2oyX2xXelh6MjhvMXBkeHFxQ09NRHRKSDFFYzh5c003SnFFb0QxQlFPeFBrQWc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9ce9aba1a2a1",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-c4a6bc3d067839ebd4",
       "company": "lianlian",
       "date": "2026-11-19",
@@ -666,6 +697,37 @@
         "score": 0,
         "event_id": "event-29b0b9ba7763",
         "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-d87ffcee6687218e00",
+      "company": "lianlian",
+      "date": "2026-11-17",
+      "title": "连连数字：11月17日斥资26.22万港元回购9.2万股 - 东方财富网",
+      "summary": "连连数字：11月17日斥资26.22万港元回购9.2万股 …",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oZ29URGltMmlIZm1yWDhOczg5dFV5ZmhKV3N2aUx1R01PUU5GRkNzVEVvR3ZEbVZFT3NVUGo1YWo0RERjMTZQemI2TTBnZjJYWmZ0dXlaTWQ0QTk0aHNBaQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7c6f12813c4c",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2370,7 +2432,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-af21f686a41c",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2463,7 +2525,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-af21f686a41c",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2494,7 +2556,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-af21f686a41c",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2556,7 +2618,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-af21f686a41c",
-        "distinct_publishers": 3,
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -2619,6 +2681,37 @@
         "score": 0,
         "event_id": "event-a58c767f3407",
         "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-9470f6354da962e3e4",
+      "company": "pingpong",
+      "date": "2026-11-06",
+      "title": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态 - 腾讯新闻",
+      "summary": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "腾讯新闻",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TVDRDckdZU0ZJcUo3ZFdtenNHeEN2RExYMTJDNjc2XzhmbnU2akZiNzRlb1pRQ3A5WDROU0FYVFNOdDRFd0JhVHBPVVlnelZRSDFoUnN3?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-af21f686a41c",
+        "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7726,110 +7819,8 @@
         "distinct_publishers": 4,
         "rationale": "未见标题级负面风险线索"
       }
-    },
-    {
-      "id": "search-4fb6f06f0fccb75a69",
-      "company": "skyee",
-      "date": "2026-10-16",
-      "title": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加码「跨境支付」| IIR - 搜狐网",
-      "summary": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加…",
-      "category": "资本并购",
-      "priority": "normal",
-      "source": "搜狐网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96TEtPaFRHVFFoYnpadFNOUFpGOTFmdWlUa2JXVFlZMFcyVG1sMGFEdnF5SFdIejBfalZ5elk0dzdGdnREb290NFZqa2xJMDloWnhR?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-c106ba8413a9",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "social-index-2fd6afe8fc471cb2593f",
-      "company": "skyee",
-      "date": "2026-10-16",
-      "date_basis": "publication_index",
-      "title": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加码「跨境支付」| IIR - 知乎专栏",
-      "summary": "「拉卡拉」拟并购5年前布局的「高富信息/Skyee」, 加…",
-      "category": "社交讨论",
-      "priority": "normal",
-      "source": "知乎专栏",
-      "source_type": "search",
-      "channel": "zhihu",
-      "platform": "zhihu",
-      "discovery_method": "public_news_index",
-      "link_origin": "google-news-indirect",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iT1dZVE1ZTS1aNXFuTXliNEFIVlBkRXBXVS1Rb0ktQnVJTG9kZjA4ODNBblhGZGs4TXJtYW9UOWd3WDMyT2JUeXV1N2RWeVZreDZTTlQ3Ri13cUpI?oc=5",
-      "status": "unverified",
-      "rights": "index_snippet_only",
-      "coverage": "partial_index_only",
-      "metrics": null,
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-c106ba8413a9",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-da16f53e46f6a6f557",
-      "company": "skyee",
-      "date": "2026-10-16",
-      "title": "24万卖家的收款工具Skyee要卖了？本土店卖家的钱袋子会变吗 - 全球定制网",
-      "summary": "24万卖家的收款工具Skyee要卖了？本土店卖家的钱袋子会…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "全球定制网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MaGZzR1lHMnNrR0x5dVdDeTdIQS1MamlTc29sdk1hRnlvcW9DY2lMVDVweVJYbDRpVGYzTDE5eWJzbVVQMUtrZDhQMEJlZw?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题含疑问或未经证实表述",
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-8e984dfa5c17",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
     }
   ],
-  "updated_at": "2026-11-19T20:36:22.949554+00:00",
+  "updated_at": "2026-11-20T07:14:30.494735+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
