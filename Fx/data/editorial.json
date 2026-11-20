@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:26:02.651Z",
+  "updated_at": "2026-11-20T08:21:37.215Z",
   "method": "editorial_context_source_limited",
   "disclaimer": "除明确注明官方原文复核的条目外，当前编辑性解读只依据RSS标题及常识性经济传导机制，不代表已核实报道全文或价格因果。",
   "items": {
@@ -369,6 +369,15 @@
       "watch": "观察AI相关资本开支、生产率与就业数据是否出现持续分化，以及能源价格冲击是否影响长期通胀预期。若生产率改善提前兑现或投资需求降温，当前通胀压力可能减弱。尚未核验讲话前后交易行情，不归因于该讲话。",
       "status": "primary_checked",
       "evidence": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm"
+    },
+    "1f0d268e5e226355": {
+      "title_zh": "日本央行委员高田创：日本货币与资本市场是否正在发生范式转变？",
+      "dek": "高田创11月16日讲话讨论政策利率正常化与日本家庭、企业资产配置的结构变化；国际清算银行11月19日收录。",
+      "insight": "【O/P1】官方讲话将企业资产负债表扩张、家庭从存款向风险资产配置的变化与货币政策正常化联系起来，并讨论美日实际利差对汇市的重要性。【I】若日本国内资产吸引力增强且资金回流，可能为日元提供支持；若家庭新增投资主要流向海外，换汇需求可能产生相反影响。讲话为委员个人观点，不是新的政策决议。",
+      "business": "依赖低息日元借款支持美元采购的企业，应把日元债务续期利率、美元采购付款和换汇套保成本合并测算；即使日元名义融资利率仍低，汇率反向变化也可能抵消利差优势。",
+      "watch": "观察日本家庭资金流向国内还是海外资产、银行贷款定价以及美日实际利差；资产配置变化本身不能证明资金已回流，也未核验讲话当日成交行情。BIS页面日期栏与正文讲话日期不一致，以日本央行官网及PDF封面11月16日为准。",
+      "status": "primary_checked",
+      "evidence": "https://www.bis.org/speeches/20261119-economic-activity-prices-and-monetary-policy-japan-japans-money-and-capital-market-transformation-will-paradigm.pdf"
     }
   }
 }
