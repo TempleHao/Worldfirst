@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-20T20:18:04.629437+00:00",
+  "generated_at": "2026-11-21T07:06:05.206714+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,29 +13,29 @@
   ],
   "overview": {
     "articles": 250,
-    "events": 161,
+    "events": 159,
     "sentiment": {
       "中性": 250
     },
     "crisis": {
-      "一般": 161
+      "一般": 159
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
     {
-      "id": "event-9ce9aba1a2a1",
+      "id": "event-4dd6f257cd4b",
       "company": "airwallex",
       "headline": "Airwallex 空中云汇新加坡金融科技节发布《AI 重塑金融科技》白皮书： 以智能全球企业账户推动智能体金融规模化落地 - 36氪出海",
       "date": "2026-11-20",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -50,7 +50,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-f11caeaf7cc64a680f"
+        "search-f11caeaf7cc64a680f",
+        "search-c4c2c14c2d57642be5"
       ]
     },
     {
@@ -112,6 +113,68 @@
       ]
     },
     {
+      "id": "event-8f428a2b0412",
+      "company": "lianlian",
+      "headline": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_公司新闻 - 证券之星",
+      "date": "2026-11-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 5,
+      "publisher_count": 5,
+      "official_sources": 0,
+      "mention_count": 5,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4de401f0178ed58b73",
+        "search-c4a6bc3d067839ebd4",
+        "search-dc3bd0af55175a7b21",
+        "search-72d23e28c02bae9196",
+        "search-6e6194a48b602f79d4"
+      ]
+    },
+    {
+      "id": "event-46f3bee5b0c5",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月20日斥资75万港元回购29.5万股 - 亿欧",
+      "date": "2026-11-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-8efb94660723b48366"
+      ]
+    },
+    {
       "id": "event-cd2ee381cd2c",
       "company": "payoneer",
       "headline": "拉美采购需求直达中国产业带，派安盈搭建对接渠道助力出海企业拓展拉美市场_行业新闻 - 证券之星",
@@ -138,38 +201,6 @@
       ],
       "items": [
         "search-d51f1aa948732ecded"
-      ]
-    },
-    {
-      "id": "event-f888a29f1647",
-      "company": "lianlian",
-      "headline": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_公司新闻 - 证券之星",
-      "date": "2026-11-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 4,
-      "publisher_count": 4,
-      "official_sources": 0,
-      "mention_count": 4,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-c4a6bc3d067839ebd4",
-        "search-dc3bd0af55175a7b21",
-        "search-72d23e28c02bae9196",
-        "search-6e6194a48b602f79d4"
       ]
     },
     {
@@ -347,17 +378,17 @@
       ]
     },
     {
-      "id": "event-bbc19a88c6e0",
+      "id": "event-59cd1e6985f7",
       "company": "lianlian",
-      "headline": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉 - Sohu",
+      "headline": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉_滚动新闻_财经 - 证券之星",
       "date": "2026-11-18",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -372,7 +403,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-b61cada4e63e40b85e"
+        "search-b61cada4e63e40b85e",
+        "search-18b73ff02e66999af6"
       ]
     },
     {
@@ -723,6 +755,35 @@
       "items": [
         "search-e80a769b0f7f278c0d",
         "search-1453b64a95bdcdccee"
+      ]
+    },
+    {
+      "id": "event-b6b11af625ed",
+      "company": "airwallex",
+      "headline": "打不过就加入？Airwallex 老板造链，在布什么局 - ForesightNews",
+      "date": "2026-11-13",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4a5362931d6bafeacf"
       ]
     },
     {
@@ -4644,10 +4705,10 @@
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -4663,124 +4724,7 @@
       ],
       "items": [
         "search-0e976706b058aa0719",
-        "search-c13dac3ccb719bcc5d",
-        "search-e0048cdf4183414daa"
-      ]
-    },
-    {
-      "id": "event-278f13cd9a65",
-      "company": "airwallex",
-      "headline": "AI驱动收付，外贸增长提速Airwallex 空中云汇亮相第140届广交会_行业新闻 - 证券之星",
-      "date": "2026-10-16",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-9e492352db4fba8d9c"
-      ]
-    },
-    {
-      "id": "event-312959a1af72",
-      "company": "lianlian",
-      "headline": "连连国际携亿邦智库发布新兴市场B2B白皮书",
-      "date": "2026-10-16",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "lianlian-20261016"
-      ]
-    },
-    {
-      "id": "event-b389020893a8",
-      "company": "lianlian",
-      "headline": "连连数字(02598.HK)10月16日耗资64.3万港元回购20.6万股 - TradingView",
-      "date": "2026-10-16",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-376ff5d09525d156cf"
-      ]
-    },
-    {
-      "id": "event-f3caae10dff2",
-      "company": "skyee",
-      "headline": "拉卡拉拟收购Skyee运营主体控股权",
-      "date": "2026-10-16",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "skyee-20261016"
+        "search-c13dac3ccb719bcc5d"
       ]
     }
   ],

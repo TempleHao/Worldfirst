@@ -44,8 +44,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-9ce9aba1a2a1",
-        "distinct_publishers": 1,
+        "event_id": "event-4dd6f257cd4b",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -112,6 +112,68 @@
       }
     },
     {
+      "id": "search-4de401f0178ed58b73",
+      "company": "lianlian",
+      "date": "2026-11-20",
+      "title": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营 - Sohu",
+      "summary": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "Sohu",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMTZpMERjZVhJemVqTmNPdGlZQjdsN0Q3SGFsYWI2dmVWVG4zcjhVUW5TZUhBOWhBMWx0bFR2dXp4bHBQdUZDLUt0bjRvbUJBb2RvcDJITHkyTVBfeHJELXFNVTZISnZvTXRPX3dsQVFBWEtMUzZtaS1PdWxfVnVZRnB5X0xPVzY3?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8f428a2b0412",
+        "distinct_publishers": 5,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-8efb94660723b48366",
+      "company": "lianlian",
+      "date": "2026-11-20",
+      "title": "连连数字(02598)11月20日斥资75万港元回购29.5万股 - 亿欧",
+      "summary": "连连数字(02598)11月20日斥资75万港元回购29.…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "亿欧",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5idW9PLV9Hc3BqQl9LNzI0WWFXdzFieXlPTmlha0NBMXE1WVdvQl9uTk9jT1ktT2ZWN25MR2VvOVU5VWh0b0dVbHRWZWVDSVpOakFCMW96OTBDZw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-46f3bee5b0c5",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-c4a6bc3d067839ebd4",
       "company": "lianlian",
       "date": "2026-11-19",
@@ -137,8 +199,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-f888a29f1647",
-        "distinct_publishers": 4,
+        "event_id": "event-8f428a2b0412",
+        "distinct_publishers": 5,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -261,8 +323,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-f888a29f1647",
-        "distinct_publishers": 4,
+        "event_id": "event-8f428a2b0412",
+        "distinct_publishers": 5,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -385,8 +447,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-bbc19a88c6e0",
-        "distinct_publishers": 1,
+        "event_id": "event-59cd1e6985f7",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -447,8 +509,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-f888a29f1647",
-        "distinct_publishers": 4,
+        "event_id": "event-8f428a2b0412",
+        "distinct_publishers": 5,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -478,8 +540,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-f888a29f1647",
-        "distinct_publishers": 4,
+        "event_id": "event-8f428a2b0412",
+        "distinct_publishers": 5,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -635,6 +697,68 @@
         "score": 0,
         "event_id": "event-d6942b2f0579",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-c4c2c14c2d57642be5",
+      "company": "airwallex",
+      "date": "2026-11-18",
+      "title": "Airwallex空中云汇新加坡金融科技节发布《AI 重塑金融科技》白皮书：以智能全球企业账户推动智能体金融规模落地 - 投资界",
+      "summary": "Airwallex空中云汇新加坡金融科技节发布《AI 重塑…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "投资界",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5td3dZdU5YUG40N1JYNzNZbU9EeE94b1p6TWRoYllaMHF1R2ExQmoySXZGaENWSkhzZWw2T3hSempjeFd5Q1d4VUdkZmp2SkNRUzRJdjJB?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-4dd6f257cd4b",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-18b73ff02e66999af6",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉_滚动新闻_财经 - 证券之星",
+      "summary": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉_滚动新…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wWC1iYzlGTHNOYlpKU0NRaGJRX216UDlMbGNnSnRoS3JKWjNrWXZEWmdYRnVnOWZVOW9ZV0tHTElmMXVSREpicE5FSU9QSDdtb04wMUo4RzV2eTl2YWJIMA?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-59cd1e6985f7",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1162,6 +1286,38 @@
         "score": 0,
         "event_id": "event-da6c8fed353a",
         "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-4a5362931d6bafeacf",
+      "company": "airwallex",
+      "date": "2026-11-13",
+      "title": "打不过就加入？Airwallex 老板造链，在布什么局 - ForesightNews",
+      "summary": "打不过就加入？Airwallex 老板造链，在布什么局 -…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "ForesightNews",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTeGd3YlVYbUdoRjdmNmJRd3h2VWg5UkZsZGpIREdaSE5BLWh5NjFwaDZzQkJuSlJyZHRRU1hucHRGM29KcHB5a3RPLU5VNnRBZDhwUjFxY204LUk?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b6b11af625ed",
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7630,7 +7786,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 3,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7661,166 +7817,11 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 3,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-e0048cdf4183414daa",
-      "company": "skyee",
-      "date": "2026-10-17",
-      "title": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - 搜狐网",
-      "summary": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨…",
-      "category": "资本并购",
-      "priority": "normal",
-      "source": "搜狐网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QX3YzRnZkc2J4WjZOU3Itb0gybmtNUXFKWkd4bnVQZnFVOVU0UEtTQ0thVUo2dW95MXhIdlpLWVdmZi13UHNrbTVTczVMc3dZaFdLQjln?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 3,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "skyee-20261016",
-      "company": "skyee",
-      "date": "2026-10-16",
-      "title": "拉卡拉拟收购Skyee运营主体控股权",
-      "summary": "拉卡拉拟收购Skyee运营主体控股权。",
-      "category": "资本并购",
-      "priority": "high",
-      "source": "每日经济新闻",
-      "source_type": "media",
-      "url": "https://www.nbd.com.cn/articles/2026-10-16/4607146.html",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-f3caae10dff2",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "lianlian-20261016",
-      "company": "lianlian",
-      "date": "2026-10-16",
-      "title": "连连国际携亿邦智库发布新兴市场B2B白皮书",
-      "summary": "连连发布新兴市场B2B洞察白皮书。",
-      "category": "市场拓展",
-      "priority": "normal",
-      "source": "连连国际官网",
-      "source_type": "official",
-      "url": "https://global.lianlianpay.com/article/MTU5OTgzLDhkNQ.html",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-312959a1af72",
-        "distinct_publishers": 0,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-9e492352db4fba8d9c",
-      "company": "airwallex",
-      "date": "2026-10-16",
-      "title": "AI驱动收付，外贸增长提速Airwallex 空中云汇亮相第140届广交会_行业新闻 - 证券之星",
-      "summary": "AI驱动收付，外贸增长提速Airwallex 空中云汇亮相…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "证券之星",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82c2FGRDB5OTR1ZFZJT2JtVkZUZ050VXNqWkI2TVBLSmZXeFFkckZOSWNiblBuczB0SFUwcFlDcTNuUkxIQ3pjNmtaOVBIZFdwWEMzRU8xbV9GUDNQSG1Ia25mb28?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-278f13cd9a65",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-376ff5d09525d156cf",
-      "company": "lianlian",
-      "date": "2026-10-16",
-      "title": "连连数字(02598.HK)10月16日耗资64.3万港元回购20.6万股 - TradingView",
-      "summary": "连连数字(02598.HK)10月16日耗资64.3万港元…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "TradingView",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCNVRWS3VJczlIU0xkREEzbno1eFdQcmJmekswLWVEaXRRRTMxSE1XTDdzU1UxdjJmYWROMWIyb3RxeFkxUV9SVl8tTjNzT3NibFdWWmU4Y1liVEpMUHBlZlUxRVhRcENYUE5Z?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-b389020893a8",
-        "distinct_publishers": 1,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     }
   ],
-  "updated_at": "2026-11-20T20:17:59.062872+00:00",
+  "updated_at": "2026-11-21T07:06:01.945213+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
