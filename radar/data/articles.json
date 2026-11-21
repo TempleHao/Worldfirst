@@ -168,8 +168,101 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-46f3bee5b0c5",
+        "event_id": "event-0dfe9e856ed4",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-7c93bd695ed0d647b3",
+      "company": "payoneer",
+      "date": "2026-11-20",
+      "title": "暑期焕新机 派安盈官网登录优惠攻略来袭 - iheima",
+      "summary": "暑期焕新机 派安盈官网登录优惠攻略来袭 - iheima",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "iheima",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04MzJoU21LUDdNd1hKOFBNOE92dTlLVm5nMjZ0bG1Oc1RKcldvQ0V4WXY2VnZPYWdrUzJMcTdHWVVXZ2FDQnozbGk1ck93ZEtnakItRmU4bTRhSmdtckFLN0VhaDA2TkV4TnhaajZFNEZNeVBT?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-dbc854454443",
         "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-6886a390e1c7fbac8e",
+      "company": "payoneer",
+      "date": "2026-11-20",
+      "title": "Payoneer获OCC有条件批准设立稳定币国家信托银行 - 币界网",
+      "summary": "Payoneer获OCC有条件批准设立稳定币国家信托银行 …",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "币界网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sZjBUa2tvTDJFVFVPQnhQdHMzbWE4T0pJV1ZtNkxFejNrYjdndmZ5MnNZZDR6dEJJX3lQVGEyMDk0TkF5dWlRZ05DWXY1SDU3eWMwSzJlS2FyTkM1dUcw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-c5a3c0791f70",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-4721ceb90acf4b87ef",
+      "company": "lianlian",
+      "date": "2026-11-20",
+      "title": "连连数字(02598)11月20日斥资75万港元回购29.5万股 - 凤凰网",
+      "summary": "连连数字(02598)11月20日斥资75万港元回购29.…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5kNXEwNndlWElOaS1FeU1LT1EzWXpmNE1OSDEtd2J4elQ2NDZ2TWgzWGVmLTF6N2tSdnVLaHVCbHVyTHhHTWZsU3I2eng?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-0dfe9e856ed4",
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7758,70 +7851,8 @@
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
-    },
-    {
-      "id": "search-0e976706b058aa0719",
-      "company": "skyee",
-      "date": "2026-10-17",
-      "title": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - 东方财富",
-      "summary": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨…",
-      "category": "资本并购",
-      "priority": "normal",
-      "source": "东方财富",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfeDdGNFhtbDFWUWFpNHpaZkwzLXFSV0ZYTGdHREtkYVdydWZoNTZkQmE2Y1FWZEdfMmNxWHJrRm9xQkI0a3MxLWpFVG5YVk1wN1Y0b0ZVSENPaWJ0MHBLVg?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-c13dac3ccb719bcc5d",
-      "company": "skyee",
-      "date": "2026-10-17",
-      "title": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - 搜狐",
-      "summary": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨…",
-      "category": "资本并购",
-      "priority": "normal",
-      "source": "搜狐",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS1BpYUt4aXpYS3JZa0JHR25uVzZTZS1JcG1DSXE2WW5KeEJOcnRweDRTMzhMbERPQWxQR3h0UEhCYmR4NndpQUxiWTc0ckd6enNoS0RSdlh5SGVEU0hNNVFBX3RsX2dGWXF2c0xqUDg0Yk80ZUJtODR1d0QwMS1vS0JFR3JpaUR0RzdzQQ?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-99a5bb87992f",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
     }
   ],
-  "updated_at": "2026-11-21T07:06:01.945213+00:00",
+  "updated_at": "2026-11-21T19:14:57.211145+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

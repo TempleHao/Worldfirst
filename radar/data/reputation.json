@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-21T07:06:05.206714+00:00",
+  "generated_at": "2026-11-21T19:15:00.939775+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,13 +12,13 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 250,
-    "events": 159,
+    "articles": 251,
+    "events": 160,
     "sentiment": {
-      "中性": 250
+      "中性": 251
     },
     "crisis": {
-      "一般": 159
+      "一般": 160
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -84,6 +84,64 @@
       ]
     },
     {
+      "id": "event-dbc854454443",
+      "company": "payoneer",
+      "headline": "暑期焕新机 派安盈官网登录优惠攻略来袭 - iheima",
+      "date": "2026-11-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-7c93bd695ed0d647b3"
+      ]
+    },
+    {
+      "id": "event-c5a3c0791f70",
+      "company": "payoneer",
+      "headline": "Payoneer获OCC有条件批准设立稳定币国家信托银行 - 币界网",
+      "date": "2026-11-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-6886a390e1c7fbac8e"
+      ]
+    },
+    {
       "id": "event-25140154aff5",
       "company": "lianlian",
       "headline": "连连数字：11月20日斥资75.01万港元回购29.5万股 - 东方财富网",
@@ -146,17 +204,17 @@
       ]
     },
     {
-      "id": "event-46f3bee5b0c5",
+      "id": "event-0dfe9e856ed4",
       "company": "lianlian",
-      "headline": "连连数字(02598)11月20日斥资75万港元回购29.5万股 - 亿欧",
+      "headline": "连连数字(02598)11月20日斥资75万港元回购29.5万股 - 凤凰网",
       "date": "2026-11-20",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -171,7 +229,8 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-8efb94660723b48366"
+        "search-8efb94660723b48366",
+        "search-4721ceb90acf4b87ef"
       ]
     },
     {
@@ -4695,36 +4754,6 @@
       ],
       "items": [
         "social-curated-douyin-xtransfer-20261017"
-      ]
-    },
-    {
-      "id": "event-99a5bb87992f",
-      "company": "skyee",
-      "headline": "发行股份+现金收购，拉卡拉拟控股Skyee运营主体，补齐跨境业务短板 - 东方财富",
-      "date": "2026-10-17",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-0e976706b058aa0719",
-        "search-c13dac3ccb719bcc5d"
       ]
     }
   ],
