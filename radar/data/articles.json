@@ -856,6 +856,37 @@
       }
     },
     {
+      "id": "search-f7a5358962dba530fb",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉 - Sohu",
+      "summary": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉 - S…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Sohu",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5aENvT2JLc1lxaksxbzA0NU9MU0lTMXVKN1dJWXlpVE9pSG1pTHdackFxOTRUOEhMeEl4SlF1SUp3ZDFDT2VXaXdlVHZwbGRqN0FfcU9VWkJpR3RpRTA1Y0t0SXBhRmRTME80?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-59cd1e6985f7",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-cab96ba5db6ee4ffc4",
       "company": "lianlian",
       "date": "2026-11-17",
@@ -7783,37 +7814,6 @@
       }
     },
     {
-      "id": "search-afb64701a13fbede33",
-      "company": "lianlian",
-      "date": "2026-10-17",
-      "title": "广交会释放外贸新动能，连连数字加码新兴市场跨境支付服务 - 广州日报新花城",
-      "summary": "广交会释放外贸新动能，连连数字加码新兴市场跨境支付服务 -…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "广州日报新花城",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTlkc3NMMTVvV09JZFpmdWh0akdLNjN1MFBuQm52WDdLNU9HWjZuX1JTUGRiQUlMRzlORDF2UUhHWlh1RVp0TjR0U0dNRVBFcVdFRVJuUWhFSmc3SDZLUHU3WDVFMTk0dGZ0SUc2LXUwRjhFbDBPRVNmbkd6eU9KVUVRN0Y?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-e3659b5ffc7a",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
       "id": "social-curated-douyin-xtransfer-20261017",
       "company": "xtransfer",
       "date": "2026-10-17",
@@ -7853,6 +7853,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-21T19:14:57.211145+00:00",
+  "updated_at": "2026-11-22T06:46:20.494384+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
