@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-22T19:38:53.247796+00:00",
+  "generated_at": "2026-11-23T07:37:00.888616+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,17 +13,46 @@
   ],
   "overview": {
     "articles": 251,
-    "events": 160,
+    "events": 163,
     "sentiment": {
       "中性": 251
     },
     "crisis": {
-      "一般": 160
+      "一般": 163
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-7dbb2e9ff542",
+      "company": "airwallex",
+      "headline": "Airwallex 空中云汇入选2026福布斯中国全球化物流行业30&30评选 - 泰山财经",
+      "date": "2026-11-23",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-89ed06b2b50178b22f"
+      ]
+    },
     {
       "id": "event-7968ea84ab28",
       "company": "airwallex",
@@ -761,6 +790,35 @@
       ]
     },
     {
+      "id": "event-b441ddeb7788",
+      "company": "lianlian",
+      "headline": "Visa与连连数字合作落地亚太首笔B2B智能体真实交易 - 36氪",
+      "date": "2026-11-17",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-7169d738f07b026627"
+      ]
+    },
+    {
       "id": "event-4c44fec9b188",
       "company": "lianlian",
       "headline": "连连数字(02598)11月16日斥资51.02万港元回购18万股 提供者 智通财经 - 英为财情 Investing.com",
@@ -845,6 +903,35 @@
       ],
       "items": [
         "search-0691793270c900f858"
+      ]
+    },
+    {
+      "id": "event-acca8e0250d7",
+      "company": "lianlian",
+      "headline": "连连数字：11月16日斥资51.02万港元回购18万股 - 东方财富网",
+      "date": "2026-11-16",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-355d9ab23ba76822ab"
       ]
     },
     {
@@ -4441,10 +4528,10 @@
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
+      "independent_publishers": 1,
+      "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 1,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -4459,8 +4546,7 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-1d056120896571cb4d",
-        "search-74ae5ca20830ab4777"
+        "search-1d056120896571cb4d"
       ]
     },
     {
@@ -4561,7 +4647,7 @@
       "independent_publishers": 1,
       "publisher_count": 2,
       "official_sources": 1,
-      "mention_count": 3,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -4577,8 +4663,7 @@
       ],
       "items": [
         "airwallex-20261019",
-        "search-b7b23b21acdf2053d6",
-        "search-875a479ce805048d45"
+        "search-b7b23b21acdf2053d6"
       ]
     },
     {
@@ -4698,7 +4783,7 @@
       ]
     },
     {
-      "id": "event-d230b1b1dd62",
+      "id": "event-5b20623cac17",
       "company": "skyee",
       "headline": "拉卡拉控股Skyee：孙陶然，才是中国支付圈最被低估的出海操盘手 - 搜狐网",
       "date": "2026-10-19",
@@ -4708,7 +4793,7 @@
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 1,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -4723,8 +4808,7 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-ac1ed5c31b91630dd1",
-        "search-98198839402900fbe5"
+        "search-ac1ed5c31b91630dd1"
       ]
     },
     {

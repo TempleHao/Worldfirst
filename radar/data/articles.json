@@ -19,6 +19,37 @@
   },
   "items": [
     {
+      "id": "search-89ed06b2b50178b22f",
+      "company": "airwallex",
+      "date": "2026-11-23",
+      "title": "Airwallex 空中云汇入选2026福布斯中国全球化物流行业30&30评选 - 泰山财经",
+      "summary": "Airwallex 空中云汇入选2026福布斯中国全球化物…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "泰山财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50UzNnZnp2RHRhZnBjMHk5a0JZaThhek5CQ3hGUXJfMFBqY3lMc1NYLXpLOGdIT1pmUlJmam80QWtna3VwRUh1d2pULVlObzQtU05zRjJyYmNYRU4wSGtEcjBJSmI?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-7dbb2e9ff542",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-f11caeaf7cc64a680f",
       "company": "airwallex",
       "date": "2026-11-20",
@@ -1135,6 +1166,37 @@
       }
     },
     {
+      "id": "search-7169d738f07b026627",
+      "company": "lianlian",
+      "date": "2026-11-17",
+      "title": "Visa与连连数字合作落地亚太首笔B2B智能体真实交易 - 36氪",
+      "summary": "Visa与连连数字合作落地亚太首笔B2B智能体真实交易 -…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "36氪",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fNF9HSEtfdkNjSWJHcmJjTVRFb2l1cElHSlVsVDB2Nml4bk52WTZKZThnOHAwYlp2Mmc5NU51M2k3bmJfWUlZTmZGVjMzVkItcTR4aEh5YkNBMTg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-b441ddeb7788",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-37d025addd39ada364",
       "company": "lianlian",
       "date": "2026-11-16",
@@ -1223,6 +1285,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-31572bd8b344",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-355d9ab23ba76822ab",
+      "company": "lianlian",
+      "date": "2026-11-16",
+      "title": "连连数字：11月16日斥资51.02万港元回购18万股 - 东方财富网",
+      "summary": "连连数字：11月16日斥资51.02万港元回购18万股 -…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlTGxSTDlqcDVmVkFHbGRxWGJyZmRtZ2gzUjBRNl9mTVF5dG04bW55ZzliYWFPTHJTNG96SXJ2Z0J0OEgyVm5wdDZ3NElTdFdmYk0zeDYxVFRpSHpUNXAzbg?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-acca8e0250d7",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -7460,7 +7553,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-9765608b57e7",
-        "distinct_publishers": 2,
+        "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7707,101 +7800,8 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-d230b1b1dd62",
+        "event_id": "event-5b20623cac17",
         "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-98198839402900fbe5",
-      "company": "skyee",
-      "date": "2026-10-19",
-      "title": "拉卡拉控股Skyee：孙陶然，才是中国支付圈最被低估的出海操盘手 - 搜狐网",
-      "summary": "拉卡拉控股Skyee：孙陶然，才是中国支付圈最被低估的出海…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "搜狐网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ROXo1bVkycU9KY0VfdnRnUlZWNm1PdThqS0U2bWFERVY2Z3NvV2ZBNWdHUTZNVTNzS3NmUE1CdGhNX1h2bHp5emVST0U2cy1NZ29xQktHWlpNeGdDeXpseA?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-d230b1b1dd62",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-875a479ce805048d45",
-      "company": "airwallex",
-      "date": "2026-10-19",
-      "title": "空中云汇与韩国ONE Store启动战略合作 - 电商派",
-      "summary": "空中云汇与韩国ONE Store启动战略合作 - 电商派",
-      "category": "品牌合作",
-      "priority": "normal",
-      "source": "电商派",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZczljUmVKeUQ2UDBMZTdtQy13LXVJVVNhcmVDc29ET2o1Z19DU2xaX19JVTNVQ0IyZVFlTlE1Q3Vleld4aVNwWUp4NDR5MS1Xam15MWRtdGZLbHhlTTNFSC1fa2c?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-5a64fca17866",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-74ae5ca20830ab4777",
-      "company": "airwallex",
-      "date": "2026-10-19",
-      "title": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 中华网",
-      "summary": "Airwallex 空中云汇与韩国 ONE Store 签…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "中华网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iOGVsYzFnNXc3T1pVX285RG40U2dMa2xDZTRNWUZiUUt5RVZGVVFuS0U0X0xXblVBQUhVejNWckZnUVZnbENZSjhWNW01NzF3aFZvTkF2SWFtdGZDR084UmRfQ1NMZ3kxQU0wVk5reW1zb2ozN0E?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-9765608b57e7",
-        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7845,6 +7845,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-22T19:38:49.343141+00:00",
+  "updated_at": "2026-11-23T07:36:57.302994+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

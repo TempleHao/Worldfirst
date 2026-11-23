@@ -2,6 +2,7 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-23｜空中云汇** Airwallex 空中云汇入选2026福布斯中国全球化物… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE50UzNnZnp2RHRhZnBjMHk5a0JZaThhek5CQ3hGUXJfMFBqY3lMc1NYLXpLOGdIT1pmUlJmam80QWtna3VwRUh1d2pULVlObzQtU05zRjJyYmNYRU4wSGtEcjBJSmI?oc=5)（unverified）
 - **2026-11-20｜空中云汇** Airwallex 空中云汇新加坡金融科技节发布《AI 重… [原文](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GUUVqd01xY0xNT1JwdXNEb2oyX2xXelh6MjhvMXBkeHFxQ09NRHRKSDFFYzh5c003SnFFb0QxQlFPeFBrQWc?oc=5)（unverified）
 - **2026-11-20｜派安盈** 派安盈“盈聚拉美”订单洽谈会成功举办，打通拉美市场采购渠道… [原文](https://news.google.com/rss/articles/CBMifEFVX3lxTE10MGFfMGxDT1NPNTY5cWNJN0E4M0dTRXlZWVRoWFZFSUtvdDJTX0pHaE1zNHRhbzd1V3YwLVZYQkNlVk9Ucy1pd0RXeV9jdDVIUTg2VWxRSWpuTkZmVloySkdoYmJUN2xta3V0WUk2TFJITUZJNG5WcUZ3MF8?oc=5)（unverified）
 - **2026-11-20｜连连国际** 连连数字：11月20日斥资75.01万港元回购29.5万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDUFc5a3FqdnVhRkR3VUlMM2twT1J1RjJmUDMzMVRFUUtFWWhZNkJoVGpHTmZ2cVZ4bDc4ZTEweGZDYmpCNUdqMFdmUU9FWnVUWWpPRVBSRjA0bGNMdVMwdnItMjNKUQ?oc=5)（unverified）
@@ -38,9 +39,11 @@
 - **2026-11-17｜连连国际** 连连数字(02598)11月17日斥资约26.22万港元回… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YRmIwdVViUVBCQjdWNWtkU1NRM2V4WGtmaG5FYzdkSUlGR0RFLTljYm1qMnZDVWl4RjBiRnhRY0JBS09GMTgyVVN4ek0?oc=5)（unverified）
 - **2026-11-17｜连连国际** 连连数字：11月17日斥资26.22万港元回购9.2万股 … [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oZ29URGltMmlIZm1yWDhOczg5dFV5ZmhKV3N2aUx1R01PUU5GRkNzVEVvR3ZEbVZFT3NVUGo1YWo0RERjMTZQemI2TTBnZjJYWmZ0dXlaTWQ0QTk0aHNBaQ?oc=5)（unverified）
 - **2026-11-17｜连连国际** 连连数字（02598.HK）披露股份购回公告，11月17日… [原文](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoX1NNRHZ1ZUJqNGZ0RmF1LWhoUVpzZkNmdjlyU2ZIeWNabXhjaXlnV2c1dkMzcER5MjZQaU1wZDFKa3BZUTVGRmtPZlpPS3VXd2ZVd0NWNUgteXRkSmpxOVh3?oc=5)（unverified）
+- **2026-11-17｜连连国际** Visa与连连数字合作落地亚太首笔B2B智能体真实交易 -… [原文](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fNF9HSEtfdkNjSWJHcmJjTVRFb2l1cElHSlVsVDB2Nml4bk52WTZKZThnOHAwYlp2Mmc5NU51M2k3bmJfWUlZTmZGVjMzVkItcTR4aEh5YkNBMTg?oc=5)（unverified）
 - **2026-11-16｜连连国际** 连连数字(02598)11月16日斥资51.02万港元回购… [原文](https://news.google.com/rss/articles/CBMicEFVX3lxTE9sQ1ZXTlY3dVRWNzd4MUdSNDIxVVcwT1l6dFZKMzhXbWNyYVVTdVFkVk1XR3E0MU91NkR2eGZXbkNsT0JlQkFEVDRJTlo3Z2lqRGlFN3AwZENqZlhyb1hZc3dTSWQtaktaNGpfbFRBLUE?oc=5)（unverified）
 - **2026-11-16｜连连国际** 连连数字（02598.HK）回购18万股 耗资51.02万… [原文](https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtQkhPMnFTYmZFVFRCdEtuWll6RE5teGxma0Eydlc1Z0xGSXcxdkVvYS1OR2xqX2NCY1ViaVVkSGxhSFk1UTVyMkNfNDZwZENlc1BIUFZCQWg0YmhfbGc?oc=5)（unverified）
 - **2026-11-16｜连连国际** 连连数字（02598.HK）披露11月13日股份购回情况，… [原文](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZME83d2JRaXhnR3RkNXg1ejR2SUhWbV90NXdJNVFZaW1qTkdKZEptTTI3QUhyQ1RGcUx6ekpDN3hwMWpTQjdMYXVqdVZ6RFZBX3FmRGFaZHJWNUFqcExJblVn?oc=5)（unverified）
+- **2026-11-16｜连连国际** 连连数字：11月16日斥资51.02万港元回购18万股 -… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlTGxSTDlqcDVmVkFHbGRxWGJyZmRtZ2gzUjBRNl9mTVF5dG04bW55ZzliYWFPTHJTNG96SXJ2Z0J0OEgyVm5wdDZ3NElTdFdmYk0zeDYxVFRpSHpUNXAzbg?oc=5)（unverified）
 - **2026-11-14｜空中云汇** 从痛批稳定币到入局造 L1：空中云汇张硕不是 “真香”，是… [原文](https://news.google.com/rss/articles/CBMiSkFVX3lxTE5MR21MeTFBSXlyS0YwLWU4ZUtlUFdYUjFObTdnRWc4c3JEMXJHTGxFOTVrTm9vVXJTQTlQTjhubWxOMkFxeTc2aG9n?oc=5)（unverified）
 - **2026-11-13｜XTransfer** XTransfer荣获证券之星第十四届“资本力量”卓越金融… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9naGNXc1VqOGxYR2tnUTd3aGFrc252T1pCWUJsRTd3QkFOYkNOcTNHeWJHdnc5TWVXeGZ1bzZsbUYtOWNXV2M4QzhqZmdLNllxWi1uUkk1anhncHM1NTVkRHdnczY?oc=5)（unverified）
 - **2026-11-13｜连连国际** 连连数字：11月13日斥资101.24万港元回购34.25… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPLTRGbDNReVJOUW40TGpWdS1scXJXbmhvbWxJWF9nREItSk9yLTlpX0xTVE1qSXZxenR2d3o0MkM3dUJjQjRhcC1LdjJuRkpzWHg0Qk44MEwyMkh4dXJERg?oc=5)（unverified）
@@ -119,6 +122,3 @@
 - **2026-11-05｜派安盈** Payoneer Global 第三季度收入增长推动股价上… [原文](https://news.google.com/rss/articles/CBMingFBVV95cUxQZkZ1VEpwT0gyelBMdGtDcE1kb0FLNzl6ZFF6cTJsVVNHWnUwLTJDeGxobHVBV3V2V0Jpeklzb0ZyOFdicEFLQmM1cXRMUGtURGFHZEozMm45OWlVN3NEVk5Dc0drb1I0MFJXRk85WFZrNHFUWENKTGVscHFWX1JTeUZTSlc2Z19meXRjTzFRLXJqYUR2U3BnaDRKOHJIZw?oc=5)（unverified）
 - **2026-11-04｜空中云汇** 2026亚马逊卖家回款怎么选？从多站点资金管理看Airwa… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TeFYwbk5QZXk0dDAyOUpsalhaam5DVV90VEM1N044R1c5cllXSmc4dmJhUEVZcFQ5TTNUb3phM0QxUGdVbW8zdDdxaWppOEdVd0ctZ2pxNVNReDVjT2tfSExTWno?oc=5)（unverified）
 - **2026-11-04｜连连国际** 连连数字(02598)11月4日耗资约41.02万港元回购… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWWWZVUnU2UWlmZDFmS1FXMnRhc3NvUHRFTERKTGg4MlQ5Rm5FR2pJNGV6LXhGRjVhUm9Xbmh2RlBIYVQ1UHNVTzYtbEFOeGJfZV96SWIyMkF3QWlSSGxBQg?oc=5)（unverified）
-- **2026-11-04｜连连国际** 连连数字(02598.HK)11月4日耗资41.02万港元… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE16OWVIMjZqNGNKVGlSMHJ1NUF2MjBiaEcxSTAxSzJyaE4tZ3ktcmxuN3pmdGk5V2JKSkl4cjhjYlJJWExOZ2dJNlVnWklNZEtSUUFMRXZTUmdxUThnM3RIT2FJWHBoQmd6NmZv?oc=5)（unverified）
-- **2026-11-04｜连连国际** 连连数字：11月4日斥资41.02万港元回购13.45万股… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVbTRzUG1nUUF3elZ2OGZZSXRFVWtiNkxVMlE3aWsxdC1BNG9sQUdtYm1CUmRKdGdWMjNzdllBeWFZUnN0bGZkbFBQZWtIdF9GYnNzN0hyS2MzbmViMkQ4Sg?oc=5)（unverified）
-- **2026-11-04｜连连国际** 连连数字(02598)11月4日耗资约41.02万港元回购… [原文](https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3WjVJZ1hNZFpiSkVCaDVLRF8wd1c3bmVhcUJ2allZRDZKbmRlMHFxVXZuZ3NSVkppMnN3RXQxV0hYUm1rNUZDblZRcVU?oc=5)（unverified）
