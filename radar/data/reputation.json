@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-23T23:52:43.608305+00:00",
+  "generated_at": "2026-11-24T09:53:51.049284+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -24,6 +24,64 @@
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-2616f644869a",
+      "company": "airwallex",
+      "headline": "专访空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力？ - 21财经",
+      "date": "2026-11-24",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-54944cec7ca55c2a40"
+      ]
+    },
+    {
+      "id": "event-1c0dad51b0b0",
+      "company": "payoneer",
+      "headline": "Payoneer派安盈将设立PAYO数字信托银行，推美元稳定币PAYO-USD - 移动支付网",
+      "date": "2026-11-24",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2b56cc425182e998fb"
+      ]
+    },
     {
       "id": "event-7dbb2e9ff542",
       "company": "airwallex",
@@ -170,6 +228,94 @@
         "search-f11caeaf7cc64a680f",
         "search-8cdd72f12014ab9190",
         "search-c4c2c14c2d57642be5"
+      ]
+    },
+    {
+      "id": "event-bc15767bcfbd",
+      "company": "payoneer",
+      "headline": "派安盈“盈聚拉美”订单洽谈会成功举办，打通拉美市场采购渠道助力出海企业拓展新商机 - 央视网",
+      "date": "2026-11-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4ca0c01ae7dda6cd1d"
+      ]
+    },
+    {
+      "id": "event-dbc854454443",
+      "company": "payoneer",
+      "headline": "暑期焕新机 派安盈官网登录优惠攻略来袭 - iheima",
+      "date": "2026-11-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-7c93bd695ed0d647b3"
+      ]
+    },
+    {
+      "id": "event-fd7a35bf5c49",
+      "company": "payoneer",
+      "headline": "Payoneer获OCC有条件批准设立稳定币国家信托银行 - 币界网",
+      "date": "2026-11-20",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-6886a390e1c7fbac8e",
+        "search-5fc5c3cb14402d189c"
       ]
     },
     {
@@ -324,10 +470,10 @@
       ]
     },
     {
-      "id": "event-bc15767bcfbd",
+      "id": "event-cd2ee381cd2c",
       "company": "payoneer",
-      "headline": "派安盈“盈聚拉美”订单洽谈会成功举办，打通拉美市场采购渠道助力出海企业拓展新商机 - 央视网",
-      "date": "2026-11-20",
+      "headline": "拉美采购需求直达中国产业带，派安盈搭建对接渠道助力出海企业拓展拉美市场_行业新闻 - 证券之星",
+      "date": "2026-11-19",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -349,66 +495,7 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-4ca0c01ae7dda6cd1d"
-      ]
-    },
-    {
-      "id": "event-dbc854454443",
-      "company": "payoneer",
-      "headline": "暑期焕新机 派安盈官网登录优惠攻略来袭 - iheima",
-      "date": "2026-11-20",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-7c93bd695ed0d647b3"
-      ]
-    },
-    {
-      "id": "event-fd7a35bf5c49",
-      "company": "payoneer",
-      "headline": "Payoneer获OCC有条件批准设立稳定币国家信托银行 - 币界网",
-      "date": "2026-11-20",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-6886a390e1c7fbac8e",
-        "search-5fc5c3cb14402d189c"
+        "search-d51f1aa948732ecded"
       ]
     },
     {
@@ -497,35 +584,6 @@
       ],
       "items": [
         "search-2b2547a299d5f9c5ba"
-      ]
-    },
-    {
-      "id": "event-cd2ee381cd2c",
-      "company": "payoneer",
-      "headline": "拉美采购需求直达中国产业带，派安盈搭建对接渠道助力出海企业拓展拉美市场_行业新闻 - 证券之星",
-      "date": "2026-11-19",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-d51f1aa948732ecded"
       ]
     },
     {
@@ -1620,35 +1678,6 @@
       ]
     },
     {
-      "id": "event-f3d6225620d9",
-      "company": "lianlian",
-      "headline": "连连数字(02598)11月9日斥资29.94万港元回购9.6万股 - 凤凰网",
-      "date": "2026-11-09",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-2b4e936abe2de45f36"
-      ]
-    },
-    {
       "id": "event-3a8976712fd2",
       "company": "payoneer",
       "headline": "派安盈：黑五促销提前启动 更考验商家资金周转能力 - 全球定制网",
@@ -1704,6 +1733,35 @@
       ],
       "items": [
         "search-9a16ef2282e3b5382f"
+      ]
+    },
+    {
+      "id": "event-f3d6225620d9",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月9日斥资29.94万港元回购9.6万股 - 凤凰网",
+      "date": "2026-11-09",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2b4e936abe2de45f36"
       ]
     },
     {
@@ -1945,6 +2003,35 @@
       ]
     },
     {
+      "id": "event-3be18a5b334f",
+      "company": "payoneer",
+      "headline": "Payoneer Global | 10-Q: Quarterly report - Moomoo",
+      "date": "2026-11-06",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2010f562dd9b08c069"
+      ]
+    },
+    {
       "id": "event-a58c767f3407",
       "company": "lianlian",
       "headline": "连连数字(02598.HK)11月6日耗资31.2万港元回购9.95万股 - TradingView",
@@ -2037,35 +2124,6 @@
       ]
     },
     {
-      "id": "event-3be18a5b334f",
-      "company": "payoneer",
-      "headline": "Payoneer Global | 10-Q: Quarterly report - Moomoo",
-      "date": "2026-11-06",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-2010f562dd9b08c069"
-      ]
-    },
-    {
       "id": "event-af21f686a41c",
       "company": "pingpong",
       "headline": "PingPong合伙人罗永龙：跨境支付是一个慢慢长出来的全球生态，垄断型“巨无霸”不太容易出现 - 每日经济新闻",
@@ -2154,94 +2212,6 @@
       ],
       "items": [
         "social-index-1e5f4f7b37e5e777a77c"
-      ]
-    },
-    {
-      "id": "event-e8466bee1706",
-      "company": "lianlian",
-      "headline": "连连数字(02598)11月5日耗资约106.11万港元回购33.65万股 - Moomoo",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-72ff90723067e54dc9",
-        "search-82ec5dd6480178f61a"
-      ]
-    },
-    {
-      "id": "event-89a670bc6de3",
-      "company": "lianlian",
-      "headline": "连连数字(02598.HK)11月5日耗资106.1万港元回购33.65万股 - TradingView",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a8cdccafb45b9ba133"
-      ]
-    },
-    {
-      "id": "event-c30f53369078",
-      "company": "lianlian",
-      "headline": "连连数字（02598.HK）披露股份购回情况，11月05日股价上涨3.47%_个股动态_数据解析 - 证券之星",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-f97912c3db199b3f42"
       ]
     },
     {
@@ -2387,6 +2357,94 @@
       ],
       "items": [
         "search-23cb3ae04726ae2d34"
+      ]
+    },
+    {
+      "id": "event-e8466bee1706",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月5日耗资约106.11万港元回购33.65万股 - Moomoo",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-72ff90723067e54dc9",
+        "search-82ec5dd6480178f61a"
+      ]
+    },
+    {
+      "id": "event-89a670bc6de3",
+      "company": "lianlian",
+      "headline": "连连数字(02598.HK)11月5日耗资106.1万港元回购33.65万股 - TradingView",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a8cdccafb45b9ba133"
+      ]
+    },
+    {
+      "id": "event-c30f53369078",
+      "company": "lianlian",
+      "headline": "连连数字（02598.HK）披露股份购回情况，11月05日股价上涨3.47%_个股动态_数据解析 - 证券之星",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-f97912c3db199b3f42"
       ]
     },
     {
@@ -3456,6 +3514,35 @@
       ]
     },
     {
+      "id": "event-ebd038e56ea7",
+      "company": "payoneer",
+      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "date": "2026-10-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-196c7e629c61ec5b12"
+      ]
+    },
+    {
       "id": "event-928afc741907",
       "company": "lianlian",
       "headline": "AI重塑跨境支付，连连数字“外贸B2B一站式解决方案”入选博通报告 - 人工智能",
@@ -3575,35 +3662,6 @@
       "items": [
         "search-523f2bfda486247d80",
         "search-1f76b52fc3c165c9d7"
-      ]
-    },
-    {
-      "id": "event-ebd038e56ea7",
-      "company": "payoneer",
-      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
-      "date": "2026-10-27",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-196c7e629c61ec5b12"
       ]
     },
     {
@@ -4260,6 +4318,64 @@
       ]
     },
     {
+      "id": "event-7e1c3503a7fb",
+      "company": "payoneer",
+      "headline": "Payoneer将于11月5日发布第三季度财报",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 0,
+      "publisher_count": 1,
+      "official_sources": 1,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "payoneer-20261022"
+      ]
+    },
+    {
+      "id": "event-5e26a0952805",
+      "company": "payoneer",
+      "headline": "Payoneer Inc 评论 – 它是Safe和合法的吗？(十月2026) - Traders Union",
+      "date": "2026-10-22",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-82e51dd46a45724e90"
+      ]
+    },
+    {
       "id": "event-68d1d5253599",
       "company": "lianlian",
       "headline": "连连介绍香港本地化收单合作案例",
@@ -4374,64 +4490,6 @@
       "items": [
         "search-5324d4fa63f589b4c2",
         "search-cf522a322ef401bcbe"
-      ]
-    },
-    {
-      "id": "event-7e1c3503a7fb",
-      "company": "payoneer",
-      "headline": "Payoneer将于11月5日发布第三季度财报",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "payoneer-20261022"
-      ]
-    },
-    {
-      "id": "event-5e26a0952805",
-      "company": "payoneer",
-      "headline": "Payoneer Inc 评论 – 它是Safe和合法的吗？(十月2026) - Traders Union",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-82e51dd46a45724e90"
       ]
     },
     {
@@ -4669,35 +4727,6 @@
       ]
     },
     {
-      "id": "event-9765608b57e7",
-      "company": "airwallex",
-      "headline": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 极客公园",
-      "date": "2026-10-20",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-1d056120896571cb4d"
-      ]
-    },
-    {
       "id": "event-9b835009ac77",
       "company": "lianlian",
       "headline": "连连数字(02598)10月20日耗资约72.42万港元回购22.5万股 - 凤凰网",
@@ -4724,35 +4753,6 @@
       ],
       "items": [
         "search-b99b7197320eb58c23"
-      ]
-    },
-    {
-      "id": "event-784e194db737",
-      "company": "lianlian",
-      "headline": "连连数字(02598.HK)10月20日耗资72.4万港元回购22.5万股 - TradingView",
-      "date": "2026-10-20",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-072e82ff67d081820c"
       ]
     },
     {

@@ -2,6 +2,8 @@
 
 搜索线索未经人工核验。此数据不等于全网舆情覆盖。
 
+- **2026-11-24｜空中云汇** 专访空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力… [原文](https://news.google.com/rss/articles/CBMijwFBVV95cUxPbjZ5WTlJandfR3BkRHp4ZlBYbG00Zm95dmw4elVzZ0prZmh0b01sOE5EN3VFVzRCa25CTHRaVEowOEI5czlyMFNVdUg2bXM3V2RnLTg5dkFXS2gxWE5nVWFKcF80akNfb0RObkd4SFNMdzZyUi1oMzZoMDFkTFpGNW9xMUJOczdKbmJWOGszbw?oc=5)（unverified）
+- **2026-11-24｜派安盈** Payoneer派安盈将设立PAYO数字信托银行，推美元稳… [原文](https://news.google.com/rss/articles/CBMiY0FVX3lxTE82QXJncl8yQ280VjJpWTVaWTFkQjVJbDUyWGJGZk05Z2w1V3BIa0VhcWp4dWxRVlRYT3lkVWhMQ3ZBcmxJWEFxb1B3bU83OUJTd0hiMEJ4dzdRdDFIR2VycklNTQ?oc=5)（unverified）
 - **2026-11-23｜空中云汇** Airwallex 空中云汇入选2026福布斯中国全球化物… [原文](https://news.google.com/rss/articles/CBMiZEFVX3lxTE50UzNnZnp2RHRhZnBjMHk5a0JZaThhek5CQ3hGUXJfMFBqY3lMc1NYLXpLOGdIT1pmUlJmam80QWtna3VwRUh1d2pULVlObzQtU05zRjJyYmNYRU4wSGtEcjBJSmI?oc=5)（unverified）
 - **2026-11-23｜连连国际** 连连数字(02598)11月23日耗资约80.33万港元回… [原文](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RSjFaakVVc1VKOFF4ZVNuOWlHZnozMTA5d2Y2RFVYd21VVTNheWVVVHFMZkliSllZU1RYdDFqc284QXBuMENFTW5VM0N3X2RDYkVqRUZfekJnaVdUY1pWUA?oc=5)（unverified）
 - **2026-11-23｜连连国际** 连连数字：11月23日斥资80.33万港元回购31.7万股… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTE14cHpyY2FiZnF2Y3NIT0tUUGo1OEx2akptU0NGUDlzc1pyWnllMzhkRXh3MmtBSjh4QWQ1WVRqVlFyZ3gycjdHRG5QUHMyUUlRWExoM25TNWlpSXNISDlPbFJ0OEJ5QQ?oc=5)（unverified）
@@ -120,5 +122,3 @@
 - **2026-11-05｜派安盈** 派安盈2026年第三季度财报：B2B交易量加速增长而营业利… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTE02SkNOWGVyRjJldjIxLTc0MXZ4YWtTSy1vbjROZk9iMkZfbE9FeFFzV3h3YlVwZkhiR0lXLXJ6ODVKa3JjQm5DQzcwSTV6ZWEzZlY3UUoweElwYzItbkFmOEZxZWJpbURSbjBj?oc=5)（unverified）
 - **2026-11-05｜连连国际** 连连数字(02598)11月5日耗资约106.11万港元回… [原文](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVOERubXp4OEd5TlZJcF9BT083UVJkWHAwd2RpclBTd2VXdzM5UEtBOHJJNmV4MEhUenpWbjBpcFREOHdKVnF6LWJXbmlCdUIzOXBLWTUwY28wVV91?oc=5)（unverified）
 - **2026-11-05｜连连国际** 连连数字：11月5日斥资106.11万港元回购33.65万… [原文](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlYzlTQ25sSXlVZnZoTHRCbEpnVGcyY05GdDJZVEREWGVfYmFuTWJwdkNqLUNSemJKSVVrRDk5S0NkUVY1Vjg1RkJock1Ba1F5V0o4amdRcm0wYTdIWXVnejZtT1d1Zw?oc=5)（unverified）
-- **2026-11-05｜连连国际** 连连数字(02598.HK)11月5日耗资106.1万港元… [原文](https://news.google.com/rss/articles/CBMia0FVX3lxTFBKVW91VnpodXNhQkdQZ1UtZ05xNUxhRElJUjRtbUNENzF4c3ZLTm9obFBIV0dMSVlkenp1Y1RyOGdkTVFYNzNRczRSRWRVd3kxYmJHb2JIb1hzYVdONTM4RUR4MlpBUHJqcU5Z?oc=5)（unverified）
-- **2026-11-05｜PingPong** PingPong上线一站式AI行业支付方案：开放全球收付与… [原文](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSM090Qk5GSl8wa25LYkdKeTBnYXYyNmhiczRTU01kaldLemR6WHRLTE5ZY0VkUGx2ekcwRVNhbHpobDQwVmgzMU9kZmR5Zw?oc=5)（unverified）

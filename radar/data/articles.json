@@ -19,6 +19,69 @@
   },
   "items": [
     {
+      "id": "search-54944cec7ca55c2a40",
+      "company": "airwallex",
+      "date": "2026-11-24",
+      "title": "专访空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力？ - 21财经",
+      "summary": "专访空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力…",
+      "category": "品牌合作",
+      "priority": "normal",
+      "source": "21财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbjZ5WTlJandfR3BkRHp4ZlBYbG00Zm95dmw4elVzZ0prZmh0b01sOE5EN3VFVzRCa25CTHRaVEowOEI5czlyMFNVdUg2bXM3V2RnLTg5dkFXS2gxWE5nVWFKcF80akNfb0RObkd4SFNMdzZyUi1oMzZoMDFkTFpGNW9xMUJOczdKbmJWOGszbw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题含疑问或未经证实表述",
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-2616f644869a",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-2b56cc425182e998fb",
+      "company": "payoneer",
+      "date": "2026-11-24",
+      "title": "Payoneer派安盈将设立PAYO数字信托银行，推美元稳定币PAYO-USD - 移动支付网",
+      "summary": "Payoneer派安盈将设立PAYO数字信托银行，推美元稳…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82QXJncl8yQ280VjJpWTVaWTFkQjVJbDUyWGJGZk05Z2w1V3BIa0VhcWp4dWxRVlRYT3lkVWhMQ3ZBcmxJWEFxb1B3bU83OUJTd0hiMEJ4dzdRdDFIR2VycklNTQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-1c0dad51b0b0",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-89ed06b2b50178b22f",
       "company": "airwallex",
       "date": "2026-11-23",
@@ -7744,68 +7807,6 @@
       }
     },
     {
-      "id": "search-072e82ff67d081820c",
-      "company": "lianlian",
-      "date": "2026-10-20",
-      "title": "连连数字(02598.HK)10月20日耗资72.4万港元回购22.5万股 - TradingView",
-      "summary": "连连数字(02598.HK)10月20日耗资72.4万港元…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "TradingView",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CN3dFWjMwNE9EMUx4eklkMVl1NUo3Qm1QRFdTZzRHUVRUeF9EeVlqT1A5b2tJS1ZRT0FNWjJLMmZRVmpiUFgxeGdUOURkY0U1ZXgwTjl5S05pS3pFX1l0bUJzeWpTYmNHNjR3?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-784e194db737",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-1d056120896571cb4d",
-      "company": "airwallex",
-      "date": "2026-10-20",
-      "title": "Airwallex 空中云汇与韩国 ONE Store 签署合作备忘录，推进战略合作 - 极客公园",
-      "summary": "Airwallex 空中云汇与韩国 ONE Store 签…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "极客公园",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VRThzUjdEQ2JNR3NDMG5LT2QwQk1WamxRTTBlLWVUZGt6eWtIeE1VUXJGaEV2c0kyQl9rZS1LVmlvMkpjR3FzLXppWkU?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-9765608b57e7",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
       "id": "social-curated-douyin-xtransfer-20261017",
       "company": "xtransfer",
       "date": "2026-10-17",
@@ -7845,6 +7846,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-23T23:52:39.034415+00:00",
+  "updated_at": "2026-11-24T09:53:47.477261+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
