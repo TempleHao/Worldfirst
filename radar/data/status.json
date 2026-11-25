@@ -1,46 +1,46 @@
 {
-  "latest_outcome": "ok",
-  "last_attempt_at": "2026-11-24T22:26:02.722459+00:00",
+  "latest_outcome": "failed",
+  "last_attempt_at": "2026-11-25T08:32:49.507394+00:00",
   "last_success_at": "2026-11-24T22:26:02.722459+00:00",
-  "succeeded_sources": 9,
+  "succeeded_sources": 0,
   "attempted_sources": 9,
-  "new_items": 2,
+  "new_items": 0,
   "sources": {
     "worldfirst": {
-      "ok": true,
-      "matched": 0
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "airwallex": {
-      "ok": true,
-      "matched": 9
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "payoneer": {
-      "ok": true,
-      "matched": 4
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "xtransfer": {
-      "ok": true,
-      "matched": 3
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "lianlian": {
-      "ok": true,
-      "matched": 26
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "pingpong": {
-      "ok": true,
-      "matched": 2
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "coral": {
-      "ok": true,
-      "matched": 0
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "sunrate": {
-      "ok": true,
-      "matched": 0
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     "skyee": {
-      "ok": true,
-      "matched": 0
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable"
     }
   },
   "notes": "公开 Google News RSS 实验性采集，不能推算全网声量。"
