@@ -1,41 +1,37 @@
 {
-  "generated_at": "2026-11-25T08:33:54.350226+00:00",
+  "generated_at": "2026-11-25T21:41:32.414007+00:00",
   "platforms": {
     "wechat": {
-      "index_requests_ok": 0,
-      "index_requests_failed": 9,
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
-      "last_error": "HTTP Error 503: Service Unavailable",
       "total_available_records": 0,
-      "state": "index_unavailable"
+      "state": "connected_zero_matching_results"
     },
     "xiaohongshu": {
-      "index_requests_ok": 0,
-      "index_requests_failed": 9,
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
-      "last_error": "HTTP Error 503: Service Unavailable",
       "total_available_records": 0,
-      "state": "index_unavailable"
+      "state": "connected_zero_matching_results"
     },
     "douyin": {
-      "index_requests_ok": 0,
-      "index_requests_failed": 9,
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
       "indexed_items": 0,
       "source_quality": "partial_public_index",
-      "last_error": "HTTP Error 503: Service Unavailable",
       "total_available_records": 1,
-      "state": "index_unavailable"
+      "state": "connected_zero_matching_results"
     },
     "zhihu": {
-      "index_requests_ok": 0,
-      "index_requests_failed": 9,
-      "indexed_items": 0,
+      "index_requests_ok": 9,
+      "index_requests_failed": 0,
+      "indexed_items": 1,
       "source_quality": "partial_public_index",
-      "last_error": "HTTP Error 503: Service Unavailable",
-      "total_available_records": 3,
-      "state": "index_unavailable"
+      "total_available_records": 4,
+      "state": "public_index_leads_only"
     }
   },
   "notes": "公开新闻搜索索引≠平台全文/评论/真实声量。API未授权的不作联网API成功声称。",

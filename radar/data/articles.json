@@ -19,6 +19,99 @@
   },
   "items": [
     {
+      "id": "search-a7ebf37a358c2af56c",
+      "company": "lianlian",
+      "date": "2026-11-25",
+      "title": "连连数字：11月25日斥资17.93万港元回购7.05万股 - 东方财富网",
+      "summary": "连连数字：11月25日斥资17.93万港元回购7.05万股…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "东方财富网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RdnRGb1UtT09aeHkxeDZRc3lfRXM5bUE4ODhGRmdDMDA1ME1OSVBRcWpyVXVaTzRGMFNmVDBPS1FtVGl0a2gtRDRTMW5Ea2FySE5CS2FjU2YwLUdHeTJnTDNfdHhyZw?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-9c0dfdd5f697",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-914a9c7a58fb1efc04",
+      "company": "lianlian",
+      "date": "2026-11-25",
+      "title": "连连数字(02598.HK)11月25日耗资17.9万港元回购7.05万股-证券之星 - 证券之星",
+      "summary": "连连数字(02598.HK)11月25日耗资17.9万港元…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyUUxwbWxiZEpPbElYXzZWXzdZMDBxd2c2ekMydzZDTG1ybjFIN19CNFFOVXFhdFJvTUpUcXNxbVBZZFlDTGVRZzhtVkZldEVueTlZYkpqQlZ3cF9hQnc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-3f0323ee9c48",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-06678491db9707e4eb",
+      "company": "lianlian",
+      "date": "2026-11-25",
+      "title": "连连数字（02598.HK）回购7.05万股-证券之星 - 证券之星",
+      "summary": "连连数字（02598.HK）回购7.05万股-证券之星 -…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "证券之星",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94aFBIOU11Uk9DajBVS3c1Y3RnTHZza1NKSTBISTJvSC1Cdy05UG5NRVBtZUZtc2VQN0NNdjVydFRLajlRbWdmYWpMN3JrYUFadUoybEEwb0s5ZzIzWmc?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-26ee542af11b",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-54944cec7ca55c2a40",
       "company": "airwallex",
       "date": "2026-11-24",
@@ -145,6 +238,99 @@
       }
     },
     {
+      "id": "search-867675706a5ad6d502",
+      "company": "payoneer",
+      "date": "2026-11-24",
+      "title": "派安盈获美国初步批准设数字银行 将发自有稳定币 - 全球定制网",
+      "summary": "派安盈获美国初步批准设数字银行 将发自有稳定币 - 全球定…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "全球定制网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtbDZQeFRnVVpOcU9CY2hrV0VQVjlWaUxDd2RxaExQR182TXllOS1TV3lqQVZwMnByM1duNnpCTEFvQnNRUExrQndiOHgwNzQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-82ed438331a2",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-1b7fb56771935a5ba4",
+      "company": "lianlian",
+      "date": "2026-11-24",
+      "title": "连连数字(02598)11月24日斥资约39.86万港元回购15.6万股 - 凤凰网",
+      "summary": "连连数字(02598)11月24日斥资约39.86万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VS09wNDAzMHBuVTFWNzBiMG1BN09hMTE3NXRzWmZyOEllR1pyMTlfT0RqZHoycWdrV3Y2TTJYR0NGcExES1NLZDFUYkU?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-cc84a8ab8664",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-bfe0f39620cc7cab2e",
+      "company": "lianlian",
+      "date": "2026-11-24",
+      "title": "连连数字(02598.HK)11月24日耗资39.86万港元回购15.6万股 - TradingView",
+      "summary": "连连数字(02598.HK)11月24日耗资39.86万港…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "TradingView",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpcDltOFEzYnZaaF9LLVFtUC1EMkF0dk00SUVKNnNmeFAzZnh6S1R5ejQ0d180ZldoLWRjOWFzaGFSODFMT0l2V0tsS3k3R05BdzBIUG5ULU16cWE4RjVNMmZwMnl2V1NQNzM0?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-cc84a8ab8664",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-89ed06b2b50178b22f",
       "company": "airwallex",
       "date": "2026-11-23",
@@ -202,7 +388,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-79503b6befa6",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -264,7 +450,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-79503b6befa6",
-        "distinct_publishers": 2,
+        "distinct_publishers": 3,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -295,6 +481,76 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-750284cf3ea2",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-99425ba72d5f6f906d",
+      "company": "lianlian",
+      "date": "2026-11-23",
+      "title": "连连数字(02598)11月23日耗资约80.33万港元回购31.7万股 - 凤凰网",
+      "summary": "连连数字(02598)11月23日耗资约80.33万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9sSzdpMzliSklSTWhUYTQ1TVE2ekVQM1RwcWJnSWRXWjZ1Y194cUpzN1hfNk9jekZ5VnFpWExEMkNtbksxbGh0WC0xXzU?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-79503b6befa6",
+        "distinct_publishers": 3,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "social-index-3176555d541c8a4df37b",
+      "company": "airwallex",
+      "date": "2026-11-23",
+      "date_basis": "publication_index",
+      "title": "Airwallex 播客 | 云汇 FM - 知乎",
+      "summary": "Airwallex 播客 | 云汇 FM - 知乎",
+      "category": "社交讨论",
+      "priority": "normal",
+      "source": "知乎",
+      "source_type": "search",
+      "channel": "zhihu",
+      "platform": "zhihu",
+      "discovery_method": "public_news_index",
+      "link_origin": "google-news-indirect",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9panNnRWNZQnczdzlqQlBCc29scFRfSXVjSW4yY0Z1THRzQ3BjRy1meThNeGlzdmwzR3JmenZPUUV1dTB2cEppQ0JPWEpCbFpVNUJKa1BYeUtDYnl5NnVNY3Nyb3dtbklq?oc=5",
+      "status": "unverified",
+      "rights": "index_snippet_only",
+      "coverage": "partial_index_only",
+      "metrics": null,
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-5ec4e596c7e3",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -419,7 +675,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-08d95cda3d4d",
-        "distinct_publishers": 5,
+        "distinct_publishers": 6,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -698,7 +954,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-08d95cda3d4d",
-        "distinct_publishers": 5,
+        "distinct_publishers": 6,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -822,7 +1078,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-08d95cda3d4d",
-        "distinct_publishers": 5,
+        "distinct_publishers": 6,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -946,7 +1202,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-08d95cda3d4d",
-        "distinct_publishers": 5,
+        "distinct_publishers": 6,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -982,6 +1238,37 @@
       }
     },
     {
+      "id": "search-d9f7886fc87845bb19",
+      "company": "lianlian",
+      "date": "2026-11-19",
+      "title": "连连数字发布LianLian XWorker，让企业拥有自己的AI数字员工团队 - 新浪财经",
+      "summary": "连连数字发布LianLian XWorker，让企业拥有自…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "新浪财经",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qRE96LVdzSHZKSlNxMFdoX1lQbURoSk1KVG5GN1dJWndsMHk2M0JHWmoxbEpIdVdJcWdNQ1hvTzhYVGozZXZESWgyeGFEVENiZ3pIR0hqSUIxVmtDbzJBa0FMYjFteUIxTjJrdWdlVHlicmlBaDB1dUxqVWxMVWs?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-8c96f4eaf3c2",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-b61cada4e63e40b85e",
       "company": "lianlian",
       "date": "2026-11-18",
@@ -1007,7 +1294,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-59cd1e6985f7",
+        "event_id": "event-d241d655bad0",
         "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
@@ -1070,7 +1357,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-08d95cda3d4d",
-        "distinct_publishers": 5,
+        "distinct_publishers": 6,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1101,7 +1388,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-08d95cda3d4d",
-        "distinct_publishers": 5,
+        "distinct_publishers": 6,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -1317,7 +1604,7 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-59cd1e6985f7",
+        "event_id": "event-d241d655bad0",
         "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
@@ -1348,7 +1635,69 @@
       "crisis": {
         "level": "一般",
         "score": 0,
-        "event_id": "event-59cd1e6985f7",
+        "event_id": "event-d241d655bad0",
+        "distinct_publishers": 2,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-769b06a81dd997eefa",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体交易助力中小企业智能化经营- 业界 - 亿邦动力",
+      "summary": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "亿邦动力",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoOENFV3loak5lRjVSQnNQaU9PTklGZ3k4dkV4d0dQZGdMLU1maG1KNUZNT2xlRWRGYjRGZmZ6MEQtVDFzdWw0dnlaX3Y5OEhiRzVKRnhn?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-08d95cda3d4d",
+        "distinct_publishers": 6,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-0060d0596be9ad75ce",
+      "company": "lianlian",
+      "date": "2026-11-18",
+      "title": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉 - Sohu",
+      "summary": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉 - S…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "Sohu",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3QjJ2c0pka2J5eWM0cTFIYXBVeFRGWUZVWGN6YVhjQXlPSnZLWFFpa280S1hVQ1hzY1JhSGxQYXBVLVN0M2s4SUQ0c3JrUlJJVGpVMnR3?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-d241d655bad0",
         "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
@@ -7498,316 +7847,6 @@
       }
     },
     {
-      "id": "search-642e6e02f953dae4b7",
-      "company": "airwallex",
-      "date": "2026-10-22",
-      "title": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 中国日报网",
-      "summary": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "中国日报网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhSlUwN2NlT2dhd1VlNldqWUt0ZEFldWFaMDNfU1lvWW1TbW50b0xETVdWYlZWOEd5XzZMLVBrT21wdTVFZTJDNjdHTEpFTDREZXAyYUFxSDVGUXkyWmNBUVQ4blVVOXVvdGx0M0xTUnFaUmZ0NzFXWVFtdmY?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-eae09fe57348",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "airwallex-20261021",
-      "company": "airwallex",
-      "date": "2026-10-21",
-      "title": "空中云汇续约迈凯伦，成为官方AI金融合作伙伴",
-      "summary": "空中云汇续约迈凯伦，升级AI合作。",
-      "category": "品牌合作",
-      "priority": "high",
-      "source": "Airwallex 官网",
-      "source_type": "official",
-      "url": "https://www.airwallex.com/cn/newsroom/f1-2027-ai",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-924ef77542e0",
-        "distinct_publishers": 0,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "sunrate-20261021",
-      "company": "sunrate",
-      "date": "2026-10-21",
-      "title": "寻汇与TourMind合作开发全球旅游支付能力",
-      "summary": "寻汇携手TourMind拓展全球旅游支付。",
-      "category": "品牌合作",
-      "priority": "normal",
-      "source": "美通社（企业稿）",
-      "source_type": "press",
-      "url": "https://www.prnewswire.com/in/news-releases/sunrate-and-tourmind-partner-to-enhance-payment-capabilities-for-the-global-travel-industry-302913010.html",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-3d02e82aab88",
-        "distinct_publishers": 0,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-2b7635ec9683e7c875",
-      "company": "airwallex",
-      "date": "2026-10-21",
-      "title": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自2027年起成为官方AI金融合作伙伴 - 新浪新闻_手机新浪网",
-      "summary": "迈凯伦万事达卡F1车队与空中云汇续约多年合作，指定其自20…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "新浪新闻_手机新浪网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SbnUwVUhjeS1xZEVMc3RUcFBiM3loVUJoOFhHRTN6R2I4VG9LUWJDbmRhOUVieTUwTVZLZGlmcWYtY3lneXN1QXltTVlRRjlWV05EeE4zbUd5YzlvT1ZnVlZNUW9IQld3NHpPME44OTBTbGs2aG1FWQ?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-eae09fe57348",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-1854ee63d477b28f17",
-      "company": "airwallex",
-      "date": "2026-10-21",
-      "title": "空中云汇：成为迈凯伦万事达卡F1车队的官方AI金融合作伙伴 - 新浪网",
-      "summary": "空中云汇：成为迈凯伦万事达卡F1车队的官方AI金融合作伙伴…",
-      "category": "AI与产品",
-      "priority": "normal",
-      "source": "新浪网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRTVWa0FwY1h4X0JFS2U0b25QWGZtNFdDR2pGajZCck40X1VjWUFJSWVvVFFMaXF5dVpCX2FqQ2hNRnRKaE9EazBMaHBnNXFKRXNaTl9PQ2VuYXVyVk5xNVlsdU9IcWVLZWd3OFVVZER6ekNEcjVscFlmNlhKV3NUNmZR?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-4812f6b1977f",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-678ee3543ab999f835",
-      "company": "lianlian",
-      "date": "2026-10-21",
-      "title": "连连数字：10月21日斥资33.29万港元回购10.25万股 - 东方财富",
-      "summary": "连连数字：10月21日斥资33.29万港元回购10.25万…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "东方财富",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhenE5cEU5aXRHZ0ZQQUdrcHd6NjZQSVNHRUZ6bWFfcUJwbFR6djFLVERRYjc3RHdCQVF5aklMVlZnZTVwRXB0M0dmaEVxSUlBQ0F4MjNhZzJNczdlNldiTEJrYUg0QQ?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-02cc3d9c1736",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-1644a37113ff6550d1",
-      "company": "lianlian",
-      "date": "2026-10-21",
-      "title": "连连数字(02598)10月21日斥资33.29万港元回购10.25万股 - 凤凰网",
-      "summary": "连连数字(02598)10月21日斥资33.29万港元回购…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "凤凰网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9MWWNkQ3dTQWJ1bWRBQzM4YUpJNmtjVUQ5c09QcE5Ob2RyQS03eU9aZHJiMGVnemppT2JRdnNmMkplenVxUEVRV1NEZGE?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-22e071377198",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-045f5fcc6d8b722084",
-      "company": "lianlian",
-      "date": "2026-10-21",
-      "title": "连连数字(02598)10月21日斥资33.29万港元回购10.25万股 - Moomoo",
-      "summary": "连连数字(02598)10月21日斥资33.29万港元回购…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "Moomoo",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeDQzQjBGTEI2R2kwM0ZnMTBGUTM5bnZWeUpTTmU1QmhvZTE1SGNPXzFNQ0dWRVpBenVHMEl5V3BYNGFuNDlKV2hTdm1zVU1HbkZQVXR3QXl4NWJoYmNNSVZYVDlab092UzB1bFpEZjhLOXdPYXN0NTlyZklhMU1jLU04REczellNVFhwLUhoWlJQXzJaMDFWeWVoTmFWamY0VnZjQkdXZFljUXBJczNGdmdGNDZCUQ?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-22e071377198",
-        "distinct_publishers": 2,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-9335e73bd0425af087",
-      "company": "lianlian",
-      "date": "2026-10-21",
-      "title": "连连数字(02598.HK)10月21日耗资33.3万港元回购10.25万股 - TradingView",
-      "summary": "连连数字(02598.HK)10月21日耗资33.3万港元…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "TradingView",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUQTNoZ05WZWdVcTcxTHdla01NR3JLdm11d3BXRDlMbnY5UC1WY2wtUFNRVkNma2JsVkdkRkVYR05ON2xwbl80R2ZYbGxWd1RRSm1fdGo1bHFGLWRHbkFkdUdUdks4ekM3XzdF?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-d877e7c992fe",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-36ac4ab886d5c91ba6",
-      "company": "sunrate",
-      "date": "2026-10-21",
-      "title": "尋匯Sunrate與途靈科技達成合作 共同提升全球旅遊業的支付能力 - 世界新聞網",
-      "summary": "尋匯Sunrate與途靈科技達成合作 共同提升全球旅遊業的…",
-      "category": "品牌合作",
-      "priority": "normal",
-      "source": "世界新聞網",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80ZHZPT0VKS2w1Z3NtemUwYThSejZNcjVqV2RPeGt3Tm5Ya3l6TjZqdHZiV0RvUjQzS3E4Z2c0bGlYYUxVQmluNG1vUGZFU1BsQ3k1WWJKX2YxdnlKS2l2dlE0S2lRZXNiYXfSAWdBVV95cUxPTFRzREJZU0dQcFV3d3dYejdRUHhSTy1qV2M4RHg3VC13bmNMQWR5TlkwTVFpWWd0OUpwbFZOV2RwTXpaeXd4bTlsOW1waVhpYk1yUTN1SzRXTmh5YVNWc0NZX29iczJr?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-1d061ba8750f",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
       "id": "social-curated-douyin-xtransfer-20261017",
       "company": "xtransfer",
       "date": "2026-10-17",
@@ -7847,6 +7886,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-25T08:32:49.507394+00:00",
+  "updated_at": "2026-11-25T21:41:29.933870+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
