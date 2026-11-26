@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-25T21:41:34.046070+00:00",
+  "generated_at": "2026-11-26T08:16:48.355313+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,12 +13,12 @@
   ],
   "overview": {
     "articles": 252,
-    "events": 161,
+    "events": 162,
     "sentiment": {
       "中性": 252
     },
     "crisis": {
-      "一般": 161
+      "一般": 162
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -109,6 +109,64 @@
       ],
       "items": [
         "search-06678491db9707e4eb"
+      ]
+    },
+    {
+      "id": "event-367949a985fb",
+      "company": "lianlian",
+      "headline": "跨境支付竞争进入新阶段，连连数字凭什么入选博通咨询报告第一梯队？ - 凤凰网",
+      "date": "2026-11-25",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-bac26803f5560d344b"
+      ]
+    },
+    {
+      "id": "event-7ae6a6506876",
+      "company": "airwallex",
+      "headline": "Airwallex 全新发布了支持一键结账、适配智能体商业的专属电子钱包——Airi，它不只能解决当下的结账摩擦… - 知乎",
+      "date": "2026-11-25",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-174f5f04ebbe548fcfd9"
       ]
     },
     {
@@ -4435,15 +4493,15 @@
     {
       "id": "event-0bc7dfd6e092",
       "company": "lianlian",
-      "headline": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ - 移动支付网",
+      "headline": "连连数字章德旺：Agent经济需要怎样的金融基础设施？ - 新浪财经",
       "date": "2026-10-23",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 4,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -4460,8 +4518,7 @@
       "items": [
         "search-e28317ddabe62e24b5",
         "search-75008ae36ce6f7bcd1",
-        "search-9d6528f328dd55048f",
-        "search-ae66a25c1d60adb939"
+        "search-9d6528f328dd55048f"
       ]
     },
     {
@@ -4725,35 +4782,6 @@
       ],
       "items": [
         "search-82e51dd46a45724e90"
-      ]
-    },
-    {
-      "id": "event-1fde3761b428",
-      "company": "pingpong",
-      "headline": "PingPong跨境支付：自主支付基建，高效化解跨市场多币种结算难题 - 新讯网",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a27b48eb5547e14a8e"
       ]
     },
     {
