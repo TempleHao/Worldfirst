@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-26T08:16:48.355313+00:00",
+  "generated_at": "2026-11-26T21:30:48.696413+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,12 +13,12 @@
   ],
   "overview": {
     "articles": 252,
-    "events": 162,
+    "events": 161,
     "sentiment": {
       "中性": 252
     },
     "crisis": {
-      "一般": 162
+      "一般": 161
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -167,6 +167,36 @@
       ],
       "items": [
         "social-index-174f5f04ebbe548fcfd9"
+      ]
+    },
+    {
+      "id": "event-6933c2c39a84",
+      "company": "airwallex",
+      "headline": "Airwallex 播客 | 云汇 FM - 知乎",
+      "date": "2026-11-25",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-07ae6c448a69c21aea11",
+        "social-index-3176555d541c8a4df37b"
       ]
     },
     {
@@ -463,35 +493,6 @@
       ]
     },
     {
-      "id": "event-5ec4e596c7e3",
-      "company": "airwallex",
-      "headline": "Airwallex 播客 | 云汇 FM - 知乎",
-      "date": "2026-11-23",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "zhihu"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "social-index-3176555d541c8a4df37b"
-      ]
-    },
-    {
       "id": "event-25140154aff5",
       "company": "lianlian",
       "headline": "连连数字：11月20日斥资75.01万港元回购29.5万股 - 东方财富网",
@@ -521,17 +522,17 @@
       ]
     },
     {
-      "id": "event-08d95cda3d4d",
+      "id": "event-b3ea920cfed4",
       "company": "lianlian",
       "headline": "Visa携手连连数字完成亚太首笔基于支付标记的B2B智能体真实交易，助力中小企业智能化经营_公司新闻 - 证券之星",
       "date": "2026-11-20",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 6,
-      "publisher_count": 6,
+      "independent_publishers": 7,
+      "publisher_count": 7,
       "official_sources": 0,
-      "mention_count": 7,
+      "mention_count": 8,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -547,6 +548,7 @@
       ],
       "items": [
         "search-4de401f0178ed58b73",
+        "search-0b59cf4d2f7e4722d0",
         "search-c4a6bc3d067839ebd4",
         "search-dc3bd0af55175a7b21",
         "search-2fcfb6a96df9b74971",
@@ -4694,36 +4696,6 @@
       ],
       "items": [
         "search-83af1835396d0da251"
-      ]
-    },
-    {
-      "id": "event-ed8cf2229098",
-      "company": "lianlian",
-      "headline": "连连数字(02598.HK)10月22日耗资110万港元回购35.15万股 - TradingView",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-5324d4fa63f589b4c2",
-        "search-cf522a322ef401bcbe"
       ]
     },
     {
