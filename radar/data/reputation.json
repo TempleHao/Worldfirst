@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-26T21:30:48.696413+00:00",
+  "generated_at": "2026-11-27T08:30:51.939101+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -12,18 +12,135 @@
     "没有历史完整覆盖基线，不计算可信的同比/暴增百分比"
   ],
   "overview": {
-    "articles": 252,
-    "events": 161,
+    "articles": 251,
+    "events": 160,
     "sentiment": {
-      "中性": 252
+      "中性": 251
     },
     "crisis": {
-      "一般": 161
+      "一般": 160
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
   },
   "events": [
+    {
+      "id": "event-f376774c6cd2",
+      "company": "airwallex",
+      "headline": "Airwallex空中云汇启动AI Revenue Lab城市巡回，推出智能全球企业账户 - 移动支付网",
+      "date": "2026-11-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-38ef5a85223e40b199"
+      ]
+    },
+    {
+      "id": "event-194cbc86789f",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月26日斥资约49.95万港元回购20.4万股 - 凤凰网",
+      "date": "2026-11-26",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-3b5019ef0e7ebd37d6"
+      ]
+    },
+    {
+      "id": "event-7ae6a6506876",
+      "company": "airwallex",
+      "headline": "Airwallex 全新发布了支持一键结账、适配智能体商业的专属电子钱包——Airi，它不只能解决当下的结账摩擦… - 知乎",
+      "date": "2026-11-25",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-174f5f04ebbe548fcfd9"
+      ]
+    },
+    {
+      "id": "event-6933c2c39a84",
+      "company": "airwallex",
+      "headline": "Airwallex 播客 | 云汇 FM - 知乎",
+      "date": "2026-11-25",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-07ae6c448a69c21aea11",
+        "social-index-3176555d541c8a4df37b"
+      ]
+    },
     {
       "id": "event-9c0dfdd5f697",
       "company": "lianlian",
@@ -141,9 +258,9 @@
       ]
     },
     {
-      "id": "event-7ae6a6506876",
-      "company": "airwallex",
-      "headline": "Airwallex 全新发布了支持一键结账、适配智能体商业的专属电子钱包——Airi，它不只能解决当下的结账摩擦… - 知乎",
+      "id": "event-dcb0054cb498",
+      "company": "lianlian",
+      "headline": "连连数字推出LianLian XCard，打通AI任务执行到支付的最后一环 - www.icloudnews.net",
       "date": "2026-11-25",
       "risk_level": "一般",
       "risk_score": 0,
@@ -153,7 +270,7 @@
       "official_sources": 0,
       "mention_count": 1,
       "source_platforms_observed": [
-        "zhihu"
+        "news_web"
       ],
       "confirmed_direct_social_platforms": [],
       "confirmed_cross_platform_bonus": 0,
@@ -166,23 +283,23 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "social-index-174f5f04ebbe548fcfd9"
+        "search-c9d224a56b6329ac24"
       ]
     },
     {
-      "id": "event-6933c2c39a84",
+      "id": "event-2616f644869a",
       "company": "airwallex",
-      "headline": "Airwallex 播客 | 云汇 FM - 知乎",
-      "date": "2026-11-25",
+      "headline": "专访空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力？ - 21财经",
+      "date": "2026-11-24",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
       "independent_publishers": 1,
       "publisher_count": 1,
       "official_sources": 0,
-      "mention_count": 2,
+      "mention_count": 1,
       "source_platforms_observed": [
-        "zhihu"
+        "news_web"
       ],
       "confirmed_direct_social_platforms": [],
       "confirmed_cross_platform_bonus": 0,
@@ -195,8 +312,36 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "social-index-07ae6c448a69c21aea11",
-        "social-index-3176555d541c8a4df37b"
+        "search-54944cec7ca55c2a40"
+      ]
+    },
+    {
+      "id": "event-00964cfe398f",
+      "company": "airwallex",
+      "headline": "21专访丨空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力？ - 21财经",
+      "date": "2026-11-24",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-2e72400634bb90b615"
       ]
     },
     {
@@ -259,64 +404,6 @@
       ]
     },
     {
-      "id": "event-2616f644869a",
-      "company": "airwallex",
-      "headline": "专访空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力？ - 21财经",
-      "date": "2026-11-24",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-54944cec7ca55c2a40"
-      ]
-    },
-    {
-      "id": "event-00964cfe398f",
-      "company": "airwallex",
-      "headline": "21专访丨空中云汇联合创始人刘月婷：中企出海需要长出哪些核心能力？ - 21财经",
-      "date": "2026-11-24",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-2e72400634bb90b615"
-      ]
-    },
-    {
       "id": "event-1c0dad51b0b0",
       "company": "payoneer",
       "headline": "Payoneer派安盈将设立PAYO数字信托银行，推美元稳定币PAYO-USD - 移动支付网",
@@ -372,6 +459,35 @@
       ],
       "items": [
         "search-867675706a5ad6d502"
+      ]
+    },
+    {
+      "id": "event-7dbb2e9ff542",
+      "company": "airwallex",
+      "headline": "Airwallex 空中云汇入选2026福布斯中国全球化物流行业30&30评选 - 泰山财经",
+      "date": "2026-11-23",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-89ed06b2b50178b22f"
       ]
     },
     {
@@ -464,17 +580,17 @@
       ]
     },
     {
-      "id": "event-7dbb2e9ff542",
+      "id": "event-7968ea84ab28",
       "company": "airwallex",
-      "headline": "Airwallex 空中云汇入选2026福布斯中国全球化物流行业30&30评选 - 泰山财经",
-      "date": "2026-11-23",
+      "headline": "Airwallex 空中云汇新加坡金融科技节发布《AI 重塑金融科技》白皮书： 以智能全球企业账户推动智能体金融规模化落地 - 36氪出海",
+      "date": "2026-11-20",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
+      "independent_publishers": 3,
+      "publisher_count": 3,
       "official_sources": 0,
-      "mention_count": 1,
+      "mention_count": 3,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -489,7 +605,9 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-89ed06b2b50178b22f"
+        "search-f11caeaf7cc64a680f",
+        "search-8cdd72f12014ab9190",
+        "search-c4c2c14c2d57642be5"
       ]
     },
     {
@@ -643,37 +761,6 @@
       ],
       "items": [
         "search-ffc3b82f2691098225"
-      ]
-    },
-    {
-      "id": "event-7968ea84ab28",
-      "company": "airwallex",
-      "headline": "Airwallex 空中云汇新加坡金融科技节发布《AI 重塑金融科技》白皮书： 以智能全球企业账户推动智能体金融规模化落地 - 36氪出海",
-      "date": "2026-11-20",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
-      "official_sources": 0,
-      "mention_count": 3,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-f11caeaf7cc64a680f",
-        "search-8cdd72f12014ab9190",
-        "search-c4c2c14c2d57642be5"
       ]
     },
     {
@@ -969,6 +1056,35 @@
       ]
     },
     {
+      "id": "event-7b34c4f64cea",
+      "company": "airwallex",
+      "headline": "Airwallex：融资轮次与投资情况 - CryptoRank",
+      "date": "2026-11-18",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1dfd35a13faf3289e1"
+      ]
+    },
+    {
       "id": "event-d241d655bad0",
       "company": "lianlian",
       "headline": "连连数字荣膺福布斯中国“全球化物流行业服务商”荣誉_滚动新闻_财经 - 证券之星",
@@ -1085,35 +1201,6 @@
       ],
       "items": [
         "search-5b38c74a10b26a52c4"
-      ]
-    },
-    {
-      "id": "event-7b34c4f64cea",
-      "company": "airwallex",
-      "headline": "Airwallex：融资轮次与投资情况 - CryptoRank",
-      "date": "2026-11-18",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-1dfd35a13faf3289e1"
       ]
     },
     {
@@ -1496,6 +1583,35 @@
       ]
     },
     {
+      "id": "event-b6b11af625ed",
+      "company": "airwallex",
+      "headline": "打不过就加入？Airwallex 老板造链，在布什么局 - ForesightNews",
+      "date": "2026-11-13",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-4a5362931d6bafeacf"
+      ]
+    },
+    {
       "id": "event-817a94711c3c",
       "company": "lianlian",
       "headline": "连连数字：11月13日斥资101.24万港元回购34.25万股 - 东方财富",
@@ -1558,35 +1674,6 @@
       ]
     },
     {
-      "id": "event-b6b11af625ed",
-      "company": "airwallex",
-      "headline": "打不过就加入？Airwallex 老板造链，在布什么局 - ForesightNews",
-      "date": "2026-11-13",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-4a5362931d6bafeacf"
-      ]
-    },
-    {
       "id": "event-efe907f7d203",
       "company": "xtransfer",
       "headline": "XTransfer荣获证券之星第十四届“资本力量”卓越金融科技领航奖_公司新闻_财经 - 证券之星",
@@ -1614,6 +1701,35 @@
       "items": [
         "search-07c35962a9cf20c8e2",
         "search-804ad3089f5af6f8f9"
+      ]
+    },
+    {
+      "id": "event-f1608b81d7a5",
+      "company": "airwallex",
+      "headline": "空中云汇Airwallex参与L1网络Alta搭建，深度布局稳定币结算 - 移动支付网",
+      "date": "2026-11-12",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-b9b5216624a8899574"
       ]
     },
     {
@@ -1648,35 +1764,6 @@
         "search-0bcfdbf49a4ff78749",
         "search-f8b934152bd9952e10",
         "search-bdaf859485853a67d7"
-      ]
-    },
-    {
-      "id": "event-f1608b81d7a5",
-      "company": "airwallex",
-      "headline": "空中云汇Airwallex参与L1网络Alta搭建，深度布局稳定币结算 - 移动支付网",
-      "date": "2026-11-12",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-b9b5216624a8899574"
       ]
     },
     {
@@ -1735,36 +1822,6 @@
       ],
       "items": [
         "search-6c57e63165abbc233d"
-      ]
-    },
-    {
-      "id": "event-aeeadcaaecce",
-      "company": "lianlian",
-      "headline": "连连数字(02598)11月11日耗资约33.82万港元回购10.9万股_经济时评_财经 - 证券之星",
-      "date": "2026-11-11",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-0f22b699a9a1b86389",
-        "search-e8aafcc9b05ac92b04"
       ]
     },
     {
@@ -1885,6 +1942,65 @@
       ]
     },
     {
+      "id": "event-aeeadcaaecce",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月11日耗资约33.82万港元回购10.9万股_经济时评_财经 - 证券之星",
+      "date": "2026-11-11",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-0f22b699a9a1b86389",
+        "search-e8aafcc9b05ac92b04"
+      ]
+    },
+    {
+      "id": "event-bf3ad5b0830d",
+      "company": "airwallex",
+      "headline": "从唱空稳定币到亲手造链：空中云汇创始人张硕的转向与支付结算层之争 - ChainCatcher",
+      "date": "2026-11-10",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-79db47d396bd77ab0e"
+      ]
+    },
+    {
       "id": "event-11a153423552",
       "company": "lianlian",
       "headline": "连连数字：11月10日斥资17.91万港元回购5.8万股 - 东方财富",
@@ -1945,10 +2061,10 @@
       ]
     },
     {
-      "id": "event-bf3ad5b0830d",
+      "id": "event-8080c096e477",
       "company": "airwallex",
-      "headline": "从唱空稳定币到亲手造链：空中云汇创始人张硕的转向与支付结算层之争 - ChainCatcher",
-      "date": "2026-11-10",
+      "headline": "独立站收款平台：三类方案、五类痛点与Airwallex空中云汇的能力边界 - 新浪网",
+      "date": "2026-11-09",
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
@@ -1970,7 +2086,7 @@
         "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
       ],
       "items": [
-        "search-79db47d396bd77ab0e"
+        "search-a9698acc2e4de63753"
       ]
     },
     {
@@ -2000,35 +2116,6 @@
       ],
       "items": [
         "search-2b4e936abe2de45f36"
-      ]
-    },
-    {
-      "id": "event-8080c096e477",
-      "company": "airwallex",
-      "headline": "独立站收款平台：三类方案、五类痛点与Airwallex空中云汇的能力边界 - 新浪网",
-      "date": "2026-11-09",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a9698acc2e4de63753"
       ]
     },
     {
@@ -2482,6 +2569,64 @@
       ]
     },
     {
+      "id": "event-bd47769b897d",
+      "company": "airwallex",
+      "headline": "AI 走进广交会，外贸收款平台Airwallex 空中云汇如何跟上外贸增长新节奏 - 衡阳新闻网",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a5c409873908197057"
+      ]
+    },
+    {
+      "id": "event-4fec35e054ad",
+      "company": "airwallex",
+      "headline": "广交会境外采购商云集，外贸收款平台Airwallex 空中云汇助力商家锁定订单利润 - 知乎专栏",
+      "date": "2026-11-05",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-1e5f4f7b37e5e777a77c"
+      ]
+    },
+    {
       "id": "event-e8466bee1706",
       "company": "lianlian",
       "headline": "连连数字(02598)11月5日耗资约106.11万港元回购33.65万股 - Moomoo",
@@ -2567,64 +2712,6 @@
       ],
       "items": [
         "search-f97912c3db199b3f42"
-      ]
-    },
-    {
-      "id": "event-bd47769b897d",
-      "company": "airwallex",
-      "headline": "AI 走进广交会，外贸收款平台Airwallex 空中云汇如何跟上外贸增长新节奏 - 衡阳新闻网",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a5c409873908197057"
-      ]
-    },
-    {
-      "id": "event-4fec35e054ad",
-      "company": "airwallex",
-      "headline": "广交会境外采购商云集，外贸收款平台Airwallex 空中云汇助力商家锁定订单利润 - 知乎专栏",
-      "date": "2026-11-05",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "zhihu"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "social-index-1e5f4f7b37e5e777a77c"
       ]
     },
     {
@@ -2802,6 +2889,35 @@
       ]
     },
     {
+      "id": "event-686eeb1e1373",
+      "company": "airwallex",
+      "headline": "2026亚马逊卖家回款怎么选？从多站点资金管理看Airwallex空中云汇的核心能力_行业新闻 - 证券之星",
+      "date": "2026-11-04",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-900be1ccb4cb8ba680"
+      ]
+    },
+    {
       "id": "event-7ff579d0d228",
       "company": "lianlian",
       "headline": "连连数字(02598.HK)11月4日耗资41.02万港元回购13.45万股 - TradingView",
@@ -2860,35 +2976,6 @@
       ],
       "items": [
         "search-f67c758a87ade08a59"
-      ]
-    },
-    {
-      "id": "event-686eeb1e1373",
-      "company": "airwallex",
-      "headline": "2026亚马逊卖家回款怎么选？从多站点资金管理看Airwallex空中云汇的核心能力_行业新闻 - 证券之星",
-      "date": "2026-11-04",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-900be1ccb4cb8ba680"
       ]
     },
     {
@@ -3127,6 +3214,64 @@
       ]
     },
     {
+      "id": "event-d818fb4b9b98",
+      "company": "airwallex",
+      "headline": "Airwallex 空中云汇亮相2026香港金融科技周，推出智能体驱动的全球企业账户_行业新闻 - 证券之星",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-1e1e6d97a0919ca4e8"
+      ]
+    },
+    {
+      "id": "event-276d3baffabb",
+      "company": "airwallex",
+      "headline": "广交会 AI 应用释放出海新需求，外贸收款平台 Airwallex 空中云汇助力订阅支付转化 - 知乎专栏",
+      "date": "2026-11-02",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "zhihu"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "social-index-5b9f74c0fc6ee1f28317"
+      ]
+    },
+    {
       "id": "event-14b8a025e426",
       "company": "lianlian",
       "headline": "推动AI与跨境产业深度融合，连连数字“钱潮杯”决赛在杭举行 - www.icloudnews.net",
@@ -3244,64 +3389,6 @@
       ],
       "items": [
         "search-596259f343b024315e"
-      ]
-    },
-    {
-      "id": "event-d818fb4b9b98",
-      "company": "airwallex",
-      "headline": "Airwallex 空中云汇亮相2026香港金融科技周，推出智能体驱动的全球企业账户_行业新闻 - 证券之星",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-1e1e6d97a0919ca4e8"
-      ]
-    },
-    {
-      "id": "event-276d3baffabb",
-      "company": "airwallex",
-      "headline": "广交会 AI 应用释放出海新需求，外贸收款平台 Airwallex 空中云汇助力订阅支付转化 - 知乎专栏",
-      "date": "2026-11-02",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "zhihu"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "social-index-5b9f74c0fc6ee1f28317"
       ]
     },
     {
@@ -3810,6 +3897,35 @@
       ]
     },
     {
+      "id": "event-d438aca59cfd",
+      "company": "airwallex",
+      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
+      "date": "2026-10-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-a85f3ae9af51dc6cde"
+      ]
+    },
+    {
       "id": "event-928afc741907",
       "company": "lianlian",
       "headline": "AI重塑跨境支付，连连数字“外贸B2B一站式解决方案”入选博通报告 - 人工智能",
@@ -3932,35 +4048,6 @@
       ]
     },
     {
-      "id": "event-d438aca59cfd",
-      "company": "airwallex",
-      "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
-      "date": "2026-10-27",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a85f3ae9af51dc6cde"
-      ]
-    },
-    {
       "id": "event-ebd038e56ea7",
       "company": "payoneer",
       "headline": "2026跨境支付第三方支付平台对比：Ksher开时支付/连连支付/空中云汇/万里汇/派安盈五强观察_行业新闻 - 证券之星",
@@ -4074,6 +4161,36 @@
       ],
       "items": [
         "search-79c436ed6f4aa4dabb"
+      ]
+    },
+    {
+      "id": "event-c06a4fd3c22b",
+      "company": "airwallex",
+      "headline": "AI 企业跨境收款如何少走弯路？Airwallex 空中云汇提供思路 - 手机新浪网",
+      "date": "2026-10-26",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 2,
+      "publisher_count": 2,
+      "official_sources": 0,
+      "mention_count": 2,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-968b784de0af0c9a17",
+        "search-2d9f4a15c7e0cf8672"
       ]
     },
     {
@@ -4219,36 +4336,6 @@
       ],
       "items": [
         "search-37e9491c36ad34dc18"
-      ]
-    },
-    {
-      "id": "event-c06a4fd3c22b",
-      "company": "airwallex",
-      "headline": "AI 企业跨境收款如何少走弯路？Airwallex 空中云汇提供思路 - 手机新浪网",
-      "date": "2026-10-26",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 2,
-      "publisher_count": 2,
-      "official_sources": 0,
-      "mention_count": 2,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-968b784de0af0c9a17",
-        "search-2d9f4a15c7e0cf8672"
       ]
     },
     {
@@ -4612,93 +4699,6 @@
       ]
     },
     {
-      "id": "event-68d1d5253599",
-      "company": "lianlian",
-      "headline": "连连介绍香港本地化收单合作案例",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "lianlian-20261022"
-      ]
-    },
-    {
-      "id": "event-322ca7c1a6df",
-      "company": "lianlian",
-      "headline": "连连数字：10月22日斥资110.08万港元回购35.15万股 - 东方财富",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-a087a0651e98124799"
-      ]
-    },
-    {
-      "id": "event-d0be3ff70ebf",
-      "company": "lianlian",
-      "headline": "连连数字(02598)10月22日斥资110.08万港元回购35.15万股 - 凤凰网",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-83af1835396d0da251"
-      ]
-    },
-    {
       "id": "event-7e1c3503a7fb",
       "company": "payoneer",
       "headline": "Payoneer将于11月5日发布第三季度财报",
@@ -4725,35 +4725,6 @@
       ],
       "items": [
         "payoneer-20261022"
-      ]
-    },
-    {
-      "id": "event-5e26a0952805",
-      "company": "payoneer",
-      "headline": "Payoneer Inc 评论 – 它是Safe和合法的吗？(十月2026) - Traders Union",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 1,
-      "publisher_count": 1,
-      "official_sources": 0,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "search-82e51dd46a45724e90"
       ]
     },
     {

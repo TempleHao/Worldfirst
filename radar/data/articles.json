@@ -19,6 +19,68 @@
   },
   "items": [
     {
+      "id": "search-38ef5a85223e40b199",
+      "company": "airwallex",
+      "date": "2026-11-27",
+      "title": "Airwallex空中云汇启动AI Revenue Lab城市巡回，推出智能全球企业账户 - 移动支付网",
+      "summary": "Airwallex空中云汇启动AI Revenue Lab…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50VmlmMmpRV3NXblN1M0JmRVRILUtXZWxXelZwN0RqR3FaR3prM1NRLW5uRUM5YVlDNV9GeF9LQWstZzNZd3ZCRzBIY2c4b1JKdmg4TUx6YlMzWldNNmFGWE9wVQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-f376774c6cd2",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-3b5019ef0e7ebd37d6",
+      "company": "lianlian",
+      "date": "2026-11-26",
+      "title": "连连数字(02598)11月26日斥资约49.95万港元回购20.4万股 - 凤凰网",
+      "summary": "连连数字(02598)11月26日斥资约49.95万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SLXpBamZGYWpsZ044UmV4eDJlN1J6bG5PLXFtdm5RU2xUeWE3dUtUd1ZpZFN3QWgwMEM4MVRsbTFNTUdhVll3SmRWRE0?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-194cbc86789f",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-a7ebf37a358c2af56c",
       "company": "lianlian",
       "date": "2026-11-25",
@@ -217,6 +279,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-6933c2c39a84",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-c9d224a56b6329ac24",
+      "company": "lianlian",
+      "date": "2026-11-25",
+      "title": "连连数字推出LianLian XCard，打通AI任务执行到支付的最后一环 - www.icloudnews.net",
+      "summary": "连连数字推出LianLian XCard，打通AI任务执行…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "www.icloudnews.net",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKV1pRVlJFTlItX1djM3FZamdYWU9Xc2JaMTBLc3liWE15aVNZZ1MxckczN05raExLcHM2c3MzOFlTVzE1UXpKYzU1d2sxdm1pcVE?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-dcb0054cb498",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -7738,131 +7831,6 @@
       }
     },
     {
-      "id": "lianlian-20261022",
-      "company": "lianlian",
-      "date": "2026-10-22",
-      "title": "连连介绍香港本地化收单合作案例",
-      "summary": "连连分享香港本地化收单合作案例。",
-      "category": "品牌合作",
-      "priority": "normal",
-      "source": "连连国际官网",
-      "source_type": "official",
-      "url": "https://global.lianlianpay.com/news.html",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-68d1d5253599",
-        "distinct_publishers": 0,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-82e51dd46a45724e90",
-      "company": "payoneer",
-      "date": "2026-10-22",
-      "title": "Payoneer Inc 评论 – 它是Safe和合法的吗？(十月2026) - Traders Union",
-      "summary": "Payoneer Inc 评论 – 它是Safe和合法的吗…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "Traders Union",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aTm5SaU5TZ3Q3Mk90X3lsRU9OcDdlYjNUNXM1Y2c3X0JfdllRLVNNamtVaEUyZHFBemJ2eG12amcxOUpfMDVvRXlRVjNkbUlVemlUNXZSRFZORlJjcnZwMUpkaVY1XzItTEE?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题含疑问或未经证实表述",
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-5e26a0952805",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-a087a0651e98124799",
-      "company": "lianlian",
-      "date": "2026-10-22",
-      "title": "连连数字：10月22日斥资110.08万港元回购35.15万股 - 东方财富",
-      "summary": "连连数字：10月22日斥资110.08万港元回购35.15…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "东方财富",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41VVh1c3hld2lUYWdPRktkOVlINTFEYWVIM3hFVk1GWllfZENjZXhnUGlNcGJNOHp2T0Fja2tHRnZsNmFTdm1GbzhXakZBUjR5RDdxdndJMXhHNzRsaTlpX2FHUWJ2Zw?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-322ca7c1a6df",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "search-83af1835396d0da251",
-      "company": "lianlian",
-      "date": "2026-10-22",
-      "title": "连连数字(02598)10月22日斥资110.08万港元回购35.15万股 - 凤凰网",
-      "summary": "连连数字(02598)10月22日斥资110.08万港元回…",
-      "category": "市场动态",
-      "priority": "normal",
-      "source": "凤凰网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WTGpPTUctbndIeGlYMUFXRFRsb1RCVUNzaGpwZGNzMHZmalBocVlGdHI5dG5ESEdpTGtpMy15enRnbWQyVTA0U0ptUHo?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-d0be3ff70ebf",
-        "distinct_publishers": 1,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
       "id": "social-curated-douyin-xtransfer-20261017",
       "company": "xtransfer",
       "date": "2026-10-17",
@@ -7902,6 +7870,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-26T21:30:45.206976+00:00",
+  "updated_at": "2026-11-27T08:30:48.110030+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }
