@@ -50,6 +50,37 @@
       }
     },
     {
+      "id": "search-dcddf0528473d4fb47",
+      "company": "lianlian",
+      "date": "2026-11-27",
+      "title": "连连数字发布面向出海企业的AI商务卡LianLian XCard - 移动支付网",
+      "summary": "连连数字发布面向出海企业的AI商务卡LianLian XC…",
+      "category": "AI与产品",
+      "priority": "normal",
+      "source": "移动支付网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiSWNza0dDS2hfWVFXZEJ2SFNSLTVnYjFrWUxucVNlNVZnelBvNXRmV3kydU04ZDJBQzl0NG1ZMU04ckFkRTUzaXFzdDZ3bC1rakVSNGxUUlB6V1Njb3dKVFdmSQ?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-df3a4c8908b5",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
       "id": "search-3b5019ef0e7ebd37d6",
       "company": "lianlian",
       "date": "2026-11-26",
@@ -310,6 +341,37 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-dcb0054cb498",
+        "distinct_publishers": 1,
+        "rationale": "未见标题级负面风险线索"
+      }
+    },
+    {
+      "id": "search-cb3b1765af07c59b56",
+      "company": "lianlian",
+      "date": "2026-11-25",
+      "title": "连连数字(02598)11月25日斥资约17.93万港元回购7.05万股 - 凤凰网",
+      "summary": "连连数字(02598)11月25日斥资约17.93万港元回…",
+      "category": "市场动态",
+      "priority": "normal",
+      "source": "凤凰网",
+      "source_type": "search",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA4REdMM2JMNWpSbGZrZ1hMdkdEWUZyU1MwZjBPZWJnRks1NzU2UU13RDhOZkJTWEpfeDNQUXFUX05zOTRpbDRfdjBsMzM?oc=5",
+      "status": "unverified",
+      "sentiment": {
+        "label": "中性",
+        "confidence": 0.25,
+        "basis": "标题/摘要词项初筛，非全文语义模型",
+        "reasons": [
+          "标题未包含足以确认评价方向的明确线索"
+        ],
+        "topic": null,
+        "materiality": 0,
+        "requires_review": false
+      },
+      "crisis": {
+        "level": "一般",
+        "score": 0,
+        "event_id": "event-48f16a8c6459",
         "distinct_publishers": 1,
         "rationale": "未见标题级负面风险线索"
       }
@@ -7141,7 +7203,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f2576f3ee54e",
-        "distinct_publishers": 3,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7669,7 +7731,7 @@
         "level": "一般",
         "score": 0,
         "event_id": "event-f2576f3ee54e",
-        "distinct_publishers": 3,
+        "distinct_publishers": 2,
         "rationale": "未见标题级负面风险线索"
       }
     },
@@ -7769,68 +7831,6 @@
       }
     },
     {
-      "id": "search-73e8dffe94bf83143a",
-      "company": "lianlian",
-      "date": "2026-10-23",
-      "title": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让进口付汇全流程线上化 - 凤凰网",
-      "summary": "全国首单！中信银行南京分行联合连连数字旗下境外持牌机构，让…",
-      "category": "品牌合作",
-      "priority": "normal",
-      "source": "凤凰网",
-      "source_type": "search",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5LMk1GdWkwaEhQSVhTMmxjQzVNR1pHTzh4SnZZYU5tYXd1eElVZFotOXgxU2NTTUtUb295MFZ6OWZWU29YdWp1ZA?oc=5",
-      "status": "unverified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.25,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-f2576f3ee54e",
-        "distinct_publishers": 3,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
-      "id": "payoneer-20261022",
-      "company": "payoneer",
-      "date": "2026-10-22",
-      "title": "Payoneer将于11月5日发布第三季度财报",
-      "summary": "派安盈定于11月5日披露三季报。",
-      "category": "财报资本",
-      "priority": "normal",
-      "source": "Payoneer 投资者关系",
-      "source_type": "official",
-      "url": "https://investor.payoneer.com/news-events/news-releases",
-      "status": "verified",
-      "sentiment": {
-        "label": "中性",
-        "confidence": 0.4,
-        "basis": "标题/摘要词项初筛，非全文语义模型",
-        "reasons": [
-          "标题未包含足以确认评价方向的明确线索"
-        ],
-        "topic": null,
-        "materiality": 0,
-        "requires_review": false
-      },
-      "crisis": {
-        "level": "一般",
-        "score": 0,
-        "event_id": "event-7e1c3503a7fb",
-        "distinct_publishers": 0,
-        "rationale": "未见标题级负面风险线索"
-      }
-    },
-    {
       "id": "social-curated-douyin-xtransfer-20261017",
       "company": "xtransfer",
       "date": "2026-10-17",
@@ -7870,6 +7870,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-27T08:30:48.110030+00:00",
+  "updated_at": "2026-11-27T21:15:59.600775+00:00",
   "coverage_notice": "已核实的历史样本与实验性公开搜索RSS线索；不包含全量社媒数据"
 }

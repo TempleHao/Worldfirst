@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "model_version": "reputation-v1.1",
-  "generated_at": "2026-11-27T08:30:51.939101+00:00",
+  "generated_at": "2026-11-27T21:16:03.334064+00:00",
   "scope": "九家跨境支付公司，收录新闻和有限公开社交线索；不是平台全量覆盖",
   "limitations": [
     "当前仅分析标题和摘要，缺少正文、评论、浏览量和真实互动数据",
@@ -13,12 +13,12 @@
   ],
   "overview": {
     "articles": 251,
-    "events": 160,
+    "events": 161,
     "sentiment": {
       "中性": 251
     },
     "crisis": {
-      "一般": 160
+      "一般": 161
     },
     "needs_review": 0,
     "high_risk_verified_events": 0
@@ -51,6 +51,35 @@
       ],
       "items": [
         "search-38ef5a85223e40b199"
+      ]
+    },
+    {
+      "id": "event-df3a4c8908b5",
+      "company": "lianlian",
+      "headline": "连连数字发布面向出海企业的AI商务卡LianLian XCard - 移动支付网",
+      "date": "2026-11-27",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-dcddf0528473d4fb47"
       ]
     },
     {
@@ -284,6 +313,35 @@
       ],
       "items": [
         "search-c9d224a56b6329ac24"
+      ]
+    },
+    {
+      "id": "event-48f16a8c6459",
+      "company": "lianlian",
+      "headline": "连连数字(02598)11月25日斥资约17.93万港元回购7.05万股 - 凤凰网",
+      "date": "2026-11-25",
+      "risk_level": "一般",
+      "risk_score": 0,
+      "materiality": 0,
+      "independent_publishers": 1,
+      "publisher_count": 1,
+      "official_sources": 0,
+      "mention_count": 1,
+      "source_platforms_observed": [
+        "news_web"
+      ],
+      "confirmed_direct_social_platforms": [],
+      "confirmed_cross_platform_bonus": 0,
+      "status": "初筛／人工审核待完成",
+      "reason": "未见标题级负面风险线索",
+      "evidence_notes": [
+        "标题级事件严重性（0至63分）",
+        "不同发布方覆盖（0至20分）",
+        "可定位原文证据（0至15分）",
+        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
+      ],
+      "items": [
+        "search-cb3b1765af07c59b56"
       ]
     },
     {
@@ -4406,10 +4464,10 @@
       "risk_level": "一般",
       "risk_score": 0,
       "materiality": 0,
-      "independent_publishers": 3,
-      "publisher_count": 3,
+      "independent_publishers": 2,
+      "publisher_count": 2,
       "official_sources": 0,
-      "mention_count": 3,
+      "mention_count": 2,
       "source_platforms_observed": [
         "news_web"
       ],
@@ -4425,8 +4483,7 @@
       ],
       "items": [
         "search-78bec51896af406fb8",
-        "search-2083f6fbb71bd62e14",
-        "search-73e8dffe94bf83143a"
+        "search-2083f6fbb71bd62e14"
       ]
     },
     {
@@ -4696,35 +4753,6 @@
       "items": [
         "search-87d08021ca514c5fec",
         "search-402edcc3877de601a5"
-      ]
-    },
-    {
-      "id": "event-7e1c3503a7fb",
-      "company": "payoneer",
-      "headline": "Payoneer将于11月5日发布第三季度财报",
-      "date": "2026-10-22",
-      "risk_level": "一般",
-      "risk_score": 0,
-      "materiality": 0,
-      "independent_publishers": 0,
-      "publisher_count": 1,
-      "official_sources": 1,
-      "mention_count": 1,
-      "source_platforms_observed": [
-        "news_web"
-      ],
-      "confirmed_direct_social_platforms": [],
-      "confirmed_cross_platform_bonus": 0,
-      "status": "初筛／人工审核待完成",
-      "reason": "未见标题级负面风险线索",
-      "evidence_notes": [
-        "标题级事件严重性（0至63分）",
-        "不同发布方覆盖（0至20分）",
-        "可定位原文证据（0至15分）",
-        "不同社交平台经人工确认后的额外证据（0至8分），搜索索引不计"
-      ],
-      "items": [
-        "payoneer-20261022"
       ]
     },
     {
